@@ -75,4 +75,13 @@ test.describe('Table View Verification', () => {
         // 6. Verify Table DOES NOT have Punjabi
         await expect(page.locator('th', { hasText: 'Punjabi' })).toBeHidden();
     });
+    test('Habitat Info in Table', async ({ page }) => {
+        // Seer Fish row should contain "Sea"
+        const seerRow = page.locator('tr').filter({ hasText: 'Seer fish' });
+        await expect(seerRow.locator('td').last()).toContainText('Sea');
+
+        // Rohu row should contain "Freshwater"
+        const rohuRow = page.locator('tr').filter({ hasText: 'Rohu' });
+        await expect(rohuRow.locator('td').last()).toContainText('Freshwater');
+    });
 });

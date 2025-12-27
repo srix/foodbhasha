@@ -101,6 +101,7 @@ Each fish entry follows:
 * Each card includes:
   * Image (Left/Top)
   * English name and Scientific name.
+  * **Habitat Badge**: Indicates if the fish is from Sea 🌊, Freshwater 💧, or Brackish 🌿 waters.
   * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi). Users can select which languages to show here via the "Languages" button.
   * **"Show all languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
   * **Native Scripts**: Displayed alongside Romanized names.
@@ -109,6 +110,7 @@ Each fish entry follows:
 ### **6.2 Table View**
 
 * Vertical layout for Fish Name (Name on Top, Large 80px Thumbnail below).
+* **Habitat Info**: Displayed in the "Details" column.
 * **Column Selector**: A "🌐 Languages" button allows users to toggle visibility of any of the 22 language columns. Dropdown shows names in **"Native / English"** format. Default columns: Tamil, Kannada, Telugu, Hindi, Malayalam.
 * **Sticky Header**: First column (Fish) and Headers are sticky.
 
