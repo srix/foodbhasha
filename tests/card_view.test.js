@@ -66,21 +66,21 @@ test.describe('Card View Verification', () => {
 
     test('New Fish Existence & Placeholder Image', async ({ page }) => {
         // Check for Silver Pomfret
-        const silverPomfret = page.locator('.fish-card').filter({ hasText: 'Silver Pomfret' }).first();
+        const silverPomfret = page.locator('.fish-card').filter({ has: page.locator('h2', { hasText: 'Silver Pomfret' }) }).first();
         await expect(silverPomfret).toBeVisible();
-        await expect(silverPomfret.locator('img')).toHaveAttribute('src', 'img/placeholder.png');
+        await expect(silverPomfret.locator('img')).toHaveAttribute('src', 'img/placeholder.webp');
 
         // Check for Rohu
         const rohu = page.locator('.fish-card').filter({ hasText: 'Rohu' }).first();
         await expect(rohu).toBeVisible();
-        await expect(rohu.locator('img')).toHaveAttribute('src', 'img/placeholder.png');
+        await expect(rohu.locator('img')).toHaveAttribute('src', 'img/placeholder.webp');
     });
 
     test('Old Fish Preservation', async ({ page }) => {
         // Check for Seer Fish (should verify it is NOT using placeholder)
         const seerFish = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
         await expect(seerFish).toBeVisible();
-        await expect(seerFish.locator('img')).toHaveAttribute('src', 'img/seer-fish.png');
+        await expect(seerFish.locator('img')).toHaveAttribute('src', 'img/seer-fish.webp');
     });
 
     test('Habitat Badges Displayed', async ({ page }) => {

@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             card.innerHTML = `
                 <div class="fish-header">
-                    <img src="${fish.photo}" alt="${fish.names.english[0]}" class="fish-thumbnail" onerror="this.src='https://placehold.co/60x60?text=Fish'">
+                    <img src="${fish.photo}" alt="${fish.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='img/placeholder.webp'">
                     <div class="fish-title">
                         <h2>${fish.names.english.join(' / ')}</h2>
                         <div class="scientific-name">${fish.scientificName}</div>
