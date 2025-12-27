@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const noResults = document.getElementById('no-results');
 
     // Column Controls
-    const tableControls = document.getElementById('table-controls');
+    const viewControls = document.getElementById('view-controls');
     const btnCustomizeCols = document.getElementById('btn-customize-cols');
     const colDialog = document.getElementById('column-selector-dialog');
     const colCheckboxes = document.getElementById('column-checkboxes');
@@ -28,8 +28,37 @@ document.addEventListener('DOMContentLoaded', () => {
         "telugu", "urdu"
     ];
 
+    const LANGUAGE_DISPLAY_NAMES = {
+        "assamese": "অসমীয়া / Assamese",
+        "bengali": "বাংলা / Bengali",
+        "bodo": "बोडो / Bodo",
+        "dogri": "डोगरी / Dogri",
+        "gujarati": "ગુજરાતી / Gujarati",
+        "hindi": "हिंदी / Hindi",
+        "kannada": "ಕನ್ನಡ / Kannada",
+        "kashmiri": "कॉशुर / Kashmiri",
+        "konkani": "कोंकणी / Konkani",
+        "maithili": "मैथिली / Maithili",
+        "malayalam": "മലയാളം / Malayalam",
+        "manipuri": "মৈতৈলোন্ / Manipuri",
+        "marathi": "मराठी / Marathi",
+        "nepali": "नेपाली / Nepali",
+        "odia": "ଓଡ଼ିଆ / Odia",
+        "punjabi": "ਪੰਜਾਬੀ / Punjabi",
+        "sanskrit": "संस्कृत / Sanskrit",
+        "santali": "ᱥᱟᱱᱛᱟᱲᱤ / Santali",
+        "sindhi": "سنڌي / Sindhi",
+        "tamil": "தமிழ் / Tamil",
+        "telugu": "తెలుగు / Telugu",
+        "urdu": "اردو / Urdu"
+    };
+
     const DEFAULT_LANGUAGES = ["hindi", "tamil", "malayalam", "kannada", "telugu"];
-    let activeColumns = JSON.parse(localStorage.getItem('fishColumns')) || DEFAULT_LANGUAGES;
+
+    // State
+    let activeTableLanguages = JSON.parse(localStorage.getItem('fishTableLanguages')) || DEFAULT_LANGUAGES;
+    let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_LANGUAGES;
+    let currentView = 'card';
 
     // Initialize
     init();
@@ -43,7 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const savedView = localStorage.getItem('fishView') || 'card';
             renderApp(fishData);
             switchView(savedView); // Set correct view after render
-            renderColumnSelector();
         } catch (error) {
             console.error('Failed to load fish data:', error);
             cardView.innerHTML = '<p class="error">Failed to load data. Please try again.</p>';
@@ -56,6 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         btnCustomizeCols.addEventListener('click', () => {
             colDialog.hidden = !colDialog.hidden;
+            if (!colDialog.hidden) {
+                renderColumnSelector();
+            }
         });
 
         btnCloseCols.addEventListener('click', () => {
@@ -80,9 +111,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'fish-card';
 
-            // Prioritize Default Languages
-            const defaultLangs = DEFAULT_LANGUAGES.filter(l => fish.names[l]);
-            const otherLangs = SUPPORTED_LANGUAGES.filter(l => !DEFAULT_LANGUAGES.includes(l) && fish.names[l]);
+            // Use activeCardLanguages for the main grid
+            // Any language NOT in activeCardLanguages but present in data goes to "Show all"
+            const primaryLangs = activeCardLanguages.filter(l => fish.names[l]);
+            const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l) && fish.names[l]);
 
             const renderGrid = (langs) => langs.map(lang => `
                 <div class="lang-group">
@@ -101,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 
                 <div class="fish-names-grid">
-                    ${renderGrid(defaultLangs)}
+                    ${renderGrid(primaryLangs)}
                 </div>
                 
                 ${otherLangs.length > 0 ? `
@@ -123,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Render Header
         fishTableHead.innerHTML = `
             <th class="sticky-col">Fish</th>
-            ${activeColumns.map(lang => `<th>${lang.charAt(0).toUpperCase() + lang.slice(1)}</th>`).join('')}
+            ${activeTableLanguages.map(lang => `<th>${lang.charAt(0).toUpperCase() + lang.slice(1)}</th>`).join('')}
             <th>Details</th>
         `;
 
@@ -132,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         data.forEach(fish => {
             const row = document.createElement('tr');
 
-            const cols = activeColumns.map(lang => {
+            const cols = activeTableLanguages.map(lang => {
                 const val = fish.names[lang] ? fish.names[lang].join('<br>') : '-';
                 return `<td>${val}</td>`;
             }).join('');
@@ -152,38 +184,59 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderColumnSelector() {
+        const activeList = currentView === 'card' ? activeCardLanguages : activeTableLanguages;
+
         colCheckboxes.innerHTML = SUPPORTED_LANGUAGES.map(lang => `
             <label class="col-option">
-                <input type="checkbox" value="${lang}" ${activeColumns.includes(lang) ? 'checked' : ''}>
-                ${lang.charAt(0).toUpperCase() + lang.slice(1)}
+                <input type="checkbox" value="${lang}" ${activeList.includes(lang) ? 'checked' : ''}>
+                ${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}
             </label>
         `).join('');
 
         colCheckboxes.querySelectorAll('input').forEach(cb => {
             cb.addEventListener('change', (e) => {
-                if (e.target.checked) {
-                    if (!activeColumns.includes(e.target.value)) activeColumns.push(e.target.value);
+                const lang = e.target.value;
+                const isChecked = e.target.checked;
+
+                if (currentView === 'card') {
+                    if (isChecked) {
+                        if (!activeCardLanguages.includes(lang)) activeCardLanguages.push(lang);
+                    } else {
+                        activeCardLanguages = activeCardLanguages.filter(l => l !== lang);
+                    }
+                    localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
+                    renderCards(fishData);
                 } else {
-                    activeColumns = activeColumns.filter(l => l !== e.target.value);
+                    if (isChecked) {
+                        if (!activeTableLanguages.includes(lang)) activeTableLanguages.push(lang);
+                    } else {
+                        activeTableLanguages = activeTableLanguages.filter(l => l !== lang);
+                    }
+                    localStorage.setItem('fishTableLanguages', JSON.stringify(activeTableLanguages));
+                    renderTable(fishData);
                 }
-                localStorage.setItem('fishColumns', JSON.stringify(activeColumns));
-                renderTable(fishData);
             });
         });
     }
 
     function switchView(view) {
+        currentView = view;
         localStorage.setItem('fishView', view);
+
+        // Update View Controls Visibility - always visible now
+        viewControls.hidden = false;
+
+        // Close the dialog when switching views to avoid confusion
+        colDialog.hidden = true;
+
         if (view === 'card') {
             cardView.hidden = false;
             tableView.hidden = true;
-            tableControls.hidden = true;
             btnCardView.classList.add('active');
             btnTableView.classList.remove('active');
         } else {
             cardView.hidden = true;
             tableView.hidden = false;
-            tableControls.hidden = false;
             btnCardView.classList.remove('active');
             btnTableView.classList.add('active');
         }
