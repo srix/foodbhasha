@@ -12,6 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnCloseCols = document.getElementById('btn-close-cols');
 
     let fishData = [];
+    let searchTimeout;
+
+    // Analytics Helper
+    function trackEvent(eventName, params = {}) {
+        if (typeof gtag === 'function') {
+            gtag('event', eventName, params);
+        }
+    }
 
     // Config
     const SUPPORTED_LANGUAGES = [
@@ -157,8 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (isChecked) {
                     if (!activeCardLanguages.includes(lang)) activeCardLanguages.push(lang);
+                    trackEvent('toggle_language', { language: lang, action: 'add' });
                 } else {
                     activeCardLanguages = activeCardLanguages.filter(l => l !== lang);
+                    trackEvent('toggle_language', { language: lang, action: 'remove' });
                 }
                 localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
                 renderCards(fishData);
@@ -168,6 +178,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleSearch(e) {
         const query = e.target.value.toLowerCase().trim();
+
+        // Track search with debounce
+        clearTimeout(searchTimeout);
+        if (query) {
+            searchTimeout = setTimeout(() => {
+                trackEvent('search', { search_term: query });
+            }, 1000);
+        }
 
         const filtered = fishData.filter(fish => {
             if (fish.notes && fish.notes.toLowerCase().includes(query)) return true;
