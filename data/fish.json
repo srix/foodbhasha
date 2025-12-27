@@ -825,5 +825,1159 @@
       ]
     },
     "notes": "Mud crabs are popular in some regions."
+  },
+  {
+    "id": "silver-pomfret",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry",
+      "popular"
+    ],
+    "scientificName": "Pampus argenteus",
+    "names": {
+      "english": [
+        "Silver Pomfret",
+        "White Pomfret"
+      ],
+      "tamil": [
+        "வெள்ளை வாவல்",
+        "Vellai Vaaval"
+      ],
+      "malayalam": [
+        "ആവോലി",
+        "Avoli",
+        "Velutha Avoli"
+      ],
+      "kannada": [
+        "ಬಿಳಿ ಮಾಂಜಿ",
+        "Bili Manji"
+      ],
+      "telugu": [
+        "తెల్ల చందువా",
+        "Tella Chanduva"
+      ],
+      "hindi": [
+        "पापलेट",
+        "Paplet"
+      ],
+      "marathi": [
+        "पापलेट",
+        "Paplet"
+      ],
+      "gujarati": [
+        "પાપલેટ",
+        "Paplet"
+      ],
+      "bengali": [
+        "পম্ফ্রেট",
+        "Pomfret"
+      ],
+      "konkani": [
+        "पाम्पलेट",
+        "Pamplet"
+      ]
+    },
+    "notes": "Highly prized, delicate flesh. Great for steaming or frying."
+  },
+  {
+    "id": "rohu",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "curry",
+      "fry",
+      "popular"
+    ],
+    "scientificName": "Labeo rohita",
+    "names": {
+      "english": [
+        "Rohu",
+        "Carpo Fish"
+      ],
+      "tamil": [
+        "ரோகு",
+        "Rohu",
+        "கெண்டை",
+        "Kendai"
+      ],
+      "malayalam": [
+        "രോഹു",
+        "Rohu"
+      ],
+      "kannada": [
+        "ರೋಹು",
+        "Rohu"
+      ],
+      "telugu": [
+        "రోహు",
+        "Rohu",
+        "శీల",
+        "Sheela"
+      ],
+      "hindi": [
+        "रोहू",
+        "Rohu"
+      ],
+      "marathi": [
+        "रोहू",
+        "Rohu"
+      ],
+      "bengali": [
+        "রুই",
+        "Rui"
+      ],
+      "odia": [
+        "ରୋହି",
+        "Rohi"
+      ],
+      "assamese": [
+        "ৰৌ",
+        "Rou"
+      ]
+    },
+    "notes": "Very popular freshwater fish in North and East India."
+  },
+  {
+    "id": "catla",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "curry",
+      "fry"
+    ],
+    "scientificName": "Labeo catla",
+    "names": {
+      "english": [
+        "Catla",
+        "Indian Carp"
+      ],
+      "tamil": [
+        "கட்லா",
+        "Catla",
+        "தோப்பா",
+        "Thoppa"
+      ],
+      "malayalam": [
+        "കട്‌ല",
+        "Katla"
+      ],
+      "kannada": [
+        "ಕಟ್ಲ",
+        "Katla"
+      ],
+      "telugu": [
+        "బోచ",
+        "Bocha",
+        "కట్ల",
+        "Catla"
+      ],
+      "hindi": [
+        "कत्ला",
+        "Katla"
+      ],
+      "marathi": [
+        "कटला",
+        "Katla"
+      ],
+      "bengali": [
+        "কাতলা",
+        "Katla"
+      ],
+      "odia": [
+        "ଭାକୁର",
+        "Bhakura"
+      ],
+      "assamese": [
+        "ବାହୁ",
+        "Bahu"
+      ]
+    },
+    "notes": "Fast growing, large freshwater fish. Good for curry."
+  },
+  {
+    "id": "hilsa",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "sea",
+      "curry",
+      "popular"
+    ],
+    "scientificName": "Tenualosa ilisha",
+    "names": {
+      "english": [
+        "Hilsa",
+        "Ilish"
+      ],
+      "tamil": [
+        "உள்ளம்",
+        "Ullam",
+        "செவ்வ",
+        "Sevva"
+      ],
+      "malayalam": [
+        "ഹിൽസ",
+        "Hilsa",
+        "പാലിയ",
+        "Paliya"
+      ],
+      "kannada": [
+        "ಮುಳ್ಳು",
+        "Mullu"
+      ],
+      "telugu": [
+        "పులస",
+        "Pulasa"
+      ],
+      "hindi": [
+        "हिलसा",
+        "Hilsa"
+      ],
+      "bengali": [
+        "ইলিশ",
+        "Ilish"
+      ],
+      "odia": [
+        "ଇଲିଶି",
+        "Ilishi"
+      ],
+      "gujarati": [
+        "મોદણ",
+        "Modan"
+      ]
+    },
+    "notes": "King of fish in Bengal. Known as Pulasa in Andhra Godavari region."
+  },
+  {
+    "id": "red-snapper",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Lutjanus campechanus",
+    "names": {
+      "english": [
+        "Red Snapper"
+      ],
+      "tamil": [
+        "சங்கரா",
+        "Sankara"
+      ],
+      "malayalam": [
+        "ചെമ്പല്ലി",
+        "Chemballi",
+        "Pahari"
+      ],
+      "kannada": [
+        "ಚೆಂಬೆರಿ",
+        "Chemberi"
+      ],
+      "telugu": [
+        "ర్రతు",
+        "Rathu",
+        "తు",
+        "Thundava"
+      ],
+      "hindi": [
+        "राणि",
+        "Rani"
+      ],
+      "marathi": [
+        "तांब",
+        "Tamb"
+      ],
+      "konkani": [
+        "तांबसो",
+        "Tamso"
+      ]
+    },
+    "notes": "Popular versatile fish. Good for diverse cooking styles."
+  },
+  {
+    "id": "pearl-spot",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "brackish",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Etroplus suratensis",
+    "names": {
+      "english": [
+        "Pearl Spot",
+        "Green Chromide"
+      ],
+      "tamil": [
+        "கரிமீன்",
+        "Karimeen",
+        "பப்பளி",
+        "Pappali"
+      ],
+      "malayalam": [
+        "കരിമീൻ",
+        "Karimeen"
+      ],
+      "kannada": [
+        "ಕಾಗೆ",
+        "Kage"
+      ],
+      "telugu": [
+        "కరిమీన్",
+        "Karimeen"
+      ],
+      "hindi": [
+        "करीमीन",
+        "Karimeen"
+      ]
+    },
+    "notes": "State fish of Kerala. Famous for 'Karimeen Pollichathu'."
+  },
+  {
+    "id": "lady-fish",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Sillago sihama",
+    "names": {
+      "english": [
+        "Lady Fish",
+        "Silver Whiting"
+      ],
+      "tamil": [
+        "கிழங்கான்",
+        "Kilangan"
+      ],
+      "malayalam": [
+        "പൂഴാൻ",
+        "Poozhan",
+        "Kilimeen"
+      ],
+      "kannada": [
+        "ಕಾನೆ",
+        "Kane"
+      ],
+      "telugu": [
+        "శొర",
+        "Sora",
+        "సురులు",
+        "Surulu"
+      ],
+      "hindi": [
+        "मुधोस",
+        "Mudhos"
+      ],
+      "konkani": [
+        "मुड्डोशी",
+        "Muddoshi"
+      ],
+      "marathi": [
+        "रेणवी",
+        "Renvi"
+      ]
+    },
+    "notes": "Delicate, white flesh. Mangalore 'Kane Rava Fry' is famous."
+  },
+  {
+    "id": "indian-salmon",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry",
+      "popular"
+    ],
+    "scientificName": "Eleutheronema tetradactylum",
+    "names": {
+      "english": [
+        "Indian Salmon",
+        "Threadfin"
+      ],
+      "tamil": [
+        "காலா",
+        "Kaala",
+        "திருவாழை",
+        "Thiruvaazhai"
+      ],
+      "malayalam": [
+        "ബാമമീൻ",
+        "Bamameen",
+        "Kaala"
+      ],
+      "kannada": [
+        "ರಾವಸ್",
+        "Rawas"
+      ],
+      "telugu": [
+        "మాగ",
+        "Maga"
+      ],
+      "hindi": [
+        "रावस",
+        "Rawas"
+      ],
+      "marathi": [
+        "रावस",
+        "Rawas"
+      ],
+      "gujarati": [
+        "રાવસ",
+        "Rawas"
+      ],
+      "bengali": [
+        "গুরজালি",
+        "Gurjali"
+      ]
+    },
+    "notes": "Premium fish, excellent taste and texture. High demand."
+  },
+  {
+    "id": "grey-mullet",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "brackish",
+      "curry",
+      "fry"
+    ],
+    "scientificName": "Mugil cephalus",
+    "names": {
+      "english": [
+        "Grey Mullet",
+        "Flathead Mullet"
+      ],
+      "tamil": [
+        "மடவை",
+        "Madavai"
+      ],
+      "malayalam": [
+        "തിരുത",
+        "Thirutha"
+      ],
+      "kannada": [
+        "ಮಾಲ",
+        "Mala"
+      ],
+      "telugu": [
+        "బొమ్మిడాయి",
+        "Bommidayi",
+        "కొయ్యలు",
+        "Koyyalu"
+      ],
+      "hindi": [
+        "बोई",
+        "Boi"
+      ],
+      "marathi": [
+        "बोई",
+        "Boi"
+      ],
+      "bengali": [
+        "পারশে",
+        "Parshe"
+      ]
+    },
+    "notes": "Often farmed. Good oily fish."
+  },
+  {
+    "id": "tilapia",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "fry",
+      "curry",
+      "everyday"
+    ],
+    "scientificName": "Oreochromis mossambicus",
+    "names": {
+      "english": [
+        "Tilapia"
+      ],
+      "tamil": [
+        "ஜிலேபி",
+        "Jilebi"
+      ],
+      "malayalam": [
+        "തിലോപ്പിയ",
+        "Tilopia",
+        "Jilebi"
+      ],
+      "kannada": [
+        "ಸರ್ಕಾರ",
+        "Sarkara",
+        "Tipili"
+      ],
+      "telugu": [
+        "కోరమీను",
+        "Korameenu",
+        "జிலேబి",
+        "Jilebi"
+      ],
+      "hindi": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "bengali": [
+        "তেলাপিয়া",
+        "Telapia"
+      ]
+    },
+    "notes": "Very common, affordable freshwater fish."
+  },
+  {
+    "id": "barramundi",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "brackish",
+      "fry",
+      "curry",
+      "popular"
+    ],
+    "scientificName": "Lates calcarifer",
+    "names": {
+      "english": [
+        "Barramundi",
+        "Asian Sea Bass"
+      ],
+      "tamil": [
+        "கொடுவா",
+        "Koduva"
+      ],
+      "malayalam": [
+        "കാളാഞ്ചി",
+        "Kalanchi",
+        "Narimeen"
+      ],
+      "kannada": [
+        "ಕೊಳಜಿ",
+        "Kolaji"
+      ],
+      "telugu": [
+        "పండుకొప్ప",
+        "Pandugappa"
+      ],
+      "hindi": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "bengali": [
+        "ভেটকি",
+        "Bhetki"
+      ],
+      "marathi": [
+        "जितडा",
+        "Jitada"
+      ],
+      "konkani": [
+        "चोणक",
+        "Chonak"
+      ]
+    },
+    "notes": "Premium fish with thick, flaky meat. Iconic 'Bhetki Paturi' in Bengal."
+  },
+  {
+    "id": "yellowfin-tuna",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "curry",
+      "fry"
+    ],
+    "scientificName": "Thunnus albacares",
+    "names": {
+      "english": [
+        "Yellowfin Tuna",
+        "Tuna"
+      ],
+      "tamil": [
+        "சூரை",
+        "Soorai"
+      ],
+      "malayalam": [
+        "ചൂര",
+        "Choora"
+      ],
+      "kannada": [
+        "ಕೇದಾರ",
+        "Kedara"
+      ],
+      "telugu": [
+        "సూర",
+        "Soora"
+      ],
+      "hindi": [
+        "कुप्पा",
+        "Kuppa"
+      ],
+      "marathi": [
+        "कुप्पा",
+        "Kuppa"
+      ],
+      "konkani": [
+        "बुका",
+        "Buka"
+      ]
+    },
+    "notes": "Dark meat, very distinct taste. Rich in protein."
+  },
+  {
+    "id": "barracuda",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Sphyraena",
+    "names": {
+      "english": [
+        "Barracuda"
+      ],
+      "tamil": [
+        "சீலா",
+        "Sheela"
+      ],
+      "malayalam": [
+        "ശീലാവ്",
+        "Sheelavu"
+      ],
+      "kannada": [
+        "ಕಂಡ",
+        "Kanda"
+      ],
+      "telugu": [
+        "జల్ల",
+        "Jalla"
+      ],
+      "hindi": [
+        "बल्ली",
+        "Balli"
+      ],
+      "konkani": [
+        "तोल",
+        "Tol"
+      ]
+    },
+    "notes": "Long, predatory fish. Tasty firm flesh."
+  },
+  {
+    "id": "trevally",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Caranx ignobilis",
+    "names": {
+      "english": [
+        "Trevally",
+        "Jack Fish"
+      ],
+      "tamil": [
+        "பாறை",
+        "Paara"
+      ],
+      "malayalam": [
+        "വറ്റ",
+        "Vatta"
+      ],
+      "kannada": [
+        "ಕೊಕ್ಕರೆ",
+        "Kokkare"
+      ],
+      "telugu": [
+        "కారా",
+        "Kara"
+      ],
+      "hindi": [
+        "कोकरीज",
+        "Kokari"
+      ]
+    },
+    "notes": "Very common in South India."
+  },
+  {
+    "id": "sole-fish",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry"
+    ],
+    "scientificName": "Cynoglossus",
+    "names": {
+      "english": [
+        "Sole Fish",
+        "Flat Fish"
+      ],
+      "tamil": [
+        "நக்கு",
+        "Nanku",
+        "Esal"
+      ],
+      "malayalam": [
+        "മാന്തൾ",
+        "Manthal",
+        "Nanku"
+      ],
+      "kannada": [
+        "ಲೆಪ್ಪೆ",
+        "Leppe"
+      ],
+      "telugu": [
+        "నా౦కు",
+        "Nanku"
+      ],
+      "hindi": [
+        "लेप",
+        "Lep"
+      ],
+      "marathi": [
+        "लेप",
+        "Lep"
+      ]
+    },
+    "notes": "Flat fish, usually skinned and fried."
+  },
+  {
+    "id": "milkfish",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "brackish",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Chanos chanos",
+    "names": {
+      "english": [
+        "Milkfish"
+      ],
+      "tamil": [
+        "பால் மீன்",
+        "Paal Meen"
+      ],
+      "malayalam": [
+        "പൂമീൻ",
+        "Poomeen"
+      ],
+      "kannada": [
+        "ಹಾಲು ಮೀನು",
+        "Haalu Meenu"
+      ],
+      "telugu": [
+        "పాల",
+        "Pala"
+      ],
+      "hindi": [
+        "फंगस",
+        "Fangas"
+      ]
+    },
+    "notes": "Bony but very tasty."
+  },
+  {
+    "id": "squid",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "roast"
+    ],
+    "scientificName": "Loligo duvauceli",
+    "names": {
+      "english": [
+        "Squid",
+        "Calamari"
+      ],
+      "tamil": [
+        "கனவா",
+        "Kanava",
+        "Oosi Kanava"
+      ],
+      "malayalam": [
+        "കൂന്തൽ",
+        "Koonthal",
+        "Kanava"
+      ],
+      "kannada": [
+        "ಬೊಂಡಾಸ್",
+        "Bondas"
+      ],
+      "telugu": [
+        "తాటి",
+        "Thati"
+      ],
+      "hindi": [
+        "बोंबिल",
+        "Bondas"
+      ],
+      "marathi": [
+        "माकुळ",
+        "Makul"
+      ],
+      "konkani": [
+        "माकुळ",
+        "Makul"
+      ]
+    },
+    "notes": "Shellfish (Chephalopod). Cooks very quickly."
+  },
+  {
+    "id": "murrel",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "curry",
+      "fry",
+      "medicinal"
+    ],
+    "scientificName": "Channa striata",
+    "names": {
+      "english": [
+        "Murrel",
+        "Snakehead"
+      ],
+      "tamil": [
+        "விரால்",
+        "Viral"
+      ],
+      "malayalam": [
+        "വരാൽ",
+        "Varal"
+      ],
+      "kannada": [
+        "ಮರಲ್",
+        "Maral",
+        "Korameenu"
+      ],
+      "telugu": [
+        "కొరమీను",
+        "Korameenu"
+      ],
+      "hindi": [
+        "सोल",
+        "Sol"
+      ],
+      "bengali": [
+        "শোল",
+        "Shol"
+      ]
+    },
+    "notes": "Prized freshwater fish, often considered medicinal."
+  },
+  {
+    "id": "catfish",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "curry",
+      "fry"
+    ],
+    "scientificName": "Clarias batrachus",
+    "names": {
+      "english": [
+        "Catfish",
+        "Walking Catfish"
+      ],
+      "tamil": [
+        "கెలుத்தி",
+        "Keluthi"
+      ],
+      "malayalam": [
+        "കാരി",
+        "Kaari",
+        "Koori"
+      ],
+      "kannada": [
+        "ಮುರುಗೋಡು",
+        "Murgodu"
+      ],
+      "telugu": [
+        "జెల్ల",
+        "Jella",
+        "మర్పు",
+        "Marpu"
+      ],
+      "hindi": [
+        "मांगुर",
+        "Magur"
+      ],
+      "bengali": [
+        "মাগুর",
+        "Magur"
+      ]
+    },
+    "notes": "No scales, single bone (mostly). Distinct earthy taste."
+  },
+  {
+    "id": "bombay-duck",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "dry"
+    ],
+    "scientificName": "Harpadon nehereus",
+    "names": {
+      "english": [
+        "Bombay Duck"
+      ],
+      "tamil": [
+        "வங்கா",
+        "Vanga"
+      ],
+      "malayalam": [
+        "ബომ್ബില്",
+        "Bombil"
+      ],
+      "kannada": [
+        "ಬೊಂಬಿಲ್",
+        "Bombil"
+      ],
+      "telugu": [
+        "వనగ",
+        "Vanaga"
+      ],
+      "hindi": [
+        "बोंबिल",
+        "Bombil"
+      ],
+      "marathi": [
+        "बोंबिल",
+        "Bombil"
+      ],
+      "bengali": [
+        "লোটে",
+        "Lote"
+      ]
+    },
+    "notes": "Soft, gelatinous fish. Famous in Mumbai (Bombil Fry)."
+  },
+  {
+    "id": "pink-perch",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry",
+      "everyday"
+    ],
+    "scientificName": "Nemipterus japonicus",
+    "names": {
+      "english": [
+        "Pink Perch",
+        "Threadfin Bream"
+      ],
+      "tamil": [
+        "சங்கரா",
+        "Sankara",
+        "Rani"
+      ],
+      "malayalam": [
+        "കിളിമീൻ",
+        "Kilimeen",
+        "Puthiyapla"
+      ],
+      "kannada": [
+        "ರಾಣಿ",
+        "Rani"
+      ],
+      "telugu": [
+        "ర్రతు",
+        "Rathu"
+      ],
+      "hindi": [
+        "रानी",
+        "Rani"
+      ],
+      "marathi": [
+        "राणी",
+        "Rani"
+      ],
+      "konkani": [
+        "राणी",
+        "Rani"
+      ]
+    },
+    "notes": "Small, pinkish fish. Very common and tasty."
+  },
+  {
+    "id": "clams",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "brackish",
+      "roast",
+      "curry"
+    ],
+    "scientificName": "Villorita cyprinoides",
+    "names": {
+      "english": [
+        "Clams",
+        "Black Clams"
+      ],
+      "tamil": [
+        "மட்டி",
+        "Matti"
+      ],
+      "malayalam": [
+        "കക്ക",
+        "Kakka"
+      ],
+      "kannada": [
+        "ಮರ್ವೈ",
+        "Marvai"
+      ],
+      "telugu": [
+        "గుల్లలు",
+        "Gullalu"
+      ],
+      "hindi": [
+        "तिसरे",
+        "Tisre"
+      ],
+      "marathi": [
+        "तिसऱ्या",
+        "Tisrya"
+      ],
+      "konkani": [
+        "कुब्बे",
+        "Kubbe"
+      ]
+    },
+    "notes": "Shellfish. Needs thorough cleaning."
+  },
+  {
+    "id": "mussels",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "roast",
+      "fry"
+    ],
+    "scientificName": "Perna viridis",
+    "names": {
+      "english": [
+        "Mussels",
+        "Green Mussels"
+      ],
+      "tamil": [
+        "ஆழி",
+        "Aazhi",
+        "கடுக்கா",
+        "Kadukka"
+      ],
+      "malayalam": [
+        "കല്ലുമ്മക്കായ",
+        "Kallummakkaya"
+      ],
+      "kannada": [
+        "ಪಚ್ಚಿಲೆ",
+        "Pachile"
+      ],
+      "telugu": [
+        "ముస్సెల్",
+        "Mussel"
+      ],
+      "hindi": [
+        "कालु",
+        "Kalu"
+      ],
+      "marathi": [
+        "शिंपले",
+        "Shimple"
+      ],
+      "konkani": [
+        "शिणाणे",
+        "Shinane"
+      ]
+    },
+    "notes": "Shellfish. Famous in North Kerala cuisine."
+  },
+  {
+    "id": "common-carp",
+    "photo": "img/placeholder.png",
+    "category": [
+      "freshwater",
+      "curry",
+      "fry"
+    ],
+    "scientificName": "Cyprinus carpio",
+    "names": {
+      "english": [
+        "Common Carp"
+      ],
+      "tamil": [
+        "கெண்டை",
+        "Kendai"
+      ],
+      "malayalam": [
+        "സയപ്രൈനസ്",
+        "Cyprinus"
+      ],
+      "kannada": [
+        "ಗೌರಿ",
+        "Gowri"
+      ],
+      "telugu": [
+        "బంగారు తీగ",
+        "Bangaru Theega"
+      ],
+      "hindi": [
+        "कॉमन कार्प",
+        "Common Carp"
+      ],
+      "bengali": [
+        "কার্প",
+        "Carp"
+      ]
+    },
+    "notes": "Widely farmed freshwater fish."
+  },
+  {
+    "id": "emperor-fish",
+    "photo": "img/placeholder.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Lethrinus nebulosus",
+    "names": {
+      "english": [
+        "Emperor Fish"
+      ],
+      "tamil": [
+        "விளை மீன்",
+        "Vilai Meen"
+      ],
+      "malayalam": [
+        "ഏരി",
+        "Eri",
+        "Vilameew"
+      ],
+      "kannada": [
+        "ಧಮ",
+        "Dhama"
+      ],
+      "telugu": [
+        "శీల",
+        "Sheela"
+      ],
+      "hindi": [
+        "चोधही",
+        "Chodhhi"
+      ]
+    },
+    "notes": "Excellent white meat fish."
   }
 ]

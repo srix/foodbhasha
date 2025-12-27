@@ -16,6 +16,7 @@ The site is designed for **mobile-first usage** (e.g., while ordering at restaur
 
 * Provide a **visual reference** of common fishes served in restaurants.
 * Show **names across 23 languages** (English + 22 Indian Languages).
+* Database covers **30+ popular fishes** (Sea, Freshwater, Shellfish).
 * Make it simple for users to **search** and quickly identify fish names.
 * Support **native scripts** alongside Romanized names for accurate pronunciation and reading.
 
@@ -183,6 +184,7 @@ On each keystroke:
 * **AI Generated** watermark applied.
 * Prefer whole-fish photos on white/neutral background.
 * Filenames follow `id`: `img/seer-fish.png`.
+* **Placeholders**: If a specific fish image is unavailable, use `img/placeholder.png` (a generic fish icon) until a specific image is generated.
 
 ---
 
