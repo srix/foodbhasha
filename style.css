@@ -112,6 +112,64 @@ h1 {
     gap: var(--spacing-md);
 }
 
+/* Column Controls */
+#table-controls {
+    margin-top: var(--spacing-sm);
+    text-align: right;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.secondary-btn {
+    padding: 8px 16px;
+    /* increased padding for button-like feel */
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    /* Theme color */
+    color: #fff;
+    /* White text */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+
+.secondary-btn:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+#column-selector-dialog {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 600px;
+    /* Wider to accommodate grid */
+    max-width: 90vw;
+    /* Responsive */
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    z-index: 1000;
+}
+
+#column-checkboxes {
+    display: grid;
+    /* Use Grid */
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    /* Responsive columns */
+    gap: 8px 16px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 12px 0;
+    padding-right: 8px;
+    /* Space for scrollbar */
+}
+
 .fish-card {
     background: var(--card-bg);
     border-radius: var(--radius);
