@@ -240,11 +240,10 @@ h1 {
 .fish-notes {
     font-size: 0.9rem;
     color: var(--text-secondary);
-    background-color: #fff3cd;
-    color: #856404;
+    background-color: var(--background-color);
     padding: var(--spacing-sm);
     border-radius: 6px;
-    border-left: 3px solid #ffeeba;
+    border: 1px solid var(--border-color);
 }
 
 
