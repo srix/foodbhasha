@@ -18,7 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('data/fish.json');
             fishData = await response.json();
+
+            // Restore view state
+            const savedView = localStorage.getItem('fishView') || 'card';
             renderApp(fishData);
+            switchView(savedView); // Set correct view after render
         } catch (error) {
             console.error('Failed to load fish data:', error);
             cardView.innerHTML = '<p class="error">Failed to load data. Please try again.</p>';
@@ -86,8 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
             row.innerHTML = `
                 <td class="sticky-col">
                     <div class="table-fish-name">
-                        <img src="${fish.photo}" class="table-thumb" onerror="this.src='https://placehold.co/30x30?text=F'">
                         <span>${fish.names.english[0]}</span>
+                        <img src="${fish.photo}" class="table-thumb" onerror="this.src='https://placehold.co/80x80?text=F'">
                     </div>
                 </td>
                 <td>${getNames('tamil')}</td>
@@ -100,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function switchView(view) {
+        localStorage.setItem('fishView', view);
         if (view === 'card') {
             cardView.hidden = false;
             tableView.hidden = true;

@@ -33,7 +33,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .header-content {
@@ -93,7 +93,7 @@ h1 {
 .view-toggle button.active {
     background-color: var(--card-bg);
     color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* Main Content */
@@ -101,7 +101,8 @@ h1 {
     padding: var(--spacing-md);
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 80px; /* Space for scroll */
+    padding-bottom: 80px;
+    /* Space for scroll */
 }
 
 /* Card View */
@@ -193,10 +194,12 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px; /* Ensure horizontal scroll on mobile */
+    min-width: 600px;
+    /* Ensure horizontal scroll on mobile */
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid var(--border-color);
@@ -227,14 +230,18 @@ th.sticky-col {
 .table-fish-name {
     font-weight: 600;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    /* Center them */
     gap: 8px;
+    text-align: center;
 }
 
 .table-thumb {
-    width: 30px;
-    height: 30px;
-    border-radius: 4px;
+    width: 80px;
+    /* Larger size */
+    height: 80px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
@@ -250,12 +257,12 @@ th.sticky-col {
         align-items: center;
         justify-content: space-between;
     }
-    
+
     .search-container {
         flex: 1;
         margin: 0 var(--spacing-lg);
     }
-    
+
     .view-toggle {
         width: 200px;
     }
@@ -269,17 +276,17 @@ th.sticky-col {
         flex: 1;
         min-width: 200px;
     }
-    
+
     .fish-thumbnail {
         width: 80px;
         height: 80px;
     }
 
     .fish-names-grid {
-         flex: 2;
-         grid-template-columns: repeat(3, 1fr);
+        flex: 2;
+        grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .fish-notes {
         flex: 1;
         margin-top: 0;
