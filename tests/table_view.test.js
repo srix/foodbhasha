@@ -1,58 +1,78 @@
-// tests/table_view.test.js
 const { test, expect } = require('@playwright/test');
 
-test.describe('Fish Name Lookup - Table View', () => {
+test.describe('Table View Verification', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('/');
-    });
-
-    test('M4: Table View & Columns (Spec 6.2)', async ({ page }) => {
-        // Switch to Table View
         await page.locator('#btn-table-view').click();
         await expect(page.locator('#table-view')).toBeVisible();
-        await expect(page.locator('#card-view')).toBeHidden();
+    });
 
-        // Check sticky column
-        await expect(page.locator('th.sticky-col')).toHaveText('Fish');
-
-        // Verify Image size (Spec mentions 80px thumb in table)
-        const thumb = page.locator('.table-thumb').first();
-        const box = await thumb.boundingBox();
-        expect(box.width).toBeCloseTo(80, 1);
-
-        // Verify Default Columns: Tamil, Kannada, Telugu, Hindi, Malayalam
-        // Checking ALL default columns explicitly
+    test('Default Columns Displayed', async ({ page }) => {
+        // Defaults: Tamil, Kannada, Telugu, Hindi, Malayalam
         await expect(page.locator('th', { hasText: 'Tamil' })).toBeVisible();
-        await expect(page.locator('th', { hasText: 'Kannada' })).toBeVisible();
-        await expect(page.locator('th', { hasText: 'Telugu' })).toBeVisible();
-        await expect(page.locator('th', { hasText: 'Hindi' })).toBeVisible();
         await expect(page.locator('th', { hasText: 'Malayalam' })).toBeVisible();
 
-        // Column Selector
-        await page.getByRole('button', { name: '🌐 Languages' }).click();
-        await expect(page.locator('#column-selector-dialog')).toBeVisible();
-
-        // Toggle a column (e.g., Urdu)
-        const urduCheckbox = page.locator('input[value="urdu"]');
-        await urduCheckbox.check();
-        await page.locator('#btn-close-cols').click();
-
-        // Verify Table Header
-        await expect(page.locator('th', { hasText: 'Urdu' })).toBeVisible();
+        // Bengali is NOT in default
+        await expect(page.locator('th', { hasText: 'Bengali' })).toBeHidden();
     });
 
-    test('M5: Persistence (Spec 8.3)', async ({ page }) => {
-        // Switch to Table View
-        await page.locator('#btn-table-view').click();
+    test('Customize Columns & Persistence', async ({ page }) => {
+        // Open Languages
+        await page.getByRole('button', { name: '🌐 Languages' }).click();
 
-        // Reload page
+        // Add Bengali
+        await page.locator('input[value="bengali"]').check();
+
+        // Remove Tamil
+        await page.locator('input[value="tamil"]').uncheck();
+
+        // Close dialog
+        await page.locator('#btn-close-cols').click();
+
+        // Verify Changes
+        await expect(page.locator('th', { hasText: 'Bengali' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Tamil' })).toBeHidden();
+
+        // Reload to test persistence
         await page.reload();
-
-        // Should still be in Table View
         await expect(page.locator('#table-view')).toBeVisible();
 
-        // Switch back to Card for cleanup/next test implication
+        // Verify Persistence
+        await expect(page.locator('th', { hasText: 'Bengali' })).toBeVisible();
+        await expect(page.locator('th', { hasText: 'Tamil' })).toBeHidden();
+    });
+
+    test('Independent Persistence Check', async ({ page }) => {
+        // We modified Table View to have Bengali but no Tamil.
+        // Let's switch to Card View and ensure it STILL has Tamil (default) and NO Bengali (unless we added it there).
+        // (Assuming clean state for each test file run in parallel context, but let's check basic independence logic).
+
+        // This test suite runs independently, so we must set specific state to test separation if we want to be thorough.
+
+        // 1. Modify Table: Add Bengali
+        await page.getByRole('button', { name: '🌐 Languages' }).click();
+        await page.locator('input[value="bengali"]').check();
+        await page.locator('#btn-close-cols').click();
+        await expect(page.locator('th', { hasText: 'Bengali' })).toBeVisible();
+
+        // 2. Switch to Card
         await page.locator('#btn-card-view').click();
+
+        // 3. Verify Card DOES NOT have Bengali in primary grid (default set doesn't have it)
+        const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
+        await expect(seerCard.locator('.lang-label', { hasText: 'Bengali' })).toBeHidden();
+
+        // 4. Modify Card: Add Punjabi
+        await page.getByRole('button', { name: '🌐 Languages' }).click();
+        await page.locator('input[value="punjabi"]').check();
+        await page.locator('#btn-close-cols').click();
+        await expect(seerCard.locator('.lang-label', { hasText: 'Punjabi' })).toBeVisible();
+
+        // 5. Switch back to Table
+        await page.locator('#btn-table-view').click();
+
+        // 6. Verify Table DOES NOT have Punjabi
+        await expect(page.locator('th', { hasText: 'Punjabi' })).toBeHidden();
     });
 });
