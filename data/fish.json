@@ -1,106 +1,231 @@
 [
   {
     "id": "seer-fish",
-    "photo": "img/seer-fish.jpg",
-    "category": ["sea", "fry", "popular"],
+    "photo": "img/seer-fish.png",
+    "category": [
+      "sea",
+      "fry",
+      "popular"
+    ],
     "scientificName": "Scomberomorus commerson",
     "names": {
-      "english": ["Seer fish", "King fish"],
-      "tamil": ["வஞ்சரம்", "Vanjaram"],
-      "malayalam": ["നെയ്‌മീൻ", "Neymeen"],
-      "kannada": ["ಅಂಜಲ್", "Anjal"]
+      "english": [
+        "Seer fish",
+        "King fish"
+      ],
+      "tamil": [
+        "வஞ்சரம்",
+        "Vanjaram"
+      ],
+      "malayalam": [
+        "നെയ്‌മീൻ",
+        "Neymeen"
+      ],
+      "kannada": [
+        "ಅಂಜಲ್",
+        "Anjal"
+      ]
     },
     "notes": "Often sold as King fish. Sometimes confused with Surmai in some regions."
   },
   {
     "id": "pomfret-black",
-    "photo": "img/pomfret-black.jpg",
-    "category": ["sea", "fry", "curry"],
+    "photo": "img/pomfret-black.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
     "scientificName": "Parastromateus niger",
     "names": {
-      "english": ["Black Pomfret"],
-      "tamil": ["கருப்பு வாவல்", "Karuppu Vaaval"],
-      "malayalam": ["കറുത്ത ആവോലി", "Karutha Avoli"],
-      "kannada": ["ಕಪ್ಪು ಮಾಂಜಿ", "Kappu Manji"]
+      "english": [
+        "Black Pomfret"
+      ],
+      "tamil": [
+        "கருப்பு வாவல்",
+        "Karuppu Vaaval"
+      ],
+      "malayalam": [
+        "കറുത്ത ആവോലി",
+        "Karutha Avoli"
+      ],
+      "kannada": [
+        "ಕಪ್ಪು ಮಾಂಜಿ",
+        "Kappu Manji"
+      ]
     },
     "notes": "Good for frying. Distinct from Silver Pomfret."
   },
   {
-      "id": "sardine",
-      "photo": "img/sardine.jpg",
-      "category": ["sea", "curry", "fry", "everyday"],
-      "scientificName": "Sardinella longiceps",
-      "names": {
-        "english": ["Sardine", "Oil Sardine"],
-        "tamil": ["மத்தி", "Mathi"],
-        "malayalam": ["മത്തി", "Mathi / Chaala"],
-        "kannada": ["ಭೂತಾಯಿ", "Boothayi"]
-      },
-      "notes": "Very common and affordable. Rich in Omega-3."
+    "id": "sardine",
+    "photo": "img/sardine.png",
+    "category": [
+      "sea",
+      "curry",
+      "fry",
+      "everyday"
+    ],
+    "scientificName": "Sardinella longiceps",
+    "names": {
+      "english": [
+        "Sardine",
+        "Oil Sardine"
+      ],
+      "tamil": [
+        "மத்தி",
+        "Mathi"
+      ],
+      "malayalam": [
+        "മത്തി",
+        "Mathi / Chaala"
+      ],
+      "kannada": [
+        "ಭೂತಾಯಿ",
+        "Boothayi"
+      ]
     },
-    {
-      "id": "mackerel",
-      "photo": "img/mackerel.jpg",
-      "category": ["sea", "fry", "curry"],
-      "scientificName": "Rastrelliger kanagurta",
-      "names": {
-        "english": ["Indian Mackerel"],
-        "tamil": ["கானாங்கெளுத்தி", "Kanaankeluthi / Aila"],
-        "malayalam": ["അയല", "Ayala"],
-        "kannada": ["ಬಂಗುಡೆ", "Bangude"]
-      },
-      "notes": "Popular for fish curry and fry."
+    "notes": "Very common and affordable. Rich in Omega-3."
+  },
+  {
+    "id": "mackerel",
+    "photo": "img/mackerel.png",
+    "category": [
+      "sea",
+      "fry",
+      "curry"
+    ],
+    "scientificName": "Rastrelliger kanagurta",
+    "names": {
+      "english": [
+        "Indian Mackerel"
+      ],
+      "tamil": [
+        "கானாங்கெளுத்தி",
+        "Kanaankeluthi / Aila"
+      ],
+      "malayalam": [
+        "അയല",
+        "Ayala"
+      ],
+      "kannada": [
+        "ಬಂಗುಡೆ",
+        "Bangude"
+      ]
     },
-    {
-      "id": "anchovy",
-      "photo": "img/anchovy.jpg",
-      "category": ["sea", "fry", "dry"],
-      "scientificName": "Stolephorus indicus",
-      "names": {
-        "english": ["Anchovy"],
-        "tamil": ["நெத்திலி", "Nethili"],
-        "malayalam": ["കൊഴുവ", "Kozhuva / Netholi"],
-        "kannada": ["ಬೊಳ್ಳು", "Bollu / Kollatharu"]
-      },
-      "notes": "Small fish, often fried crispy or dried."
+    "notes": "Popular for fish curry and fry."
+  },
+  {
+    "id": "anchovy",
+    "photo": "img/anchovy.png",
+    "category": [
+      "sea",
+      "fry",
+      "dry"
+    ],
+    "scientificName": "Stolephorus indicus",
+    "names": {
+      "english": [
+        "Anchovy"
+      ],
+      "tamil": [
+        "நெத்திலி",
+        "Nethili"
+      ],
+      "malayalam": [
+        "കൊഴുവ",
+        "Kozhuva / Netholi"
+      ],
+      "kannada": [
+        "ಬೊಳ್ಳು",
+        "Bollu / Kollatharu"
+      ]
     },
-      {
+    "notes": "Small fish, often fried crispy or dried."
+  },
+  {
     "id": "shrimp",
-    "photo": "img/shrimp.jpg",
-    "category": ["sea", "freshwater", "fry", "curry"],
+    "photo": "img/shrimp.png",
+    "category": [
+      "sea",
+      "freshwater",
+      "fry",
+      "curry"
+    ],
     "scientificName": "Penaeidae",
     "names": {
-      "english": ["Prawns", "Shrimp"],
-      "tamil": ["இறால்", "Eraal"],
-      "malayalam": ["ചെമ്മീൻ", "Chemmeen"],
-      "kannada": ["ಅದೇ", "Etti / Sigadi"]
+      "english": [
+        "Prawns",
+        "Shrimp"
+      ],
+      "tamil": [
+        "இறால்",
+        "Eraal"
+      ],
+      "malayalam": [
+        "ചെമ്മീൻ",
+        "Chemmeen"
+      ],
+      "kannada": [
+        "ಅದೇ",
+        "Etti / Sigadi"
+      ]
     },
     "notes": "Available in various sizes. 'Tiger prawns' are large."
   },
   {
-      "id": "shark",
-      "photo": "img/shark.jpg",
-      "category": ["sea", "puttu"],
-      "scientificName": "Selachimorpha",
-      "names": {
-        "english": ["Shark"],
-        "tamil": ["சுறா", "Sura"],
-        "malayalam": ["സ്രാവ്", "Sraavu"],
-        "kannada": ["ಮೀನು", "Thate"]
-      },
-      "notes": "Used for 'Sura Puttu' (scrambled shark meat)."
+    "id": "shark",
+    "photo": "img/shark.png",
+    "category": [
+      "sea",
+      "puttu"
+    ],
+    "scientificName": "Selachimorpha",
+    "names": {
+      "english": [
+        "Shark"
+      ],
+      "tamil": [
+        "சுறா",
+        "Sura"
+      ],
+      "malayalam": [
+        "സ്രാവ്",
+        "Sraavu"
+      ],
+      "kannada": [
+        "ಮೀನು",
+        "Thate"
+      ]
+    },
+    "notes": "Used for 'Sura Puttu' (scrambled shark meat)."
   },
-   {
-      "id": "crabo",
-      "photo": "img/crab.jpg",
-      "category": ["sea", "freshwater", "curry", "roast"],
-      "scientificName": "Brachyura",
-      "names": {
-        "english": ["Crab"],
-        "tamil": ["நண்டு", "Nandu"],
-        "malayalam": ["ഞണ്ട്", "Njandu"],
-        "kannada": ["ಏಡಿ", "Denji / Kurle"]
-      },
-      "notes": "Mud crabs are popular in some regions."
-   }
+  {
+    "id": "crab",
+    "photo": "img/crab.png",
+    "category": [
+      "sea",
+      "freshwater",
+      "curry",
+      "roast"
+    ],
+    "scientificName": "Brachyura",
+    "names": {
+      "english": [
+        "Crab"
+      ],
+      "tamil": [
+        "நண்டு",
+        "Nandu"
+      ],
+      "malayalam": [
+        "ഞണ്ട്",
+        "Njandu"
+      ],
+      "kannada": [
+        "ಏಡಿ",
+        "Denji / Kurle"
+      ]
+    },
+    "notes": "Mud crabs are popular in some regions."
+  }
 ]
