@@ -71,7 +71,12 @@ test.describe('SEO and Meta Tags', () => {
 
     test('Search page updates title', async ({ page }) => {
         await page.fill('#search-input', 'pomfret');
-        await page.waitForTimeout(800); // Wait for debounce + title update
+
+        // Wait for title to actually update (debounce + rendering)
+        await page.waitForFunction(
+            () => document.title.toLowerCase().includes('pomfret'),
+            { timeout: 3000 }
+        );
 
         const title = await page.title();
         expect(title).toContain('pomfret');

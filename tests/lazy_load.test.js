@@ -23,26 +23,37 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
     });
 
     test('Reset on Filter', async ({ page }) => {
+        // Scroll to trigger lazy loading
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-        await page.waitForTimeout(500);
+
+        // Wait for more cards to load (should be > 20)
+        await expect(page.locator('.fish-card')).toHaveCount(40, { timeout: 2000 });
 
         const chips = page.locator('#filter-chips');
         await chips.locator('button[data-filter="sea"]').click();
 
-        // Wait for filter to apply and re-render
-        await page.waitForTimeout(500);
+        // Wait for filter to apply by checking card count reduces
+        await page.waitForFunction(() => {
+            const count = document.querySelectorAll('.fish-card').length;
+            return count <= 20;
+        }, { timeout: 5000 });
 
         const filteredCount = await page.locator('.fish-card').count();
         expect(filteredCount).toBeLessThanOrEqual(20);
     });
 
     test('Reset on Tab Switch', async ({ page }) => {
+        // Scroll to trigger lazy loading
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-        await page.waitForTimeout(500);
+
+        // Wait for more cards to load
+        await expect(page.locator('.fish-card')).toHaveCount(40, { timeout: 2000 });
 
         // Switch to Vegetables & Fruits
         await page.locator('button[data-category="vegetables-fruits"]').click();
         await page.waitForLoadState('networkidle');
+
+        // Wait for vegetables to load and verify count reset
         await expect(page.locator('.fish-card').first()).toBeVisible();
         const vegCount = await page.locator('.fish-card').count();
         expect(vegCount).toBeLessThanOrEqual(20);
@@ -51,28 +62,25 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         await page.locator('button[data-category="fish"]').click();
         await page.waitForLoadState('networkidle');
 
-        // Verify Fish is reset to 20
+        // Verify Fish is reset to 20 by waiting for first card and checking count
         await expect(page.locator('.fish-card').first()).toBeVisible();
-
-        // Wait specifically for potential re-render to complete if needed
-        await page.waitForTimeout(300);
-
         const fishCountNew = await page.locator('.fish-card').count();
         expect(fishCountNew).toBe(20);
     });
 
     test('Reset on Search', async ({ page }) => {
-        await page.fill('#search-input', 'Seer');
-        await page.waitForTimeout(800); // Wait for debounce and render
+        const searchInput = page.locator('#search-input');
 
-        const cards = page.locator('.fish-card');
-        await expect(cards).toHaveCount(1);
+        // Type search and wait for results to filter
+        await searchInput.fill('Seer');
 
-        // Clear search
-        await page.fill('#search-input', '');
-        await page.waitForTimeout(800); // Wait for debounce and render
+        // Wait for search to filter by checking card count becomes 1
+        await expect(page.locator('.fish-card')).toHaveCount(1, { timeout: 2000 });
 
-        const count = await page.locator('.fish-card').count();
-        expect(count).toBe(20);
+        // Clear search and wait for results to reset
+        await searchInput.fill('');
+
+        // Wait for all cards to come back
+        await expect(page.locator('.fish-card')).toHaveCount(20, { timeout: 2000 });
     });
 });

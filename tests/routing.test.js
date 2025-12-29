@@ -73,15 +73,20 @@ test.describe('History API Routing', () => {
     test('Browser back button works correctly', async ({ page }) => {
         // Navigate to vegetables
         await page.click('.tab-btn[data-category="vegetables-fruits"]');
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(300); // Extra wait for mobile
         await expect(page).toHaveURL('http://localhost:8080/vegetables-fruits');
 
         // Navigate to grains
         await page.click('.tab-btn[data-category="grains"]');
+        await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(300); // Extra wait for mobile
         await expect(page).toHaveURL('http://localhost:8080/grains');
 
         // Click back button
         await page.goBack();
         await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(500); // Extra wait for mobile History API
 
         // Should be back at vegetables
         await expect(page).toHaveURL('http://localhost:8080/vegetables-fruits');

@@ -82,18 +82,19 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         await page.locator('button[data-category="vegetables-fruits"]').click();
         await page.waitForLoadState('networkidle');
 
+        // Wait for filter chips to be fully loaded
         const chips = page.locator('#filter-chips');
+        await expect(chips.locator('button[data-filter="root"]')).toBeVisible();
 
-        // Select Root
+        // Select Root - wait for DOM to reflect active state
         await chips.locator('button[data-filter="root"]').click();
-        await page.waitForTimeout(300);
-        // Select Leafy
-        await chips.locator('button[data-filter="leafy"]').click();
-        await page.waitForTimeout(300);
-
-        // Both Chips Active
         await expect(chips.locator('button[data-filter="root"]')).toHaveClass(/active/);
+
+        // Select Leafy - wait for DOM to reflect active state
+        await chips.locator('button[data-filter="leafy"]').click();
         await expect(chips.locator('button[data-filter="leafy"]')).toHaveClass(/active/);
+
+        // Both Chips Active (already verified above)
 
         // Verify Content: Potato (Root) Visible, Spinach (Leafy) Visible
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
@@ -104,16 +105,15 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
         // Logic: De-select Root
         await chips.locator('button[data-filter="root"]').click();
-        await page.waitForTimeout(300);
         await expect(chips.locator('button[data-filter="root"]')).not.toHaveClass(/active/);
 
-        // Potato Hidden, Spinach Still Visible
+        // Wait for Potato to actually be hidden after deselecting
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeHidden();
         await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
 
         // Reset All
         await chips.locator('button[data-filter="all"]').click();
-        await page.waitForTimeout(300);
+        // Wait for cards to be visible again
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
         await expect(page.locator('.fish-card').filter({ hasText: 'Mango' })).toBeVisible();
     });
