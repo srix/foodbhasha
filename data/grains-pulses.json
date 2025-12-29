@@ -2,9 +2,8 @@
   {
     "id": "rice",
     "photo": "img/rice.webp",
-    "category": [
-      "cereal",
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -95,9 +94,8 @@
   {
     "id": "toor-dal",
     "photo": "img/toor-dal.webp",
-    "category": [
-      "pulse",
-      "dal"
+    "tags": [
+      "pulse"
     ],
     "scientificName": "Cajanus cajan",
     "names": {
@@ -189,9 +187,9 @@
   {
     "id": "ragi",
     "photo": "img/ragi.webp",
-    "category": [
-      "millet",
-      "grain"
+    "tags": [
+      "cereal",
+      "millet"
     ],
     "scientificName": "Eleusine coracana",
     "names": {
@@ -283,9 +281,8 @@
   {
     "id": "urad-dal",
     "photo": "img/urad-dal.webp",
-    "category": [
-      "pulse",
-      "dal"
+    "tags": [
+      "pulse"
     ],
     "scientificName": "Vigna mungo",
     "names": {
@@ -377,8 +374,8 @@
   {
     "id": "wheat",
     "photo": "img/wheat.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Triticum",
     "names": {
@@ -468,8 +465,8 @@
   {
     "id": "maize",
     "photo": "img/maize.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Zea mays",
     "names": {
@@ -556,8 +553,8 @@
   {
     "id": "barley",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Hordeum vulgare",
     "names": {
@@ -636,8 +633,8 @@
   {
     "id": "jowar",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Sorghum bicolor",
     "names": {
@@ -725,8 +722,8 @@
   {
     "id": "bajra",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Pennisetum glaucum",
     "names": {
@@ -814,8 +811,8 @@
   {
     "id": "masoor-dal",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Lens culinaris",
     "names": {
@@ -903,8 +900,8 @@
   {
     "id": "moong-dal",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Vigna radiata",
     "names": {
@@ -992,8 +989,8 @@
   {
     "id": "chana-dal",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1081,8 +1078,8 @@
   {
     "id": "chickpeas",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1164,8 +1161,8 @@
   {
     "id": "black-chickpeas",
     "photo": "img/black-chickpeas.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cicer arietinum",
     "names": {
@@ -1244,8 +1241,8 @@
   {
     "id": "kidney-beans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Phaseolus vulgaris",
     "names": {
@@ -1324,8 +1321,8 @@
   {
     "id": "black-eyed-peas",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Vigna unguiculata",
     "names": {
@@ -1407,8 +1404,8 @@
   {
     "id": "dried-green-peas",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Pisum sativum",
     "names": {
@@ -1487,8 +1484,8 @@
   {
     "id": "soybeans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Glycine max",
     "names": {
@@ -1567,8 +1564,8 @@
   {
     "id": "horse-gram",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Macrotyloma uniflorum",
     "names": {
@@ -1651,8 +1648,8 @@
   {
     "id": "flax-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Linum usitatissimum",
     "names": {
@@ -1733,8 +1730,8 @@
   {
     "id": "sesame-seeds",
     "photo": "img/sesame-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Sesamum indicum",
     "names": {
@@ -1813,8 +1810,8 @@
   {
     "id": "groundnut",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Arachis hypogaea",
     "names": {
@@ -1896,8 +1893,8 @@
   {
     "id": "mustard-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Brassica nigra",
     "names": {
@@ -1987,8 +1984,8 @@
   {
     "id": "cumin-seeds",
     "photo": "img/cumin-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cuminum cyminum",
     "names": {
@@ -2078,8 +2075,8 @@
   {
     "id": "coriander-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -2158,8 +2155,8 @@
   {
     "id": "fennel-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Foeniculum vulgare",
     "names": {
@@ -2238,8 +2235,8 @@
   {
     "id": "fenugreek-seeds",
     "photo": "img/fenugreek-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Trigonella foenum-graecum",
     "names": {
@@ -2318,8 +2315,8 @@
   {
     "id": "black-pepper",
     "photo": "img/black-pepper.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Piper nigrum",
     "names": {
@@ -2407,8 +2404,8 @@
   {
     "id": "cardamom",
     "photo": "img/cardamom.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Elettaria cardamomum",
     "names": {
@@ -2490,8 +2487,8 @@
   {
     "id": "cloves",
     "photo": "img/cloves.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Syzygium aromaticum",
     "names": {
@@ -2570,8 +2567,8 @@
   {
     "id": "cinnamon",
     "photo": "img/cinnamon.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cinnamomum verum",
     "names": {
@@ -2650,8 +2647,8 @@
   {
     "id": "turmeric",
     "photo": "img/turmeric.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Curcuma longa",
     "names": {
@@ -2741,8 +2738,8 @@
   {
     "id": "dry-red-chili",
     "photo": "img/dry-red-chili.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Capsicum annuum",
     "names": {
@@ -2821,8 +2818,8 @@
   {
     "id": "cashew",
     "photo": "img/cashew.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Anacardium occidentale",
     "names": {
@@ -2901,8 +2898,8 @@
   {
     "id": "almond",
     "photo": "img/almond.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Prunus dulcis",
     "names": {
@@ -2981,8 +2978,8 @@
   {
     "id": "pistachio",
     "photo": "img/pistachio.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Pistacia vera",
     "names": {
@@ -3061,8 +3058,8 @@
   {
     "id": "walnut",
     "photo": "img/walnut.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Juglans regia",
     "names": {
@@ -3141,8 +3138,8 @@
   {
     "id": "raisins",
     "photo": "img/raisins.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Vitis vinifera",
     "names": {
@@ -3221,8 +3218,8 @@
   {
     "id": "dates",
     "photo": "img/dates.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Phoenix dactylifera",
     "names": {
@@ -3301,8 +3298,8 @@
   {
     "id": "sago",
     "photo": "img/sago.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Metroxylon sagu",
     "names": {
@@ -3384,8 +3381,8 @@
   {
     "id": "fox-nuts",
     "photo": "img/fox-nuts.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Euryale ferox",
     "names": {
@@ -3464,8 +3461,8 @@
   {
     "id": "poha",
     "photo": "img/poha.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Flattened Rice",
     "names": {
@@ -3546,8 +3543,8 @@
   {
     "id": "semolina",
     "photo": "img/semolina.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Triticum durum",
     "names": {
@@ -3626,8 +3623,8 @@
   {
     "id": "vermicelli",
     "photo": "img/vermicelli.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Triticum",
     "names": {
@@ -3706,8 +3703,8 @@
   {
     "id": "jaggery",
     "photo": "img/jaggery.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Saccharum officinarum (Product)",
     "names": {
@@ -3786,8 +3783,8 @@
   {
     "id": "tamarind",
     "photo": "img/tamarind.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Tamarindus indica",
     "names": {
@@ -3866,8 +3863,8 @@
   {
     "id": "kokum",
     "photo": "img/kokum.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Garcinia indica",
     "names": {
@@ -3946,8 +3943,8 @@
   {
     "id": "asafetida",
     "photo": "img/asafetida.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Ferula assa-foetida",
     "names": {
@@ -4028,8 +4025,8 @@
   {
     "id": "chia-seeds",
     "photo": "img/chia-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Salvia hispanica",
     "names": {
@@ -4109,8 +4106,8 @@
   {
     "id": "sunflower-seeds",
     "photo": "img/sunflower-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Helianthus annuus",
     "names": {
@@ -4189,8 +4186,8 @@
   {
     "id": "pumpkin-seeds",
     "photo": "img/pumpkin-seeds.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Cucurbita",
     "names": {
@@ -4269,8 +4266,8 @@
   {
     "id": "quinoa",
     "photo": "img/quinoa.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Chenopodium quinoa",
     "names": {
@@ -4349,8 +4346,8 @@
   {
     "id": "oats",
     "photo": "img/oats.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Avena sativa",
     "names": {
@@ -4429,8 +4426,8 @@
   {
     "id": "buckwheat",
     "photo": "img/buckwheat.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Fagopyrum esculentum",
     "names": {
@@ -4509,8 +4506,8 @@
   {
     "id": "brown-rice",
     "photo": "img/brown-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -4591,8 +4588,8 @@
   {
     "id": "basmati-rice",
     "photo": "img/basmati-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -4672,8 +4669,8 @@
   {
     "id": "jasmine-rice",
     "photo": "img/jasmine-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4752,8 +4749,8 @@
   {
     "id": "sona-masoori",
     "photo": "img/sona-masoori.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4832,8 +4829,8 @@
   {
     "id": "parboiled-rice",
     "photo": "img/parboiled-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -4912,8 +4909,8 @@
   {
     "id": "red-rice",
     "photo": "img/red-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -4994,8 +4991,8 @@
   {
     "id": "black-rice",
     "photo": "img/black-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5074,8 +5071,8 @@
   {
     "id": "glutinous-rice",
     "photo": "img/glutinous-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5154,8 +5151,8 @@
   {
     "id": "puffed-rice",
     "photo": "img/puffed-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -5236,8 +5233,8 @@
   {
     "id": "idli-rice",
     "photo": "img/idli-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Oryza sativa",
     "names": {
@@ -5317,8 +5314,8 @@
   {
     "id": "matta-rice",
     "photo": "img/matta-rice.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5397,8 +5394,8 @@
   {
     "id": "whole-wheat",
     "photo": "img/whole-wheat.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5477,8 +5474,8 @@
   {
     "id": "broken-wheat",
     "photo": "img/broken-wheat.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5557,8 +5554,8 @@
   {
     "id": "maida",
     "photo": "img/maida.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5637,8 +5634,8 @@
   {
     "id": "corn-flour",
     "photo": "img/corn-flour.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5717,8 +5714,8 @@
   {
     "id": "rice-flour",
     "photo": "img/rice-flour.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5797,8 +5794,8 @@
   {
     "id": "besan",
     "photo": "img/besan.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5877,8 +5874,8 @@
   {
     "id": "ragi-flour",
     "photo": "img/ragi-flour.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -5957,8 +5954,8 @@
   {
     "id": "bajra-flour",
     "photo": "img/bajra-flour.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6037,8 +6034,8 @@
   {
     "id": "jowar-flour",
     "photo": "img/jowar-flour.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6117,8 +6114,8 @@
   {
     "id": "sabudana",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Metroxylon sagu",
     "names": {
@@ -6199,8 +6196,8 @@
   {
     "id": "soy-chunks",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Glycine max",
     "names": {
@@ -6280,8 +6277,8 @@
   {
     "id": "green-gram",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6360,8 +6357,8 @@
   {
     "id": "black-gram",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6440,8 +6437,8 @@
   {
     "id": "moth-bean",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6520,8 +6517,8 @@
   {
     "id": "lima-beans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6600,8 +6597,8 @@
   {
     "id": "field-beans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6680,8 +6677,8 @@
   {
     "id": "double-beans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6760,8 +6757,8 @@
   {
     "id": "pinto-beans",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6840,8 +6837,8 @@
   {
     "id": "white-peas",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -6920,8 +6917,8 @@
   {
     "id": "roasted-gram",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7000,8 +6997,8 @@
   {
     "id": "poppy-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Papaver somniferum",
     "names": {
@@ -7083,8 +7080,8 @@
   {
     "id": "carom-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7163,8 +7160,8 @@
   {
     "id": "nigella-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7243,8 +7240,8 @@
   {
     "id": "basil-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7323,8 +7320,8 @@
   {
     "id": "melon-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7403,8 +7400,8 @@
   {
     "id": "saffron",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7483,8 +7480,8 @@
   {
     "id": "nutmeg",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Myristica fragrans",
     "names": {
@@ -7565,8 +7562,8 @@
   {
     "id": "mace",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Myristica fragrans",
     "names": {
@@ -7647,8 +7644,8 @@
   {
     "id": "star-anise",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Illicium verum",
     "names": {
@@ -7729,8 +7726,8 @@
   {
     "id": "bay-leaf",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "Laurus nobilis",
     "names": {
@@ -7811,8 +7808,8 @@
   {
     "id": "dry-ginger",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7891,8 +7888,8 @@
   {
     "id": "black-cardamom",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -7971,8 +7968,8 @@
   {
     "id": "white-pepper",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8051,8 +8048,8 @@
   {
     "id": "long-pepper",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8131,8 +8128,8 @@
   {
     "id": "stone-flower",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8211,8 +8208,8 @@
   {
     "id": "marathi-moggu",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8291,8 +8288,8 @@
   {
     "id": "kabab-chin",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8371,8 +8368,8 @@
   {
     "id": "galangal",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {
@@ -8451,8 +8448,8 @@
   {
     "id": "arrowroot-flour",
     "photo": "img/placeholder.webp",
-    "category": [
-      "grain"
+    "tags": [
+      "cereal"
     ],
     "scientificName": "N/A",
     "names": {

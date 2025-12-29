@@ -139,21 +139,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Filter Whitelist per Category
-    const CATEGORY_FILTERS = {
+    const TAG_FILTERS = {
         'fish': ['sea', 'freshwater', 'brackish'],
-        'vegetables': ['fruit', 'root', 'leafy', 'fruit-veg', 'gourd'],
+        'vegetables': ['fruit', 'root', 'leafy', 'vegetable'],
         'grains': ['cereal', 'pulse', 'millet']
     };
 
     function generateFilters(data) {
         // Get allowed filters for current category
-        const allowedTags = CATEGORY_FILTERS[currentCategory] || [];
+        const allowedTags = TAG_FILTERS[currentCategory] || [];
 
-        // Extract unique categories from data that are in the allowed list
+        // Extract unique tags from data that are in the allowed list
         const tags = new Set();
         data.forEach(item => {
-            if (item.category && Array.isArray(item.category)) {
-                item.category.forEach(tag => {
+            if (item.tags && Array.isArray(item.tags)) {
+                item.tags.forEach(tag => {
                     if (allowedTags.includes(tag)) {
                         tags.add(tag);
                     }
@@ -165,14 +165,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const isAllActive = activeFilters.size === 0;
         let html = `<button class="filter-chip ${isAllActive ? 'active' : ''}" data-filter="all">All</button>`;
 
-        // Sort based on the defined order in CATEGORY_FILTERS
+        // Sort based on the defined order in TAG_FILTERS
         const sortedTags = Array.from(tags).sort((a, b) => {
             return allowedTags.indexOf(a) - allowedTags.indexOf(b);
         });
 
         sortedTags.forEach(tag => {
             const isActive = activeFilters.has(tag);
-            html += `<button class="filter-chip ${isActive ? 'active' : ''}" data-filter="${tag}">${getCategoryLabel(tag)}</button>`;
+            html += `<button class="filter-chip ${isActive ? 'active' : ''}" data-filter="${tag}">${getTagLabel(tag)}</button>`;
         });
 
         if (filterChipsContainer) {
@@ -222,9 +222,9 @@ document.addEventListener('DOMContentLoaded', () => {
         return data.filter(item => {
             // 1. Tag Filter (OR logic)
             if (filters.size > 0) {
-                if (!item.category) return false;
+                if (!item.tags) return false;
                 // Check if item has AT LEAST ONE of the active filters
-                const hasMatch = item.category.some(cat => filters.has(cat));
+                const hasMatch = item.tags.some(tag => filters.has(tag));
                 if (!hasMatch) return false;
             }
 
@@ -315,20 +315,20 @@ document.addEventListener('DOMContentLoaded', () => {
         `).join('');
 
         // Simplified Badges
-        const getBadges = (cats) => {
-            if (!cats) return '';
+        const getBadges = (tags) => {
+            if (!tags) return '';
 
             // Get allowed filters for current category
-            const allowedTags = CATEGORY_FILTERS[currentCategory] || [];
+            const allowedTags = TAG_FILTERS[currentCategory] || [];
 
-            return cats
-                .filter(cat => allowedTags.includes(cat)) // Filter against whitelist
-                .map(cat => {
+            return tags
+                .filter(tag => allowedTags.includes(tag)) // Filter against whitelist
+                .map(tag => {
                     let className = 'habitat-badge';
-                    if (['sea', 'freshwater', 'brackish'].includes(cat)) {
-                        return `<span class="${className} habitat-${cat}">${getCategoryLabel(cat)}</span>`;
+                    if (['sea', 'freshwater', 'brackish'].includes(tag)) {
+                        return `<span class="${className} habitat-${tag}">${getTagLabel(tag)}</span>`;
                     }
-                    return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getCategoryLabel(cat)}</span>`;
+                    return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getTagLabel(tag)}</span>`;
                 }).join(' ');
         };
 
@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${item.names.english.join(' / ')}</h2>
                     <div class="scientific-name">${item.scientificName}</div>
                     <div class="badges">
-                        ${getBadges(item.category)}
+                        ${getBadges(item.tags)}
                     </div>
                 </div>
             </div>
@@ -365,25 +365,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Helper reused in renderCards and generateFilters
-    function getCategoryLabel(cat) {
+    function getTagLabel(tag) {
         const labels = {
             'sea': '🌊 Sea',
             'freshwater': '💧 Freshwater',
             'brackish': '🌿 Brackish',
             'root': '🥔 Root',
             'leafy': '🥬 Leafy',
-            'fruit-veg': '🍆 Vegetable',
+            'vegetable': '🍆 Vegetable',
             'fruit': '🍎 Fruit',
-            'gourd': '🥒 Gourd',
             'cereal': '🌾 Cereal',
             'pulse': '🫘 Pulse',
-            'millet': '🌾 Millet',
-            'fry': 'Frying',
-            'curry': 'Curry',
-            'dry': 'Dried',
-            'puttu': 'Puttu'
+            'millet': '🌾 Millet'
         };
-        return labels[cat] || cat.charAt(0).toUpperCase() + cat.slice(1);
+        return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }
 
     function renderColumnSelector() {

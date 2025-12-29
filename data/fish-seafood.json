@@ -2,10 +2,8 @@
   {
     "id": "seer-fish",
     "photo": "img/seer-fish.webp",
-    "category": [
-      "sea",
-      "fry",
-      "popular"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Scomberomorus commerson",
     "names": {
@@ -107,10 +105,8 @@
   {
     "id": "pomfret-black",
     "photo": "img/pomfret-black.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Parastromateus niger",
     "names": {
@@ -211,11 +207,8 @@
   {
     "id": "sardine",
     "photo": "img/sardine.webp",
-    "category": [
-      "sea",
-      "curry",
-      "fry",
-      "everyday"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Sardinella longiceps",
     "names": {
@@ -321,10 +314,8 @@
   {
     "id": "mackerel",
     "photo": "img/mackerel.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Rastrelliger kanagurta",
     "names": {
@@ -427,10 +418,8 @@
   {
     "id": "anchovy",
     "photo": "img/anchovy.webp",
-    "category": [
-      "sea",
-      "fry",
-      "dry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Stolephorus indicus",
     "names": {
@@ -535,11 +524,9 @@
   {
     "id": "shrimp",
     "photo": "img/shrimp.webp",
-    "category": [
-      "sea",
+    "tags": [
       "freshwater",
-      "fry",
-      "curry"
+      "sea"
     ],
     "scientificName": "Penaeidae",
     "names": {
@@ -643,9 +630,8 @@
   {
     "id": "shark",
     "photo": "img/shark.webp",
-    "category": [
-      "sea",
-      "puttu"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Selachimorpha",
     "names": {
@@ -746,11 +732,9 @@
   {
     "id": "crab",
     "photo": "img/crab.webp",
-    "category": [
-      "sea",
+    "tags": [
       "freshwater",
-      "curry",
-      "roast"
+      "sea"
     ],
     "scientificName": "Brachyura",
     "names": {
@@ -853,11 +837,8 @@
   {
     "id": "silver-pomfret",
     "photo": "img/silver-pomfret.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry",
-      "popular"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Pampus argenteus",
     "names": {
@@ -950,11 +931,8 @@
   {
     "id": "rohu",
     "photo": "img/rohu.webp",
-    "category": [
-      "freshwater",
-      "curry",
-      "fry",
-      "popular"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Labeo rohita",
     "names": {
@@ -1049,10 +1027,8 @@
   {
     "id": "catla",
     "photo": "img/catla.webp",
-    "category": [
-      "freshwater",
-      "curry",
-      "fry"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Labeo catla",
     "names": {
@@ -1147,11 +1123,9 @@
   {
     "id": "hilsa",
     "photo": "img/hilsa.webp",
-    "category": [
+    "tags": [
       "freshwater",
-      "sea",
-      "curry",
-      "popular"
+      "sea"
     ],
     "scientificName": "Tenualosa ilisha",
     "names": {
@@ -1244,10 +1218,8 @@
   {
     "id": "red-snapper",
     "photo": "img/red-snapper.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Lutjanus campechanus",
     "names": {
@@ -1337,11 +1309,9 @@
   {
     "id": "pearl-spot",
     "photo": "img/pearl-spot.webp",
-    "category": [
-      "freshwater",
+    "tags": [
       "brackish",
-      "fry",
-      "curry"
+      "freshwater"
     ],
     "scientificName": "Etroplus suratensis",
     "names": {
@@ -1428,10 +1398,8 @@
   {
     "id": "lady-fish",
     "photo": "img/lady-fish.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Sillago sihama",
     "names": {
@@ -1522,11 +1490,8 @@
   {
     "id": "indian-salmon",
     "photo": "img/indian-salmon.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry",
-      "popular"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Eleutheronema tetradactylum",
     "names": {
@@ -1618,11 +1583,9 @@
   {
     "id": "grey-mullet",
     "photo": "img/grey-mullet.webp",
-    "category": [
-      "sea",
+    "tags": [
       "brackish",
-      "curry",
-      "fry"
+      "sea"
     ],
     "scientificName": "Mugil cephalus",
     "names": {
@@ -1711,11 +1674,8 @@
   {
     "id": "tilapia",
     "photo": "img/tilapia.webp",
-    "category": [
-      "freshwater",
-      "fry",
-      "curry",
-      "everyday"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Oreochromis mossambicus",
     "names": {
@@ -1807,12 +1767,9 @@
   {
     "id": "barramundi",
     "photo": "img/barramundi.webp",
-    "category": [
-      "sea",
+    "tags": [
       "brackish",
-      "fry",
-      "curry",
-      "popular"
+      "sea"
     ],
     "scientificName": "Lates calcarifer",
     "names": {
@@ -1903,10 +1860,8 @@
   {
     "id": "yellowfin-tuna",
     "photo": "img/yellowfin-tuna.webp",
-    "category": [
-      "sea",
-      "curry",
-      "fry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Thunnus albacares",
     "names": {
@@ -1993,10 +1948,8 @@
   {
     "id": "barracuda",
     "photo": "img/barracuda.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Sphyraena",
     "names": {
@@ -2081,10 +2034,8 @@
   {
     "id": "trevally",
     "photo": "img/trevally.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Caranx ignobilis",
     "names": {
@@ -2169,9 +2120,8 @@
   {
     "id": "sole-fish",
     "photo": "img/sole-fish.webp",
-    "category": [
-      "sea",
-      "fry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Cynoglossus",
     "names": {
@@ -2259,11 +2209,9 @@
   {
     "id": "milkfish",
     "photo": "img/milkfish.webp",
-    "category": [
-      "sea",
+    "tags": [
       "brackish",
-      "fry",
-      "curry"
+      "sea"
     ],
     "scientificName": "Chanos chanos",
     "names": {
@@ -2347,10 +2295,8 @@
   {
     "id": "squid",
     "photo": "img/squid.webp",
-    "category": [
-      "sea",
-      "fry",
-      "roast"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Loligo duvauceli",
     "names": {
@@ -2447,11 +2393,8 @@
   {
     "id": "murrel",
     "photo": "img/murrel.webp",
-    "category": [
-      "freshwater",
-      "curry",
-      "fry",
-      "medicinal"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Channa striata",
     "names": {
@@ -2539,10 +2482,8 @@
   {
     "id": "catfish",
     "photo": "img/catfish.webp",
-    "category": [
-      "freshwater",
-      "curry",
-      "fry"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Clarias batrachus",
     "names": {
@@ -2632,10 +2573,8 @@
   {
     "id": "bombay-duck",
     "photo": "img/bombay-duck.webp",
-    "category": [
-      "sea",
-      "fry",
-      "dry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Harpadon nehereus",
     "names": {
@@ -2721,11 +2660,8 @@
   {
     "id": "pink-perch",
     "photo": "img/pink-perch.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry",
-      "everyday"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Nemipterus japonicus",
     "names": {
@@ -2816,11 +2752,9 @@
   {
     "id": "clams",
     "photo": "img/clams.webp",
-    "category": [
-      "freshwater",
+    "tags": [
       "brackish",
-      "roast",
-      "curry"
+      "freshwater"
     ],
     "scientificName": "Villorita cyprinoides",
     "names": {
@@ -2907,10 +2841,8 @@
   {
     "id": "mussels",
     "photo": "img/mussels.webp",
-    "category": [
-      "sea",
-      "roast",
-      "fry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Perna viridis",
     "names": {
@@ -2999,10 +2931,8 @@
   {
     "id": "common-carp",
     "photo": "img/common-carp.webp",
-    "category": [
-      "freshwater",
-      "curry",
-      "fry"
+    "tags": [
+      "freshwater"
     ],
     "scientificName": "Cyprinus carpio",
     "names": {
@@ -3087,10 +3017,8 @@
   {
     "id": "emperor-fish",
     "photo": "img/emperor-fish.webp",
-    "category": [
-      "sea",
-      "fry",
-      "curry"
+    "tags": [
+      "sea"
     ],
     "scientificName": "Lethrinus nebulosus",
     "names": {
@@ -3176,7 +3104,7 @@
   {
     "id": "lobster",
     "photo": "img/lobster.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Nephropidae",
@@ -3258,7 +3186,7 @@
   {
     "id": "oyster",
     "photo": "img/oyster.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Ostreidae",
@@ -3338,7 +3266,7 @@
   {
     "id": "sea-bass",
     "photo": "img/sea-bass.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Lates calcarifer",
@@ -3418,7 +3346,7 @@
   {
     "id": "grouper",
     "photo": "img/grouper.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Epinephelinae",
@@ -3498,7 +3426,7 @@
   {
     "id": "cobia",
     "photo": "img/cobia.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Rachycentron canadum",
@@ -3578,7 +3506,7 @@
   {
     "id": "mahi-mahi",
     "photo": "img/mahi-mahi.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Coryphaena hippurus",
@@ -3658,7 +3586,7 @@
   {
     "id": "swordfish",
     "photo": "img/swordfish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Xiphias gladius",
@@ -3738,7 +3666,7 @@
   {
     "id": "stingray",
     "photo": "img/stingray.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Myliobatoidei",
@@ -3820,7 +3748,7 @@
   {
     "id": "silver-belly",
     "photo": "img/silver-belly.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Leiognathidae",
@@ -3900,7 +3828,7 @@
   {
     "id": "threadfin-bream",
     "photo": "img/threadfin-bream.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Nemipteridae",
@@ -3980,7 +3908,7 @@
   {
     "id": "ribbon-fish",
     "photo": "img/ribbon-fish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Trichiurus lepturus",
@@ -4060,7 +3988,7 @@
   {
     "id": "cuttlefish",
     "photo": "img/cuttlefish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Sepiida",
@@ -4142,7 +4070,7 @@
   {
     "id": "mud-crab",
     "photo": "img/mud-crab.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Scylla serrata",
@@ -4224,7 +4152,7 @@
   {
     "id": "tiger-prawn",
     "photo": "img/tiger-prawn.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Penaeus monodon",
@@ -4305,7 +4233,7 @@
   {
     "id": "scampi",
     "photo": "img/scampi.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Macrobrachium rosenbergii",
@@ -4385,7 +4313,7 @@
   {
     "id": "reef-cod",
     "photo": "img/reef-cod.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Epinephelus",
@@ -4465,7 +4393,7 @@
   {
     "id": "parrot-fish",
     "photo": "img/parrot-fish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Scaridae",
@@ -4545,7 +4473,7 @@
   {
     "id": "white-bait",
     "photo": "img/white-bait.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -4625,7 +4553,7 @@
   {
     "id": "indian-whiting",
     "photo": "img/indian-whiting.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -4705,7 +4633,7 @@
   {
     "id": "malabar-trevally",
     "photo": "img/malabar-trevally.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -4785,7 +4713,7 @@
   {
     "id": "giant-freshwater-prawn",
     "photo": "img/giant-freshwater-prawn.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -4865,7 +4793,7 @@
   {
     "id": "ponyfish",
     "photo": "img/ponyfish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -4945,7 +4873,7 @@
   {
     "id": "lizardfish",
     "photo": "img/lizardfish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5025,7 +4953,7 @@
   {
     "id": "flathead",
     "photo": "img/flathead.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5105,7 +5033,7 @@
   {
     "id": "goatfish",
     "photo": "img/goatfish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5185,7 +5113,7 @@
   {
     "id": "basa",
     "photo": "img/basa.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Pangasius bocourti",
@@ -5270,7 +5198,7 @@
   {
     "id": "pangasius",
     "photo": "img/pangasius.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5350,7 +5278,7 @@
   {
     "id": "grass-carp",
     "photo": "img/grass-carp.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5430,7 +5358,7 @@
   {
     "id": "silver-carp",
     "photo": "img/silver-carp.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5510,7 +5438,7 @@
   {
     "id": "walking-catfish",
     "photo": "img/walking-catfish.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5594,7 +5522,7 @@
   {
     "id": "climbing-perch",
     "photo": "img/climbing-perch.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Anabas testudineus",
@@ -5677,7 +5605,7 @@
   {
     "id": "gourami",
     "photo": "img/gourami.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5757,7 +5685,7 @@
   {
     "id": "featherback",
     "photo": "img/featherback.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5841,7 +5769,7 @@
   {
     "id": "eel",
     "photo": "img/eel.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -5921,7 +5849,7 @@
   {
     "id": "octopus",
     "photo": "img/octopus.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Octopoda",
@@ -6002,7 +5930,7 @@
   {
     "id": "scallops",
     "photo": "img/scallops.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6082,7 +6010,7 @@
   {
     "id": "periwinkle",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6162,7 +6090,7 @@
   {
     "id": "snail",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6242,7 +6170,7 @@
   {
     "id": "mudskipper",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6322,7 +6250,7 @@
   {
     "id": "mahseer",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6402,7 +6330,7 @@
   {
     "id": "himalayan-trout",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6482,7 +6410,7 @@
   {
     "id": "herring",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6562,7 +6490,7 @@
   {
     "id": "needlefish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6642,7 +6570,7 @@
   {
     "id": "halfbeak",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6722,7 +6650,7 @@
   {
     "id": "flying-fish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6802,7 +6730,7 @@
   {
     "id": "croaker",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6882,7 +6810,7 @@
   {
     "id": "ghol",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -6962,7 +6890,7 @@
   {
     "id": "threadfin",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7042,7 +6970,7 @@
   {
     "id": "queenfish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7122,7 +7050,7 @@
   {
     "id": "sailfish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7202,7 +7130,7 @@
   {
     "id": "marlin",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7282,7 +7210,7 @@
   {
     "id": "wahoo",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7362,7 +7290,7 @@
   {
     "id": "skipjack-tuna",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7442,7 +7370,7 @@
   {
     "id": "bonito",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7522,7 +7450,7 @@
   {
     "id": "turbot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7602,7 +7530,7 @@
   {
     "id": "flounder",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7682,7 +7610,7 @@
   {
     "id": "halibut",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7762,7 +7690,7 @@
   {
     "id": "red-mullet",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7842,7 +7770,7 @@
   {
     "id": "garfish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -7922,7 +7850,7 @@
   {
     "id": "tarpon",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8002,7 +7930,7 @@
   {
     "id": "tenpounder",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8082,7 +8010,7 @@
   {
     "id": "milk-shark",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Rhizoprionodon acutus",
@@ -8163,7 +8091,7 @@
   {
     "id": "hammerhead-shark",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8243,7 +8171,7 @@
   {
     "id": "guitarfish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8323,7 +8251,7 @@
   {
     "id": "sawfish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8403,7 +8331,7 @@
   {
     "id": "reef-shark",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8483,7 +8411,7 @@
   {
     "id": "tiger-shark",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",
@@ -8563,7 +8491,7 @@
   {
     "id": "blue-crab",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "Portunus pelagicus",
@@ -8644,7 +8572,7 @@
   {
     "id": "red-crab",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "sea"
     ],
     "scientificName": "N/A",

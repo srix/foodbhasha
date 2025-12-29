@@ -71,7 +71,7 @@ Each entry follows:
 {
   "id": "item-slug",
   "photo": "img/item.webp",
-  "category": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"]
+  "tags": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"]
   "scientificName": "Scientific Name",
   "names": {
     "english": ["Name 1", "Name 2"],
@@ -88,7 +88,7 @@ Each entry follows:
 * `photo` — local image path
 * `names` — object keys for each language
 * `names` — object keys for each language
-* `category` — array of tags used for filtering (see 6.2)
+* `tags` — array of tags used for filtering (see 6.2)
 
 ### **5.3 Data Completeness**
 * Ideally, all entries should have names in all 22 supported languages.

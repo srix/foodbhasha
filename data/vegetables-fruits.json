@@ -85,7 +85,7 @@
       ]
     },
     "scientificName": "Solanum tuberosum",
-    "category": [
+    "tags": [
       "root",
       "vegetable"
     ],
@@ -178,7 +178,7 @@
       ]
     },
     "scientificName": "Allium cepa",
-    "category": [
+    "tags": [
       "root",
       "vegetable"
     ],
@@ -271,8 +271,7 @@
       ]
     },
     "scientificName": "Solanum lycopersicum",
-    "category": [
-      "fruit-veg",
+    "tags": [
       "vegetable"
     ],
     "photo": "img/tomato.webp",
@@ -364,7 +363,7 @@
       ]
     },
     "scientificName": "Spinacia oleracea",
-    "category": [
+    "tags": [
       "leafy",
       "vegetable"
     ],
@@ -459,8 +458,7 @@
       ]
     },
     "scientificName": "Solanum melongena",
-    "category": [
-      "fruit-veg",
+    "tags": [
       "vegetable"
     ],
     "photo": "img/brinjal.webp",
@@ -552,7 +550,7 @@
       ]
     },
     "scientificName": "Mangifera indica",
-    "category": [
+    "tags": [
       "fruit"
     ],
     "photo": "img/mango.webp",
@@ -645,7 +643,7 @@
       ]
     },
     "scientificName": "Musa",
-    "category": [
+    "tags": [
       "fruit"
     ],
     "photo": "img/banana.webp",
@@ -737,7 +735,7 @@
       ]
     },
     "scientificName": "Artocarpus heterophyllus",
-    "category": [
+    "tags": [
       "fruit"
     ],
     "photo": "img/jackfruit.webp",
@@ -829,7 +827,7 @@
       ]
     },
     "scientificName": "Punica granatum",
-    "category": [
+    "tags": [
       "fruit"
     ],
     "photo": "img/pomegranate.webp",
@@ -921,7 +919,7 @@
       ]
     },
     "scientificName": "Malus domestica",
-    "category": [
+    "tags": [
       "fruit"
     ],
     "photo": "img/apple.webp",
@@ -930,7 +928,7 @@
   {
     "id": "okra",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Abelmoschus esculentus",
@@ -1021,7 +1019,7 @@
   {
     "id": "cauliflower",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica oleracea var. botrytis",
@@ -1110,7 +1108,7 @@
   {
     "id": "cabbage",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica oleracea var. capitata",
@@ -1199,7 +1197,7 @@
   {
     "id": "carrot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Daucus carota",
@@ -1289,7 +1287,7 @@
   {
     "id": "beetroot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Beta vulgaris",
@@ -1377,7 +1375,7 @@
   {
     "id": "radish",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Raphanus sativus",
@@ -1466,7 +1464,7 @@
   {
     "id": "bitter-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Momordica charantia",
@@ -1555,7 +1553,7 @@
   {
     "id": "bottle-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Lagenaria siceraria",
@@ -1645,7 +1643,7 @@
   {
     "id": "ridge-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Luffa acutangula",
@@ -1730,7 +1728,7 @@
   {
     "id": "snake-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Trichosanthes cucumerina",
@@ -1814,7 +1812,7 @@
   {
     "id": "pumpkin",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Cucurbita moschata",
@@ -1903,7 +1901,7 @@
   {
     "id": "cucumber",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Cucumis sativus",
@@ -1992,7 +1990,7 @@
   {
     "id": "drumstick",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Moringa oleifera",
@@ -2081,7 +2079,7 @@
   {
     "id": "beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Phaseolus vulgaris",
@@ -2161,7 +2159,7 @@
   {
     "id": "green-peas",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Pisum sativum",
@@ -2243,7 +2241,7 @@
   {
     "id": "garlic",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Allium sativum",
@@ -2334,7 +2332,7 @@
   {
     "id": "ginger",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Zingiber officinale",
@@ -2425,7 +2423,7 @@
   {
     "id": "green-chili",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Capsicum annuum",
@@ -2514,7 +2512,7 @@
   {
     "id": "coriander-leaves",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Coriandrum sativum",
@@ -2596,7 +2594,7 @@
   {
     "id": "mint-leaves",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Mentha",
@@ -2676,7 +2674,7 @@
   {
     "id": "curry-leaves",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Murraya koenigii",
@@ -2759,7 +2757,7 @@
   {
     "id": "papaya",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Carica papaya",
@@ -2841,7 +2839,7 @@
   {
     "id": "watermelon",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Citrullus lanatus",
@@ -2921,7 +2919,7 @@
   {
     "id": "pineapple",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Ananas comosus",
@@ -3001,7 +2999,7 @@
   {
     "id": "guava",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Psidium guajava",
@@ -3081,7 +3079,7 @@
   {
     "id": "orange",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Citrus x sinensis",
@@ -3161,7 +3159,7 @@
   {
     "id": "grapes",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Vitis vinifera",
@@ -3241,7 +3239,7 @@
   {
     "id": "lemon",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Citrus limon",
@@ -3321,7 +3319,7 @@
   {
     "id": "amla",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Phyllanthus emblica",
@@ -3401,7 +3399,7 @@
   {
     "id": "sweet-potato",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Ipomoea batatas",
@@ -3481,7 +3479,7 @@
   {
     "id": "tapioca",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Manihot esculenta",
@@ -3561,7 +3559,7 @@
   {
     "id": "yam",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Dioscorea",
@@ -3641,7 +3639,7 @@
   {
     "id": "colocasia",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Colocasia esculenta",
@@ -3725,7 +3723,7 @@
   {
     "id": "capsicum",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Capsicum anuum",
@@ -3805,7 +3803,7 @@
   {
     "id": "cluster-beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Cyamopsis tetragonoloba",
@@ -3885,7 +3883,7 @@
   {
     "id": "ivy-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Coccinia grandis",
@@ -3969,7 +3967,7 @@
   {
     "id": "fenugreek-leaves",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Trigonella foenum-graecum",
@@ -4049,7 +4047,7 @@
   {
     "id": "mustard-greens",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica juncea",
@@ -4129,7 +4127,7 @@
   {
     "id": "amaranth-leaves",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Amaranthus",
@@ -4209,7 +4207,7 @@
   {
     "id": "coconut",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Cocos nucifera",
@@ -4300,7 +4298,7 @@
   {
     "id": "muskmelon",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Cucumis melo",
@@ -4380,7 +4378,7 @@
   {
     "id": "custard-apple",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Annona squamosa",
@@ -4460,7 +4458,7 @@
   {
     "id": "sapota",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Manilkara zapota",
@@ -4540,7 +4538,7 @@
   {
     "id": "pear",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Pyrus",
@@ -4620,7 +4618,7 @@
   {
     "id": "plum",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Prunus domestica",
@@ -4700,7 +4698,7 @@
   {
     "id": "apricot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Prunus armeniaca",
@@ -4780,7 +4778,7 @@
   {
     "id": "peach",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Prunus persica",
@@ -4860,7 +4858,7 @@
   {
     "id": "lychee",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Litchi chinensis",
@@ -4940,7 +4938,7 @@
   {
     "id": "strawberry",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Fragaria x ananassa",
@@ -5020,7 +5018,7 @@
   {
     "id": "fig",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Ficus carica",
@@ -5100,7 +5098,7 @@
   {
     "id": "ash-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Benincasa hispida",
@@ -5185,7 +5183,7 @@
   {
     "id": "broad-beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Vicia faba",
@@ -5267,7 +5265,7 @@
   {
     "id": "french-beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Phaseolus vulgaris",
@@ -5349,7 +5347,7 @@
   {
     "id": "yardlong-beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Vigna unguiculata",
@@ -5431,7 +5429,7 @@
   {
     "id": "sword-beans",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -5511,7 +5509,7 @@
   {
     "id": "pointed-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Trichosanthes dioica",
@@ -5596,7 +5594,7 @@
   {
     "id": "spine-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Momordica dioica",
@@ -5680,7 +5678,7 @@
   {
     "id": "teasel-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Momordica subangulata",
@@ -5761,7 +5759,7 @@
   {
     "id": "apple-gourd",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -5841,7 +5839,7 @@
   {
     "id": "turnip",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica rapa",
@@ -5923,7 +5921,7 @@
   {
     "id": "kohlrabi",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica oleracea",
@@ -6004,7 +6002,7 @@
   {
     "id": "celery",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6084,7 +6082,7 @@
   {
     "id": "leek",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6164,7 +6162,7 @@
   {
     "id": "spring-onion",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Allium fistulosum",
@@ -6246,7 +6244,7 @@
   {
     "id": "banana-stem",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Musa",
@@ -6330,7 +6328,7 @@
   {
     "id": "banana-flower",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Musa",
@@ -6415,7 +6413,7 @@
   {
     "id": "bamboo-shoot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6495,7 +6493,7 @@
   {
     "id": "lotus-stem",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6575,7 +6573,7 @@
   {
     "id": "elephant-foot-yam",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Amorphophallus paeoniifolius",
@@ -6660,7 +6658,7 @@
   {
     "id": "chinese-potato",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6740,7 +6738,7 @@
   {
     "id": "purple-yam",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6820,7 +6818,7 @@
   {
     "id": "arrowroot",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6900,7 +6898,7 @@
   {
     "id": "mango-ginger",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -6980,7 +6978,7 @@
   {
     "id": "agathi-keerai",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7060,7 +7058,7 @@
   {
     "id": "ponnanganni-keerai",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7140,7 +7138,7 @@
   {
     "id": "manathakkali",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Solanum nigrum",
@@ -7222,7 +7220,7 @@
   {
     "id": "gongura",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Hibiscus sabdariffa",
@@ -7305,7 +7303,7 @@
   {
     "id": "bathua",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7385,7 +7383,7 @@
   {
     "id": "parsley",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7465,7 +7463,7 @@
   {
     "id": "basil",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7545,7 +7543,7 @@
   {
     "id": "lettuce",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7625,7 +7623,7 @@
   {
     "id": "broccoli",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7705,7 +7703,7 @@
   {
     "id": "zucchini",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7785,7 +7783,7 @@
   {
     "id": "red-cabbage",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7865,7 +7863,7 @@
   {
     "id": "baby-corn",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -7945,7 +7943,7 @@
   {
     "id": "sweet-corn",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8025,7 +8023,7 @@
   {
     "id": "button-mushroom",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8105,7 +8103,7 @@
   {
     "id": "oyster-mushroom",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8185,7 +8183,7 @@
   {
     "id": "wood-apple",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Limonia acidissima",
@@ -8267,7 +8265,7 @@
   {
     "id": "ice-apple",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Borassus flabellifer",
@@ -8349,7 +8347,7 @@
   {
     "id": "star-fruit",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Averrhoa carambola",
@@ -8431,7 +8429,7 @@
   {
     "id": "passion-fruit",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8511,7 +8509,7 @@
   {
     "id": "dragon-fruit",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8591,7 +8589,7 @@
   {
     "id": "kiwi",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8671,7 +8669,7 @@
   {
     "id": "mulberry",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8751,7 +8749,7 @@
   {
     "id": "jamun",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8831,7 +8829,7 @@
   {
     "id": "jackfruit-seeds",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Artocarpus heterophyllus",
@@ -8913,7 +8911,7 @@
   {
     "id": "raw-banana",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "N/A",
@@ -8993,7 +8991,7 @@
   {
     "id": "raw-mango",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Mangifera indica",
@@ -9075,7 +9073,7 @@
   {
     "id": "sundakkai",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Solanum torvum",
@@ -9156,7 +9154,7 @@
   {
     "id": "chayote",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Sechium edule",
@@ -9238,7 +9236,7 @@
   {
     "id": "chow-chow",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Sechium edule",
@@ -9319,7 +9317,7 @@
   {
     "id": "knol-khol",
     "photo": "img/placeholder.webp",
-    "category": [
+    "tags": [
       "vegetable"
     ],
     "scientificName": "Brassica oleracea var. gongylodes",
