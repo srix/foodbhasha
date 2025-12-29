@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         btnCustomizeCols.addEventListener('click', () => {
             colDialog.hidden = !colDialog.hidden;
+            btnCustomizeCols.setAttribute('aria-expanded', String(!colDialog.hidden));
             if (!colDialog.hidden) {
                 renderColumnSelector();
             }
@@ -84,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         btnCloseCols.addEventListener('click', () => {
             colDialog.hidden = true;
+            btnCustomizeCols.setAttribute('aria-expanded', 'false');
         });
     }
 

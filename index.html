@@ -28,15 +28,16 @@
         <div class="header-content">
             <h1>Indian Fish Name Guide</h1>
             <div class="search-container">
+                <label for="search-input" class="sr-only">Search fish names</label>
                 <input type="text" id="search-input" placeholder="Search fish, synonyms, or languages...">
                 <span class="search-icon">🔍</span>
             </div>
 
 
             <div id="view-controls">
-                <button id="btn-customize-cols" class="secondary-btn">🌐 Languages</button>
-                <div id="column-selector-dialog" hidden>
-                    <h3>Show Languages</h3>
+                <button id="btn-customize-cols" class="secondary-btn" aria-controls="column-selector-dialog" aria-expanded="false">🌐 Languages</button>
+                <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
+                    <h3 id="column-selector-title">Show Languages</h3>
                     <div id="column-checkboxes"></div>
                     <button id="btn-close-cols" class="secondary-btn">Done</button>
                 </div>
