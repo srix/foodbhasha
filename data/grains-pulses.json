@@ -39,33 +39,40 @@
         "Chal"
       ],
       "bodo": [
-        "-"
+        "माइरं",
+        "Mairong"
       ],
       "dogri": [
-        "-"
+        "चौल",
+        "Chaul"
       ],
       "gujarati": [
         "ચોખા",
         "Chokha"
       ],
       "kashmiri": [
-        "-"
+        "तॉमुल",
+        "Tomul"
       ],
       "konkani": [
-        "-"
+        "तांदूळ",
+        "Tandul"
       ],
       "maithili": [
-        "-"
+        "चाउर",
+        "Chaur"
       ],
       "manipuri": [
-        "-"
+        "চেং",
+        "Cheng"
       ],
       "marathi": [
         "तांदूळ",
         "Tandul"
       ],
       "nepali": [
-        "-"
+        "चामल",
+        "Chamal"
       ],
       "odia": [
         "ଚାଉଳ",
@@ -76,7 +83,8 @@
         "Chawal"
       ],
       "sanskrit": [
-        "-"
+        "तण्डुलम्",
+        "Tandulam"
       ],
       "santali": [
         "-"
@@ -132,10 +140,12 @@
         "Arhar Dal"
       ],
       "bodo": [
-        "-"
+        "रहर",
+        "Rahar"
       ],
       "dogri": [
-        "-"
+        "रहर",
+        "Rahar"
       ],
       "gujarati": [
         "તુવેર દાળ",
@@ -145,10 +155,12 @@
         "-"
       ],
       "konkani": [
-        "-"
+        "तोर",
+        "Tor"
       ],
       "maithili": [
-        "-"
+        "रहरि",
+        "Rahari"
       ],
       "manipuri": [
         "-"
@@ -158,7 +170,8 @@
         "Tur Dal"
       ],
       "nepali": [
-        "-"
+        "रहर",
+        "Rahar"
       ],
       "odia": [
         "ହରଡ ଡାଲି",
@@ -169,7 +182,8 @@
         "Arhar Dal"
       ],
       "sanskrit": [
-        "-"
+        "आढकी",
+        "Adhaki"
       ],
       "santali": [
         "-"
@@ -238,10 +252,12 @@
         "-"
       ],
       "konkani": [
-        "-"
+        "नाचणि",
+        "Nachni"
       ],
       "maithili": [
-        "-"
+        "मरुआ",
+        "Marua"
       ],
       "manipuri": [
         "-"
@@ -251,7 +267,8 @@
         "Nachni"
       ],
       "nepali": [
-        "-"
+        "कोदो",
+        "Kodo"
       ],
       "odia": [
         "ମାଣ୍ଡିଆ",
@@ -262,7 +279,8 @@
         "Mandua"
       ],
       "sanskrit": [
-        "-"
+        "मधूलिका",
+        "Madhulika"
       ],
       "santali": [
         "-"
@@ -318,33 +336,40 @@
         "Mashkalai Dal"
       ],
       "bodo": [
-        "-"
+        "मास",
+        "Mas"
       ],
       "dogri": [
-        "-"
+        "मांह",
+        "Maah"
       ],
       "gujarati": [
         "અડદ દાળ",
         "Adad Dal"
       ],
       "kashmiri": [
-        "-"
+        "माह",
+        "Maah"
       ],
       "konkani": [
-        "-"
+        "उदीद",
+        "Udid"
       ],
       "maithili": [
-        "-"
+        "कलाई",
+        "Kalai"
       ],
       "manipuri": [
-        "-"
+        "সগোল হৱাই",
+        "Sagol Hawai"
       ],
       "marathi": [
         "उडीद डाळ",
         "Udid Dal"
       ],
       "nepali": [
-        "-"
+        "मास",
+        "Maas"
       ],
       "odia": [
         "ବିରି ଡାଲି",
@@ -355,7 +380,8 @@
         "Maah Di Dal"
       ],
       "sanskrit": [
-        "-"
+        "माषः",
+        "Mashah"
       ],
       "santali": [
         "-"
@@ -382,17 +408,20 @@
         "Wheat"
       ],
       "assamese": [
-        "-"
+        "ঘেঁহু",
+        "Ghehu"
       ],
       "bengali": [
         "গম",
         "Gom"
       ],
       "bodo": [
-        "-"
+        "गहुं",
+        "Gahung"
       ],
       "dogri": [
-        "-"
+        "कनक",
+        "Kanak"
       ],
       "gujarati": [
         "ઘઉં",
@@ -407,27 +436,32 @@
         "Godhi"
       ],
       "kashmiri": [
-        "-"
+        "कनक",
+        "Kanak"
       ],
       "konkani": [
-        "-"
+        "गवं",
+        "Gavam"
       ],
       "maithili": [
-        "-"
+        "गहूम",
+        "Gahum"
       ],
       "malayalam": [
         "ഗോതമ്പ്",
         "Gothambu"
       ],
       "manipuri": [
-        "-"
+        "গেহু",
+        "Gehu"
       ],
       "marathi": [
         "गहू",
         "Gahu"
       ],
       "nepali": [
-        "-"
+        "गहुँ",
+        "Gahun"
       ],
       "odia": [
         "ଗହମ",
@@ -438,7 +472,8 @@
         "Kanak"
       ],
       "sanskrit": [
-        "-"
+        "गोधूमः",
+        "Godhumah"
       ],
       "santali": [
         "-"
@@ -473,17 +508,20 @@
         "Maize"
       ],
       "assamese": [
-        "-"
+        "মাকৈ",
+        "Makoi"
       ],
       "bengali": [
         "ভুট্টা",
         "Bhutta"
       ],
       "bodo": [
-        "-"
+        "गोम",
+        "Gom"
       ],
       "dogri": [
-        "-"
+        "मक्की",
+        "Makki"
       ],
       "gujarati": [
         "મકાઈ",
@@ -494,29 +532,36 @@
         "Makka"
       ],
       "kannada": [
-        "-"
+        "ಮುಸುಕಿನ ಜೋಳ",
+        "Musukina Jola"
       ],
       "kashmiri": [
-        "-"
+        "मक्कीय",
+        "Makkiy"
       ],
       "konkani": [
-        "-"
+        "मको",
+        "Mako"
       ],
       "maithili": [
-        "-"
+        "मक्काई",
+        "Makkai"
       ],
       "malayalam": [
-        "-"
+        "ചോളം",
+        "Cholam"
       ],
       "manipuri": [
-        "-"
+        "চুজাক",
+        "Chujak"
       ],
       "marathi": [
         "मका",
         "Maka"
       ],
       "nepali": [
-        "-"
+        "मकै",
+        "Makai"
       ],
       "odia": [
         "ମକା",
@@ -527,7 +572,8 @@
         "Makki"
       ],
       "sanskrit": [
-        "-"
+        "महायवः",
+        "Mahayavah"
       ],
       "santali": [
         "-"
@@ -540,7 +586,8 @@
         "Solam"
       ],
       "telugu": [
-        "-"
+        "మొక్కజొన్న",
+        "Mokkajonna"
       ],
       "urdu": [
         "مکئی",
@@ -561,55 +608,70 @@
         "Barley"
       ],
       "assamese": [
-        "-"
+        "বাৰ্লি",
+        "Barley"
       ],
       "bengali": [
-        "-"
+        "বার্লি",
+        "Barley"
       ],
       "bodo": [
         "-"
       ],
       "dogri": [
-        "-"
+        "जौ",
+        "Jau"
       ],
       "gujarati": [
-        "-"
+        "જવ",
+        "Jav"
       ],
       "hindi": [
-        "-"
+        "जौ",
+        "Jau"
       ],
       "kannada": [
-        "-"
+        "ಬಾರ್ಲಿ",
+        "Barley"
       ],
       "kashmiri": [
-        "-"
+        "वुश",
+        "Wush"
       ],
       "konkani": [
-        "-"
+        "बार्ली",
+        "Barley"
       ],
       "maithili": [
-        "-"
+        "जौ",
+        "Jau"
       ],
       "malayalam": [
-        "-"
+        "ബാർലി",
+        "Barley"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "जव",
+        "Jav"
       ],
       "nepali": [
-        "-"
+        "जौ",
+        "Jau"
       ],
       "odia": [
-        "-"
+        "ଯବ",
+        "Jaba"
       ],
       "punjabi": [
-        "-"
+        "ਜੌਂ",
+        "Jau"
       ],
       "sanskrit": [
-        "-"
+        "यवः",
+        "Yavah"
       ],
       "santali": [
         "-"
@@ -618,13 +680,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வார் கோதுமை",
+        "Var Godhumai"
       ],
       "telugu": [
-        "-"
+        "బార్లీ",
+        "Barley"
       ],
       "urdu": [
-        "-"
+        "جو",
+        "Jau"
       ]
     },
     "notes": "Rich in fiber, used in soups, stews, and beverages."
@@ -641,7 +706,8 @@
         "Jowar"
       ],
       "assamese": [
-        "-"
+        "জোৱাৰ",
+        "Jowar"
       ],
       "bengali": [
         "জোয়ার",
@@ -651,7 +717,8 @@
         "-"
       ],
       "dogri": [
-        "-"
+        "चरी",
+        "Chari"
       ],
       "gujarati": [
         "જુવાર",
@@ -662,16 +729,19 @@
         "Jowar"
       ],
       "kannada": [
-        "-"
+        "ಜೋಳ",
+        "Jola"
       ],
       "kashmiri": [
         "-"
       ],
       "konkani": [
-        "-"
+        "जोंधळो",
+        "Jondhalo"
       ],
       "maithili": [
-        "-"
+        "जनेर",
+        "Janer"
       ],
       "malayalam": [
         "ചോളം",
@@ -685,7 +755,8 @@
         "Jwari"
       ],
       "nepali": [
-        "-"
+        "जुनेलो",
+        "Junelo"
       ],
       "odia": [
         "ଜୁଆର",
@@ -696,7 +767,8 @@
         "Jowar"
       ],
       "sanskrit": [
-        "-"
+        "यवनालः",
+        "Yavanalah"
       ],
       "santali": [
         "-"
@@ -709,7 +781,8 @@
         "Cholam"
       ],
       "telugu": [
-        "-"
+        "జొన్నలు",
+        "Jonnalu"
       ],
       "urdu": [
         "جوار",
@@ -730,7 +803,8 @@
         "Bajra"
       ],
       "assamese": [
-        "-"
+        "বাজৰা",
+        "Bajra"
       ],
       "bengali": [
         "बाजरा",
@@ -740,7 +814,8 @@
         "-"
       ],
       "dogri": [
-        "-"
+        "बाजरा",
+        "Bajra"
       ],
       "gujarati": [
         "બાજરી",
@@ -751,16 +826,20 @@
         "Bajra"
       ],
       "kannada": [
-        "-"
+        "ಸಜ್ಜೆ",
+        "Sajje"
       ],
       "kashmiri": [
-        "-"
+        "बाज़र",
+        "Baazar"
       ],
       "konkani": [
-        "-"
+        "बाजरी",
+        "Bajri"
       ],
       "maithili": [
-        "-"
+        "बाजरा",
+        "Bajra"
       ],
       "malayalam": [
         "കമ്പം",
@@ -774,7 +853,8 @@
         "Bajri"
       ],
       "nepali": [
-        "-"
+        "बजा",
+        "Baja"
       ],
       "odia": [
         "ବାଜରା",
@@ -785,7 +865,8 @@
         "Bajra"
       ],
       "sanskrit": [
-        "-"
+        "प्रियंगुः",
+        "Priyanguh"
       ],
       "santali": [
         "-"
@@ -798,7 +879,8 @@
         "Kambu"
       ],
       "telugu": [
-        "-"
+        "సజ్జలు",
+        "Sajjalu"
       ],
       "urdu": [
         "باجرہ",
@@ -819,17 +901,20 @@
         "Masoor Dal"
       ],
       "assamese": [
-        "-"
+        "মচুৰ দাল",
+        "Masur Dal"
       ],
       "bengali": [
         "মুসুর ডাল",
         "Musur Dal"
       ],
       "bodo": [
-        "-"
+        "मसुर",
+        "Masur"
       ],
       "dogri": [
-        "-"
+        "मसूर",
+        "Masur"
       ],
       "gujarati": [
         "મસૂર દાળ",
@@ -840,30 +925,36 @@
         "Masoor Dal"
       ],
       "kannada": [
-        "-"
+        "ಮಸೂರ ಬೇಳೆ",
+        "Masoor Bele"
       ],
       "kashmiri": [
-        "-"
+        "मसु'र",
+        "Masur"
       ],
       "konkani": [
-        "-"
+        "मसुरा",
+        "Masura"
       ],
       "maithili": [
-        "-"
+        "मसुर",
+        "Masur"
       ],
       "malayalam": [
         "പരിപ്പ്",
         "Parippu"
       ],
       "manipuri": [
-        "-"
+        "মসুর",
+        "Masur"
       ],
       "marathi": [
         "मसूर डाळ",
         "Masur Dal"
       ],
       "nepali": [
-        "-"
+        "मुसुरो",
+        "Musuro"
       ],
       "odia": [
         "ମସୁର ଡାଲି",
@@ -874,7 +965,8 @@
         "Masar Dal"
       ],
       "sanskrit": [
-        "-"
+        "मसूरः",
+        "Masurah"
       ],
       "santali": [
         "-"
@@ -887,7 +979,8 @@
         "Mysore Paruppu"
       ],
       "telugu": [
-        "-"
+        "ఎర్ర కంది పప్పు",
+        "Erra Kandi Pappu"
       ],
       "urdu": [
         "مسور دال",
@@ -908,17 +1001,20 @@
         "Moong Dal"
       ],
       "assamese": [
-        "-"
+        "মগু দাল",
+        "Mogu Dal"
       ],
       "bengali": [
         "মুগ ডাল",
         "Mug Dal"
       ],
       "bodo": [
-        "-"
+        "मुग",
+        "Mug"
       ],
       "dogri": [
-        "-"
+        "मूँगी",
+        "Mungi"
       ],
       "gujarati": [
         "મગ દાળ",
@@ -929,30 +1025,36 @@
         "Moong Dal"
       ],
       "kannada": [
-        "-"
+        "ಹೆಸರು ಬೇಳೆ",
+        "Hesaru Bele"
       ],
       "kashmiri": [
-        "-"
+        "मुंग",
+        "Mung"
       ],
       "konkani": [
-        "-"
+        "मुग",
+        "Mug"
       ],
       "maithili": [
-        "-"
+        "मूँग",
+        "Moong"
       ],
       "malayalam": [
         "ചെറുപയർ",
         "Cherupayar"
       ],
       "manipuri": [
-        "-"
+        "মুক",
+        "Muk"
       ],
       "marathi": [
         "मूग डाळ",
         "Moog Dal"
       ],
       "nepali": [
-        "-"
+        "मुंग",
+        "Mung"
       ],
       "odia": [
         "ମୁଗ ଡାଲି",
@@ -963,7 +1065,8 @@
         "Moongi Dal"
       ],
       "sanskrit": [
-        "-"
+        "मुद्गः",
+        "Mudgah"
       ],
       "santali": [
         "-"
@@ -976,7 +1079,8 @@
         "Pasi Paruppu"
       ],
       "telugu": [
-        "-"
+        "పెసర పప్పు",
+        "Pesara Pappu"
       ],
       "urdu": [
         "مونگ دال",
@@ -997,17 +1101,20 @@
         "Chana Dal"
       ],
       "assamese": [
-        "-"
+        "বুটৰ দাল",
+        "Butor Dal"
       ],
       "bengali": [
         "ছোলার ডাল",
         "Cholar Dal"
       ],
       "bodo": [
-        "-"
+        "बुट",
+        "But"
       ],
       "dogri": [
-        "-"
+        "चने दी दाल",
+        "Chane Di Dal"
       ],
       "gujarati": [
         "ચણા દાળ",
@@ -1018,30 +1125,36 @@
         "Chana Dal"
       ],
       "kannada": [
-        "-"
+        "ಕಡಲೆ ಬೇಳೆ",
+        "Kadale Bele"
       ],
       "kashmiri": [
-        "-"
+        "छोल",
+        "Chol"
       ],
       "konkani": [
-        "-"
+        "चण्याची डाळ",
+        "Chanyachi Dal"
       ],
       "maithili": [
-        "-"
+        "बूटक दाल",
+        "Bootak Dal"
       ],
       "malayalam": [
         "കടല പരിപ്പ്",
         "Kadala Parippu"
       ],
       "manipuri": [
-        "-"
+        "চানা",
+        "Chana"
       ],
       "marathi": [
         "हरभरा डाळ",
         "Harbara Dal"
       ],
       "nepali": [
-        "-"
+        "चना दाल",
+        "Chana Dal"
       ],
       "odia": [
         "ବୁଟ ଡାଲି",
@@ -1052,7 +1165,8 @@
         "Chole Dal"
       ],
       "sanskrit": [
-        "-"
+        "चणकः",
+        "Chanakah"
       ],
       "santali": [
         "-"
@@ -1065,7 +1179,8 @@
         "Kadalai Paruppu"
       ],
       "telugu": [
-        "-"
+        "శనగ పప్పు",
+        "Senaga Pappu"
       ],
       "urdu": [
         "چنا دال",
@@ -1089,7 +1204,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কাবলি ছোলা",
+        "Kabuli Chola"
       ],
       "bodo": [
         "-"
@@ -1098,14 +1214,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કાબુલી ચણા",
+        "Kabuli Chana"
       ],
       "hindi": [
         "चना",
         "Chana"
       ],
       "kannada": [
-        "-"
+        "ಕಾಬೂಲ್ ಕಡಲೆ",
+        "Kabool Kadale"
       ],
       "kashmiri": [
         "-"
@@ -1124,16 +1242,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "काबुली चणा",
+        "Kabuli Chana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କାବୁଲି ବୁଟ",
+        "Kabuli Buta"
       ],
       "punjabi": [
-        "-"
+        "ਸਫੇਦ ਛੋਲੇ",
+        "Safed Choley"
       ],
       "sanskrit": [
         "-"
@@ -1149,10 +1270,12 @@
         "Kondaikadalai"
       ],
       "telugu": [
-        "-"
+        "కాబూలీ శనగలు",
+        "Kabuli Senagalu"
       ],
       "urdu": [
-        "-"
+        "کابلی چنا",
+        "Kabuli Chana"
       ]
     },
     "notes": "Kabuli Chana, used for Chole and Hummus."
@@ -1172,7 +1295,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কালো ছোলা",
+        "Kalo Chola"
       ],
       "bodo": [
         "-"
@@ -1181,13 +1305,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "દેશી ચણા",
+        "Deshi Chana"
       ],
       "hindi": [
-        "-"
+        "काला चना",
+        "Kala Chana"
       ],
       "kannada": [
-        "-"
+        "ಕರಿ ಕಡಲೆ",
+        "Kari Kadale"
       ],
       "kashmiri": [
         "-"
@@ -1199,22 +1326,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കറുത്ത കടല",
+        "Karutha Kadala"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "काळा चणा",
+        "Kala Chana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଦେଶୀ ବୁଟ",
+        "Desi Buta"
       ],
       "punjabi": [
-        "-"
+        "ਕਾਲੇ ਛੋਲੇ",
+        "Kale Choley"
       ],
       "sanskrit": [
         "-"
@@ -1226,13 +1357,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கருப்பு கொண்டைக்கடலை",
+        "Karuppu Kondaikadalai"
       ],
       "telugu": [
-        "-"
+        "నల్ల శనగలు",
+        "Nalla Senagalu"
       ],
       "urdu": [
-        "-"
+        "کالا چنا",
+        "Kala Chana"
       ]
     },
     "notes": "Kala Chana, rich in protein, used in curries."
@@ -1252,7 +1386,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "রাজমা",
+        "Rajma"
       ],
       "bodo": [
         "-"
@@ -1261,13 +1396,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "રાજમા",
+        "Rajma"
       ],
       "hindi": [
-        "-"
+        "राजमा",
+        "Rajma"
       ],
       "kannada": [
-        "-"
+        "ರಾಜ್ಮಾ",
+        "Rajma"
       ],
       "kashmiri": [
         "-"
@@ -1279,22 +1417,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "രാജ്മ",
+        "Rajma"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "राजमा",
+        "Rajma"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ରାଜମା",
+        "Rajma"
       ],
       "punjabi": [
-        "-"
+        "ਰਾਜਮਾਹ",
+        "Rajmah"
       ],
       "sanskrit": [
         "-"
@@ -1306,13 +1448,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "ராஜ்மா",
+        "Rajma"
       ],
       "telugu": [
-        "-"
+        "రాజ్మా",
+        "Rajma"
       ],
       "urdu": [
-        "-"
+        "راجما",
+        "Rajma"
       ]
     },
     "notes": "Rajma, popular in North Indian curries."
@@ -1332,7 +1477,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বড়বটি",
+        "Borboti"
       ],
       "bodo": [
         "-"
@@ -1341,14 +1487,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચોળા",
+        "Chola"
       ],
       "hindi": [
         "लोबिया",
         "Lobia"
       ],
       "kannada": [
-        "-"
+        "ಅಲಸಂದೆ",
+        "Alasande"
       ],
       "kashmiri": [
         "-"
@@ -1367,16 +1515,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "चवळी",
+        "Chavali"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଝୁଡ଼ଙ୍ଗ",
+        "Jhudanga"
       ],
       "punjabi": [
-        "-"
+        "ਰੌਂਗੀ",
+        "Rongi"
       ],
       "sanskrit": [
         "-"
@@ -1392,10 +1543,12 @@
         "Thatta Payiru"
       ],
       "telugu": [
-        "-"
+        "అలసందలు",
+        "Alasandalu"
       ],
       "urdu": [
-        "-"
+        "لوبیا",
+        "Lobia"
       ]
     },
     "notes": "Lobia, soft texture, used in curries."
@@ -1415,7 +1568,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মটর",
+        "Motor"
       ],
       "bodo": [
         "-"
@@ -1424,13 +1578,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "વટાણા",
+        "Vatana"
       ],
       "hindi": [
-        "-"
+        "सूखा मटर",
+        "Sookha Matar"
       ],
       "kannada": [
-        "-"
+        "ಬಟಾಣಿ",
+        "Batani"
       ],
       "kashmiri": [
         "-"
@@ -1442,22 +1599,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പട്ടാണി",
+        "Pattani"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "वाटाणा",
+        "Vatana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମଟର",
+        "Matar"
       ],
       "punjabi": [
-        "-"
+        "ਮਟਰ",
+        "Matar"
       ],
       "sanskrit": [
         "-"
@@ -1469,13 +1630,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பட்டாணி",
+        "Pattani"
       ],
       "telugu": [
-        "-"
+        "బటానీలు",
+        "Batanilu"
       ],
       "urdu": [
-        "-"
+        "مٹر",
+        "Matar"
       ]
     },
     "notes": "Used in curries like Matar Paneer."
@@ -1495,7 +1659,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সয়াবিন",
+        "Soyabean"
       ],
       "bodo": [
         "-"
@@ -1504,13 +1669,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સોયાબીન",
+        "Soyabean"
       ],
       "hindi": [
-        "-"
+        "सोयाबीन",
+        "Soyabean"
       ],
       "kannada": [
-        "-"
+        "ಸೋಯಾ ಅವರೇ",
+        "Soya Avare"
       ],
       "kashmiri": [
         "-"
@@ -1522,22 +1690,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "സോയാബീൻസ്",
+        "Soyabeans"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "सोयाबीन",
+        "Soyabean"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସୋୟାବିନ୍",
+        "Soyabean"
       ],
       "punjabi": [
-        "-"
+        "ਸੋਯਾਬੀਨ",
+        "Soyabean"
       ],
       "sanskrit": [
         "-"
@@ -1549,13 +1721,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சோயாபீன்ஸ்",
+        "Soyabeans"
       ],
       "telugu": [
-        "-"
+        "సోయాబీన్స్",
+        "Soyabeans"
       ],
       "urdu": [
-        "-"
+        "سویابین",
+        "Soyabean"
       ]
     },
     "notes": "High protein legume, used for chunks and milk."
@@ -1575,7 +1750,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কুর্তি কলাই",
+        "Kurti Kalai"
       ],
       "bodo": [
         "-"
@@ -1584,14 +1760,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કળથી",
+        "Kalthi"
       ],
       "hindi": [
         "कुलथी",
         "Kulthi"
       ],
       "kannada": [
-        "-"
+        "ಹುರುಳಿ",
+        "Huruli"
       ],
       "kashmiri": [
         "-"
@@ -1610,16 +1788,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "कुळीथ",
+        "Kulith"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କୋଳଥ",
+        "Kolatha"
       ],
       "punjabi": [
-        "-"
+        "ਕੁਲਥੀ",
+        "Kulthi"
       ],
       "sanskrit": [
         "-"
@@ -1639,7 +1820,8 @@
         "Ulavalu"
       ],
       "urdu": [
-        "-"
+        "کلتھی",
+        "Kulthi"
       ]
     },
     "notes": "Hardy legume, used for soup (Ras) and curries."
@@ -1659,7 +1841,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তিসি",
+        "Tisi"
       ],
       "bodo": [
         "-"
@@ -1668,14 +1851,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "અળસી",
+        "Alsi"
       ],
       "hindi": [
         "अलसी",
         "Alsi"
       ],
       "kannada": [
-        "-"
+        "ಅಗಸೆ ಬೀಜ",
+        "Agase Beeja"
       ],
       "kashmiri": [
         "-"
@@ -1687,22 +1872,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചണവിത്ത്",
+        "Chanavithu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "जवस",
+        "Javas"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପେଶୀ",
+        "Peshi"
       ],
       "punjabi": [
-        "-"
+        "ਅਲਸੀ",
+        "Alsi"
       ],
       "sanskrit": [
         "-"
@@ -1718,10 +1907,12 @@
         "Aali Vidhai"
       ],
       "telugu": [
-        "-"
+        "అవిసె గింజలు",
+        "Avise Ginjalu"
       ],
       "urdu": [
-        "-"
+        "السی",
+        "Alsi"
       ]
     },
     "notes": "Rich in Omega-3, used in chutneys and powders."
@@ -1741,7 +1932,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "তিল",
+        "Til"
       ],
       "bodo": [
         "-"
@@ -1750,13 +1942,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "તલ",
+        "Tal"
       ],
       "hindi": [
-        "-"
+        "तिल",
+        "Til"
       ],
       "kannada": [
-        "-"
+        "ಎಳ್ಳು",
+        "Ellu"
       ],
       "kashmiri": [
         "-"
@@ -1768,22 +1963,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "എള്ള്",
+        "Ellu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "तीळ",
+        "Til"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ରାଶି",
+        "Rashi"
       ],
       "punjabi": [
-        "-"
+        "ਤਿਲ",
+        "Til"
       ],
       "sanskrit": [
         "-"
@@ -1795,13 +1994,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "எள்",
+        "Ellu"
       ],
       "telugu": [
-        "-"
+        "నువ్వులు",
+        "Nuvvulu"
       ],
       "urdu": [
-        "-"
+        "تل",
+        "Til"
       ]
     },
     "notes": "Used in sweets (Til-Gud) and seasonings."
@@ -1821,7 +2023,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "চিনাবাদাম",
+        "Chinabadam"
       ],
       "bodo": [
         "-"
@@ -1830,14 +2033,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સીંગદાણા",
+        "Singdana"
       ],
       "hindi": [
         "मूंगफली",
         "Moongfali"
       ],
       "kannada": [
-        "-"
+        "ಕಡಲೆಕಾಯಿ",
+        "Kadalekayi"
       ],
       "kashmiri": [
         "-"
@@ -1856,16 +2061,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "शेंगदाणा",
+        "Shengdana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚିନାବାଦାମ",
+        "Chinabadam"
       ],
       "punjabi": [
-        "-"
+        "ਮੂੰਗਫਲੀ",
+        "Moongphali"
       ],
       "sanskrit": [
         "-"
@@ -1881,10 +2089,12 @@
         "Verkadalai"
       ],
       "telugu": [
-        "-"
+        "వేరుశనగ",
+        "Verusenaga"
       ],
       "urdu": [
-        "-"
+        "مونگ پھلی",
+        "Moongphali"
       ]
     },
     "notes": "Peanuts, used in Chutneys and snacks."
@@ -1904,7 +2114,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সাগু",
+        "Sagu"
       ],
       "bodo": [
         "-"
@@ -1913,14 +2124,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સાબુદાણા",
+        "Sabudana"
       ],
       "hindi": [
         "साबूदाना",
         "Sabudana"
       ],
       "kannada": [
-        "-"
+        "ಸಾಬಕ್ಕಿ",
+        "Sabakki"
       ],
       "kashmiri": [
         "-"
@@ -1939,16 +2152,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "साबुदाणा",
+        "Sabudana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସାଗୁ",
+        "Sagu"
       ],
       "punjabi": [
-        "-"
+        "ਸਾਬੂਦਾਣਾ",
+        "Sabudana"
       ],
       "sanskrit": [
         "-"
@@ -1964,10 +2180,12 @@
         "Javvarisi"
       ],
       "telugu": [
-        "-"
+        "సగ్గుబియ్యం",
+        "Saggubiyyam"
       ],
       "urdu": [
-        "-"
+        "ساگودانہ",
+        "Sabudana"
       ]
     },
     "notes": "Sabudana, used for Khichdi and Vada."
@@ -1987,7 +2205,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মাখনা",
+        "Makhana"
       ],
       "bodo": [
         "-"
@@ -1996,13 +2215,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મખાના",
+        "Makhana"
       ],
       "hindi": [
-        "-"
+        "मखाना",
+        "Makhana"
       ],
       "kannada": [
-        "-"
+        "ತಾವರೆ ಬೀಜ",
+        "Tavare Beeja"
       ],
       "kashmiri": [
         "-"
@@ -2014,22 +2236,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "താമര വിത്ത്",
+        "Thamara Vithu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मखाणे",
+        "Makhane"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମଖାନା",
+        "Makhana"
       ],
       "punjabi": [
-        "-"
+        "ਫੁੱਲ ਮਖਾਣਾ",
+        "Phool Makhana"
       ],
       "sanskrit": [
         "-"
@@ -2041,13 +2267,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "தாமரை விதை",
+        "Thamarai Vithai"
       ],
       "telugu": [
-        "-"
+        "తామర గింజలు",
+        "Tamara Ginjalu"
       ],
       "urdu": [
-        "-"
+        "مکھانے",
+        "Makhane"
       ]
     },
     "notes": "Makhana, puffed lotus seeds, healthy snack."
@@ -2067,7 +2296,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "চিঁড়ে",
+        "Chira"
       ],
       "bodo": [
         "-"
@@ -2076,14 +2306,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "પૌંઆ",
+        "Pauva"
       ],
       "hindi": [
         "पोहा",
         "Poha"
       ],
       "kannada": [
-        "-"
+        "ಅವಲಕ್ಕಿ",
+        "Avalakki"
       ],
       "kashmiri": [
         "-"
@@ -2095,22 +2327,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "അവിൽ",
+        "Avil"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पोहे",
+        "Pohe"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚୁଡା",
+        "Chuda"
       ],
       "punjabi": [
-        "-"
+        "ਚਿੜਵੜੇ",
+        "Chidvade"
       ],
       "sanskrit": [
         "-"
@@ -2126,10 +2362,12 @@
         "Aval"
       ],
       "telugu": [
-        "-"
+        "అటుకులు",
+        "Atukulu"
       ],
       "urdu": [
-        "-"
+        "پوہا",
+        "Poha"
       ]
     },
     "notes": "Flattened rice, popular breakfast dish."
@@ -2149,7 +2387,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সুজি",
+        "Suji"
       ],
       "bodo": [
         "-"
@@ -2158,13 +2397,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સોજી",
+        "Sooji"
       ],
       "hindi": [
-        "-"
+        "सूजी",
+        "Sooji"
       ],
       "kannada": [
-        "-"
+        "ರವೆ",
+        "Rave"
       ],
       "kashmiri": [
         "-"
@@ -2176,22 +2418,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "റവ",
+        "Rava"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "रवा",
+        "Rava"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସୁଜି",
+        "Suji"
       ],
       "punjabi": [
-        "-"
+        "ਸੂਜੀ",
+        "Sooji"
       ],
       "sanskrit": [
         "-"
@@ -2203,13 +2449,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "ரவை",
+        "Ravai"
       ],
       "telugu": [
-        "-"
+        "రవ్వ",
+        "Ravva"
       ],
       "urdu": [
-        "-"
+        "سوجی",
+        "Sooji"
       ]
     },
     "notes": "Rava or Sooji, used for Upma and Halwa."
@@ -2229,7 +2478,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সেমাই",
+        "Semai"
       ],
       "bodo": [
         "-"
@@ -2238,13 +2488,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સેવ",
+        "Sev"
       ],
       "hindi": [
-        "-"
+        "सेवई",
+        "Sevai"
       ],
       "kannada": [
-        "-"
+        "ಶಾವಿಗೆ",
+        "Shavige"
       ],
       "kashmiri": [
         "-"
@@ -2256,22 +2509,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "സേമിയ",
+        "Semiya"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "शेवया",
+        "Shevaya"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସିମେଇ",
+        "Simei"
       ],
       "punjabi": [
-        "-"
+        "ਸੇਵੀਆਂ",
+        "Seviyan"
       ],
       "sanskrit": [
         "-"
@@ -2283,13 +2540,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சேமியா",
+        "Semiya"
       ],
       "telugu": [
-        "-"
+        "సేమియా",
+        "Semiya"
       ],
       "urdu": [
-        "-"
+        "سیویاں",
+        "Seviyan"
       ]
     },
     "notes": "Semiya, used for Upma and Payasam."
@@ -2309,7 +2569,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "গুড়",
+        "Gur"
       ],
       "bodo": [
         "-"
@@ -2318,13 +2579,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ગોળ",
+        "Gol"
       ],
       "hindi": [
-        "-"
+        "गुड़",
+        "Gud"
       ],
       "kannada": [
-        "-"
+        "ಬೆಲ್ಲ",
+        "Bella"
       ],
       "kashmiri": [
         "-"
@@ -2336,22 +2600,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ശർക്കര",
+        "Sarkkara"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "गुळ",
+        "Gul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଗୁଡ",
+        "Guda"
       ],
       "punjabi": [
-        "-"
+        "ਗੁੜ",
+        "Gud"
       ],
       "sanskrit": [
         "-"
@@ -2363,13 +2631,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வெல்லம்",
+        "Vellam"
       ],
       "telugu": [
-        "-"
+        "బెల్లం",
+        "Bellam"
       ],
       "urdu": [
-        "-"
+        "گڑ",
+        "Gud"
       ]
     },
     "notes": "Unrefined cane sugar, traditional sweetener."
@@ -2389,7 +2660,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "চিয়া সিড",
+        "Chia Seed"
       ],
       "bodo": [
         "-"
@@ -2398,14 +2670,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચિયા સીડ્સ",
+        "Chia Seeds"
       ],
       "hindi": [
         "चिया बीज",
         "Chia Beej"
       ],
       "kannada": [
-        "-"
+        "ಚಿಯಾ ಬೀಜ",
+        "Chia Beeja"
       ],
       "kashmiri": [
         "-"
@@ -2417,22 +2691,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചിയ വിത്ത്",
+        "Chia Vithu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "चिया बिया",
+        "Chia Biya"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚିଆ ମଞ୍ଜି",
+        "Chia Manji"
       ],
       "punjabi": [
-        "-"
+        "ਚਿਆ ਬੀਜ",
+        "Chia Beej"
       ],
       "sanskrit": [
         "-"
@@ -2444,13 +2722,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சியா விதைகள்",
+        "Chia Vithaigal"
       ],
       "telugu": [
-        "-"
+        "చియా గింజలు",
+        "Chia Ginjalu"
       ],
       "urdu": [
-        "-"
+        "چیا بیج",
+        "Chia Beej"
       ]
     },
     "notes": "Superfood rich in fiber and antioxidants."
@@ -2470,7 +2751,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সূর্যমুখী বীজ",
+        "Surjamukhi Beej"
       ],
       "bodo": [
         "-"
@@ -2479,13 +2761,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સૂર્યમુખી ના બીજ",
+        "Suryamukhi Na Beej"
       ],
       "hindi": [
-        "-"
+        "सूरजमुखी के बीज",
+        "Surajmukhi Ke Beej"
       ],
       "kannada": [
-        "-"
+        "ಸೂರ್ಯಕಾಂತಿ ಬೀಜ",
+        "Suryakanthi Beeja"
       ],
       "kashmiri": [
         "-"
@@ -2497,22 +2782,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "സൂര്യകാന്തി വിത്ത്",
+        "Suryakanthi Vithu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "सूर्यफूल बिया",
+        "Suryaphool Biya"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସୂର୍ଯ୍ୟମୁଖୀ ମଞ୍ଜି",
+        "Surjyamukhi Manji"
       ],
       "punjabi": [
-        "-"
+        "ਸੂਰਜਮੁਖੀ ਦੇ ਬੀਜ",
+        "Surajmukhi De Beej"
       ],
       "sanskrit": [
         "-"
@@ -2524,13 +2813,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சூரியகாந்தி விதைகள்",
+        "Suriyakanthi Vithaigal"
       ],
       "telugu": [
-        "-"
+        "పొద్దుతిరుగుడు గింజలు",
+        "Poddutirugudu Ginjalu"
       ],
       "urdu": [
-        "-"
+        "سورج مکھی کے بیج",
+        "Suraj Mukhi Ke Beej"
       ]
     },
     "notes": "Healthy snack seeds."
@@ -2550,7 +2842,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কুমড়ো বীজ",
+        "Kumro Beej"
       ],
       "bodo": [
         "-"
@@ -2559,13 +2852,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કોળા ના બીજ",
+        "Kola Na Beej"
       ],
       "hindi": [
-        "-"
+        "कद्दू के बीज",
+        "Kaddu Ke Beej"
       ],
       "kannada": [
-        "-"
+        "ಕುಂಬಳಕಾಯಿ ಬೀಜ",
+        "Kumbalakayi Beeja"
       ],
       "kashmiri": [
         "-"
@@ -2577,22 +2873,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മത്തങ്ങ വിത്ത്",
+        "Mathanga Vithu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "भोपळ्याच्या बिया",
+        "Bhoplyachya Biya"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କଖାରୁ ମଞ୍ଜି",
+        "Kakharu Manji"
       ],
       "punjabi": [
-        "-"
+        "ਕੱਦੂ ਦੇ ਬੀਜ",
+        "Kaddu De Beej"
       ],
       "sanskrit": [
         "-"
@@ -2604,13 +2904,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பூசணி விதைகள்",
+        "Poosani Vithaigal"
       ],
       "telugu": [
-        "-"
+        "గుమ్మడి గింజలు",
+        "Gummadi Ginjalu"
       ],
       "urdu": [
-        "-"
+        "کدو کے بیج",
+        "Kaddu Ke Beej"
       ]
     },
     "notes": "Rich in magnesium and zinc."
@@ -2630,7 +2933,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কুইনোয়া",
+        "Quinoa"
       ],
       "bodo": [
         "-"
@@ -2639,13 +2943,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ક્વિનોઆ",
+        "Quinoa"
       ],
       "hindi": [
-        "-"
+        "क्विनोआ",
+        "Quinoa"
       ],
       "kannada": [
-        "-"
+        "ನವಣೆ",
+        "Navane"
       ],
       "kashmiri": [
         "-"
@@ -2657,22 +2964,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കിനോവ",
+        "Quinoa"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "क्विनोआ",
+        "Quinoa"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କ୍ୱିନୋଆ",
+        "Quinoa"
       ],
       "punjabi": [
-        "-"
+        "ਕਵਿਨੋਆ",
+        "Quinoa"
       ],
       "sanskrit": [
         "-"
@@ -2684,13 +2995,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "திணை",
+        "Thinai"
       ],
       "telugu": [
-        "-"
+        "కొర్రలు",
+        "Korralu"
       ],
       "urdu": [
-        "-"
+        "کوinoa",
+        "Quinoa"
       ]
     },
     "notes": "Complete protein grain, gluten-free."
@@ -2710,7 +3024,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ওটস",
+        "Oats"
       ],
       "bodo": [
         "-"
@@ -2719,13 +3034,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ઓટ્સ",
+        "Oats"
       ],
       "hindi": [
-        "-"
+        "जई",
+        "Jai"
       ],
       "kannada": [
-        "-"
+        "ಓಟ್ಸ್",
+        "Oats"
       ],
       "kashmiri": [
         "-"
@@ -2737,22 +3055,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഓട്സ്",
+        "Oats"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "ओट्स",
+        "Oats"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଓଟ୍ସ",
+        "Oats"
       ],
       "punjabi": [
-        "-"
+        "ਓਟਸ",
+        "Oats"
       ],
       "sanskrit": [
         "-"
@@ -2764,13 +3086,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "ஓட்ஸ்",
+        "Oats"
       ],
       "telugu": [
-        "-"
+        "ఓట్స్",
+        "Oats"
       ],
       "urdu": [
-        "-"
+        "جई",
+        "Jai"
       ]
     },
     "notes": "High fiber cereal, good for breakfast porridge."
@@ -2790,7 +3115,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বাকহুইট",
+        "Buckwheat"
       ],
       "bodo": [
         "-"
@@ -2799,13 +3125,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કુટ્ટુ",
+        "Kuttu"
       ],
       "hindi": [
-        "-"
+        "कुट्टू",
+        "Kuttu"
       ],
       "kannada": [
-        "-"
+        "ಕುಟ್ಟು",
+        "Kuttu"
       ],
       "kashmiri": [
         "-"
@@ -2817,22 +3146,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ബക്ക്വീറ്റ്",
+        "Buckwheat"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कुट्टू",
+        "Kuttu"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କୁଟ୍ଟୁ",
+        "Kuttu"
       ],
       "punjabi": [
-        "-"
+        "ਕੁੱਟੂ",
+        "Kuttu"
       ],
       "sanskrit": [
         "-"
@@ -2844,13 +3177,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பக்வீட்",
+        "Buckwheat"
       ],
       "telugu": [
-        "-"
+        "బక్వీట్",
+        "Buckwheat"
       ],
       "urdu": [
-        "-"
+        "کٹو",
+        "Kuttu"
       ]
     },
     "notes": "Kuttu, consumed during fasting (Vrat)."
@@ -2870,7 +3206,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ঢেঁকি ছাঁটা চাল",
+        "Dhenki Chata Chal"
       ],
       "bodo": [
         "-"
@@ -2879,14 +3216,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બ્રાઉન રાઈસ",
+        "Brown Rice"
       ],
       "hindi": [
         "ब्राउन राइस",
         "Brown Rice"
       ],
       "kannada": [
-        "-"
+        "ಕೆಂಪಕ್ಕಿ",
+        "Kempakki"
       ],
       "kashmiri": [
         "-"
@@ -2898,22 +3237,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "തവിടുള്ള അരി",
+        "Thavidulla Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "ब्राउन राइस",
+        "Brown Rice"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ନାଲି ଚାଉଳ",
+        "Nali Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਬ੍ਰਾਉਨ ਚਾਵਲ",
+        "Brown Chawal"
       ],
       "sanskrit": [
         "-"
@@ -2929,10 +3272,12 @@
         "Kaikuthal Arisi"
       ],
       "telugu": [
-        "-"
+        "ముడి బియ్యం",
+        "Mudi Biyyam"
       ],
       "urdu": [
-        "-"
+        "براؤن چاول",
+        "Brown Chawal"
       ]
     },
     "notes": "Whole grain rice with bran layer intact."
@@ -2952,7 +3297,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বাসমতি চাল",
+        "Basmati Chal"
       ],
       "bodo": [
         "-"
@@ -2961,14 +3307,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બાસમતી ચોખા",
+        "Basmati Chokha"
       ],
       "hindi": [
         "बासमती",
         "Basmati"
       ],
       "kannada": [
-        "-"
+        "ಬಾಸುಮತಿ ಅಕ್ಕಿ",
+        "Basumati Akki"
       ],
       "kashmiri": [
         "-"
@@ -2980,22 +3328,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ബസ്മതി അരി",
+        "Basmati Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बासमती तांदूळ",
+        "Basmati Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବାସୁମତୀ ଚାଉଳ",
+        "Basumati Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਬਾਸਮਤੀ ਚਾਵਲ",
+        "Basmati Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3007,13 +3359,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பாசுமதி அரிசி",
+        "Basmati Arisi"
       ],
       "telugu": [
-        "-"
+        "బాస్మతి బియ్యం",
+        "Basmati Biyyam"
       ],
       "urdu": [
-        "-"
+        "باسمتی چاول",
+        "Basmati Chawal"
       ]
     },
     "notes": "Aromatic long-grain rice for Biryani."
@@ -3033,7 +3388,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জেসমিন চাল",
+        "Jasmine Chal"
       ],
       "bodo": [
         "-"
@@ -3042,13 +3398,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "જાસ્મીન ચોખા",
+        "Jasmine Chokha"
       ],
       "hindi": [
-        "-"
+        "जैस्मिन चावल",
+        "Jasmine Chawal"
       ],
       "kannada": [
-        "-"
+        "ಜಾಸ್ಮಿನ್ ಅಕ್ಕಿ",
+        "Jasmine Akki"
       ],
       "kashmiri": [
         "-"
@@ -3060,22 +3419,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ജാസ്മിൻ അരി",
+        "Jasmine Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "जस्मिन तांदूळ",
+        "Jasmine Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଜସ୍ମିନ୍ ଚାଉଳ",
+        "Jasmine Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਜੈਸਮੀਨ ਚਾਵਲ",
+        "Jasmine Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3087,13 +3450,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மல்லிகை அரிசி",
+        "Malligai Arisi"
       ],
       "telugu": [
-        "-"
+        "జాస్మిన్ రైస్",
+        "Jasmine Rice"
       ],
       "urdu": [
-        "-"
+        "جیسمین چاول",
+        "Jasmine Chawal"
       ]
     },
     "notes": "Slightly sticky aromatic rice."
@@ -3113,7 +3479,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সোনা মাসুরি",
+        "Sona Masoori"
       ],
       "bodo": [
         "-"
@@ -3122,13 +3489,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સોના મસુરી",
+        "Sona Masoori"
       ],
       "hindi": [
-        "-"
+        "सोना मसूरी",
+        "Sona Masoori"
       ],
       "kannada": [
-        "-"
+        "ಸೋನಾ ಮಸೂರಿ",
+        "Sona Masoori"
       ],
       "kashmiri": [
         "-"
@@ -3140,22 +3510,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "സോനാ മസൂരി",
+        "Sona Masoori"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "सोना मसुरी",
+        "Sona Masoori"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସୋନା ମସୁରୀ",
+        "Sona Masoori"
       ],
       "punjabi": [
-        "-"
+        "ਸੋਨਾ ਮਸੂਰੀ",
+        "Sona Masoori"
       ],
       "sanskrit": [
         "-"
@@ -3167,13 +3541,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சோனா மசூரி",
+        "Sona Masoori"
       ],
       "telugu": [
-        "-"
+        "సోనా మసూరి",
+        "Sona Masoori"
       ],
       "urdu": [
-        "-"
+        "سونا مسوری",
+        "Sona Masoori"
       ]
     },
     "notes": "Medium-grain rice, popular in South India."
@@ -3193,7 +3570,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সেদ্ধ চাল",
+        "Siddha Chal"
       ],
       "bodo": [
         "-"
@@ -3202,13 +3580,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બરછટ ચોખા",
+        "Barchat Chokha"
       ],
       "hindi": [
-        "-"
+        "उसना चावल",
+        "Usna Chawal"
       ],
       "kannada": [
-        "-"
+        "ಕುಸುಬಲಕ್ಕಿ",
+        "Kusubalakki"
       ],
       "kashmiri": [
         "-"
@@ -3220,22 +3601,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പുഴുക്കലരി",
+        "Puzhukkalari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "उकडा तांदूळ",
+        "Ukada Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଉଷୁନା ଚାଉଳ",
+        "Usuna Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਸੇਲਾ ਚਾਵਲ",
+        "Sela Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3247,13 +3632,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "புழுங்கல் அரிசி",
+        "Puzhungal Arisi"
       ],
       "telugu": [
-        "-"
+        "ఉప్పుడు బియ్యం",
+        "Uppudu Biyyam"
       ],
       "urdu": [
-        "-"
+        "سیلہ چاول",
+        "Sela Chawal"
       ]
     },
     "notes": "Partially boiled in husk, nutritious."
@@ -3273,7 +3661,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "লাল চাল",
+        "Lal Chal"
       ],
       "bodo": [
         "-"
@@ -3282,13 +3671,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "લાલ ચોખા",
+        "Lal Chokha"
       ],
       "hindi": [
-        "-"
+        "लाल चावल",
+        "Lal Chawal"
       ],
       "kannada": [
-        "-"
+        "ಕೆಂಪಕ್ಕಿ",
+        "Kempakki"
       ],
       "kashmiri": [
         "-"
@@ -3307,16 +3699,19 @@
         "-"
       ],
       "marathi": [
-        "-"
+        "लाल तांदूळ",
+        "Lal Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ନାଲି ଚାଉଳ",
+        "Nali Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਲਾਲ ਚਾਵਲ",
+        "Lal Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3332,10 +3727,12 @@
         "Sigappu Arisi"
       ],
       "telugu": [
-        "-"
+        "ఎర్ర బియ్యం",
+        "Erra Biyyam"
       ],
       "urdu": [
-        "-"
+        "لال چاول",
+        "Lal Chawal"
       ]
     },
     "notes": "Rich in antioxidants, staple in Kerala/Konkan."
@@ -3355,7 +3752,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "কালো চাল",
+        "Kalo Chal"
       ],
       "bodo": [
         "-"
@@ -3364,13 +3762,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કાળા ચોખા",
+        "Kala Chokha"
       ],
       "hindi": [
-        "-"
+        "काला चावल",
+        "Kala Chawal"
       ],
       "kannada": [
-        "-"
+        "ಕಪ್ಪು ಅಕ್ಕಿ",
+        "Kappu Akki"
       ],
       "kashmiri": [
         "-"
@@ -3382,22 +3783,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കറുത്ത അരി",
+        "Karutha Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "काळा तांदूळ",
+        "Kala Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "କଳା ଚାଉଳ",
+        "Kala Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਕਾਲੇ ਚਾਵਲ",
+        "Kale Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3409,13 +3814,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கருப்பு கவும் அரிசி",
+        "Karuppu Kavuni Arisi"
       ],
       "telugu": [
-        "-"
+        "నల్ల బియ్యం",
+        "Nalla Biyyam"
       ],
       "urdu": [
-        "-"
+        "کالا چاول",
+        "Kala Chawal"
       ]
     },
     "notes": "Forbidden rice, high in anthocyanins."
@@ -3435,7 +3843,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "আঠালো চাল",
+        "Athalo Chal"
       ],
       "bodo": [
         "-"
@@ -3444,13 +3853,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચીકણા ચોખા",
+        "Chikna Chokha"
       ],
       "hindi": [
-        "-"
+        "चिपचिपा चावल",
+        "Chipchipa Chawal"
       ],
       "kannada": [
-        "-"
+        "ಅಂಟು ಅಕ್ಕಿ",
+        "Antu Akki"
       ],
       "kashmiri": [
         "-"
@@ -3462,22 +3874,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പശയുള്ള അരി",
+        "Pashayulla Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "चिकट तांदूळ",
+        "Chikat Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଅଠାଳିଆ ଚାଉଳ",
+        "Athalia Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਚਿਪਚਿਪੇ ਚਾਵਲ",
+        "Chipchipe Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3489,13 +3905,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பிசுபிசுப்பான அரிசி",
+        "Pisupisuppana Arisi"
       ],
       "telugu": [
-        "-"
+        "జిగురు బియ్యం",
+        "Jiguru Biyyam"
       ],
       "urdu": [
-        "-"
+        "چپچپا چاول",
+        "Chipchipa Chawal"
       ]
     },
     "notes": "Sticky rice used in Asian desserts."
@@ -3515,7 +3934,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মুড়ি",
+        "Muri"
       ],
       "bodo": [
         "-"
@@ -3524,14 +3944,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મમરા",
+        "Mamra"
       ],
       "hindi": [
         "मुरमुरा",
         "Murmura"
       ],
       "kannada": [
-        "-"
+        "ಪುರಿ",
+        "Puri"
       ],
       "kashmiri": [
         "-"
@@ -3543,22 +3965,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മലർ",
+        "Malar"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "चुरमुरे",
+        "Churmure"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମୁଢି",
+        "Mudhi"
       ],
       "punjabi": [
-        "-"
+        "ਮੁਰਮੁਰਾ",
+        "Murmura"
       ],
       "sanskrit": [
         "-"
@@ -3574,10 +4000,12 @@
         "Pori"
       ],
       "telugu": [
-        "-"
+        "మరమరాలు",
+        "Maramaralu"
       ],
       "urdu": [
-        "-"
+        "مرمرا",
+        "Murmura"
       ]
     },
     "notes": "Murmura, used for Bhel Puri."
@@ -3597,7 +4025,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ইডলি চাল",
+        "Idli Chal"
       ],
       "bodo": [
         "-"
@@ -3606,13 +4035,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ઈડલી ચોખા",
+        "Idli Chokha"
       ],
       "hindi": [
-        "-"
+        "इडली चावल",
+        "Idli Chawal"
       ],
       "kannada": [
-        "-"
+        "ಇಡ್ಲಿ ಅಕ್ಕಿ",
+        "Idli Akki"
       ],
       "kashmiri": [
         "-"
@@ -3624,22 +4056,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഇഡ്ഡലി അരി",
+        "Idli Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "इडली तांदूळ",
+        "Idli Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଇଡଲି ଚାଉଳ",
+        "Idli Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਇਡਲੀ ਚਾਵਲ",
+        "Idli Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3655,10 +4091,12 @@
         "Idli Arisi"
       ],
       "telugu": [
-        "-"
+        "ఇడ్లీ బియ్యం",
+        "Idli Biyyam"
       ],
       "urdu": [
-        "-"
+        "اڈلی چاول",
+        "Idli Chawal"
       ]
     },
     "notes": "Parboiled rice specifically for Idli batter."
@@ -3678,7 +4116,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মট্টা চাল",
+        "Matta Chal"
       ],
       "bodo": [
         "-"
@@ -3687,13 +4126,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મટ્ટા ચોખા",
+        "Matta Chokha"
       ],
       "hindi": [
-        "-"
+        "मट्टा चावल",
+        "Matta Chawal"
       ],
       "kannada": [
-        "-"
+        "ಮಟ್ಟಾ ಅಕ್ಕಿ",
+        "Matta Akki"
       ],
       "kashmiri": [
         "-"
@@ -3705,22 +4147,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മട്ട അരി",
+        "Matta Ari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मट्टा तांदूळ",
+        "Matta Tandul"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମଟ୍ଟା ଚାଉଳ",
+        "Matta Chaula"
       ],
       "punjabi": [
-        "-"
+        "ਮਟਾ ਚਾਵਲ",
+        "Matta Chawal"
       ],
       "sanskrit": [
         "-"
@@ -3732,13 +4178,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மட்டா அரிசி",
+        "Matta Arisi"
       ],
       "telugu": [
-        "-"
+        "మట్టా బియ్యం",
+        "Matta Biyyam"
       ],
       "urdu": [
-        "-"
+        "مٹا چاول",
+        "Matta Chawal"
       ]
     },
     "notes": "Kerala red rice, robust flavor."
@@ -3758,7 +4207,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "আস্ত গম",
+        "Asto Gom"
       ],
       "bodo": [
         "-"
@@ -3767,13 +4217,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "આખા ઘઉં",
+        "Aakkha Ghau"
       ],
       "hindi": [
-        "-"
+        "साबुत गेहूं",
+        "Sabut Gehu"
       ],
       "kannada": [
-        "-"
+        "ಪೂರ್ಣ ಗೋಧಿ",
+        "Poorna Godhi"
       ],
       "kashmiri": [
         "-"
@@ -3785,22 +4238,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മുഴുവൻ ഗോതമ്പ്",
+        "Muzhuvan Gothambu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "अख्खा गहू",
+        "Akhkha Gahu"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଗୋଟା ଗହମ",
+        "Gota Gahama"
       ],
       "punjabi": [
-        "-"
+        "ਸਾਬਤ ਕਣਕ",
+        "Sabut Kanak"
       ],
       "sanskrit": [
         "-"
@@ -3812,13 +4269,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "முழு கோதுமை",
+        "Muzhu Godhumai"
       ],
       "telugu": [
-        "-"
+        "పూర్తి గోధుమ",
+        "Poorthi Godhuma"
       ],
       "urdu": [
-        "-"
+        "ثابت گندم",
+        "Sabut Gandum"
       ]
     },
     "notes": "Used for making Atta flour."
@@ -3838,7 +4298,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "দালিয়া",
+        "Dalia"
       ],
       "bodo": [
         "-"
@@ -3847,13 +4308,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ફાડા",
+        "Fada"
       ],
       "hindi": [
-        "-"
+        "दलिया",
+        "Dalia"
       ],
       "kannada": [
-        "-"
+        "ಕದಿ",
+        "Kadi"
       ],
       "kashmiri": [
         "-"
@@ -3865,22 +4329,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഗോതമ്പ് നുറുക്ക്",
+        "Gothambu Nurukku"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "लापशी",
+        "Lapshi"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଦଲିଆ",
+        "Dalia"
       ],
       "punjabi": [
-        "-"
+        "ਦਲੀਆ",
+        "Daliya"
       ],
       "sanskrit": [
         "-"
@@ -3892,13 +4360,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கோதுமை ரவை",
+        "Godhumai Ravai"
       ],
       "telugu": [
-        "-"
+        "గోధుమ రవ్వ",
+        "Godhuma Ravva"
       ],
       "urdu": [
-        "-"
+        "دلیا",
+        "Dalia"
       ]
     },
     "notes": "Dalia, used for porridge and Upma."
@@ -3918,7 +4389,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ময়দা",
+        " ময়দা"
       ],
       "bodo": [
         "-"
@@ -3927,13 +4399,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મેંદો",
+        "Mendo"
       ],
       "hindi": [
-        "-"
+        "मैदा",
+        "Maida"
       ],
       "kannada": [
-        "-"
+        "ಮೈದಾ",
+        "Maida"
       ],
       "kashmiri": [
         "-"
@@ -3945,22 +4420,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മൈദ",
+        "Maida"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मैदा",
+        "Maida"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମଇଦା",
+        "Maida"
       ],
       "punjabi": [
-        "-"
+        "ਮੈਦਾ",
+        "Maida"
       ],
       "sanskrit": [
         "-"
@@ -3972,13 +4451,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மைதா",
+        "Maida"
       ],
       "telugu": [
-        "-"
+        "మైదా",
+        "Maida"
       ],
       "urdu": [
-        "-"
+        "میدہ",
+        "Maida"
       ]
     },
     "notes": "Refined wheat flour for Naan and pastries."
@@ -3998,7 +4480,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ভুট্টার আটা",
+        "Bhuttar Ata"
       ],
       "bodo": [
         "-"
@@ -4007,13 +4490,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "કોર્ન ફ્લોર",
+        "Corn Flour"
       ],
       "hindi": [
-        "-"
+        "कॉर्न फ्लोर",
+        "Corn Flour"
       ],
       "kannada": [
-        "-"
+        "ಜೋಳದ ಹಿಟ್ಟು",
+        "Jolada Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4025,22 +4511,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചോളം പൊടി",
+        "Cholam Podi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "कॉर्न फ्लोर",
+        "Corn Flour"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମକା ଅଟା",
+        "Maka Ata"
       ],
       "punjabi": [
-        "-"
+        "ਕੌਰਨ ਫਲੋਰ",
+        "Corn Flour"
       ],
       "sanskrit": [
         "-"
@@ -4052,13 +4542,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சோள மாவு",
+        "Chola Maavu"
       ],
       "telugu": [
-        "-"
+        "మొక్కజొన్న పిండి",
+        "Mokkajonna Pindi"
       ],
       "urdu": [
-        "-"
+        "کارن فلور",
+        "Corn Flour"
       ]
     },
     "notes": "Starch thickening agent."
@@ -4078,7 +4571,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "চালের গুঁড়ো",
+        "Chaler Guro"
       ],
       "bodo": [
         "-"
@@ -4087,13 +4581,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચોખાનો લોટ",
+        "Chokhano Lot"
       ],
       "hindi": [
-        "-"
+        "चावल का आटा",
+        "Chawal Ka Atta"
       ],
       "kannada": [
-        "-"
+        "ಅಕ್ಕಿ ಹಿಟ್ಟು",
+        "Akki Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4105,22 +4602,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "അരിപ്പൊടി",
+        "Arippodi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "तांदळाचे पीठ",
+        "Tandlache Peeth"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଚାଉଳ ଚୁନା",
+        "Chaula Chuna"
       ],
       "punjabi": [
-        "-"
+        "ਚਾਵਲ ਦਾ ਆਟਾ",
+        "Chawal Da Atta"
       ],
       "sanskrit": [
         "-"
@@ -4132,13 +4633,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "அரிசி மாவு",
+        "Arisi Maavu"
       ],
       "telugu": [
-        "-"
+        "బియ్యం పిండి",
+        "Biyyam Pindi"
       ],
       "urdu": [
-        "-"
+        "چاول کا آٹا",
+        "Chawal Ka Atta"
       ]
     },
     "notes": "Ground rice for Appam, Idiyappam, and batters."
@@ -4158,7 +4662,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বেসন",
+        "Besan"
       ],
       "bodo": [
         "-"
@@ -4167,13 +4672,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ચણાનો લોટ",
+        "Chana No Lot"
       ],
       "hindi": [
-        "-"
+        "बेसन",
+        "Besan"
       ],
       "kannada": [
-        "-"
+        "ಕಡಲೆ ಹಿಟ್ಟು",
+        "Kadale Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4185,22 +4693,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കടലപ്പൊടി",
+        "Kadalappodi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बेसन",
+        "Besan"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବେସନ",
+        "Besan"
       ],
       "punjabi": [
-        "-"
+        "ਵੇਸਣ",
+        "Vesan"
       ],
       "sanskrit": [
         "-"
@@ -4212,13 +4724,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கடலை மாவு",
+        "Kadalai Maavu"
       ],
       "telugu": [
-        "-"
+        "శనగ పిండి",
+        "Senaga Pindi"
       ],
       "urdu": [
-        "-"
+        "بیسن",
+        "Besan"
       ]
     },
     "notes": "Chickpea flour, used for Pakoras and Kadhi."
@@ -4238,7 +4753,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "রাগির আটা",
+        "Ragir Ata"
       ],
       "bodo": [
         "-"
@@ -4247,13 +4763,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "નાગલીનો લોટ",
+        "Naglino Lot"
       ],
       "hindi": [
-        "-"
+        "रागी का आटा",
+        "Ragi Ka Atta"
       ],
       "kannada": [
-        "-"
+        "ರಾಗಿ ಹಿಟ್ಟು",
+        "Ragi Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4265,22 +4784,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "റാഗിപ്പൊടി",
+        "Ragippodi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "नाचणीचे पीठ",
+        "Nachniche Peeth"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମାଣ୍ଡିଆ ଚୁନା",
+        "Mandia Chuna"
       ],
       "punjabi": [
-        "-"
+        "ਰਾਗੀ ਦਾ ਆਟਾ",
+        "Ragi Da Atta"
       ],
       "sanskrit": [
         "-"
@@ -4292,13 +4815,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கேழ்வரகு மாவு",
+        "Kezhvaragu Maavu"
       ],
       "telugu": [
-        "-"
+        "రాగి పిండి",
+        "Ragi Pindi"
       ],
       "urdu": [
-        "-"
+        "راگی کا آٹا",
+        "Ragi Ka Atta"
       ]
     },
     "notes": "Finger millet flour for Ragi Mudde."
@@ -4318,7 +4844,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বাজরার আটা",
+        "Bajrar Ata"
       ],
       "bodo": [
         "-"
@@ -4327,13 +4854,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "બાજરીનો લોટ",
+        "Bajrino Lot"
       ],
       "hindi": [
-        "-"
+        "बाजरे का आटा",
+        "Bajre Ka Atta"
       ],
       "kannada": [
-        "-"
+        "ಸಜ್ಜೆ ಹಿಟ್ಟು",
+        "Sajje Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4345,22 +4875,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കമ്പം പൊടി",
+        "Kambam Podi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "बाजरीचे पीठ",
+        "Bajriche Peeth"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବାଜରା ଅଟା",
+        "Bajra Ata"
       ],
       "punjabi": [
-        "-"
+        "ਬਾਜਰੇ ਦਾ ਆਟਾ",
+        "Bajre Da Atta"
       ],
       "sanskrit": [
         "-"
@@ -4372,13 +4906,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கம்பு மாவு",
+        "Kambu Maavu"
       ],
       "telugu": [
-        "-"
+        "సజ్జ పిండి",
+        "Sajja Pindi"
       ],
       "urdu": [
-        "-"
+        "باجرے کا آٹا",
+        "Bajre Ka Atta"
       ]
     },
     "notes": "Pearl millet flour for Rotla."
@@ -4398,7 +4935,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "জোয়ারের আটা",
+        "Jowarer Ata"
       ],
       "bodo": [
         "-"
@@ -4407,13 +4945,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "જુવારનો લોટ",
+        "Juvarno Lot"
       ],
       "hindi": [
-        "-"
+        "ज्वार का आटा",
+        "Jwar Ka Atta"
       ],
       "kannada": [
-        "-"
+        "ಜೋಳದ ಹಿಟ್ಟು",
+        "Jolada Hittu"
       ],
       "kashmiri": [
         "-"
@@ -4425,22 +4966,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചോളപ്പൊടി",
+        "Cholappodi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "ज्वारीचे पीठ",
+        "Jwariche Peeth"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଜୁଆର ଅଟା",
+        "Juar Ata"
       ],
       "punjabi": [
-        "-"
+        "ਜਵਾਰ ਦਾ ਆਟਾ",
+        "Jawar Da Atta"
       ],
       "sanskrit": [
         "-"
@@ -4452,13 +4997,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "சோள மாவு",
+        "Chola Maavu"
       ],
       "telugu": [
-        "-"
+        "జొన్న పిండి",
+        "Jonna Pindi"
       ],
       "urdu": [
-        "-"
+        "جوار کا آٹا",
+        "Jawar Ka Atta"
       ]
     },
     "notes": "Sorghum flour, gluten-free option."
@@ -4478,7 +5026,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সাগু দানা",
+        "Sagu Dana"
       ],
       "bodo": [
         "-"
@@ -4487,14 +5036,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સાબુદાણા",
+        "Sabudana"
       ],
       "hindi": [
         "साबूदाना",
         "Sabudana"
       ],
       "kannada": [
-        "-"
+        "ಸಾಬಕ್ಕಿ",
+        "Sabakki"
       ],
       "kashmiri": [
         "-"
@@ -4506,22 +5057,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചവ്വരി",
+        "Chavvari"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "साबुदाणा",
+        "Sabudana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସାଗୁ ଦାନା",
+        "Sagu Dana"
       ],
       "punjabi": [
-        "-"
+        "ਸਾਬੂਦਾਣਾ",
+        "Sabudana"
       ],
       "sanskrit": [
         "-"
@@ -4537,10 +5092,12 @@
         "Javvarisi"
       ],
       "telugu": [
-        "-"
+        "సగ్గుబియ్యం",
+        "Saggubiyyam"
       ],
       "urdu": [
-        "-"
+        "ساگودانہ",
+        "Sabudana"
       ]
     },
     "notes": "Sago pearls, fasting food staple."
@@ -4560,7 +5117,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সয়াবিন বড়ি",
+        "Soyabean Bori"
       ],
       "bodo": [
         "-"
@@ -4569,13 +5127,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સોયા વડી",
+        "Soya Vadi"
       ],
       "hindi": [
-        "-"
+        "सोया चंक्स",
+        "Soya Chunks"
       ],
       "kannada": [
-        "-"
+        "ಮೀಲ್ ಮೇಕರ್",
+        "Meal Maker"
       ],
       "kashmiri": [
         "-"
@@ -4587,22 +5148,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "സോയാ ചങ്ക്സ്",
+        "Soya Chunks"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "सोया वडी",
+        "Soya Vadi"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ସୋୟାବିନ୍ ବଡି",
+        "Soyabean Badi"
       ],
       "punjabi": [
-        "-"
+        "ਸੋਯਾ ਚੰਕਸ",
+        "Soya Chunks"
       ],
       "sanskrit": [
         "-"
@@ -4618,10 +5183,12 @@
         "Meal Maker"
       ],
       "telugu": [
-        "-"
+        "మీల్ మేకర్",
+        "Meal Maker"
       ],
       "urdu": [
-        "-"
+        "سویا چنکس",
+        "Soya Chunks"
       ]
     },
     "notes": "Meal maker, vegetable meat substitute."
@@ -4641,7 +5208,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "গোটা মুগ",
+        "Gota Mug"
       ],
       "bodo": [
         "-"
@@ -4650,13 +5218,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મગ",
+        "Mag"
       ],
       "hindi": [
-        "-"
+        "साबुत मूंग",
+        "Sabut Moong"
       ],
       "kannada": [
-        "-"
+        "ಹೆಸರು ಕಾಳು",
+        "Hesaru Kaalu"
       ],
       "kashmiri": [
         "-"
@@ -4668,22 +5239,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ചെറുപയർ",
+        "Cherupayar"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मूग",
+        "Moog"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମୁଗ",
+        "Muga"
       ],
       "punjabi": [
-        "-"
+        "ਸਾਬਤ ਮੂੰਗ",
+        "Sabut Moong"
       ],
       "sanskrit": [
         "-"
@@ -4695,13 +5270,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பச்சை பயிறு",
+        "Pachai Payiru"
       ],
       "telugu": [
-        "-"
+        "పెసలు",
+        "Pesalu"
       ],
       "urdu": [
-        "-"
+        "ثابت مونگ",
+        "Sabut Moong"
       ]
     },
     "notes": "Whole Moong, sprouted or cooked."
@@ -4721,7 +5299,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "মাসকলাই",
+        "Mashkalai"
       ],
       "bodo": [
         "-"
@@ -4730,13 +5309,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "અડદ",
+        "Adad"
       ],
       "hindi": [
-        "-"
+        "साबुत उड़द",
+        "Sabut Urad"
       ],
       "kannada": [
-        "-"
+        "ಉದ್ದು",
+        "Uddu"
       ],
       "kashmiri": [
         "-"
@@ -4748,22 +5330,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഉഴുന്ന്",
+        "Uzhunnu"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "उडीद",
+        "Udid"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ବିରି",
+        "Biri"
       ],
       "punjabi": [
-        "-"
+        "ਸਾਬਤ ਮਾਂਹ",
+        "Sabut Maah"
       ],
       "sanskrit": [
         "-"
@@ -4775,13 +5361,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கருப்பு உளுந்து",
+        "Karuppu Ulundu"
       ],
       "telugu": [
-        "-"
+        "మినుములు",
+        "Minumulu"
       ],
       "urdu": [
-        "-"
+        "ثابت اڑد",
+        "Sabut Urad"
       ]
     },
     "notes": "Whole Urad, used for Dal Makhani."
@@ -4801,7 +5390,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সোলা",
+        "Sola"
       ],
       "bodo": [
         "-"
@@ -4810,13 +5400,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "મઠ",
+        "Math"
       ],
       "hindi": [
-        "-"
+        "मोठ दाल",
+        "Moth Dal"
       ],
       "kannada": [
-        "-"
+        "ಮಡಿಕೆ ಕಾಳು",
+        "Madike Kaalu"
       ],
       "kashmiri": [
         "-"
@@ -4828,22 +5421,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "മമ്പയർ",
+        "Mampayar"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "मटकी",
+        "Matki"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ମୋଠ",
+        "Moth"
       ],
       "punjabi": [
-        "-"
+        "ਮੋਠ",
+        "Moth"
       ],
       "sanskrit": [
         "-"
@@ -4855,13 +5452,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "நரி பயிறு",
+        "Nari Payiru"
       ],
       "telugu": [
-        "-"
+        "బొబ్బర్లు",
+        "Bobbarlu"
       ],
       "urdu": [
-        "-"
+        "موٹھ",
+        "Moth"
       ]
     },
     "notes": "Matki, used in Misal Pav."
@@ -4881,7 +5481,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সীম",
+        "Shim"
       ],
       "bodo": [
         "-"
@@ -4890,13 +5491,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "વાલ",
+        "Val"
       ],
       "hindi": [
-        "-"
+        "सेम फली",
+        "Sem Phali"
       ],
       "kannada": [
-        "-"
+        "ಅವರೇ ಕಾಳು",
+        "Avare Kaalu"
       ],
       "kashmiri": [
         "-"
@@ -4908,22 +5512,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "അമര പയർ",
+        "Amara Payar"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "वाल",
+        "Val"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଶିମ୍ବ ମଞ୍ଜି",
+        "Simba Manji"
       ],
       "punjabi": [
-        "-"
+        "ਸੇਮ ਫਲੀ",
+        "Sem Phali"
       ],
       "sanskrit": [
         "-"
@@ -4935,13 +5543,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மொச்சை",
+        "Mochai"
       ],
       "telugu": [
-        "-"
+        "చిక్కుడు గింజలు",
+        "Chikkudu Ginjalu"
       ],
       "urdu": [
-        "-"
+        "سیم",
+        "Sem"
       ]
     },
     "notes": "Butter beans, creamy texture."
@@ -4961,7 +5572,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সীম বীজ",
+        "Shim Beej"
       ],
       "bodo": [
         "-"
@@ -4970,13 +5582,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "વાલ",
+        "Val"
       ],
       "hindi": [
-        "-"
+        "वाल",
+        "Val"
       ],
       "kannada": [
-        "-"
+        "ಅವರೇ ಕಾಳು",
+        "Avare Kaalu"
       ],
       "kashmiri": [
         "-"
@@ -4988,22 +5603,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "അമര",
+        "Amara"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "वाल",
+        "Val"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଶିମ୍ବ",
+        "Simba"
       ],
       "punjabi": [
-        "-"
+        "ਫੀਲਡ ਬੀਨਜ਼",
+        "Field Beans"
       ],
       "sanskrit": [
         "-"
@@ -5015,13 +5634,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "மொச்சை",
+        "Mochai"
       ],
       "telugu": [
-        "-"
+        "అనుములు",
+        "Anumulu"
       ],
       "urdu": [
-        "-"
+        "وال",
+        "Val"
       ]
     },
     "notes": "Avarekai, popular in Karnataka."
@@ -5041,7 +5663,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ডবল বিনস",
+        "Double Beans"
       ],
       "bodo": [
         "-"
@@ -5050,13 +5673,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "ડબલ બીન્સ",
+        "Double Beans"
       ],
       "hindi": [
-        "-"
+        "डबल बीन्स",
+        "Double Beans"
       ],
       "kannada": [
-        "-"
+        "ದೊಡ್ಡ ಅವರೇ",
+        "Dodda Avare"
       ],
       "kashmiri": [
         "-"
@@ -5068,22 +5694,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "ഡബിൾ ബീൻസ്",
+        "Double Beans"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "डबल बीन्स",
+        "Double Beans"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଡବଲ ବିନ୍ସ",
+        "Double Beans"
       ],
       "punjabi": [
-        "-"
+        "ਡਬਲ ਬੀਨਜ਼",
+        "Double Beans"
       ],
       "sanskrit": [
         "-"
@@ -5095,13 +5725,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "இரட்டைப் பீன்ஸ்",
+        "Irattai Beans"
       ],
       "telugu": [
-        "-"
+        "డబుల్ బీన్స్",
+        "Double Beans"
       ],
       "urdu": [
-        "-"
+        "ڈبل بینز",
+        "Double Beans"
       ]
     },
     "notes": "Broad beans, used in curries."
@@ -5121,7 +5754,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "পিন্টু বিন",
+        "Pinto Bean"
       ],
       "bodo": [
         "-"
@@ -5130,13 +5764,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "પિન્ટો બીન્સ",
+        "Pinto Beans"
       ],
       "hindi": [
-        "-"
+        "चितकबरी राजमा",
+        "Chitkabri Rajma"
       ],
       "kannada": [
-        "-"
+        "ಪಿಂಟೋ ಅವರೆ",
+        "Pinto Avare"
       ],
       "kashmiri": [
         "-"
@@ -5148,22 +5785,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പിന്റോ ബീൻസ്",
+        "Pinto Beans"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पिंतो बीन्स",
+        "Pinto Beans"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପିଣ୍ଟୋ ବିନ୍ସ",
+        "Pinto Beans"
       ],
       "punjabi": [
-        "-"
+        "ਪਿੰਟੋ ਬੀਨਜ਼",
+        "Pinto Beans"
       ],
       "sanskrit": [
         "-"
@@ -5175,13 +5816,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பின்டோ பீன்ஸ்",
+        "Pinto Beans"
       ],
       "telugu": [
-        "-"
+        "పింటో బీన్స్",
+        "Pinto Beans"
       ],
       "urdu": [
-        "-"
+        "پنٹ و بینز",
+        "Pinto Beans"
       ]
     },
     "notes": "Speckled beans, creamy when cooked."
@@ -5201,7 +5845,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "সাদা মটর",
+        "Sada Motor"
       ],
       "bodo": [
         "-"
@@ -5210,13 +5855,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "સફેદ વટાણા",
+        "Safed Vatana"
       ],
       "hindi": [
-        "-"
+        "सफेद मटर",
+        "Safed Matar"
       ],
       "kannada": [
-        "-"
+        "ಬಿಳಿ ಬಟಾಣಿ",
+        "Bili Batani"
       ],
       "kashmiri": [
         "-"
@@ -5228,22 +5876,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "വെള്ള പട്ടാണി",
+        "Vella Pattani"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "पांढरा वाटाणा",
+        "Pandhara Vatana"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଧଳା ମଟର",
+        "Dhala Matar"
       ],
       "punjabi": [
-        "-"
+        "ਸਫੇਦ ਮਟਰ",
+        "Safed Matar"
       ],
       "sanskrit": [
         "-"
@@ -5255,13 +5907,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "வெள்ளை பட்டாணி",
+        "Vellai Pattani"
       ],
       "telugu": [
-        "-"
+        "తెల్ల బటానీ",
+        "Tella Batani"
       ],
       "urdu": [
-        "-"
+        "سفید مٹر",
+        "Safed Matar"
       ]
     },
     "notes": "Safed Vatana, used for Ragda Patties."
@@ -5281,7 +5936,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "ভাজা ছোলা",
+        "Bhaja Chola"
       ],
       "bodo": [
         "-"
@@ -5290,13 +5946,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "દાળિયા",
+        "Daliya"
       ],
       "hindi": [
-        "-"
+        "भुना चना",
+        "Bhuna Chana"
       ],
       "kannada": [
-        "-"
+        "ಹುರಿಗಡಲೆ",
+        "Hurigadale"
       ],
       "kashmiri": [
         "-"
@@ -5308,22 +5967,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "പൊട്ടുകടല",
+        "Pottukadala"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "फुटाणे",
+        "Futane"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ଭଜା ବୁଟ",
+        "Bhaja Buta"
       ],
       "punjabi": [
-        "-"
+        "ਭੁੱਜੇ ਛੋਲੇ",
+        "Bhujje Choley"
       ],
       "sanskrit": [
         "-"
@@ -5335,13 +5998,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பொட்டுக்கடலை",
+        "Pottukadalai"
       ],
       "telugu": [
-        "-"
+        "పుట్నాల పప్పు",
+        "Putnala Pappu"
       ],
       "urdu": [
-        "-"
+        "بھنے چنے",
+        "Bhune Chane"
       ]
     },
     "notes": "Fried gram, used in Chutneys."
@@ -5361,7 +6027,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "আরারুট",
+        "Ararot"
       ],
       "bodo": [
         "-"
@@ -5370,13 +6037,16 @@
         "-"
       ],
       "gujarati": [
-        "-"
+        "તવખીર",
+        "Tavkhir"
       ],
       "hindi": [
-        "-"
+        "अरारोट",
+        "Ararot"
       ],
       "kannada": [
-        "-"
+        "ಕೂವೆ ಹಿಟ್ಟು",
+        "Koove Hittu"
       ],
       "kashmiri": [
         "-"
@@ -5388,22 +6058,26 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "കൂവപ്പൊടി",
+        "Koovappodi"
       ],
       "manipuri": [
         "-"
       ],
       "marathi": [
-        "-"
+        "आरारोट",
+        "Ararot"
       ],
       "nepali": [
         "-"
       ],
       "odia": [
-        "-"
+        "ପାଳୁଆ",
+        "Palua"
       ],
       "punjabi": [
-        "-"
+        "ਅਰਾਰੋਟ",
+        "Ararot"
       ],
       "sanskrit": [
         "-"
@@ -5415,13 +6089,16 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கூவைக்காவு",
+        "Koovaikavu"
       ],
       "telugu": [
-        "-"
+        "పాలగుండ",
+        "Palagunda"
       ],
       "urdu": [
-        "-"
+        "اراروٹ",
+        "Ararot"
       ]
     },
     "notes": "Digestible starch for thickening."
