@@ -8,6 +8,11 @@ playwright-report/
 blob-report/
 playwright/.cache/
 
+# Capacitor
+www/
+android/
+ios/
+
 # System
 .DS_Store
 Thumbs.db

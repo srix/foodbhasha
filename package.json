@@ -4,13 +4,21 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "build:web": "mkdir -p www && cp index.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img www/",
+    "sync": "npm run build:web && npx cap sync",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android",
+    "android:build": "cd android && ./gradlew assembleDebug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^8.0.0",
     "express": "^4.22.1"
   },
   "devDependencies": {
