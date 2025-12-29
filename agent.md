@@ -64,6 +64,7 @@ The app supports:
 
 - `style.css`  
   Global and responsive styles including highlight animations.
+  - **Design note**: Uses a "Vertical Stack" dual-script icon (Tamil 'அ' top, Devanagari 'अ' bottom) for the language button.
 
 - `server.js`  
   Express server with SPA fallback routing:

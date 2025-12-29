@@ -17,7 +17,8 @@ test.describe('FoodBhasha Branding', () => {
     });
 
     test('should have correct page title format', async ({ page }) => {
-        await expect(page).toHaveTitle(/FoodBhasha.*Your Market Translator/);
+        // App defaults to Fish category on load
+        await expect(page).toHaveTitle(/Fish & Seafood | FoodBhasha/);
     });
 
     test('should have FoodBhasha in meta og:title', async ({ page }) => {
@@ -76,5 +77,14 @@ test.describe('FoodBhasha Branding', () => {
         await expect(logo).toBeVisible();
         await expect(logo).toHaveAttribute('alt', 'FoodBhasha Logo');
         await expect(logo).toHaveAttribute('src', '/img/logo.jpg');
+    });
+
+    test('should display dual-script language icon', async ({ page }) => {
+        const dualScript = page.locator('.dual-script');
+        await expect(dualScript).toBeVisible();
+
+        // Check structural order and content
+        await expect(dualScript.locator('.script-tam')).toHaveText('அ');
+        await expect(dualScript.locator('.script-dev')).toHaveText('अ');
     });
 });

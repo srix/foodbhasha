@@ -121,6 +121,10 @@ Each entry follows:
 ### **5.3 Data Completeness**
 * Ideally, all entries should have names in all 22 supported languages.
 * **Dataset Size**: Major categories (Fish, Veg, Grains) maintain ~100 items. Spices maintain ~30+ items.
+* **Coverage Status**: 
+  * **Spices & Grains**: 100% Major Language Coverage.
+  * **Vegetables & Fruits**: 100% Major Language Coverage.
+  * **Fish & Seafood**: 100% Major Language Coverage.
 * **Scientific Name**: All valid biological items MUST include a `scientificName`. If not applicable (e.g., generic category), use "N/A" sparingly; aim for >90% coverage.
 * **Dual Script**: For Indian languages, each entry MUST include both the **Native Script** and the **Romanized (English transliteration)** version (e.g., `["வஞ்சரம்", "Vanjaram"]`).
 * **Fallback**: If a name is unavailable for a specific language, the UI will display a hyphen (`-`) instead. The application must treat missing keys or empty arrays as valid absences.
@@ -203,7 +207,8 @@ A responsive sticky header that stays fixed at the top.
 
 **Mobile**:
 * **Stacked Layout** for clarity:
-  1.  **Top Row**: Brand (Left) + Compact Language Icon 🌍 (Right).
+  1.  **Top Row**: Brand (Left) + **Dual-Script Language Button** (Right).
+      * *Icon*: Vertical Stack design (Tamil 'அ' Top, Devanagari 'अ' Bottom) inside a circular blue button.
   2.  **Search Row**: Full-width Search Bar.
 * **Scroll Behavior**: On scroll down, the Top Row and Search Row slide up/vanish to maximize content space. They reappear instantly on scroll up.
 * **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.

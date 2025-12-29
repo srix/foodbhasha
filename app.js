@@ -214,10 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const newPath = query ? `/${currentCategory}?search=${encodeURIComponent(query)}` : `/${currentCategory}`;
             if (window.location.pathname + window.location.search !== newPath) {
                 history.pushState({}, '', newPath);
+                // Title update must happen here to reflect the new search state in the browser history/tab
+                updateTitle(currentCategory, query, null);
             }
         }, 500);
 
         renderApp(applyFilters(appData, query, activeFilters));
+        // Immediate title update for better responsiveness (optional, but good)
+        // updateTitle(currentCategory, query, null); 
     }
 
     function updateSearchUI() {
@@ -430,10 +434,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update meta tags
         document.querySelector('meta[name="description"]')?.setAttribute('content', description);
         document.querySelector('meta[property="og:url"]')?.setAttribute('content', url);
-        document.querySelector('meta[property="og:title"]')?.setAttribute('content', ogTitle);
+        document.querySelector('meta[property="og:title"]')?.setAttribute('content', ogTitle + ' | FoodBhasha');
         document.querySelector('meta[property="og:description"]')?.setAttribute('content', ogDescription);
         document.querySelector('meta[property="twitter:url"]')?.setAttribute('content', url);
-        document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', ogTitle);
+        document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', ogTitle + ' | FoodBhasha');
         document.querySelector('meta[property="twitter:description"]')?.setAttribute('content', ogDescription);
     }
 
