@@ -1,14 +1,18 @@
 {
-  "name": "fishnames",
+  "name": "foodbhasha",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "express": "^4.22.1"
+  },
   "devDependencies": {
     "@playwright/test": "^1.57.0"
   }

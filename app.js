@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const DEFAULT_CARD_LANGUAGES = ["tamil", "kannada", "telugu", "hindi"];
     const CATEGORIES = {
-        'fish': 'data/fish-seafood.json',
-        'vegetables-fruits': 'data/vegetables-fruits.json',
-        'grains': 'data/grains-pulses.json',
-        'spices': 'data/spices.json'
+        'fish': '/data/fish-seafood.json',
+        'vegetables-fruits': '/data/vegetables-fruits.json',
+        'grains': '/data/grains-pulses.json',
+        'spices': '/data/spices.json'
     };
 
     const TAG_FILTERS = {
@@ -64,28 +64,33 @@ document.addEventListener('DOMContentLoaded', () => {
     init();
 
     async function init() {
-        // Hash Routing
-        window.addEventListener('hashchange', handleRouteChange);
+        // History API Routing
+        window.addEventListener('popstate', handleRouteChange);
+
+        // Redirect old hash URLs to path-based URLs
+        if (window.location.hash) {
+            const hash = window.location.hash.slice(1);
+            const parts = hash.split('&');
+            const category = parts[0];
+            const searchPart = parts.find(p => p.startsWith('search='));
+            const newPath = searchPart ? `/${category}?search=${searchPart.split('=')[1]}` : `/${category}`;
+            history.replaceState({}, '', newPath);
+        }
 
         // Initial load
-        const hash = window.location.hash.slice(1);
-        if (hash) {
-            await handleRouteChange();
-        } else {
-            await loadCategory('fish');
-        }
+        await handleRouteChange();
 
         // Tabs
         const tabButtons = document.querySelectorAll('.tab-btn');
         tabButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
                 const category = btn.dataset.category;
                 const query = searchInput.value.trim();
-                const newHash = query ? `${category}&search=${encodeURIComponent(query)}` : category;
-                if (window.location.hash.slice(1) !== newHash) {
-                    window.location.hash = newHash;
-                } else if (category !== currentCategory) {
-                    loadCategory(category);
+                const newPath = query ? `/${category}?search=${encodeURIComponent(query)}` : `/${category}`;
+                if (window.location.pathname + window.location.search !== newPath) {
+                    history.pushState({}, '', newPath);
+                    handleRouteChange();
                 }
             });
         });
@@ -96,7 +101,8 @@ document.addEventListener('DOMContentLoaded', () => {
             searchClear.addEventListener('click', () => {
                 searchInput.value = '';
                 updateSearchUI();
-                window.location.hash = currentCategory;
+                const newPath = `/${currentCategory}`;
+                history.pushState({}, '', newPath);
                 handleSearch();
             });
         }
@@ -113,15 +119,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function handleRouteChange() {
-        const hash = window.location.hash.slice(1);
-        if (!hash) return;
+        const pathname = window.location.pathname;
+        const searchParams = new URLSearchParams(window.location.search);
 
-        const parts = hash.split('&');
-        const catPart = parts[0];
-        const searchPart = parts.find(p => p.startsWith('search='));
+        // Parse route: / or /category or /category/item-id
+        const pathParts = pathname.split('/').filter(p => p);
+        const catPart = pathParts[0] || 'fish';
+        const itemId = pathParts[1] || null;
+        const searchQuery = searchParams.get('search') || '';
 
-        let targetCategory = CATEGORIES[catPart] ? catPart : currentCategory;
-        let targetQuery = searchPart ? decodeURIComponent(searchPart.split('=')[1]) : '';
+        let targetCategory = CATEGORIES[catPart] ? catPart : 'fish';
+        let targetQuery = searchQuery;
 
         // Check if anything actually changed globally
         const isNewCategory = targetCategory !== currentCategory || appData.length === 0;
@@ -131,12 +139,39 @@ document.addEventListener('DOMContentLoaded', () => {
             searchInput.value = targetQuery;
             updateSearchUI();
             await loadCategory(targetCategory);
-            window.scrollTo(0, 0);
+
+            // If itemId is present, search for that item
+            if (itemId) {
+                const item = appData.find(i => i.id === itemId);
+                if (item) {
+                    const itemName = item.names.english[0];
+                    searchInput.value = itemName;
+                    updateSearchUI();
+                    renderApp(applyFilters(appData, itemName, activeFilters));
+                    setTimeout(() => scrollToItem(itemId), 300);
+                } else {
+                    window.scrollTo(0, 0);
+                }
+            } else {
+                window.scrollTo(0, 0);
+            }
         } else if (isNewQuery) {
             searchInput.value = targetQuery;
             updateSearchUI();
             renderApp(applyFilters(appData, targetQuery, activeFilters));
             window.scrollTo(0, 0);
+        } else if (itemId) {
+            // Item-level navigation within same category
+            const item = appData.find(i => i.id === itemId);
+            if (item) {
+                const itemName = item.names.english[0];
+                searchInput.value = itemName;
+                updateSearchUI();
+                renderApp(applyFilters(appData, itemName, activeFilters));
+                setTimeout(() => scrollToItem(itemId), 300);
+            } else {
+                scrollToItem(itemId);
+            }
         }
 
         // Sync Tabs
@@ -144,7 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.classList.toggle('active', btn.dataset.category === targetCategory);
         });
 
-        updateTitle(targetCategory, targetQuery);
+        updateTitle(targetCategory, targetQuery, itemId);
+        updateMetaTags(targetCategory, itemId);
     }
 
     async function loadCategory(category) {
@@ -175,9 +211,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(() => {
-            const newHash = query ? `${currentCategory}&search=${encodeURIComponent(query)}` : currentCategory;
-            if (window.location.hash.slice(1) !== newHash) {
-                window.location.hash = newHash;
+            const newPath = query ? `/${currentCategory}?search=${encodeURIComponent(query)}` : `/${currentCategory}`;
+            if (window.location.pathname + window.location.search !== newPath) {
+                history.pushState({}, '', newPath);
             }
         }, 500);
 
@@ -262,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='img/placeholder.webp'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/img/placeholder.webp'">
                 <div class="fish-title">
                     <h2>${item.names.english.join(' / ')}</h2>
                     <div class="scientific-name">${item.scientificName || ''}</div>
@@ -271,7 +307,22 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="fish-names-grid">${renderGrid(primaryLangs)}</div>
             ${otherLangs.length > 0 ? `<details class="more-langs"><summary>Show all languages</summary><div class="fish-names-grid dense">${renderGrid(otherLangs)}</div></details>` : ''}
-            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}`;
+            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}
+            <button class="share-btn" data-item-id="${item.id}">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+                <span class="share-text">Share</span>
+            </button>`;
+
+        // Add share event listener
+        const shareBtn = card.querySelector('.share-btn');
+        shareBtn.addEventListener('click', (event) => shareItem(item, event));
+
         return card;
     }
 
@@ -312,9 +363,127 @@ document.addEventListener('DOMContentLoaded', () => {
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }
 
-    function updateTitle(category, query) {
-        const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
-        document.title = query ? `${query} | Search in ${catLabel} | Indian Ingredient Lexicon` : `${catLabel} Identification Guide | Indian Ingredient Lexicon`;
+    function updateTitle(category, query, itemId) {
+        const catLabel = getCategoryLabel(category);
+        let title;
+
+        if (itemId) {
+            const item = appData.find(i => i.id === itemId);
+            if (item) {
+                const englishName = item.names.english[0];
+                title = `${englishName} | ${catLabel} | Indian Ingredient Lexicon`;
+            } else {
+                title = `${catLabel} | Indian Ingredient Lexicon`;
+            }
+        } else if (query) {
+            title = `${query} | Search in ${catLabel} | Indian Ingredient Lexicon`;
+        } else {
+            title = `${catLabel} | Indian Ingredient Lexicon`;
+        }
+
+        document.title = title;
+    }
+
+    function getCategoryLabel(category) {
+        const labels = {
+            'fish': 'Fish & Seafood',
+            'vegetables-fruits': 'Vegetables & Fruits',
+            'grains': 'Grains & Pulses',
+            'spices': 'Spices'
+        };
+        return labels[category] || category;
+    }
+
+    function updateMetaTags(category, itemId) {
+        const catLabel = getCategoryLabel(category);
+        let description, ogTitle, ogDescription, url;
+
+        // Get current URL
+        url = `https://foodbhasha.com${window.location.pathname}`;
+
+        if (itemId) {
+            const item = appData.find(i => i.id === itemId);
+            if (item) {
+                const englishName = item.names.english.join(', ');
+                const scientificName = item.scientificName || '';
+                const languageNames = [
+                    item.names.tamil[0],
+                    item.names.hindi[0],
+                    item.names.kannada[0],
+                    item.names.malayalam[0]
+                ].filter(Boolean).join(', ');
+
+                description = `${englishName} (${scientificName}). Regional names: ${languageNames}. Multilingual ${catLabel} glossary in 22 Indian languages.`;
+                ogTitle = `${englishName} | ${catLabel} Names`;
+                ogDescription = description;
+            } else {
+                description = `Comprehensive ${catLabel.toLowerCase()} glossary in 22 Indian languages.`;
+                ogTitle = catLabel;
+                ogDescription = description;
+            }
+        } else {
+            description = `Identify ${catLabel.toLowerCase()} in 22 regional Indian languages including Tamil, Malayalam, Kannada, Hindi, Telugu, and more.`;
+            ogTitle = `${catLabel} | Indian Ingredient Lexicon`;
+            ogDescription = description;
+        }
+
+        // Update meta tags
+        document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+        document.querySelector('meta[property="og:url"]')?.setAttribute('content', url);
+        document.querySelector('meta[property="og:title"]')?.setAttribute('content', ogTitle);
+        document.querySelector('meta[property="og:description"]')?.setAttribute('content', ogDescription);
+        document.querySelector('meta[property="twitter:url"]')?.setAttribute('content', url);
+        document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', ogTitle);
+        document.querySelector('meta[property="twitter:description"]')?.setAttribute('content', ogDescription);
+    }
+
+    function scrollToItem(itemId) {
+        const cards = document.querySelectorAll('.fish-card');
+        for (const card of cards) {
+            const cardData = currentFilteredData.find(item => {
+                const cardTitle = card.querySelector('h2')?.textContent;
+                return item.id === itemId || item.names.english.some(name => cardTitle?.includes(name));
+            });
+
+            if (cardData && cardData.id === itemId) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.classList.add('highlight-item');
+                setTimeout(() => card.classList.remove('highlight-item'), 2000);
+                break;
+            }
+        }
+    }
+
+    async function shareItem(item, event) {
+        const url = `https://foodbhasha.com/${currentCategory}/${item.id}`;
+        const title = `${item.names.english[0]} | ${getCategoryLabel(currentCategory)}`;
+        const text = `Check out ${item.names.english[0]} in 22 Indian languages on Food Bhasha`;
+
+        // Try Web Share API first (mobile)
+        if (navigator.share) {
+            try {
+                await navigator.share({ title, text, url });
+                return;
+            } catch (err) {
+                if (err.name !== 'AbortError') console.log('Share failed:', err);
+            }
+        }
+
+        // Fallback to clipboard
+        try {
+            await navigator.clipboard.writeText(url);
+            const btn = event.target.closest('.share-btn');
+            const originalText = btn.querySelector('.share-text').textContent;
+            btn.classList.add('copied');
+            btn.querySelector('.share-text').textContent = 'Link copied!';
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.querySelector('.share-text').textContent = originalText;
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy link:', err);
+            alert(`Share this link:\n${url}`);
+        }
     }
 
     function setupScrollListener() {
