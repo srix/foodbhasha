@@ -87,7 +87,12 @@ Each entry follows:
 * `id` — unique slug
 * `photo` — local image path
 * `names` — object keys for each language
+* `names` — object keys for each language
 * `category` — array of tags used for filtering (see 6.2)
+
+### **5.3 Data Completeness**
+* Ideally, all entries should have names in all 22 supported languages.
+* **Fallback**: If a name is unavailable for a specific language, the UI will display a hyphen (`-`) instead. The application must treat missing keys or empty arrays as valid absences.
 
 ---
 

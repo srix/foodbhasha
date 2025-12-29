@@ -249,6 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Reset Lazy Load State
         currentFilteredData = data;
         renderedCount = 0;
+        window.scrollTo(0, 0); // Reset scroll position
         cardView.innerHTML = '';
 
         if (loadMoreObserver) {
