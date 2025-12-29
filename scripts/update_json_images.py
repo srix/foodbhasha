@@ -2,7 +2,7 @@ import json
 import os
 
 def update_json_images():
-    json_path = 'data/fish.json'
+    json_path = 'data/fish-seafood.json'
     
     with open(json_path, 'r') as f:
         data = json.load(f)

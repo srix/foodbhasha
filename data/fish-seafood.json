@@ -852,7 +852,7 @@
   },
   {
     "id": "silver-pomfret",
-    "photo": "img/placeholder.webp",
+    "photo": "img/silver-pomfret.webp",
     "category": [
       "sea",
       "fry",
@@ -949,7 +949,7 @@
   },
   {
     "id": "rohu",
-    "photo": "img/placeholder.webp",
+    "photo": "img/rohu.webp",
     "category": [
       "freshwater",
       "curry",
@@ -1048,7 +1048,7 @@
   },
   {
     "id": "catla",
-    "photo": "img/placeholder.webp",
+    "photo": "img/catla.webp",
     "category": [
       "freshwater",
       "curry",
@@ -1146,7 +1146,7 @@
   },
   {
     "id": "hilsa",
-    "photo": "img/placeholder.webp",
+    "photo": "img/hilsa.webp",
     "category": [
       "freshwater",
       "sea",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "red-snapper",
-    "photo": "img/placeholder.webp",
+    "photo": "img/red-snapper.webp",
     "category": [
       "sea",
       "fry",
@@ -1336,7 +1336,7 @@
   },
   {
     "id": "pearl-spot",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pearl-spot.webp",
     "category": [
       "freshwater",
       "brackish",
@@ -1427,7 +1427,7 @@
   },
   {
     "id": "lady-fish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/lady-fish.webp",
     "category": [
       "sea",
       "fry",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "indian-salmon",
-    "photo": "img/placeholder.webp",
+    "photo": "img/indian-salmon.webp",
     "category": [
       "sea",
       "fry",
@@ -1617,7 +1617,7 @@
   },
   {
     "id": "grey-mullet",
-    "photo": "img/placeholder.webp",
+    "photo": "img/grey-mullet.webp",
     "category": [
       "sea",
       "brackish",
@@ -1710,7 +1710,7 @@
   },
   {
     "id": "tilapia",
-    "photo": "img/placeholder.webp",
+    "photo": "img/tilapia.webp",
     "category": [
       "freshwater",
       "fry",
@@ -1806,7 +1806,7 @@
   },
   {
     "id": "barramundi",
-    "photo": "img/placeholder.webp",
+    "photo": "img/barramundi.webp",
     "category": [
       "sea",
       "brackish",
@@ -1902,7 +1902,7 @@
   },
   {
     "id": "yellowfin-tuna",
-    "photo": "img/placeholder.webp",
+    "photo": "img/yellowfin-tuna.webp",
     "category": [
       "sea",
       "curry",
@@ -1992,7 +1992,7 @@
   },
   {
     "id": "barracuda",
-    "photo": "img/placeholder.webp",
+    "photo": "img/barracuda.webp",
     "category": [
       "sea",
       "fry",
@@ -2080,7 +2080,7 @@
   },
   {
     "id": "trevally",
-    "photo": "img/placeholder.webp",
+    "photo": "img/trevally.webp",
     "category": [
       "sea",
       "fry",
@@ -2168,7 +2168,7 @@
   },
   {
     "id": "sole-fish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sole-fish.webp",
     "category": [
       "sea",
       "fry"
@@ -2258,7 +2258,7 @@
   },
   {
     "id": "milkfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/milkfish.webp",
     "category": [
       "sea",
       "brackish",
@@ -2346,7 +2346,7 @@
   },
   {
     "id": "squid",
-    "photo": "img/placeholder.webp",
+    "photo": "img/squid.webp",
     "category": [
       "sea",
       "fry",
@@ -2446,7 +2446,7 @@
   },
   {
     "id": "murrel",
-    "photo": "img/placeholder.webp",
+    "photo": "img/murrel.webp",
     "category": [
       "freshwater",
       "curry",
@@ -2538,7 +2538,7 @@
   },
   {
     "id": "catfish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/catfish.webp",
     "category": [
       "freshwater",
       "curry",
@@ -2631,7 +2631,7 @@
   },
   {
     "id": "bombay-duck",
-    "photo": "img/placeholder.webp",
+    "photo": "img/bombay-duck.webp",
     "category": [
       "sea",
       "fry",
@@ -2720,7 +2720,7 @@
   },
   {
     "id": "pink-perch",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pink-perch.webp",
     "category": [
       "sea",
       "fry",
@@ -2815,7 +2815,7 @@
   },
   {
     "id": "clams",
-    "photo": "img/placeholder.webp",
+    "photo": "img/clams.webp",
     "category": [
       "freshwater",
       "brackish",
@@ -2906,7 +2906,7 @@
   },
   {
     "id": "mussels",
-    "photo": "img/placeholder.webp",
+    "photo": "img/mussels.webp",
     "category": [
       "sea",
       "roast",
@@ -2998,7 +2998,7 @@
   },
   {
     "id": "common-carp",
-    "photo": "img/placeholder.webp",
+    "photo": "img/common-carp.webp",
     "category": [
       "freshwater",
       "curry",
@@ -3086,7 +3086,7 @@
   },
   {
     "id": "emperor-fish",
-    "photo": "img/placeholder.webp",
+    "photo": "img/emperor-fish.webp",
     "category": [
       "sea",
       "fry",
