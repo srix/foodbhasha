@@ -376,7 +376,7 @@
   },
   {
     "id": "wheat",
-    "photo": "img/placeholder.webp",
+    "photo": "img/wheat.webp",
     "category": [
       "grain"
     ],
@@ -467,7 +467,7 @@
   },
   {
     "id": "maize",
-    "photo": "img/placeholder.webp",
+    "photo": "img/maize.webp",
     "category": [
       "grain"
     ],
@@ -1163,7 +1163,7 @@
   },
   {
     "id": "black-chickpeas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/black-chickpeas.webp",
     "category": [
       "grain"
     ],
@@ -1732,7 +1732,7 @@
   },
   {
     "id": "sesame-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sesame-seeds.webp",
     "category": [
       "grain"
     ],
@@ -1986,7 +1986,7 @@
   },
   {
     "id": "cumin-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cumin-seeds.webp",
     "category": [
       "grain"
     ],
@@ -2237,7 +2237,7 @@
   },
   {
     "id": "fenugreek-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/fenugreek-seeds.webp",
     "category": [
       "grain"
     ],
@@ -2317,7 +2317,7 @@
   },
   {
     "id": "black-pepper",
-    "photo": "img/placeholder.webp",
+    "photo": "img/black-pepper.webp",
     "category": [
       "grain"
     ],
@@ -2406,7 +2406,7 @@
   },
   {
     "id": "cardamom",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cardamom.webp",
     "category": [
       "grain"
     ],
@@ -2489,7 +2489,7 @@
   },
   {
     "id": "cloves",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cloves.webp",
     "category": [
       "grain"
     ],
@@ -2569,7 +2569,7 @@
   },
   {
     "id": "cinnamon",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cinnamon.webp",
     "category": [
       "grain"
     ],
@@ -2649,7 +2649,7 @@
   },
   {
     "id": "turmeric",
-    "photo": "img/placeholder.webp",
+    "photo": "img/turmeric.webp",
     "category": [
       "grain"
     ],
@@ -2740,7 +2740,7 @@
   },
   {
     "id": "dry-red-chili",
-    "photo": "img/placeholder.webp",
+    "photo": "img/dry-red-chili.webp",
     "category": [
       "grain"
     ],
@@ -2820,7 +2820,7 @@
   },
   {
     "id": "cashew",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cashew.webp",
     "category": [
       "grain"
     ],
@@ -2900,7 +2900,7 @@
   },
   {
     "id": "almond",
-    "photo": "img/placeholder.webp",
+    "photo": "img/almond.webp",
     "category": [
       "grain"
     ],
@@ -2980,7 +2980,7 @@
   },
   {
     "id": "pistachio",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pistachio.webp",
     "category": [
       "grain"
     ],
@@ -3060,7 +3060,7 @@
   },
   {
     "id": "walnut",
-    "photo": "img/placeholder.webp",
+    "photo": "img/walnut.webp",
     "category": [
       "grain"
     ],
@@ -3140,7 +3140,7 @@
   },
   {
     "id": "raisins",
-    "photo": "img/placeholder.webp",
+    "photo": "img/raisins.webp",
     "category": [
       "grain"
     ],
@@ -3220,7 +3220,7 @@
   },
   {
     "id": "dates",
-    "photo": "img/placeholder.webp",
+    "photo": "img/dates.webp",
     "category": [
       "grain"
     ],
@@ -3300,7 +3300,7 @@
   },
   {
     "id": "sago",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sago.webp",
     "category": [
       "grain"
     ],
@@ -3383,7 +3383,7 @@
   },
   {
     "id": "fox-nuts",
-    "photo": "img/placeholder.webp",
+    "photo": "img/fox-nuts.webp",
     "category": [
       "grain"
     ],
@@ -3463,7 +3463,7 @@
   },
   {
     "id": "poha",
-    "photo": "img/placeholder.webp",
+    "photo": "img/poha.webp",
     "category": [
       "grain"
     ],
@@ -3545,7 +3545,7 @@
   },
   {
     "id": "semolina",
-    "photo": "img/placeholder.webp",
+    "photo": "img/semolina.webp",
     "category": [
       "grain"
     ],
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "vermicelli",
-    "photo": "img/placeholder.webp",
+    "photo": "img/vermicelli.webp",
     "category": [
       "grain"
     ],
@@ -3705,7 +3705,7 @@
   },
   {
     "id": "jaggery",
-    "photo": "img/placeholder.webp",
+    "photo": "img/jaggery.webp",
     "category": [
       "grain"
     ],
@@ -3785,7 +3785,7 @@
   },
   {
     "id": "tamarind",
-    "photo": "img/placeholder.webp",
+    "photo": "img/tamarind.webp",
     "category": [
       "grain"
     ],
@@ -3865,7 +3865,7 @@
   },
   {
     "id": "kokum",
-    "photo": "img/placeholder.webp",
+    "photo": "img/kokum.webp",
     "category": [
       "grain"
     ],
@@ -3945,7 +3945,7 @@
   },
   {
     "id": "asafetida",
-    "photo": "img/placeholder.webp",
+    "photo": "img/asafetida.webp",
     "category": [
       "grain"
     ],
@@ -4027,7 +4027,7 @@
   },
   {
     "id": "chia-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/chia-seeds.webp",
     "category": [
       "grain"
     ],
@@ -4108,7 +4108,7 @@
   },
   {
     "id": "sunflower-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sunflower-seeds.webp",
     "category": [
       "grain"
     ],
@@ -4188,7 +4188,7 @@
   },
   {
     "id": "pumpkin-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pumpkin-seeds.webp",
     "category": [
       "grain"
     ],
@@ -4268,7 +4268,7 @@
   },
   {
     "id": "quinoa",
-    "photo": "img/placeholder.webp",
+    "photo": "img/quinoa.webp",
     "category": [
       "grain"
     ],
@@ -4348,7 +4348,7 @@
   },
   {
     "id": "oats",
-    "photo": "img/placeholder.webp",
+    "photo": "img/oats.webp",
     "category": [
       "grain"
     ],
@@ -4428,7 +4428,7 @@
   },
   {
     "id": "buckwheat",
-    "photo": "img/placeholder.webp",
+    "photo": "img/buckwheat.webp",
     "category": [
       "grain"
     ],
@@ -4508,7 +4508,7 @@
   },
   {
     "id": "brown-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/brown-rice.webp",
     "category": [
       "grain"
     ],
@@ -4590,7 +4590,7 @@
   },
   {
     "id": "basmati-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/basmati-rice.webp",
     "category": [
       "grain"
     ],
@@ -4671,7 +4671,7 @@
   },
   {
     "id": "jasmine-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/jasmine-rice.webp",
     "category": [
       "grain"
     ],
@@ -4751,7 +4751,7 @@
   },
   {
     "id": "sona-masoori",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sona-masoori.webp",
     "category": [
       "grain"
     ],
@@ -4831,7 +4831,7 @@
   },
   {
     "id": "parboiled-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/parboiled-rice.webp",
     "category": [
       "grain"
     ],
@@ -4911,7 +4911,7 @@
   },
   {
     "id": "red-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/red-rice.webp",
     "category": [
       "grain"
     ],
@@ -4993,7 +4993,7 @@
   },
   {
     "id": "black-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/black-rice.webp",
     "category": [
       "grain"
     ],
@@ -5073,7 +5073,7 @@
   },
   {
     "id": "glutinous-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/glutinous-rice.webp",
     "category": [
       "grain"
     ],
@@ -5153,7 +5153,7 @@
   },
   {
     "id": "puffed-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/puffed-rice.webp",
     "category": [
       "grain"
     ],
@@ -5235,7 +5235,7 @@
   },
   {
     "id": "idli-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/idli-rice.webp",
     "category": [
       "grain"
     ],
@@ -5316,7 +5316,7 @@
   },
   {
     "id": "matta-rice",
-    "photo": "img/placeholder.webp",
+    "photo": "img/matta-rice.webp",
     "category": [
       "grain"
     ],
@@ -5396,7 +5396,7 @@
   },
   {
     "id": "whole-wheat",
-    "photo": "img/placeholder.webp",
+    "photo": "img/whole-wheat.webp",
     "category": [
       "grain"
     ],
@@ -5476,7 +5476,7 @@
   },
   {
     "id": "broken-wheat",
-    "photo": "img/placeholder.webp",
+    "photo": "img/broken-wheat.webp",
     "category": [
       "grain"
     ],
@@ -5556,7 +5556,7 @@
   },
   {
     "id": "maida",
-    "photo": "img/placeholder.webp",
+    "photo": "img/maida.webp",
     "category": [
       "grain"
     ],
@@ -5636,7 +5636,7 @@
   },
   {
     "id": "corn-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/corn-flour.webp",
     "category": [
       "grain"
     ],
@@ -5716,7 +5716,7 @@
   },
   {
     "id": "rice-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/rice-flour.webp",
     "category": [
       "grain"
     ],
@@ -5796,7 +5796,7 @@
   },
   {
     "id": "besan",
-    "photo": "img/placeholder.webp",
+    "photo": "img/besan.webp",
     "category": [
       "grain"
     ],
@@ -5876,7 +5876,7 @@
   },
   {
     "id": "ragi-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ragi-flour.webp",
     "category": [
       "grain"
     ],
@@ -5956,7 +5956,7 @@
   },
   {
     "id": "bajra-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/bajra-flour.webp",
     "category": [
       "grain"
     ],
@@ -6036,7 +6036,7 @@
   },
   {
     "id": "jowar-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/jowar-flour.webp",
     "category": [
       "grain"
     ],
