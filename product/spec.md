@@ -1,11 +1,8 @@
-
----
-
-# **Indian Food Guide – Specification (spec.md)**
+# **Indian Ingredient Lexicon – Specification (spec.md)**
 
 ## **1. Overview**
 
-A lightweight static website that helps users instantly identify food ingredients (Fish, Vegetables, Fruits, Grains) by photo and see what they are called across **all 22 official Indian languages** (plus English).
+A lightweight static website (foodbhasha.com) that helps users instantly identify food ingredients (Fish, Vegetables, Fruits, Grains, Spices) by photo and see what they are called across **all 22 official Indian languages** (plus English).
 The site is designed for **mobile-first usage** (e.g., while shopping or ordering) and is also accessible to the general public on the web.
 
 ---
@@ -16,7 +13,7 @@ The site is designed for **mobile-first usage** (e.g., while shopping or orderin
 
 * Provide a **visual reference** of common Indian food ingredients.
 * Show **names across 23 languages** (English + 22 Indian Languages).
-* Database covers **Fish**, **Vegetables**, **Fruits**, and **Grains**.
+* Database covers **Fish**, **Vegetables**, **Fruits**, **Grains**, and **Spices**.
 * Make it simple for users to **search** and quickly identify types.
 * Support **native scripts** alongside Romanized names for accurate pronunciation and reading.
 

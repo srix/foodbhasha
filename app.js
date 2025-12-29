@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // State
     let searchTimeout;
-
-    // Analytics Helper
-    function trackEvent(eventName, params = {}) {
-        if (typeof gtag === 'function') {
-            gtag('event', eventName, params);
-        }
-    }
+    let appData = [];
+    let currentCategory = 'fish';
+    let activeFilters = new Set();
+    let currentFilteredData = [];
+    let renderedCount = 0;
+    let loadMoreObserver;
+    let isLoading = false;
 
     // Config
     const SUPPORTED_LANGUAGES = [
@@ -33,33 +33,16 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const LANGUAGE_DISPLAY_NAMES = {
-        "assamese": "অসমীয়া / Assamese",
-        "bengali": "বাংলা / Bengali",
-        "bodo": "बोडो / Bodo",
-        "dogri": "डोगरी / Dogri",
-        "gujarati": "ગુજરાતી / Gujarati",
-        "hindi": "हिंदी / Hindi",
-        "kannada": "ಕನ್ನಡ / Kannada",
-        "kashmiri": "कॉशुर / Kashmiri",
-        "konkani": "कोंकणी / Konkani",
-        "maithili": "मैथिली / Maithili",
-        "malayalam": "മലയാളം / Malayalam",
-        "manipuri": "মৈতৈলোন্ / Manipuri",
-        "marathi": "मराठी / Marathi",
-        "nepali": "नेपाली / Nepali",
-        "odia": "ଓଡ଼ିଆ / Odia",
-        "punjabi": "ਪੰਜਾਬੀ / Punjabi",
-        "sanskrit": "संस्कृत / Sanskrit",
-        "santali": "ᱥᱟᱱᱛᱟᱲᱤ / Santali",
-        "sindhi": "سنڌي / Sindhi",
-        "tamil": "தமிழ் / Tamil",
-        "telugu": "తెలుగు / Telugu",
-        "urdu": "اردو / Urdu"
+        "assamese": "অসমীয়া / Assamese", "bengali": "বাংলা / Bengali", "bodo": "बोडो / Bodo",
+        "dogri": "डोगरी / Dogri", "gujarati": "ગુજરાતી / Gujarati", "hindi": "हिंदी / Hindi",
+        "kannada": "ಕನ್ನಡ / Kannada", "kashmiri": "कॉशুর / Kashmiri", "konkani": "कोंकणी / Konkani",
+        "maithili": "मैथिली / Maithili", "malayalam": "മലയാളം / Malayalam", "manipuri": "মৈতৈলোন্ / Manipuri",
+        "marathi": "मराठी / Marathi", "nepali": "नेपाली / Nepali", "odia": "ଓଡ଼ିଆ / Odia",
+        "punjabi": "ਪੰਜਾਬੀ / Punjabi", "sanskrit": "संस्कृत / Sanskrit", "santali": "ᱥᱟᱱᱛᱟᱲᱤ / Santali",
+        "sindhi": "سنڌي / Sindhi", "tamil": "தமிழ் / Tamil", "telugu": "తెలుగు / Telugu", "urdu": "اردو / Urdu"
     };
 
     const DEFAULT_CARD_LANGUAGES = ["tamil", "kannada", "telugu", "hindi"];
-
-    // Category Config
     const CATEGORIES = {
         'fish': 'data/fish-seafood.json',
         'vegetables': 'data/vegetables-fruits.json',
@@ -67,117 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'spices': 'data/spices.json'
     };
 
-    // State
-    let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_CARD_LANGUAGES;
-    let currentCategory = 'fish';
-    let appData = [];
-    let activeFilters = new Set();
-
-    // Lazy Load State
-    const BATCH_SIZE = 20;
-    let currentFilteredData = [];
-    let renderedCount = 0;
-    let loadMoreObserver;
-
-    // Initialize
-    init();
-
-    async function init() {
-        // Load initial category
-        await loadCategory(currentCategory);
-
-        // Category Navigation (Tabs)
-        const tabButtons = document.querySelectorAll('.tab-btn');
-        tabButtons.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                const category = e.currentTarget.dataset.category;
-                if (category !== currentCategory) {
-                    // Update UI
-                    tabButtons.forEach(b => b.classList.remove('active'));
-                    e.currentTarget.classList.add('active');
-
-                    // Load Data
-                    loadCategory(category);
-                }
-            });
-        });
-
-        // Event Listeners
-        searchInput.addEventListener('input', (e) => {
-            handleSearch(e);
-            searchClear.hidden = searchInput.value.length === 0;
-        });
-
-        searchClear.addEventListener('click', () => {
-            searchInput.value = '';
-            searchClear.hidden = true;
-            searchInput.focus();
-            handleSearch({ target: searchInput });
-        });
-
-        btnCustomizeCols.addEventListener('click', () => {
-            colDialog.hidden = !colDialog.hidden;
-            btnCustomizeCols.setAttribute('aria-expanded', String(!colDialog.hidden));
-            if (!colDialog.hidden) {
-                renderColumnSelector();
-            }
-        });
-
-        btnCloseCols.addEventListener('click', () => {
-            colDialog.hidden = true;
-            btnCustomizeCols.setAttribute('aria-expanded', 'false');
-        });
-
-        // Scroll Logic for Mobile Header
-        let lastScrollY = window.scrollY;
-        const header = document.querySelector('.app-header');
-
-        window.addEventListener('scroll', () => {
-            const currentScrollY = window.scrollY;
-
-            // Only act if we've scrolled past the top area (prevent jitter at top)
-            if (currentScrollY > 100) {
-                if (currentScrollY > lastScrollY) {
-                    // Scrolling DOWN -> Minimize
-                    header.classList.add('scrolled-down');
-                } else {
-                    // Scrolling UP -> Show
-                    header.classList.remove('scrolled-down');
-                }
-            } else {
-                // At top -> Always Show
-                header.classList.remove('scrolled-down');
-            }
-
-            lastScrollY = currentScrollY;
-        }, { passive: true });
-    }
-
-    async function loadCategory(category) {
-        currentCategory = category;
-        cardView.innerHTML = '<p class="loading">Loading...</p>';
-
-        try {
-            const response = await fetch(`${CATEGORIES[category]}?v=${new Date().getTime()}`);
-            appData = await response.json();
-
-            generateFilters(appData);
-
-            // Clear filters (category specific) but KEEP search query
-            activeFilters.clear();
-            const query = searchInput.value.toLowerCase().trim();
-            const filtered = applyFilters(appData, query, activeFilters);
-
-            renderApp(filtered);
-
-            trackEvent('view_category', { category: category });
-        } catch (error) {
-            console.error(`Failed to load ${category} data:`, error);
-            cardView.innerHTML = '<p class="error">Failed to load data. Please try again.</p>';
-        }
-    }
-
-    // Filter Whitelist per Category
     const TAG_FILTERS = {
         'fish': ['sea', 'freshwater', 'brackish'],
         'vegetables': ['fruit', 'root', 'leafy', 'vegetable'],
@@ -185,117 +57,156 @@ document.addEventListener('DOMContentLoaded', () => {
         'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit']
     };
 
-    function generateFilters(data) {
-        // Get allowed filters for current category
-        const allowedTags = TAG_FILTERS[currentCategory] || [];
+    const BATCH_SIZE = 20;
+    let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_CARD_LANGUAGES;
 
-        // Extract unique tags from data that are in the allowed list
-        const tags = new Set();
-        data.forEach(item => {
-            if (item.tags && Array.isArray(item.tags)) {
-                item.tags.forEach(tag => {
-                    if (allowedTags.includes(tag)) {
-                        tags.add(tag);
-                    }
-                });
-            }
-        });
+    // Initialize
+    init();
 
-        // Create Filter Chips
-        const isAllActive = activeFilters.size === 0;
-        let html = `<button class="filter-chip ${isAllActive ? 'active' : ''}" data-filter="all">All</button>`;
+    async function init() {
+        // Hash Routing
+        window.addEventListener('hashchange', handleRouteChange);
 
-        // Sort based on the defined order in TAG_FILTERS
-        const sortedTags = Array.from(tags).sort((a, b) => {
-            return allowedTags.indexOf(a) - allowedTags.indexOf(b);
-        });
+        // Initial load
+        const hash = window.location.hash.slice(1);
+        if (hash) {
+            await handleRouteChange();
+        } else {
+            await loadCategory('fish');
+        }
 
-        sortedTags.forEach(tag => {
-            const isActive = activeFilters.has(tag);
-            html += `<button class="filter-chip ${isActive ? 'active' : ''}" data-filter="${tag}">${getTagLabel(tag)}</button>`;
-        });
-
-        if (filterChipsContainer) {
-            filterChipsContainer.innerHTML = html;
-
-            // Add Listeners
-            filterChipsContainer.querySelectorAll('.filter-chip').forEach(chip => {
-                chip.addEventListener('click', () => {
-                    const filter = chip.dataset.filter;
-                    handleFilterClick(filter);
-                });
+        // Tabs
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const category = btn.dataset.category;
+                const query = searchInput.value.trim();
+                const newHash = query ? `${category}&search=${encodeURIComponent(query)}` : category;
+                if (window.location.hash.slice(1) !== newHash) {
+                    window.location.hash = newHash;
+                } else if (category !== currentCategory) {
+                    loadCategory(category);
+                }
             });
+        });
+
+        // Search
+        searchInput.addEventListener('input', handleSearch);
+        if (searchClear) {
+            searchClear.addEventListener('click', () => {
+                searchInput.value = '';
+                updateSearchUI();
+                window.location.hash = currentCategory;
+                handleSearch();
+            });
+        }
+
+        // Language Selector
+        btnCustomizeCols.addEventListener('click', () => {
+            colDialog.hidden = !colDialog.hidden;
+            if (!colDialog.hidden) renderColumnSelector();
+        });
+        btnCloseCols.addEventListener('click', () => colDialog.hidden = true);
+
+        // Scroll Logic
+        setupScrollListener();
+    }
+
+    async function handleRouteChange() {
+        const hash = window.location.hash.slice(1);
+        if (!hash) return;
+
+        const parts = hash.split('&');
+        const catPart = parts[0];
+        const searchPart = parts.find(p => p.startsWith('search='));
+
+        let targetCategory = CATEGORIES[catPart] ? catPart : currentCategory;
+        let targetQuery = searchPart ? decodeURIComponent(searchPart.split('=')[1]) : '';
+
+        // Check if anything actually changed globally
+        const isNewCategory = targetCategory !== currentCategory || appData.length === 0;
+        const isNewQuery = searchInput.value.trim() !== targetQuery;
+
+        if (isNewCategory) {
+            searchInput.value = targetQuery;
+            updateSearchUI();
+            await loadCategory(targetCategory);
+            window.scrollTo(0, 0);
+        } else if (isNewQuery) {
+            searchInput.value = targetQuery;
+            updateSearchUI();
+            renderApp(applyFilters(appData, targetQuery, activeFilters));
+            window.scrollTo(0, 0);
+        }
+
+        // Sync Tabs
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.category === targetCategory);
+        });
+
+        updateTitle(targetCategory, targetQuery);
+    }
+
+    async function loadCategory(category) {
+        if (isLoading) return;
+        isLoading = true;
+        currentCategory = category;
+        activeFilters.clear();
+        cardView.innerHTML = '<p class="loading">Loading...</p>';
+        if (filterChipsContainer) filterChipsContainer.innerHTML = '';
+
+        try {
+            const response = await fetch(`${CATEGORIES[category]}?v=${new Date().getTime()}`);
+            appData = await response.json();
+            isLoading = false;
+
+            generateFilters(appData);
+            renderApp(applyFilters(appData, searchInput.value.trim(), activeFilters));
+        } catch (error) {
+            console.error(`Failed to load ${category}:`, error);
+            cardView.innerHTML = '<p class="error">Failed to load data.</p>';
+            isLoading = false;
         }
     }
 
-    function handleFilterClick(filter) {
-        if (filter === 'all') {
-            activeFilters.clear();
-        } else {
-            if (activeFilters.has(filter)) {
-                activeFilters.delete(filter);
-            } else {
-                activeFilters.add(filter);
-            }
-        }
+    function handleSearch() {
+        const query = searchInput.value.trim();
+        updateSearchUI();
 
-        // Update Active State visually
-        const chips = document.querySelectorAll('.filter-chip');
-        chips.forEach(c => {
-            const f = c.dataset.filter;
-            if (f === 'all') {
-                if (activeFilters.size === 0) c.classList.add('active');
-                else c.classList.remove('active');
-            } else {
-                if (activeFilters.has(f)) c.classList.add('active');
-                else c.classList.remove('active');
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            const newHash = query ? `${currentCategory}&search=${encodeURIComponent(query)}` : currentCategory;
+            if (window.location.hash.slice(1) !== newHash) {
+                window.location.hash = newHash;
             }
-        });
+        }, 500);
 
-        // Re-render
-        const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilters);
-        renderApp(filtered);
-        trackEvent('filter', { filter: Array.from(activeFilters).join(',') || 'all' });
+        renderApp(applyFilters(appData, query, activeFilters));
+    }
+
+    function updateSearchUI() {
+        if (searchClear) searchClear.hidden = searchInput.value.length === 0;
     }
 
     function applyFilters(data, query, filters) {
+        const q = query.toLowerCase().trim();
         return data.filter(item => {
-            // 1. Tag Filter (OR logic)
             if (filters.size > 0) {
-                if (!item.tags) return false;
-                // Check if item has AT LEAST ONE of the active filters
-                const hasMatch = item.tags.some(tag => filters.has(tag));
-                if (!hasMatch) return false;
+                if (!item.tags || !item.tags.some(tag => filters.has(tag))) return false;
             }
-
-            // 2. Search Filter
-            if (!query) return true;
-
-            if (item.notes && item.notes.toLowerCase().includes(query)) return true;
-            if (item.scientificName && item.scientificName.toLowerCase().includes(query)) return true;
-
-            for (const [lang, names] of Object.entries(item.names)) {
-                if (names.some(n => n.toLowerCase().includes(query))) return true;
-            }
-
-            return false;
+            if (!q) return true;
+            if (item.notes && item.notes.toLowerCase().includes(q)) return true;
+            if (item.scientificName && item.scientificName.toLowerCase().includes(q)) return true;
+            return Object.values(item.names).flat().some(n => n.toLowerCase().includes(q));
         });
     }
 
     function renderApp(data) {
-        // Update Count
         if (resultCount) resultCount.textContent = data.length;
-
-        // Reset Lazy Load State
         currentFilteredData = data;
         renderedCount = 0;
-        window.scrollTo(0, 0); // Reset scroll position
         cardView.innerHTML = '';
-
-        if (loadMoreObserver) {
-            loadMoreObserver.disconnect();
-            loadMoreObserver = null;
-        }
+        if (loadMoreObserver) loadMoreObserver.disconnect();
 
         if (data.length === 0) {
             noResults.hidden = false;
@@ -307,169 +218,133 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderNextBatch() {
         const batch = currentFilteredData.slice(renderedCount, renderedCount + BATCH_SIZE);
-        if (batch.length === 0) return;
-
         const fragment = document.createDocumentFragment();
-        batch.forEach(item => {
-            fragment.appendChild(createCardElement(item));
-        });
+        batch.forEach(item => fragment.appendChild(createCardElement(item)));
         cardView.appendChild(fragment);
-
         renderedCount += batch.length;
-
-        if (renderedCount < currentFilteredData.length) {
-            setupObserver();
-        }
+        if (renderedCount < currentFilteredData.length) setupObserver();
     }
 
     function setupObserver() {
         if (loadMoreObserver) loadMoreObserver.disconnect();
-
         const sentinel = document.createElement('div');
         sentinel.className = 'sentinel';
         cardView.appendChild(sentinel);
 
         loadMoreObserver = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) {
-                loadMoreObserver.disconnect();
                 sentinel.remove();
                 renderNextBatch();
             }
         }, { rootMargin: '200px' });
-
         loadMoreObserver.observe(sentinel);
     }
 
     function createCardElement(item) {
         const card = document.createElement('div');
         card.className = 'fish-card';
-
         const primaryLangs = [...activeCardLanguages];
         const otherLangs = SUPPORTED_LANGUAGES.filter(l => !activeCardLanguages.includes(l));
 
         const renderGrid = (langs) => langs.map(lang => `
             <div class="lang-group">
-                <span class="lang-label">${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}</span>
+                <span class="lang-label">${LANGUAGE_DISPLAY_NAMES[lang] || lang}</span>
                 <span class="lang-value">${item.names[lang] ? item.names[lang].join(' / ') : '-'}</span>
-            </div>
-        `).join('');
+            </div>`).join('');
 
-        // Simplified Badges
         const getBadges = (tags) => {
-            if (!tags) return '';
-
-            // Get allowed filters for current category
-            const allowedTags = TAG_FILTERS[currentCategory] || [];
-
-            return tags
-                .filter(tag => allowedTags.includes(tag)) // Filter against whitelist
-                .map(tag => {
-                    let className = 'habitat-badge';
-                    if (['sea', 'freshwater', 'brackish'].includes(tag)) {
-                        return `<span class="${className} habitat-${tag}">${getTagLabel(tag)}</span>`;
-                    }
-                    return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getTagLabel(tag)}</span>`;
-                }).join(' ');
+            const allowed = TAG_FILTERS[currentCategory] || [];
+            return (tags || []).filter(t => allowed.includes(t)).map(t => {
+                const isHabitat = ['sea', 'freshwater', 'brackish'].includes(t);
+                return `<span class="habitat-badge ${isHabitat ? 'habitat-' + t : ''}">${getTagLabel(t)}</span>`;
+            }).join(' ');
         };
-
-        const placeholderImg = `img/placeholder.webp`;
 
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='${placeholderImg}'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.src='img/placeholder.webp'">
                 <div class="fish-title">
                     <h2>${item.names.english.join(' / ')}</h2>
-                    <div class="scientific-name">${item.scientificName}</div>
-                    <div class="badges">
-                        ${getBadges(item.tags)}
-                    </div>
+                    <div class="scientific-name">${item.scientificName || ''}</div>
+                    <div class="badges">${getBadges(item.tags)}</div>
                 </div>
             </div>
-            
-            <div class="fish-names-grid">
-                ${renderGrid(primaryLangs)}
-            </div>
-            
-            ${otherLangs.length > 0 ? `
-                <details class="more-langs">
-                    <summary>Show all languages</summary>
-                    <div class="fish-names-grid dense">
-                        ${renderGrid(otherLangs)}
-                    </div>
-                </details>
-            ` : ''}
-
-            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}
-        `;
+            <div class="fish-names-grid">${renderGrid(primaryLangs)}</div>
+            ${otherLangs.length > 0 ? `<details class="more-langs"><summary>Show all languages</summary><div class="fish-names-grid dense">${renderGrid(otherLangs)}</div></details>` : ''}
+            ${item.notes ? `<div class="fish-notes">💡 ${item.notes}</div>` : ''}`;
         return card;
     }
 
-    // Helper reused in renderCards and generateFilters
+    function generateFilters(data) {
+        const allowed = TAG_FILTERS[currentCategory] || [];
+        const tags = new Set();
+        data.forEach(item => (item.tags || []).forEach(t => { if (allowed.includes(t)) tags.add(t); }));
+
+        const sorted = Array.from(tags).sort((a, b) => allowed.indexOf(a) - allowed.indexOf(b));
+        let html = `<button class="filter-chip ${activeFilters.size === 0 ? 'active' : ''}" data-filter="all">All</button>`;
+        sorted.forEach(t => html += `<button class="filter-chip ${activeFilters.has(t) ? 'active' : ''}" data-filter="${t}">${getTagLabel(t)}</button>`);
+
+        if (filterChipsContainer) {
+            filterChipsContainer.innerHTML = html;
+            filterChipsContainer.querySelectorAll('.filter-chip').forEach(c => c.addEventListener('click', () => handleFilterClick(c.dataset.filter)));
+        }
+    }
+
+    function handleFilterClick(filter) {
+        if (filter === 'all') activeFilters.clear();
+        else activeFilters.has(filter) ? activeFilters.delete(filter) : activeFilters.add(filter);
+
+        document.querySelectorAll('.filter-chip').forEach(c => {
+            const f = c.dataset.filter;
+            c.classList.toggle('active', f === 'all' ? activeFilters.size === 0 : activeFilters.has(f));
+        });
+
+        renderApp(applyFilters(appData, searchInput.value.trim(), activeFilters));
+    }
+
     function getTagLabel(tag) {
         const labels = {
-            'sea': '🌊 Sea',
-            'freshwater': '💧 Freshwater',
-            'brackish': '🌿 Brackish',
-            'root': '🥔 Root',
-            'leafy': '🥬 Leafy',
-            'vegetable': '🍆 Vegetable',
-            'fruit': '🍎 Fruit',
-            'cereal': '🌾 Cereal',
-            'pulse': '🫘 Pulse',
-            'millet': '🥣 Millet',
-            'spice': '🌶️ Spice',
-            'seed': '🌿 Seed',
-            'aromatic': '🪵 Aromatic',
-            'heat': '🔥 Heat',
-            'root': '🥔 Root',
-            'acidic': '🍋 Acidic',
-            'resin': '🥣 Resin',
-            'flower': '🌸 Flower',
-            'dry-fruit': '🥜 Dry Fruit'
+            'sea': '🌊 Sea', 'freshwater': '💧 Freshwater', 'brackish': '🌿 Brackish', 'root': '🥔 Root', 'leafy': '🥬 Leafy',
+            'vegetable': '🍆 Vegetable', 'fruit': '🍎 Fruit', 'cereal': '🌾 Cereal', 'pulse': '🫘 Pulse', 'millet': '🥣 Millet',
+            'spice': '🌶️ Spice', 'seed': '🌿 Seed', 'aromatic': '🪵 Aromatic', 'heat': '🔥 Heat', 'acidic': '🍋 Acidic',
+            'resin': '🥣 Resin', 'flower': '🌸 Flower', 'dry-fruit': '🥜 Dry Fruit'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }
 
+    function updateTitle(category, query) {
+        const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
+        document.title = query ? `${query} | Search in ${catLabel} | Indian Ingredient Lexicon` : `${catLabel} Identification Guide | Indian Ingredient Lexicon`;
+    }
+
+    function setupScrollListener() {
+        let lastScrollY = window.scrollY;
+        const header = document.querySelector('.app-header');
+        window.addEventListener('scroll', () => {
+            const current = window.scrollY;
+            if (current > 100) {
+                if (current > lastScrollY) header.classList.add('scrolled-down');
+                else if (current < lastScrollY) header.classList.remove('scrolled-down');
+            } else {
+                header.classList.remove('scrolled-down');
+            }
+            lastScrollY = current;
+        }, { passive: true });
+    }
+
     function renderColumnSelector() {
-        colCheckboxes.innerHTML = SUPPORTED_LANGUAGES.map(lang => `
+        colCheckboxes.innerHTML = SUPPORTED_LANGUAGES.map(l => `
             <label class="col-option">
-                <input type="checkbox" value="${lang}" ${activeCardLanguages.includes(lang) ? 'checked' : ''}>
-                ${LANGUAGE_DISPLAY_NAMES[lang] || lang.charAt(0).toUpperCase() + lang.slice(1)}
-            </label>
-        `).join('');
-
-        colCheckboxes.querySelectorAll('input').forEach(cb => {
-            cb.addEventListener('change', (e) => {
-                const lang = e.target.value;
-                const isChecked = e.target.checked;
-
-                if (isChecked) {
-                    if (!activeCardLanguages.includes(lang)) activeCardLanguages.push(lang);
-                    trackEvent('toggle_language', { language: lang, action: 'add' });
-                } else {
-                    activeCardLanguages = activeCardLanguages.filter(l => l !== lang);
-                    trackEvent('toggle_language', { language: lang, action: 'remove' });
-                }
-                localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
-
-                // Re-render with current filters
-                const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilters);
-                renderApp(filtered);
-            });
-        });
+                <input type="checkbox" value="${l}" ${activeCardLanguages.includes(l) ? 'checked' : ''}>
+                ${LANGUAGE_DISPLAY_NAMES[l] || l}
+            </label>`).join('');
+        colCheckboxes.querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+            const l = e.target.value;
+            e.target.checked ? activeCardLanguages.push(l) : activeCardLanguages = activeCardLanguages.filter(x => x !== l);
+            localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
+            renderApp(applyFilters(appData, searchInput.value.trim(), activeFilters));
+        }));
     }
 
-    function handleSearch(e) {
-        const query = e.target.value.toLowerCase().trim();
-
-        clearTimeout(searchTimeout);
-        if (query) {
-            searchTimeout = setTimeout(() => {
-                trackEvent('search', { search_term: query });
-            }, 1000);
-        }
-
-        const filtered = applyFilters(appData, query, activeFilters);
-        renderApp(filtered);
-    }
+    function trackEvent(name, params = {}) { if (typeof gtag === 'function') gtag('event', name, params); }
 });

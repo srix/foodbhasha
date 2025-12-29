@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe('Indian Food Guide Verification', () => {
+test.describe('Indian Ingredient Lexicon Verification', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('/');
@@ -10,8 +10,8 @@ test.describe('Indian Food Guide Verification', () => {
     });
 
     test('Page Title & Brand', async ({ page }) => {
-        await expect(page).toHaveTitle(/Indian Food Guide/);
-        await expect(page.locator('h1')).toHaveText('Indian Food Guide');
+        await expect(page).toHaveTitle(/Indian Ingredient Lexicon/);
+        await expect(page.locator('h1')).toHaveText('Indian Ingredient Lexicon');
     });
 
     test('Category Navigation & Data Loading', async ({ page }) => {

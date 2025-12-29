@@ -1,5 +1,5 @@
 # AGENTS.md  
-Indian Fish Name Guide – Agent Instructions
+Indian Ingredient Lexicon – Agent Instructions
 
 This repository is used with coding agents (Codex Cloud / GitHub agents).
 Follow this guide strictly to ensure high-quality, reviewable changes.
@@ -7,14 +7,14 @@ Follow this guide strictly to ensure high-quality, reviewable changes.
 ---
 
 ## Project Overview
-This project is a static, web-based guide for Indian fish names.
-It helps users translate fish names across multiple Indian languages:
-English, Tamil, Malayalam, Telugu, Kannada, Hindi, Bengali, Marathi, and Odia.
+This project is a static, web-based lexicon for Indian food ingredients (**foodbhasha.com**).
+It helps users identify and translate names across multiple categories (Fish, Vegetables, Fruits, Grains, Spices) and 22 Indian languages.
 
 The app supports:
+- **Hash-based Routing** for SEO and shareable results
 - **Card View** for visual browsing
-- **Table View** for structured comparison
-- Search and filtering across languages
+- **Multi-select Filtering** (e.g., Root + Leafy)
+- **Search persistence** across categories
 
 ---
 
@@ -47,7 +47,7 @@ No backend, build step, or framework is involved.
   Playwright configuration.
 
 ### Data (`data/`)
-- `fish-seafood.json`, `vegetables-fruits.json`, `grains-pulses.json`  
+- `fish-seafood.json`, `vegetables-fruits.json`, `grains-pulses.json`, `spices.json`  
   Core datasets. Array of items with:
   - `name` (English)
   - `scientific_name`

@@ -724,6 +724,7 @@ body {
         padding: 0;
         overflow: hidden;
         opacity: 0;
+        transition: none !important;
     }
 
     .header-top {

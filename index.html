@@ -4,10 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Food Guide</title>
+    <title>Indian Ingredient Lexicon | Multilingual Food Glossary</title>
     <link rel="icon" type="image/jpeg" href="img/logo.jpg">
     <meta name="description"
-        content="Identify Indian food ingredients (fish, vegetables, grains) in English and regional languages like Tamil, Malayalam, Kannada, Hindi.">
+        content="A comprehensive multilingual lexicon for Indian food ingredients. Identify fish, vegetables, fruits, grains, and spices in 22 regional languages including Tamil, Malayalam, Kannada, and Hindi.">
+
+    <!-- Canonical & Favicon -->
+    <link rel="canonical" href="https://foodbhasha.com/">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodbhasha.com/">
+    <meta property="og:title" content="Indian Ingredient Lexicon | Multilingual Food Glossary">
+    <meta property="og:description"
+        content="Translate names of Indian fish, vegetables, fruits, grains, and spices across 22 regional languages. A visual guide for shoppers and food enthusiasts.">
+    <meta property="og:image" content="https://foodbhasha.com/img/logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://foodbhasha.com/">
+    <meta property="twitter:title" content="Indian Ingredient Lexicon | Multilingual Food Glossary">
+    <meta property="twitter:description"
+        content="Translate names of Indian fish, vegetables, fruits, grains, and spices across 22 regional languages. A visual guide for shoppers and food enthusiasts.">
+    <meta property="twitter:image" content="https://foodbhasha.com/img/logo.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Indian Ingredient Lexicon",
+      "description": "A multilingual glossary to identify Indian food ingredients like fish, vegetables, fruits, grains, and spices in 22 regional languages.",
+      "url": "https://foodbhasha.com/",
+      "applicationCategory": "Reference",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,11 +74,11 @@
             <div class="header-centered header-top-content">
                 <div class="brand">
                     <div class="logo-circle">
-                        <img src="img/logo.jpg" alt="Indian Food Guide Logo" class="brand-icon-img">
+                        <img src="img/logo.jpg" alt="Indian Ingredient Lexicon Logo" class="brand-icon-img">
                     </div>
                     <div class="brand-text">
-                        <h1>Indian Food Guide</h1>
-                        <span class="subtitle">DISCOVER. IDENTIFY. TRANSLATE.</span>
+                        <h1>Indian Ingredient Lexicon</h1>
+                        <span class="subtitle">Multilingual Identification</span>
                     </div>
                 </div>
 
@@ -102,12 +142,32 @@
 
     <main class="app-body">
         <div id="card-view" class="view-container">
-            <!-- Fish cards will be injected here -->
+            <!-- Items injected via JS -->
         </div>
 
         <div id="no-results" hidden>
             <p>No ingredients found matching your search.</p>
         </div>
+
+        <!-- SEO Fallback: Plain text content for search engines -->
+        <section class="seo-fallback" style="display:none;" aria-hidden="true">
+            <h2>Indian Ingredients Glossary - foodbhasha.com</h2>
+            <p>Identify fish, vegetables, fruits, grains, and spices in multiple Indian languages like Tamil, Telugu,
+                Kannada,
+                Malayalam, Hindi, Bengali, Marathi, and more.</p>
+            <ul>
+                <li><strong>Fish:</strong> Pomfret, Mackerel, Sardine, Anchovy, Seer Fish, Shark, Shrimp, Crab, Rohu,
+                    Catla, Hilsa.</li>
+                <li><strong>Vegetables:</strong> Brinjal, Okra, Bitter Gourd, Drumstick, Snake Gourd, Ridge Gourd,
+                    Bottle Gourd, Potato, Onion, Tomato, Spinach.</li>
+                <li><strong>Fruits:</strong> Mango, Banana, Guava, Pomegranate, Papaya, Jackfruit, Custard Apple,
+                    Chickoo.</li>
+                <li><strong>Grains:</strong> Basmati Rice, Ponni Rice, Ragi, Bajra, Jowar, Chickpeas, Red Lentils, Green
+                    Gram, Toor Dal.</li>
+                <li><strong>Spices:</strong> Cardamom, Cinnamon, Clove, Turmeric, Cumin, Mustard, Fenugreek, Pepper,
+                    Ginger, Garlic.</li>
+            </ul>
+        </section>
     </main>
 
     <script src="app.js"></script>
