@@ -1,12 +1,12 @@
 
 ---
 
-# **Fish Name Lookup – Specification (spec.md)**
+# **Indian Food Guide – Specification (spec.md)**
 
 ## **1. Overview**
 
-A lightweight static website that helps users instantly identify a fish by photo and see what it is called across **all 22 official Indian languages** (plus English).
-The site is designed for **mobile-first usage** (e.g., while ordering at restaurants) and is also accessible to the general public on the web.
+A lightweight static website that helps users instantly identify food ingredients (Fish, Vegetables, Fruits, Grains) by photo and see what they are called across **all 22 official Indian languages** (plus English).
+The site is designed for **mobile-first usage** (e.g., while shopping or ordering) and is also accessible to the general public on the web.
 
 ---
 
@@ -14,18 +14,18 @@ The site is designed for **mobile-first usage** (e.g., while ordering at restaur
 
 ### **Primary**
 
-* Provide a **visual reference** of common fishes served in restaurants.
+* Provide a **visual reference** of common Indian food ingredients.
 * Show **names across 23 languages** (English + 22 Indian Languages).
-* Database covers **30+ popular fishes** (Sea, Freshwater, Shellfish).
-* Make it simple for users to **search** and quickly identify fish names.
+* Database covers **Fish**, **Vegetables**, **Fruits**, and **Grains**.
+* Make it simple for users to **search** and quickly identify types.
 * Support **native scripts** alongside Romanized names for accurate pronunciation and reading.
 
 ### **Secondary**
 
-* Provide notes on **confusions and alternate names**.
+* Provide notes on **culinary usage** (e.g., "Good for curry", "Starch").
 * Offer a clean, mobile-first **Card View**.
-* **Persist** user preferences (View mode, Table columns) across sessions.
-* Enable easy maintenance by storing all fish info in **one JSON data file**.
+* **Persist** user preferences (Selected Languages) across sessions.
+* Enable easy maintenance by storing info in split JSON data files.
 
 ---
 
@@ -46,6 +46,8 @@ The site is a **fully static HTML + JS** application.
 /style.css
 /app.js
 /data/fish.json
+/data/vegetables.json
+/data/grains.json
 /img/*.jpg or .png or .webp
 ```
 
@@ -56,26 +58,27 @@ Deployment: GitHub Pages, Cloudflare Pages, or Netlify.
 
 ## **5. Data Model**
 
-All fish information lives inside `/data/fish.json`.
+Data is split by category:
+* `/data/fish.json`
+* `/data/vegetables.json`
+* `/data/grains.json`
 
 ### **5.1 JSON Schema**
 
-Each fish entry follows:
+Each entry follows:
 
 ```json
 {
-  "id": "seer-fish",
-  "photo": "img/seer-fish.png",
-  "category": ["sea", "fry", "popular"],
-  "scientificName": "Scomberomorus commerson",
+  "id": "item-slug",
+  "photo": "img/item.webp",
+  "category": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"]
+  "scientificName": "Scientific Name",
   "names": {
-    "english": ["Seer fish", "King fish"],
-    "tamil": ["வஞ்சரம்", "Vanjaram"],
-    "malayalam": ["നെയ്‌മീൻ", "Neymeen"],
-    "hindi": ["सुरमई", "Surmai"],
+    "english": ["Name 1", "Name 2"],
+    "tamil": ["Native", "Romanized"],
     // ... 22 languages supported
   },
-  "notes": "Often sold as King fish. Surmai in North/West India."
+  "notes": "Culinary notes or identification tips."
 }
 ```
 
@@ -83,13 +86,8 @@ Each fish entry follows:
 
 * `id` — unique slug
 * `photo` — local image path
-* `names` — object keys for each language, values are array: `["Native Script", "Romanized"]` or `["Romanized"]`
-
-### **5.3 Optional fields**
-
-* `scientificName`
-* `category` (tags)
-* `notes` (confusions, prep style, restaurant usage insights)
+* `names` — object keys for each language
+* `category` — array of tags used for filtering (see 6.2)
 
 ---
 
@@ -101,83 +99,63 @@ Each fish entry follows:
 * Each card includes:
   * Image (Left/Top)
   * English name and Scientific name.
-  * **Habitat Badge**: Indicates if the fish is from Sea 🌊, Freshwater 💧, or Brackish 🌿 waters.
-  * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi). Users can select which languages to show here via the "Languages" button.
-  * **"Show all languages"**: An expandable accordion at the **bottom** of the card (full width) to reveal the rest.
+  * **Category Badges**: Indicates specific type (e.g., Sea 🌊, Root 🥔, Fruit 🍎).
+    * *Note*: Badges are strictly filtered to show only primary classification tags. Usage tags like "Curry" are used for internal search but not displayed to reduce clutter.
+  * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi).
+  * **"Show all languages"**: An expandable accordion at the bottom.
   * **Native Scripts**: Displayed alongside Romanized names.
-  * **Missing Data**: Languages without a known name display as `-` instead of being hidden, ensuring consistency.
-  * Notes expandable on tap.
+  * Notes: Helpful context.
 
+### **6.2 Filtering & Navigation**
 
+* **Category Tabs**: Top-level navigation between:
+  * Fish & Seafood 🐟
+  * Vegetables & Fruits 🥦
+  * Grains & Pulses 🌾
+* **Sticky Filter Bar**: Located below tabs.
+  * Categories have specific, strict filter lists (e.g. Fish: Sea/Freshwater/Brackish).
+  * **Multi-Select**: Users can select multiple filters simultaneously (e.g., "Sea" AND "Brackish").
+  * **Logic**: OR-based filtering (shows items matching *any* active filter).
+  * **Reset**: Toggling all filters off (or clicking "All") resets the view to show everything.
 
 ### **6.3 Search**
 
-* Single search bar in header.
+* Single search bar in the sticky header.
 * Searches across:
-  * All name variants (English + all 22 languages)
-  * English transliteration
+  * All name variants
   * Notes
   * Scientific names
-* Results instantly filter both Card and Table views.
-
-### **6.4 Persistence**
-
-* Remembers **Selected Languages** using `localStorage`.
-
-### **6.5 Responsive Design**
-
-* Optimized for mobile (primary).
-* Table view gracefully scrolls horizontally on small screens.
-* Desktop/tablet gets wider grid layout for cards and full table visibility.
+* Results instantly match the active category.
 
 ---
 
 ## **7. UI Layout**
 
-### **7.1 Header**
+### **7.1 Sticky Header**
 
-* Title: “Indian Fish Name Guide”
-* Search bar (full width)
-* Controls: `🌐 Languages`
+A 3-row sticky header that stays fixed at the top:
+1.  **Top Row**: Brand ("Indian Food Guide"), Search Bar, "Languages" button.
+2.  **Navigation Row**: Category tabs.
+3.  **Toolbar Row**: Filter chips and Result count.
+
+* **Alignment**: On wide screens (desktop), the header content is centered and capped at 1200px to align with the body content.
 
 ### **7.2 Body**
 
-Contains two main containers:
+Contains the Cards container:
 
 ```html
-<div id="card-view"></div>
+<main class="app-body">
+    <div id="card-view"></div>
+</main>
 ```
-
----
-
-## **8. Behavior**
-
-### **8.1 Data Loading**
-
-On page load:
-
-* Fetch `/data/fish.json`
-* Store in global array
-* Restore saved view state and columns from `localStorage`
-* Render appropriate view
-
-### **8.2 Filtering**
-
-On each keystroke:
-
-* Normalize search term
-* Filter fishData across all fields
-* Re-render cards
 
 ---
 
 ## **9. Image Guidelines**
 
-* Use `.png` or `.jpg` (AI generated images are .png).
-* **AI Generated** watermark applied.
-* Prefer whole-fish photos on white/neutral background.
-* Filenames follow `id`: `img/seer-fish.png`.
-* **Placeholders**: If a specific fish image is unavailable, use `img/placeholder.png` (a generic fish icon) until a specific image is generated.
+* Use `.webp` for efficiency.
+* **Placeholders**: If a specific image is unavailable, use `img/placeholder.webp`.
 
 ---
 
@@ -185,14 +163,4 @@ On each keystroke:
 
 * Alt text for all images.
 * High contrast text.
-* Minimum 14–16px fonts for mobile readability.
-* Interactive elements have clear labels (`aria-label`).
-
----
-
-## **11. Future Enhancements (v2)**
-
-* Filters: sea vs freshwater.
-* Dish suggestions (best for fry, curry, grill).
-* Offline access (service worker).
-* "Buyers guide" (how to identify fresh fish).
+* Semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<button>`).

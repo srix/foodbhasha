@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeCardLanguages = JSON.parse(localStorage.getItem('fishCardLanguages')) || DEFAULT_CARD_LANGUAGES;
     let currentCategory = 'fish';
     let appData = [];
-    let activeFilter = 'all';
+    let activeFilters = new Set();
 
     // Initialize
     init();
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     btn.classList.add('active');
 
                     // Reset Filter
-                    activeFilter = 'all';
+                    activeFilters.clear();
 
                     // Load Data
                     loadCategory(category);
@@ -156,7 +156,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Create Filter Chips
-        let html = `<button class="filter-chip ${activeFilter === 'all' ? 'active' : ''}" data-filter="all">All</button>`;
+        const isAllActive = activeFilters.size === 0;
+        let html = `<button class="filter-chip ${isAllActive ? 'active' : ''}" data-filter="all">All</button>`;
 
         // Sort based on the defined order in CATEGORY_FILTERS
         const sortedTags = Array.from(tags).sort((a, b) => {
@@ -164,7 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         sortedTags.forEach(tag => {
-            html += `<button class="filter-chip ${activeFilter === tag ? 'active' : ''}" data-filter="${tag}">${getCategoryLabel(tag)}</button>`;
+            const isActive = activeFilters.has(tag);
+            html += `<button class="filter-chip ${isActive ? 'active' : ''}" data-filter="${tag}">${getCategoryLabel(tag)}</button>`;
         });
 
         if (filterChipsContainer) {
@@ -181,27 +183,43 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleFilterClick(filter) {
-        activeFilter = filter;
+        if (filter === 'all') {
+            activeFilters.clear();
+        } else {
+            if (activeFilters.has(filter)) {
+                activeFilters.delete(filter);
+            } else {
+                activeFilters.add(filter);
+            }
+        }
 
-        // Update Active State
+        // Update Active State visually
         const chips = document.querySelectorAll('.filter-chip');
         chips.forEach(c => {
-            if (c.dataset.filter === filter) c.classList.add('active');
-            else c.classList.remove('active');
+            const f = c.dataset.filter;
+            if (f === 'all') {
+                if (activeFilters.size === 0) c.classList.add('active');
+                else c.classList.remove('active');
+            } else {
+                if (activeFilters.has(f)) c.classList.add('active');
+                else c.classList.remove('active');
+            }
         });
 
-        // Re-render (Search is applied inside renderApp -> filterData)
-        // We simulate a search input trigger or just call renderApp with filtered data
-        const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilter);
+        // Re-render
+        const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilters);
         renderApp(filtered);
-        trackEvent('filter', { filter: filter });
+        trackEvent('filter', { filter: Array.from(activeFilters).join(',') || 'all' });
     }
 
-    function applyFilters(data, query, filterTag) {
+    function applyFilters(data, query, filters) {
         return data.filter(item => {
-            // 1. Tag Filter
-            if (filterTag !== 'all') {
-                if (!item.category || !item.category.includes(filterTag)) return false;
+            // 1. Tag Filter (OR logic)
+            if (filters.size > 0) {
+                if (!item.category) return false;
+                // Check if item has AT LEAST ONE of the active filters
+                const hasMatch = item.category.some(cat => filters.has(cat));
+                if (!hasMatch) return false;
             }
 
             // 2. Search Filter
@@ -264,13 +282,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         return `<span class="${className}" style="background:#e9ecef; color:#495057;">${getCategoryLabel(cat)}</span>`;
                     }).join(' ');
             };
-
-            // Dynamic Placeholder - falls back to default if not found
-            // Since we can't reliably check file existence on client without 404s showing in console,
-            // we will stick to a smart onerror.
-            // Ideally: src="img/item.webp" onerror="this.src='img/placeholder.webp'"
-            // If user wants category specifics, we could try:
-            // onerror="if (this.src !== 'img/placeholder.webp') this.src = 'img/placeholder.webp';"
 
             const placeholderImg = `img/placeholder.webp`;
 
@@ -350,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
 
                 // Re-render with current filters
-                const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilter);
+                const filtered = applyFilters(appData, searchInput.value.toLowerCase().trim(), activeFilters);
                 renderApp(filtered);
             });
         });
@@ -366,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1000);
         }
 
-        const filtered = applyFilters(appData, query, activeFilter);
+        const filtered = applyFilters(appData, query, activeFilters);
         renderApp(filtered);
     }
 });

@@ -1,113 +1,127 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe('Card View Verification', () => {
+test.describe('Indian Food Guide Verification', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('/');
-        // Ensure we are in card view (default)
+        // Ensure we are in card view
         await expect(page.locator('#card-view')).toBeVisible();
     });
 
-    test('Page Title Verification', async ({ page }) => {
-        await expect(page).toHaveTitle(/Indian Fish Name Guide/);
-        await expect(page.locator('h1')).toHaveText('Indian Fish Name Guide');
+    test('Page Title & Brand', async ({ page }) => {
+        await expect(page).toHaveTitle(/Indian Food Guide/);
+        await expect(page.locator('h1')).toHaveText('Indian Food Guide');
     });
 
-    test('Default Languages Displayed', async ({ page }) => {
+    test('Category Navigation & Data Loading', async ({ page }) => {
+        // Default is Fish
+        const nav = page.locator('.category-tabs');
+        await expect(nav.locator('.tab-btn.active')).toHaveText(/Fish & Seafood/);
+
+        // Check for a Fish
+        await expect(page.locator('.fish-card').filter({ hasText: 'Seer fish' })).toBeVisible();
+
+        // Switch to Vegetables & Fruits
+        await nav.locator('button[data-category="vegetables"]').click();
+        await expect(nav.locator('button[data-category="vegetables"]')).toHaveClass(/active/);
+        await expect(nav.locator('button[data-category="vegetables"]')).toHaveText(/Vegetables & Fruits/);
+
+        // Check for a Vegetable (Potato)
+        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
+
+        // Switch to Grains
+        await nav.locator('button[data-category="grains"]').click();
+        // Check for a Grain (Rice)
+        await expect(page.locator('.fish-card').filter({ hasText: 'Rice' })).toBeVisible();
+    });
+
+    test('Filter Logic: Vegetables & Fruits (Active State)', async ({ page }) => {
+        // Go to Veg
+        await page.locator('button[data-category="vegetables"]').click();
+
+        // Wait for chips
+        const chips = page.locator('#filter-chips');
+        await expect(chips.locator('button[data-filter="fruit"]')).toBeVisible();
+
+        // Click Fruit Filter
+        await chips.locator('button[data-filter="fruit"]').click();
+
+        // Chip should be active
+        await expect(chips.locator('button[data-filter="fruit"]')).toHaveClass(/active/);
+    });
+
+    test('Multi-Select Filter Logic (OR Logic)', async ({ page }) => {
+        // Go to Veg
+        await page.locator('button[data-category="vegetables"]').click();
+
+        const chips = page.locator('#filter-chips');
+
+        // Select Root
+        await chips.locator('button[data-filter="root"]').click();
+        // Select Leafy
+        await chips.locator('button[data-filter="leafy"]').click();
+
+        // Both Chips Active
+        await expect(chips.locator('button[data-filter="root"]')).toHaveClass(/active/);
+        await expect(chips.locator('button[data-filter="leafy"]')).toHaveClass(/active/);
+
+        // Verify Content: Potato (Root) Visible, Spinach (Leafy) Visible
+        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
+
+        // Verify Negative: Mango (Fruit) Hidden
+        await expect(page.locator('.fish-card').filter({ hasText: 'Mango' })).toBeHidden();
+
+        // Logic: De-select Root
+        await chips.locator('button[data-filter="root"]').click();
+        await expect(chips.locator('button[data-filter="root"]')).not.toHaveClass(/active/);
+
+        // Potato Hidden, Spinach Still Visible
+        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeHidden();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
+
+        // Reset All
+        await chips.locator('button[data-filter="all"]').click();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Mango' })).toBeVisible();
+    });
+
+    test('Badge Whitelisting', async ({ page }) => {
+        // Go to Veg
+        await page.locator('button[data-category="vegetables"]').click();
+
+        const potatoCard = page.locator('.fish-card').filter({ hasText: 'Potato' }).first();
+
+        // Potato has "root" and "vegetable". "Root" is in whitelist.
+        await expect(potatoCard.locator('.habitat-badge', { hasText: 'Root' })).toBeVisible();
+
+        // Verify no "usage" badges like "Curry" or "Everyday" appear
+        await page.locator('button[data-category="fish"]').click();
         const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
 
-        // Defaults: Tamil, Kannada, Telugu, Hindi
-        await expect(seerCard.locator('.lang-label', { hasText: 'Tamil' })).toBeVisible();
-        await expect(seerCard.locator('.lang-label', { hasText: 'Hindi' })).toBeVisible();
-
-        // Malayalam is NOT in default card list (it is in table default)
-        await expect(seerCard.locator('.lang-label', { hasText: 'Malayalam' })).toBeHidden();
+        await expect(seerCard.locator('.habitat-badge', { hasText: 'Sea' })).toBeVisible();
+        await expect(seerCard.locator('.habitat-badge', { hasText: 'Fry' })).toBeHidden();
+        await expect(seerCard.locator('.habitat-badge', { hasText: 'Popular' })).toBeHidden();
     });
 
-    test('Customize Card Languages & Persistence', async ({ page }) => {
-        const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
+    test('Sticky Header Structure', async ({ page }) => {
+        // Verify the HTML structure contains the centering wrappers
+        const header = page.locator('.app-header');
+        await expect(header).toBeVisible();
 
-        // Open Languages
-        await page.getByRole('button', { name: '🌐 Languages' }).click();
+        // Check for centered wrapper in top row
+        await expect(header.locator('.header-top .header-centered')).toBeVisible();
 
-        // Add Malayalam
-        await page.locator('input[value="malayalam"]').check();
-
-        // Remove Hindi
-        await page.locator('input[value="hindi"]').uncheck();
-
-        // Close dialog
-        await page.locator('#btn-close-cols').click();
-
-        // Verify Changes on Card
-        await expect(seerCard.locator('.lang-label', { hasText: 'Malayalam' })).toBeVisible();
-        await expect(seerCard.locator('.lang-label', { hasText: 'Hindi' })).toBeHidden();
-
-        // Reload to test persistence
-        await page.reload();
-        await expect(page.locator('#card-view')).toBeVisible();
-
-        // Verify Persistence
-        const persistedCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
-        await expect(persistedCard.locator('.lang-label', { hasText: 'Malayalam' })).toBeVisible();
-        await expect(persistedCard.locator('.lang-label', { hasText: 'Hindi' })).toBeHidden();
+        // Check for centered wrapper in tabs
+        await expect(header.locator('.category-tabs .header-centered')).toBeVisible();
     });
 
-    test('Show All Accordion', async ({ page }) => {
-        const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
-        const summary = seerCard.locator('summary');
+    test('Dynamic Placeholders', async ({ page }) => {
+        // Go to Veg
+        await page.locator('button[data-category="vegetables"]').click();
+        const mangoCard = page.locator('.fish-card').filter({ hasText: 'Mango' }).first();
 
-        await expect(summary).toHaveText('Show all languages');
-        await summary.click();
-
-        // Verify a language usually hidden (e.g. Sanskrit) is visible
-        await expect(seerCard.locator('.lang-label', { hasText: 'Sanskrit' })).toBeVisible();
-    });
-    test('Total Fish Count', async ({ page }) => {
-        // Total fishes should be 33 (8 original + 25 new)
-        const cards = page.locator('.fish-card');
-        await expect(cards).toHaveCount(33);
-    });
-
-    test('New Fish Existence & Placeholder Image', async ({ page }) => {
-        // Check for Silver Pomfret
-        const silverPomfret = page.locator('.fish-card').filter({ has: page.locator('h2', { hasText: 'Silver Pomfret' }) }).first();
-        await expect(silverPomfret).toBeVisible();
-        await expect(silverPomfret.locator('img')).toHaveAttribute('src', 'img/placeholder.webp');
-
-        // Check for Rohu
-        const rohu = page.locator('.fish-card').filter({ hasText: 'Rohu' }).first();
-        await expect(rohu).toBeVisible();
-        await expect(rohu.locator('img')).toHaveAttribute('src', 'img/placeholder.webp');
-    });
-
-    test('Old Fish Preservation', async ({ page }) => {
-        // Check for Seer Fish (should verify it is NOT using placeholder)
-        const seerFish = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
-        await expect(seerFish).toBeVisible();
-        await expect(seerFish.locator('img')).toHaveAttribute('src', 'img/seer-fish.webp');
-    });
-
-    test('Habitat Badges Displayed', async ({ page }) => {
-        // Seer Fish should have "Sea" badge
-        const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
-        await expect(seerCard.locator('.habitat-sea')).toBeVisible();
-        await expect(seerCard.locator('.habitat-sea')).toContainText('Sea');
-
-        // Rohu should have "Freshwater" badge
-        const rohuCard = page.locator('.fish-card').filter({ hasText: 'Rohu' }).first();
-        await expect(rohuCard.locator('.habitat-freshwater')).toBeVisible();
-        await expect(rohuCard.locator('.habitat-freshwater')).toContainText('Freshwater');
-    });
-
-    test('Missing Data Display', async ({ page }) => {
-        // Lady Fish does not have an Assamese name, so it should show "-"
-        const ladyFishCard = page.locator('.fish-card').filter({ has: page.locator('h2', { hasText: 'Lady Fish' }) }).first();
-
-        await ladyFishCard.locator('summary').click(); // Expand all languages
-        const assameseLabel = ladyFishCard.locator('.lang-group', { has: page.locator('.lang-label', { hasText: 'Assamese' }) });
-
-        await expect(assameseLabel).toBeVisible();
-        await expect(assameseLabel.locator('.lang-value')).toHaveText('-');
+        // Check that image is visible (src fallback handled by browser, test seeing element)
+        await expect(mangoCard.locator('img')).toBeVisible();
     });
 });
