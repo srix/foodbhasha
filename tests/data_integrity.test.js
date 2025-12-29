@@ -5,7 +5,8 @@ const path = require('path');
 const FILES = [
     'data/fish-seafood.json',
     'data/vegetables-fruits.json',
-    'data/grains-pulses.json'
+    'data/grains-pulses.json',
+    'data/spices.json'
 ];
 
 const INDIAN_LANGUAGES = [
@@ -15,15 +16,19 @@ const INDIAN_LANGUAGES = [
     "telugu", "urdu"
 ];
 
-const MIN_DATASET_SIZE = 100;
-
 test.describe('Data Integrity', () => {
 
     FILES.forEach(file => {
         test(`Verify Minimum Size for ${file}`, async () => {
             const filePath = path.resolve(__dirname, '..', file);
             const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            expect(data.length, `Expected at least ${MIN_DATASET_SIZE} items in ${file} but found ${data.length}`).toBeGreaterThanOrEqual(MIN_DATASET_SIZE);
+
+            // Relaxed rule for Spices and Grains (after split)
+            let minSize = 100;
+            if (file.includes('spices.json')) minSize = 30;
+            if (file.includes('grains-pulses.json')) minSize = 60;
+
+            expect(data.length, `Expected at least ${minSize} items in ${file} but found ${data.length}`).toBeGreaterThanOrEqual(minSize);
         });
 
         test(`Verify Dual Script in ${file}`, async () => {

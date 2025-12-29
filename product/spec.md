@@ -45,9 +45,10 @@ The site is a **fully static HTML + JS** application.
 /index.html
 /style.css
 /app.js
-/data/fish.json
-/data/vegetables.json
-/data/grains.json
+/data/fish-seafood.json
+/data/vegetables-fruits.json
+/data/grains-pulses.json
+/data/spices.json
 /img/*.jpg or .png or .webp
 ```
 
@@ -59,9 +60,10 @@ Deployment: GitHub Pages, Cloudflare Pages, or Netlify.
 ## **5. Data Model**
 
 Data is split by category:
-* `/data/fish.json`
-* `/data/vegetables.json`
-* `/data/grains.json`
+* `/data/fish-seafood.json`
+* `/data/vegetables-fruits.json`
+* `/data/grains-pulses.json`
+* `/data/spices.json`
 
 ### **5.1 JSON Schema**
 
@@ -71,7 +73,7 @@ Each entry follows:
 {
   "id": "item-slug",
   "photo": "img/item.webp",
-  "tags": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"]
+  "tags": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"], ["seed", "aromatic"]
   "scientificName": "Scientific Name",
   "names": {
     "english": ["Name 1", "Name 2"],
@@ -87,12 +89,11 @@ Each entry follows:
 * `id` — unique slug
 * `photo` — local image path
 * `names` — object keys for each language
-* `names` — object keys for each language
 * `tags` — array of tags used for filtering (see 6.2)
 
 ### **5.3 Data Completeness**
 * Ideally, all entries should have names in all 22 supported languages.
-* **Dataset Size**: Each category (Fish, Vegetables, Grains) MUST maintain a minimum of **100 items** to ensure a comprehensive reference guide.
+* **Dataset Size**: Major categories (Fish, Veg, Grains) maintain ~100 items. Spices maintain ~30+ items.
 * **Scientific Name**: All valid biological items MUST include a `scientificName`. If not applicable (e.g., generic category), use "N/A" sparingly; aim for >90% coverage.
 * **Dual Script**: For Indian languages, each entry MUST include both the **Native Script** and the **Romanized (English transliteration)** version (e.g., `["வஞ்சரம்", "Vanjaram"]`).
 * **Fallback**: If a name is unavailable for a specific language, the UI will display a hyphen (`-`) instead. The application must treat missing keys or empty arrays as valid absences.
@@ -107,8 +108,8 @@ Each entry follows:
 * Each card includes:
   * Image (Left/Top)
   * English name and Scientific name.
-  * **Category Badges**: Indicates specific type (e.g., Sea 🌊, Root 🥔, Fruit 🍎).
-    * *Note*: Badges are strictly filtered to show only primary classification tags. Usage tags like "Curry" are used for internal search but not displayed to reduce clutter.
+  * **Category Badges**: Indicates specific type (e.g., Sea 🌊, Root 🥔, Fruit 🍎, Spice 🌶️).
+    * *Note*: Badges are strictly filtered to show only primary classification tags.
   * **Primary Grid**: Customizable set of languages (default: Tamil, Kannada, Telugu, Hindi).
   * **"Show all languages"**: An expandable accordion at the bottom.
   * **Native Scripts**: Displayed alongside Romanized names.
@@ -120,11 +121,15 @@ Each entry follows:
   * Fish & Seafood 🐟
   * Vegetables & Fruits 🥦
   * Grains & Pulses 🌾
+  * Spices 🌶️
 * **Sticky Filter Bar**: Located below tabs.
-  * Categories have specific, strict filter lists (e.g. Fish: Sea/Freshwater/Brackish).
-  * **Multi-Select**: Users can select multiple filters simultaneously (e.g., "Sea" AND "Brackish").
-  * **Logic**: OR-based filtering (shows items matching *any* active filter).
-  * **Reset**: Toggling all filters off (or clicking "All") resets the view to show everything.
+  * **Fish**: Sea, Freshwater, Brackish
+  * **Vegetables**: Fruit, Root, Vegetable, Leafy
+  * **Grains**: Cereal, Pulse, Millet
+  * **Spices**: Seed, Aromatic, Heat, Root, Acidic, Resin, Flower, Dry Fruit
+  * **Multi-Select**: Users can select multiple filters simultaneously.
+  * **Logic**: OR-based filtering.
+  * **Reset**: Toggling all filters off (or clicking "All") resets the view.
 
 ### **6.3 Search**
 
@@ -141,12 +146,18 @@ Each entry follows:
 
 ### **7.1 Sticky Header**
 
-A 3-row sticky header that stays fixed at the top:
-1.  **Top Row**: Brand ("Indian Food Guide"), Search Bar, "Languages" button.
-2.  **Navigation Row**: Category tabs.
-3.  **Toolbar Row**: Filter chips and Result count.
+A responsive sticky header that stays fixed at the top.
 
-* **Alignment**: On wide screens (desktop), the header content is centered and capped at 1200px to align with the body content.
+**Desktop**:
+* Centered content max 1200px.
+* Row 1: Brand + Search + Language Button + Tabs + Filters.
+
+**Mobile**:
+* **Stacked Layout** for clarity:
+  1.  **Top Row**: Brand (Left) + Compact Language Icon 🌍 (Right).
+  2.  **Search Row**: Full-width Search Bar.
+  3.  **Nav Row**: Scrollable Category tabs.
+  4.  **Toolbar Row**: Scrollable Filter chips.
 
 ### **7.3 Performance: Lazy Loading**
 

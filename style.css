@@ -522,7 +522,137 @@ body {
     align-items: flex-start;
 }
 
-.sentinel {
-    height: 20px;
-    width: 100%;
+/* Mobile Optimizations */
+@media (max-width: 767px) {
+    .header-top-content {
+        flex-wrap: wrap;
+        gap: 12px;
+        padding-bottom: 8px;
+    }
+
+    .brand {
+        flex: 1;
+        min-width: auto;
+    }
+
+    .header-actions {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Icon-only Language Button on Mobile */
+    .btn-languages {
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .btn-languages .btn-text {
+        display: none;
+    }
+
+    .btn-languages .btn-icon {
+        font-size: 1.1rem;
+    }
+
+    /* Full Width Search Row */
+    .search-container {
+        order: 3;
+        width: 100%;
+        /* Force line break */
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 8px 0 0 0;
+    }
+
+    #search-input {
+        padding: 10px 16px 10px 44px;
+        font-size: 16px;
+        /* Prevent zoom on iOS */
+    }
+
+    .search-icon {
+        left: 14px;
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Compact Tabs */
+    .category-tabs-inner {
+        gap: 16px;
+        height: 56px;
+        justify-content: flex-start;
+        /* Ensure start alignment for scroll */
+        padding-right: 24px;
+        /* Space at end */
+    }
+
+    .tab-btn {
+        padding: 12px 0;
+        font-size: 0.9rem;
+        flex-shrink: 0;
+    }
+
+    .tab-icon {
+        font-size: 1.1rem;
+    }
+
+    /* Toolbar / Filters */
+    .app-toolbar {
+        padding: 12px 0;
+    }
+
+    .app-toolbar-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .filter-group {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        /* Space for scrollbar if any */
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .chips-container {
+        padding-right: 16px;
+    }
+
+    .filter-chip {
+        padding: 6px 16px;
+        font-size: 0.8rem;
+    }
+
+    .results-stat {
+        font-size: 0.75rem;
+        align-self: flex-end;
+        padding-right: 4px;
+    }
+
+    /* Card Adjustments */
+    .fish-card {
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .fish-thumbnail {
+        width: 64px;
+        height: 64px;
+    }
+
+    .fish-names-grid {
+        grid-template-columns: 1fr;
+        /* Stack names on very small screens */
+        gap: 12px;
+    }
+
+    /* Grid Checkboxes */
+    #column-checkboxes {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
 }

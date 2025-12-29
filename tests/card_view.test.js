@@ -4,8 +4,9 @@ test.describe('Indian Food Guide Verification', () => {
 
     test.beforeEach(async ({ page }) => {
         await page.goto('/');
-        // Ensure we are in card view
+        // Ensure we are in card view and data is loaded
         await expect(page.locator('#card-view')).toBeVisible();
+        await expect(page.locator('.fish-card').first()).toBeVisible();
     });
 
     test('Page Title & Brand', async ({ page }) => {
@@ -33,6 +34,28 @@ test.describe('Indian Food Guide Verification', () => {
         await nav.locator('button[data-category="grains"]').click();
         // Check for a Grain (Rice)
         await expect(page.locator('.fish-card').filter({ hasText: 'Rice' })).toBeVisible();
+
+        // Switch to Spices
+        await nav.locator('button[data-category="spices"]').click();
+        await expect(nav.locator('button[data-category="spices"]')).toHaveClass(/active/);
+        // Check for a Spice (Mustard Seeds)
+        await expect(page.locator('.fish-card').filter({ hasText: 'Mustard Seeds' })).toBeVisible();
+    });
+
+    test('Filter Logic: Spices (New Category)', async ({ page }) => {
+        // Go to Spices
+        await page.locator('button[data-category="spices"]').click();
+
+        const chips = page.locator('#filter-chips');
+        await expect(chips.locator('button[data-filter="seed"]')).toBeVisible();
+
+        // Filter by Seed
+        await chips.locator('button[data-filter="seed"]').click();
+        await expect(chips.locator('button[data-filter="seed"]')).toHaveClass(/active/);
+
+        // Verify Mustard Visible, Turmeric (Root) Hidden
+        await expect(page.locator('.fish-card').filter({ hasText: 'Mustard Seeds' })).toBeVisible();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Turmeric' })).toBeHidden();
     });
 
     test('Filter Logic: Vegetables & Fruits (Active State)', async ({ page }) => {

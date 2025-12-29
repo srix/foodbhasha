@@ -19,4 +19,9 @@ module.exports = defineConfig({
             use: { ...devices['Pixel 5'] },
         },
     ],
+    webServer: {
+        command: 'npx -y http-server -p 8081',
+        url: 'http://localhost:8081',
+        reuseExistingServer: !process.env.CI,
+    },
 });
