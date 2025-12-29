@@ -134,6 +134,8 @@ Each entry follows:
 ### **6.3 Search**
 
 * Single search bar in the sticky header.
+* **Persistent Search**: The search query is preserved when switching between categories (e.g., searching for "Red" in Fish, then clicking Vegetables will show "Red" vegetables).
+* **Clear Button**: A dedicated "X" button appears when typing to instantly clear the query and reset results.
 * Searches across:
   * All name variants
   * Notes

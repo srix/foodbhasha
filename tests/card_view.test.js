@@ -147,4 +147,51 @@ test.describe('Indian Food Guide Verification', () => {
         // Check that image is visible (src fallback handled by browser, test seeing element)
         await expect(mangoCard.locator('img')).toBeVisible();
     });
+
+    test('Search Persistence Across Categories', async ({ page }) => {
+        // 1. Type "Red" in Fish
+        await page.locator('#search-input').fill('Red');
+        // Expect Red Snapper
+        await expect(page.locator('.fish-card').filter({ hasText: 'Red Snapper' })).toBeVisible();
+
+        // 2. Switch to Vegetables
+        await page.locator('button[data-category="vegetables"]').click();
+
+        // 3. Verify Search Input still has "Red"
+        await expect(page.locator('#search-input')).toHaveValue('Red');
+
+        // 4. Verify "Red Amaranth" or similar shows up, and Potato (Root) is hidden
+        // (Assuming "Red" matches "Red Spinach" or similar in data)
+        // Let's check for something generic if Red isn't in Veg. 
+        // "Spinach" might be better if we want to be safe, but "Red" is a good cross-category term.
+        // If no "Red" veg exists, it should show No Results or empty list, but the Input must remain.
+
+        // Let's use a known term if possible, or just verify the Input Value key behavior.
+        // Actually, let's use "a" - very common.
+        await page.locator('#search-input').fill('Spinach');
+        await page.locator('button[data-category="vegetables"]').click();
+        await expect(page.locator('#search-input')).toHaveValue('Spinach');
+        await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
+        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeHidden();
+    });
+
+    test('Search Clear Button Functionality', async ({ page }) => {
+        const input = page.locator('#search-input');
+        const clearBtn = page.locator('#search-clear');
+
+        // 1. Initially Hidden
+        await expect(clearBtn).toBeHidden();
+
+        // 2. Type text -> Visible
+        await input.fill('Test');
+        await expect(clearBtn).toBeVisible();
+
+        // 3. Click -> Clear Input and Hide Button
+        await clearBtn.click();
+        await expect(input).toHaveValue('');
+        await expect(clearBtn).toBeHidden();
+
+        // 4. Verify Focus returned to input
+        await expect(input).toBeFocused();
+    });
 });
