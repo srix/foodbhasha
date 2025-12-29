@@ -1783,7 +1783,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ତେଲାପିଆ",
+        "Telapia"
       ],
       "punjabi": [
         "-"
@@ -3776,7 +3777,8 @@
         "-"
       ],
       "malayalam": [
-        "-"
+        "തിരണ്ടി",
+        "Thirandi"
       ],
       "manipuri": [
         "-"
@@ -3803,7 +3805,8 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "திருக்கை",
+        "Thirukkai"
       ],
       "telugu": [
         "-"
@@ -5185,7 +5188,7 @@
     "category": [
       "sea"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pangasius bocourti",
     "names": {
       "english": [
         "Basa"
@@ -5194,7 +5197,8 @@
         "-"
       ],
       "bengali": [
-        "-"
+        "বাসা",
+        "Basa"
       ],
       "bodo": [
         "-"
@@ -5206,7 +5210,8 @@
         "-"
       ],
       "hindi": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "kannada": [
         "-"
@@ -5233,7 +5238,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ବସା",
+        "Basa"
       ],
       "punjabi": [
         "-"
@@ -5248,10 +5254,12 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "கெளுத்தி",
+        "Keluthi"
       ],
       "telugu": [
-        "-"
+        "బాసా",
+        "Basa"
       ],
       "urdu": [
         "-"
@@ -5511,10 +5519,12 @@
         "Walking Catfish"
       ],
       "assamese": [
-        "-"
+        "মাগুৰ",
+        "Magur"
       ],
       "bengali": [
-        "-"
+        "মাগুর",
+        "Magur"
       ],
       "bodo": [
         "-"
@@ -5526,7 +5536,8 @@
         "-"
       ],
       "hindi": [
-        "-"
+        "मागुर",
+        "Magur"
       ],
       "kannada": [
         "-"
@@ -5553,7 +5564,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ମାଗୁର",
+        "Magur"
       ],
       "punjabi": [
         "-"
@@ -5585,16 +5597,18 @@
     "category": [
       "sea"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Anabas testudineus",
     "names": {
       "english": [
         "Climbing Perch"
       ],
       "assamese": [
-        "-"
+        "কাৱৈ",
+        "Kawoi"
       ],
       "bengali": [
-        "-"
+        "কৈ",
+        "Koi"
       ],
       "bodo": [
         "-"
@@ -5633,7 +5647,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "କୋଇ",
+        "Koi"
       ],
       "punjabi": [
         "-"
@@ -5751,10 +5766,12 @@
         "Featherback"
       ],
       "assamese": [
-        "-"
+        "চিতল",
+        "Sital"
       ],
       "bengali": [
-        "-"
+        "চিতল",
+        "Chital"
       ],
       "bodo": [
         "-"
@@ -5766,7 +5783,8 @@
         "-"
       ],
       "hindi": [
-        "-"
+        "चीतल",
+        "Chital"
       ],
       "kannada": [
         "-"
@@ -5793,7 +5811,8 @@
         "-"
       ],
       "odia": [
-        "-"
+        "ଚିତଲ",
+        "Chital"
       ],
       "punjabi": [
         "-"
@@ -5905,7 +5924,7 @@
     "category": [
       "sea"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Octopoda",
     "names": {
       "english": [
         "Octopus"
@@ -5968,7 +5987,8 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பேய் கணவாய்",
+        "Pei Kanavai"
       ],
       "telugu": [
         "-"
@@ -8065,7 +8085,7 @@
     "category": [
       "sea"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Rhizoprionodon acutus",
     "names": {
       "english": [
         "Milk Shark"
@@ -8128,7 +8148,8 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "பால் சுறா",
+        "Paal Sura"
       ],
       "telugu": [
         "-"
@@ -8545,7 +8566,7 @@
     "category": [
       "sea"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Portunus pelagicus",
     "names": {
       "english": [
         "Blue Crab"
@@ -8608,7 +8629,8 @@
         "-"
       ],
       "tamil": [
-        "-"
+        "நீல நண்டு",
+        "Neela Nandu"
       ],
       "telugu": [
         "-"

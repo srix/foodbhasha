@@ -48,6 +48,14 @@ test.describe('Data Integrity', () => {
                 });
             });
 
+            // Scientific Name Coverage Check
+            const naCount = data.filter(d => !d.scientificName || d.scientificName === "N/A").length;
+            const naPercentage = (naCount / data.length) * 100;
+            if (naPercentage > 50) { // Allow up to 50% missing for now as we enrich, but warn
+                console.warn(`Warning: ${file} has ${naPercentage.toFixed(2)}% items missing Scientific Name.`);
+                // expect(naPercentage).toBeLessThan(50); // Uncomment to enforce stricter rule
+            }
+
             if (violations.length > 0) {
                 console.log(`\nViolations in ${file}:`);
                 violations.forEach(v => console.log(v));
