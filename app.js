@@ -45,14 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const DEFAULT_CARD_LANGUAGES = ["tamil", "kannada", "telugu", "hindi"];
     const CATEGORIES = {
         'fish': 'data/fish-seafood.json',
-        'vegetables': 'data/vegetables-fruits.json',
+        'vegetables-fruits': 'data/vegetables-fruits.json',
         'grains': 'data/grains-pulses.json',
         'spices': 'data/spices.json'
     };
 
     const TAG_FILTERS = {
         'fish': ['sea', 'freshwater', 'brackish'],
-        'vegetables': ['fruit', 'root', 'leafy', 'vegetable'],
+        'vegetables-fruits': ['fruit', 'root', 'leafy', 'vegetable'],
         'grains': ['cereal', 'pulse', 'millet'],
         'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit']
     };
