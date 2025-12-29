@@ -1014,7 +1014,7 @@
         "Bhindi"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "cauliflower",
@@ -1103,7 +1103,7 @@
         "Gobhi"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Gobi, popular flower vegetable."
   },
   {
     "id": "cabbage",
@@ -1192,7 +1192,7 @@
         "Band Gobhi"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Leafy head vegetable, used in stir-fries."
   },
   {
     "id": "carrot",
@@ -1282,7 +1282,7 @@
         "Gajar"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Orange root veg, rich in Vitamin A."
   },
   {
     "id": "beetroot",
@@ -1370,7 +1370,7 @@
         "Chuqandar"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Red root veg, earthy sweet flavor."
   },
   {
     "id": "radish",
@@ -1459,7 +1459,7 @@
         "Mooli"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Mooli, pungent root for Parathas."
   },
   {
     "id": "bitter-gourd",
@@ -1548,7 +1548,7 @@
         "Karela"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Karela, bitter but medicinal."
   },
   {
     "id": "bottle-gourd",
@@ -1638,7 +1638,7 @@
         "Lauki"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Lauki, cooling water-rich vegetable."
   },
   {
     "id": "ridge-gourd",
@@ -1723,7 +1723,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Peerkangai, fiber-rich gourd."
   },
   {
     "id": "snake-gourd",
@@ -1807,7 +1807,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Long gourd used in Kootu and Poriyal."
   },
   {
     "id": "pumpkin",
@@ -1896,7 +1896,7 @@
         "Petha"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sweet flesh squash, used in curries."
   },
   {
     "id": "cucumber",
@@ -1985,7 +1985,7 @@
         "Kheera"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Cooling salad vegetable."
   },
   {
     "id": "drumstick",
@@ -2074,7 +2074,7 @@
         "Sohanjna"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Moringa, rich in minerals, used in Sambar."
   },
   {
     "id": "beans",
@@ -2154,7 +2154,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "green-peas",
@@ -2236,7 +2236,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Fresh peas, sweet and tender."
   },
   {
     "id": "garlic",
@@ -2327,7 +2327,7 @@
         "Lehsun"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Pungent bulb, key flavor enhancer."
   },
   {
     "id": "ginger",
@@ -2418,7 +2418,7 @@
         "Adrak"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Root spice, essential base for curries."
   },
   {
     "id": "green-chili",
@@ -2507,7 +2507,7 @@
         "Hari Mirch"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Fresh chili, provides heat."
   },
   {
     "id": "coriander-leaves",
@@ -2589,7 +2589,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Cilantro, fresh garnish herb."
   },
   {
     "id": "mint-leaves",
@@ -2669,7 +2669,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "curry-leaves",
@@ -2752,7 +2752,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kadi Patta, essential tempering herb."
   },
   {
     "id": "papaya",
@@ -2834,7 +2834,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "watermelon",
@@ -2914,7 +2914,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "pineapple",
@@ -2994,7 +2994,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "guava",
@@ -3074,7 +3074,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "orange",
@@ -3154,7 +3154,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "grapes",
@@ -3234,7 +3234,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "lemon",
@@ -3314,7 +3314,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Acidic citrus, adds sourness."
   },
   {
     "id": "amla",
@@ -3394,7 +3394,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "sweet-potato",
@@ -3474,7 +3474,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Shakarkandi, sweet starchy root."
   },
   {
     "id": "tapioca",
@@ -3554,7 +3554,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Cassava, starchy tuber."
   },
   {
     "id": "yam",
@@ -3634,7 +3634,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Elephant foot yam, starch-rich."
   },
   {
     "id": "colocasia",
@@ -3718,7 +3718,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Arbi, taro root, slimy if not cooked well."
   },
   {
     "id": "capsicum",
@@ -3798,7 +3798,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Bell pepper, mild spicy crunch."
   },
   {
     "id": "cluster-beans",
@@ -3878,7 +3878,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Gavar, distinct flavor bean."
   },
   {
     "id": "ivy-gourd",
@@ -3962,7 +3962,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Tindora, crunchy vegetable."
   },
   {
     "id": "fenugreek-leaves",
@@ -4042,7 +4042,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Methi leaves, bitter-sweet leafy veg."
   },
   {
     "id": "mustard-greens",
@@ -4122,7 +4122,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sarson, spicy leafy green."
   },
   {
     "id": "amaranth-leaves",
@@ -4202,7 +4202,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "coconut",
@@ -4293,7 +4293,7 @@
         "Nariyal"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Essential nut/fruit in South Indian cuisine."
   },
   {
     "id": "muskmelon",
@@ -4373,7 +4373,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "custard-apple",
@@ -4453,7 +4453,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "sapota",
@@ -4533,7 +4533,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "pear",
@@ -4613,7 +4613,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "plum",
@@ -4693,7 +4693,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "apricot",
@@ -4773,7 +4773,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "peach",
@@ -4853,7 +4853,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "lychee",
@@ -4933,7 +4933,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "strawberry",
@@ -5013,7 +5013,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "fig",
@@ -5093,7 +5093,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "ash-gourd",
@@ -5178,7 +5178,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Winter melon, used in Petha and curries."
   },
   {
     "id": "broad-beans",
@@ -5260,7 +5260,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Avarakkai, flat beans with seeds."
   },
   {
     "id": "french-beans",
@@ -5342,7 +5342,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Green beans, common in stir-fries."
   },
   {
     "id": "yardlong-beans",
@@ -5424,7 +5424,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Karamani, very long beans."
   },
   {
     "id": "sword-beans",
@@ -5504,7 +5504,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "pointed-gourd",
@@ -5589,7 +5589,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "spine-gourd",
@@ -5673,7 +5673,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "teasel-gourd",
@@ -5754,7 +5754,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "apple-gourd",
@@ -5834,7 +5834,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "turnip",
@@ -5916,7 +5916,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Root vegetable, mild flavor."
   },
   {
     "id": "kohlrabi",
@@ -5997,7 +5997,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "celery",
@@ -6077,7 +6077,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Aromatic stalk veg."
   },
   {
     "id": "leek",
@@ -6157,7 +6157,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Mild onion-like stalk."
   },
   {
     "id": "spring-onion",
@@ -6239,7 +6239,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "banana-stem",
@@ -6323,7 +6323,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Vazhaithandu, fiber-rich stem."
   },
   {
     "id": "banana-flower",
@@ -6408,7 +6408,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Vazhaipoo, complex to clean, tasty."
   },
   {
     "id": "bamboo-shoot",
@@ -6488,7 +6488,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Young bamboo, distinct fermented flavor."
   },
   {
     "id": "lotus-stem",
@@ -6568,7 +6568,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kamal Kakdi, crunchy stem."
   },
   {
     "id": "elephant-foot-yam",
@@ -6653,7 +6653,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "chinese-potato",
@@ -6733,7 +6733,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "purple-yam",
@@ -6813,7 +6813,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "arrowroot",
@@ -6893,7 +6893,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "mango-ginger",
@@ -6973,7 +6973,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "agathi-keerai",
@@ -7053,7 +7053,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "ponnanganni-keerai",
@@ -7133,7 +7133,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "manathakkali",
@@ -7215,7 +7215,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "gongura",
@@ -7298,7 +7298,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "bathua",
@@ -7378,7 +7378,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "parsley",
@@ -7458,7 +7458,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "basil",
@@ -7538,7 +7538,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "lettuce",
@@ -7618,7 +7618,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Salad leaf."
   },
   {
     "id": "broccoli",
@@ -7698,7 +7698,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Green flower veg, rich in vitamins."
   },
   {
     "id": "zucchini",
@@ -7778,7 +7778,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Summer squash."
   },
   {
     "id": "red-cabbage",
@@ -7858,7 +7858,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "baby-corn",
@@ -7938,7 +7938,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Young corn, crunchy and sweet."
   },
   {
     "id": "sweet-corn",
@@ -8018,7 +8018,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "button-mushroom",
@@ -8098,7 +8098,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "oyster-mushroom",
@@ -8178,7 +8178,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "wood-apple",
@@ -8260,7 +8260,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "ice-apple",
@@ -8342,7 +8342,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "star-fruit",
@@ -8424,7 +8424,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "passion-fruit",
@@ -8504,7 +8504,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "dragon-fruit",
@@ -8584,7 +8584,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "kiwi",
@@ -8664,7 +8664,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "mulberry",
@@ -8744,7 +8744,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "jamun",
@@ -8824,7 +8824,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "jackfruit-seeds",
@@ -8906,7 +8906,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Common ingredient used in Indian cuisine."
   },
   {
     "id": "raw-banana",
@@ -8986,7 +8986,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Plantain, starchy cooking banana."
   },
   {
     "id": "raw-mango",
@@ -9068,7 +9068,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Unripe mango, sour, used for pickles."
   },
   {
     "id": "sundakkai",
@@ -9149,7 +9149,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Turkey Berry, bitter, good for health."
   },
   {
     "id": "chayote",
@@ -9231,7 +9231,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Chow-Chow, mild squash used in Kootu."
   },
   {
     "id": "chow-chow",
@@ -9312,7 +9312,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Chayote squash, water-rich vegetable."
   },
   {
     "id": "knol-khol",
@@ -9394,6 +9394,6 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kohlrabi, turnip-like stem vegetable."
   }
 ]

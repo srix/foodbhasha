@@ -62,7 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const CATEGORIES = {
         'fish': 'data/fish-seafood.json',
         'vegetables': 'data/vegetables-fruits.json',
-        'grains': 'data/grains-pulses.json'
+        'grains': 'data/grains-pulses.json',
+        'spices': 'data/spices.json'
     };
 
     // State
@@ -142,7 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const TAG_FILTERS = {
         'fish': ['sea', 'freshwater', 'brackish'],
         'vegetables': ['fruit', 'root', 'leafy', 'vegetable'],
-        'grains': ['cereal', 'pulse', 'millet']
+        'grains': ['cereal', 'pulse', 'millet'],
+        'spices': []
     };
 
     function generateFilters(data) {
@@ -376,7 +378,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'fruit': '🍎 Fruit',
             'cereal': '🌾 Cereal',
             'pulse': '🫘 Pulse',
-            'millet': '🌾 Millet'
+            'millet': '🌾 Millet',
+            'spice': '🌶️ Spice'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }

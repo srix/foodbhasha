@@ -5,7 +5,7 @@ import sys
 # Configuration
 DATA_DIR = 'data'
 IMG_DIR = 'img'
-FILES_TO_CHECK = ['fish-seafood.json', 'vegetables-fruits.json', 'grains-pulses.json']
+FILES_TO_CHECK = ['fish-seafood.json', 'vegetables-fruits.json', 'grains-pulses.json', 'spices.json']
 
 SUPPORTED_LANGUAGES = [
     "assamese", "bengali", "bodo", "dogri", "gujarati", "hindi", "kannada",
@@ -28,6 +28,10 @@ VALID_TAGS = {
     },
     'grains-pulses.json': {
         'primary': {'cereal', 'pulse', 'millet'},
+        'secondary': set()
+    },
+    'spices.json': {
+        'primary': {'spice'},
         'secondary': set()
     }
 }
@@ -111,6 +115,9 @@ def check_file(filename, skip_images):
             warnings += 1
         elif not item['notes'] or str(item['notes']).strip() == "":
              print(f"  ⚠️ [{item_id}] Empty 'notes' field")
+             warnings += 1
+        elif str(item['notes']).strip() == "Description to be added.":
+             print(f"  ⚠️ [{item_id}] Placeholder note detected: 'Description to be added.'")
              warnings += 1
 
         # 6. Names Check

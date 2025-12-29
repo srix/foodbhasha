@@ -460,7 +460,7 @@
         "Gandum"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Staple grain used to make Roti, Chapati, and Bread."
   },
   {
     "id": "maize",
@@ -548,7 +548,7 @@
         "Makai"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Used for Corn flour, Popcorn, and Makki di Roti."
   },
   {
     "id": "barley",
@@ -628,7 +628,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rich in fiber, used in soups, stews, and beverages."
   },
   {
     "id": "jowar",
@@ -717,7 +717,7 @@
         "Jowar"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Gluten-free grain, used for Roti and porridge."
   },
   {
     "id": "bajra",
@@ -806,7 +806,7 @@
         "Bajra"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Pearl millet, vital for winters, used for Roti."
   },
   {
     "id": "masoor-dal",
@@ -895,7 +895,7 @@
         "Masoor Dal"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Red lentils, cooks quickly into a soft dal."
   },
   {
     "id": "moong-dal",
@@ -984,7 +984,7 @@
         "Moong Dal"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Split yellow gram, light and easy to digest."
   },
   {
     "id": "chana-dal",
@@ -1073,7 +1073,7 @@
         "Chana Dal"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Split chickpeas, used in curries and snacks."
   },
   {
     "id": "chickpeas",
@@ -1156,7 +1156,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kabuli Chana, used for Chole and Hummus."
   },
   {
     "id": "black-chickpeas",
@@ -1236,7 +1236,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kala Chana, rich in protein, used in curries."
   },
   {
     "id": "kidney-beans",
@@ -1316,7 +1316,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rajma, popular in North Indian curries."
   },
   {
     "id": "black-eyed-peas",
@@ -1399,7 +1399,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Lobia, soft texture, used in curries."
   },
   {
     "id": "dried-green-peas",
@@ -1479,7 +1479,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Used in curries like Matar Paneer."
   },
   {
     "id": "soybeans",
@@ -1559,7 +1559,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "High protein legume, used for chunks and milk."
   },
   {
     "id": "horse-gram",
@@ -1643,7 +1643,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Hardy legume, used for soup (Ras) and curries."
   },
   {
     "id": "flax-seeds",
@@ -1725,7 +1725,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rich in Omega-3, used in chutneys and powders."
   },
   {
     "id": "sesame-seeds",
@@ -1805,7 +1805,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Used in sweets (Til-Gud) and seasonings."
   },
   {
     "id": "groundnut",
@@ -1888,1412 +1888,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "mustard-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Brassica nigra",
-    "names": {
-      "english": [
-        "Mustard Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "সরিষা",
-        "Sorisha"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "રાઈ",
-        "Rai"
-      ],
-      "hindi": [
-        "सरसों",
-        "Sarson"
-      ],
-      "kannada": [
-        "ಸಾಸಿವೆ",
-        "Sasive"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "കടുക്",
-        "Kaduku"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "मोहरी",
-        "Mohri"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "ସୋରିଷ",
-        "Sorisa"
-      ],
-      "punjabi": [
-        "ਸਰੋਂ",
-        "Saron"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "கடுகு",
-        "Kadugu"
-      ],
-      "telugu": [
-        "ఆవాలు",
-        "Avalu"
-      ],
-      "urdu": [
-        "رائی",
-        "Rai"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "cumin-seeds",
-    "photo": "img/cumin-seeds.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Cuminum cyminum",
-    "names": {
-      "english": [
-        "Cumin Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "জিরা",
-        "Jira"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "જીરું",
-        "Jeeru"
-      ],
-      "hindi": [
-        "जीरा",
-        "Jeera"
-      ],
-      "kannada": [
-        "ಜೀರಿಗೆ",
-        "Jeerige"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "ജീരകം",
-        "Jeerakam"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "जिरे",
-        "Jire"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "ଜିରା",
-        "Jira"
-      ],
-      "punjabi": [
-        "ਜੀਰਾ",
-        "Jeera"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "சீரகம்",
-        "Jeeragam"
-      ],
-      "telugu": [
-        "జీలకర్ర",
-        "Jeelakarra"
-      ],
-      "urdu": [
-        "زیرہ",
-        "Zeera"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "coriander-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Coriander Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "fennel-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Foeniculum vulgare",
-    "names": {
-      "english": [
-        "Fennel Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "fenugreek-seeds",
-    "photo": "img/fenugreek-seeds.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Trigonella foenum-graecum",
-    "names": {
-      "english": [
-        "Fenugreek Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "black-pepper",
-    "photo": "img/black-pepper.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Piper nigrum",
-    "names": {
-      "english": [
-        "Black Pepper"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "গোলমরিচ",
-        "Golmorich"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "મરી",
-        "Mari"
-      ],
-      "hindi": [
-        "काली मिर्च",
-        "Kali Mirch"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "കുരുമുളക്",
-        "Kurumulaku"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "काळी मिरी",
-        "Kali Miri"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "ଗୋଲ ମରିଚ",
-        "Gol Maricha"
-      ],
-      "punjabi": [
-        "ਕਾਲੀ ਮਿਰਚ",
-        "Kali Mirch"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "மிளகு",
-        "Milagu"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "کالی مرچ",
-        "Kali Mirch"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "cardamom",
-    "photo": "img/cardamom.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Elettaria cardamomum",
-    "names": {
-      "english": [
-        "Cardamom"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "इलायची",
-        "Elaichi"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "ഏലയ്ക്ക",
-        "Elakka"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "ஏலக்காய்",
-        "Elakkai"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "cloves",
-    "photo": "img/cloves.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Syzygium aromaticum",
-    "names": {
-      "english": [
-        "Cloves"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "cinnamon",
-    "photo": "img/cinnamon.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Cinnamomum verum",
-    "names": {
-      "english": [
-        "Cinnamon"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "turmeric",
-    "photo": "img/turmeric.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Curcuma longa",
-    "names": {
-      "english": [
-        "Turmeric"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "হলুদ",
-        "Holud"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "હળદર",
-        "Haldar"
-      ],
-      "hindi": [
-        "हल्दी",
-        "Haldi"
-      ],
-      "kannada": [
-        "ಅರಿಶಿನ",
-        "Arishina"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "മഞ്ഞൾ",
-        "Manjal"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "हळद",
-        "Halad"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "ହଳଦୀ",
-        "Haladi"
-      ],
-      "punjabi": [
-        "ਹਲਦੀ",
-        "Haldi"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "மஞ்சள்",
-        "Manjal"
-      ],
-      "telugu": [
-        "పసుపు",
-        "Pasupu"
-      ],
-      "urdu": [
-        "ہلدی",
-        "Haldi"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "dry-red-chili",
-    "photo": "img/dry-red-chili.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Capsicum annuum",
-    "names": {
-      "english": [
-        "Dry Red Chili"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "cashew",
-    "photo": "img/cashew.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Anacardium occidentale",
-    "names": {
-      "english": [
-        "Cashew"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "almond",
-    "photo": "img/almond.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Prunus dulcis",
-    "names": {
-      "english": [
-        "Almond"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "pistachio",
-    "photo": "img/pistachio.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Pistacia vera",
-    "names": {
-      "english": [
-        "Pistachio"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "walnut",
-    "photo": "img/walnut.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Juglans regia",
-    "names": {
-      "english": [
-        "Walnut"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "raisins",
-    "photo": "img/raisins.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Vitis vinifera",
-    "names": {
-      "english": [
-        "Raisins"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "dates",
-    "photo": "img/dates.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Phoenix dactylifera",
-    "names": {
-      "english": [
-        "Dates"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
+    "notes": "Peanuts, used in Chutneys and snacks."
   },
   {
     "id": "sago",
@@ -3376,7 +1971,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sabudana, used for Khichdi and Vada."
   },
   {
     "id": "fox-nuts",
@@ -3456,7 +2051,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Makhana, puffed lotus seeds, healthy snack."
   },
   {
     "id": "poha",
@@ -3538,7 +2133,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Flattened rice, popular breakfast dish."
   },
   {
     "id": "semolina",
@@ -3618,7 +2213,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rava or Sooji, used for Upma and Halwa."
   },
   {
     "id": "vermicelli",
@@ -3698,7 +2293,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Semiya, used for Upma and Payasam."
   },
   {
     "id": "jaggery",
@@ -3778,249 +2373,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "tamarind",
-    "photo": "img/tamarind.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Tamarindus indica",
-    "names": {
-      "english": [
-        "Tamarind"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "kokum",
-    "photo": "img/kokum.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Garcinia indica",
-    "names": {
-      "english": [
-        "Kokum"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "asafetida",
-    "photo": "img/asafetida.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Ferula assa-foetida",
-    "names": {
-      "english": [
-        "Asafetida"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "हिंग",
-        "Hing"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "பெருங்காயம்",
-        "Perungayam"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
+    "notes": "Unrefined cane sugar, traditional sweetener."
   },
   {
     "id": "chia-seeds",
@@ -4101,7 +2454,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Superfood rich in fiber and antioxidants."
   },
   {
     "id": "sunflower-seeds",
@@ -4181,7 +2534,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Healthy snack seeds."
   },
   {
     "id": "pumpkin-seeds",
@@ -4261,7 +2614,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rich in magnesium and zinc."
   },
   {
     "id": "quinoa",
@@ -4341,7 +2694,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Complete protein grain, gluten-free."
   },
   {
     "id": "oats",
@@ -4421,7 +2774,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "High fiber cereal, good for breakfast porridge."
   },
   {
     "id": "buckwheat",
@@ -4501,7 +2854,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kuttu, consumed during fasting (Vrat)."
   },
   {
     "id": "brown-rice",
@@ -4583,7 +2936,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Whole grain rice with bran layer intact."
   },
   {
     "id": "basmati-rice",
@@ -4664,7 +3017,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Aromatic long-grain rice for Biryani."
   },
   {
     "id": "jasmine-rice",
@@ -4744,7 +3097,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Slightly sticky aromatic rice."
   },
   {
     "id": "sona-masoori",
@@ -4824,7 +3177,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Medium-grain rice, popular in South India."
   },
   {
     "id": "parboiled-rice",
@@ -4904,7 +3257,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Partially boiled in husk, nutritious."
   },
   {
     "id": "red-rice",
@@ -4986,7 +3339,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Rich in antioxidants, staple in Kerala/Konkan."
   },
   {
     "id": "black-rice",
@@ -5066,7 +3419,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Forbidden rice, high in anthocyanins."
   },
   {
     "id": "glutinous-rice",
@@ -5146,7 +3499,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sticky rice used in Asian desserts."
   },
   {
     "id": "puffed-rice",
@@ -5228,7 +3581,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Murmura, used for Bhel Puri."
   },
   {
     "id": "idli-rice",
@@ -5309,7 +3662,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Parboiled rice specifically for Idli batter."
   },
   {
     "id": "matta-rice",
@@ -5389,7 +3742,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Kerala red rice, robust flavor."
   },
   {
     "id": "whole-wheat",
@@ -5469,7 +3822,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Used for making Atta flour."
   },
   {
     "id": "broken-wheat",
@@ -5549,7 +3902,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Dalia, used for porridge and Upma."
   },
   {
     "id": "maida",
@@ -5629,7 +3982,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Refined wheat flour for Naan and pastries."
   },
   {
     "id": "corn-flour",
@@ -5709,7 +4062,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Starch thickening agent."
   },
   {
     "id": "rice-flour",
@@ -5789,7 +4142,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Ground rice for Appam, Idiyappam, and batters."
   },
   {
     "id": "besan",
@@ -5869,7 +4222,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Chickpea flour, used for Pakoras and Kadhi."
   },
   {
     "id": "ragi-flour",
@@ -5949,7 +4302,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Finger millet flour for Ragi Mudde."
   },
   {
     "id": "bajra-flour",
@@ -6029,7 +4382,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Pearl millet flour for Rotla."
   },
   {
     "id": "jowar-flour",
@@ -6109,7 +4462,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sorghum flour, gluten-free option."
   },
   {
     "id": "sabudana",
@@ -6191,7 +4544,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Sago pearls, fasting food staple."
   },
   {
     "id": "soy-chunks",
@@ -6272,7 +4625,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Meal maker, vegetable meat substitute."
   },
   {
     "id": "green-gram",
@@ -6352,7 +4705,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Whole Moong, sprouted or cooked."
   },
   {
     "id": "black-gram",
@@ -6432,7 +4785,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Whole Urad, used for Dal Makhani."
   },
   {
     "id": "moth-bean",
@@ -6512,7 +4865,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Matki, used in Misal Pav."
   },
   {
     "id": "lima-beans",
@@ -6592,7 +4945,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Butter beans, creamy texture."
   },
   {
     "id": "field-beans",
@@ -6672,7 +5025,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Avarekai, popular in Karnataka."
   },
   {
     "id": "double-beans",
@@ -6752,7 +5105,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Broad beans, used in curries."
   },
   {
     "id": "pinto-beans",
@@ -6832,7 +5185,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Speckled beans, creamy when cooked."
   },
   {
     "id": "white-peas",
@@ -6912,7 +5265,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Safed Vatana, used for Ragda Patties."
   },
   {
     "id": "roasted-gram",
@@ -6992,1458 +5345,7 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "poppy-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Papaver somniferum",
-    "names": {
-      "english": [
-        "Poppy Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "खसखस",
-        "Khas Khas"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "കശകശ",
-        "Kashakasha"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "கசகசா",
-        "Kasa Kasa"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "carom-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Carom Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "nigella-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Nigella Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "basil-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Basil Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "melon-seeds",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Melon Seeds"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "saffron",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Saffron"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "nutmeg",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Myristica fragrans",
-    "names": {
-      "english": [
-        "Nutmeg"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "जायफल",
-        "Jaiphal"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "ஜாதிக்காய்",
-        "Jaathikai"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "mace",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Myristica fragrans",
-    "names": {
-      "english": [
-        "Mace"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "जावित्री",
-        "Javitri"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "ஜாதிப்பத்திரி",
-        "Jaathipathiri"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "star-anise",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Illicium verum",
-    "names": {
-      "english": [
-        "Star Anise"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "चक्र फूल",
-        "Chakra Phool"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "அன்னாசி ்பூ",
-        "Annasi Poo"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "bay-leaf",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "Laurus nobilis",
-    "names": {
-      "english": [
-        "Bay Leaf"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "तेज पत्ता",
-        "Tej Patta"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "பிரியாணி இலை",
-        "Biryani Ilai"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "dry-ginger",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Dry Ginger"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "black-cardamom",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Black Cardamom"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "white-pepper",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "White Pepper"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "long-pepper",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Long Pepper"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "stone-flower",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Stone Flower"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "marathi-moggu",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Marathi Moggu"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "kabab-chin",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Kabab Chin"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
-  },
-  {
-    "id": "galangal",
-    "photo": "img/placeholder.webp",
-    "tags": [
-      "cereal"
-    ],
-    "scientificName": "N/A",
-    "names": {
-      "english": [
-        "Galangal"
-      ],
-      "assamese": [
-        "-"
-      ],
-      "bengali": [
-        "-"
-      ],
-      "bodo": [
-        "-"
-      ],
-      "dogri": [
-        "-"
-      ],
-      "gujarati": [
-        "-"
-      ],
-      "hindi": [
-        "-"
-      ],
-      "kannada": [
-        "-"
-      ],
-      "kashmiri": [
-        "-"
-      ],
-      "konkani": [
-        "-"
-      ],
-      "maithili": [
-        "-"
-      ],
-      "malayalam": [
-        "-"
-      ],
-      "manipuri": [
-        "-"
-      ],
-      "marathi": [
-        "-"
-      ],
-      "nepali": [
-        "-"
-      ],
-      "odia": [
-        "-"
-      ],
-      "punjabi": [
-        "-"
-      ],
-      "sanskrit": [
-        "-"
-      ],
-      "santali": [
-        "-"
-      ],
-      "sindhi": [
-        "-"
-      ],
-      "tamil": [
-        "-"
-      ],
-      "telugu": [
-        "-"
-      ],
-      "urdu": [
-        "-"
-      ]
-    },
-    "notes": "Description to be added."
+    "notes": "Fried gram, used in Chutneys."
   },
   {
     "id": "arrowroot-flour",
@@ -8523,6 +5425,6 @@
         "-"
       ]
     },
-    "notes": "Description to be added."
+    "notes": "Digestible starch for thickening."
   }
 ]
