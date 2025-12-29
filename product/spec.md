@@ -36,21 +36,48 @@ The site is designed for **mobile-first usage** (e.g., while shopping or orderin
 
 ## **4. Architecture**
 
-The site is a **fully static HTML + JS** application.
+The site is a **Single Page Application (SPA)** using vanilla JavaScript with server-side fallback routing.
 
 ```
 /index.html
 /style.css
 /app.js
+/server.js (Node.js + Express for SPA routing)
 /data/fish-seafood.json
 /data/vegetables-fruits.json
 /data/grains-pulses.json
 /data/spices.json
-/img/*.jpg or .png or .webp
+/img/*.webp
+/sitemap.xml (324 URLs)
+/robots.txt
+/manifest.json
 ```
 
-No build system required.
-Deployment: GitHub Pages, Cloudflare Pages, or Netlify.
+### **4.1 Routing Architecture**
+
+**URL Structure**: Path-based routing using History API
+- Homepage: `/`
+- Categories: `/fish`, `/vegetables-fruits`, `/grains`, `/spices`
+- Items: `/fish/pomfret-black`, `/spices/turmeric`, etc.
+
+**Server Configuration**:
+- Express.js serves `index.html` for all routes (SPA fallback)
+- Client-side JavaScript parses URL and loads appropriate content
+- Enables deep linking support (e.g., `/fish/sardine`)
+
+**SEO Benefits**:
+- 324 indexable URLs (1 homepage + 4 categories + 319 items)
+- Dynamic meta tags updated per route
+- Item-specific Open Graph tags for social sharing
+- Comprehensive sitemap for search engine crawling
+
+### **4.2 Deployment**
+
+Deployment: Netlify, Vercel, Cloudflare Pages, or any platform with SPA routing support.
+
+No build system required. The app runs in two modes:
+- **Development**: `npm start` (Node.js server with hot reload)
+- **Production**: Deploy to static hosting with SPA fallback configured
 
 ---
 
@@ -128,16 +155,36 @@ Each entry follows:
   * **Logic**: OR-based filtering.
   * **Reset**: Toggling all filters off (or clicking "All") resets the view.
 
-### **6.3 Search**
+### **6.3 Search & Navigation**
 
 * Single search bar in the sticky header.
-* **Persistent Search**: The search query is preserved when switching between categories (e.g., searching for "Red" in Fish, then clicking Vegetables will show "Red" vegetables).
+* **URL-Based Search**: Search queries are preserved in URL parameters (e.g., `/fish?search=red`)
+* **Item-Level URLs**: When navigating to specific items (e.g., `/fish/pomfret-black`):
+  * Search box automatically populates with item name
+  * Results filter to show only that item
+  * Card is highlighted with blue border for 2 seconds
+  * Enables direct sharing and bookmarking
 * **Clear Button**: A dedicated "X" button appears when typing to instantly clear the query and reset results.
 * Searches across:
-  * All name variants
+  * All name variants (English + 22 Indian languages)
   * Notes
   * Scientific names
 * Results instantly match the active category.
+
+### **6.4 Share Functionality**
+
+* Each card includes a **Share button** (bottom of card)
+* **Sharing Options**:
+  * **Mobile**: Uses Web Share API (native share sheet)
+  * **Desktop**: Copies URL to clipboard
+  * **Visual Feedback**: Button shows "Link copied!" for 2 seconds
+* **Shared URL Format**: `https://foodbhasha.com/category/item-id`
+  * Example: `https://foodbhasha.com/fish/sardine`
+* **Social Previews**: Dynamic Open Graph tags show:
+  * Item name in English
+  * Scientific name
+  * Regional names (Tamil, Hindi, Kannada, Malayalam)
+  * Category badge
 
 ---
 
