@@ -1,0 +1,302 @@
+[
+    {
+        "id": "v1",
+        "names": {
+            "english": [
+                "Potato"
+            ],
+            "tamil": [
+                "Urulaikizhangu"
+            ],
+            "malayalam": [
+                "Urulakizhangu"
+            ],
+            "hindi": [
+                "Aloo",
+                "Alu"
+            ],
+            "kannada": [
+                "Alugadde"
+            ],
+            "telugu": [
+                "Bangaladumpa"
+            ]
+        },
+        "scientificName": "Solanum tuberosum",
+        "category": [
+            "root",
+            "vegetable"
+        ],
+        "photo": "img/potato.webp",
+        "notes": "Starchy tuber used in curries and fries."
+    },
+    {
+        "id": "v2",
+        "names": {
+            "english": [
+                "Onion"
+            ],
+            "tamil": [
+                "Vengayam"
+            ],
+            "malayalam": [
+                "Savala"
+            ],
+            "hindi": [
+                "Pyaaz"
+            ],
+            "kannada": [
+                "Eerulli"
+            ],
+            "telugu": [
+                "Ullipaya"
+            ]
+        },
+        "scientificName": "Allium cepa",
+        "category": [
+            "root",
+            "vegetable"
+        ],
+        "photo": "img/onion.webp",
+        "notes": "Essential base for Indian gravies."
+    },
+    {
+        "id": "v3",
+        "names": {
+            "english": [
+                "Tomato"
+            ],
+            "tamil": [
+                "Thakkali"
+            ],
+            "malayalam": [
+                "Thakkali"
+            ],
+            "hindi": [
+                "Tamatar"
+            ],
+            "kannada": [
+                "Tomato"
+            ],
+            "telugu": [
+                "Tamata"
+            ]
+        },
+        "scientificName": "Solanum lycopersicum",
+        "category": [
+            "fruit-veg",
+            "vegetable"
+        ],
+        "photo": "img/tomato.webp",
+        "notes": "Used widely for sourness and gravy base."
+    },
+    {
+        "id": "v4",
+        "names": {
+            "english": [
+                "Spinach"
+            ],
+            "tamil": [
+                "Keerai",
+                "Pasalai"
+            ],
+            "malayalam": [
+                "Cheera"
+            ],
+            "hindi": [
+                "Palak"
+            ],
+            "kannada": [
+                "Palak"
+            ],
+            "telugu": [
+                "Palakura"
+            ]
+        },
+        "scientificName": "Spinacia oleracea",
+        "category": [
+            "leafy",
+            "vegetable"
+        ],
+        "photo": "img/spinach.webp",
+        "notes": "Green leafy vegetable rich in iron."
+    },
+    {
+        "id": "v5",
+        "names": {
+            "english": [
+                "Brinjal",
+                "Eggplant",
+                "Aubergine"
+            ],
+            "tamil": [
+                "Kathirikkai"
+            ],
+            "malayalam": [
+                "Vazhuthananga"
+            ],
+            "hindi": [
+                "Baingan"
+            ],
+            "kannada": [
+                "Badanekai"
+            ],
+            "telugu": [
+                "Vankaya"
+            ]
+        },
+        "scientificName": "Solanum melongena",
+        "category": [
+            "fruit-veg",
+            "vegetable"
+        ],
+        "photo": "img/brinjal.webp",
+        "notes": "King of vegetables in Indian cuisine."
+    },
+    {
+        "id": "v6",
+        "names": {
+            "english": [
+                "Mango"
+            ],
+            "tamil": [
+                "Maanga"
+            ],
+            "malayalam": [
+                "Manga"
+            ],
+            "hindi": [
+                "Aam"
+            ],
+            "kannada": [
+                "Mavinakai"
+            ],
+            "telugu": [
+                "Mamidikaya"
+            ]
+        },
+        "scientificName": "Mangifera indica",
+        "category": [
+            "fruit"
+        ],
+        "photo": "img/mango.webp",
+        "notes": "The King of Fruits."
+    },
+    {
+        "id": "v7",
+        "names": {
+            "english": [
+                "Banana",
+                "Plantain"
+            ],
+            "tamil": [
+                "Vazhaipazham"
+            ],
+            "malayalam": [
+                "Pazham"
+            ],
+            "hindi": [
+                "Kela"
+            ],
+            "kannada": [
+                "Balehannu"
+            ],
+            "telugu": [
+                "Aratipandu"
+            ]
+        },
+        "scientificName": "Musa",
+        "category": [
+            "fruit"
+        ],
+        "photo": "img/banana.webp",
+        "notes": "Rich in potassium."
+    },
+    {
+        "id": "v8",
+        "names": {
+            "english": [
+                "Jackfruit"
+            ],
+            "tamil": [
+                "Pala Pazham"
+            ],
+            "malayalam": [
+                "Chakka"
+            ],
+            "hindi": [
+                "Kathal"
+            ],
+            "kannada": [
+                "Halasina Hannu"
+            ],
+            "telugu": [
+                "Panasa Pandu"
+            ]
+        },
+        "scientificName": "Artocarpus heterophyllus",
+        "category": [
+            "fruit"
+        ],
+        "photo": "img/jackfruit.webp",
+        "notes": "Largest tree-borne fruit."
+    },
+    {
+        "id": "v9",
+        "names": {
+            "english": [
+                "Pomegranate"
+            ],
+            "tamil": [
+                "Maadhulai"
+            ],
+            "malayalam": [
+                "Mathalam"
+            ],
+            "hindi": [
+                "Anaar"
+            ],
+            "kannada": [
+                "Dalimbe"
+            ],
+            "telugu": [
+                "Danima"
+            ]
+        },
+        "scientificName": "Punica granatum",
+        "category": [
+            "fruit"
+        ],
+        "photo": "img/pomegranate.webp",
+        "notes": "Rich in antioxidants."
+    },
+    {
+        "id": "v10",
+        "names": {
+            "english": [
+                "Apple"
+            ],
+            "tamil": [
+                "Apple"
+            ],
+            "malayalam": [
+                "Apple"
+            ],
+            "hindi": [
+                "Seb"
+            ],
+            "kannada": [
+                "Sebu"
+            ],
+            "telugu": [
+                "Apple"
+            ]
+        },
+        "scientificName": "Malus domestica",
+        "category": [
+            "fruit"
+        ],
+        "photo": "img/apple.webp",
+        "notes": "Keep the doctor away."
+    }
+]

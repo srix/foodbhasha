@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Fish Name Guide</title>
-    <meta name="description" content="Identify fish names in English, Tamil, Malayalam, and Kannada.">
+    <title>Indian Food Name Guide</title>
+    <meta name="description"
+        content="Identify Indian food ingredients (fish, vegetables, grains) in English and regional languages like Tamil, Malayalam, Kannada, Hindi.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,21 +26,78 @@
 <body>
 
     <header class="app-header">
-        <div class="header-content">
-            <h1>Indian Fish Name Guide</h1>
-            <div class="search-container">
-                <label for="search-input" class="sr-only">Search fish names</label>
-                <input type="text" id="search-input" placeholder="Search fish, synonyms, or languages...">
-                <span class="search-icon">🔍</span>
+        <!-- Top Row: Brand, Search, Utility -->
+        <div class="header-top">
+            <div class="header-centered header-top-content">
+                <div class="brand">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" class="icon-spoon-knife">
+                            <path d="M11 5h2v14h-2V5z" fill="currentColor" />
+                            <path d="M11 5l-2 2v9l2 2 2-2V7l-2-2z" fill="currentColor" fill-opacity="0.3" />
+                            <path d="M7 6l10 10-1.4 1.4L5.6 7.4 7 6z" fill="currentColor" />
+                            <path d="M17 6l-10 10 1.4 1.4L18.4 7.4 17 6z" fill="currentColor" />
+                        </svg>
+                        <!-- Fallback/Simple icon -->
+                        <span>🍽️</span>
+                    </div>
+                    <div class="brand-text">
+                        <h1>Indian Food Guide</h1>
+                        <span class="subtitle">Multilingual Identification</span>
+                    </div>
+                </div>
+
+                <div class="search-container">
+                    <span class="search-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" id="search-input" placeholder="Search by name (English, Hindi, Tamil...)">
+                </div>
+
+                <div class="header-actions">
+                    <button id="btn-customize-cols" class="primary-btn-icon">
+                        <span class="btn-icon">文</span>
+                        Languages
+                    </button>
+                    <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
+                        <h3 id="column-selector-title">Show Languages</h3>
+                        <div id="column-checkboxes"></div>
+                        <button id="btn-close-cols" class="secondary-btn">Done</button>
+                    </div>
+                </div>
             </div>
+        </div>
 
+        <!-- Middle Row: Navigation Tabs -->
+        <nav class="category-tabs">
+            <div class="header-centered category-tabs-inner">
+                <button class="tab-btn active" data-category="fish">
+                    <span class="tab-icon">🐟</span> Fish & Seafood
+                </button>
+                <button class="tab-btn" data-category="vegetables">
+                    <span class="tab-icon">🥦</span> Vegetables & Fruits
+                </button>
+                <button class="tab-btn" data-category="grains">
+                    <span class="tab-icon">🌾</span> Grains & Pulses
+                </button>
+            </div>
+        </nav>
 
-            <div id="view-controls">
-                <button id="btn-customize-cols" class="secondary-btn" aria-controls="column-selector-dialog" aria-expanded="false">🌐 More Languages</button>
-                <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
-                    <h3 id="column-selector-title">Show Languages</h3>
-                    <div id="column-checkboxes"></div>
-                    <button id="btn-close-cols" class="secondary-btn">Done</button>
+        <!-- Bottom Row: Toolbar (Filters & Stats) - Inside sticky header -->
+        <div class="app-toolbar">
+            <div class="header-centered app-toolbar-content">
+                <div class="filter-group">
+                    <span class="filter-label">FILTERS:</span>
+                    <div id="filter-chips" class="chips-container">
+                        <!-- Filters injected via JS -->
+                        <button class="filter-chip active" data-filter="all">All</button>
+                    </div>
+                </div>
+                <div class="results-stat">
+                    Showing <span id="result-count">0</span> results
                 </div>
             </div>
         </div>
@@ -50,10 +108,8 @@
             <!-- Fish cards will be injected here -->
         </div>
 
-
-
         <div id="no-results" hidden>
-            <p>No fish found matching your search.</p>
+            <p>No ingredients found matching your search.</p>
         </div>
     </main>
 

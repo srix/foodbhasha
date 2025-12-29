@@ -27,40 +27,102 @@ body {
 }
 
 /* Header */
+/* Header Layout */
 .app-header {
     background-color: var(--card-bg);
-    padding: var(--spacing-md);
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 0;
 }
 
-.header-content {
-    max-width: 800px;
+/* Centering Wrapper */
+.header-centered {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+
+/* Top Row */
+.header-top {
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 0;
+    /* Vertical padding only, horizontal handled by wrapper */
+}
+
+.header-top-content {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: 16px;
 }
 
-h1 {
+@media (min-width: 768px) {
+    .header-top-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* Brand */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    width: 48px;
+    height: 48px;
+    background: #E3F5FF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.icon-spoon-knife {
+    width: 28px;
+    height: 28px;
+}
+
+.brand-text h1 {
     font-size: 1.25rem;
     font-weight: 700;
-    text-align: center;
+    margin: 0;
+    line-height: 1.2;
+    text-align: left;
 }
 
+.brand-text .subtitle {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* Search */
 .search-container {
+    flex: 1;
+    max-width: 600px;
     position: relative;
+    margin: 0 16px;
+    /* Keep margin for spacing between items */
 }
 
 #search-input {
     width: 100%;
-    padding: 12px 12px 12px 40px;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius);
-    font-size: 1rem;
-    background-color: var(--background-color);
+    padding: 10px 16px 10px 40px;
+    border: none;
+    background-color: #F3F4F6;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+#search-input::placeholder {
+    color: #9CA3AF;
 }
 
 .search-icon {
@@ -68,41 +130,185 @@ h1 {
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--text-secondary);
-}
-
-.view-toggle {
+    color: #9CA3AF;
     display: flex;
-    background-color: var(--background-color);
-    padding: 4px;
-    border-radius: var(--radius);
 }
 
-.view-toggle button {
-    flex: 1;
-    padding: 8px;
+/* Header Actions */
+.header-actions {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.primary-btn-icon {
+    background-color: #00A3FF;
+    /* Reference Blue */
+    color: white;
     border: none;
-    background: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
     cursor: pointer;
-    font-weight: 500;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.2s;
+}
+
+.primary-btn-icon:hover {
+    background-color: #008AD8;
+}
+
+.btn-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+/* Middle Row: Tabs */
+.category-tabs {
+    /* Wrapper handles positioning */
+    display: flex;
+    padding: 0 24px;
+    /* We need this on wrapper, wait. category-tabs IS the container in HTML usually? I will make it the OUTER container */
+    border-bottom: 0px;
+    /* Tabs usually don't have full width border if individual tabs have it? Design check: Tabs row usually sits on a line. */
+    /* Implementation: outer div full width? No, tabs usually just aligned. */
+}
+
+/* Re-thinking Tabs CSS:
+   If I wrap tabs in .header-centered, then .category-tabs (the Nav) should probably BE the wrapper or inside it.
+   Let's assume I will wrap the content of nav.
+   Actually, cleaner to make .category-tabs the full width container, and an inner div valid.
+*/
+
+.category-tabs-container {
+    /* This will be the outer full width if needed, or just part of flow */
+    padding: 0;
+    /* Padding handled by internal wrapper if used */
+}
+
+.category-tabs-inner {
+    display: flex;
+    gap: 32px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    height: 56px;
+    /* Fixed height for tabs */
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 0 4px;
+    /* Adjust padding since height is fixed on container? Or keep as is */
+    height: 100%;
+    font-size: 0.95rem;
+    font-weight: 600;
     color: var(--text-secondary);
-    transition: background-color 0.2s, color 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
 }
 
-.view-toggle button.active {
-    background-color: var(--card-bg);
-    color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+.tab-btn:hover {
+    color: var(--text-primary);
 }
 
-/* Main Content */
+.tab-btn.active {
+    color: #00A3FF;
+    border-bottom-color: #00A3FF;
+}
+
+/* Bottom Toolbar */
+.app-toolbar {
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 0;
+    /* Vertical padding */
+}
+
+.app-toolbar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media (min-width: 768px) {
+    .app-toolbar-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.filter-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #9CA3AF;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.chips-container {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    /* for scrollbar spacing */
+    scrollbar-width: none;
+}
+
+.chips-container::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-chip {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    border: 1px solid #E5E7EB;
+    background: white;
+    color: var(--text-primary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.filter-chip:hover {
+    background-color: #F9FAFB;
+}
+
+.filter-chip.active {
+    background-color: #00A3FF;
+    color: white;
+    border-color: #00A3FF;
+}
+
+.results-stat {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+/* Main Content Adjustments */
 .app-body {
-    padding: var(--spacing-md);
-    max-width: 800px;
+    padding: 24px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 80px;
-    /* Space for scroll */
 }
 
 /* Card View */
