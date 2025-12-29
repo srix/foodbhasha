@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Category Config
     const CATEGORIES = {
-        'fish': 'data/fish.json',
-        'vegetables': 'data/vegetables.json',
-        'grains': 'data/grains.json'
+        'fish': 'data/fish-seafood.json',
+        'vegetables': 'data/vegetables-fruits.json',
+        'grains': 'data/grains-pulses.json'
     };
 
     // State

@@ -20,7 +20,7 @@ The app supports:
 
 ## Tech Stack
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
-- **Data**: JSON (`data/fish.json`)
+- **Data**: JSON (`data/fish-seafood.json`, etc.)
 - **Testing**: Playwright (end-to-end)
 
 No backend, build step, or framework is involved.
@@ -47,13 +47,14 @@ No backend, build step, or framework is involved.
   Playwright configuration.
 
 ### Data (`data/`)
-- `fish.json`  
-  Core dataset. Array of fish objects with:
+- `fish-seafood.json`, `vegetables-fruits.json`, `grains-pulses.json`  
+  Core datasets. Array of items with:
   - `name` (English)
   - `scientific_name`
   - `image`
   - Language keys (e.g. `tamil`, `malayalam`)
   - `names` object with localized names
+  - **Note**: Missing language data relies on UI fallback (`-`).
 
 ### Product (`product/`)
 - `spec.md`  

@@ -1,0 +1,349 @@
+[
+  {
+    "id": "rice",
+    "photo": "img/rice.webp",
+    "category": [
+      "cereal",
+      "grain"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Rice"
+      ],
+      "tamil": [
+        "அரிசி",
+        "Arisi"
+      ],
+      "hindi": [
+        "चावल",
+        "Chawal"
+      ],
+      "malayalam": [
+        "അരി",
+        "Ari"
+      ],
+      "kannada": [
+        "ಅಕ್ಕಿ",
+        "Akki"
+      ],
+      "telugu": [
+        "బియ్యం",
+        "Biyyam"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Staple food in South and East India."
+  },
+  {
+    "id": "toor-dal",
+    "photo": "img/toor-dal.webp",
+    "category": [
+      "pulse",
+      "dal"
+    ],
+    "scientificName": "Cajanus cajan",
+    "names": {
+      "english": [
+        "Toor Dal",
+        "Pigeon Pea"
+      ],
+      "tamil": [
+        "துவரம் பருப்பு",
+        "Thuvaram Paruppu"
+      ],
+      "hindi": [
+        "अरहर दाल",
+        "Arhar Dal"
+      ],
+      "malayalam": [
+        "തുവര പരിപ്പ്",
+        "Thuvara Parippu"
+      ],
+      "kannada": [
+        "ತೊಗರಿ ಬೇಳೆ",
+        "Togari Bele"
+      ],
+      "telugu": [
+        "కంది పప్పు",
+        "Kandi Pappu"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Commonly used for Sambar."
+  },
+  {
+    "id": "ragi",
+    "photo": "img/ragi.webp",
+    "category": [
+      "millet",
+      "grain"
+    ],
+    "scientificName": "Eleusine coracana",
+    "names": {
+      "english": [
+        "Finger Millet",
+        "Ragi"
+      ],
+      "tamil": [
+        "கேழ்வரகு",
+        "Kezhvaragu"
+      ],
+      "hindi": [
+        "रागी",
+        "Ragi"
+      ],
+      "malayalam": [
+        "പഞ്ഞപ്പുല്ല്",
+        "Panjappullu"
+      ],
+      "kannada": [
+        "ರಾಗಿ",
+        "Ragi"
+      ],
+      "telugu": [
+        "రాగులు",
+        "Ragulu"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Rich in calcium, used for porridge and balls."
+  },
+  {
+    "id": "urad-dal",
+    "photo": "img/urad-dal.webp",
+    "category": [
+      "pulse",
+      "dal"
+    ],
+    "scientificName": "Vigna mungo",
+    "names": {
+      "english": [
+        "Urad Dal",
+        "Black Gram"
+      ],
+      "tamil": [
+        "உளுத்தம் பருப்பு",
+        "Ulundham Paruppu"
+      ],
+      "hindi": [
+        "उड़द दाल",
+        "Urad Dal"
+      ],
+      "malayalam": [
+        "ഉഴുന്നു",
+        "Uzhunnu"
+      ],
+      "kannada": [
+        "ಉದ್ದಿನ ಬೇಳೆ",
+        "Uddina Bele"
+      ],
+      "telugu": [
+        "మినపప్పు",
+        "Minapappu"
+      ],
+      "assamese": [
+        "-"
+      ],
+      "bengali": [
+        "-"
+      ],
+      "bodo": [
+        "-"
+      ],
+      "dogri": [
+        "-"
+      ],
+      "gujarati": [
+        "-"
+      ],
+      "kashmiri": [
+        "-"
+      ],
+      "konkani": [
+        "-"
+      ],
+      "maithili": [
+        "-"
+      ],
+      "manipuri": [
+        "-"
+      ],
+      "marathi": [
+        "-"
+      ],
+      "nepali": [
+        "-"
+      ],
+      "odia": [
+        "-"
+      ],
+      "punjabi": [
+        "-"
+      ],
+      "sanskrit": [
+        "-"
+      ],
+      "santali": [
+        "-"
+      ],
+      "sindhi": [
+        "-"
+      ],
+      "urdu": [
+        "-"
+      ]
+    },
+    "notes": "Key ingredient for Idli and Dosa batter."
+  }
+]
