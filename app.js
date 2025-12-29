@@ -371,14 +371,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = appData.find(i => i.id === itemId);
             if (item) {
                 const englishName = item.names.english[0];
-                title = `${englishName} | ${catLabel} | Indian Ingredient Lexicon`;
+                title = `${englishName} | ${catLabel} | FoodBhasha`;
             } else {
-                title = `${catLabel} | Indian Ingredient Lexicon`;
+                title = `${catLabel} | FoodBhasha`;
             }
         } else if (query) {
-            title = `${query} | Search in ${catLabel} | Indian Ingredient Lexicon`;
+            title = `${query} | Search in ${catLabel} | FoodBhasha`;
         } else {
-            title = `${catLabel} | Indian Ingredient Lexicon`;
+            title = `${catLabel} | FoodBhasha`;
         }
 
         document.title = title;

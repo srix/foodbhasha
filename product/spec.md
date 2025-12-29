@@ -1,4 +1,6 @@
-# **Indian Ingredient Lexicon – Specification (spec.md)**
+# **FoodBhasha – Specification (spec.md)**
+
+**Your market translator** - Find food names in 23 Indian languages
 
 ## **1. Overview**
 
@@ -29,8 +31,9 @@ The site is designed for **mobile-first usage** (e.g., while shopping or orderin
 ## **3. Supported Platforms**
 
 * **Mobile browsers (primary)**
+* **Android App** (via Capacitor - ~6MB, fully offline)
 * Web browsers (desktop & tablet)
-* Optional: Add-to-home-screen (PWA-lite) for faster access
+* Add-to-home-screen (PWA-lite) for faster access
 
 ---
 
@@ -210,9 +213,12 @@ A responsive sticky header that stays fixed at the top.
 
 ### **7.2 Brand Identity**
 
+* **App Name**: FoodBhasha
+* **Tagline**: "Your market translator"
 * **Logo**: Custom image (`img/logo.jpg`) displayed in a non-cropped square format.
 * **Favicon**: Matches the branding logo.
 * **Visuals**: Primary Blue (`#1B497E`) theme.
+* **Tone**: Friendly, practical, helpful (not academic)
 
 ### **7.3 Performance: Lazy Loading**
 
