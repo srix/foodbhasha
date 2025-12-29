@@ -15,9 +15,17 @@ const INDIAN_LANGUAGES = [
     "telugu", "urdu"
 ];
 
+const MIN_DATASET_SIZE = 50;
+
 test.describe('Data Integrity', () => {
 
     FILES.forEach(file => {
+        test(`Verify Minimum Size for ${file}`, async () => {
+            const filePath = path.resolve(__dirname, '..', file);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            expect(data.length, `Expected at least ${MIN_DATASET_SIZE} items in ${file} but found ${data.length}`).toBeGreaterThanOrEqual(MIN_DATASET_SIZE);
+        });
+
         test(`Verify Dual Script in ${file}`, async () => {
             const filePath = path.resolve(__dirname, '..', file);
             const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));

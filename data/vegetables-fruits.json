@@ -1113,7 +1113,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Brassica oleracea var. capitata",
     "names": {
       "english": [
         "Cabbage"
@@ -1380,7 +1380,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Raphanus sativus",
     "names": {
       "english": [
         "Radish"
@@ -1469,7 +1469,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Momordica charantia",
     "names": {
       "english": [
         "Bitter Gourd"
@@ -1558,7 +1558,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Lagenaria siceraria",
     "names": {
       "english": [
         "Bottle Gourd"
@@ -1647,7 +1647,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Luffa acutangula",
     "names": {
       "english": [
         "Ridge Gourd"
@@ -1727,7 +1727,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Trichosanthes cucumerina",
     "names": {
       "english": [
         "Snake Gourd"
@@ -1807,7 +1807,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cucurbita moschata",
     "names": {
       "english": [
         "Pumpkin"
@@ -1896,7 +1896,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cucumis sativus",
     "names": {
       "english": [
         "Cucumber"
@@ -1985,7 +1985,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Moringa oleifera",
     "names": {
       "english": [
         "Drumstick"
@@ -2074,7 +2074,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Phaseolus vulgaris",
     "names": {
       "english": [
         "Beans"
@@ -2154,7 +2154,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pisum sativum",
     "names": {
       "english": [
         "Green Peas"
@@ -2587,7 +2587,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Mentha",
     "names": {
       "english": [
         "Mint Leaves"
@@ -2667,7 +2667,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Murraya koenigii",
     "names": {
       "english": [
         "Curry Leaves"
@@ -2829,7 +2829,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Citrullus lanatus",
     "names": {
       "english": [
         "Watermelon"
@@ -2909,7 +2909,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Ananas comosus",
     "names": {
       "english": [
         "Pineapple"
@@ -2989,7 +2989,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Psidium guajava",
     "names": {
       "english": [
         "Guava"
@@ -3069,7 +3069,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Citrus x sinensis",
     "names": {
       "english": [
         "Orange"
@@ -3149,7 +3149,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Vitis vinifera",
     "names": {
       "english": [
         "Grapes"
@@ -3229,7 +3229,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Citrus limon",
     "names": {
       "english": [
         "Lemon"
@@ -3309,7 +3309,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Phyllanthus emblica",
     "names": {
       "english": [
         "Amla"
@@ -3389,7 +3389,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Ipomoea batatas",
     "names": {
       "english": [
         "Sweet Potato"
@@ -3469,7 +3469,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Manihot esculenta",
     "names": {
       "english": [
         "Tapioca"
@@ -3549,7 +3549,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Dioscorea",
     "names": {
       "english": [
         "Yam"
@@ -3629,7 +3629,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Colocasia esculenta",
     "names": {
       "english": [
         "Colocasia"
@@ -3709,7 +3709,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Capsicum anuum",
     "names": {
       "english": [
         "Capsicum"
@@ -3789,7 +3789,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cyamopsis tetragonoloba",
     "names": {
       "english": [
         "Cluster Beans"
@@ -3869,7 +3869,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Coccinia grandis",
     "names": {
       "english": [
         "Ivy Gourd"
@@ -3949,7 +3949,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Trigonella foenum-graecum",
     "names": {
       "english": [
         "Fenugreek Leaves"
@@ -4029,7 +4029,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Brassica juncea",
     "names": {
       "english": [
         "Mustard Greens"
@@ -4109,7 +4109,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Amaranthus",
     "names": {
       "english": [
         "Amaranth Leaves"
@@ -4280,7 +4280,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cucumis melo",
     "names": {
       "english": [
         "Muskmelon"
@@ -4360,7 +4360,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Annona squamosa",
     "names": {
       "english": [
         "Custard Apple"
@@ -4440,7 +4440,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Manilkara zapota",
     "names": {
       "english": [
         "Sapota"
@@ -4520,7 +4520,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pyrus",
     "names": {
       "english": [
         "Pear"
@@ -4600,7 +4600,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Prunus domestica",
     "names": {
       "english": [
         "Plum"
@@ -4680,7 +4680,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Prunus armeniaca",
     "names": {
       "english": [
         "Apricot"
@@ -4760,7 +4760,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Prunus persica",
     "names": {
       "english": [
         "Peach"
@@ -4840,7 +4840,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Litchi chinensis",
     "names": {
       "english": [
         "Lychee"
@@ -4920,7 +4920,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Fragaria x ananassa",
     "names": {
       "english": [
         "Strawberry"
@@ -5000,7 +5000,7 @@
     "category": [
       "vegetable"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Ficus carica",
     "names": {
       "english": [
         "Fig"

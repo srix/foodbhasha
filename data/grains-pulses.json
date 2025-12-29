@@ -559,7 +559,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Hordeum vulgare",
     "names": {
       "english": [
         "Barley"
@@ -639,7 +639,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Sorghum bicolor",
     "names": {
       "english": [
         "Jowar"
@@ -728,7 +728,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pennisetum glaucum",
     "names": {
       "english": [
         "Bajra"
@@ -817,7 +817,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Lens culinaris",
     "names": {
       "english": [
         "Masoor Dal"
@@ -906,7 +906,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Vigna radiata",
     "names": {
       "english": [
         "Moong Dal"
@@ -995,7 +995,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cicer arietinum",
     "names": {
       "english": [
         "Chana Dal"
@@ -1167,7 +1167,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cicer arietinum",
     "names": {
       "english": [
         "Black Chickpeas"
@@ -1247,7 +1247,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Phaseolus vulgaris",
     "names": {
       "english": [
         "Kidney Beans"
@@ -1327,7 +1327,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Vigna unguiculata",
     "names": {
       "english": [
         "Black Eyed Peas"
@@ -1407,7 +1407,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pisum sativum",
     "names": {
       "english": [
         "Dried Green Peas"
@@ -1487,7 +1487,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Glycine max",
     "names": {
       "english": [
         "Soybeans"
@@ -1567,7 +1567,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Macrotyloma uniflorum",
     "names": {
       "english": [
         "Horse Gram"
@@ -1647,7 +1647,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Linum usitatissimum",
     "names": {
       "english": [
         "Flax Seeds"
@@ -1727,7 +1727,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Sesamum indicum",
     "names": {
       "english": [
         "Sesame Seeds"
@@ -2152,7 +2152,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Foeniculum vulgare",
     "names": {
       "english": [
         "Fennel Seeds"
@@ -2232,7 +2232,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Trigonella foenum-graecum",
     "names": {
       "english": [
         "Fenugreek Seeds"
@@ -2484,7 +2484,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Syzygium aromaticum",
     "names": {
       "english": [
         "Cloves"
@@ -2564,7 +2564,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cinnamomum verum",
     "names": {
       "english": [
         "Cinnamon"
@@ -2735,7 +2735,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Capsicum annuum",
     "names": {
       "english": [
         "Dry Red Chili"
@@ -2815,7 +2815,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Anacardium occidentale",
     "names": {
       "english": [
         "Cashew"
@@ -2895,7 +2895,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Prunus dulcis",
     "names": {
       "english": [
         "Almond"
@@ -2975,7 +2975,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Pistacia vera",
     "names": {
       "english": [
         "Pistachio"
@@ -3055,7 +3055,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Juglans regia",
     "names": {
       "english": [
         "Walnut"
@@ -3135,7 +3135,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Vitis vinifera",
     "names": {
       "english": [
         "Raisins"
@@ -3215,7 +3215,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Phoenix dactylifera",
     "names": {
       "english": [
         "Dates"
@@ -3295,7 +3295,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Metroxylon sagu",
     "names": {
       "english": [
         "Sago"
@@ -3375,7 +3375,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Euryale ferox",
     "names": {
       "english": [
         "Fox Nuts"
@@ -3455,7 +3455,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Flattened Rice",
     "names": {
       "english": [
         "Poha"
@@ -3535,7 +3535,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Triticum durum",
     "names": {
       "english": [
         "Semolina"
@@ -3615,7 +3615,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Triticum",
     "names": {
       "english": [
         "Vermicelli"
@@ -3695,7 +3695,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Saccharum officinarum (Product)",
     "names": {
       "english": [
         "Jaggery"
@@ -3775,7 +3775,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Tamarindus indica",
     "names": {
       "english": [
         "Tamarind"
@@ -3855,7 +3855,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Garcinia indica",
     "names": {
       "english": [
         "Kokum"
@@ -3935,7 +3935,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Ferula assa-foetida",
     "names": {
       "english": [
         "Asafetida"
@@ -4015,7 +4015,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Salvia hispanica",
     "names": {
       "english": [
         "Chia Seeds"
@@ -4095,7 +4095,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Helianthus annuus",
     "names": {
       "english": [
         "Sunflower Seeds"
@@ -4175,7 +4175,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Cucurbita",
     "names": {
       "english": [
         "Pumpkin Seeds"
@@ -4255,7 +4255,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Chenopodium quinoa",
     "names": {
       "english": [
         "Quinoa"
@@ -4335,7 +4335,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Avena sativa",
     "names": {
       "english": [
         "Oats"
@@ -4415,7 +4415,7 @@
     "category": [
       "grain"
     ],
-    "scientificName": "N/A",
+    "scientificName": "Fagopyrum esculentum",
     "names": {
       "english": [
         "Buckwheat"

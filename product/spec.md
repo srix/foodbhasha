@@ -92,6 +92,7 @@ Each entry follows:
 
 ### **5.3 Data Completeness**
 * Ideally, all entries should have names in all 22 supported languages.
+* **Dataset Size**: Each category (Fish, Vegetables, Grains) MUST maintain a minimum of **50 items** to ensure a comprehensive reference guide.
 * **Dual Script**: For Indian languages, each entry MUST include both the **Native Script** and the **Romanized (English transliteration)** version (e.g., `["வஞ்சரம்", "Vanjaram"]`).
 * **Fallback**: If a name is unavailable for a specific language, the UI will display a hyphen (`-`) instead. The application must treat missing keys or empty arrays as valid absences.
 
