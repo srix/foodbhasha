@@ -22,21 +22,24 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         // Check for a Fish
         await expect(page.locator('.fish-card').filter({ hasText: 'Seer fish' })).toBeVisible();
 
-        // Switch to Vegetables
-        await nav.locator('button[data-category="vegetables"]').click();
-        await expect(nav.locator('button[data-category="vegetables"]')).toHaveClass(/active/);
-        await expect(nav.locator('button[data-category="vegetables"]')).toHaveText(/Vegetables/);
+        // Switch to Vegetables & Fruits
+        await nav.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
+        await expect(nav.locator('button[data-category="vegetables-fruits"]')).toHaveClass(/active/);
+        await expect(nav.locator('button[data-category="vegetables-fruits"]')).toHaveText(/Vegetables/);
 
         // Check for a Vegetable (Potato)
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
 
         // Switch to Grains
         await nav.locator('button[data-category="grains"]').click();
+        await page.waitForLoadState('networkidle');
         // Check for a Grain (Rice)
         await expect(page.locator('.fish-card').filter({ hasText: 'Rice' })).toBeVisible();
 
         // Switch to Spices
         await nav.locator('button[data-category="spices"]').click();
+        await page.waitForLoadState('networkidle');
         await expect(nav.locator('button[data-category="spices"]')).toHaveClass(/active/);
         // Check for a Spice (Mustard Seeds)
         await expect(page.locator('.fish-card').filter({ hasText: 'Mustard Seeds' })).toBeVisible();
@@ -60,7 +63,8 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
     test('Filter Logic: Vegetables & Fruits (Active State)', async ({ page }) => {
         // Go to Veg
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
 
         // Wait for chips
         const chips = page.locator('#filter-chips');
@@ -75,14 +79,17 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
     test('Multi-Select Filter Logic (OR Logic)', async ({ page }) => {
         // Go to Veg
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
 
         const chips = page.locator('#filter-chips');
 
         // Select Root
         await chips.locator('button[data-filter="root"]').click();
+        await page.waitForTimeout(300);
         // Select Leafy
         await chips.locator('button[data-filter="leafy"]').click();
+        await page.waitForTimeout(300);
 
         // Both Chips Active
         await expect(chips.locator('button[data-filter="root"]')).toHaveClass(/active/);
@@ -97,6 +104,7 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
         // Logic: De-select Root
         await chips.locator('button[data-filter="root"]').click();
+        await page.waitForTimeout(300);
         await expect(chips.locator('button[data-filter="root"]')).not.toHaveClass(/active/);
 
         // Potato Hidden, Spinach Still Visible
@@ -105,13 +113,15 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
         // Reset All
         await chips.locator('button[data-filter="all"]').click();
+        await page.waitForTimeout(300);
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
         await expect(page.locator('.fish-card').filter({ hasText: 'Mango' })).toBeVisible();
     });
 
     test('Badge Whitelisting', async ({ page }) => {
         // Go to Veg
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
 
         const potatoCard = page.locator('.fish-card').filter({ hasText: 'Potato' }).first();
 
@@ -120,6 +130,7 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
 
         // Verify no "usage" badges like "Curry" or "Everyday" appear
         await page.locator('button[data-category="fish"]').click();
+        await page.waitForLoadState('networkidle');
         const seerCard = page.locator('.fish-card').filter({ hasText: 'Seer fish' }).first();
 
         await expect(seerCard.locator('.habitat-badge', { hasText: 'Sea' })).toBeVisible();
@@ -138,15 +149,16 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         // Check for centered wrapper in tabs
         await expect(header.locator('.category-tabs .header-centered')).toBeVisible();
 
-        // Verify Logo is an Image
+        // Verify Logo is an Image (using absolute path now)
         const logoImg = header.locator('.brand .logo-circle img');
         await expect(logoImg).toBeVisible();
-        await expect(logoImg).toHaveAttribute('src', 'img/logo.jpg');
+        await expect(logoImg).toHaveAttribute('src', '/img/logo.jpg');
     });
 
     test('Dynamic Placeholders', async ({ page }) => {
         // Go to Veg
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
         const mangoCard = page.locator('.fish-card').filter({ hasText: 'Mango' }).first();
 
         // Check that image is visible (src fallback handled by browser, test seeing element)
@@ -156,17 +168,21 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
     test('Search Persistence Across Categories', async ({ page }) => {
         // 1. Type "Red" in Fish
         await page.locator('#search-input').fill('Red');
+        await page.waitForTimeout(600); // Wait for debounce
         // Expect Red Snapper
         await expect(page.locator('.fish-card').filter({ hasText: 'Red Snapper' })).toBeVisible();
 
         // 2. Switch to Vegetables
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
 
         // 3. Verify Search Input still has "Red"
         await expect(page.locator('#search-input')).toHaveValue('Red');
 
         await page.locator('#search-input').fill('Spinach');
-        await page.locator('button[data-category="vegetables"]').click();
+        await page.waitForTimeout(600);
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
         await expect(page.locator('#search-input')).toHaveValue('Spinach');
         await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
         await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeHidden();

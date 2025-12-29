@@ -29,10 +29,8 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         const chips = page.locator('#filter-chips');
         await chips.locator('button[data-filter="sea"]').click();
 
-        // Wait for filter to apply. Implicitly handled by count assertion mostly, but good to wait for change.
-        // We expect it to be <= 20.
-        // Let's wait for a short tick.
-        await page.waitForTimeout(200);
+        // Wait for filter to apply and re-render
+        await page.waitForTimeout(500);
 
         const filteredCount = await page.locator('.fish-card').count();
         expect(filteredCount).toBeLessThanOrEqual(20);
@@ -42,14 +40,16 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
         await page.waitForTimeout(500);
 
-        // Switch to Vegetables
-        await page.locator('button[data-category="vegetables"]').click();
+        // Switch to Vegetables & Fruits
+        await page.locator('button[data-category="vegetables-fruits"]').click();
+        await page.waitForLoadState('networkidle');
         await expect(page.locator('.fish-card').first()).toBeVisible();
         const vegCount = await page.locator('.fish-card').count();
         expect(vegCount).toBeLessThanOrEqual(20);
 
         // Switch BACK to Fish
         await page.locator('button[data-category="fish"]').click();
+        await page.waitForLoadState('networkidle');
 
         // Verify Fish is reset to 20
         await expect(page.locator('.fish-card').first()).toBeVisible();
@@ -63,14 +63,14 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
 
     test('Reset on Search', async ({ page }) => {
         await page.fill('#search-input', 'Seer');
-        await page.waitForTimeout(1100);
+        await page.waitForTimeout(800); // Wait for debounce and render
 
         const cards = page.locator('.fish-card');
         await expect(cards).toHaveCount(1);
 
         // Clear search
         await page.fill('#search-input', '');
-        await page.waitForTimeout(1100);
+        await page.waitForTimeout(800); // Wait for debounce and render
 
         const count = await page.locator('.fish-card').count();
         expect(count).toBe(20);
