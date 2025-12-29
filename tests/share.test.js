@@ -1,7 +1,9 @@
 const { test, expect } = require('@playwright/test');
 
 test.describe('Share Functionality', () => {
-    test.beforeEach(async ({ page }) => {
+    test.beforeEach(async ({ page, context }) => {
+        // Grant clipboard permissions for all tests
+        await context.grantPermissions(['clipboard-write', 'clipboard-read']);
         await page.goto('http://localhost:8080/');
         await page.waitForLoadState('networkidle');
     });
@@ -69,6 +71,7 @@ test.describe('Share Functionality', () => {
     test('Share button on item page generates correct URL', async ({ page }) => {
         await page.goto('http://localhost:8080/spices/turmeric');
         await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(500); // Wait for search filter to apply
 
         // The share button should exist
         const shareBtn = await page.locator('.share-btn').first();
@@ -76,25 +79,27 @@ test.describe('Share Functionality', () => {
 
         // Clicking it should work (visual feedback is enough to verify)
         await shareBtn.click();
+        await page.waitForTimeout(200); // Wait for clipboard operation
         await expect(shareBtn.locator('.share-text')).toContainText('Link copied!');
     });
 
-    test('Share buttons work across different categories', async ({ page, context }) => {
-        await context.grantPermissions(['clipboard-write']);
-
+    test('Share buttons work across different categories', async ({ page }) => {
         // Test in Fish category
         let shareBtn = await page.locator('.share-btn').first();
         await shareBtn.click();
+        await page.waitForTimeout(200);
         await expect(shareBtn.locator('.share-text')).toContainText('Link copied!');
         await page.waitForTimeout(2500); // Wait for reset
 
-        // Switch to Vegetables
+        // Switch to Vegetables  
         await page.click('.tab-btn[data-category="vegetables-fruits"]');
         await page.waitForLoadState('networkidle');
+        await page.waitForTimeout(500); // Wait for tab animation to complete
 
         // Test share button in vegetables
         shareBtn = await page.locator('.share-btn').first();
         await shareBtn.click();
+        await page.waitForTimeout(200);
         await expect(shareBtn.locator('.share-text')).toContainText('Link copied!');
     });
 
