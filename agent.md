@@ -24,7 +24,10 @@ The app supports:
 - **Card View** for visual browsing with lazy loading
 - **Multi-select Filtering** (e.g., Root + Leafy)
 - **Search persistence** with query parameters
-- **Feedback Mechanism** via floating action button and Netlify Forms
+- **Feedback Mechanism**:
+    - Web: Modal form with AJAX submission.
+    - Android: Opens System Browser (`Browser.open`) to ensure reliable submission.
+    - Deep Linking: `/feedback` route automatically opens the modal.
 
 ---
 
@@ -165,8 +168,9 @@ npm run sync  # Copies www/ to Android assets
 #### Build Android APK & AAB
 ```bash
 npm run android:build
-# 1. Runs `scripts/bump_version.js` to increment `versionCode` in `build.gradle`.
-# 2. Generates:
+# 1. Runs `scripts/bump_version.js` to auto-increment `versionCode` and `versionName`.
+# 2. Updates `index.html` footer with new version.
+# 3. Generates:
 #    - Debug APK: android/app/build/outputs/apk/debug/app-debug.apk
 #    - Release AAB: android/app/build/outputs/bundle/release/app-release.aab
 ```

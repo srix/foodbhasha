@@ -15,6 +15,14 @@ def generate_sitemap():
     sitemap.append('    <changefreq>weekly</changefreq>')
     sitemap.append('    <priority>1.0</priority>')
     sitemap.append('  </url>')
+
+    # Feedback Page
+    sitemap.append('  <url>')
+    sitemap.append('    <loc>https://foodbhasha.com/feedback</loc>')
+    sitemap.append(f'    <lastmod>{today}</lastmod>')
+    sitemap.append('    <changefreq>monthly</changefreq>')
+    sitemap.append('    <priority>0.5</priority>')
+    sitemap.append('  </url>')
     
     # Category pages
     categories = ['fish', 'vegetables-fruits', 'grains', 'spices']

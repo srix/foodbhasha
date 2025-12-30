@@ -17,6 +17,7 @@
   "description": "",
   "dependencies": {
     "@capacitor/android": "^8.0.0",
+    "@capacitor/browser": "^8.0.0",
     "@capacitor/cli": "^7.4.4",
     "@capacitor/core": "^8.0.0",
     "express": "^4.22.1"

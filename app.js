@@ -131,7 +131,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemId = pathParts[1] || null;
         const searchQuery = searchParams.get('search') || '';
 
-        let targetCategory = CATEGORIES[catPart] ? catPart : 'fish';
+        // Handle /feedback route
+        let targetCategory = 'fish';
+        if (catPart === 'feedback') {
+            // Keep default or previous category, but we will open modal later
+            targetCategory = 'fish';
+        } else {
+            targetCategory = CATEGORIES[catPart] ? catPart : 'fish';
+        }
         let targetQuery = searchQuery;
 
         // Check if anything actually changed globally
@@ -533,13 +540,59 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!modal || !openBtn) return;
 
         // Open Modal
-        openBtn.addEventListener('click', (e) => {
+        openBtn.addEventListener('click', async (e) => {
             e.preventDefault();
+
+            // Check if native Android
+            if (window.Capacitor && window.Capacitor.getPlatform() === 'android') {
+                try {
+                    const { Browser } = window.Capacitor.Plugins; // Access auto-bridge or try importing if using module.
+                    // But wait, standard usage is: import { Browser } from '@capacitor/browser';
+                    // Since we don't have a bundler config we can easily change here (using vanilla JS module imports or standard Capacitor global if available).
+                    // Capacitor 3+ usually exposes Plugins via window.Capacitor.Plugins if bundled or if using the script tag which we aren't...
+                    // Actually, we are using a simple script include. The 'package.json' install implies we *might* need a build step if we use imports.
+                    // IMPORTANT: 'app.js' is currently a raw script. We can't use 'import' syntax unless we user type="module" or a bundler.
+                    // User's project seems to be "No build system required" for web.
+                    // BUT for Android Capacitor, the plugins are available via window.Capacitor.Plugins? 
+                    // No, typically you need a bundler for plugins. 
+                    // HOWEVER: core Capacitor is injected.
+
+                    // Let's assume standard Capacitor object usage or invoke simple browser redirect if plugins fail?
+                    // Actually, we can just use window.open('...', '_system') on Cordova/Capacitor as a fallback!
+
+                    // Let's try the cleanest implementation for a "no-bundler" setup.
+                    // Often `window.Capacitor.Plugins.Browser` is available if the plugin is installed and valid.
+
+                    if (window.Capacitor.Plugins && window.Capacitor.Plugins.Browser) {
+                        await window.Capacitor.Plugins.Browser.open({ url: 'https://foodbhasha.com/feedback' });
+                    } else {
+                        // Fallback: This usually opens system browser on mobile web/hybrid
+                        window.open('https://foodbhasha.com/feedback', '_system');
+                    }
+
+                } catch (err) {
+                    console.error('Error opening browser:', err);
+                    // Fallback to modal if browser open fails
+                    openModal();
+                }
+            } else {
+                openModal();
+            }
+        });
+
+        function openModal() {
             modal.hidden = false;
             modal.removeAttribute('aria-hidden');
             // Focus first input
             setTimeout(() => document.getElementById('feedback-name').focus(), 100);
-        });
+        }
+
+        // Check for /feedback route on load
+        if (window.location.pathname === '/feedback') {
+            openModal();
+            // Optional: Rewrite history to remove /feedback so back button works nicely? 
+            // Or keep it. Let's keep it so refreshing works and it feels like a real page.
+        }
 
         // Close Modal
         const closeModal = () => {

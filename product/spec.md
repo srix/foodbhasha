@@ -84,7 +84,8 @@ No build system required for the **Web App**. The app runs in two modes:
 
 **Android App**:
 - **Build**: Requires standard Gradle build process (`npm run android:build`).
-  - **Automation**: Automatically bumps `versionCode` on every build to prevent Play Store conflicts.
+  - **Automation**: Automatically increments both `versionCode` (e.g., 14 -> 15) and `versionName` (e.g., 1.2 -> 1.3) on every build.
+  - **Footer Sync**: Automatically updates `index.html` footer to match the build version (e.g., "© 2026 FoodBhasha • v1.3").
 - **Output**: Debug APK (testing) + Release AAB (Play Store).
 
 **Netlify SPA Redirect**:
@@ -210,14 +211,17 @@ Each entry follows:
 ### **6.5 Feedback Form**
 
 * **Trigger**: A **Floating Action Button (FAB)** in the bottom-right corner (icon: message).
-* **Modal**: Opens a centered modal overlay.
-* **Fields**:
-  * Name (Optional)
-  * Email (Optional)
-  * Message (Required)
-* **Backend**: Netlify Forms (serverless form handling).
-* **Anti-Spam**: Includes a honeypot field (`bot-field`) hidden from users but visible to bots.
-* **Behavior**: Submits via AJAX to prevent page reload; shows "Thank you" success message in-place.
+* **URL**: Accessible via `https://foodbhasha.com/feedback`.
+* **Behavior (Web)**:
+  * Clicking FAB opens a centered modal overlay.
+  * Navigating to `/feedback` automatically opens the modal.
+  * Submits via AJAX/Fetch to Netlify Forms.
+* **Behavior (Android)**:
+  * Clicking FAB opens `https://foodbhasha.com/feedback` in the **System Browser** (e.g., Chrome).
+  * Ensures reliable submission and security without handling CORS in the app.
+* **Fields**: Name, Email, Message (Required).
+* **Anti-Spam**: Reliance on server-side Honeypot (via hidden helper form in `index.html`) and standard Netlify protections.
+* **Feedback Loop**: Shows in-place "Thank you" success message.
 
 ---
 

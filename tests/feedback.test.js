@@ -50,8 +50,8 @@ test.describe('Feedback Form', () => {
     });
 
     test('Form submission flow (mocked)', async ({ page }) => {
-        // Mock the form submission
-        await page.route('/', async route => {
+        // Mock the form submission - needs to match the absolute URL in app.js
+        await page.route('https://foodbhasha.com/', async route => {
             const request = route.request();
             if (request.method() === 'POST') {
                 const postData = request.postData();
@@ -74,5 +74,30 @@ test.describe('Feedback Form', () => {
         // Close success modal
         await page.click('#close-success-modal');
         await expect(page.locator('#feedback-modal')).toBeHidden();
+    });
+
+    test('Navigating to /feedback route opens modal', async ({ page }) => {
+        // Mock routing behavior if needed, or just navigate
+        // Since we are running on localhost:8080 which is SPA-fallback enabled via server.js? 
+        // Playwright's webServer in config usually handles this.
+        // Let's assume server.js handles it or we mimic hash routing if history API fails in test env.
+
+        // We implemented history API check in app.js for pathname === '/feedback'
+
+        // Navigate directly
+        await page.goto('http://localhost:8080/feedback');
+
+        // Modal should be visible automatically
+        const modal = page.locator('#feedback-modal');
+        await expect(modal).toBeVisible();
+    });
+
+    test('Footer shows version', async ({ page }) => {
+        const footer = page.locator('footer.app-footer p');
+        await expect(footer).toBeVisible();
+        const text = await footer.textContent();
+        // Allow for "v1.5" or similar format. 
+        // Regex: © 2026 FoodBhasha • v\d+\.\d+
+        expect(text).toMatch(/© 2026 FoodBhasha • v\d+\.\d+/);
     });
 });

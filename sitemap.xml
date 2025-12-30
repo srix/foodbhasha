@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://foodbhasha.com/feedback</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://foodbhasha.com/fish</loc>
     <lastmod>2025-12-30</lastmod>
     <changefreq>weekly</changefreq>
