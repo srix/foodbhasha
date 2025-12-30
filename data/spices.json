@@ -1,7 +1,7 @@
 [
   {
     "id": "mustard-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -198,7 +198,7 @@
   },
   {
     "id": "coriander-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -297,7 +297,7 @@
   },
   {
     "id": "fennel-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -1914,7 +1914,7 @@
   },
   {
     "id": "poppy-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -2005,7 +2005,7 @@
   },
   {
     "id": "carom-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -2096,7 +2096,7 @@
   },
   {
     "id": "nigella-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -2187,7 +2187,7 @@
   },
   {
     "id": "basil-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -2278,7 +2278,7 @@
   },
   {
     "id": "melon-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "seed"
     ],
@@ -2369,7 +2369,7 @@
   },
   {
     "id": "saffron",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -2460,7 +2460,7 @@
   },
   {
     "id": "nutmeg",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -2551,7 +2551,7 @@
   },
   {
     "id": "mace",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -2642,7 +2642,7 @@
   },
   {
     "id": "star-anise",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -2733,7 +2733,7 @@
   },
   {
     "id": "bay-leaf",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -2824,7 +2824,7 @@
   },
   {
     "id": "dry-ginger",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "root"
     ],
@@ -2915,7 +2915,7 @@
   },
   {
     "id": "black-cardamom",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -3006,7 +3006,7 @@
   },
   {
     "id": "white-pepper",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "heat"
     ],
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "long-pepper",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "heat"
     ],
@@ -3188,7 +3188,7 @@
   },
   {
     "id": "stone-flower",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "flower"
     ],
@@ -3279,7 +3279,7 @@
   },
   {
     "id": "marathi-moggu",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "flower"
     ],
@@ -3370,7 +3370,7 @@
   },
   {
     "id": "kabab-chin",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "aromatic"
     ],
@@ -3461,7 +3461,7 @@
   },
   {
     "id": "galangal",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_spice.webp",
     "tags": [
       "root"
     ],

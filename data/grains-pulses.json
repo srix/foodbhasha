@@ -598,7 +598,7 @@
   },
   {
     "id": "barley",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "cereal"
     ],
@@ -696,7 +696,7 @@
   },
   {
     "id": "jowar",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "millet"
     ],
@@ -793,7 +793,7 @@
   },
   {
     "id": "bajra",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "millet"
     ],
@@ -891,7 +891,7 @@
   },
   {
     "id": "masoor-dal",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -991,7 +991,7 @@
   },
   {
     "id": "moong-dal",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1091,7 +1091,7 @@
   },
   {
     "id": "chana-dal",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "chickpeas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1373,7 +1373,7 @@
   },
   {
     "id": "kidney-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1464,7 +1464,7 @@
   },
   {
     "id": "black-eyed-peas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "dried-green-peas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1646,7 +1646,7 @@
   },
   {
     "id": "soybeans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1737,7 +1737,7 @@
   },
   {
     "id": "horse-gram",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -1828,7 +1828,7 @@
   },
   {
     "id": "flax-seeds",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "cereal"
     ],
@@ -2010,7 +2010,7 @@
   },
   {
     "id": "groundnut",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5013,7 +5013,7 @@
   },
   {
     "id": "sabudana",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "cereal"
     ],
@@ -5104,7 +5104,7 @@
   },
   {
     "id": "soy-chunks",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5195,7 +5195,7 @@
   },
   {
     "id": "green-gram",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5286,7 +5286,7 @@
   },
   {
     "id": "black-gram",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5377,7 +5377,7 @@
   },
   {
     "id": "moth-bean",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5468,7 +5468,7 @@
   },
   {
     "id": "lima-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5559,7 +5559,7 @@
   },
   {
     "id": "field-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5650,7 +5650,7 @@
   },
   {
     "id": "double-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5741,7 +5741,7 @@
   },
   {
     "id": "pinto-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5832,7 +5832,7 @@
   },
   {
     "id": "white-peas",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -5923,7 +5923,7 @@
   },
   {
     "id": "roasted-gram",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "pulse"
     ],
@@ -6014,7 +6014,7 @@
   },
   {
     "id": "arrowroot-flour",
-    "photo": "img/placeholder.webp",
+    "photo": "img/placeholder_grain.webp",
     "tags": [
       "cereal"
     ],

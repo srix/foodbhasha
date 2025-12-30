@@ -5,7 +5,8 @@ def update_json_images():
     files = [
         'data/fish-seafood.json',
         'data/vegetables-fruits.json', 
-        'data/grains-pulses.json'
+        'data/grains-pulses.json',
+        'data/spices.json'
     ]
     
     for json_path in files:
