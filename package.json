@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "npx playwright test",
-    "build:web": "mkdir -p www && cp index.html privacy.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img www/",
+    "build:web": "rm -rf www && mkdir -p www && cp index.html privacy.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img www/",
     "sync": "npm run build:web && npx cap sync",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
