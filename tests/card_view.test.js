@@ -10,8 +10,8 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
     });
 
     test('Page Title & Brand', async ({ page }) => {
-        await expect(page).toHaveTitle(/Indian Ingredient Lexicon/);
-        await expect(page.locator('h1')).toHaveText('Indian Ingredient Lexicon');
+        await expect(page).toHaveTitle(/FoodBhasha/);
+        await expect(page.locator('h1')).toHaveText('FoodBhasha');
     });
 
     test('Category Navigation & Data Loading', async ({ page }) => {
@@ -97,7 +97,7 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         // Both Chips Active (already verified above)
 
         // Verify Content: Potato (Root) Visible, Spinach (Leafy) Visible
-        await expect(page.locator('.fish-card').filter({ hasText: 'Potato' })).toBeVisible();
+        await expect(page.locator('.fish-card').filter({ has: page.getByRole('heading', { name: 'Potato', exact: true }) })).toBeVisible();
         await expect(page.locator('.fish-card').filter({ hasText: 'Spinach' })).toBeVisible();
 
         // Verify Negative: Mango (Fruit) Hidden
@@ -209,9 +209,18 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         // Set to mobile viewport
         await page.setViewportSize({ width: 375, height: 667 });
 
-        // Check Filter Label and Results Stat are HIDDEN
-        await expect(page.locator('.filter-label')).toBeHidden();
-        await expect(page.locator('.results-stat')).toBeHidden();
+        // Check for simplified result count in mobile
+        await expect(page.locator('.filter-label')).toBeHidden(); // Should be gone entirely now
+        const resultCount = page.locator('#result-count');
+        await expect(resultCount).toBeVisible();
+        await expect(resultCount).toHaveText(/^\d+\/\d+$/); // Format: 20/100
+
+        // Verify Result Count is BEFORE the "All" chip (inline layout)
+        const allChip = page.locator('.filter-chip[data-filter="all"]');
+        const rcBox = await resultCount.boundingBox();
+        const acBox = await allChip.boundingBox();
+        expect(rcBox.x).toBeLessThan(acBox.x); // Should be to the left
+        expect(Math.abs(rcBox.y - acBox.y)).toBeLessThan(10); // Should be on same line (approx)
 
         // Check Header Minimize Logic operates? (Requires scrolling)
         await page.evaluate(async () => {

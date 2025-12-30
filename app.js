@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderApp(data) {
-        if (resultCount) resultCount.textContent = data.length;
+        if (resultCount) resultCount.textContent = `${data.length}/${appData.length}`;
         currentFilteredData = data;
         renderedCount = 0;
         cardView.innerHTML = '';

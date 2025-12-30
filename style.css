@@ -686,8 +686,15 @@ body {
     }
 
     /* Compact Filter Bar */
-    .filter-label,
     .results-stat {
+        /* display: none; Removed to show on mobile */
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-right: 8px;
+        align-self: center;
+    }
+
+    .filter-label {
         display: none;
     }
 
@@ -848,6 +855,7 @@ body {
     transform: translateY(1px);
     /* Move down slightly */
 }
+
 /* Footer */
 .app-footer {
     text-align: center;
@@ -1027,17 +1035,18 @@ body {
     .feedback-fab {
         bottom: 20px;
         right: 16px;
-        padding: 12px; /* Circle on mobile if text hidden, or just smaller pill */
+        padding: 12px;
+        /* Circle on mobile if text hidden, or just smaller pill */
         border-radius: 50%;
         width: 48px;
         height: 48px;
         justify-content: center;
     }
-    
+
     .feedback-fab .fab-text {
         display: none;
     }
-    
+
     .feedback-fab svg {
         margin: 0;
     }

@@ -244,7 +244,8 @@ A responsive sticky header that stays fixed at the top.
 * **Sticky Elements**: Tabs and Filters always remain visible pinned to the top.
   3.  **Nav Row**: Scrollable Category tabs (Scrollbar Hidden).
   4.  **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
-      * **Mobile Optimization**: "FILTERS:" label and "Showing X results" text are hidden to conserve vertical space.
+  4.  **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
+      * **Mobile Optimization**: Result counter (e.g., "12/100") is displayed inline **before** the filter chips.
 
 ### **7.2 Brand Identity**
 

@@ -24,6 +24,8 @@ The app supports:
 - **Card View** for visual browsing with lazy loading
 - **Multi-select Filtering** (e.g., Root + Leafy)
 - **Search persistence** with query parameters
+- **Toolbar Row**: Scrollable Filter chips (Scrollbar Hidden).
+    - **Mobile Optimization**: Result counter (e.g., "12/100") is displayed inline **before** the filter chips.
 - **Feedback Mechanism**:
     - Web: Modal form with AJAX submission.
     - Android: Opens System Browser (`Browser.open`) to ensure reliable submission.
