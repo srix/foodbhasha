@@ -10,9 +10,14 @@ playwright/.cache/
 
 # Capacitor
 www/
-android/
+# android/
 ios/
 
 # System
 .DS_Store
 Thumbs.db
+
+# Security
+*.keystore
+*.jks
+keystore.properties

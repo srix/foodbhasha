@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FoodBhasha</string>
+    <string name="title_activity_main">FoodBhasha</string>
+    <string name="package_name">com.foodbhasha.app</string>
+    <string name="custom_url_scheme">com.foodbhasha.app</string>
+</resources>
