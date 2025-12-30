@@ -100,4 +100,34 @@ test.describe('Feedback Form', () => {
         // Regex: © 2026 FoodBhasha • v\d+\.\d+
         expect(text).toMatch(/© 2026 FoodBhasha • v\d+\.\d+/);
     });
+
+    test('Android: Clicking FAB opens System Browser (Simulated)', async ({ page }) => {
+        // 1. Simulate Android Environment by injecting window.Capacitor
+        await page.addInitScript(() => {
+            window.Capacitor = {
+                getPlatform: () => 'android',
+                Plugins: {
+                    Browser: {
+                        open: async ({ url }) => {
+                            window.__mockBrowserUrl = url; // Store for verification
+                        }
+                    }
+                }
+            };
+        });
+
+        // Reload to apply the init script
+        await page.goto('http://localhost:8080/');
+
+        // 2. Click the FAB
+        await page.click('#feedback-btn');
+
+        // 3. Verify Browser.open was called with correct URL
+        const openedUrl = await page.evaluate(() => window.__mockBrowserUrl);
+        expect(openedUrl).toBe('https://foodbhasha.com/feedback');
+
+        // 4. Verify Modal did NOT open (native logic shouldn't trigger modal fallback unless error)
+        // Note: Our code only falls back on error. Since our mock didn't throw, modal stays hidden.
+        await expect(page.locator('#feedback-modal')).toBeHidden();
+    });
 });
