@@ -9,7 +9,7 @@
     "sync": "npm run build:web && npx cap sync",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
-    "android:build": "cd android && ./gradlew assembleDebug"
+    "android:build": "cd android && ./gradlew assembleDebug bundleRelease"
   },
   "keywords": [],
   "author": "",

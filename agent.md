@@ -162,9 +162,12 @@ node scripts/generate-sitemap.js
 npm run sync  # Copies www/ to Android assets
 ```
 
-#### Build Android APK
+#### Build Android APK & AAB
 ```bash
-npm run android:build  # Output: android/app/build/outputs/apk/debug/app-debug.apk
+npm run android:build
+# Generates:
+# 1. Debug APK: android/app/build/outputs/apk/debug/app-debug.apk
+# 2. Release AAB: android/app/build/outputs/bundle/release/app-release.aab
 ```
 
 #### Test on emulator

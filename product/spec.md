@@ -78,9 +78,13 @@ The site is a **Single Page Application (SPA)** using vanilla JavaScript with se
 
 Deployment: Netlify, Vercel, Cloudflare Pages, or any platform with SPA routing support.
 
-No build system required. The app runs in two modes:
+No build system required for the **Web App**. The app runs in two modes:
 - **Development**: `npm start` (Node.js server with hot reload)
 - **Production**: Deploy to static hosting with SPA fallback configured
+
+**Android App**:
+- Requires standard Gradle build process (`npm run android:build`).
+- Output: Debug APK (testing) + Release AAB (Play Store).
 
 **Netlify SPA Redirect**:
 Add a `netlify.toml` at the repo root so Netlify serves `index.html` for deep links:

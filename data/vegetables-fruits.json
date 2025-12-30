@@ -5490,7 +5490,7 @@
   },
   {
     "id": "fig",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/fig.webp",
     "tags": [
       "fruit"
     ],
@@ -5581,7 +5581,7 @@
   },
   {
     "id": "ash-gourd",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/ash-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -5672,7 +5672,7 @@
   },
   {
     "id": "broad-beans",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/broad-beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -5763,7 +5763,7 @@
   },
   {
     "id": "french-beans",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/french-beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -5854,7 +5854,7 @@
   },
   {
     "id": "yardlong-beans",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/yardlong-beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -5945,7 +5945,7 @@
   },
   {
     "id": "sword-beans",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/sword-beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -6033,7 +6033,7 @@
   },
   {
     "id": "pointed-gourd",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/pointed-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -6126,7 +6126,7 @@
   },
   {
     "id": "spine-gourd",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/spine-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -6217,7 +6217,7 @@
   },
   {
     "id": "teasel-gourd",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/teasel-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -6306,7 +6306,7 @@
   },
   {
     "id": "apple-gourd",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/apple-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -6397,7 +6397,7 @@
   },
   {
     "id": "turnip",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/turnip.webp",
     "tags": [
       "root"
     ],
@@ -6488,7 +6488,7 @@
   },
   {
     "id": "kohlrabi",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/kohlrabi.webp",
     "tags": [
       "vegetable"
     ],
@@ -6579,7 +6579,7 @@
   },
   {
     "id": "celery",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/celery.webp",
     "tags": [
       "vegetable"
     ],
@@ -6666,7 +6666,7 @@
   },
   {
     "id": "leek",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/leek.webp",
     "tags": [
       "vegetable"
     ],
@@ -6753,7 +6753,7 @@
   },
   {
     "id": "spring-onion",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/spring-onion.webp",
     "tags": [
       "leafy"
     ],
@@ -6844,7 +6844,7 @@
   },
   {
     "id": "banana-stem",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/banana-stem.webp",
     "tags": [
       "vegetable"
     ],
@@ -6932,7 +6932,7 @@
   },
   {
     "id": "banana-flower",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/banana-flower.webp",
     "tags": [
       "vegetable"
     ],
@@ -7020,7 +7020,7 @@
   },
   {
     "id": "bamboo-shoot",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/bamboo-shoot.webp",
     "tags": [
       "vegetable"
     ],
@@ -7110,7 +7110,7 @@
   },
   {
     "id": "lotus-stem",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/lotus-stem.webp",
     "tags": [
       "vegetable"
     ],
@@ -7205,7 +7205,7 @@
   },
   {
     "id": "elephant-foot-yam",
-    "photo": "img/placeholder_veg.webp",
+    "photo": "img/elephant-foot-yam.webp",
     "tags": [
       "root"
     ],
