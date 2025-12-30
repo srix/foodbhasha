@@ -580,7 +580,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const formData = new FormData(form);
 
             try {
-                await fetch('/', {
+                // Use absolute URL to support Android app (file:// origin)
+                await fetch('https://foodbhasha.com/', {
                     method: 'POST',
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     body: new URLSearchParams(formData).toString()
