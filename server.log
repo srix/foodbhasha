@@ -1,0 +1,2 @@
+Server running at http://localhost:8080/
+SPA fallback routing enabled - all routes will serve index.html

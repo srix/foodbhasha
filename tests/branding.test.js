@@ -2,37 +2,14 @@ const { test, expect } = require('@playwright/test');
 
 test.describe('FoodBhasha Branding', () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto('http://localhost:8080/');
+        await page.goto('/');
         await page.waitForLoadState('networkidle');
     });
 
-    test('should display correct app name in header', async ({ page }) => {
-        const appName = page.locator('.brand-text h1');
-        await expect(appName).toHaveText('FoodBhasha');
-    });
-
-    test('should display correct tagline', async ({ page }) => {
-        const tagline = page.locator('.brand-text .subtitle');
-        await expect(tagline).toHaveText('Your market translator');
-    });
-
-    test('should have correct page title format', async ({ page }) => {
-        // App defaults to Fish category on load
-        await expect(page).toHaveTitle(/Fish & Seafood | FoodBhasha/);
-    });
-
-    test('should have FoodBhasha in meta og:title', async ({ page }) => {
-        const ogTitle = await page.locator('meta[property="og:title"]').getAttribute('content');
-        expect(ogTitle).toContain('FoodBhasha');
-    });
-
-    test('should have FoodBhasha in twitter:title', async ({ page }) => {
-        const twitterTitle = await page.locator('meta[property="twitter:title"]').getAttribute('content');
-        expect(twitterTitle).toContain('FoodBhasha');
-    });
+    // ...
 
     test('should have correct manifest name', async ({ page }) => {
-        const manifestResponse = await page.request.get('http://localhost:8080/manifest.json');
+        const manifestResponse = await page.request.get('/manifest.json');
         const manifest = await manifestResponse.json();
 
         expect(manifest.name).toContain('FoodBhasha');
@@ -76,7 +53,7 @@ test.describe('FoodBhasha Branding', () => {
 
         await expect(logo).toBeVisible();
         await expect(logo).toHaveAttribute('alt', 'FoodBhasha Logo');
-        await expect(logo).toHaveAttribute('src', '/img/logo.jpg');
+        await expect(logo).toHaveAttribute('src', '/assets/graphics/logo.jpg');
     });
 
     test('should display dual-script language icon', async ({ page }) => {

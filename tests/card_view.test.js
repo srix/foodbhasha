@@ -152,7 +152,7 @@ test.describe('Indian Ingredient Lexicon Verification', () => {
         // Verify Logo is an Image (using absolute path now)
         const logoImg = header.locator('.brand .logo-circle img');
         await expect(logoImg).toBeVisible();
-        await expect(logoImg).toHaveAttribute('src', '/img/logo.jpg');
+        await expect(logoImg).toHaveAttribute('src', '/assets/graphics/logo.jpg');
     });
 
     test('Dynamic Placeholders', async ({ page }) => {

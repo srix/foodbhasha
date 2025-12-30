@@ -250,7 +250,7 @@ A responsive sticky header that stays fixed at the top.
 
 * **App Name**: FoodBhasha
 * **Tagline**: "Your market translator"
-* **Logo**: Custom image (`img/logo.jpg`) displayed in a non-cropped square format.
+* **Logo**: Custom image (`assets/graphics/logo.jpg`) displayed in a non-cropped square format.
 * **Favicon**: Matches the branding logo.
 * **Visuals**: Primary Blue (`#1B497E`) theme.
 * **Tone**: Friendly, practical, helpful (not academic)
@@ -278,7 +278,7 @@ Contains the Cards container:
 ## **9. Image Guidelines**
 
 * Use `.webp` for efficiency.
-* **Placeholders**: If a specific image is unavailable, use `img/placeholder.webp`.
+* **Placeholders**: If a specific image is unavailable, use `assets/graphics/placeholder.webp`.
 
 ---
 

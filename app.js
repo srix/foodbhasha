@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/img/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'spices' ? 'spice' : 'fish'))}.webp'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'spices' ? 'spice' : 'fish'))}.webp'">
                 <div class="fish-title">
                     <h2>${item.names.english.join(' / ')}</h2>
                     <div class="scientific-name">${item.scientificName || ''}</div>
