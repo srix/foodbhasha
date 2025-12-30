@@ -19,10 +19,12 @@
         "Sorisha"
       ],
       "bodo": [
-        "-"
+        "बेसर",
+        "Besor"
       ],
       "dogri": [
-        "-"
+        "राई",
+        "Rai"
       ],
       "gujarati": [
         "રાઈ",
@@ -37,23 +39,24 @@
         "Sasive"
       ],
       "kashmiri": [
-        "آسُر",
-        "Aasur"
+        "رائی",
+        "Rai"
       ],
       "konkani": [
         "सासवं",
         "Sasavam"
       ],
       "maithili": [
-        "-"
+        "सरसो",
+        "Sarso"
       ],
       "malayalam": [
         "കടുക്",
         "Kaduku"
       ],
       "manipuri": [
-        "হঙগাম",
-        "Hangam"
+        "ꯔꯥꯏ",
+        "Rai"
       ],
       "marathi": [
         "मोहरी",
@@ -72,14 +75,16 @@
         "Saron"
       ],
       "sanskrit": [
-        "सर्षपः",
-        "Sarshapah"
+        "सर्षपबीजम्",
+        "Sarshapa Bijam"
       ],
       "santali": [
-        "-"
+        "ᱛᱩᱲᱤ",
+        "Turi"
       ],
       "sindhi": [
-        "-"
+        "آهر",
+        "Ahar"
       ],
       "tamil": [
         "கடுகு",
@@ -176,10 +181,12 @@
         "Jeerakah"
       ],
       "santali": [
-        "-"
+        "ᱡᱤᱨᱟᱹ",
+        "Jira"
       ],
       "sindhi": [
-        "-"
+        "جيرو",
+        "Jiro"
       ],
       "tamil": [
         "சீரகம்",
@@ -216,11 +223,12 @@
         "Dhone"
       ],
       "bodo": [
-        "ধনিয়া",
+        "धनिया",
         "Dhaniya"
       ],
       "dogri": [
-        "-"
+        "धनिया",
+        "Dhaniya"
       ],
       "gujarati": [
         "ધાણા",
@@ -251,8 +259,8 @@
         "Malli"
       ],
       "manipuri": [
-        "ফদিগিম",
-        "Phadigom"
+        "ꯙꯥꯅꯤꯌꯥ",
+        "Dhaniya"
       ],
       "marathi": [
         "धणे",
@@ -275,10 +283,12 @@
         "Dhanyakam"
       ],
       "santali": [
-        "-"
+        "ᱫᱷᱚᱱᱤᱭᱟ",
+        "Dhaniya"
       ],
       "sindhi": [
-        "-"
+        "ڌاڻا",
+        "Dhana"
       ],
       "tamil": [
         "மல்லி",
@@ -315,7 +325,8 @@
         "Mouri"
       ],
       "bodo": [
-        "-"
+        "गुफुर जिरा",
+        "Guphur Jira"
       ],
       "dogri": [
         "सौंप",
@@ -374,10 +385,12 @@
         "Madhurika"
       ],
       "santali": [
-        "-"
+        "ᱯᱟᱱᱢᱩᱦᱨᱤ",
+        "Panmohri"
       ],
       "sindhi": [
-        "-"
+        "سؤنف",
+        "Saunf"
       ],
       "tamil": [
         "சோம்பு",
@@ -474,10 +487,12 @@
         "Methika"
       ],
       "santali": [
-        "-"
+        "ᱢᱮᱛᱷᱤ",
+        "Methi"
       ],
       "sindhi": [
-        "-"
+        "ميٿي داڻا",
+        "Methi Dana"
       ],
       "tamil": [
         "வெந்தயம்",
@@ -574,10 +589,12 @@
         "Maricham"
       ],
       "santali": [
-        "-"
+        "ᱜᱚᱞᱢᱚᱨᱤᱪ",
+        "Golmorich"
       ],
       "sindhi": [
-        "-"
+        "ڪارا مِرچ",
+        "Kara Mirch"
       ],
       "tamil": [
         "மிளகு",
@@ -674,10 +691,12 @@
         "Ela"
       ],
       "santali": [
-        "-"
+        "ᱮᱞᱟᱪᱤ",
+        "Elachi"
       ],
       "sindhi": [
-        "-"
+        "نندڙو ڦوٽو",
+        "Nando Photo"
       ],
       "tamil": [
         "ஏலக்காய்",
@@ -774,10 +793,12 @@
         "Lavangam"
       ],
       "santali": [
-        "-"
+        "ᱞᱚᱣᱚᱝ",
+        "Lowong"
       ],
       "sindhi": [
-        "-"
+        "لونگ",
+        "Laung"
       ],
       "tamil": [
         "கிராம்பு",
@@ -874,10 +895,12 @@
         "Tvak"
       ],
       "santali": [
-        "-"
+        "ᱫᱟᱞᱪᱤᱱᱤ",
+        "Dalchini"
       ],
       "sindhi": [
-        "-"
+        "دالچيني",
+        "Dalchini"
       ],
       "tamil": [
         "பட்டை",
@@ -974,10 +997,12 @@
         "Haridra"
       ],
       "santali": [
-        "-"
+        "ᱥᱟᱥᱟᱝ",
+        "Sasang"
       ],
       "sindhi": [
-        "-"
+        "هيڊ",
+        "Haid"
       ],
       "tamil": [
         "மஞ்சள்",
@@ -1014,7 +1039,8 @@
         "Shukno Lonka"
       ],
       "bodo": [
-        "-"
+        "गोजा बानजलुक",
+        "Goja Banjaluk"
       ],
       "dogri": [
         "सूखी मिर्च",
@@ -1073,10 +1099,12 @@
         "Raktamaricham"
       ],
       "santali": [
-        "-"
+        "ᱨᱚᱦᱚᱲ ᱢᱟᱨᱤᱪ",
+        "Rohor Marich"
       ],
       "sindhi": [
-        "-"
+        "ڳاڙها مِرچ",
+        "Garha Mirch"
       ],
       "tamil": [
         "காய்ந்த மிளகாய்",
@@ -1113,10 +1141,12 @@
         "Kaju"
       ],
       "bodo": [
-        "-"
+        "काजु",
+        "Kaju"
       ],
       "dogri": [
-        "-"
+        "काजू",
+        "Kaju"
       ],
       "gujarati": [
         "કાજુ",
@@ -1131,27 +1161,32 @@
         "Godambi"
       ],
       "kashmiri": [
-        "-"
+        "کاجو",
+        "Kaju"
       ],
       "konkani": [
-        "-"
+        "काजू",
+        "Kaju"
       ],
       "maithili": [
-        "-"
+        "काजू",
+        "Kaju"
       ],
       "malayalam": [
         "കശുവണ്ടി",
         "Kashuvandi"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯥꯖꯨ",
+        "Kaju"
       ],
       "marathi": [
         "काजू",
         "Kaju"
       ],
       "nepali": [
-        "-"
+        "काजु",
+        "Kaju"
       ],
       "odia": [
         "କାଜୁ",
@@ -1162,13 +1197,16 @@
         "Kaju"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱡᱩ",
+        "Kaju"
       ],
       "sindhi": [
-        "-"
+        "ڪاجو",
+        "Kaju"
       ],
       "tamil": [
         "முந்திரி",
@@ -1205,10 +1243,12 @@
         "Badam"
       ],
       "bodo": [
-        "-"
+        "बादाम",
+        "Badam"
       ],
       "dogri": [
-        "-"
+        "बदाम",
+        "Badam"
       ],
       "gujarati": [
         "બદામ",
@@ -1223,27 +1263,32 @@
         "Badami"
       ],
       "kashmiri": [
-        "-"
+        "بادام",
+        "Badam"
       ],
       "konkani": [
-        "-"
+        "बदाम",
+        "Badam"
       ],
       "maithili": [
-        "-"
+        "बदाम",
+        "Badam"
       ],
       "malayalam": [
         "ബദാം",
         "Badam"
       ],
       "manipuri": [
-        "-"
+        "ꯕꯥꯗꯥꯝ",
+        "Badam"
       ],
       "marathi": [
         "बदाम",
         "Badam"
       ],
       "nepali": [
-        "-"
+        "बदाम",
+        "Badam"
       ],
       "odia": [
         "ବାଦାମ",
@@ -1254,13 +1299,16 @@
         "Badam"
       ],
       "sanskrit": [
-        "-"
+        "वादामम्",
+        "Vadamam"
       ],
       "santali": [
-        "-"
+        "ᱵᱟᱫᱟᱢ",
+        "Badam"
       ],
       "sindhi": [
-        "-"
+        "بادام",
+        "Badam"
       ],
       "tamil": [
         "பாதாம்",
@@ -1297,10 +1345,12 @@
         "Pesta"
       ],
       "bodo": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "dogri": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "gujarati": [
         "પિસ્તા",
@@ -1315,27 +1365,32 @@
         "Pista"
       ],
       "kashmiri": [
-        "-"
+        "پِستہ",
+        "Pista"
       ],
       "konkani": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "maithili": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "malayalam": [
         "പിസ്ത",
         "Pista"
       ],
       "manipuri": [
-        "-"
+        "ꯄꯤꯁ꯭ꯇꯥ",
+        "Pista"
       ],
       "marathi": [
         "पिस्ता",
         "Pista"
       ],
       "nepali": [
-        "-"
+        "पिस्ता",
+        "Pista"
       ],
       "odia": [
         "ପିସ୍ତା",
@@ -1346,13 +1401,16 @@
         "Pista"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱤᱥᱛᱟ",
+        "Pista"
       ],
       "sindhi": [
-        "-"
+        "پستو",
+        "Pisto"
       ],
       "tamil": [
         "பிஸ்தா",
@@ -1389,10 +1447,12 @@
         "Akhrot"
       ],
       "bodo": [
-        "-"
+        "अखरत",
+        "Akhrot"
       ],
       "dogri": [
-        "-"
+        "अखरोट",
+        "Akhrot"
       ],
       "gujarati": [
         "અખરોટ",
@@ -1407,27 +1467,32 @@
         "Akrot"
       ],
       "kashmiri": [
-        "-"
+        "اَکھروٹ",
+        "Akhrot"
       ],
       "konkani": [
-        "-"
+        "अक्रोड",
+        "Akrod"
       ],
       "maithili": [
-        "-"
+        "अखरोट",
+        "Akhrot"
       ],
       "malayalam": [
         "വാൽനട്ട്",
         "Walnut"
       ],
       "manipuri": [
-        "-"
+        "ꯑꯈꯔꯣꯠ",
+        "Akhrot"
       ],
       "marathi": [
         "अक्रोड",
         "Akrod"
       ],
       "nepali": [
-        "-"
+        "ओखर",
+        "Okhar"
       ],
       "odia": [
         "ଅଖରୋଟ",
@@ -1438,13 +1503,16 @@
         "Akhrot"
       ],
       "sanskrit": [
-        "-"
+        "अक्षोटः",
+        "Akshotah"
       ],
       "santali": [
-        "-"
+        "ᱚᱠᱷᱨᱳᱴ",
+        "Akhrot"
       ],
       "sindhi": [
-        "-"
+        "اکروٽ",
+        "Akhrot"
       ],
       "tamil": [
         "வால்நட்",
@@ -1481,10 +1549,12 @@
         "Kishmish"
       ],
       "bodo": [
-        "-"
+        "किसमिस",
+        "Kismis"
       ],
       "dogri": [
-        "-"
+        "किसमिस",
+        "Kismis"
       ],
       "gujarati": [
         "કિસમિસ",
@@ -1499,27 +1569,32 @@
         "Ona Drakshi"
       ],
       "kashmiri": [
-        "-"
+        "کِشمِش",
+        "Kishmish"
       ],
       "konkani": [
-        "-"
+        "किसमीस",
+        "Kismis"
       ],
       "maithili": [
-        "-"
+        "किसमिस",
+        "Kismis"
       ],
       "malayalam": [
         "ഉണക്കമുന്തിരി",
         "Unakka Munthiri"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯤꯁꯃꯤꯁ",
+        "Kismis"
       ],
       "marathi": [
         "मनुका",
         "Manuka"
       ],
       "nepali": [
-        "-"
+        "किसमिस",
+        "Kismis"
       ],
       "odia": [
         "କିସମିସ",
@@ -1530,13 +1605,16 @@
         "Kishmish"
       ],
       "sanskrit": [
-        "-"
+        "द्राक्षा",
+        "Draksha"
       ],
       "santali": [
-        "-"
+        "ᱠᱤᱥᱢᱤᱥ",
+        "Kismis"
       ],
       "sindhi": [
-        "-"
+        "ڪشمش",
+        "Kishmish"
       ],
       "tamil": [
         "உலர் திராட்சை",
@@ -1573,10 +1651,12 @@
         "Khejur"
       ],
       "bodo": [
-        "-"
+        "खेजुर",
+        "Khejur"
       ],
       "dogri": [
-        "-"
+        "खजूर",
+        "Khajur"
       ],
       "gujarati": [
         "ખજૂર",
@@ -1591,27 +1671,32 @@
         "Kharjoora"
       ],
       "kashmiri": [
-        "-"
+        "کھجوُر",
+        "Khajur"
       ],
       "konkani": [
-        "-"
+        "खारीक",
+        "Kharik"
       ],
       "maithili": [
-        "-"
+        "खजूर",
+        "Khajur"
       ],
       "malayalam": [
         "ഈന്തപ്പഴം",
         "Eenthapazham"
       ],
       "manipuri": [
-        "-"
+        "ꯈꯥꯖꯨꯔ",
+        "Khajur"
       ],
       "marathi": [
         "खजूर",
         "Khajur"
       ],
       "nepali": [
-        "-"
+        "खजूर",
+        "Khajur"
       ],
       "odia": [
         "ଖଜୁରୀ",
@@ -1622,13 +1707,16 @@
         "Khajoor"
       ],
       "sanskrit": [
-        "-"
+        "खर्जूरम्",
+        "Kharjuram"
       ],
       "santali": [
-        "-"
+        "ᱠᱷᱟᱡᱩᱨ",
+        "Khajur"
       ],
       "sindhi": [
-        "-"
+        "کجور",
+        "Khajur"
       ],
       "tamil": [
         "பேரீச்சம்பழம்",
@@ -1665,10 +1753,12 @@
         "Tetul"
       ],
       "bodo": [
-        "-"
+        "थेन्थुलि",
+        "Tenthuli"
       ],
       "dogri": [
-        "-"
+        "इमली",
+        "Imli"
       ],
       "gujarati": [
         "આંબલી",
@@ -1683,27 +1773,32 @@
         "Hunasehannu"
       ],
       "kashmiri": [
-        "-"
+        "املی",
+        "Imli"
       ],
       "konkani": [
-        "-"
+        "आंबली",
+        "Ambli"
       ],
       "maithili": [
-        "-"
+        "इमली",
+        "Imli"
       ],
       "malayalam": [
         "പുളി",
         "Puli"
       ],
       "manipuri": [
-        "-"
+        "ꯏꯃꯂꯤ",
+        "Imli"
       ],
       "marathi": [
         "चिंच",
         "Chinch"
       ],
       "nepali": [
-        "-"
+        "इमली",
+        "Imli"
       ],
       "odia": [
         "ତେନ୍ତୁଳି",
@@ -1714,13 +1809,16 @@
         "Imli"
       ],
       "sanskrit": [
-        "-"
+        "तिन्तिडीकम्",
+        "Tintidikam"
       ],
       "santali": [
-        "-"
+        "ᱡᱚᱡᱚ",
+        "Jojo"
       ],
       "sindhi": [
-        "-"
+        "گدامڙِي",
+        "Gidamri"
       ],
       "tamil": [
         "புளி",
@@ -1757,10 +1855,12 @@
         "Kokum"
       ],
       "bodo": [
-        "-"
+        "ककुम",
+        "Kokum"
       ],
       "dogri": [
-        "-"
+        "कोकम",
+        "Kokam"
       ],
       "gujarati": [
         "કોકમ",
@@ -1775,27 +1875,32 @@
         "Murugalu"
       ],
       "kashmiri": [
-        "-"
+        "کوکم",
+        "Kokam"
       ],
       "konkani": [
-        "-"
+        "कोकम",
+        "Kokam"
       ],
       "maithili": [
-        "-"
+        "कोकम",
+        "Kokam"
       ],
       "malayalam": [
         "കുടംപുളി",
         "Kudampuli"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯀꯝ",
+        "Kokam"
       ],
       "marathi": [
         "कोकम",
         "Kokum"
       ],
       "nepali": [
-        "-"
+        "कोकम",
+        "Kokam"
       ],
       "odia": [
         "କୋକୁମ୍",
@@ -1806,13 +1911,16 @@
         "Kokum"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱳᱠᱚᱢ",
+        "Kokam"
       ],
       "sindhi": [
-        "-"
+        "ڪوڪم",
+        "Kokam"
       ],
       "tamil": [
         "குடம் புளி",
@@ -1849,10 +1957,12 @@
         "Hing"
       ],
       "bodo": [
-        "-"
+        "हिं",
+        "Hing"
       ],
       "dogri": [
-        "-"
+        "हींग",
+        "Hing"
       ],
       "gujarati": [
         "હિંગ",
@@ -1867,27 +1977,32 @@
         "Ingu"
       ],
       "kashmiri": [
-        "-"
+        "ہینگ",
+        "Hing"
       ],
       "konkani": [
-        "-"
+        "हिंग",
+        "Hing"
       ],
       "maithili": [
-        "-"
+        "हींग",
+        "Hing"
       ],
       "malayalam": [
         "കായം",
         "Kayam"
       ],
       "manipuri": [
-        "-"
+        "ꯍꯤꯡ",
+        "Hing"
       ],
       "marathi": [
         "हिंग",
         "Hing"
       ],
       "nepali": [
-        "-"
+        "हिङ",
+        "Hing"
       ],
       "odia": [
         "ହେଙ୍ଗୁ",
@@ -1898,13 +2013,16 @@
         "Hing"
       ],
       "sanskrit": [
-        "-"
+        "हिङ्गुः",
+        "Hinguh"
       ],
       "santali": [
-        "-"
+        "ᱦᱤᱝ",
+        "Hing"
       ],
       "sindhi": [
-        "-"
+        "هڱ",
+        "Hing"
       ],
       "tamil": [
         "பெருங்காயம்",
@@ -1941,10 +2059,12 @@
         "Posto"
       ],
       "bodo": [
-        "-"
+        "फस्त्र",
+        "Fostro"
       ],
       "dogri": [
-        "-"
+        "खसखस",
+        "Khaskhas"
       ],
       "gujarati": [
         "ખસખસ",
@@ -1959,27 +2079,32 @@
         "Gasagase"
       ],
       "kashmiri": [
-        "-"
+        "خَس خَس",
+        "Khaskhas"
       ],
       "konkani": [
-        "-"
+        "खसखस",
+        "Khaskhas"
       ],
       "maithili": [
-        "-"
+        "खसखस",
+        "Khaskhas"
       ],
       "malayalam": [
         "കശകശ",
         "Kashakasha"
       ],
       "manipuri": [
-        "-"
+        "ꯈꯥꯁꯈꯥꯁ",
+        "Khaskhas"
       ],
       "marathi": [
         "खसखस",
         "Khaskhas"
       ],
       "nepali": [
-        "-"
+        "खसखस",
+        "Khaskhas"
       ],
       "odia": [
         "ପୋସ୍ତ",
@@ -1990,13 +2115,16 @@
         "Khaskhas"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱳᱥᱛᱳ",
+        "Posto"
       ],
       "sindhi": [
-        "-"
+        "خشخاش",
+        "Khashkhash"
       ],
       "tamil": [
         "கசகசா",
@@ -2033,10 +2161,12 @@
         "Joan"
       ],
       "bodo": [
-        "-"
+        "आजन",
+        "Ajon"
       ],
       "dogri": [
-        "-"
+        "अजवाइन",
+        "Ajwain"
       ],
       "gujarati": [
         "અજમો",
@@ -2051,27 +2181,32 @@
         "Oma"
       ],
       "kashmiri": [
-        "-"
+        "اجوائن",
+        "Ajwain"
       ],
       "konkani": [
-        "-"
+        "ओवा",
+        "Owa"
       ],
       "maithili": [
-        "-"
+        "अजवाइन",
+        "Ajwain"
       ],
       "malayalam": [
         "അയമോദകം",
         "Ayamodakam"
       ],
       "manipuri": [
-        "-"
+        "ꯑꯖꯋꯥꯏꯟ",
+        "Ajwain"
       ],
       "marathi": [
         "ओवा",
         "Ova"
       ],
       "nepali": [
-        "-"
+        "ज्वानो",
+        "Jwano"
       ],
       "odia": [
         "ଜୁଆଣି",
@@ -2082,13 +2217,16 @@
         "Ajwain"
       ],
       "sanskrit": [
-        "-"
+        "अजमोदा",
+        "Ajamoda"
       ],
       "santali": [
-        "-"
+        "ᱟᱡᱣᱟᱭᱤᱱ",
+        "Ajwain"
       ],
       "sindhi": [
-        "-"
+        "جيرو",
+        "Jiro"
       ],
       "tamil": [
         "ஓமம்",
@@ -2125,10 +2263,12 @@
         "Kalo Jeera"
       ],
       "bodo": [
-        "-"
+        "खालजिरा",
+        "Kaljira"
       ],
       "dogri": [
-        "-"
+        "कलौंजी",
+        "Kalaunji"
       ],
       "gujarati": [
         "કલોંજી",
@@ -2143,27 +2283,32 @@
         "Kari Jeerige"
       ],
       "kashmiri": [
-        "-"
+        "کلونجی",
+        "Kalonji"
       ],
       "konkani": [
-        "-"
+        "काळी जिरे",
+        "Kali Jire"
       ],
       "maithili": [
-        "-"
+        "कलौंजी",
+        "Kalaaunji"
       ],
       "malayalam": [
         "കരിംജീരകം",
         "Karimjeerakam"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯂꯧꯟꯖꯤ",
+        "Kalaunji"
       ],
       "marathi": [
         "कलोंजी",
         "Kalonji"
       ],
       "nepali": [
-        "-"
+        "कालो जीरा",
+        "Kalo Jira"
       ],
       "odia": [
         "କଳା ଜିରା",
@@ -2174,13 +2319,16 @@
         "Kalonji"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱞᱚᱡᱤᱨᱟ",
+        "Kalojira"
       ],
       "sindhi": [
-        "-"
+        "ڪلونجي",
+        "Kalonji"
       ],
       "tamil": [
         "கருஞ்சீரகம்",
@@ -2217,10 +2365,12 @@
         "Tokma"
       ],
       "bodo": [
-        "-"
+        "तुलसि",
+        "Tulsi"
       ],
       "dogri": [
-        "-"
+        "तुलसी बीज",
+        "Tulsi Beej"
       ],
       "gujarati": [
         "તકમરિયા",
@@ -2235,27 +2385,32 @@
         "Kamakasturi Beeja"
       ],
       "kashmiri": [
-        "-"
+        "تُلسی بیج",
+        "Tulsi Beej"
       ],
       "konkani": [
-        "-"
+        "तुळशीची बी",
+        "Tulshichi Bee"
       ],
       "maithili": [
-        "-"
+        "तुलसी बी",
+        "Tulsi Bee"
       ],
       "malayalam": [
         "കസ്കസ്",
         "Kaskas"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯨꯂꯁꯤ",
+        "Tulsi"
       ],
       "marathi": [
         "तुखमरिया",
         "Tukmaria"
       ],
       "nepali": [
-        "-"
+        "तुलसीको बीउ",
+        "Tulsiko Biu"
       ],
       "odia": [
         "ସାବଜା",
@@ -2266,13 +2421,16 @@
         "Tukmalanga"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱩᱞᱥᱤ",
+        "Tulsi"
       ],
       "sindhi": [
-        "-"
+        "نابو",
+        "Nabo"
       ],
       "tamil": [
         "சப்ஜா விதைகள்",
@@ -2309,10 +2467,12 @@
         "Chalkumra Beej"
       ],
       "bodo": [
-        "-"
+        "थारमुज",
+        "Tharmuj"
       ],
       "dogri": [
-        "-"
+        "खरबूजा बीज",
+        "Kharbuja Beej"
       ],
       "gujarati": [
         "મગજતરી",
@@ -2327,27 +2487,32 @@
         "Karbujo Beeja"
       ],
       "kashmiri": [
-        "-"
+        "خَربُوزہ بیج",
+        "Kharbuja Beej"
       ],
       "konkani": [
-        "-"
+        "खरबुजाची बी",
+        "Kharbujachi Bee"
       ],
       "maithili": [
-        "-"
+        "खरबूजा बी",
+        "Kharbuja Bee"
       ],
       "malayalam": [
         "മത്തൻ കൂരു",
         "Mathan Kuru"
       ],
       "manipuri": [
-        "-"
+        "ꯈꯔꯕꯨꯖꯥ",
+        "Kharbuja"
       ],
       "marathi": [
         "मगज़",
         "Magaz"
       ],
       "nepali": [
-        "-"
+        "खर्बुजाको बीउ",
+        "Kharbujako Biu"
       ],
       "odia": [
         "ଚାରୁ ମଗଜ",
@@ -2358,13 +2523,16 @@
         "Magaz"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱚᱨᱵᱩᱡ ᱡᱟᱝ",
+        "Tarbuj Jang"
       ],
       "sindhi": [
-        "-"
+        "چيڀاڙي جا ٻج",
+        "Chibhari Ja Beej"
       ],
       "tamil": [
         "வெள்ளரி விதை",
@@ -2401,10 +2569,12 @@
         "Jafran"
       ],
       "bodo": [
-        "-"
+        "केसार",
+        "Kesar"
       ],
       "dogri": [
-        "-"
+        "केसर",
+        "Kesar"
       ],
       "gujarati": [
         "કેસર",
@@ -2419,27 +2589,32 @@
         "Kesari"
       ],
       "kashmiri": [
-        "-"
+        "کیسر",
+        "Kesar"
       ],
       "konkani": [
-        "-"
+        "केशर",
+        "Keshar"
       ],
       "maithili": [
-        "-"
+        "केसर",
+        "Kesar"
       ],
       "malayalam": [
         "കുങ്കുമപ്പൂവ്",
         "Kunkumapoovu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯦꯁꯔ",
+        "Kesar"
       ],
       "marathi": [
         "केशर",
         "Keshar"
       ],
       "nepali": [
-        "-"
+        "केशर",
+        "Keshar"
       ],
       "odia": [
         "କେଶର",
@@ -2450,13 +2625,16 @@
         "Kesar"
       ],
       "sanskrit": [
-        "-"
+        "कुङ्कुमम्",
+        "Kunkumam"
       ],
       "santali": [
-        "-"
+        "ᱠᱮᱥᱚᱨ",
+        "Kesar"
       ],
       "sindhi": [
-        "-"
+        "ڪيسر",
+        "Kesar"
       ],
       "tamil": [
         "குங்குமப்பூ",
@@ -2493,10 +2671,12 @@
         "Jayfal"
       ],
       "bodo": [
-        "-"
+        "जायफल",
+        "Jaiphal"
       ],
       "dogri": [
-        "-"
+        "जायफल",
+        "Jayphal"
       ],
       "gujarati": [
         "જાયફળ",
@@ -2511,27 +2691,32 @@
         "Jayikayi"
       ],
       "kashmiri": [
-        "-"
+        "جائفَل",
+        "Jaiphal"
       ],
       "konkani": [
-        "-"
+        "जायफळ",
+        "Jayphal"
       ],
       "maithili": [
-        "-"
+        "जायफल",
+        "Jayphal"
       ],
       "malayalam": [
         "ജാതിക്ക",
         "Jathikka"
       ],
       "manipuri": [
-        "-"
+        "ꯖꯥꯏꯐꯜ",
+        "Jaiphal"
       ],
       "marathi": [
         "जायफळ",
         "Jaiphal"
       ],
       "nepali": [
-        "-"
+        "जायफल",
+        "Jayphal"
       ],
       "odia": [
         "ଜାଇଫଳ",
@@ -2542,13 +2727,16 @@
         "Jaiphal"
       ],
       "sanskrit": [
-        "-"
+        "जातीफलम्",
+        "Jati Phalam"
       ],
       "santali": [
-        "-"
+        "ᱡᱟᱭᱯᱷᱚᱞ",
+        "Jayphal"
       ],
       "sindhi": [
-        "-"
+        "جائفل",
+        "Jaiphal"
       ],
       "tamil": [
         "ஜாதிக்காய்",
@@ -2585,10 +2773,12 @@
         "Joyitri"
       ],
       "bodo": [
-        "-"
+        "जाविथि",
+        "Jawitri"
       ],
       "dogri": [
-        "-"
+        "जावित्री",
+        "Jawitri"
       ],
       "gujarati": [
         "જાવંત્રી",
@@ -2603,27 +2793,32 @@
         "Japatre"
       ],
       "kashmiri": [
-        "-"
+        "جاوِتری",
+        "Jawitri"
       ],
       "konkani": [
-        "-"
+        "जावित्री",
+        "Jawitri"
       ],
       "maithili": [
-        "-"
+        "जावित्री",
+        "Jawitri"
       ],
       "malayalam": [
         "ജാതിപത്രി",
         "Jathipathri"
       ],
       "manipuri": [
-        "-"
+        "ꯖꯥꯋꯤꯠꯔꯤ",
+        "Jawitri"
       ],
       "marathi": [
         "जावंत्री",
         "Javantri"
       ],
       "nepali": [
-        "-"
+        "जावित्री",
+        "Jawitri"
       ],
       "odia": [
         "ଜୈତ୍ରୀ",
@@ -2634,13 +2829,16 @@
         "Javitri"
       ],
       "sanskrit": [
-        "-"
+        "जातीपत्रम्",
+        "Jati Patram"
       ],
       "santali": [
-        "-"
+        "ᱡᱟᱣᱤᱛᱨᱤ",
+        "Jawitri"
       ],
       "sindhi": [
-        "-"
+        "جوترِي",
+        "Javitri"
       ],
       "tamil": [
         "ஜாதிப்பத்திரி",
@@ -2677,10 +2875,12 @@
         "Tara Mouri"
       ],
       "bodo": [
-        "-"
+        "चक्रफुल",
+        "Chakraphool"
       ],
       "dogri": [
-        "-"
+        "चक्रफूल",
+        "Chakraphool"
       ],
       "gujarati": [
         "બાદિયા",
@@ -2695,27 +2895,32 @@
         "Chakra Moggu"
       ],
       "kashmiri": [
-        "-"
+        "چَکری پھول",
+        "Chakri Phool"
       ],
       "konkani": [
-        "-"
+        "चक्रफूल",
+        "Chakraphool"
       ],
       "maithili": [
-        "-"
+        "चक्रफूल",
+        "Chakraphool"
       ],
       "malayalam": [
         "തക്കോലം",
         "Thakkolam"
       ],
       "manipuri": [
-        "-"
+        "ꯆꯀ꯭ꯔꯐꯨꯜ",
+        "Chakraphool"
       ],
       "marathi": [
         "बादियान",
         "Badiyan"
       ],
       "nepali": [
-        "-"
+        "चक्रफूल",
+        "Chakraphool"
       ],
       "odia": [
         "ଚକ୍ର ଫୁଲ",
@@ -2726,13 +2931,16 @@
         "Chakra Phool"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱪᱚᱠᱨᱚᱯᱷᱩᱞ",
+        "Chakraphul"
       ],
       "sindhi": [
-        "-"
+        "چڪري گل",
+        "Chakri Gul"
       ],
       "tamil": [
         "அன்னாசி ்பூ",
@@ -2769,10 +2977,12 @@
         "Tejpatta"
       ],
       "bodo": [
-        "-"
+        "थेजपाथ",
+        "Tejpat"
       ],
       "dogri": [
-        "-"
+        "तेजपात",
+        "Tejpat"
       ],
       "gujarati": [
         "તમાલપત્ર",
@@ -2787,27 +2997,32 @@
         "Palav Ele"
       ],
       "kashmiri": [
-        "-"
+        "تیز پَتہ",
+        "Tej Patha"
       ],
       "konkani": [
-        "-"
+        "तेजपात",
+        "Tejpat"
       ],
       "maithili": [
-        "-"
+        "तेजपात",
+        "Tejpat"
       ],
       "malayalam": [
         "കറുവ ഇല",
         "Karuva Ila"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯦꯖꯄꯥꯠ",
+        "Tejpat"
       ],
       "marathi": [
         "तमाल पत्र",
         "Tamal Patra"
       ],
       "nepali": [
-        "-"
+        "तेजपात",
+        "Tejpat"
       ],
       "odia": [
         "ତେଜ ପତ୍ର",
@@ -2818,13 +3033,16 @@
         "Tej Patta"
       ],
       "sanskrit": [
-        "-"
+        "तमालपत्रम्",
+        "Tamala Patram"
       ],
       "santali": [
-        "-"
+        "ᱛᱮᱡᱯᱟᱛᱟ",
+        "Tejpata"
       ],
       "sindhi": [
-        "-"
+        "تيز پاتو",
+        "Tej Pato"
       ],
       "tamil": [
         "பிரியாணி இலை",
@@ -2861,10 +3079,12 @@
         "Shukno Ada"
       ],
       "bodo": [
-        "-"
+        "आदा",
+        "Ada"
       ],
       "dogri": [
-        "-"
+        "सौंठ",
+        "Saunth"
       ],
       "gujarati": [
         "સૂંઠ",
@@ -2879,27 +3099,32 @@
         "Shunti"
       ],
       "kashmiri": [
-        "-"
+        "سونٹھ",
+        "Sonth"
       ],
       "konkani": [
-        "-"
+        "सुंठ",
+        "Sunth"
       ],
       "maithili": [
-        "-"
+        "सोंठ",
+        "Sonth"
       ],
       "malayalam": [
         "ചുക്ക്",
         "Chukku"
       ],
       "manipuri": [
-        "-"
+        "ꯁꯧꯟꯊ",
+        "Saunth"
       ],
       "marathi": [
         "सुंठ",
         "Sunth"
       ],
       "nepali": [
-        "-"
+        "सुकेको अदुवा",
+        "Sukeko Aduwa"
       ],
       "odia": [
         "ଶୁଖିଲା ଅଦା",
@@ -2910,13 +3135,16 @@
         "Sund"
       ],
       "sanskrit": [
-        "-"
+        "शुण्ठी",
+        "Shunthi"
       ],
       "santali": [
-        "-"
+        "ᱚᱫᱟ",
+        "Ada"
       ],
       "sindhi": [
-        "-"
+        "سُنڍ",
+        "Sundh"
       ],
       "tamil": [
         "சுக்கு",
@@ -2953,10 +3181,12 @@
         "Boro Elach"
       ],
       "bodo": [
-        "-"
+        "इलाचि",
+        "Elachi"
       ],
       "dogri": [
-        "-"
+        "बड्डी इलायची",
+        "Baddi Elaychi"
       ],
       "gujarati": [
         "મોટી ઈલાયચી",
@@ -2971,27 +3201,32 @@
         "Kappu Yelakki"
       ],
       "kashmiri": [
-        "-"
+        "بَڑ ایلائچی",
+        "Bad Elaychi"
       ],
       "konkani": [
-        "-"
+        "मोठी वेलची",
+        "Mothi Velchi"
       ],
       "maithili": [
-        "-"
+        "बड़ इलायची",
+        "Bada Ilaychi"
       ],
       "malayalam": [
         "കറുത്ത ഏലയ്ക്ക",
         "Karutha Elakka"
       ],
       "manipuri": [
-        "-"
+        "ꯏꯂꯥꯏꯆꯤ",
+        "Elaychi"
       ],
       "marathi": [
         "बडी वेलची",
         "Badi Velchi"
       ],
       "nepali": [
-        "-"
+        "ठूलो अलैंची",
+        "Thulo Alainchi"
       ],
       "odia": [
         "ବଡ ଅଳେଇଚ",
@@ -3002,13 +3237,16 @@
         "Moti Elaichi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱮᱞᱟᱪᱤ",
+        "Elachi"
       ],
       "sindhi": [
-        "-"
+        "وڏو ڦوٽو",
+        "Waddo Photo"
       ],
       "tamil": [
         "கருப்பு ஏலக்காய்",
@@ -3045,10 +3283,12 @@
         "Sada Golmorich"
       ],
       "bodo": [
-        "-"
+        "गुफुर जलुक",
+        "Guphur Jaluk"
       ],
       "dogri": [
-        "-"
+        "सफेद मिर्च",
+        "Safed Mirch"
       ],
       "gujarati": [
         "સફેદ મરી",
@@ -3063,27 +3303,32 @@
         "Bili Menasu"
       ],
       "kashmiri": [
-        "-"
+        "سفید مِرچ",
+        "Safed Mirch"
       ],
       "konkani": [
-        "-"
+        "धवे मिरे",
+        "Dhave Mire"
       ],
       "maithili": [
-        "-"
+        "सफेद मिर्च",
+        "Safed Mirch"
       ],
       "malayalam": [
         "വെള്ള കുരുമുളക്",
         "Vella Kurumulaku"
       ],
       "manipuri": [
-        "-"
+        "ꯃꯔꯤꯆ",
+        "Marich"
       ],
       "marathi": [
         "पांढरी मिरी",
         "Pandhari Miri"
       ],
       "nepali": [
-        "-"
+        "सेतो मरिच",
+        "Seto Marich"
       ],
       "odia": [
         "ଧଳା ଗୋଲ ମରିଚ",
@@ -3094,13 +3339,16 @@
         "Safed Mirch"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱚᱞᱢᱚᱨᱤᱪ",
+        "Golmorich"
       ],
       "sindhi": [
-        "-"
+        "اڇي مِرچ",
+        "Achi Mirch"
       ],
       "tamil": [
         "வெள்ளை மிளகு",
@@ -3137,10 +3385,12 @@
         "Pipul"
       ],
       "bodo": [
-        "-"
+        "पिप्लि",
+        "Pipli"
       ],
       "dogri": [
-        "-"
+        "पिप्पल",
+        "Pippal"
       ],
       "gujarati": [
         "પીપર",
@@ -3155,27 +3405,32 @@
         "Hippali"
       ],
       "kashmiri": [
-        "-"
+        "پِپَل",
+        "Pipal"
       ],
       "konkani": [
-        "-"
+        "पिंपळी",
+        "Pimpli"
       ],
       "maithili": [
-        "-"
+        "पीपल",
+        "Pipal"
       ],
       "malayalam": [
         "തിപ്പലി",
         "Thippali"
       ],
       "manipuri": [
-        "-"
+        "ꯄꯤꯄꯜ",
+        "Pipal"
       ],
       "marathi": [
         "पिंपळी",
         "Pimpali"
       ],
       "nepali": [
-        "-"
+        "पिप्पली",
+        "Pippali"
       ],
       "odia": [
         "ପିପ୍ପଳି",
@@ -3186,13 +3441,16 @@
         "Maghan"
       ],
       "sanskrit": [
-        "-"
+        "पिप्पली",
+        "Pippali"
       ],
       "santali": [
-        "-"
+        "ᱯᱤᱯᱚᱞ",
+        "Pipal"
       ],
       "sindhi": [
-        "-"
+        "پِپل",
+        "Pipal"
       ],
       "tamil": [
         "திப்பிலி",
@@ -3229,10 +3487,12 @@
         "Pathar Phool"
       ],
       "bodo": [
-        "-"
+        "पाथर फुल",
+        "Pathar Phool"
       ],
       "dogri": [
-        "-"
+        "पत्थर फूल",
+        "Patthar Phool"
       ],
       "gujarati": [
         "છડીલો",
@@ -3247,27 +3507,32 @@
         "Kallu Hoovu"
       ],
       "kashmiri": [
-        "-"
+        "پَتھَر پھول",
+        "Pathar Phool"
       ],
       "konkani": [
-        "-"
+        "दगडफूल",
+        "Dagadphool"
       ],
       "maithili": [
-        "-"
+        "पाथरफूल",
+        "Patharphool"
       ],
       "malayalam": [
         "കൽപ്പാസി",
         "Kalpasi"
       ],
       "manipuri": [
-        "-"
+        "ꯄꯥꯊꯔꯐꯨꯜ",
+        "Patharphool"
       ],
       "marathi": [
         "दगडफूल",
         "Dagad Phool"
       ],
       "nepali": [
-        "-"
+        "ढुङ्गाफूल",
+        "Dhungaphool"
       ],
       "odia": [
         "ପଥର ଫୁଲ",
@@ -3278,13 +3543,16 @@
         "Kalpasi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱟᱛᱷᱚᱨ ᱯᱷᱩᱞ",
+        "Pathor Phool"
       ],
       "sindhi": [
-        "-"
+        "پٿر گل",
+        "Pathar Gul"
       ],
       "tamil": [
         "கல்பாசி",
@@ -3321,10 +3589,12 @@
         "Marathi Moggu"
       ],
       "bodo": [
-        "-"
+        "मग्गु",
+        "Moggu"
       ],
       "dogri": [
-        "-"
+        "मराठी मोग्गू",
+        "Marathi Moggu"
       ],
       "gujarati": [
         "કાપોક કળીઓ",
@@ -3339,27 +3609,32 @@
         "Marathi Moggu"
       ],
       "kashmiri": [
-        "-"
+        "مراٹھی موگو",
+        "Marathi Moggu"
       ],
       "konkani": [
-        "-"
+        "मराठी मोगू",
+        "Marathi Moggu"
       ],
       "maithili": [
-        "-"
+        "मराठी मोग्गू",
+        "Marathi Moggu"
       ],
       "malayalam": [
         "മറാഠി മൊഗ്ഗു",
         "Marathi Moggu"
       ],
       "manipuri": [
-        "-"
+        "ꯃꯣꯒꯨ",
+        "Moggu"
       ],
       "marathi": [
         "मराठी मोग्गु",
         "Marathi Moggu"
       ],
       "nepali": [
-        "-"
+        "मराठी मोग्गु",
+        "Marathi Moggu"
       ],
       "odia": [
         "ମରାଠୀ ମୋଗ୍ଗୁ",
@@ -3370,13 +3645,16 @@
         "Marathi Moggu"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱳᱜᱜᱩ",
+        "Moggu"
       ],
       "sindhi": [
-        "-"
+        "موگو",
+        "Moggu"
       ],
       "tamil": [
         "மராத்தி மொக்கு",
@@ -3414,10 +3692,12 @@
         "Kabab Chini"
       ],
       "bodo": [
-        "-"
+        "कबाब चिनि",
+        "Kabab Chini"
       ],
       "dogri": [
-        "-"
+        "कबाब चीनी",
+        "Kabab Chini"
       ],
       "gujarati": [
         "ચણકબાબ",
@@ -3432,27 +3712,32 @@
         "Gandhamenasu"
       ],
       "kashmiri": [
-        "-"
+        "کباب چینی",
+        "Kabab Chini"
       ],
       "konkani": [
-        "-"
+        "कबाब चिनी",
+        "Kabab Chini"
       ],
       "maithili": [
-        "-"
+        "कबाब चीनी",
+        "Kabab Chini"
       ],
       "malayalam": [
         "വാൽമുളക്",
         "Valmulaku"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯕꯥꯕꯆꯤꯅꯤ",
+        "Kabab Chini"
       ],
       "marathi": [
         "कबाब चीनी",
         "Kabab Chini"
       ],
       "nepali": [
-        "-"
+        "कबाब चिनी",
+        "Kabab Chini"
       ],
       "odia": [
         "କବାବ ଚିନି",
@@ -3463,13 +3748,16 @@
         "Kabab Chini"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱚᱵᱟᱵ ᱪᱤᱱᱤ",
+        "Kabab Chini"
       ],
       "sindhi": [
-        "-"
+        "ڪباب چيني",
+        "Kabab Chini"
       ],
       "tamil": [
         "வால் மிளகு",
@@ -3506,10 +3794,12 @@
         "Mohoushodh"
       ],
       "bodo": [
-        "-"
+        "खुलिनजान",
+        "Khulinjan"
       ],
       "dogri": [
-        "-"
+        "कुलिंजन",
+        "Kulinjan"
       ],
       "gujarati": [
         "કોલીંજન",
@@ -3524,27 +3814,32 @@
         "Dhumarasmi"
       ],
       "kashmiri": [
-        "-"
+        "کُلِنجان",
+        "Kulinjan"
       ],
       "konkani": [
-        "-"
+        "कुलिंजन",
+        "Kulinjan"
       ],
       "maithili": [
-        "-"
+        "कुलिंजन",
+        "Kulinjan"
       ],
       "malayalam": [
         "ചിറ്റരത്ത",
         "Chittaratha"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯨꯂꯤꯟꯖꯟ",
+        "Kulinjan"
       ],
       "marathi": [
         "कोलिंजन",
         "Kolinjan"
       ],
       "nepali": [
-        "-"
+        "कुलञ्जन",
+        "Kulanjan"
       ],
       "odia": [
         "କୁଳଞ୍ଜନ",
@@ -3555,13 +3850,16 @@
         "Kulanjan"
       ],
       "sanskrit": [
-        "-"
+        "कुलञ्जनम्",
+        "Kulanjanam"
       ],
       "santali": [
-        "-"
+        "ᱠᱩᱞᱤᱧᱡᱚᱱ",
+        "Kulinjan"
       ],
       "sindhi": [
-        "-"
+        "ڪلنجن",
+        "Kulinjan"
       ],
       "tamil": [
         "சித்தரத்தை",

@@ -881,30 +881,36 @@
         "Pomfret"
       ],
       "konkani": [
-        "पाम्पलेट",
-        "Pamplet"
+        "पापलेट",
+        "Paplet"
       ],
       "assamese": [
         "ৰূপচন্দা",
         "Rupchanda"
       ],
       "bodo": [
-        "-"
+        "रुफानि ना",
+        "Rupani Na"
       ],
       "dogri": [
-        "-"
+        "चांदी पापलेट",
+        "Chandi Paplet"
       ],
       "kashmiri": [
-        "-"
+        "چاندی ماہی",
+        "Chandi Mahi"
       ],
       "maithili": [
-        "-"
+        "चान्नी पम्फ्रेट",
+        "Channi Pomfret"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "चाँदी पोम्फ्रेट",
+        "Chandi Pomfret"
       ],
       "odia": [
         "ଧଳା ଚାନ୍ଦି",
@@ -915,13 +921,16 @@
         "Paplet"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱩᱯᱟᱹ ᱦᱟᱠᱩ",
+        "Rupa Haku"
       ],
       "sindhi": [
-        "-"
+        "چاندِي مَڇِي",
+        "Chandi Machhi"
       ],
       "urdu": [
         "چاندی پاپلیٹ",
@@ -983,42 +992,52 @@
         "Rou"
       ],
       "bodo": [
-        "-"
+        "रहु",
+        "Rohu"
       ],
       "dogri": [
-        "-"
+        "रोहू",
+        "Rohu"
       ],
       "gujarati": [
         "રોહૂ",
         "Rohu"
       ],
       "kashmiri": [
-        "-"
+        "روہو",
+        "Rohu"
       ],
       "konkani": [
-        "-"
+        "रोहू",
+        "Rohu"
       ],
       "maithili": [
-        "-"
+        "रोहू",
+        "Rohu"
       ],
       "manipuri": [
-        "-"
+        "ꯔꯣꯍꯨ",
+        "Rohu"
       ],
       "nepali": [
-        "-"
+        "रोहू",
+        "Rohu"
       ],
       "punjabi": [
         "ਰੋਹੂ",
         "Rohu"
       ],
       "sanskrit": [
-        "-"
+        "रोहितः",
+        "Rohitah"
       ],
       "santali": [
-        "-"
+        "ᱨᱚᱦᱩ",
+        "Rohu"
       ],
       "sindhi": [
-        "-"
+        "روهو",
+        "Rohu"
       ],
       "urdu": [
         "رہو",
@@ -1080,42 +1099,52 @@
         "Bahu"
       ],
       "bodo": [
-        "-"
+        "कातला",
+        "Katla"
       ],
       "dogri": [
-        "-"
+        "कतला",
+        "Katla"
       ],
       "gujarati": [
         "કટલા",
         "Katla"
       ],
       "kashmiri": [
-        "-"
+        "کاتلا",
+        "Katla"
       ],
       "konkani": [
-        "-"
+        "कातला",
+        "Katla"
       ],
       "maithili": [
-        "-"
+        "कतला",
+        "Katla"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯇꯂꯥ",
+        "Katla"
       ],
       "nepali": [
-        "-"
+        "कटला",
+        "Katla"
       ],
       "punjabi": [
         "ਕਤਲਾ",
         "Catla"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱛᱞᱟ",
+        "Katla"
       ],
       "sindhi": [
-        "-"
+        "ڪتلا",
+        "Katla"
       ],
       "urdu": [
         "کتلا",
@@ -1178,42 +1207,52 @@
         "Ilish"
       ],
       "bodo": [
-        "-"
+        "इलिसा",
+        "Ilisa"
       ],
       "dogri": [
-        "-"
+        "हिल्सा",
+        "Hilsa"
       ],
       "kashmiri": [
-        "-"
+        "ہِلسا",
+        "Hilsa"
       ],
       "konkani": [
-        "-"
+        "हिलसा",
+        "Hilsa"
       ],
       "maithili": [
-        "-"
+        "हिल्सा",
+        "Hilsa"
       ],
       "manipuri": [
-        "-"
+        "ꯍꯤꯜꯁꯥ",
+        "Hilsa"
       ],
       "marathi": [
         "पाला",
         "Pala"
       ],
       "nepali": [
-        "-"
+        "हिल्सा",
+        "Hilsa"
       ],
       "punjabi": [
         "ਹਿਲਸਾ",
         "Hilsa"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱤᱞᱥᱟ",
+        "Ilisa"
       ],
       "sindhi": [
-        "-"
+        "پلو مَڇِي",
+        "Pallo Machhi"
       ],
       "urdu": [
         "ہلسا",
@@ -1262,37 +1301,44 @@
         "Tambusa"
       ],
       "konkani": [
-        "तांबसो",
-        "Tamso"
+        "रांवटो मासो",
+        "Ranvto Maso"
       ],
       "assamese": [
-        "-"
+        "ৰঙা মাছ",
+        "Ronga Maas"
       ],
       "bengali": [
         "রেড স্ন্যাপার",
         "Red Snapper"
       ],
       "bodo": [
-        "-"
+        "गोजा ना",
+        "Goja Na"
       ],
       "dogri": [
-        "-"
+        "रता माच्ची",
+        "Rata Machhi"
       ],
       "gujarati": [
         "રાણી",
         "Rani"
       ],
       "kashmiri": [
-        "-"
+        "رَتھ ماہی",
+        "Rath Mahi"
       ],
       "maithili": [
-        "-"
+        "रातु माछ",
+        "Ratu Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯑꯉꯧꯕ ꯅꯥ",
+        "Angaoba Nga"
       ],
       "nepali": [
-        "-"
+        "रातो माछा",
+        "Rato Machha"
       ],
       "odia": [
         "ରଙ୍ଗା ମାଛ",
@@ -1303,13 +1349,16 @@
         "Rani Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱟᱨᱟᱜ ᱦᱟᱠᱩ",
+        "Araag Haku"
       ],
       "sindhi": [
-        "-"
+        "ڳاڙهي مَڇِي",
+        "Garhi Machhi"
       ],
       "urdu": [
         "سرخ مچھلی",
@@ -1354,40 +1403,48 @@
         "Karimeen"
       ],
       "assamese": [
-        "-"
+        "কৰিমীন",
+        "Karimeen"
       ],
       "bengali": [
         "কুরাল",
         "Kural"
       ],
       "bodo": [
-        "-"
+        "मोति ना",
+        "Moti Na"
       ],
       "dogri": [
-        "-"
+        "मोती माच्ची",
+        "Moti Machhi"
       ],
       "gujarati": [
         "કરીમીન",
         "Karimeen"
       ],
       "kashmiri": [
-        "-"
+        "مونجی ماہی",
+        "Moonji Mahi"
       ],
       "konkani": [
-        "-"
+        "करीमीन",
+        "Karimeen"
       ],
       "maithili": [
-        "-"
+        "मोती माछ",
+        "Moti Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "काळुंदर",
         "Kalundar"
       ],
       "nepali": [
-        "-"
+        "मोती माछा",
+        "Moti Machha"
       ],
       "odia": [
         "କାରିମୀନ",
@@ -1398,13 +1455,16 @@
         "Karimeen"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱩᱛᱤ ᱦᱟᱠᱩ",
+        "Muti Haku"
       ],
       "sindhi": [
-        "-"
+        "موٽي مَڇِي",
+        "Moti Machhi"
       ],
       "urdu": [
         "کریمین",
@@ -1448,41 +1508,48 @@
         "Mudhos"
       ],
       "konkani": [
-        "मुड्डोशी",
-        "Muddoshi"
+        "लेडी फिश",
+        "Lady Fish"
       ],
       "marathi": [
         "रेणवी",
         "Renvi"
       ],
       "assamese": [
-        "-"
+        "লেডী মাছ",
+        "Lady Maas"
       ],
       "bengali": [
         "লেডি ফিশ",
         "Lady Fish"
       ],
       "bodo": [
-        "-"
+        "ना लेडि",
+        "Na Lady"
       ],
       "dogri": [
-        "-"
+        "लेडी फिश",
+        "Lady Fish"
       ],
       "gujarati": [
         "ભુંગ",
         "Bhung"
       ],
       "kashmiri": [
-        "-"
+        "لیڈی فِش",
+        "Lady Fish"
       ],
       "maithili": [
-        "-"
+        "लेडी फिश",
+        "Lady Fish"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯨꯄꯤ ꯅꯥ",
+        "Nupi Nga"
       ],
       "nepali": [
-        "-"
+        "लेडी फिश",
+        "Lady Fish"
       ],
       "odia": [
         "କାନଗୁର୍ତା",
@@ -1493,13 +1560,16 @@
         "Lady Fish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱩᱲᱤ ᱦᱟᱠᱩ",
+        "Kuri Haku"
       ],
       "sindhi": [
-        "-"
+        "ليڊِي مَڇِي",
+        "Lady Machhi"
       ],
       "urdu": [
         "لیڈی فش",
@@ -1557,28 +1627,36 @@
         "Gurjali"
       ],
       "assamese": [
-        "-"
+        "ৰাৱাছ",
+        "Rawas"
       ],
       "bodo": [
-        "-"
+        "रावास",
+        "Rawas"
       ],
       "dogri": [
-        "-"
+        "रावास",
+        "Rawas"
       ],
       "kashmiri": [
-        "-"
+        "راواس",
+        "Rawas"
       ],
       "konkani": [
-        "-"
+        "रावस",
+        "Rawas"
       ],
       "maithili": [
-        "-"
+        "रावास",
+        "Rawas"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "रावास",
+        "Rawas"
       ],
       "odia": [
         "ସାହାଲା",
@@ -1589,13 +1667,16 @@
         "Rawas"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱟᱣᱟᱥ",
+        "Rawas"
       ],
       "sindhi": [
-        "-"
+        "راواس",
+        "Rawas"
       ],
       "urdu": [
         "راواس",
@@ -1648,32 +1729,40 @@
         "Parshe"
       ],
       "assamese": [
-        "-"
+        "মুলেট",
+        "Mullet"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "स्लेटी मुगिल",
+        "Sleti Mugil"
       ],
       "gujarati": [
         "બોઈ",
         "Boi"
       ],
       "kashmiri": [
-        "-"
+        "شاہی ماہی",
+        "Shahi Mahi"
       ],
       "konkani": [
-        "-"
+        "शेवोट्टी",
+        "Shevotti"
       ],
       "maithili": [
-        "-"
+        "भूर मुगिल",
+        "Bhur Mugil"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "खरानी मुगिल",
+        "Kharani Mugil"
       ],
       "odia": [
         "ଖଙ୍ଗା",
@@ -1684,13 +1773,16 @@
         "Mullet"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "سَرهو",
+        "Sarho"
       ],
       "urdu": [
         "بوی",
@@ -1741,36 +1833,44 @@
         "Telapia"
       ],
       "assamese": [
-        "-"
+        "তিলাপিয়া",
+        "Tilapia"
       ],
       "bodo": [
-        "-"
+        "तिलापिया",
+        "Tilapia"
       ],
       "dogri": [
-        "-"
+        "तिलापिया",
+        "Tilapia"
       ],
       "gujarati": [
         "તિલાપિયા",
         "Tilapia"
       ],
       "kashmiri": [
-        "-"
+        "تِلاپیا",
+        "Tilapia"
       ],
       "konkani": [
-        "-"
+        "तिळापिया",
+        "Tilapia"
       ],
       "maithili": [
-        "-"
+        "तिलापिया",
+        "Tilapia"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯤꯂꯥꯄꯤꯌꯥ",
+        "Tilapia"
       ],
       "marathi": [
         "तिलापिया",
         "Tilapia"
       ],
       "nepali": [
-        "-"
+        "तिलापिया",
+        "Tilapia"
       ],
       "odia": [
         "ତେଲାପିଆ",
@@ -1781,13 +1881,16 @@
         "Tilapia"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱤᱞᱟᱯᱤᱭᱟ",
+        "Tilapia"
       ],
       "sindhi": [
-        "-"
+        "تِلاپيا",
+        "Tilapia"
       ],
       "urdu": [
         "تلاپیا",
@@ -1840,33 +1943,40 @@
         "Jitada"
       ],
       "konkani": [
-        "चोणक",
-        "Chonak"
+        "भेकती",
+        "Bhekti"
       ],
       "assamese": [
-        "-"
+        "ভেটকী",
+        "Bhetki"
       ],
       "bodo": [
-        "-"
+        "भेटकि",
+        "Bhetki"
       ],
       "dogri": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "gujarati": [
         "જીતારો",
         "Jitaro"
       ],
       "kashmiri": [
-        "-"
+        "بھیٹکی",
+        "Bhetki"
       ],
       "maithili": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "odia": [
         "ଭେକ୍ଟି",
@@ -1877,13 +1987,16 @@
         "Bhetki"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱷᱮᱴᱠᱤ",
+        "Bhetki"
       ],
       "sindhi": [
-        "-"
+        "ڍانگرو",
+        "Dhangro"
       ],
       "urdu": [
         "بھیٹکی",
@@ -1929,37 +2042,44 @@
         "Kuppa"
       ],
       "konkani": [
-        "बुका",
-        "Buka"
+        "टुना",
+        "Tuna"
       ],
       "assamese": [
-        "-"
+        "টুনা",
+        "Tuna"
       ],
       "bengali": [
         "টুনা",
         "Tuna"
       ],
       "bodo": [
-        "-"
+        "तुना",
+        "Tuna"
       ],
       "dogri": [
-        "-"
+        "टूना",
+        "Tuna"
       ],
       "gujarati": [
         "ટૂના",
         "Tuna"
       ],
       "kashmiri": [
-        "-"
+        "ٹونا",
+        "Tuna"
       ],
       "maithili": [
-        "-"
+        "टुना",
+        "Tuna"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯨꯅꯥ",
+        "Tuna"
       ],
       "nepali": [
-        "-"
+        "टुना",
+        "Tuna"
       ],
       "odia": [
         "ଟୁନା",
@@ -1970,13 +2090,16 @@
         "Tuna"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱩᱱᱟ",
+        "Tuna"
       ],
       "sindhi": [
-        "-"
+        "ٽونا",
+        "Tuna"
       ],
       "urdu": [
         "ٹونا",
@@ -2017,41 +2140,48 @@
         "Balli"
       ],
       "konkani": [
-        "तोल",
-        "Tol"
+        "बाराकुडा",
+        "Barracuda"
       ],
       "assamese": [
-        "-"
+        "শীলা",
+        "Sheela"
       ],
       "bengali": [
         "বারাকুডা",
         "Barracuda"
       ],
       "bodo": [
-        "-"
+        "बाराकुदा",
+        "Barrakuda"
       ],
       "dogri": [
-        "-"
+        "बाराकुडा",
+        "Barakuda"
       ],
       "gujarati": [
         "બારાકુડા",
         "Barracuda"
       ],
       "kashmiri": [
-        "-"
+        "بارکوڈا",
+        "Barakuda"
       ],
       "maithili": [
-        "-"
+        "शीला",
+        "Sheela"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "बडु",
         "Badu"
       ],
       "nepali": [
-        "-"
+        "शीला",
+        "Sheela"
       ],
       "odia": [
         "ଦଣ୍ଡିକିରି",
@@ -2062,13 +2192,16 @@
         "Barracuda"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱟᱨᱟᱠᱩᱰᱟ",
+        "Barakuda"
       ],
       "sindhi": [
-        "-"
+        "ڪُنڊ",
+        "Kund"
       ],
       "urdu": [
         "شیلا",
@@ -2110,40 +2243,48 @@
         "Kokari"
       ],
       "assamese": [
-        "-"
+        "পেৰা",
+        "Para"
       ],
       "bengali": [
         "ট্রেভালি",
         "Trevally"
       ],
       "bodo": [
-        "-"
+        "त्रेभेलि",
+        "Treveli"
       ],
       "dogri": [
-        "-"
+        "ट्रेवली",
+        "Trevally"
       ],
       "gujarati": [
         "વીમ",
         "Vim"
       ],
       "kashmiri": [
-        "-"
+        "ٹریولی",
+        "Trevally"
       ],
       "konkani": [
-        "-"
+        "ट्रेवली",
+        "Trevally"
       ],
       "maithili": [
-        "-"
+        "ट्रेवली",
+        "Trevally"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "शिंपी",
         "Shimpi"
       ],
       "nepali": [
-        "-"
+        "त्रेवल्ली",
+        "Trevally"
       ],
       "odia": [
         "ପାରା",
@@ -2154,13 +2295,16 @@
         "Trevally"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱨᱮᱵᱷᱟᱞᱤ",
+        "Trevali"
       ],
       "sindhi": [
-        "-"
+        "ڪارئي",
+        "Karei"
       ],
       "urdu": [
         "پیرا",
@@ -2208,36 +2352,44 @@
         "Lep"
       ],
       "assamese": [
-        "-"
+        "সল মাছ",
+        "Sol Maas"
       ],
       "bengali": [
         "বগলি",
         "Bogli"
       ],
       "bodo": [
-        "-"
+        "सोल ना",
+        "Sol Na"
       ],
       "dogri": [
-        "-"
+        "सोल माच्ची",
+        "Sol Machhi"
       ],
       "gujarati": [
         "જીભ",
         "Jibh"
       ],
       "kashmiri": [
-        "-"
+        "سول ماہی",
+        "Sol Mahi"
       ],
       "konkani": [
-        "-"
+        "सोल फिश",
+        "Sol Fish"
       ],
       "maithili": [
-        "-"
+        "सोल माछ",
+        "Sol Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "सोल माछा",
+        "Sol Machha"
       ],
       "odia": [
         "ପାତା",
@@ -2248,13 +2400,16 @@
         "Sole Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱳᱞ ᱦᱟᱠᱩ",
+        "Sol Haku"
       ],
       "sindhi": [
-        "-"
+        "سول مَڇِي",
+        "Sol Machhi"
       ],
       "urdu": [
         "سول مچھلی",
@@ -2296,40 +2451,48 @@
         "Fangas"
       ],
       "assamese": [
-        "-"
+        "মিল্ক ফিছ",
+        "Milkfish"
       ],
       "bengali": [
         "মিল্ক ফিশ",
         "Milk Fish"
       ],
       "bodo": [
-        "-"
+        "गाखिर ना",
+        "Gakhir Na"
       ],
       "dogri": [
-        "-"
+        "दुद्ध माच्ची",
+        "Duddh Machhi"
       ],
       "gujarati": [
         "મિલ્ક ફિશ",
         "Milk Fish"
       ],
       "kashmiri": [
-        "-"
+        "دُود ماہی",
+        "Dud Mahi"
       ],
       "konkani": [
-        "-"
+        "मिल्क फिश",
+        "Milkfish"
       ],
       "maithili": [
-        "-"
+        "दूध माछ",
+        "Dudh Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "दुध मासा",
         "Dudh Masa"
       ],
       "nepali": [
-        "-"
+        "दूध माछा",
+        "Dudh Machha"
       ],
       "odia": [
         "ସେବା ଖଇଙ୍ଗା",
@@ -2340,13 +2503,16 @@
         "Milkfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱚᱣᱟ ᱦᱟᱠᱩ",
+        "Towa Haku"
       ],
       "sindhi": [
-        "-"
+        "کير مَڇِي",
+        "Kheer Machhi"
       ],
       "urdu": [
         "ملک فش",
@@ -2396,8 +2562,8 @@
         "Makul"
       ],
       "konkani": [
-        "माकुळ",
-        "Makul"
+        "नाकट",
+        "Nakat"
       ],
       "bengali": [
         "স্কুইড",
@@ -2424,31 +2590,40 @@
         "Charah"
       ],
       "bodo": [
-        "-"
+        "स्कुइद",
+        "Squid"
       ],
       "dogri": [
-        "-"
+        "स्क्विड",
+        "Squid"
       ],
       "kashmiri": [
-        "-"
+        "سکوِڈ",
+        "Squid"
       ],
       "maithili": [
-        "-"
+        "स्क्विड",
+        "Squid"
       ],
       "manipuri": [
-        "-"
+        "ꯁ꯭ꯛꯋꯤꯗ",
+        "Squid"
       ],
       "nepali": [
-        "-"
+        "स्क्विड",
+        "Squid"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱠᱣᱤᱰ",
+        "Squid"
       ],
       "sindhi": [
-        "-"
+        "اسڪوڊ",
+        "Squid"
       ]
     },
     "notes": "Shellfish (Chephalopod). Cooks very quickly."
@@ -2492,36 +2667,44 @@
         "Shol"
       ],
       "assamese": [
-        "-"
+        "শ ল",
+        "Saul"
       ],
       "bodo": [
-        "-"
+        "सोल",
+        "Sol"
       ],
       "dogri": [
-        "-"
+        "सोल",
+        "Sol"
       ],
       "gujarati": [
         "મરલ",
         "Murrel"
       ],
       "kashmiri": [
-        "-"
+        "شول",
+        "Shol"
       ],
       "konkani": [
-        "-"
+        "सोल",
+        "Sol"
       ],
       "maithili": [
-        "-"
+        "सोल",
+        "Sol"
       ],
       "manipuri": [
-        "-"
+        "ꯉꯥꯃꯨ",
+        "Ngamu"
       ],
       "marathi": [
         "मरळ",
         "Maral"
       ],
       "nepali": [
-        "-"
+        "सोल",
+        "Sol"
       ],
       "odia": [
         "ସେଉଳ",
@@ -2532,13 +2715,16 @@
         "Sol"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱳᱞ",
+        "Sol"
       ],
       "sindhi": [
-        "-"
+        "جِرڪِي",
+        "Jirki"
       ],
       "urdu": [
         "سول",
@@ -2592,33 +2778,40 @@
         "Magur"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "जंगली माच्ची",
+        "Jangali Machhi"
       ],
       "gujarati": [
         "શીંગાળા",
         "Shingala"
       ],
       "kashmiri": [
-        "-"
+        "ماہی نا",
+        "Mahina"
       ],
       "konkani": [
-        "-"
+        "कॅटफिश",
+        "Catfish"
       ],
       "maithili": [
-        "-"
+        "जंगली माछ",
+        "Jangali Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "शिंगाळा",
         "Shingala"
       ],
       "nepali": [
-        "-"
+        "जंगली माछा",
+        "Jangali Machha"
       ],
       "odia": [
         "ମାଗୁର",
@@ -2629,13 +2822,16 @@
         "Singhara"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "کڳو",
+        "Khaggo"
       ],
       "urdu": [
         "سنگھاڑا",
@@ -2684,32 +2880,40 @@
         "Lote"
       ],
       "assamese": [
-        "-"
+        "বম্বিল",
+        "Bombil"
       ],
       "bodo": [
-        "-"
+        "बम्बिल",
+        "Bombil"
       ],
       "dogri": [
-        "-"
+        "बोमिल",
+        "Bomil"
       ],
       "gujarati": [
         "બોમ્બિલ",
         "Bombil"
       ],
       "kashmiri": [
-        "-"
+        "بومبِل",
+        "Bombil"
       ],
       "konkani": [
-        "-"
+        "बोम्बील",
+        "Bombil"
       ],
       "maithili": [
-        "-"
+        "बोम्बिल",
+        "Bombil"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "बोम्बिल",
+        "Bombil"
       ],
       "odia": [
         "ବମ୍ବେ ଡକ୍",
@@ -2720,13 +2924,16 @@
         "Bombil"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱚᱢᱵᱤᱞ",
+        "Bombil"
       ],
       "sindhi": [
-        "-"
+        "بوملا",
+        "Bomla"
       ],
       "urdu": [
         "بومبل",
@@ -2776,37 +2983,44 @@
         "Rani"
       ],
       "konkani": [
-        "राणी",
-        "Rani"
+        "रांवटी",
+        "Ranvti"
       ],
       "assamese": [
-        "-"
+        "ৰানী মাছ",
+        "Rani Maas"
       ],
       "bengali": [
         "পিঙ্ক পার্চ",
         "Pink Perch"
       ],
       "bodo": [
-        "-"
+        "गुलाबि ना",
+        "Gulabi Na"
       ],
       "dogri": [
-        "-"
+        "गुलाबी पर्च",
+        "Gulabi Perch"
       ],
       "gujarati": [
         "રાણી",
         "Rani"
       ],
       "kashmiri": [
-        "-"
+        "گُلابی ماہی",
+        "Gulabi Mahi"
       ],
       "maithili": [
-        "-"
+        "गुलाबी पर्च",
+        "Gulabi Perch"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "nepali": [
-        "-"
+        "गुलाबी पर्च",
+        "Gulabi Perch"
       ],
       "odia": [
         "ରାଣୀ ମାଛ",
@@ -2817,13 +3031,16 @@
         "Rani Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱩᱞᱟᱹᱵᱤ ᱦᱟᱠᱩ",
+        "Gulabi Haku"
       ],
       "sindhi": [
-        "-"
+        "گلابي مَڇِي",
+        "Gulabi Machhi"
       ],
       "urdu": [
         "رانی مچھلی",
@@ -2870,37 +3087,44 @@
         "Tisrya"
       ],
       "konkani": [
-        "कुब्बे",
-        "Kubbe"
+        "तिस्र",
+        "Tisre"
       ],
       "assamese": [
-        "-"
+        "শামুক",
+        "Samuk"
       ],
       "bengali": [
         "ঝিনুক",
         "Jhinuk"
       ],
       "bodo": [
-        "-"
+        "शिप्पी",
+        "Sippi"
       ],
       "dogri": [
-        "-"
+        "सिप्पी",
+        "Sippi"
       ],
       "gujarati": [
         "છીપ",
         "Chhip"
       ],
       "kashmiri": [
-        "-"
+        "کلام",
+        "Clam"
       ],
       "maithili": [
-        "-"
+        "सिप्पी",
+        "Sippi"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "nepali": [
-        "-"
+        "सिप्पी",
+        "Sippi"
       ],
       "odia": [
         "ଗେଣ୍ଡା",
@@ -2911,13 +3135,16 @@
         "Clam"
       ],
       "sanskrit": [
-        "-"
+        "शुक्तिः",
+        "Shuktih"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱯ",
+        "Sip"
       ],
       "sindhi": [
-        "-"
+        "سِپيون",
+        "Sipyun"
       ],
       "urdu": [
         "کستوری",
@@ -2965,37 +3192,44 @@
         "Shimple"
       ],
       "konkani": [
-        "शिणाणे",
-        "Shinane"
+        "शिंपले",
+        "Shimple"
       ],
       "assamese": [
-        "-"
+        "শিপ",
+        "Sip"
       ],
       "bengali": [
         "ঝিনুক",
         "Jhinuk"
       ],
       "bodo": [
-        "-"
+        "शिप्पी",
+        "Sippi"
       ],
       "dogri": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "gujarati": [
         "કાલવ",
         "Kalav"
       ],
       "kashmiri": [
-        "-"
+        "سیپ",
+        "Seep"
       ],
       "maithili": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
       ],
       "nepali": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "odia": [
         "ଶାମୁକା",
@@ -3006,13 +3240,16 @@
         "Mussels"
       ],
       "sanskrit": [
-        "-"
+        "शुक्तिका",
+        "Shuktika"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱯ",
+        "Sip"
       ],
       "sindhi": [
-        "-"
+        "سِپ",
+        "Sip"
       ],
       "urdu": [
         "سیپ",
@@ -3057,36 +3294,44 @@
         "Carp"
       ],
       "assamese": [
-        "-"
+        "ৰৌ মাছ",
+        "Rou Maas"
       ],
       "bodo": [
-        "-"
+        "कारप",
+        "Carp"
       ],
       "dogri": [
-        "-"
+        "साधारण रोहू",
+        "Sadharan Rohu"
       ],
       "gujarati": [
         "કોમન કાર્પ",
         "Common Carp"
       ],
       "kashmiri": [
-        "-"
+        "کارپ",
+        "Carp"
       ],
       "konkani": [
-        "-"
+        "रोहू",
+        "Rohu"
       ],
       "maithili": [
-        "-"
+        "साधारण रऊ",
+        "Sadharan Rau"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "कॉमन कार्प",
         "Common Carp"
       ],
       "nepali": [
-        "-"
+        "साधारण रौ माछा",
+        "Sadaran Rou"
       ],
       "odia": [
         "ବିଲାତି ରୋହି",
@@ -3097,13 +3342,16 @@
         "Common Carp"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱨᱯ",
+        "Carp"
       ],
       "sindhi": [
-        "-"
+        "ڪارپ",
+        "Carp"
       ],
       "urdu": [
         "کارپ",
@@ -3146,40 +3394,48 @@
         "Chodhhi"
       ],
       "assamese": [
-        "-"
+        "এম্পেৰাৰ",
+        "Emperor"
       ],
       "bengali": [
         "এমপায়ার",
         "Emperor"
       ],
       "bodo": [
-        "-"
+        "सम्रात ना",
+        "Samrat Na"
       ],
       "dogri": [
-        "-"
+        "सम्राट माच्ची",
+        "Samrat Machhi"
       ],
       "gujarati": [
         "એમ્પરર",
         "Emperor"
       ],
       "kashmiri": [
-        "-"
+        "سَلطان ماہی",
+        "Sultan Mahi"
       ],
       "konkani": [
-        "-"
+        "सम्राट मासो",
+        "Samrat Maso"
       ],
       "maithili": [
-        "-"
+        "सम्राट माछ",
+        "Samrat Machh"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "एम्परर",
         "Emperor"
       ],
       "nepali": [
-        "-"
+        "सम्राट माछा",
+        "Samrat Machha"
       ],
       "odia": [
         "ଏମ୍ପେରର୍ ମାଛ",
@@ -3190,13 +3446,16 @@
         "Emperor Fish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱟᱡᱟ ᱦᱟᱠᱩ",
+        "Raja Haku"
       ],
       "sindhi": [
-        "-"
+        "بادشاهه مَڇِي",
+        "Badshah Machhi"
       ],
       "urdu": [
         "امپیرا مچھلی",
@@ -3217,17 +3476,20 @@
         "Lobster"
       ],
       "assamese": [
-        "-"
+        "ঝিংগা",
+        "Jhinga"
       ],
       "bengali": [
         "গলদা চিংড়ি",
         "Golda Chingri"
       ],
       "bodo": [
-        "-"
+        "नामे",
+        "Name"
       ],
       "dogri": [
-        "-"
+        "झींगा माच्ची",
+        "Jhinga Machhi"
       ],
       "gujarati": [
         "લોબસ્ટર",
@@ -3242,27 +3504,32 @@
         "Chippu Handi"
       ],
       "kashmiri": [
-        "-"
+        "جھینگا",
+        "Jhinga"
       ],
       "konkani": [
-        "-"
+        "खेकडो",
+        "Khekdo"
       ],
       "maithili": [
-        "-"
+        "झींगा माछ",
+        "Jhinga Machh"
       ],
       "malayalam": [
         "കൊഞ്ച്",
         "Konchu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "शेवंड",
         "Shevand"
       ],
       "nepali": [
-        "-"
+        "झींगा माछा",
+        "Jhinga Machha"
       ],
       "odia": [
         "ଗଲଦା ଚିଙ୍ଗୁଡ଼ି",
@@ -3273,13 +3540,16 @@
         "Jhinga Machhi"
       ],
       "sanskrit": [
-        "-"
+        "कुलीरः",
+        "Kuleerah"
       ],
       "santali": [
-        "-"
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
       ],
       "sindhi": [
-        "-"
+        "جِھينگو",
+        "Jheengo"
       ],
       "tamil": [
         "சிங்கி இறால்",
@@ -3308,17 +3578,20 @@
         "Oyster"
       ],
       "assamese": [
-        "-"
+        "সিপ",
+        "Sip"
       ],
       "bengali": [
         "ঝিনুক",
         "Jhinuk"
       ],
       "bodo": [
-        "-"
+        "शिप्पी",
+        "Sippi"
       ],
       "dogri": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "gujarati": [
         "ઓઇસ્ટર",
@@ -3333,27 +3606,32 @@
         "Chippu"
       ],
       "kashmiri": [
-        "-"
+        "سیپ",
+        "Seep"
       ],
       "konkani": [
-        "-"
+        "शिंपलो",
+        "Shimplo"
       ],
       "maithili": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "malayalam": [
         "മുരിങ്ങ",
         "Muringa"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
       ],
       "marathi": [
         "कालवं",
         "Kalva"
       ],
       "nepali": [
-        "-"
+        "सीप",
+        "Seep"
       ],
       "odia": [
         "କସ୍ତୁରୀ",
@@ -3364,13 +3642,16 @@
         "Seep"
       ],
       "sanskrit": [
-        "-"
+        "शुक्तिका",
+        "Shuktika"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱯ",
+        "Sip"
       ],
       "sindhi": [
-        "-"
+        "ڪالو",
+        "Kalu"
       ],
       "tamil": [
         "சிப்பி",
@@ -3399,17 +3680,20 @@
         "Sea Bass"
       ],
       "assamese": [
-        "-"
+        "ভেটকী",
+        "Bhetki"
       ],
       "bengali": [
         "ভেটকি",
         "Bhetki"
       ],
       "bodo": [
-        "-"
+        "भेटकि",
+        "Bhetki"
       ],
       "dogri": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "gujarati": [
         "જીતારો",
@@ -3424,27 +3708,32 @@
         "Nayikayi"
       ],
       "kashmiri": [
-        "-"
+        "سمُندری بیس",
+        "Samundari Bass"
       ],
       "konkani": [
-        "-"
+        "भेकती",
+        "Bhekti"
       ],
       "maithili": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "malayalam": [
         "കാളാഞ്ചി",
         "Kalanchi"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "खাজुरा",
         "Khajura"
       ],
       "nepali": [
-        "-"
+        "भेटकी",
+        "Bhetki"
       ],
       "odia": [
         "ଭେକ୍ଟି",
@@ -3455,13 +3744,16 @@
         "Bhetki"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱷᱮᱴᱠᱤ",
+        "Bhetki"
       ],
       "sindhi": [
-        "-"
+        "ڍانگرو",
+        "Dhangro"
       ],
       "tamil": [
         "கொடுவா",
@@ -3490,17 +3782,20 @@
         "Grouper"
       ],
       "assamese": [
-        "-"
+        "গ্ৰুপাৰ",
+        "Grouper"
       ],
       "bengali": [
         "গ্রুপার",
         "Grouper"
       ],
       "bodo": [
-        "-"
+        "ग्रुपार",
+        "Grouper"
       ],
       "dogri": [
-        "-"
+        "ग्रूपर",
+        "Grouper"
       ],
       "gujarati": [
         "ગોબરા",
@@ -3515,27 +3810,32 @@
         "Gopa"
       ],
       "kashmiri": [
-        "-"
+        "گروپر",
+        "Grouper"
       ],
       "konkani": [
-        "-"
+        "ग्रूपर",
+        "Grouper"
       ],
       "maithili": [
-        "-"
+        "ग्रूपर",
+        "Grouper"
       ],
       "malayalam": [
         "കലവ",
         "Kalava"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "गोबरा",
         "Gobra"
       ],
       "nepali": [
-        "-"
+        "ग्रुपर",
+        "Grouper"
       ],
       "odia": [
         "କଳା ମାଛ",
@@ -3546,13 +3846,16 @@
         "Grouper"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱨᱩᱯᱟᱨ",
+        "Grouper"
       ],
       "sindhi": [
-        "-"
+        "گروپر",
+        "Grouper"
       ],
       "tamil": [
         "கலவா",
@@ -3581,17 +3884,20 @@
         "Cobia"
       ],
       "assamese": [
-        "-"
+        "কোবিয়া",
+        "Cobia"
       ],
       "bengali": [
         "কোবিয়া",
         "Cobia"
       ],
       "bodo": [
-        "-"
+        "कोबि दा",
+        "Kobi Da"
       ],
       "dogri": [
-        "-"
+        "कोबिया",
+        "Kobiya"
       ],
       "gujarati": [
         "કોબિયા",
@@ -3606,27 +3912,32 @@
         "Kappu Meenu"
       ],
       "kashmiri": [
-        "-"
+        "کوبیا",
+        "Kobiya"
       ],
       "konkani": [
-        "-"
+        "कोबिया",
+        "Cobia"
       ],
       "maithili": [
-        "-"
+        "कोबिया",
+        "Cobia"
       ],
       "malayalam": [
         "മോത",
         "Modha"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "कोबिया",
         "Cobia"
       ],
       "nepali": [
-        "-"
+        "कोबिया",
+        "Cobia"
       ],
       "odia": [
         "କୋବିଆ",
@@ -3637,13 +3948,16 @@
         "Cobia"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱳᱵᱤᱭᱟ",
+        "Kobiya"
       ],
       "sindhi": [
-        "-"
+        "ڪوبيا",
+        "Kobia"
       ],
       "tamil": [
         "கடல் விரால்",
@@ -3672,17 +3986,20 @@
         "Mahi Mahi"
       ],
       "assamese": [
-        "-"
+        "মাহি মাহি",
+        "Mahi Mahi"
       ],
       "bengali": [
         "মাহি মাহি",
         "Mahi Mahi"
       ],
       "bodo": [
-        "-"
+        "माहि माहि",
+        "Mahi Mahi"
       ],
       "dogri": [
-        "-"
+        "माही माही",
+        "Mahi Mahi"
       ],
       "gujarati": [
         "ડોલ્ફિન",
@@ -3697,27 +4014,32 @@
         "Mahi Mahi"
       ],
       "kashmiri": [
-        "-"
+        "ماہی ماہی",
+        "Mahi Mahi"
       ],
       "konkani": [
-        "-"
+        "माही माही",
+        "Mahi Mahi"
       ],
       "maithili": [
-        "-"
+        "माही माही",
+        "Mahi Mahi"
       ],
       "malayalam": [
         "അവന",
         "Avana"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "माही माही",
         "Mahi Mahi"
       ],
       "nepali": [
-        "-"
+        "माही माही",
+        "Mahi Mahi"
       ],
       "odia": [
         "ମାହି ମାହି",
@@ -3728,13 +4050,16 @@
         "Mahi Mahi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱟᱦᱤ ᱢᱟᱦᱤ",
+        "Mahi Mahi"
       ],
       "sindhi": [
-        "-"
+        "ماهي ماهي",
+        "Mahi Mahi"
       ],
       "tamil": [
         "அவனா",
@@ -3763,17 +4088,20 @@
         "Swordfish"
       ],
       "assamese": [
-        "-"
+        "তৰোৱাল মাছ",
+        "Torowal Maas"
       ],
       "bengali": [
         "সোর্ডফিশ",
         "Swordfish"
       ],
       "bodo": [
-        "-"
+        "थोरा ना",
+        "Thora Na"
       ],
       "dogri": [
-        "-"
+        "तलवार माच्ची",
+        "Talwar Machhi"
       ],
       "gujarati": [
         "તલવાર",
@@ -3788,27 +4116,32 @@
         "Kathi Meenu"
       ],
       "kashmiri": [
-        "-"
+        "تَلوار ماہی",
+        "Talwar Mahi"
       ],
       "konkani": [
-        "-"
+        "तलवार मासो",
+        "Talwar Maso"
       ],
       "maithili": [
-        "-"
+        "तरवार माछ",
+        "Tarwar Machh"
       ],
       "malayalam": [
         "ഓലമീൻ",
         "Olameen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "तळवार",
         "Talwar"
       ],
       "nepali": [
-        "-"
+        "तरवार माछा",
+        "Tarwar Machha"
       ],
       "odia": [
         "ମୟୂର ପଙ୍ଖୀ",
@@ -3819,13 +4152,16 @@
         "Talwar Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱟᱨᱣᱟᱲ ᱦᱟᱠᱩ",
+        "Tarwar Haku"
       ],
       "sindhi": [
-        "-"
+        "تالار مَڇِي",
+        "Talwar Machhi"
       ],
       "tamil": [
         "மயிலா",
@@ -3854,17 +4190,20 @@
         "Stingray"
       ],
       "assamese": [
-        "-"
+        "পাৰি মাছ",
+        "Pari Maas"
       ],
       "bengali": [
         "শাপলাপাতা",
         "Shaplapata"
       ],
       "bodo": [
-        "-"
+        "स्तिं रे",
+        "Sting Ray"
       ],
       "dogri": [
-        "-"
+        "डंक माच्ची",
+        "Dank Machhi"
       ],
       "gujarati": [
         "સ્ટીંગરે",
@@ -3879,27 +4218,32 @@
         "Thorake"
       ],
       "kashmiri": [
-        "-"
+        "سٹِنگرے",
+        "Stingray"
       ],
       "konkani": [
-        "-"
+        "त्रीकोण मासो",
+        "Trikon Maso"
       ],
       "maithili": [
-        "-"
+        "डंक माछ",
+        "Dank Machh"
       ],
       "malayalam": [
         "തിരണ്ടി",
         "Thirandi"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "पाकट",
         "Pakat"
       ],
       "nepali": [
-        "-"
+        "डंक माछा",
+        "Danka Machha"
       ],
       "odia": [
         "ଶାଙ୍କୁଚ",
@@ -3910,13 +4254,16 @@
         "Stingray"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱴᱤᱝ ᱨᱮ",
+        "Sting Ray"
       ],
       "sindhi": [
-        "-"
+        "ڪارل",
+        "Karl"
       ],
       "tamil": [
         "திருக்கை",
@@ -3945,17 +4292,20 @@
         "Silver Belly"
       ],
       "assamese": [
-        "-"
+        "ৰূপা পেট",
+        "Rupa Pet"
       ],
       "bengali": [
         "সিলভার বেলি",
         "Silver Belly"
       ],
       "bodo": [
-        "-"
+        "रुफानि",
+        "Rupani"
       ],
       "dogri": [
-        "-"
+        "चांदी पेट",
+        "Chandi Pet"
       ],
       "gujarati": [
         "સિલ્વર બેલી",
@@ -3970,27 +4320,32 @@
         "Kuruchi"
       ],
       "kashmiri": [
-        "-"
+        "چاندی پیٹ",
+        "Chandi Pet"
       ],
       "konkani": [
-        "-"
+        "पापड़",
+        "Papad"
       ],
       "maithili": [
-        "-"
+        "चान्नी पेट",
+        "Channi Pet"
       ],
       "malayalam": [
         "മുള്ളൻ",
         "Mullan"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "काप",
         "Kap"
       ],
       "nepali": [
-        "-"
+        "चाँदी पेट",
+        "Chandi Pet"
       ],
       "odia": [
         "ଟଙ୍କା ଚାନ୍ଦି",
@@ -4001,13 +4356,16 @@
         "Silver Belly"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱩᱯᱟᱹ ᱦᱟᱠᱩ",
+        "Rupa Haku"
       ],
       "sindhi": [
-        "-"
+        "چاندِي پيٽ",
+        "Chandi Peth"
       ],
       "tamil": [
         "காரை",
@@ -4036,17 +4394,20 @@
         "Threadfin Bream"
       ],
       "assamese": [
-        "-"
+        "সুতা মাছ",
+        "Suta Maas"
       ],
       "bengali": [
         "রানি",
         "Rani"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "धागा माच्ची",
+        "Dhaga Machhi"
       ],
       "gujarati": [
         "રાણી",
@@ -4061,27 +4422,32 @@
         "Madmal"
       ],
       "kashmiri": [
-        "-"
+        "دھاگہ ماہی",
+        "Dhaga Mahi"
       ],
       "konkani": [
-        "-"
+        "रांवटी",
+        "Ranvti"
       ],
       "maithili": [
-        "-"
+        "धागा माछ",
+        "Dhaga Machh"
       ],
       "malayalam": [
         "ചെമ്മീൻ",
         "Chemmeen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "राणी",
         "Rani"
       ],
       "nepali": [
-        "-"
+        "धागो माछा",
+        "Dhago Machha"
       ],
       "odia": [
         "ରାଣୀ",
@@ -4092,13 +4458,16 @@
         "Threadfin Bream"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "اڇو مَڇِي",
+        "Achho Machhi"
       ],
       "tamil": [
         "சங்கரா",
@@ -4127,17 +4496,20 @@
         "Ribbon Fish"
       ],
       "assamese": [
-        "-"
+        "ফিটা মাছ",
+        "Phita Maas"
       ],
       "bengali": [
         "রূপচাঁদা",
         "Rupchanda"
       ],
       "bodo": [
-        "-"
+        "रिबन ना",
+        "Ribbon Na"
       ],
       "dogri": [
-        "-"
+        "रिबन माच्ची",
+        "Ribbon Machhi"
       ],
       "gujarati": [
         "વાલ",
@@ -4152,27 +4524,32 @@
         "Bale Meenu"
       ],
       "kashmiri": [
-        "-"
+        "ربن ماہی",
+        "Ribbon Mahi"
       ],
       "konkani": [
-        "-"
+        "फ़ित्ता मासो",
+        "Fitta Maso"
       ],
       "maithili": [
-        "-"
+        "रिबन माछ",
+        "Ribbon Machh"
       ],
       "malayalam": [
         "വാള",
         "Vala"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "वागटी",
         "Wagti"
       ],
       "nepali": [
-        "-"
+        "रिबन माछा",
+        "Ribbon Machha"
       ],
       "odia": [
         "ରୂପା ପାତିଆ",
@@ -4183,13 +4560,16 @@
         "Ribbon Fish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱤᱵᱚᱱ ᱦᱟᱠᱩ",
+        "Ribbon Haku"
       ],
       "sindhi": [
-        "-"
+        "پَتي مَڇِي",
+        "Patti Machhi"
       ],
       "tamil": [
         "வாளை",
@@ -4218,17 +4598,20 @@
         "Cuttlefish"
       ],
       "assamese": [
-        "-"
+        "কাটল ফিছ",
+        "Cuttlefish"
       ],
       "bengali": [
         "কাটলে ফিশ",
         "Cuttlefish"
       ],
       "bodo": [
-        "-"
+        "कातल ना",
+        "Katal Na"
       ],
       "dogri": [
-        "-"
+        "कटल फिश",
+        "Cuttlefish"
       ],
       "gujarati": [
         "કટલ ફિશ",
@@ -4243,27 +4626,32 @@
         "Kanave"
       ],
       "kashmiri": [
-        "-"
+        "کٹل فش",
+        "Cuttlefish"
       ],
       "konkani": [
-        "-"
+        "नाकट",
+        "Nakat"
       ],
       "maithili": [
-        "-"
+        "कटल फिश",
+        "Cuttlefish"
       ],
       "malayalam": [
         "കണവ",
         "Kanava"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "माखली",
         "Makhli"
       ],
       "nepali": [
-        "-"
+        "कटल फिश",
+        "Cuttlefish"
       ],
       "odia": [
         "କାଳି",
@@ -4274,13 +4662,16 @@
         "Cuttlefish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱴᱚᱞ ᱦᱟᱠᱩ",
+        "Katal Haku"
       ],
       "sindhi": [
-        "-"
+        "ڪٽل مَڇِي",
+        "Cuttle Machhi"
       ],
       "tamil": [
         "கனவா",
@@ -4309,17 +4700,20 @@
         "Mud Crab"
       ],
       "assamese": [
-        "-"
+        "কেঁকোৰা",
+        "Kekora"
       ],
       "bengali": [
         "কাঁকড়া",
         "Kankra"
       ],
       "bodo": [
-        "-"
+        "खान्ख्रा",
+        "Khankhra"
       ],
       "dogri": [
-        "-"
+        "कीचड़ केकड़ा",
+        "Keechad Kekda"
       ],
       "gujarati": [
         "કાદવ કરચલો",
@@ -4334,27 +4728,32 @@
         "Yedi"
       ],
       "kashmiri": [
-        "-"
+        "کاچ کیکڑا",
+        "Kaach Kekda"
       ],
       "konkani": [
-        "-"
+        "शीतल",
+        "Shital"
       ],
       "maithili": [
-        "-"
+        "कीचड़ केकड़ा",
+        "Kichad Kekda"
       ],
       "malayalam": [
         "ഞണ്ട്",
         "Njandu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "खेकडा",
         "Khekda"
       ],
       "nepali": [
-        "-"
+        "हिलो केकडा",
+        "Hilo Kekada"
       ],
       "odia": [
         "କଙ୍କଡା",
@@ -4365,13 +4764,16 @@
         "Kekda"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱟᱴᱠᱚᱢ",
+        "Katkom"
       ],
       "sindhi": [
-        "-"
+        "ڪينڪڙو",
+        "Kenkro"
       ],
       "tamil": [
         "நண்டு",
@@ -4400,17 +4802,20 @@
         "Tiger Prawn"
       ],
       "assamese": [
-        "-"
+        "বাঘা জঁ ি",
+        "Bagha Jingka"
       ],
       "bengali": [
         "বাগদা চিংড়ি",
         "Bagda Chingri"
       ],
       "bodo": [
-        "-"
+        "नामे",
+        "Name"
       ],
       "dogri": [
-        "-"
+        "बाघ झींगा",
+        "Bagh Jhinga"
       ],
       "gujarati": [
         "ટાઈગર પ્રોન",
@@ -4425,27 +4830,32 @@
         "Sigadi"
       ],
       "kashmiri": [
-        "-"
+        "شیر جھینگا",
+        "Sher Jhinga"
       ],
       "konkani": [
-        "-"
+        "झींगो",
+        "Jhingo"
       ],
       "maithili": [
-        "-"
+        "बाघ झींगा",
+        "Bagh Jhinga"
       ],
       "malayalam": [
         "ചെമ്മീൻ",
         "Chemmeen"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "कोळंबी",
         "Kolambi"
       ],
       "nepali": [
-        "-"
+        "बाघ झींगा",
+        "Bagh Jhinga"
       ],
       "odia": [
         "ବଡ ଚିଙ୍ଗୁଡି",
@@ -4456,13 +4866,16 @@
         "Tiger Jhinga"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
       ],
       "sindhi": [
-        "-"
+        "وڏو جِھينگو",
+        "Waddo Jheengo"
       ],
       "tamil": [
         "பெரிய இறால்",
@@ -4491,17 +4904,20 @@
         "Scampi"
       ],
       "assamese": [
-        "-"
+        "গলদা",
+        "Golda"
       ],
       "bengali": [
         "গলদা চিংড়ি",
         "Golda Chingri"
       ],
       "bodo": [
-        "-"
+        "नामे",
+        "Name"
       ],
       "dogri": [
-        "-"
+        "गोलदा झींगा",
+        "Golda Jhinga"
       ],
       "gujarati": [
         "સ્કેampi",
@@ -4516,27 +4932,32 @@
         "Scampi"
       ],
       "kashmiri": [
-        "-"
+        "سکامپی",
+        "Scampi"
       ],
       "konkani": [
-        "-"
+        "मोटो झींगो",
+        "Moto Jhingo"
       ],
       "maithili": [
-        "-"
+        "गोल्डा झींगा",
+        "Golda Jhinga"
       ],
       "malayalam": [
         "ആറ്റുകൊഞ്ച്",
         "Attukonchu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "स्कॅम्पी",
         "Scampi"
       ],
       "nepali": [
-        "-"
+        "गोल्डा झींगा",
+        "Golda Jhinga"
       ],
       "odia": [
         "ଗଲଦା",
@@ -4547,13 +4968,16 @@
         "Scampi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
       ],
       "sindhi": [
-        "-"
+        "جِھينگو",
+        "Jheengo"
       ],
       "tamil": [
         "பெரிய இறால்",
@@ -4582,17 +5006,20 @@
         "Reef Cod"
       ],
       "assamese": [
-        "-"
+        "ৰিফ কড",
+        "Reef Cod"
       ],
       "bengali": [
         "কোরাল",
         "Koral"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "रीफ कोड",
+        "Reef Cod"
       ],
       "gujarati": [
         "રીફ કોડ",
@@ -4607,27 +5034,32 @@
         "Reef Cod"
       ],
       "kashmiri": [
-        "-"
+        "ریف کوڈ",
+        "Reef Cod"
       ],
       "konkani": [
-        "-"
+        "कोड",
+        "Cod"
       ],
       "maithili": [
-        "-"
+        "रीफ कोड",
+        "Reef Cod"
       ],
       "malayalam": [
         "കലവ",
         "Kalava"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "रीफ कोड",
         "Reef Cod"
       ],
       "nepali": [
-        "-"
+        "रीफ कोड",
+        "Reef Cod"
       ],
       "odia": [
         "କୋଡ",
@@ -4638,13 +5070,16 @@
         "Reef Cod"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "ڪوڊ",
+        "Cod"
       ],
       "tamil": [
         "கலவா",
@@ -4673,17 +5108,20 @@
         "Parrot Fish"
       ],
       "assamese": [
-        "-"
+        "দয়না মাছ",
+        "Doina Maas"
       ],
       "bengali": [
         "প্যারট ফিশ",
         "Parrot Fish"
       ],
       "bodo": [
-        "-"
+        "सुगा ना",
+        "Suga Na"
       ],
       "dogri": [
-        "-"
+        "तोता माच्ची",
+        "Tota Machhi"
       ],
       "gujarati": [
         "પોપટ માછલી",
@@ -4698,27 +5136,32 @@
         "Gini Meenu"
       ],
       "kashmiri": [
-        "-"
+        "طوطا ماہی",
+        "Tota Mahi"
       ],
       "konkani": [
-        "-"
+        "पोपत मासो",
+        "Popat Maso"
       ],
       "maithili": [
-        "-"
+        "तोता माछ",
+        "Tota Machh"
       ],
       "malayalam": [
         "തത്ത മീൻ",
         "Thatha Meen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "पोपट मासा",
         "Popat Masa"
       ],
       "nepali": [
-        "-"
+        "सुगा माछा",
+        "Suga Machha"
       ],
       "odia": [
         "ତୋତା ମାଛ",
@@ -4729,13 +5172,16 @@
         "Tota Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱤᱨᱩ ᱦᱟᱠᱩ",
+        "Miru Haku"
       ],
       "sindhi": [
-        "-"
+        "طوطو مَڇِي",
+        "Toto Machhi"
       ],
       "tamil": [
         "கிளி மீன்",
@@ -4764,17 +5210,20 @@
         "White Bait"
       ],
       "assamese": [
-        "-"
+        "বগা মাছ",
+        "Boga Maas"
       ],
       "bengali": [
         "পাঁচ মিশালি",
         "Panch Mishali"
       ],
       "bodo": [
-        "-"
+        "गुफुर ना",
+        "Guphur Na"
       ],
       "dogri": [
-        "-"
+        "सफेद माच्ची",
+        "Safed Machhi"
       ],
       "gujarati": [
         "વ્હાઈટ બેટ",
@@ -4789,27 +5238,32 @@
         "Bili Meenu"
       ],
       "kashmiri": [
-        "-"
+        "سفید ماہی",
+        "Safed Mahi"
       ],
       "konkani": [
-        "-"
+        "धाबो मासो",
+        "Dhabo Maso"
       ],
       "maithili": [
-        "-"
+        "सफेद माछ",
+        "Safed Machh"
       ],
       "malayalam": [
         "നെത്തോലി",
         "Netholi"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "व्हाइट बेट",
         "White Bait"
       ],
       "nepali": [
-        "-"
+        "सेतो माछा",
+        "Seto Machha"
       ],
       "odia": [
         "ଚୁନା ମାଛ",
@@ -4820,13 +5274,16 @@
         "White Bait"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱩᱸᱰ ᱦᱟᱠᱩ",
+        "Pund Haku"
       ],
       "sindhi": [
-        "-"
+        "ننڍي مَڇِي",
+        "Nandhi Machhi"
       ],
       "tamil": [
         "நெத்திலி",
@@ -4855,17 +5312,20 @@
         "Indian Whiting"
       ],
       "assamese": [
-        "-"
+        "হোৱাইটিং",
+        "Whiting"
       ],
       "bengali": [
         "লেডি ফিশ",
         "Lady Fish"
       ],
       "bodo": [
-        "-"
+        "ह्वाइतिं",
+        "Whiting"
       ],
       "dogri": [
-        "-"
+        "व्हाइटिंग",
+        "Whiting"
       ],
       "gujarati": [
         "લેડી ફિશ",
@@ -4880,27 +5340,32 @@
         "Kane"
       ],
       "kashmiri": [
-        "-"
+        "وائٹِنگ",
+        "Whiting"
       ],
       "konkani": [
-        "-"
+        "व्हाइटिंग",
+        "Whiting"
       ],
       "maithili": [
-        "-"
+        "ह्वाइटिंग",
+        "Whiting"
       ],
       "malayalam": [
         "പൂഴാൻ",
         "Poozhan"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "मुडदुस",
         "Muddus"
       ],
       "nepali": [
-        "-"
+        "ह्वाइटिंग",
+        "Whiting"
       ],
       "odia": [
         "ଖୁଦୁରା",
@@ -4911,13 +5376,16 @@
         "Whiting"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱣᱟᱭᱴᱤᱝ",
+        "Whiting"
       ],
       "sindhi": [
-        "-"
+        "وائيٽنگ",
+        "Whiting"
       ],
       "tamil": [
         "கிழங்கான்",
@@ -4946,17 +5414,20 @@
         "Malabar Trevally"
       ],
       "assamese": [
-        "-"
+        "পেৰা",
+        "Para"
       ],
       "bengali": [
         "ট্রেভালি",
         "Trevally"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "मालाबार ट्रेवली",
+        "Malabar Trevally"
       ],
       "gujarati": [
         "ટ્રેવલી",
@@ -4971,27 +5442,32 @@
         "Bangde"
       ],
       "kashmiri": [
-        "-"
+        "مالابار ٹریولی",
+        "Malabar Trevally"
       ],
       "konkani": [
-        "-"
+        "ट्रेवली",
+        "Trevally"
       ],
       "maithili": [
-        "-"
+        "मालाबार ट्रेवली",
+        "Malabar Trevally"
       ],
       "malayalam": [
         "വറ്റ",
         "Vatta"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "शिंपी",
         "Shimpi"
       ],
       "nepali": [
-        "-"
+        "मालाबार त्रेवली",
+        "Malabar Trevally"
       ],
       "odia": [
         "ପାରା",
@@ -5002,13 +5478,16 @@
         "Trevally"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "تراويلي",
+        "Traveli"
       ],
       "tamil": [
         "பாறை",
@@ -5037,17 +5516,20 @@
         "Giant Freshwater Prawn"
       ],
       "assamese": [
-        "-"
+        "গলদা",
+        "Gelda"
       ],
       "bengali": [
         "গলদা চিংড়ি",
         "Golda Chingri"
       ],
       "bodo": [
-        "-"
+        "गेदेर नामे",
+        "Geder Name"
       ],
       "dogri": [
-        "-"
+        "बड्डा झींगा",
+        "Badda Jhinga"
       ],
       "gujarati": [
         "મોટા ઝીંગા",
@@ -5062,27 +5544,32 @@
         "Sihi Neeru Sigadi"
       ],
       "kashmiri": [
-        "-"
+        "بَڑ جھینگا",
+        "Bad Jhinga"
       ],
       "konkani": [
-        "-"
+        "मोटो झींगो",
+        "Moto Jhingo"
       ],
       "maithili": [
-        "-"
+        "पैघ झींगा",
+        "Paigh Jhinga"
       ],
       "malayalam": [
         "ആറ്റുകൊഞ്ച്",
         "Attukonchu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "मोठा कोळंबी",
         "Motha Kolambi"
       ],
       "nepali": [
-        "-"
+        "ठूलो झींगा",
+        "Thulo Jhinga"
       ],
       "odia": [
         "ଗଲଦା",
@@ -5093,13 +5580,16 @@
         "Vadda Jhinga"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱟᱨᱟᱝ ᱤᱪᱟᱹᱜ",
+        "Marang Ichag"
       ],
       "sindhi": [
-        "-"
+        "مٺي پاڻي جو جِھينگو",
+        "Mithi Pani Jo Jheengo"
       ],
       "tamil": [
         "பெரிய நன்னீர் இறால்",
@@ -5128,17 +5618,20 @@
         "Ponyfish"
       ],
       "assamese": [
-        "-"
+        "পনি ফিছ",
+        "Ponyfish"
       ],
       "bengali": [
         "টাকা মাছ",
         "Taka Mach"
       ],
       "bodo": [
-        "-"
+        "पनि ना",
+        "Poni Na"
       ],
       "dogri": [
-        "-"
+        "पोनी फिश",
+        "Ponyfish"
       ],
       "gujarati": [
         "પોનીફિશ",
@@ -5153,27 +5646,32 @@
         "Kuruchi"
       ],
       "kashmiri": [
-        "-"
+        "پونی فش",
+        "Ponyfish"
       ],
       "konkani": [
-        "-"
+        "पोनी फिश",
+        "Ponyfish"
       ],
       "maithili": [
-        "-"
+        "पोनी फिश",
+        "Ponyfish"
       ],
       "malayalam": [
         "മുള്ളൻ",
         "Mullan"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "कप्पी",
         "Kappi"
       ],
       "nepali": [
-        "-"
+        "पोनी फिश",
+        "Ponyfish"
       ],
       "odia": [
         "ପୋନି",
@@ -5184,13 +5682,16 @@
         "Ponyfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱳᱱᱤ ᱦᱟᱠᱩ",
+        "Poni Haku"
       ],
       "sindhi": [
-        "-"
+        "پوني مَڇِي",
+        "Pony Machhi"
       ],
       "tamil": [
         "காரை",
@@ -5219,17 +5720,20 @@
         "Lizardfish"
       ],
       "assamese": [
-        "-"
+        "জেঙেলী মাছ",
+        "Jengeli Maas"
       ],
       "bengali": [
         "টিকটিকি মাছ",
         "Tiktiki Mach"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "छिप्पकळी माच्ची",
+        "Chhippakli Machhi"
       ],
       "gujarati": [
         "લિઝાર્ડ ફિશ",
@@ -5244,27 +5748,32 @@
         "Halli Meenu"
       ],
       "kashmiri": [
-        "-"
+        "کِرکَٹ ماہی",
+        "Kirkat Mahi"
       ],
       "konkani": [
-        "-"
+        "लिझर्ड फिश",
+        "Lizardfish"
       ],
       "maithili": [
-        "-"
+        "छिपकली माछ",
+        "Chhipkali Machh"
       ],
       "malayalam": [
         "അരണ മീൻ",
         "Arana Meen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "चोर बोंबिल",
         "Chor Bombil"
       ],
       "nepali": [
-        "-"
+        "छेपारो माछा",
+        "Cheparo Machha"
       ],
       "odia": [
         "ବାଲି",
@@ -5275,13 +5784,16 @@
         "Lizardfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "ڪِرڙ مَڇِي",
+        "Kirr Machhi"
       ],
       "tamil": [
         "தண்ணீர் பண்ணி",
@@ -5310,17 +5822,20 @@
         "Flathead"
       ],
       "assamese": [
-        "-"
+        "চেপটা মাছ",
+        "Septa Maas"
       ],
       "bengali": [
         "ফ্ল্যাটহেড",
         "Flathead"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "चपटा माच्ची",
+        "Chapta Machhi"
       ],
       "gujarati": [
         "ફ્લેટહેડ",
@@ -5335,27 +5850,32 @@
         "Bechi"
       ],
       "kashmiri": [
-        "-"
+        "چپٹا ماہی",
+        "Chapta Mahi"
       ],
       "konkani": [
-        "-"
+        "चपटो मासो",
+        "Chapto Maso"
       ],
       "maithili": [
-        "-"
+        "चपटा माछ",
+        "Chapta Machh"
       ],
       "malayalam": [
         "എരി",
         "Eri"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "फ्लैटहेड",
         "Flathead"
       ],
       "nepali": [
-        "-"
+        "चपटो माछा",
+        "Chapto Machha"
       ],
       "odia": [
         "ଚେପ୍ଟା ମୁଣ୍ଡି",
@@ -5366,13 +5886,16 @@
         "Flathead"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "چپٽي مَڇِي",
+        "Chapti Machhi"
       ],
       "tamil": [
         "உலவை",
@@ -5401,17 +5924,20 @@
         "Goatfish"
       ],
       "assamese": [
-        "-"
+        "ছাগলী মাছ",
+        "Sagoli Maas"
       ],
       "bengali": [
         "গোটফিশ",
         "Goatfish"
       ],
       "bodo": [
-        "-"
+        "बोरमा ना",
+        "Borma Na"
       ],
       "dogri": [
-        "-"
+        "बकरी माच्ची",
+        "Bakri Machhi"
       ],
       "gujarati": [
         "ગોટફિશ",
@@ -5426,27 +5952,32 @@
         "Kuri Meenu"
       ],
       "kashmiri": [
-        "-"
+        "بوز ماہی",
+        "Boz Mahi"
       ],
       "konkani": [
-        "-"
+        "गोट फिश",
+        "Goatfish"
       ],
       "maithili": [
-        "-"
+        "बकरी माछ",
+        "Bakri Machh"
       ],
       "malayalam": [
         "നവര",
         "Navara"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "गोटफिश",
         "Goatfish"
       ],
       "nepali": [
-        "-"
+        "बाख्रा माछा",
+        "Bakhra Machha"
       ],
       "odia": [
         "ଛେଳି ମାଛ",
@@ -5457,13 +5988,16 @@
         "Goatfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱮᱨᱚᱢ ᱦᱟᱠᱩ",
+        "Merom Haku"
       ],
       "sindhi": [
-        "-"
+        "ٻاڪري مَڇِي",
+        "Bakri Machhi"
       ],
       "tamil": [
         "நவரை",
@@ -5492,17 +6026,20 @@
         "Basa"
       ],
       "assamese": [
-        "-"
+        "বাসা",
+        "Basa"
       ],
       "bengali": [
         "বাসা",
         "Basa"
       ],
       "bodo": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "dogri": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "gujarati": [
         "બાસા",
@@ -5517,27 +6054,32 @@
         "Basa"
       ],
       "kashmiri": [
-        "-"
+        "باسا",
+        "Basa"
       ],
       "konkani": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "maithili": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "malayalam": [
         "ബാല",
         "Basa"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "बासा",
         "Basa"
       ],
       "nepali": [
-        "-"
+        "बासा",
+        "Basa"
       ],
       "odia": [
         "ବସା",
@@ -5548,13 +6090,16 @@
         "Basa"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱟᱥᱟ",
+        "Basa"
       ],
       "sindhi": [
-        "-"
+        "باسا",
+        "Basa"
       ],
       "tamil": [
         "கெளுத்தி",
@@ -5583,17 +6128,20 @@
         "Pangasius"
       ],
       "assamese": [
-        "-"
+        "পেংগাছিয়াছ",
+        "Pangasius"
       ],
       "bengali": [
         "পাঙ্গাস",
         "Pangas"
       ],
       "bodo": [
-        "-"
+        "पांगासिआस",
+        "Pangasius"
       ],
       "dogri": [
-        "-"
+        "पंगासियस",
+        "Pangasiyas"
       ],
       "gujarati": [
         "પંગાસ",
@@ -5608,27 +6156,32 @@
         "Pangas"
       ],
       "kashmiri": [
-        "-"
+        "پینگاسیَس",
+        "Pangasiyas"
       ],
       "konkani": [
-        "-"
+        "पॅंगासियस",
+        "Pangasius"
       ],
       "maithili": [
-        "-"
+        "पांगासियस",
+        "Pangasius"
       ],
       "malayalam": [
         "പാങ്കാസ്",
         "Pangas"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "पंगास",
         "Pangas"
       ],
       "nepali": [
-        "-"
+        "प्याङ्गासियस",
+        "Pangasius"
       ],
       "odia": [
         "ପଙ୍ଗାସ",
@@ -5639,13 +6192,16 @@
         "Pangasius"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱟᱝᱜᱟᱥᱤᱭᱟᱥ",
+        "Pangasius"
       ],
       "sindhi": [
-        "-"
+        "پانگاسيس",
+        "Pangasius"
       ],
       "tamil": [
         "பங்காஸ்",
@@ -5674,17 +6230,20 @@
         "Grass Carp"
       ],
       "assamese": [
-        "-"
+        "ঘাঁহ ৰৌ",
+        "Ghah Rou"
       ],
       "bengali": [
         "গ্রাস কাল",
         "Grass Carp"
       ],
       "bodo": [
-        "-"
+        "ग्रास कारप",
+        "Grass Carp"
       ],
       "dogri": [
-        "-"
+        "घाह रोहू",
+        "Ghah Rohu"
       ],
       "gujarati": [
         "ગ્રાસ કાર્પ",
@@ -5699,27 +6258,32 @@
         "Hullu Gyande"
       ],
       "kashmiri": [
-        "-"
+        "گھاہ کارپ",
+        "Ghah Carp"
       ],
       "konkani": [
-        "-"
+        "गवत रोहू",
+        "Gawat Rohu"
       ],
       "maithili": [
-        "-"
+        "घास रऊ",
+        "Ghas Rau"
       ],
       "malayalam": [
         "ഗ്രാസ് കാർപ്പ്",
         "Grass Carp"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "ग्रास कार्प",
         "Grass Carp"
       ],
       "nepali": [
-        "-"
+        "घाँस रौ",
+        "Ghans Rou"
       ],
       "odia": [
         "ଘାସ ରୋହି",
@@ -5730,13 +6294,16 @@
         "Grass Carp"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱷᱟᱥ ᱠᱟᱨᱯ",
+        "Ghas Carp"
       ],
       "sindhi": [
-        "-"
+        "گاهه مَڇِي",
+        "Gah Machhi"
       ],
       "tamil": [
         "புல் கெண்டை",
@@ -5765,17 +6332,20 @@
         "Silver Carp"
       ],
       "assamese": [
-        "-"
+        "ৰূপা ৰৌ",
+        "Rupa Rou"
       ],
       "bengali": [
         "সিলভার কাল",
         "Silver Carp"
       ],
       "bodo": [
-        "-"
+        "सिलभार कारप",
+        "Silver Carp"
       ],
       "dogri": [
-        "-"
+        "चांदी रोहू",
+        "Chandi Rohu"
       ],
       "gujarati": [
         "સિલ્વર કાર્પ",
@@ -5790,27 +6360,32 @@
         "Belli Gyande"
       ],
       "kashmiri": [
-        "-"
+        "چاندی کارپ",
+        "Chandi Carp"
       ],
       "konkani": [
-        "-"
+        "चांदी रोहू",
+        "Chandi Rohu"
       ],
       "maithili": [
-        "-"
+        "चान्नी रऊ",
+        "Channi Rau"
       ],
       "malayalam": [
         "സിൽവർ കാർപ്പ്",
         "Silver Carp"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "सिल्व्हर कार्प",
         "Silver Carp"
       ],
       "nepali": [
-        "-"
+        "चाँदी रौ",
+        "Chandi Rou"
       ],
       "odia": [
         "ରୂପା ରୋହି",
@@ -5821,13 +6396,16 @@
         "Silver Carp"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱞᱵᱷᱚᱨ ᱠᱟᱨᱯ",
+        "Silver Carp"
       ],
       "sindhi": [
-        "-"
+        "چاندِي ڪارپ",
+        "Chandi Carp"
       ],
       "tamil": [
         "வெள்ளி கெண்டை",
@@ -5864,10 +6442,12 @@
         "Magur"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "चलदा माच्ची",
+        "Chalda Machhi"
       ],
       "gujarati": [
         "કેટફિશ",
@@ -5882,27 +6462,32 @@
         "Margala"
       ],
       "kashmiri": [
-        "-"
+        "ہِلنے والی ماہی",
+        "Hilne Wali Mahi"
       ],
       "konkani": [
-        "-"
+        "चलणारा मासो",
+        "Chalnara Maso"
       ],
       "maithili": [
-        "-"
+        "चलैत माछ",
+        "Chalait Machh"
       ],
       "malayalam": [
         "മുഷി",
         "Mushi"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "शिंपी",
         "Shimpi"
       ],
       "nepali": [
-        "-"
+        "हिँड्ने माछा",
+        "Hidne Machha"
       ],
       "odia": [
         "ମାଗୁର",
@@ -5913,13 +6498,16 @@
         "Catfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "ڪيٽ مَڇِي",
+        "Cat Machhi"
       ],
       "tamil": [
         "கெளுத்தி",
@@ -5956,10 +6544,12 @@
         "Koi"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "च्चड़दा माच्ची",
+        "Chhadda Machhi"
       ],
       "gujarati": [
         "ક્લાઇમ્બિંગ પર્ચ",
@@ -5974,27 +6564,32 @@
         "Eruva Meenu"
       ],
       "kashmiri": [
-        "-"
+        "چَڑھنہ وول ماہی",
+        "Chadhanawol Mahi"
       ],
       "konkani": [
-        "-"
+        "चढणारा मासो",
+        "Chadhnara Maso"
       ],
       "maithili": [
-        "-"
+        "चढ़ैत माछ",
+        "Chadhait Machh"
       ],
       "malayalam": [
         "കല്ലേമുട്ടി",
         "Kallemutti"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "कवई",
         "Kavai"
       ],
       "nepali": [
-        "-"
+        "चढ्ने माछा",
+        "Chadhne Machha"
       ],
       "odia": [
         "କୋଇ",
@@ -6005,13 +6600,16 @@
         "Perch"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "چڙهندڙ مَڇِي",
+        "Charhandar Machhi"
       ],
       "tamil": [
         "பனையேறி கெண்டை",
@@ -6048,10 +6646,12 @@
         "Kholse"
       ],
       "bodo": [
-        "-"
+        "गौराम",
+        "Gourami"
       ],
       "dogri": [
-        "-"
+        "गोरामी",
+        "Gorami"
       ],
       "gujarati": [
         "ગૌરામી",
@@ -6066,27 +6666,32 @@
         "Gourami"
       ],
       "kashmiri": [
-        "-"
+        "گورامی",
+        "Gorami"
       ],
       "konkani": [
-        "-"
+        "गोरामी",
+        "Gorami"
       ],
       "maithili": [
-        "-"
+        "गोरामी",
+        "Gorami"
       ],
       "malayalam": [
         "ഗൗരാമി",
         "Gourami"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "गौरामी",
         "Gourami"
       ],
       "nepali": [
-        "-"
+        "गोरामी",
+        "Gorami"
       ],
       "odia": [
         "ଗୌରାମି",
@@ -6097,13 +6702,16 @@
         "Gourami"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱳᱨᱟᱢᱤ",
+        "Gourami"
       ],
       "sindhi": [
-        "-"
+        "گورامي",
+        "Gorami"
       ],
       "tamil": [
         "கௌராமி",
@@ -6140,10 +6748,12 @@
         "Chital"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "फेदरबैक",
+        "Featherback"
       ],
       "gujarati": [
         "ચિત્તલ",
@@ -6158,27 +6768,32 @@
         "Chitala"
       ],
       "kashmiri": [
-        "-"
+        "فیدر بیک",
+        "Featherback"
       ],
       "konkani": [
-        "-"
+        "फेदरबॅक",
+        "Featherback"
       ],
       "maithili": [
-        "-"
+        "फेदरबैक",
+        "Featherback"
       ],
       "malayalam": [
         "അമ്പട്ടൻ വാള",
         "Ambattan Vala"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "चितुल",
         "Chitul"
       ],
       "nepali": [
-        "-"
+        "फेदरब्याक",
+        "Featherback"
       ],
       "odia": [
         "ଚିତଲ",
@@ -6189,13 +6804,16 @@
         "Featherback"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "پري مَڇِي",
+        "Pari Machhi"
       ],
       "tamil": [
         "அம்பட்டன் வாழை",
@@ -6224,17 +6842,20 @@
         "Eel"
       ],
       "assamese": [
-        "-"
+        "বাম মাছ",
+        "Bam Maas"
       ],
       "bengali": [
         "বাইন",
         "Baim"
       ],
       "bodo": [
-        "-"
+        "कुसिआ",
+        "Kusia"
       ],
       "dogri": [
-        "-"
+        "बाम माच्ची",
+        "Bam Machhi"
       ],
       "gujarati": [
         "ઈલ",
@@ -6249,27 +6870,32 @@
         "Havu Meenu"
       ],
       "kashmiri": [
-        "-"
+        "بام ماہی",
+        "Bam Mahi"
       ],
       "konkani": [
-        "-"
+        "भाम मासो",
+        "Bham Maso"
       ],
       "maithili": [
-        "-"
+        "बाम माछ",
+        "Bam Machh"
       ],
       "malayalam": [
         "ആരകൻ",
         "Aarakan"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "वाम",
         "Vam"
       ],
       "nepali": [
-        "-"
+        "बाम माछा",
+        "Bam Machha"
       ],
       "odia": [
         "ବାଲିଆ",
@@ -6280,13 +6906,16 @@
         "Eel"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱟᱢ ᱦᱟᱠᱩ",
+        "Bam Haku"
       ],
       "sindhi": [
-        "-"
+        "بام",
+        "Bam"
       ],
       "tamil": [
         "விலாங்கு",
@@ -6315,17 +6944,20 @@
         "Octopus"
       ],
       "assamese": [
-        "-"
+        "আষ্টোপাছ",
+        "Octopus"
       ],
       "bengali": [
         "অক্টোপাস",
         "Octopus"
       ],
       "bodo": [
-        "-"
+        "अक्तपास",
+        "Octopus"
       ],
       "dogri": [
-        "-"
+        "अष्टपदी",
+        "Ashtapadi"
       ],
       "gujarati": [
         "ઓક્ટોપસ",
@@ -6340,27 +6972,32 @@
         "Octopus"
       ],
       "kashmiri": [
-        "-"
+        "آکٹوپس",
+        "Octopus"
       ],
       "konkani": [
-        "-"
+        "ऑक्टोपस",
+        "Octopus"
       ],
       "maithili": [
-        "-"
+        "अष्टपदी",
+        "Ashtapadi"
       ],
       "malayalam": [
         "നീരാളി",
         "Neerali"
       ],
       "manipuri": [
-        "-"
+        "ꯑꯣꯛꯇꯣꯄꯁ",
+        "Octopus"
       ],
       "marathi": [
         "अष्टपाद",
         "Ashtapaad"
       ],
       "nepali": [
-        "-"
+        "अष्टपदी",
+        "Ashtapadi"
       ],
       "odia": [
         "ଅଷ୍ଟପଦୀ",
@@ -6371,13 +7008,16 @@
         "Octopus"
       ],
       "sanskrit": [
-        "-"
+        "अष्टपादः",
+        "Ashtapadah"
       ],
       "santali": [
-        "-"
+        "ᱚᱠᱴᱳᱯᱟᱥ",
+        "Octopus"
       ],
       "sindhi": [
-        "-"
+        "اٺ ٽنگو",
+        "Ath Tango"
       ],
       "tamil": [
         "பேய் கணவாய்",
@@ -6406,17 +7046,20 @@
         "Scallops"
       ],
       "assamese": [
-        "-"
+        "স্কেলপ",
+        "Scallop"
       ],
       "bengali": [
         "স্ক্যালপ",
         "Scallop"
       ],
       "bodo": [
-        "-"
+        "शिप्पी",
+        "Sippi"
       ],
       "dogri": [
-        "-"
+        "स्कैलप",
+        "Scallop"
       ],
       "gujarati": [
         "સ્કેલોપ્સ",
@@ -6431,27 +7074,32 @@
         "Chippu"
       ],
       "kashmiri": [
-        "-"
+        "سکیلپ",
+        "Scallop"
       ],
       "konkani": [
-        "-"
+        "स्कॅलप",
+        "Scallop"
       ],
       "maithili": [
-        "-"
+        "स्कैलप",
+        "Scallop"
       ],
       "malayalam": [
         "കക്ക",
         "Kakka"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
       ],
       "marathi": [
         "शिंपले",
         "Shimple"
       ],
       "nepali": [
-        "-"
+        "स्क्यालप",
+        "Scallop"
       ],
       "odia": [
         "ସ୍କାଲପ",
@@ -6462,13 +7110,16 @@
         "Scallop"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱯ",
+        "Sip"
       ],
       "sindhi": [
-        "-"
+        "سِپ",
+        "Sip"
       ],
       "tamil": [
         "சிப்பி",
@@ -6497,17 +7148,20 @@
         "Periwinkle"
       ],
       "assamese": [
-        "-"
+        "শংখ",
+        "Shongkho"
       ],
       "bengali": [
         "গুঁড়ি",
         "Gugli"
       ],
       "bodo": [
-        "-"
+        "शाम्बु",
+        "Sambu"
       ],
       "dogri": [
-        "-"
+        "घोंगा",
+        "Ghonga"
       ],
       "gujarati": [
         "ગોકળગાય",
@@ -6522,27 +7176,32 @@
         "Basavanahulu"
       ],
       "kashmiri": [
-        "-"
+        "کونکھ",
+        "Konkh"
       ],
       "konkani": [
-        "-"
+        "शिकारू",
+        "Shikaru"
       ],
       "maithili": [
-        "-"
+        "घोंघा",
+        "Ghongha"
       ],
       "malayalam": [
         "കക്ക",
         "Kakka"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
       ],
       "marathi": [
         "गोगलगाय",
         "Gogalgai"
       ],
       "nepali": [
-        "-"
+        "घोंगा",
+        "Ghonga"
       ],
       "odia": [
         "ଗୁଗୁଲି",
@@ -6553,13 +7212,16 @@
         "Ghoga"
       ],
       "sanskrit": [
-        "-"
+        "शङ्खः",
+        "Shankhah"
       ],
       "santali": [
-        "-"
+        "ᱥᱤᱯ",
+        "Sip"
       ],
       "sindhi": [
-        "-"
+        "گھونگھو",
+        "Ghongho"
       ],
       "tamil": [
         "சங்கு",
@@ -6588,17 +7250,20 @@
         "Snail"
       ],
       "assamese": [
-        "-"
+        "লেদা",
+        "Leda"
       ],
       "bengali": [
         "শামুক",
         "Shamuk"
       ],
       "bodo": [
-        "-"
+        "शाम्बु",
+        "Sambu"
       ],
       "dogri": [
-        "-"
+        "घोंगा",
+        "Ghonga"
       ],
       "gujarati": [
         "ગોકળગાય",
@@ -6613,27 +7278,32 @@
         "Basavanahulu"
       ],
       "kashmiri": [
-        "-"
+        "گھونگ",
+        "Ghong"
       ],
       "konkani": [
-        "-"
+        "गोंगा",
+        "Gonga"
       ],
       "maithili": [
-        "-"
+        "घोंघा",
+        "Ghongha"
       ],
       "malayalam": [
         "ഒച്ച്",
         "Ochhu"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
       ],
       "marathi": [
         "गोगलगाय",
         "Gogalgai"
       ],
       "nepali": [
-        "-"
+        "घोंगा",
+        "Ghonga"
       ],
       "odia": [
         "ଗେଣ୍ଡା",
@@ -6644,13 +7314,16 @@
         "Ghoga"
       ],
       "sanskrit": [
-        "-"
+        "शम्बूकः",
+        "Shambukah"
       ],
       "santali": [
-        "-"
+        "ᱥᱩᱛᱤ",
+        "Suti"
       ],
       "sindhi": [
-        "-"
+        "گھونگھو",
+        "Ghongho"
       ],
       "tamil": [
         "நத்தை",
@@ -6679,17 +7352,20 @@
         "Mudskipper"
       ],
       "assamese": [
-        "-"
+        "মাটি মাছ",
+        "Mati Maas"
       ],
       "bengali": [
         "নেদ",
         "Lyad"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "कीचड़ माच्ची",
+        "Keechad Machhi"
       ],
       "gujarati": [
         "મડસ્કીપર",
@@ -6704,27 +7380,32 @@
         "Mudskipper"
       ],
       "kashmiri": [
-        "-"
+        "کاچ ماہی",
+        "Kaach Mahi"
       ],
       "konkani": [
-        "-"
+        "चिखल मासो",
+        "Chikhal Maso"
       ],
       "maithili": [
-        "-"
+        "कीचड़ माछ",
+        "Kichad Machh"
       ],
       "malayalam": [
         "മഡ്സ്കിപ്പർ",
         "Mudskipper"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "निवटी",
         "Nivti"
       ],
       "nepali": [
-        "-"
+        "हिलो माछा",
+        "Hilo Machha"
       ],
       "odia": [
         "ସେଉଳ",
@@ -6735,13 +7416,16 @@
         "Mudskipper"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "ڪِچر مَڇِي",
+        "Kichar Machhi"
       ],
       "tamil": [
         "சधும்பன்",
@@ -6770,17 +7454,20 @@
         "Mahseer"
       ],
       "assamese": [
-        "-"
+        "মহাবীৰ",
+        "Mahabir"
       ],
       "bengali": [
         "মহাশোল",
         "Mahashol"
       ],
       "bodo": [
-        "-"
+        "महाशीर",
+        "Mahaseer"
       ],
       "dogri": [
-        "-"
+        "महाशीर",
+        "Mahaseer"
       ],
       "gujarati": [
         "મહસીર",
@@ -6795,27 +7482,32 @@
         "Mahseer"
       ],
       "kashmiri": [
-        "-"
+        "مہاسیر",
+        "Mahaseer"
       ],
       "konkani": [
-        "-"
+        "महाशीर",
+        "Mahaseer"
       ],
       "maithili": [
-        "-"
+        "महाशीर",
+        "Mahaseer"
       ],
       "malayalam": [
         "മഹസീർ",
         "Mahseer"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "महाशीर",
         "Mahseer"
       ],
       "nepali": [
-        "-"
+        "महाशीर",
+        "Mahaseer"
       ],
       "odia": [
         "ମହାଶୀର",
@@ -6826,13 +7518,16 @@
         "Mahseer"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱚᱦᱟᱥᱤᱨ",
+        "Mahaseer"
       ],
       "sindhi": [
-        "-"
+        "مهسير",
+        "Mahaseer"
       ],
       "tamil": [
         "மசீர்",
@@ -6861,17 +7556,20 @@
         "Himalayan Trout"
       ],
       "assamese": [
-        "-"
+        "ট্ৰাউট",
+        "Trout"
       ],
       "bengali": [
         "ট্রাউট",
         "Trout"
       ],
       "bodo": [
-        "-"
+        "त्राउत",
+        "Trout"
       ],
       "dogri": [
-        "-"
+        "ट्राऊट",
+        "Trout"
       ],
       "gujarati": [
         "ટ્રાઉટ",
@@ -6886,28 +7584,32 @@
         "Trout"
       ],
       "kashmiri": [
-        "गाड",
-        "Gaad"
+        "ٹراؤٹ",
+        "Trout"
       ],
       "konkani": [
-        "-"
+        "ट्राउट",
+        "Trout"
       ],
       "maithili": [
-        "-"
+        "ट्राउट",
+        "Trout"
       ],
       "malayalam": [
         "ട്രൗട്ട്",
         "Trout"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "ट्राउट",
         "Trout"
       ],
       "nepali": [
-        "-"
+        "ट्राउट",
+        "Trout"
       ],
       "odia": [
         "ଟ୍ରାଉଟ",
@@ -6918,13 +7620,16 @@
         "Trout"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱨᱟᱣᱩᱴ",
+        "Trout"
       ],
       "sindhi": [
-        "-"
+        "ٽرائوٽ",
+        "Trout"
       ],
       "tamil": [
         "ட்ரௌட்",
@@ -6953,17 +7658,20 @@
         "Herring"
       ],
       "assamese": [
-        "-"
+        "হেৰিং",
+        "Herring"
       ],
       "bengali": [
         "ইলিশ",
         "Ilish"
       ],
       "bodo": [
-        "-"
+        "हेरिं",
+        "Herring"
       ],
       "dogri": [
-        "-"
+        "हेरिंग",
+        "Herring"
       ],
       "gujarati": [
         "હેરિંગ",
@@ -6978,27 +7686,32 @@
         "Herring"
       ],
       "kashmiri": [
-        "-"
+        "ہیرِنگ",
+        "Herring"
       ],
       "konkani": [
-        "-"
+        "हेरिंग",
+        "Herring"
       ],
       "maithili": [
-        "-"
+        "हेरिंग",
+        "Herring"
       ],
       "malayalam": [
         "കണ്ണൻ",
         "Kannan"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "भींग",
         "Bhing"
       ],
       "nepali": [
-        "-"
+        "हेरिंग",
+        "Herring"
       ],
       "odia": [
         "ଇଲିଶି ଜାତୀୟ",
@@ -7009,13 +7722,16 @@
         "Herring"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱮᱨᱤᱝ",
+        "Herring"
       ],
       "sindhi": [
-        "-"
+        "هرنگ",
+        "Herring"
       ],
       "tamil": [
         "முள்ளுவாளை",
@@ -7044,17 +7760,20 @@
         "Needlefish"
       ],
       "assamese": [
-        "-"
+        "বাঁহ মাছ",
+        "Bah Maas"
       ],
       "bengali": [
         "কাইক্কা",
         "Kaikka"
       ],
       "bodo": [
-        "-"
+        "सुइ ना",
+        "Sui Na"
       ],
       "dogri": [
-        "-"
+        "सुई माच्ची",
+        "Sui Machhi"
       ],
       "gujarati": [
         "નીડલ ફિશ",
@@ -7069,27 +7788,32 @@
         "Kokkare Meenu"
       ],
       "kashmiri": [
-        "-"
+        "سوُئی ماہی",
+        "Sui Mahi"
       ],
       "konkani": [
-        "-"
+        "सुई मासो",
+        "Sui Maso"
       ],
       "maithili": [
-        "-"
+        "सूई माछ",
+        "Sui Machh"
       ],
       "malayalam": [
         "കോല",
         "Kola"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "टोकी",
         "Toki"
       ],
       "nepali": [
-        "-"
+        "सुई माछा",
+        "Sui Machha"
       ],
       "odia": [
         "ଗାର",
@@ -7100,13 +7824,16 @@
         "Needlefish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱩᱭ ᱦᱟᱠᱩ",
+        "Sui Haku"
       ],
       "sindhi": [
-        "-"
+        "سُئي مَڇِي",
+        "Sui Machhi"
       ],
       "tamil": [
         "முரல்",
@@ -7135,17 +7862,20 @@
         "Halfbeak"
       ],
       "assamese": [
-        "-"
+        "হাফ বিক",
+        "Halfbeak"
       ],
       "bengali": [
         "এক ঠোঁটা",
         "Ek Thota"
       ],
       "bodo": [
-        "-"
+        "हाफबिक",
+        "Halfbeak"
       ],
       "dogri": [
-        "-"
+        "हाफबीक",
+        "Halfbeak"
       ],
       "gujarati": [
         "હાફબીક",
@@ -7160,27 +7890,32 @@
         "Ardha Kokku"
       ],
       "kashmiri": [
-        "-"
+        "ہاف بیک",
+        "Halfbeak"
       ],
       "konkani": [
-        "-"
+        "हाफबीक",
+        "Halfbeak"
       ],
       "maithili": [
-        "-"
+        "हाफबीक",
+        "Halfbeak"
       ],
       "malayalam": [
         "കോല",
         "Kola"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "टोकी",
         "Toki"
       ],
       "nepali": [
-        "-"
+        "हाफबीक",
+        "Halfbeak"
       ],
       "odia": [
         "ଏକ ଥଣ୍ଟିଆ",
@@ -7191,13 +7926,16 @@
         "Halfbeak"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱯᱷᱵᱤᱠ",
+        "Halfbeak"
       ],
       "sindhi": [
-        "-"
+        "اڌ چُهنب",
+        "Adh Chunbh"
       ],
       "tamil": [
         "முரல்",
@@ -7226,17 +7964,20 @@
         "Flying Fish"
       ],
       "assamese": [
-        "-"
+        "উৰা মাছ",
+        "Ura Maas"
       ],
       "bengali": [
         "উড়ুক্কু মাছ",
         "Urukku Mach"
       ],
       "bodo": [
-        "-"
+        "बिरग्रा ना",
+        "Birgra Na"
       ],
       "dogri": [
-        "-"
+        "उड़दा माच्ची",
+        "Udda Machhi"
       ],
       "gujarati": [
         "ફ્લાઈંગ ફિશ",
@@ -7251,27 +7992,32 @@
         "Haruva Meenu"
       ],
       "kashmiri": [
-        "-"
+        "اُڑان ماہی",
+        "Udan Mahi"
       ],
       "konkani": [
-        "-"
+        "उडपी मासो",
+        "Udpi Maso"
       ],
       "maithili": [
-        "-"
+        "उड़ैत माछ",
+        "Udait Machh"
       ],
       "malayalam": [
         "പറവ",
         "Parava"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "पाखरू",
         "Pakharu"
       ],
       "nepali": [
-        "-"
+        "उड्ने माछा",
+        "Udne Machha"
       ],
       "odia": [
         "ଉଡନ୍ତା ମାଛ",
@@ -7282,13 +8028,16 @@
         "Udan Wali Machhi"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱩᱰᱟᱹᱣ ᱦᱟᱠᱩ",
+        "Udau Haku"
       ],
       "sindhi": [
-        "-"
+        "اڏامندڙ مَڇِي",
+        "Uddamandar Machhi"
       ],
       "tamil": [
         "பறவை மீன்",
@@ -7317,17 +8066,20 @@
         "Croaker"
       ],
       "assamese": [
-        "-"
+        "ক্ৰকাৰ",
+        "Croaker"
       ],
       "bengali": [
         "ভোলা",
         "Bhola"
       ],
       "bodo": [
-        "-"
+        "क्रकार",
+        "Croaker"
       ],
       "dogri": [
-        "-"
+        "क्रोकर",
+        "Croaker"
       ],
       "gujarati": [
         "ઢોમા",
@@ -7342,27 +8094,32 @@
         "Kalluru"
       ],
       "kashmiri": [
-        "-"
+        "کروکر",
+        "Croaker"
       ],
       "konkani": [
-        "-"
+        "क्रोकर",
+        "Croaker"
       ],
       "maithili": [
-        "-"
+        "क्रोकर",
+        "Croaker"
       ],
       "malayalam": [
         "കോര",
         "Kora"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "धोमा",
         "Dhoma"
       ],
       "nepali": [
-        "-"
+        "क्रोकर",
+        "Croaker"
       ],
       "odia": [
         "ବୋରି",
@@ -7373,13 +8130,16 @@
         "Croaker"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱠᱨᱳᱠᱟᱨ",
+        "Croaker"
       ],
       "sindhi": [
-        "-"
+        "مَڇِي",
+        "Machhi"
       ],
       "tamil": [
         "பன்னா",
@@ -7408,17 +8168,20 @@
         "Ghol"
       ],
       "assamese": [
-        "-"
+        "ঘল",
+        "Ghol"
       ],
       "bengali": [
         "ঘোল",
         "Ghol"
       ],
       "bodo": [
-        "-"
+        "घल",
+        "Ghol"
       ],
       "dogri": [
-        "-"
+        "घोल",
+        "Ghol"
       ],
       "gujarati": [
         "ઘોલ",
@@ -7433,27 +8196,32 @@
         "Ghol"
       ],
       "kashmiri": [
-        "-"
+        "گھول",
+        "Ghol"
       ],
       "konkani": [
-        "-"
+        "घोल",
+        "Ghol"
       ],
       "maithili": [
-        "-"
+        "घोल",
+        "Ghol"
       ],
       "malayalam": [
         "ഘോൽ",
         "Ghol"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "घोल",
         "Ghol"
       ],
       "nepali": [
-        "-"
+        "घोल",
+        "Ghol"
       ],
       "odia": [
         "ଘୋଳ",
@@ -7464,13 +8232,16 @@
         "Ghol"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱷᱳᱞ",
+        "Ghol"
       ],
       "sindhi": [
-        "-"
+        "گھول",
+        "Ghol"
       ],
       "tamil": [
         "கோல்",
@@ -7499,17 +8270,20 @@
         "Threadfin"
       ],
       "assamese": [
-        "-"
+        "সুতা পাখি",
+        "Suta Pakhi"
       ],
       "bengali": [
         " তপসে",
         "Topse"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "धागा पंख",
+        "Dhaga Pankh"
       ],
       "gujarati": [
         "દારા",
@@ -7524,27 +8298,32 @@
         "Dava"
       ],
       "kashmiri": [
-        "-"
+        "دھاگہ پَر",
+        "Dhaga Par"
       ],
       "konkani": [
-        "-"
+        "सुते मासो",
+        "Sute Maso"
       ],
       "maithili": [
-        "-"
+        "धागा पंख",
+        "Dhaga Pankh"
       ],
       "malayalam": [
         "നൂൽ മീൻ",
         "Nool Meen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "दारा",
         "Dara"
       ],
       "nepali": [
-        "-"
+        "धागो पाखुरा",
+        "Dhago Pakhura"
       ],
       "odia": [
         "ସାହାଲ",
@@ -7555,13 +8334,16 @@
         "Threadfin"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱫᱷᱟᱜᱟ ᱦᱟᱠᱩ",
+        "Dhaga Haku"
       ],
       "sindhi": [
-        "-"
+        "ڌاڳو مَڇِي",
+        "Dhago Machhi"
       ],
       "tamil": [
         "கலா",
@@ -7590,17 +8372,20 @@
         "Queenfish"
       ],
       "assamese": [
-        "-"
+        "ৰাণী মাছ",
+        "Rani Maas"
       ],
       "bengali": [
         "রানি মাছ",
         "Rani Mach"
       ],
       "bodo": [
-        "-"
+        "रानि ना",
+        "Rani Na"
       ],
       "dogri": [
-        "-"
+        "रानी माच्ची",
+        "Rani Machhi"
       ],
       "gujarati": [
         "રાણી માછલી",
@@ -7615,27 +8400,32 @@
         "Rani Meenu"
       ],
       "kashmiri": [
-        "-"
+        "رانی ماہی",
+        "Rani Mahi"
       ],
       "konkani": [
-        "-"
+        "राणी मासो",
+        "Rani Maso"
       ],
       "maithili": [
-        "-"
+        "रानी माछ",
+        "Rani Machh"
       ],
       "malayalam": [
         "കട്ട",
         "Katta"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "दगड",
         "Dagad"
       ],
       "nepali": [
-        "-"
+        "रानी माछा",
+        "Rani Machha"
       ],
       "odia": [
         "ରାଣୀ",
@@ -7646,13 +8436,16 @@
         "Queenfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱨᱟᱹᱱᱤ ᱦᱟᱠᱩ",
+        "Rani Haku"
       ],
       "sindhi": [
-        "-"
+        "راڻي مَڇِي",
+        "Rani Machhi"
       ],
       "tamil": [
         "கட்ட",
@@ -7681,17 +8474,20 @@
         "Sailfish"
       ],
       "assamese": [
-        "-"
+        "পাল মাছ",
+        "Pal Maas"
       ],
       "bengali": [
         "সেলফিশ",
         "Sailfish"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "पाल माच्ची",
+        "Pal Machhi"
       ],
       "gujarati": [
         "સેઇલફિશ",
@@ -7706,27 +8502,32 @@
         "Mayila"
       ],
       "kashmiri": [
-        "-"
+        "سیل فش",
+        "Sailfish"
       ],
       "konkani": [
-        "-"
+        "सेल फिश",
+        "Sailfish"
       ],
       "maithili": [
-        "-"
+        "पाल माछ",
+        "Pal Machh"
       ],
       "malayalam": [
         "ഓലമീൻ",
         "Olameen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "शीड मासा",
         "Sheed Masa"
       ],
       "nepali": [
-        "-"
+        "पाल माछा",
+        "Pal Machha"
       ],
       "odia": [
         "ପାଲ ମାଛ",
@@ -7737,13 +8538,16 @@
         "Sailfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱮᱞ ᱦᱟᱠᱩ",
+        "Sail Haku"
       ],
       "sindhi": [
-        "-"
+        "سِڙهه مَڇِي",
+        "Sirh Machhi"
       ],
       "tamil": [
         "மயிலா",
@@ -7772,17 +8576,20 @@
         "Marlin"
       ],
       "assamese": [
-        "-"
+        "মাৰ্লিন",
+        "Marlin"
       ],
       "bengali": [
         "মার্লিন",
         "Marlin"
       ],
       "bodo": [
-        "-"
+        "मारलिन",
+        "Marlin"
       ],
       "dogri": [
-        "-"
+        "मार्लिन",
+        "Marlin"
       ],
       "gujarati": [
         "માર્લિન",
@@ -7797,27 +8604,32 @@
         "Marlin"
       ],
       "kashmiri": [
-        "-"
+        "مارلِن",
+        "Marlin"
       ],
       "konkani": [
-        "-"
+        "मार्लिन",
+        "Marlin"
       ],
       "maithili": [
-        "-"
+        "मार्लिन",
+        "Marlin"
       ],
       "malayalam": [
         "മാർലിൻ",
         "Marlin"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "मार्लिन",
         "Marlin"
       ],
       "nepali": [
-        "-"
+        "मार्लिन",
+        "Marlin"
       ],
       "odia": [
         "ମାର୍ଲିନ",
@@ -7828,13 +8640,16 @@
         "Marlin"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱢᱟᱨᱞᱤᱱ",
+        "Marlin"
       ],
       "sindhi": [
-        "-"
+        "مارلن",
+        "Marlin"
       ],
       "tamil": [
         "கொಪ್ಪು",
@@ -7863,17 +8678,20 @@
         "Wahoo"
       ],
       "assamese": [
-        "-"
+        "ৱাহু",
+        "Wahoo"
       ],
       "bengali": [
         "ওয়াহু",
         "Wahoo"
       ],
       "bodo": [
-        "-"
+        "वाहु",
+        "Wahoo"
       ],
       "dogri": [
-        "-"
+        "वाहू",
+        "Wahoo"
       ],
       "gujarati": [
         "વાહૂ",
@@ -7888,27 +8706,32 @@
         "Wahoo"
       ],
       "kashmiri": [
-        "-"
+        "واہو",
+        "Wahoo"
       ],
       "konkani": [
-        "-"
+        "वाहू",
+        "Wahoo"
       ],
       "maithili": [
-        "-"
+        "वाहू",
+        "Wahoo"
       ],
       "malayalam": [
         "അവന",
         "Avana"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "वाहू",
         "Wahoo"
       ],
       "nepali": [
-        "-"
+        "वाहू",
+        "Wahoo"
       ],
       "odia": [
         "ୱାହୁ",
@@ -7919,13 +8742,16 @@
         "Wahoo"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱣᱟᱦᱩ",
+        "Wahoo"
       ],
       "sindhi": [
-        "-"
+        "واهو",
+        "Wahoo"
       ],
       "tamil": [
         "அவனா",
@@ -7954,17 +8780,20 @@
         "Skipjack Tuna"
       ],
       "assamese": [
-        "-"
+        "টুনা",
+        "Tuna"
       ],
       "bengali": [
         "স্কিপজ্যাক টুনা",
         "Skipjack Tuna"
       ],
       "bodo": [
-        "-"
+        "तुना",
+        "Tuna"
       ],
       "dogri": [
-        "-"
+        "टूना",
+        "Tuna"
       ],
       "gujarati": [
         "ટૂના",
@@ -7979,27 +8808,32 @@
         "Kedara"
       ],
       "kashmiri": [
-        "-"
+        "سکِپ جیک ٹونا",
+        "Skipjack Tuna"
       ],
       "konkani": [
-        "-"
+        "टुना",
+        "Tuna"
       ],
       "maithili": [
-        "-"
+        "टुना",
+        "Tuna"
       ],
       "malayalam": [
         "ചൂര",
         "Choora"
       ],
       "manipuri": [
-        "-"
+        "ꯇꯨꯅꯥ",
+        "Tuna"
       ],
       "marathi": [
         "पपलेट",
         "Paplet"
       ],
       "nepali": [
-        "-"
+        "टुना",
+        "Tuna"
       ],
       "odia": [
         "ଟୁନା",
@@ -8010,13 +8844,16 @@
         "Tuna"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱩᱱᱟ",
+        "Tuna"
       ],
       "sindhi": [
-        "-"
+        "ٽونا",
+        "Tuna"
       ],
       "tamil": [
         "சூரை",
@@ -8045,17 +8882,20 @@
         "Bonito"
       ],
       "assamese": [
-        "-"
+        "বনিটো",
+        "Bonito"
       ],
       "bengali": [
         "বনিটো",
         "Bonito"
       ],
       "bodo": [
-        "-"
+        "बनिथ",
+        "Bonito"
       ],
       "dogri": [
-        "-"
+        "बोनिटो",
+        "Bonito"
       ],
       "gujarati": [
         "બોનિટો",
@@ -8070,27 +8910,32 @@
         "Bonito"
       ],
       "kashmiri": [
-        "-"
+        "بونیٹو",
+        "Bonito"
       ],
       "konkani": [
-        "-"
+        "बोनिटो",
+        "Bonito"
       ],
       "maithili": [
-        "-"
+        "बोनिटो",
+        "Bonito"
       ],
       "malayalam": [
         "ചൂര",
         "Choora"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "बोनिटो",
         "Bonito"
       ],
       "nepali": [
-        "-"
+        "बोनिटो",
+        "Bonito"
       ],
       "odia": [
         "ବୋନିଟୋ",
@@ -8101,13 +8946,16 @@
         "Bonito"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱵᱳᱱᱤᱴᱳ",
+        "Bonito"
       ],
       "sindhi": [
-        "-"
+        "بونيٽو",
+        "Bonito"
       ],
       "tamil": [
         "விறால்",
@@ -8136,17 +8984,20 @@
         "Turbot"
       ],
       "assamese": [
-        "-"
+        "টাৰবট",
+        "Turbot"
       ],
       "bengali": [
         "টারবোট",
         "Turbot"
       ],
       "bodo": [
-        "-"
+        "तारबत",
+        "Turbot"
       ],
       "dogri": [
-        "-"
+        "टरबट",
+        "Turbot"
       ],
       "gujarati": [
         "ટર્બોટ",
@@ -8161,27 +9012,32 @@
         "Turbot"
       ],
       "kashmiri": [
-        "-"
+        "ٹربوٹ",
+        "Turbot"
       ],
       "konkani": [
-        "-"
+        "टर्बट",
+        "Turbot"
       ],
       "maithili": [
-        "-"
+        "टर्बट",
+        "Turbot"
       ],
       "malayalam": [
         "ടർബോട്ട്",
         "Turbot"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "तर्बोट",
         "Turbot"
       ],
       "nepali": [
-        "-"
+        "टर्बट",
+        "Turbot"
       ],
       "odia": [
         "ଟର୍ବୋଟ",
@@ -8192,13 +9048,16 @@
         "Turbot"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱚᱨᱵᱚᱴ",
+        "Turbot"
       ],
       "sindhi": [
-        "-"
+        "ٽربوٽ",
+        "Turbot"
       ],
       "tamil": [
         "நாக்கு மீன்",
@@ -8227,17 +9086,20 @@
         "Flounder"
       ],
       "assamese": [
-        "-"
+        "ফ্লাউণ্ডাৰ",
+        "Flounder"
       ],
       "bengali": [
         "ফ্লউন্ডার",
         "Flounder"
       ],
       "bodo": [
-        "-"
+        "फ्लाउन्द",
+        "Flounder"
       ],
       "dogri": [
-        "-"
+        "फ्लाउंडर",
+        "Flounder"
       ],
       "gujarati": [
         "ફ્લાઉન્ડર",
@@ -8252,27 +9114,32 @@
         "Flounder"
       ],
       "kashmiri": [
-        "-"
+        "فلاؤنڈر",
+        "Flounder"
       ],
       "konkani": [
-        "-"
+        "फ्लाउंडर",
+        "Flounder"
       ],
       "maithili": [
-        "-"
+        "फ्लाउंडर",
+        "Flounder"
       ],
       "malayalam": [
         "മാന്തൽ",
         "Manthal"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "फ्लौन्डर",
         "Flounder"
       ],
       "nepali": [
-        "-"
+        "फ्लाउन्डर",
+        "Flounder"
       ],
       "odia": [
         "ପାତା",
@@ -8283,13 +9150,16 @@
         "Flounder"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱯᱷᱞᱟᱣᱩᱱᱰᱚᱨ",
+        "Flounder"
       ],
       "sindhi": [
-        "-"
+        "فلائونڊر",
+        "Flounder"
       ],
       "tamil": [
         "நாக்கு மீன்",
@@ -8318,17 +9188,20 @@
         "Halibut"
       ],
       "assamese": [
-        "-"
+        "হেলিবাট",
+        "Halibut"
       ],
       "bengali": [
         "হালিবুট",
         "Halibut"
       ],
       "bodo": [
-        "-"
+        "हलिबत",
+        "Halibut"
       ],
       "dogri": [
-        "-"
+        "हालिबट",
+        "Halibut"
       ],
       "gujarati": [
         "હેલિબટ",
@@ -8343,27 +9216,32 @@
         "Halibut"
       ],
       "kashmiri": [
-        "-"
+        "ہیلی بَٹ",
+        "Halibut"
       ],
       "konkani": [
-        "-"
+        "हॅलिबट",
+        "Halibut"
       ],
       "maithili": [
-        "-"
+        "हालिबट",
+        "Halibut"
       ],
       "malayalam": [
         "ഹാലിബട്ട്",
         "Halibut"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "हलिबट",
         "Halibut"
       ],
       "nepali": [
-        "-"
+        "हालिबट",
+        "Halibut"
       ],
       "odia": [
         "ହାଲିବଟ",
@@ -8374,13 +9252,16 @@
         "Halibut"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱮᱞᱤᱵᱚᱴ",
+        "Halibut"
       ],
       "sindhi": [
-        "-"
+        "هليبٽ",
+        "Halibut"
       ],
       "tamil": [
         "நாக்கு மீன்",
@@ -8409,17 +9290,20 @@
         "Red Mullet"
       ],
       "assamese": [
-        "-"
+        "ৰঙা মুলেট",
+        "Ronga Mullet"
       ],
       "bengali": [
         "লাল মুলেট",
         "Lal Mullet"
       ],
       "bodo": [
-        "-"
+        "गोजा मुलेत",
+        "Goja Mullet"
       ],
       "dogri": [
-        "-"
+        "रता मुलेट",
+        "Rata Mullet"
       ],
       "gujarati": [
         "રેડ મુલેટ",
@@ -8434,27 +9318,32 @@
         "Kempu Meenu"
       ],
       "kashmiri": [
-        "-"
+        "رَتھ ملیٹ",
+        "Rath Mullet"
       ],
       "konkani": [
-        "-"
+        "रांवटो शेवोट्टी",
+        "Ranvto Shevotti"
       ],
       "maithili": [
-        "-"
+        "रातु मुलेट",
+        "Ratu Mullet"
       ],
       "malayalam": [
         "നവര",
         "Navara"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "लाल मुलेट",
         "Lal Mullet"
       ],
       "nepali": [
-        "-"
+        "रातो मुलेट",
+        "Rato Mullet"
       ],
       "odia": [
         "ନାଲି ଖଙ୍ଗା",
@@ -8465,13 +9354,16 @@
         "Red Mullet"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱟᱨᱟᱜ ᱢᱩᱞᱮᱴ",
+        "Araag Mullet"
       ],
       "sindhi": [
-        "-"
+        "ڳاڙهو مَڇِي",
+        "Garho Machhi"
       ],
       "tamil": [
         "நவரை",
@@ -8500,17 +9392,20 @@
         "Garfish"
       ],
       "assamese": [
-        "-"
+        "গাৰ ফিছ",
+        "Garfish"
       ],
       "bengali": [
         "গারফিশ",
         "Garfish"
       ],
       "bodo": [
-        "-"
+        "गार ना",
+        "Gar Na"
       ],
       "dogri": [
-        "-"
+        "गार फिश",
+        "Garfish"
       ],
       "gujarati": [
         "ગારફિશ",
@@ -8525,27 +9420,32 @@
         "Garfish"
       ],
       "kashmiri": [
-        "-"
+        "گار فش",
+        "Garfish"
       ],
       "konkani": [
-        "-"
+        "गार फिश",
+        "Garfish"
       ],
       "maithili": [
-        "-"
+        "गार फिश",
+        "Garfish"
       ],
       "malayalam": [
         "കോല",
         "Kola"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "गारफिश",
         "Garfish"
       ],
       "nepali": [
-        "-"
+        "गार फिश",
+        "Garfish"
       ],
       "odia": [
         "ଗାର",
@@ -8556,13 +9456,16 @@
         "Garfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱟᱨ ᱦᱟᱠᱩ",
+        "Gar Haku"
       ],
       "sindhi": [
-        "-"
+        "گار مَڇِي",
+        "Gar Machhi"
       ],
       "tamil": [
         "முரல்",
@@ -8591,17 +9494,20 @@
         "Tarpon"
       ],
       "assamese": [
-        "-"
+        "টাৰপন",
+        "Tarpon"
       ],
       "bengali": [
         "টারপন",
         "Tarpon"
       ],
       "bodo": [
-        "-"
+        "तारपन",
+        "Tarpon"
       ],
       "dogri": [
-        "-"
+        "टारपन",
+        "Tarpan"
       ],
       "gujarati": [
         "ટાર્પોન",
@@ -8616,27 +9522,32 @@
         "Tarpon"
       ],
       "kashmiri": [
-        "-"
+        "ٹارپون",
+        "Tarpon"
       ],
       "konkani": [
-        "-"
+        "टार्पन",
+        "Tarpon"
       ],
       "maithili": [
-        "-"
+        "टार्पन",
+        "Tarpon"
       ],
       "malayalam": [
         "വാള",
         "Vala"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "टारपोन",
         "Tarpon"
       ],
       "nepali": [
-        "-"
+        "टार्पन",
+        "Tarpon"
       ],
       "odia": [
         "ତାର୍ପୁନ",
@@ -8647,13 +9558,16 @@
         "Tarpon"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱴᱟᱨᱯᱚᱱ",
+        "Tarpon"
       ],
       "sindhi": [
-        "-"
+        "ٽارپون",
+        "Tarpon"
       ],
       "tamil": [
         "கண்ணாடி மீன்",
@@ -8682,17 +9596,20 @@
         "Tenpounder"
       ],
       "assamese": [
-        "-"
+        "টেনপাউণ্ডাৰ",
+        "Tenpounder"
       ],
       "bengali": [
         "টেনপাউন্ডার",
         "Tenpounder"
       ],
       "bodo": [
-        "-"
+        "ना",
+        "Na"
       ],
       "dogri": [
-        "-"
+        "टेनपाउंडर",
+        "Tenpounder"
       ],
       "gujarati": [
         "ટેનપાઉન્ડર",
@@ -8707,27 +9624,32 @@
         "Hathu Pound"
       ],
       "kashmiri": [
-        "-"
+        "ٹین پاؤنڈر",
+        "Tenpounder"
       ],
       "konkani": [
-        "-"
+        "टेनपाऊंडर",
+        "Tenpounder"
       ],
       "maithili": [
-        "-"
+        "टेनपाउंडर",
+        "Tenpounder"
       ],
       "malayalam": [
         "പൂമീൻ",
         "Poomeen"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "टेनपाऊंडर",
         "Tenpounder"
       ],
       "nepali": [
-        "-"
+        "टेनपाउन्डर",
+        "Tenpounder"
       ],
       "odia": [
         "ଟେନପାଉଣ୍ଡର",
@@ -8738,13 +9660,16 @@
         "Tenpounder"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱦᱟᱠᱩ",
+        "Haku"
       ],
       "sindhi": [
-        "-"
+        "مَڇِي",
+        "Machhi"
       ],
       "tamil": [
         "விளமீன்",
@@ -8773,17 +9698,20 @@
         "Milk Shark"
       ],
       "assamese": [
-        "-"
+        "হাংগৰ",
+        "Hangor"
       ],
       "bengali": [
         "দুধ হাঙর",
         "Dudh Hangor"
       ],
       "bodo": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "dogri": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "gujarati": [
         "શાર્ક",
@@ -8798,27 +9726,32 @@
         "Haalu Shark"
       ],
       "kashmiri": [
-        "-"
+        "شارک",
+        "Shark"
       ],
       "konkani": [
-        "-"
+        "कांबळो",
+        "Kamblo"
       ],
       "maithili": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "malayalam": [
         "പാൽ സ്രാവ്",
         "Pal Sravu"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "दुध मुशी",
         "Dudh Mushi"
       ],
       "nepali": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "odia": [
         "ମଗର",
@@ -8829,13 +9762,16 @@
         "Shark"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱟᱨᱠ",
+        "Shark"
       ],
       "sindhi": [
-        "-"
+        "شارڪ",
+        "Shark"
       ],
       "tamil": [
         "பால் சுறா",
@@ -8864,17 +9800,20 @@
         "Hammerhead Shark"
       ],
       "assamese": [
-        "-"
+        "হাতুৰী হাংগৰ",
+        "Haturi Hangor"
       ],
       "bengali": [
         "হাতুড়ি হাঙ্গর",
         "Haturi Hangor"
       ],
       "bodo": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "dogri": [
-        "-"
+        "हथौड़ा शार्क",
+        "Hathauda Shark"
       ],
       "gujarati": [
         "હેમરહેડ શાર્ક",
@@ -8889,27 +9828,32 @@
         "Suthige Thale Shark"
       ],
       "kashmiri": [
-        "-"
+        "ہتھوڑا شارک",
+        "Hathoda Shark"
       ],
       "konkani": [
-        "-"
+        "हातोडी कांबळो",
+        "Hatodi Kamblo"
       ],
       "maithili": [
-        "-"
+        "हथौड़ा शार्क",
+        "Hathauda Shark"
       ],
       "malayalam": [
         "ചട്ടുക തലയൻ സ്രാവ്",
         "Chattuka Thalayan Sravu"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "हातोडा मुशी",
         "Hatoda Mushi"
       ],
       "nepali": [
-        "-"
+        "हथौडा शार्क",
+        "Hathauda Shark"
       ],
       "odia": [
         "ହାତୁଡ଼ି ମୁଣ୍ଡିଆ",
@@ -8920,13 +9864,16 @@
         "Shark"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱟᱨᱠ",
+        "Shark"
       ],
       "sindhi": [
-        "-"
+        "هٿوڙو شارڪ",
+        "Hathoro Shark"
       ],
       "tamil": [
         "கொம்பன் சுறா",
@@ -8955,17 +9902,20 @@
         "Guitarfish"
       ],
       "assamese": [
-        "-"
+        "গিটাৰ ফিছ",
+        "Guitarfish"
       ],
       "bengali": [
         "গিটারফিশ",
         "Guitarfish"
       ],
       "bodo": [
-        "-"
+        "गिथार ना",
+        "Githar Na"
       ],
       "dogri": [
-        "-"
+        "गिटार फिश",
+        "Guitarfish"
       ],
       "gujarati": [
         "ગિટારફિશ",
@@ -8980,27 +9930,32 @@
         "Guitarfish"
       ],
       "kashmiri": [
-        "-"
+        "گٹار فش",
+        "Guitarfish"
       ],
       "konkani": [
-        "-"
+        "गिटार फिश",
+        "Guitarfish"
       ],
       "maithili": [
-        "-"
+        "गिटार फिश",
+        "Guitarfish"
       ],
       "malayalam": [
         "ഈര്ക്ക",
         "Eerka"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "गिटारफिश",
         "Guitarfish"
       ],
       "nepali": [
-        "-"
+        "गिटार फिश",
+        "Guitarfish"
       ],
       "odia": [
         "ଗିଟାର ମାଛ",
@@ -9011,13 +9966,16 @@
         "Guitarfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱜᱤᱴᱟᱨ ᱦᱟᱠᱩ",
+        "Guitar Haku"
       ],
       "sindhi": [
-        "-"
+        "گٽار مَڇِي",
+        "Guitar Machhi"
       ],
       "tamil": [
         "உலவை",
@@ -9046,17 +10004,20 @@
         "Sawfish"
       ],
       "assamese": [
-        "-"
+        "কৰত মাছ",
+        "Korot Maas"
       ],
       "bengali": [
         "করাত মাছ",
         "Korat Mach"
       ],
       "bodo": [
-        "-"
+        "कराथ ना",
+        "Karath Na"
       ],
       "dogri": [
-        "-"
+        "आरा माच्ची",
+        "Ara Machhi"
       ],
       "gujarati": [
         "સોફિશ",
@@ -9071,27 +10032,32 @@
         "Garagasa Meenu"
       ],
       "kashmiri": [
-        "-"
+        "آرا ماہی",
+        "Aara Mahi"
       ],
       "konkani": [
-        "-"
+        "विहूण मासो",
+        "Vihoon Maso"
       ],
       "maithili": [
-        "-"
+        "आरा माछ",
+        "Ara Machh"
       ],
       "malayalam": [
         "വാല",
         "Vala"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "करवत मासा",
         "Karvat Masa"
       ],
       "nepali": [
-        "-"
+        "आरा माछा",
+        "Ara Machha"
       ],
       "odia": [
         "କରତ ମାଛ",
@@ -9102,13 +10068,16 @@
         "Sawfish"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱟᱨᱟ ᱦᱟᱠᱩ",
+        "Ara Haku"
       ],
       "sindhi": [
-        "-"
+        "آري مَڇِي",
+        "Aari Machhi"
       ],
       "tamil": [
         "வேலா",
@@ -9137,17 +10106,20 @@
         "Reef Shark"
       ],
       "assamese": [
-        "-"
+        "হাংগৰ",
+        "Hangor"
       ],
       "bengali": [
         "রিফ হাঙ্গর",
         "Reef Hangor"
       ],
       "bodo": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "dogri": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "gujarati": [
         "રીફ શાર્ક",
@@ -9162,27 +10134,32 @@
         "Reef Shark"
       ],
       "kashmiri": [
-        "-"
+        "ریف شارک",
+        "Reef Shark"
       ],
       "konkani": [
-        "-"
+        "कांबळो",
+        "Kamblo"
       ],
       "maithili": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "malayalam": [
         "പാറ സ്രാവ്",
         "Para Sravu"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "रीफ शार्क",
         "Reef Shark"
       ],
       "nepali": [
-        "-"
+        "शार्क",
+        "Shark"
       ],
       "odia": [
         "ମଗର",
@@ -9193,13 +10170,16 @@
         "Shark"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱥᱟᱨᱠ",
+        "Shark"
       ],
       "sindhi": [
-        "-"
+        "شارڪ",
+        "Shark"
       ],
       "tamil": [
         "பாறை சுறா",
@@ -9228,17 +10208,20 @@
         "Tiger Shark"
       ],
       "assamese": [
-        "-"
+        "বাঘ হাংগৰ",
+        "Bagh Hangor"
       ],
       "bengali": [
         "বাঘ হাঙ্গর",
         "Bagh Hangor"
       ],
       "bodo": [
-        "-"
+        "मोसा शार्क",
+        "Mosa Shark"
       ],
       "dogri": [
-        "-"
+        "बाघ शार्क",
+        "Bagh Shark"
       ],
       "gujarati": [
         "ટાઈગર શાર્ક",
@@ -9253,27 +10236,32 @@
         "Huli Shark"
       ],
       "kashmiri": [
-        "-"
+        "شیر شارک",
+        "Sher Shark"
       ],
       "konkani": [
-        "-"
+        "वाघ कांबळो",
+        "Wagh Kamblo"
       ],
       "maithili": [
-        "-"
+        "बाघ शार्क",
+        "Bagh Shark"
       ],
       "malayalam": [
         "പുಲಿ സ്രാവ്",
         "Puli Sravu"
       ],
       "manipuri": [
-        "-"
+        "ꯅꯥ",
+        "Nga"
       ],
       "marathi": [
         "वाघ मुशी",
         "Vagh Mushi"
       ],
       "nepali": [
-        "-"
+        "बाघ शार्क",
+        "Bagh Shark"
       ],
       "odia": [
         "ବାଘୁଆ ମଗର",
@@ -9284,13 +10272,16 @@
         "Tiger Shark"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱛᱟᱨᱩᱵ ᱥᱟᱨᱠ",
+        "Tarub Shark"
       ],
       "sindhi": [
-        "-"
+        "شينهَن شارڪ",
+        "Sheenh Shark"
       ],
       "tamil": [
         "புலி சுறா",
@@ -9319,17 +10310,20 @@
         "Blue Crab"
       ],
       "assamese": [
-        "-"
+        "নীলা কেঁকোৰা",
+        "Nila Kekora"
       ],
       "bengali": [
         "নীল কাঁকড়া",
         "Nil Kankra"
       ],
       "bodo": [
-        "-"
+        "निला खान्ख्रा",
+        "Nila Khankhra"
       ],
       "dogri": [
-        "-"
+        "नीला केकड़ा",
+        "Neela Kekda"
       ],
       "gujarati": [
         "બ્લુ કરચલો",
@@ -9344,27 +10338,32 @@
         "Neeli Yedi"
       ],
       "kashmiri": [
-        "-"
+        "نیل کیکڑا",
+        "Neel Kekda"
       ],
       "konkani": [
-        "-"
+        "निळो खेकडो",
+        "Nilo Khekdo"
       ],
       "maithili": [
-        "-"
+        "नील केकड़ा",
+        "Neel Kekda"
       ],
       "malayalam": [
         "നീല ഞണ്ട്",
         "Neela Njandu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "निळा खेकडा",
         "Nila Khekada"
       ],
       "nepali": [
-        "-"
+        "निलो केकडा",
+        "Nilo Kekada"
       ],
       "odia": [
         "ନାଲି କଙ୍କଡ଼ା",
@@ -9375,13 +10374,16 @@
         "Neela Kekda"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱞᱤᱞ ᱠᱟᱴᱠᱚᱢ",
+        "Lil Katkom"
       ],
       "sindhi": [
-        "-"
+        "نيرو ڪينڪڙو",
+        "Nero Kenkro"
       ],
       "tamil": [
         "நீல நண்டு",
@@ -9410,17 +10412,20 @@
         "Red Crab"
       ],
       "assamese": [
-        "-"
+        "ৰঙা কেঁকোৰা",
+        "Ronga Kekora"
       ],
       "bengali": [
         "লাল কাঁকড়া",
         "Lal Kankra"
       ],
       "bodo": [
-        "-"
+        "गोजा खान्ख्रा",
+        "Goja Khankhra"
       ],
       "dogri": [
-        "-"
+        "रता केकड़ा",
+        "Rata Kekda"
       ],
       "gujarati": [
         "લાલ કરચલો",
@@ -9435,27 +10440,32 @@
         "Kempu Yedi"
       ],
       "kashmiri": [
-        "-"
+        "رَتھ کیکڑا",
+        "Rath Kekda"
       ],
       "konkani": [
-        "-"
+        "तांबडो खेकडो",
+        "Tambdo Khekdo"
       ],
       "maithili": [
-        "-"
+        "रातु केकड़ा",
+        "Ratu Kekda"
       ],
       "malayalam": [
         "ചുവന്ന ഞണ്ട്",
         "Chuvanna Njandu"
       ],
       "manipuri": [
-        "-"
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
       ],
       "marathi": [
         "लाल खेकडा",
         "Lal Khekada"
       ],
       "nepali": [
-        "-"
+        "रातो केकडा",
+        "Rato Kekada"
       ],
       "odia": [
         "ଲାଲ କଙ୍କଡ଼ା",
@@ -9466,13 +10476,16 @@
         "Laal Kekda"
       ],
       "sanskrit": [
+        "-",
         "-"
       ],
       "santali": [
-        "-"
+        "ᱟᱨᱟᱜ ᱠᱟᱴᱠᱚᱢ",
+        "Araag Katkom"
       ],
       "sindhi": [
-        "-"
+        "ڳاڙهو ڪينڪڙو",
+        "Garho Kenkro"
       ],
       "tamil": [
         "சிவப்பு நண்டு",
