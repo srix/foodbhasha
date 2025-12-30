@@ -82,6 +82,15 @@ No build system required. The app runs in two modes:
 - **Development**: `npm start` (Node.js server with hot reload)
 - **Production**: Deploy to static hosting with SPA fallback configured
 
+**Netlify SPA Redirect**:
+Add a `netlify.toml` at the repo root so Netlify serves `index.html` for deep links:
+```toml
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
 ---
 
 ## **5. Data Model**

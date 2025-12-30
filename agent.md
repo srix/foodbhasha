@@ -214,7 +214,7 @@ Each card includes a share button that:
 ## Deployment
 
 ### Supported Platforms
-- **Netlify** (recommended) - Automatic SPA routing
+- **Netlify** (recommended) - Automatic SPA routing (ensure `netlify.toml` includes SPA redirect)
 - **Vercel** - Built-in SPA support
 - **Cloudflare Pages** - SPA routing enabled
 - **GitHub Pages** - Requires `404.html` workaround
@@ -222,6 +222,15 @@ Each card includes a share button that:
 
 ### Build Commands
 No build step required. Deploy all files as-is.
+
+### Netlify SPA Redirect
+Include a `netlify.toml` at the repo root so deep links resolve to the SPA entrypoint:
+```toml
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
 
 ### Important Files for Deployment
 - `sitemap.xml` - Submit to Google Search Console
