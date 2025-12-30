@@ -77,8 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             history.replaceState({}, '', newPath);
         }
 
-        // Initial load
-        await handleRouteChange();
+        // --- Setup Listeners & UI Components BEFORE loading data ---
 
         // Tabs
         const tabButtons = document.querySelectorAll('.tab-btn');
@@ -119,6 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Scroll Logic
         setupScrollListener();
+
+        // --- Initial Data Load ---
+        await handleRouteChange();
     }
 
     async function handleRouteChange() {
