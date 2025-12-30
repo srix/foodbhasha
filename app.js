@@ -114,6 +114,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         btnCloseCols.addEventListener('click', () => colDialog.hidden = true);
 
+        // Feedback Form
+        setupFeedbackForm();
+
         // Scroll Logic
         setupScrollListener();
     }
@@ -302,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/img/placeholder.webp'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/img/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'fish' ? 'fish' : 'chef'))}.webp'">
                 <div class="fish-title">
                     <h2>${item.names.english.join(' / ')}</h2>
                     <div class="scientific-name">${item.scientificName || ''}</div>
@@ -517,6 +520,85 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('fishCardLanguages', JSON.stringify(activeCardLanguages));
             renderApp(applyFilters(appData, searchInput.value.trim(), activeFilters));
         }));
+    }
+
+    function setupFeedbackForm() {
+        const modal = document.getElementById('feedback-modal');
+        const openBtn = document.getElementById('feedback-btn');
+        const closeBtn = document.getElementById('close-modal');
+        const closeSuccessBtn = document.getElementById('close-success-modal');
+        const form = document.getElementById('feedback-form');
+        const successMsg = document.getElementById('feedback-success');
+
+        if (!modal || !openBtn) return;
+
+        // Open Modal
+        openBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            modal.hidden = false;
+            modal.removeAttribute('aria-hidden');
+            // Focus first input
+            setTimeout(() => document.getElementById('feedback-name').focus(), 100);
+        });
+
+        // Close Modal
+        const closeModal = () => {
+            modal.hidden = true;
+            modal.setAttribute('aria-hidden', 'true');
+            // Reset form if success message was shown
+            if (!successMsg.hidden) {
+                setTimeout(() => {
+                    successMsg.hidden = true;
+                    form.hidden = false;
+                    form.reset();
+                }, 300);
+            }
+        };
+
+        closeBtn.addEventListener('click', closeModal);
+        closeSuccessBtn.addEventListener('click', closeModal);
+
+        // Close on click outside
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // Handle Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.hidden) closeModal();
+        });
+
+        // AJAX Form Submission
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const submitBtn = form.querySelector('.submit-btn');
+            const originalBtnText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+
+            const formData = new FormData(form);
+
+            try {
+                await fetch('/', {
+                    method: 'POST',
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: new URLSearchParams(formData).toString()
+                });
+
+                // Show success
+                form.hidden = true;
+                successMsg.hidden = false;
+                trackEvent('feedback_submitted');
+
+            } catch (error) {
+                console.error('Feedback submission error:', error);
+                alert('Sorry, there was an error sending your feedback. Please try again.');
+            } finally {
+                submitBtn.textContent = originalBtnText;
+                submitBtn.disabled = false;
+            }
+        });
     }
 
     function trackEvent(name, params = {}) { if (typeof gtag === 'function') gtag('event', name, params); }

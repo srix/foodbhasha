@@ -202,6 +202,18 @@ Each entry follows:
   * Regional names (Tamil, Hindi, Kannada, Malayalam)
   * Category badge
 
+### **6.5 Feedback Form**
+
+* **Trigger**: A **Floating Action Button (FAB)** in the bottom-right corner (icon: message).
+* **Modal**: Opens a centered modal overlay.
+* **Fields**:
+  * Name (Optional)
+  * Email (Optional)
+  * Message (Required)
+* **Backend**: Netlify Forms (serverless form handling).
+* **Anti-Spam**: Includes a honeypot field (`bot-field`) hidden from users but visible to bots.
+* **Behavior**: Submits via AJAX to prevent page reload; shows "Thank you" success message in-place.
+
 ---
 
 ## **7. UI Layout**

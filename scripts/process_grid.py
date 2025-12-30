@@ -21,6 +21,9 @@ def slice_grid(image_path, output_paths):
         if len(output_paths) > 4:
             print("Warning: More than 4 output paths provided, ignoring extras.")
             
+        # Inset to remove grid lines (e.g., 15 pixels from each side of the slice)
+        inset = 15
+            
         for i, crop_box in enumerate(crops):
             if i >= len(output_paths):
                 break
@@ -30,10 +33,13 @@ def slice_grid(image_path, output_paths):
                 continue
                 
             cropped = img.crop(crop_box)
-            # Resize to 400x400 as per user desire, or keep distinct?
-            # User mentioned "generate larger image and cut". 
-            # If the generated image is large (e.g. 1024), chunks are 512.
-            # Resizing to 400x400 ensures consistency.
+            
+            # Apply inset trim to remove borders/grid lines
+            cw, ch = cropped.size
+            if cw > (2 * inset) and ch > (2 * inset):
+                cropped = cropped.crop((inset, inset, cw - inset, ch - inset))
+            
+            # Resize to 400x400 as per user desire
             cropped = cropped.resize((400, 400), Image.Resampling.LANCZOS)
             
             cropped.save(output_path, "WEBP", quality=90)

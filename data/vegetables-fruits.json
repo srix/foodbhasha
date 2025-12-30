@@ -3032,7 +3032,7 @@
   },
   {
     "id": "watermelon",
-    "photo": "img/placeholder.webp",
+    "photo": "img/watermelon.webp",
     "tags": [
       "fruit"
     ],
@@ -3123,7 +3123,7 @@
   },
   {
     "id": "pineapple",
-    "photo": "img/placeholder.webp",
+    "photo": "img/pineapple.webp",
     "tags": [
       "fruit"
     ],
@@ -3214,7 +3214,7 @@
   },
   {
     "id": "guava",
-    "photo": "img/placeholder.webp",
+    "photo": "img/guava.webp",
     "tags": [
       "fruit"
     ],
@@ -3305,7 +3305,7 @@
   },
   {
     "id": "orange",
-    "photo": "img/placeholder.webp",
+    "photo": "img/orange.webp",
     "tags": [
       "fruit"
     ],
@@ -3396,7 +3396,7 @@
   },
   {
     "id": "grapes",
-    "photo": "img/placeholder.webp",
+    "photo": "img/grapes.webp",
     "tags": [
       "fruit"
     ],
@@ -3487,7 +3487,7 @@
   },
   {
     "id": "lemon",
-    "photo": "img/placeholder.webp",
+    "photo": "img/lemon.webp",
     "tags": [
       "fruit"
     ],
@@ -3578,7 +3578,7 @@
   },
   {
     "id": "amla",
-    "photo": "img/placeholder.webp",
+    "photo": "img/amla.webp",
     "tags": [
       "fruit"
     ],
@@ -3669,7 +3669,7 @@
   },
   {
     "id": "sweet-potato",
-    "photo": "img/placeholder.webp",
+    "photo": "img/sweet-potato.webp",
     "tags": [
       "root"
     ],
@@ -3760,7 +3760,7 @@
   },
   {
     "id": "tapioca",
-    "photo": "img/placeholder.webp",
+    "photo": "img/tapioca.webp",
     "tags": [
       "root"
     ],
@@ -3851,7 +3851,7 @@
   },
   {
     "id": "yam",
-    "photo": "img/placeholder.webp",
+    "photo": "img/yam.webp",
     "tags": [
       "root"
     ],
@@ -3942,7 +3942,7 @@
   },
   {
     "id": "colocasia",
-    "photo": "img/placeholder.webp",
+    "photo": "img/colocasia.webp",
     "tags": [
       "root"
     ],
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "capsicum",
-    "photo": "img/placeholder.webp",
+    "photo": "img/capsicum.webp",
     "tags": [
       "vegetable"
     ],
@@ -4124,7 +4124,7 @@
   },
   {
     "id": "cluster-beans",
-    "photo": "img/placeholder.webp",
+    "photo": "img/cluster-beans.webp",
     "tags": [
       "vegetable"
     ],
@@ -4215,7 +4215,7 @@
   },
   {
     "id": "ivy-gourd",
-    "photo": "img/placeholder.webp",
+    "photo": "img/ivy-gourd.webp",
     "tags": [
       "vegetable"
     ],
@@ -4306,7 +4306,7 @@
   },
   {
     "id": "fenugreek-leaves",
-    "photo": "img/placeholder.webp",
+    "photo": "img/fenugreek-leaves.webp",
     "tags": [
       "leafy"
     ],

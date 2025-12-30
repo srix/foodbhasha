@@ -24,6 +24,7 @@ The app supports:
 - **Card View** for visual browsing with lazy loading
 - **Multi-select Filtering** (e.g., Root + Leafy)
 - **Search persistence** with query parameters
+- **Feedback Mechanism** via floating action button and Netlify Forms
 
 ---
 
