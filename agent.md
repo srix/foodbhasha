@@ -194,6 +194,17 @@ adb shell am start -n com.foodbhasha.app/.MainActivity
 adb logcat | grep -i capacitor
 ```
 
+#### Combined Workflow Commands
+**Sync & Build APK/AAB:**
+```bash
+npm run sync && npm run android:build
+```
+
+**Sync & Run on Emulator (Pixel 8):**
+```bash
+npm run sync && export ANDROID_SDK_ROOT=$HOME/Android/Sdk && npx cap run android --target Pixel_8
+```
+
 ---
 
 ## SEO Architecture
