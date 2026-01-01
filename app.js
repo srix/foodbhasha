@@ -64,6 +64,34 @@ document.addEventListener('DOMContentLoaded', () => {
     init();
 
     async function init() {
+        // Platform Detection
+        if (window.Capacitor) {
+            document.body.classList.add('platform-capacitor');
+            if (window.Capacitor.getPlatform() === 'android') {
+                document.body.classList.add('platform-android');
+
+                // Force Status Bar Style
+                try {
+                    const StatusBar = window.Capacitor.Plugins.StatusBar;
+                    if (StatusBar) {
+                        // Style.Light means "Light Background" -> Dark Icons
+                        await StatusBar.setStyle({ style: 'LIGHT' });
+                        await StatusBar.setBackgroundColor({ color: '#F4F1E8' }); // Match header color
+                        await StatusBar.setOverlaysWebView({ overlay: false }); // Disable overlay to stop blending issues?
+                        // Actually user liked the "not overlapping" part from previous step.
+                        // But if we set overlay: false, the webview shrinks, handling the safe area natively!
+                        // This might be cleaner than my CSS hack.
+                        // Let's stick to the user's request: "icons are white".
+                        // So just setStyle('DARK') is critical.
+                        // Note: setOverlaysWebView(true) makes it transparent/full screen.
+                        // Let's re-enforce the style.
+                    }
+                } catch (e) {
+                    console.error("StatusBar plugin error", e);
+                }
+            }
+        }
+
         // History API Routing
         window.addEventListener('popstate', handleRouteChange);
 

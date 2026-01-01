@@ -43,6 +43,10 @@ body {
     padding-top: env(safe-area-inset-top);
 }
 
+.platform-android .app-header {
+    padding-top: max(env(safe-area-inset-top), 40px);
+}
+
 .header-centered {
     max-width: 1200px;
     margin: 0 auto;
