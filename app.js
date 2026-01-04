@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createCardElement(item) {
         const card = document.createElement('div');
-        card.className = 'fish-card';
+        card.className = 'item-card';
         const itemCategory = item.category || currentCategory; // Use item category if global search, else current
 
         const primaryLangs = [...activeCardLanguages];
@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function scrollToItem(itemId) {
-        const cards = document.querySelectorAll('.fish-card');
+        const cards = document.querySelectorAll('.item-card');
         for (const card of cards) {
             const cardData = currentFilteredData.find(item => {
                 const cardTitle = card.querySelector('h3')?.textContent;

@@ -404,7 +404,7 @@ body {
     /* Space for scrollbar */
 }
 
-.fish-card {
+.item-card {
     background: var(--card-bg);
     border-radius: var(--radius);
     padding: var(--spacing-md);
@@ -520,7 +520,7 @@ body {
         width: 200px;
     }
 
-    .fish-card {
+    .item-card {
         flex-direction: row;
         align-items: flex-start;
         flex-wrap: wrap;
@@ -717,7 +717,7 @@ body {
     }
 
     /* Card Adjustments */
-    .fish-card {
+    .item-card {
         padding: 16px;
         gap: 12px;
     }
@@ -768,7 +768,7 @@ body {
     }
 }
 
-.fish-card.highlight-item {
+.item-card.highlight-item {
     animation: highlight-pulse 2s ease-in-out;
     border: 2px solid var(--primary-color);
 }

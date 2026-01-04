@@ -20,7 +20,7 @@ test.describe('Global Search', () => {
 
         // Verify badge indicates it's a Fruit (by checking for fruit-specific placeholder or badge if possible, 
         // OR just checking we found something that definitely isn't a fish)
-        const cards = page.locator('.fish-card');
+        const cards = page.locator('.item-card');
         await expect(cards).not.toHaveCount(0);
     });
 
@@ -33,7 +33,7 @@ test.describe('Global Search', () => {
         await page.waitForTimeout(600);
 
         // Should see fish results
-        await expect(page.locator('.fish-card').first()).toBeVisible();
+        await expect(page.locator('.item-card').first()).toBeVisible();
 
         // Clear search
         await page.click('#search-clear');

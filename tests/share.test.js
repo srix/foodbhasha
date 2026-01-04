@@ -36,7 +36,7 @@ test.describe('Share Functionality', () => {
         await context.grantPermissions(['clipboard-write', 'clipboard-read']);
 
         // Find first card and its share button
-        const firstCard = await page.locator('.fish-card').first();
+        const firstCard = await page.locator('.item-card').first();
         const shareBtn = await firstCard.locator('.share-btn');
 
         // Click share button

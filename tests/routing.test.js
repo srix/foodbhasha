@@ -42,7 +42,7 @@ test.describe('History API Routing', () => {
         await expect(spicesTab).toHaveClass(/active/);
 
         // Should have spice cards
-        const cards = await page.locator('.fish-card');
+        const cards = await page.locator('.item-card');
         await expect(cards.first()).toBeVisible();
     });
 
@@ -62,11 +62,11 @@ test.describe('History API Routing', () => {
         await expect(searchInput).toHaveValue(/Sardine/);
 
         // Should filter to show only that item
-        const cards = await page.locator('.fish-card');
+        const cards = await page.locator('.item-card');
         await expect(cards).toHaveCount(1);
 
         // Card should be highlighted
-        const highlightedCard = await page.locator('.fish-card.highlight-item');
+        const highlightedCard = await page.locator('.item-card.highlight-item');
         await expect(highlightedCard).toBeVisible();
     });
 

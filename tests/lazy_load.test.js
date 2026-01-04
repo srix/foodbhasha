@@ -8,16 +8,16 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
     });
 
     test('Initial Load Limit', async ({ page }) => {
-        await expect(page.locator('.fish-card').first()).toBeVisible();
-        const count = await page.locator('.fish-card').count();
+        await expect(page.locator('.item-card').first()).toBeVisible();
+        const count = await page.locator('.item-card').count();
         expect(count).toBe(8);
     });
 
     test('Loads More on Scroll', async ({ page }) => {
-        await expect(page.locator('.fish-card').first()).toBeVisible();
+        await expect(page.locator('.item-card').first()).toBeVisible();
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
         await page.waitForTimeout(500);
-        const newCount = await page.locator('.fish-card').count();
+        const newCount = await page.locator('.item-card').count();
         expect(newCount).toBeGreaterThan(8);
         expect(newCount).toBeLessThanOrEqual(40);
     });
@@ -28,7 +28,7 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
 
         // Wait for more cards to load (should be > 8, defaults usually 8 + 8)
         // With 100+ veg items, scrolling should load more.
-        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 4000 });
+        await expect(page.locator('.item-card')).toHaveCount(16, { timeout: 4000 });
 
         const chips = page.locator('#filter-chips');
         // Use a Veg filter (e.g., 'fruit')
@@ -37,11 +37,11 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
 
         // Wait for filter to apply by checking card count reduces
         await page.waitForFunction(() => {
-            const count = document.querySelectorAll('.fish-card').length;
+            const count = document.querySelectorAll('.item-card').length;
             return count <= 16;
         }, { timeout: 5000 });
 
-        const filteredCount = await page.locator('.fish-card').count();
+        const filteredCount = await page.locator('.item-card').count();
         expect(filteredCount).toBeLessThanOrEqual(16);
     });
 
@@ -50,15 +50,15 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
 
         // Wait for more cards to load
-        await expect(page.locator('.fish-card')).toHaveCount(16, { timeout: 4000 });
+        await expect(page.locator('.item-card')).toHaveCount(16, { timeout: 4000 });
 
         // Switch to Fish
         await page.locator('button[data-category="fish"]').click();
         await page.waitForLoadState('networkidle');
 
         // Wait for fish to load and verify count reset to initial batch (8)
-        await expect(page.locator('.fish-card').first()).toBeVisible();
-        const fishCount = await page.locator('.fish-card').count();
+        await expect(page.locator('.item-card').first()).toBeVisible();
+        const fishCount = await page.locator('.item-card').count();
         expect(fishCount).toBeLessThanOrEqual(8);
 
         // Switch BACK to Fish
@@ -66,8 +66,8 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         await page.waitForLoadState('networkidle');
 
         // Verify Fish is reset to 20 by waiting for first card and checking count
-        await expect(page.locator('.fish-card').first()).toBeVisible();
-        const fishCountNew = await page.locator('.fish-card').count();
+        await expect(page.locator('.item-card').first()).toBeVisible();
+        const fishCountNew = await page.locator('.item-card').count();
         expect(fishCountNew).toBe(8);
     });
 
@@ -78,12 +78,12 @@ test.describe('Lazy Loading & Infinite Scroll', () => {
         await searchInput.fill('Seer');
 
         // Wait for search to filter by checking card count becomes 1
-        await expect(page.locator('.fish-card')).toHaveCount(2, { timeout: 2000 });
+        await expect(page.locator('.item-card')).toHaveCount(2, { timeout: 2000 });
 
         // Clear search and wait for results to reset
         await searchInput.fill('');
 
         // Wait for all cards to come back
-        await expect(page.locator('.fish-card')).toHaveCount(8, { timeout: 2000 });
+        await expect(page.locator('.item-card')).toHaveCount(8, { timeout: 2000 });
     });
 });
