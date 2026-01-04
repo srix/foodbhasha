@@ -60,6 +60,12 @@ The app supports:
 - `index.html`  
   Main entry point. Contains DOM structure for tabs and card view with absolute asset paths.
 
+- `404.html`
+  Custom error page for handling invalid routes.
+
+- `ads.txt`
+  Placeholder for ads.txt implementation.
+
 - `app.js`  
   Core application logic:
   - History API routing with item-level URL support
@@ -71,6 +77,7 @@ The app supports:
 - `style.css`  
   Global and responsive styles including highlight animations.
   - **Design note**: Uses a "Vertical Stack" dual-script icon (Tamil 'அ' top, Devanagari 'अ' bottom) for the language button.
+  - **Heading Hierarchy**: Uses `h3` for card titles to reserve `h2` for section headings.
 
 - `server.js`  
   Express server with SPA fallback routing:
@@ -144,6 +151,11 @@ The app supports:
 ```bash
 npm install
 ```
+
+### Important: Image Guidelines
+- **Format**: Always use `.webp` for all images, including logos.
+- **Dimensions**: Always specify `width` and `height` attributes on `<img>` tags.
+- **Placeholders**: Use `placeholder_veg.webp`, `placeholder_fish.webp`, etc.
 
 ### Run locally
 ```bash

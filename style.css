@@ -49,10 +49,7 @@ body {
 }
 
 /* Add padding to body via JS, but ensures defaults */
-.app-header+.app-body {
-    /* Fallback if JS fails, though JS is preferred */
-    /* padding-top: 180px; Removed in favor of JS */
-}
+/* .app-header+.app-body { padding-top: 180px; } Removed in favor of JS */
 
 .header-centered {
     max-width: 1200px;
@@ -437,7 +434,7 @@ body {
     /* Force full width to break to new line in wrapped flex */
 }
 
-.fish-title h2 {
+.fish-title h3 {
     font-size: 1.125rem;
     margin-bottom: 4px;
 }

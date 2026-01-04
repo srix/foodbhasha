@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | FoodBhasha</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Use new WebP logo if browser supports, but for now strict path -->
+    <link rel="icon" href="/assets/graphics/logo.webp">
+    <style>
+        .error-container {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 24px;
+        }
+
+        .error-code {
+            font-size: 6rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1;
+        }
+
+        .error-msg {
+            font-size: 1.5rem;
+            margin: 16px 0 32px;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="app-header">
+        <div class="header-centered header-top-content">
+            <a href="/" class="brand" style="text-decoration: none;">
+                <div class="logo-circle">
+                    <img src="/assets/graphics/logo.webp" alt="FoodBhasha Logo" class="brand-icon-img">
+                </div>
+                <div class="brand-text">
+                    <h1>FoodBhasha</h1>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <main class="app-body">
+        <div class="error-container">
+            <h1 class="error-code">404</h1>
+            <p class="error-msg">Oops! The ingredient you're looking for isn't on our shelf.</p>
+            <a href="/" class="secondary-btn" style="text-decoration: none; padding: 12px 24px;">Return to Market</a>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <p>© 2026 FoodBhasha</p>
+    </footer>
+</body>
+
+</html>

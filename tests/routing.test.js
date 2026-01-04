@@ -9,7 +9,7 @@ test.describe('History API Routing', () => {
 
     test('Homepage loads correctly at root URL', async ({ page }) => {
         await expect(page).toHaveURL('http://localhost:8080/');
-        await expect(page).toHaveTitle(/Indian Ingredient Lexicon/);
+        await expect(page).toHaveTitle(/FoodBhasha/);
 
         // Should default to fish category
         const fishTab = await page.locator('.tab-btn[data-category="fish"]');

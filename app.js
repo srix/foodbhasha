@@ -349,9 +349,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <div class="fish-header">
-                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'spices' ? 'spice' : 'fish'))}.webp'">
+                <img src="${item.photo}" alt="${item.names.english[0]}" class="fish-thumbnail" width="80" height="80" loading="lazy" onerror="this.onerror=null; this.src='/assets/graphics/placeholder_${currentCategory === 'vegetables-fruits' ? 'veg' : (currentCategory === 'grains' ? 'grain' : (currentCategory === 'spices' ? 'spice' : 'fish'))}.webp'">
                 <div class="fish-title">
-                    <h2>${item.names.english.join(' / ')}</h2>
+                    <h3>${item.names.english.join(' / ')}</h3>
                     <div class="scientific-name">${item.scientificName || ''}</div>
                     <div class="badges">${getBadges(item.tags)}</div>
                 </div>
@@ -464,16 +464,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     item.names.malayalam[0]
                 ].filter(Boolean).join(', ');
 
-                description = `${englishName} (${scientificName}). Regional names: ${languageNames}. Multilingual ${catLabel} glossary in 22 Indian languages.`;
+                description = `${englishName} (${scientificName}). Regional names: ${languageNames}. Multilingual ${catLabel} glossary in 22 Indian languages including Tamil, Hindi, Malayalam, and Kannada.`;
                 ogTitle = `${englishName} | ${catLabel} Names`;
                 ogDescription = description;
             } else {
-                description = `Comprehensive ${catLabel.toLowerCase()} glossary in 22 Indian languages.`;
+                description = `Comprehensive ${catLabel.toLowerCase()} glossary in 22 Indian languages. Identify and translate names of Fish, Vegetables, Fruits, Grains, and Spices with photos.`;
                 ogTitle = catLabel;
                 ogDescription = description;
             }
         } else {
-            description = `Identify ${catLabel.toLowerCase()} in 22 regional Indian languages including Tamil, Malayalam, Kannada, Hindi, Telugu, and more.`;
+            description = `Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.`;
             ogTitle = `${catLabel} | Indian Ingredient Lexicon`;
             ogDescription = description;
         }
@@ -483,16 +483,18 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('meta[property="og:url"]')?.setAttribute('content', url);
         document.querySelector('meta[property="og:title"]')?.setAttribute('content', ogTitle + ' | FoodBhasha');
         document.querySelector('meta[property="og:description"]')?.setAttribute('content', ogDescription);
+        document.querySelector('meta[property="og:image"]')?.setAttribute('content', 'https://foodbhasha.com/assets/graphics/logo.webp');
         document.querySelector('meta[property="twitter:url"]')?.setAttribute('content', url);
         document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', ogTitle + ' | FoodBhasha');
         document.querySelector('meta[property="twitter:description"]')?.setAttribute('content', ogDescription);
+        document.querySelector('meta[property="twitter:image"]')?.setAttribute('content', 'https://foodbhasha.com/assets/graphics/logo.webp');
     }
 
     function scrollToItem(itemId) {
         const cards = document.querySelectorAll('.fish-card');
         for (const card of cards) {
             const cardData = currentFilteredData.find(item => {
-                const cardTitle = card.querySelector('h2')?.textContent;
+                const cardTitle = card.querySelector('h3')?.textContent;
                 return item.id === itemId || item.names.english.some(name => cardTitle?.includes(name));
             });
 

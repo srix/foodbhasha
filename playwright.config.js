@@ -6,7 +6,7 @@ module.exports = defineConfig({
     fullyParallel: true,
     reporter: 'list',
     use: {
-        baseURL: 'http://localhost:8081',
+        baseURL: 'http://localhost:8080',
         trace: 'on-first-retry',
     },
     projects: [
@@ -20,8 +20,8 @@ module.exports = defineConfig({
         },
     ],
     webServer: {
-        command: 'npx -y http-server -p 8081 -c-1',
-        url: 'http://localhost:8081',
+        command: 'npm start',
+        url: 'http://localhost:8080',
         reuseExistingServer: !process.env.CI,
     },
 });

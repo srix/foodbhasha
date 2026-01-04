@@ -22,18 +22,16 @@ test.describe('FoodBhasha Branding', () => {
         await page.click('[data-category="vegetables-fruits"]');
         await page.waitForLoadState('networkidle');
 
-        const title = await page.title();
-        expect(title).toContain('Vegetables');
-        expect(title).toContain('FoodBhasha');
+        await expect(page).toHaveTitle(/Vegetables/);
+        await expect(page).toHaveTitle(/FoodBhasha/);
     });
 
     test('should update page title when searching', async ({ page }) => {
         await page.fill('#search-input', 'pomfret');
-        await page.waitForTimeout(600); // Wait for debounce
+        // await page.waitForTimeout(600); // Removed explicit wait in favor of retry
 
-        const title = await page.title();
-        expect(title).toContain('pomfret');
-        expect(title).toContain('FoodBhasha');
+        await expect(page).toHaveTitle(/pomfret/);
+        await expect(page).toHaveTitle(/FoodBhasha/);
     });
 
     test('should have friendly, non-academic tone in UI', async ({ page }) => {
@@ -53,7 +51,7 @@ test.describe('FoodBhasha Branding', () => {
 
         await expect(logo).toBeVisible();
         await expect(logo).toHaveAttribute('alt', 'FoodBhasha Logo');
-        await expect(logo).toHaveAttribute('src', '/assets/graphics/logo.jpg');
+        await expect(logo).toHaveAttribute('src', '/assets/graphics/logo.webp');
     });
 
     test('should display dual-script language icon', async ({ page }) => {

@@ -8,7 +8,7 @@ test.describe('SEO and Meta Tags', () => {
 
     test('Homepage has correct meta tags', async ({ page }) => {
         // Title - app defaults to Fish category on load
-        await expect(page).toHaveTitle(/Fish.*Indian Ingredient Lexicon/);
+        await expect(page).toHaveTitle(/Fish & Seafood.*FoodBhasha/);
 
         // Meta description
         const description = await page.locator('meta[name="description"]').getAttribute('content');
@@ -33,7 +33,7 @@ test.describe('SEO and Meta Tags', () => {
         await page.waitForTimeout(300);
 
         // Title should update
-        await expect(page).toHaveTitle(/Spices.*Indian Ingredient Lexicon/);
+        await expect(page).toHaveTitle(/Spices.*FoodBhasha/);
 
         // Description should mention spices
         const description = await page.locator('meta[name="description"]').getAttribute('content');
@@ -97,7 +97,7 @@ test.describe('SEO and Meta Tags', () => {
 
         const data = JSON.parse(jsonLd);
         expect(data['@type']).toBe('WebApplication');
-        expect(data.name).toContain('Indian Ingredient Lexicon');
+        expect(data.name).toContain('FoodBhasha');
         expect(data.url).toBe('https://foodbhasha.com/');
     });
 
@@ -109,7 +109,7 @@ test.describe('SEO and Meta Tags', () => {
     test('Favicon is set', async ({ page }) => {
         const favicon = await page.locator('link[rel="icon"]').first().getAttribute('href');
         expect(favicon).toBeTruthy();
-        expect(favicon).toContain('logo.jpg');
+        expect(favicon).toContain('logo.webp');
     });
 
     test('Language attribute is set on HTML', async ({ page }) => {

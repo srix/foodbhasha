@@ -54,6 +54,8 @@ The site is a **Single Page Application (SPA)** using vanilla JavaScript with se
 /sitemap.xml (324 URLs)
 /robots.txt
 /manifest.json
+/404.html (Custom error page)
+/ads.txt (Ads placeholder)
 ```
 
 ### **4.1 Routing Architecture**
@@ -251,7 +253,7 @@ A responsive sticky header that stays fixed at the top.
 
 * **App Name**: FoodBhasha
 * **Tagline**: "Your market translator"
-* **Logo**: Custom image (`assets/graphics/logo.jpg`) displayed in a non-cropped square format.
+* **Logo**: Custom image (`assets/graphics/logo.webp`) displayed in a non-cropped square format.
 * **Favicon**: Matches the branding logo.
 * **Visuals**: Primary Blue (`#1B497E`) theme.
 * **Tone**: Friendly, practical, helpful (not academic)
@@ -278,8 +280,9 @@ Contains the Cards container:
 
 ## **9. Image Guidelines**
 
-* Use `.webp` for efficiency.
-* **Placeholders**: If a specific image is unavailable, use `assets/graphics/placeholder.webp`.
+* **Format**: All images (including logos and placeholders) MUST be in `.webp` format for performance.
+* **Dimensions**: All `<img>` tags must include explicit `width` and `height` attributes to prevent Cumulative Layout Shift (CLS).
+* **Placeholders**: If a specific image is unavailable, use category-specific placeholders (e.g., `placeholder_veg.webp`).
 
 ---
 
