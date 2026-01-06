@@ -18,7 +18,7 @@ def generate_sitemap():
 
     # Feedback Page
     sitemap.append('  <url>')
-    sitemap.append('    <loc>https://foodbhasha.com/feedback</loc>')
+    sitemap.append('    <loc>https://foodbhasha.com/feedback/</loc>')
     sitemap.append(f'    <lastmod>{today}</lastmod>')
     sitemap.append('    <changefreq>monthly</changefreq>')
     sitemap.append('    <priority>0.5</priority>')
