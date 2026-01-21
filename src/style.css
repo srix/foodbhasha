@@ -1060,3 +1060,7 @@ body {
         margin: 0;
     }
 }
+/* Hide the static SEO list to prevent Flash of Unstyled Content (FOUC) */
+.static-category-list {
+    display: none;
+}
