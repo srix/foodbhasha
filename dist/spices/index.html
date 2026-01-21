@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Spices | Indian Ingredient Lexicon | FoodBhasha</title>
+    <link rel="icon" type="image/webp" href="/assets/graphics/logo.webp">
+    <meta name="description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+
+    <!-- Canonical & Favicon -->
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodbhasha.com/spices/">
+    <meta property="og:title" content="Spices | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="og:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="og:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://foodbhasha.com/spices/">
+    <meta property="twitter:title" content="Spices | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="twitter:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="twitter:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FoodBhasha",
+      "description": "A multilingual glossary to identify Indian food ingredients like fish, vegetables, fruits, grains, and spices in 22 regional languages.",
+      "url": "https://foodbhasha.com/",
+      "applicationCategory": "Reference",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK15LCPJG1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RK15LCPJG1');
+    </script>
+    <link rel="icon" href="/assets/graphics/logo.webp">
+    <link rel="preload" href="/data/fish-seafood.json" as="fetch" crossorigin="anonymous">
+<link rel="canonical" href="https://foodbhasha.com/spices/">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <div class="header-top">
+            <div class="header-centered header-top-content">
+                <div class="brand">
+                    <div class="logo-circle">
+                        <img src="/assets/graphics/logo.webp" alt="FoodBhasha Logo" class="brand-icon-img">
+                    </div>
+                    <div class="brand-text">
+                        <h1>FoodBhasha</h1>
+                        <span class="subtitle">Your market translator</span>
+                    </div>
+                </div>
+
+                <div class="search-container">
+                    <span class="search-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" id="search-input" placeholder="Search by name (English, हिंदी, தமிழ்...)">
+                    <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+                </div>
+
+                <div class="header-actions">
+                    <button id="btn-customize-cols" class="btn-languages">
+                        <span class="btn-icon dual-script">
+                            <span class="script-tam">அ</span>
+                            <span class="script-dev">अ</span>
+                        </span>
+                        <span class="btn-text">More Languages</span>
+                    </button>
+                    <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
+                        <h3 id="column-selector-title">Show Languages</h3>
+                        <div id="column-checkboxes"></div>
+                        <button id="btn-close-cols" class="secondary-btn">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="category-tabs">
+            <div class="header-centered category-tabs-inner">
+                <button class="tab-btn active" data-category="vegetables-fruits">
+                    <span class="tab-icon">🥦</span> Vegetables & Fruits
+                </button>
+                <button class="tab-btn" data-category="grains">
+                    <span class="tab-icon">🌾</span> Grains & Pulses
+                </button>
+                <button class="tab-btn" data-category="spices">
+                    <span class="tab-icon">🌶️</span> Spices
+                </button>
+                <button class="tab-btn" data-category="fish">
+                    <span class="tab-icon">🐟</span> Fish & Seafood
+                </button>
+            </div>
+        </nav>
+
+        <div class="app-toolbar">
+            <div class="header-centered app-toolbar-content">
+                <div class="filter-group">
+                    <div class="results-stat">
+                        <span id="result-count">0/0</span>
+                    </div>
+                    <div id="filter-chips" class="chips-container">
+                        <button class="filter-chip active" data-filter="all">All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-body">
+        <div id="card-view" class="view-container">
+
+    <div class="static-category-list">
+        <h1>Spices</h1>
+        <ul class="seo-list">
+            
+                <li>
+                    <a href="/spices/mustard-seeds/">
+                        <strong>Mustard Seeds</strong>
+                        <span>(tamil: கடுகு | hindi: सरसों | malayalam: കടുക് | kannada: ಸಾಸಿವೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/cumin-seeds/">
+                        <strong>Cumin Seeds</strong>
+                        <span>(tamil: சீரகம் | hindi: जीरा | malayalam: ജീരകം | kannada: ಜೀರಿಗೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/coriander-seeds/">
+                        <strong>Coriander Seeds</strong>
+                        <span>(tamil: மல்லி | hindi: धनिया | malayalam: മല്ലi | kannada: ಕೊತ್ತಂಬರಿ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/fennel-seeds/">
+                        <strong>Fennel Seeds</strong>
+                        <span>(tamil: சோம்பு | hindi: सौंफ | malayalam: പെരുംജീരകം | kannada: ಬಡೆಸೋಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/fenugreek-seeds/">
+                        <strong>Fenugreek Seeds</strong>
+                        <span>(tamil: வெந்தயம் | hindi: मेथी | malayalam: ഉലുവ | kannada: ಮೆಂತ್ಯ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/black-pepper/">
+                        <strong>Black Pepper</strong>
+                        <span>(tamil: மிளகு | hindi: काली मिर्च | malayalam: കുരുമുളക് | kannada: ಮೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/cardamom/">
+                        <strong>Cardamom</strong>
+                        <span>(tamil: ஏலக்காய் | hindi: इलायची | malayalam: ഏലയ്ക്ക | kannada: ಏಲಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/cloves/">
+                        <strong>Cloves</strong>
+                        <span>(tamil: கிராம்பு | hindi: लौंग | malayalam: ഗ്രാമ്പൂ | kannada: ಲವಂಗ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/cinnamon/">
+                        <strong>Cinnamon</strong>
+                        <span>(tamil: பட்டை | hindi: दालचीनी | malayalam: കറുവപ്പട്ട | kannada: ಚಕ್ಕೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/turmeric/">
+                        <strong>Turmeric</strong>
+                        <span>(tamil: மஞ்சள் | hindi: हल्दी | malayalam: മഞ്ഞൾ | kannada: ಅರಿಶಿನ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/dry-red-chili/">
+                        <strong>Dry Red Chili</strong>
+                        <span>(tamil: காய்ந்த மிளகாய் | hindi: लाल मिर्च | malayalam: വറ്റൽ മുളക് | kannada: ಒಣ ಮೆಣಸಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/cashew/">
+                        <strong>Cashew</strong>
+                        <span>(tamil: முந்திரி | hindi: काजू | malayalam: കശുവണ്ടി | kannada: ಗೋಡಂಬಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/almond/">
+                        <strong>Almond</strong>
+                        <span>(tamil: பாதாம் | hindi: बादाम | malayalam: ബദാം | kannada: ಬಾದಾಮಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/pistachio/">
+                        <strong>Pistachio</strong>
+                        <span>(tamil: பிஸ்தா | hindi: पिस्ता | malayalam: പിസ്ത | kannada: ಪಿಸ್ತಾ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/walnut/">
+                        <strong>Walnut</strong>
+                        <span>(tamil: வால்நட் | hindi: अखरोट | malayalam: വാൽനട്ട് | kannada: ಅಕ್ರೋಟ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/raisins/">
+                        <strong>Raisins</strong>
+                        <span>(tamil: உலர் திராட்சை | hindi: किशमिश | malayalam: ഉണക്കമുന്തിരി | kannada: ಒಣ ದ್ರಾಕ್ಷಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/dates/">
+                        <strong>Dates</strong>
+                        <span>(tamil: பேரீச்சம்பழம் | hindi: खजूर | malayalam: ഈന്തപ്പഴം | kannada: ಖರ್ಜೂರ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/tamarind/">
+                        <strong>Tamarind</strong>
+                        <span>(tamil: புளி | hindi: इमली | malayalam: പുളി | kannada: ಹುಣಸೆಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/kokum/">
+                        <strong>Kokum</strong>
+                        <span>(tamil: குடம் புளி | hindi: कोकम | malayalam: കുടംപുളി | kannada: ಮುರುಗಲು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/asafetida/">
+                        <strong>Asafetida</strong>
+                        <span>(tamil: பெருங்காயம் | hindi: हिंग | malayalam: കായം | kannada: ಇಂಗು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/poppy-seeds/">
+                        <strong>Poppy Seeds</strong>
+                        <span>(tamil: கசகசா | hindi: खसखस | malayalam: കശകശ | kannada: ಗಸಗಸೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/carom-seeds/">
+                        <strong>Carom Seeds</strong>
+                        <span>(tamil: ஓமம் | hindi: अजवाइन | malayalam: അയമോദകം | kannada: ಓಮ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/nigella-seeds/">
+                        <strong>Nigella Seeds</strong>
+                        <span>(tamil: கருஞ்சீரகம் | hindi: कलौंजी | malayalam: കരിംജീരകം | kannada: ಕರಿ ಜೀರಿಗೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/basil-seeds/">
+                        <strong>Basil Seeds</strong>
+                        <span>(tamil: சப்ஜா விதைகள் | hindi: सब्जा बीज | malayalam: കസ്കസ് | kannada: ಕಾಮಕಸ್ತೂರಿ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/melon-seeds/">
+                        <strong>Melon Seeds</strong>
+                        <span>(tamil: வெள்ளரி விதை | hindi: मगज़ | malayalam: മത്തൻ കൂരു | kannada: ಕರ್ಬೂಜ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/saffron/">
+                        <strong>Saffron</strong>
+                        <span>(tamil: குங்குமப்பூ | hindi: केसर | malayalam: കുങ്കുമപ്പൂവ് | kannada: ಕೇಸರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/nutmeg/">
+                        <strong>Nutmeg</strong>
+                        <span>(tamil: ஜாதிக்காய் | hindi: जायफल | malayalam: ജാതിക്ക | kannada: ಜಾಯಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/mace/">
+                        <strong>Mace</strong>
+                        <span>(tamil: ஜாதிப்பத்திரி | hindi: जावित्री | malayalam: ജാതിപത്രി | kannada: ಜಾಪತ್ರೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/star-anise/">
+                        <strong>Star Anise</strong>
+                        <span>(tamil: அன்னாசி ்பூ | hindi: चक्र फूल | malayalam: തക്കോലം | kannada: ಚಕ್ರ ಮೊಗ್ಗು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/bay-leaf/">
+                        <strong>Bay Leaf</strong>
+                        <span>(tamil: பிரியாணி இலை | hindi: तेज पत्ता | malayalam: കറുവ ഇല | kannada: ಪಲಾವ್ ಎಲೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/dry-ginger/">
+                        <strong>Dry Ginger</strong>
+                        <span>(tamil: சுக்கு | hindi: सोंठ | malayalam: ചുക്ക് | kannada: ಶುಂಠಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/black-cardamom/">
+                        <strong>Black Cardamom</strong>
+                        <span>(tamil: கருப்பு ஏலக்காய் | hindi: काली इलायची | malayalam: കറുത്ത ഏലയ്ക്ക | kannada: ಕಪ್ಪು ಏಲಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/white-pepper/">
+                        <strong>White Pepper</strong>
+                        <span>(tamil: வெள்ளை மிளகு | hindi: सफेद मिर्च | malayalam: വെള്ള കുരുമുളക് | kannada: ಬಿಳಿ ಮೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/long-pepper/">
+                        <strong>Long Pepper</strong>
+                        <span>(tamil: திப்பிலி | hindi: पिप्पली | malayalam: തിപ്പലി | kannada: ಹಿಪ್ಪಲಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/stone-flower/">
+                        <strong>Stone Flower</strong>
+                        <span>(tamil: கல்பாசி | hindi: पत्थर के फूल | malayalam: കൽപ്പാസി | kannada: ಕಲ್ಲು ಹೂವು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/marathi-moggu/">
+                        <strong>Marathi Moggu</strong>
+                        <span>(tamil: மராத்தி மொக்கு | hindi: मराठी मोग्गु | malayalam: മറാഠി മൊഗ്ഗു | kannada: ಮರಾಠಿ ಮೊಗ್ಗು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/kabab-chin/">
+                        <strong>Cubeb, Tailed Pepper</strong>
+                        <span>(tamil: வால் மிளகு | hindi: कबाब चीनी | malayalam: വാൽമുളക് | kannada: ಗಂಧಮೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/spices/galangal/">
+                        <strong>Galangal</strong>
+                        <span>(tamil: சித்தரத்தை | hindi: कुलंजन | malayalam: ചിറ്റരത്ത | kannada: ಧೂಮರಾಸ್ಮಿ)</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+            <!-- Items injected via JS -->
+        </div>
+
+        <div id="no-results" hidden>
+            <p>No ingredients found matching your search.</p>
+        </div>
+
+        
+    </main>
+
+    <footer class="app-footer">
+        <p>© 2026 FoodBhasha • v1.19</p>
+    </footer>
+
+    <!-- Floating Feedback Button -->
+    <button id="feedback-btn" class="feedback-fab" aria-label="Feedback">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+            </path>
+        </svg>
+        <span class="fab-text">Feedback</span>
+    </button>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <button id="close-modal" class="close-modal-btn">&times;</button>
+            <h2>Feedback & Corrections</h2>
+            <p>Spot an error or missing an item? Let us know!</p>
+
+            <form id="feedback-form" method="POST">
+                <input type="hidden" name="form-name" value="feedback">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Message</label>
+                    <textarea id="feedback-message" name="message" rows="4" required
+                        placeholder="Ex: 'Pomfret is called வாவல் in Tamil' or 'Please add Quinoa'"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Feedback</button>
+            </form>
+            <div id="feedback-success" hidden>
+                <div class="success-icon">✓</div>
+                <h3>Thank You!</h3>
+                <p>Your feedback has been received.</p>
+                <button id="close-success-modal" class="secondary-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Helper Form for Netlify Detection -->
+    <!-- This ensures Netlify finds the form definition even if the actual form is inside a hidden modal -->
+    <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

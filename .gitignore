@@ -2,6 +2,10 @@
 node_modules/
 npm-debug.log
 
+# Build Artifacts
+# dist/
+seo-audit-report.json
+
 # Playwright
 test-results/
 playwright-report/
@@ -9,7 +13,7 @@ blob-report/
 playwright/.cache/
 
 # Capacitor
-www/
+dist-android/
 # android/
 ios/
 

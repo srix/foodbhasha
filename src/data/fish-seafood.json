@@ -1,0 +1,10505 @@
+[
+  {
+    "id": "seer-fish",
+    "photo": "img/seer-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Scomberomorus commerson",
+    "names": {
+      "english": [
+        "Seer fish",
+        "King fish"
+      ],
+      "assamese": [
+        "ଚିତଲ",
+        "Chital"
+      ],
+      "bengali": [
+        "સરમઈ",
+        "Surmai"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "સુરમઈ",
+        "Surmai"
+      ],
+      "hindi": [
+        "सुरमई",
+        "Surmai"
+      ],
+      "kannada": [
+        "ಅಂಜಲ್",
+        "Anjal"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "विस्वण",
+        "Viswan"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "നെയ്‌മീൻ",
+        "Neymeen"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "सुरमई",
+        "Surmai"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ସିର",
+        "Seer"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "வஞ்சரம்",
+        "Vanjaram"
+      ],
+      "telugu": [
+        "వంజరం",
+        "Vanjaram"
+      ],
+      "urdu": [
+        "سرمئی",
+        "Surmai"
+      ]
+    },
+    "notes": "Often sold as King fish. Surmai in North/West India."
+  },
+  {
+    "id": "pomfret-black",
+    "photo": "img/pomfret-black.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Parastromateus niger",
+    "names": {
+      "english": [
+        "Black Pomfret"
+      ],
+      "assamese": [
+        "ଚନ୍ଦା",
+        "Chanda"
+      ],
+      "bengali": [
+        "কালো চান্দা",
+        "Kalo Chanda"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "હલવા",
+        "Halva"
+      ],
+      "hindi": [
+        "हलवा",
+        "Halwa"
+      ],
+      "kannada": [
+        "ಕಪ್ಪು ಮಾಂಜಿ",
+        "Kappu Manji"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "हलवा",
+        "Halwa"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "കറുത്ത ആവോലി",
+        "Karutha Avoli"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "हलवा",
+        "Halwa"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ବ୍ଲାକ ପମ୍ଫ୍ରେଟ",
+        "Black Pomfret"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "கருப்பு வாவல்",
+        "Karuppu Vaaval"
+      ],
+      "telugu": [
+        "నల్ల చందువా",
+        "Nalla Chanduva"
+      ],
+      "urdu": [
+        "حلوا",
+        "Halwa"
+      ]
+    },
+    "notes": "Good for frying. Distinct from Silver Pomfret."
+  },
+  {
+    "id": "sardine",
+    "photo": "img/sardine.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Sardinella longiceps",
+    "names": {
+      "english": [
+        "Sardine",
+        "Oil Sardine"
+      ],
+      "assamese": [
+        "সিহু",
+        "Xihu"
+      ],
+      "bengali": [
+        "খয়রা",
+        "Khoira"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "પેડવે",
+        "Pedvey"
+      ],
+      "hindi": [
+        "पेडवे",
+        "Pedvey",
+        "तरली",
+        "Tarli"
+      ],
+      "kannada": [
+        "ಭೂತಾಯಿ",
+        "Boothayi"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "तारली",
+        "Tarli"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "മത്തി",
+        "Mathi",
+        "ചാള",
+        "Chaala"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "तारली",
+        "Tarli"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "କୋକଲି",
+        "Kokali"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "மத்தி",
+        "Mathi"
+      ],
+      "telugu": [
+        "కావళ్ళు",
+        "Kavallu"
+      ],
+      "urdu": [
+        "پیڑوے",
+        "Pedvey"
+      ]
+    },
+    "notes": "Very common and affordable. Rich in Omega-3."
+  },
+  {
+    "id": "mackerel",
+    "photo": "img/mackerel.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Rastrelliger kanagurta",
+    "names": {
+      "english": [
+        "Indian Mackerel"
+      ],
+      "assamese": [
+        "মেক্কেৰেল",
+        "Mackerel"
+      ],
+      "bengali": [
+        "কাজল গৌড়",
+        "Kajal Gour"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "બંગડા",
+        "Bangda"
+      ],
+      "hindi": [
+        "बांगड़ा",
+        "Bangda"
+      ],
+      "kannada": [
+        "ಬಂಗುಡೆ",
+        "Bangude"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "बंगडा",
+        "Bangda"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "അയല",
+        "Ayala"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "बांगडा",
+        "Bangda"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ମାକେରେଲ",
+        "Mackerel"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "கானாங்கெளுத்தி",
+        "Kanaankeluthi",
+        "அயிலை",
+        "Aila"
+      ],
+      "telugu": [
+        "కानगरుట",
+        "Kanagurta"
+      ],
+      "urdu": [
+        "بانگڑا",
+        "Bangda"
+      ]
+    },
+    "notes": "Popular for fish curry and fry."
+  },
+  {
+    "id": "anchovy",
+    "photo": "img/anchovy.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Stolephorus indicus",
+    "names": {
+      "english": [
+        "Anchovy"
+      ],
+      "assamese": [
+        "মলা",
+        "Mola"
+      ],
+      "bengali": [
+        "মৌলা",
+        "Mola"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "કાટી",
+        "Kati"
+      ],
+      "hindi": [
+        "नेथিলি",
+        "Nethili"
+      ],
+      "kannada": [
+        "ಬೊಳ್ಳು",
+        "Bollu",
+        "ಕೊಲ್ಲತರು",
+        "Kollatharu"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "वेळ",
+        "Vell"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "കൊഴുവ",
+        "Kozhuva",
+        "നെത്തോലി",
+        "Netholi"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "काटी",
+        "Kati"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "କୋକଲି",
+        "Kokali"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "நெத்திலி",
+        "Nethili"
+      ],
+      "telugu": [
+        "నెత్తళ్ళు",
+        "Nethallu"
+      ],
+      "urdu": [
+        "نیتھلی",
+        "Nethili"
+      ]
+    },
+    "notes": "Small fish, often fried crispy or dried."
+  },
+  {
+    "id": "shrimp",
+    "photo": "img/shrimp.webp",
+    "tags": [
+      "freshwater",
+      "sea"
+    ],
+    "scientificName": "Penaeidae",
+    "names": {
+      "english": [
+        "Prawns",
+        "Shrimp"
+      ],
+      "assamese": [
+        "ମିଛ ମାଛ",
+        "Misa Mach"
+      ],
+      "bengali": [
+        "চিংড়ি",
+        "Chingri"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "gujarati": [
+        "જિંગા",
+        "Jhinga"
+      ],
+      "hindi": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "kannada": [
+        "ಅದೇ",
+        "Etti",
+        "ಸಿಗಡಿ",
+        "Sigadi"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "सुंगट",
+        "Sungat"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "ചെമ്മീൻ",
+        "Chemmeen"
+      ],
+      "manipuri": [
+        "ଖଜିଂ",
+        "Khajing"
+      ],
+      "marathi": [
+        "कोळंबी",
+        "Kolambi"
+      ],
+      "nepali": [
+        "झींगे माछा",
+        "Jhinge Machha"
+      ],
+      "odia": [
+        "ଚିଙ୍ଗୁଡି",
+        "Chingudi"
+      ],
+      "punjabi": [
+        "ਝੀਂਗਾ",
+        "Jhinga"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "જિંગા",
+        "Jhinga"
+      ],
+      "tamil": [
+        "இறால்",
+        "Eraal"
+      ],
+      "telugu": [
+        "రొయ్యలు",
+        "Royyalu"
+      ],
+      "urdu": [
+        "جھینگا",
+        "Jhinga"
+      ]
+    },
+    "notes": "Available in various sizes. 'Tiger prawns' are large."
+  },
+  {
+    "id": "shark",
+    "photo": "img/shark.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Selachimorpha",
+    "names": {
+      "english": [
+        "Shark"
+      ],
+      "assamese": [
+        "হাঙৰ",
+        "Hagor"
+      ],
+      "bengali": [
+        "হাঙর",
+        "Hangar"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मछली",
+        "Machli"
+      ],
+      "gujarati": [
+        "મુશી",
+        "Mushi"
+      ],
+      "hindi": [
+        "मुशी",
+        "Mushi"
+      ],
+      "kannada": [
+        "ತಟೆ",
+        "Thate"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "मोरी",
+        "Mori"
+      ],
+      "maithili": [
+        "माछ",
+        "Machhli"
+      ],
+      "malayalam": [
+        "സ്രാവ്",
+        "Sraavu"
+      ],
+      "manipuri": [
+        "ঙা",
+        "Nga"
+      ],
+      "marathi": [
+        "मोरी",
+        "Mori"
+      ],
+      "nepali": [
+        "माछा",
+        "Machha"
+      ],
+      "odia": [
+        "ମଗର",
+        "Magara"
+      ],
+      "punjabi": [
+        "ਮੱਛੀ",
+        "Machhi"
+      ],
+      "sanskrit": [
+        "मीन",
+        "Mina"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مچھی",
+        "Machhi"
+      ],
+      "tamil": [
+        "சுறா",
+        "Sura"
+      ],
+      "telugu": [
+        "సొర",
+        "Sora"
+      ],
+      "urdu": [
+        "موشی",
+        "Mushi"
+      ]
+    },
+    "notes": "Used for 'Sura Puttu' (scrambled shark meat)."
+  },
+  {
+    "id": "crab",
+    "photo": "img/crab.webp",
+    "tags": [
+      "freshwater",
+      "sea"
+    ],
+    "scientificName": "Brachyura",
+    "names": {
+      "english": [
+        "Crab"
+      ],
+      "assamese": [
+        "কেঁকোৰা",
+        "Kekura"
+      ],
+      "bengali": [
+        "কাঁকড়া",
+        "Kankra"
+      ],
+      "bodo": [
+        "खांख्राइ",
+        "Khangkhrai"
+      ],
+      "dogri": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "gujarati": [
+        "કરચલો",
+        "Karachlo"
+      ],
+      "hindi": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "kannada": [
+        "ಡೆಂಜಿ",
+        "Denji",
+        "ಕುರ್ಲೆ",
+        "Kurle"
+      ],
+      "kashmiri": [
+        "गाड",
+        "Gaad"
+      ],
+      "konkani": [
+        "कुर्ल्या",
+        "Kurlya"
+      ],
+      "maithili": [
+        "काकड़ा",
+        "Kakara"
+      ],
+      "malayalam": [
+        "ഞണ്ട്",
+        "Njandu"
+      ],
+      "manipuri": [
+        "ৱাইখু",
+        "Waikhu"
+      ],
+      "marathi": [
+        "खेकड़ा",
+        "Khekda"
+      ],
+      "nepali": [
+        "गंगटो",
+        "Gangato"
+      ],
+      "odia": [
+        "କଙ୍କଡା",
+        "Kankada"
+      ],
+      "punjabi": [
+        "ਕੇਕੜਾ",
+        "Kekda"
+      ],
+      "sanskrit": [
+        "कर्कट",
+        "Karkata"
+      ],
+      "santali": [
+        "ᱠᱟᱴᱠᱚᱢ",
+        "Katkom"
+      ],
+      "sindhi": [
+        "केकड़ा",
+        "Kekda"
+      ],
+      "tamil": [
+        "நண்டு",
+        "Nandu"
+      ],
+      "telugu": [
+        "పీత",
+        "Peetha"
+      ],
+      "urdu": [
+        "کیکڑا",
+        "Kekda"
+      ]
+    },
+    "notes": "Mud crabs are popular in some regions."
+  },
+  {
+    "id": "silver-pomfret",
+    "photo": "img/silver-pomfret.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Pampus argenteus",
+    "names": {
+      "english": [
+        "Silver Pomfret",
+        "White Pomfret"
+      ],
+      "tamil": [
+        "வெள்ளை வாவல்",
+        "Vellai Vaaval"
+      ],
+      "malayalam": [
+        "ആവോലി",
+        "Avoli",
+        "വെളുത്ത ആവോലി",
+        "Velutha Avoli"
+      ],
+      "kannada": [
+        "ಬಿಳಿ ಮಾಂಜಿ",
+        "Bili Manji"
+      ],
+      "telugu": [
+        "తెల్ల చందువా",
+        "Tella Chanduva"
+      ],
+      "hindi": [
+        "पापलेट",
+        "Paplet"
+      ],
+      "marathi": [
+        "पापलेट",
+        "Paplet"
+      ],
+      "gujarati": [
+        "પાપલેટ",
+        "Paplet"
+      ],
+      "bengali": [
+        "পম্ফ্রেট",
+        "Pomfret"
+      ],
+      "konkani": [
+        "पापलेट",
+        "Paplet"
+      ],
+      "assamese": [
+        "ৰূপচন্দা",
+        "Rupchanda"
+      ],
+      "bodo": [
+        "रुफानि ना",
+        "Rupani Na"
+      ],
+      "dogri": [
+        "चांदी पापलेट",
+        "Chandi Paplet"
+      ],
+      "kashmiri": [
+        "چاندی ماہی",
+        "Chandi Mahi"
+      ],
+      "maithili": [
+        "चान्नी पम्फ्रेट",
+        "Channi Pomfret"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "चाँदी पोम्फ्रेट",
+        "Chandi Pomfret"
+      ],
+      "odia": [
+        "ଧଳା ଚାନ୍ଦି",
+        "Dhala Chandi"
+      ],
+      "punjabi": [
+        "ਪਾਪਲੇਟ",
+        "Paplet"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱩᱯᱟᱹ ᱦᱟᱠᱩ",
+        "Rupa Haku"
+      ],
+      "sindhi": [
+        "چاندِي مَڇِي",
+        "Chandi Machhi"
+      ],
+      "urdu": [
+        "چاندی پاپلیٹ",
+        "Chandi Paplet"
+      ]
+    },
+    "notes": "Highly prized, delicate flesh. Great for steaming or frying."
+  },
+  {
+    "id": "rohu",
+    "photo": "img/rohu.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Labeo rohita",
+    "names": {
+      "english": [
+        "Rohu",
+        "Carpo Fish"
+      ],
+      "tamil": [
+        "ரோகு",
+        "Rohu",
+        "கெண்டை",
+        "Kendai"
+      ],
+      "malayalam": [
+        "രോഹു",
+        "Rohu"
+      ],
+      "kannada": [
+        "ರೋಹು",
+        "Rohu"
+      ],
+      "telugu": [
+        "రోహు",
+        "Rohu",
+        "శీల",
+        "Sheela"
+      ],
+      "hindi": [
+        "रोहू",
+        "Rohu"
+      ],
+      "marathi": [
+        "रोहू",
+        "Rohu"
+      ],
+      "bengali": [
+        "রুই",
+        "Rui"
+      ],
+      "odia": [
+        "ରୋହି",
+        "Rohi"
+      ],
+      "assamese": [
+        "ৰৌ",
+        "Rou"
+      ],
+      "bodo": [
+        "रहु",
+        "Rohu"
+      ],
+      "dogri": [
+        "रोहू",
+        "Rohu"
+      ],
+      "gujarati": [
+        "રોહૂ",
+        "Rohu"
+      ],
+      "kashmiri": [
+        "روہو",
+        "Rohu"
+      ],
+      "konkani": [
+        "रोहू",
+        "Rohu"
+      ],
+      "maithili": [
+        "रोहू",
+        "Rohu"
+      ],
+      "manipuri": [
+        "ꯔꯣꯍꯨ",
+        "Rohu"
+      ],
+      "nepali": [
+        "रोहू",
+        "Rohu"
+      ],
+      "punjabi": [
+        "ਰੋਹੂ",
+        "Rohu"
+      ],
+      "sanskrit": [
+        "रोहितः",
+        "Rohitah"
+      ],
+      "santali": [
+        "ᱨᱚᱦᱩ",
+        "Rohu"
+      ],
+      "sindhi": [
+        "روهو",
+        "Rohu"
+      ],
+      "urdu": [
+        "رہو",
+        "Rohu"
+      ]
+    },
+    "notes": "Very popular freshwater fish in North and East India."
+  },
+  {
+    "id": "catla",
+    "photo": "img/catla.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Labeo catla",
+    "names": {
+      "english": [
+        "Catla",
+        "Indian Carp"
+      ],
+      "tamil": [
+        "கட்லா",
+        "Catla",
+        "தோப்பா",
+        "Thoppa"
+      ],
+      "malayalam": [
+        "കട്‌ല",
+        "Katla"
+      ],
+      "kannada": [
+        "ಕಟ್ಲ",
+        "Katla"
+      ],
+      "telugu": [
+        "బోచ",
+        "Bocha",
+        "కట్ల",
+        "Catla"
+      ],
+      "hindi": [
+        "कत्ला",
+        "Katla"
+      ],
+      "marathi": [
+        "कटला",
+        "Katla"
+      ],
+      "bengali": [
+        "কাতলা",
+        "Katla"
+      ],
+      "odia": [
+        "ଭାକୁର",
+        "Bhakura"
+      ],
+      "assamese": [
+        "ବାହୁ",
+        "Bahu"
+      ],
+      "bodo": [
+        "कातला",
+        "Katla"
+      ],
+      "dogri": [
+        "कतला",
+        "Katla"
+      ],
+      "gujarati": [
+        "કટલા",
+        "Katla"
+      ],
+      "kashmiri": [
+        "کاتلا",
+        "Katla"
+      ],
+      "konkani": [
+        "कातला",
+        "Katla"
+      ],
+      "maithili": [
+        "कतला",
+        "Katla"
+      ],
+      "manipuri": [
+        "ꯀꯇꯂꯥ",
+        "Katla"
+      ],
+      "nepali": [
+        "कटला",
+        "Katla"
+      ],
+      "punjabi": [
+        "ਕਤਲਾ",
+        "Catla"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱟᱛᱞᱟ",
+        "Katla"
+      ],
+      "sindhi": [
+        "ڪتلا",
+        "Katla"
+      ],
+      "urdu": [
+        "کتلا",
+        "Catla"
+      ]
+    },
+    "notes": "Fast growing, large freshwater fish. Good for curry."
+  },
+  {
+    "id": "hilsa",
+    "photo": "img/hilsa.webp",
+    "tags": [
+      "freshwater",
+      "sea"
+    ],
+    "scientificName": "Tenualosa ilisha",
+    "names": {
+      "english": [
+        "Hilsa",
+        "Ilish"
+      ],
+      "tamil": [
+        "உள்ளம்",
+        "Ullam",
+        "செவ்வ",
+        "Sevva"
+      ],
+      "malayalam": [
+        "ഹിൽസ",
+        "Hilsa",
+        "പാലിയ",
+        "Paliya"
+      ],
+      "kannada": [
+        "ಮುಳ್ಳು",
+        "Mullu"
+      ],
+      "telugu": [
+        "పులస",
+        "Pulasa"
+      ],
+      "hindi": [
+        "हिलसा",
+        "Hilsa"
+      ],
+      "bengali": [
+        "ইলিশ",
+        "Ilish"
+      ],
+      "odia": [
+        "ଇଲିଶି",
+        "Ilishi"
+      ],
+      "gujarati": [
+        "મોદણ",
+        "Modan"
+      ],
+      "assamese": [
+        "ইলিছ",
+        "Ilish"
+      ],
+      "bodo": [
+        "इलिसा",
+        "Ilisa"
+      ],
+      "dogri": [
+        "हिल्सा",
+        "Hilsa"
+      ],
+      "kashmiri": [
+        "ہِلسا",
+        "Hilsa"
+      ],
+      "konkani": [
+        "हिलसा",
+        "Hilsa"
+      ],
+      "maithili": [
+        "हिल्सा",
+        "Hilsa"
+      ],
+      "manipuri": [
+        "ꯍꯤꯜꯁꯥ",
+        "Hilsa"
+      ],
+      "marathi": [
+        "पाला",
+        "Pala"
+      ],
+      "nepali": [
+        "हिल्सा",
+        "Hilsa"
+      ],
+      "punjabi": [
+        "ਹਿਲਸਾ",
+        "Hilsa"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱤᱞᱥᱟ",
+        "Ilisa"
+      ],
+      "sindhi": [
+        "پلو مَڇِي",
+        "Pallo Machhi"
+      ],
+      "urdu": [
+        "ہلسا",
+        "Hilsa"
+      ]
+    },
+    "notes": "King of fish in Bengal. Known as Pulasa in Andhra Godavari region."
+  },
+  {
+    "id": "red-snapper",
+    "photo": "img/red-snapper.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Lutjanus campechanus",
+    "names": {
+      "english": [
+        "Red Snapper"
+      ],
+      "tamil": [
+        "சங்கரா",
+        "Sankara"
+      ],
+      "malayalam": [
+        "ചെമ്പല്ലി",
+        "Chemballi",
+        "പാഹരി",
+        "Pahari"
+      ],
+      "kannada": [
+        "ಚೆಂಬೆರಿ",
+        "Chemberi"
+      ],
+      "telugu": [
+        "ర్రతు",
+        "Rathu",
+        "తు",
+        "Thundava"
+      ],
+      "hindi": [
+        "राणि",
+        "Rani"
+      ],
+      "marathi": [
+        "तांबुसा",
+        "Tambusa"
+      ],
+      "konkani": [
+        "रांवटो मासो",
+        "Ranvto Maso"
+      ],
+      "assamese": [
+        "ৰঙা মাছ",
+        "Ronga Maas"
+      ],
+      "bengali": [
+        "রেড স্ন্যাপার",
+        "Red Snapper"
+      ],
+      "bodo": [
+        "गोजा ना",
+        "Goja Na"
+      ],
+      "dogri": [
+        "रता माच्ची",
+        "Rata Machhi"
+      ],
+      "gujarati": [
+        "રાણી",
+        "Rani"
+      ],
+      "kashmiri": [
+        "رَتھ ماہی",
+        "Rath Mahi"
+      ],
+      "maithili": [
+        "रातु माछ",
+        "Ratu Machh"
+      ],
+      "manipuri": [
+        "ꯑꯉꯧꯕ ꯅꯥ",
+        "Angaoba Nga"
+      ],
+      "nepali": [
+        "रातो माछा",
+        "Rato Machha"
+      ],
+      "odia": [
+        "ରଙ୍ଗା ମାଛ",
+        "Ranga Machha"
+      ],
+      "punjabi": [
+        "ਰਾਣੀ ਮੱਛੀ",
+        "Rani Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟᱜ ᱦᱟᱠᱩ",
+        "Araag Haku"
+      ],
+      "sindhi": [
+        "ڳاڙهي مَڇِي",
+        "Garhi Machhi"
+      ],
+      "urdu": [
+        "سرخ مچھلی",
+        "Surkh Machli"
+      ]
+    },
+    "notes": "Popular versatile fish. Good for diverse cooking styles."
+  },
+  {
+    "id": "pearl-spot",
+    "photo": "img/pearl-spot.webp",
+    "tags": [
+      "brackish",
+      "freshwater"
+    ],
+    "scientificName": "Etroplus suratensis",
+    "names": {
+      "english": [
+        "Pearl Spot",
+        "Green Chromide"
+      ],
+      "tamil": [
+        "கரிமீன்",
+        "Karimeen",
+        "பப்பளி",
+        "Pappali"
+      ],
+      "malayalam": [
+        "കരിമീൻ",
+        "Karimeen"
+      ],
+      "kannada": [
+        "ಕಾಗೆ",
+        "Kage"
+      ],
+      "telugu": [
+        "కరిమీన్",
+        "Karimeen"
+      ],
+      "hindi": [
+        "करीमीन",
+        "Karimeen"
+      ],
+      "assamese": [
+        "কৰিমীন",
+        "Karimeen"
+      ],
+      "bengali": [
+        "কুরাল",
+        "Kural"
+      ],
+      "bodo": [
+        "मोति ना",
+        "Moti Na"
+      ],
+      "dogri": [
+        "मोती माच्ची",
+        "Moti Machhi"
+      ],
+      "gujarati": [
+        "કરીમીન",
+        "Karimeen"
+      ],
+      "kashmiri": [
+        "مونجی ماہی",
+        "Moonji Mahi"
+      ],
+      "konkani": [
+        "करीमीन",
+        "Karimeen"
+      ],
+      "maithili": [
+        "मोती माछ",
+        "Moti Machh"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "काळुंदर",
+        "Kalundar"
+      ],
+      "nepali": [
+        "मोती माछा",
+        "Moti Machha"
+      ],
+      "odia": [
+        "କାରିମୀନ",
+        "Karimeen"
+      ],
+      "punjabi": [
+        "ਕਰੀਮੀਨ",
+        "Karimeen"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱩᱛᱤ ᱦᱟᱠᱩ",
+        "Muti Haku"
+      ],
+      "sindhi": [
+        "موٽي مَڇِي",
+        "Moti Machhi"
+      ],
+      "urdu": [
+        "کریمین",
+        "Karimeen"
+      ]
+    },
+    "notes": "State fish of Kerala. Famous for 'Karimeen Pollichathu'."
+  },
+  {
+    "id": "lady-fish",
+    "photo": "img/lady-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Sillago sihama",
+    "names": {
+      "english": [
+        "Lady Fish",
+        "Silver Whiting"
+      ],
+      "tamil": [
+        "கிழங்கான்",
+        "Kilangan"
+      ],
+      "malayalam": [
+        "പൂഴാൻ",
+        "Poozhan"
+      ],
+      "kannada": [
+        "ಕಾನೆ",
+        "Kane"
+      ],
+      "telugu": [
+        "శొర",
+        "Sora",
+        "సురులు",
+        "Surulu"
+      ],
+      "hindi": [
+        "मुधोस",
+        "Mudhos"
+      ],
+      "konkani": [
+        "लेडी फिश",
+        "Lady Fish"
+      ],
+      "marathi": [
+        "रेणवी",
+        "Renvi"
+      ],
+      "assamese": [
+        "লেডী মাছ",
+        "Lady Maas"
+      ],
+      "bengali": [
+        "লেডি ফিশ",
+        "Lady Fish"
+      ],
+      "bodo": [
+        "ना लेडि",
+        "Na Lady"
+      ],
+      "dogri": [
+        "लेडी फिश",
+        "Lady Fish"
+      ],
+      "gujarati": [
+        "ભુંગ",
+        "Bhung"
+      ],
+      "kashmiri": [
+        "لیڈی فِش",
+        "Lady Fish"
+      ],
+      "maithili": [
+        "लेडी फिश",
+        "Lady Fish"
+      ],
+      "manipuri": [
+        "ꯅꯨꯄꯤ ꯅꯥ",
+        "Nupi Nga"
+      ],
+      "nepali": [
+        "लेडी फिश",
+        "Lady Fish"
+      ],
+      "odia": [
+        "କାନଗୁର୍ତା",
+        "Kanagurta"
+      ],
+      "punjabi": [
+        "ਲੇਡੀ ਫਿਸ਼",
+        "Lady Fish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱩᱲᱤ ᱦᱟᱠᱩ",
+        "Kuri Haku"
+      ],
+      "sindhi": [
+        "ليڊِي مَڇِي",
+        "Lady Machhi"
+      ],
+      "urdu": [
+        "لیڈی فش",
+        "Lady Fish"
+      ]
+    },
+    "notes": "Delicate, white flesh. Mangalore 'Kane Rava Fry' is famous."
+  },
+  {
+    "id": "indian-salmon",
+    "photo": "img/indian-salmon.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Eleutheronema tetradactylum",
+    "names": {
+      "english": [
+        "Indian Salmon",
+        "Threadfin"
+      ],
+      "tamil": [
+        "காலா",
+        "Kaala",
+        "திருவாழை",
+        "Thiruvaazhai"
+      ],
+      "malayalam": [
+        "ബാമമീൻ",
+        "Bamameen",
+        "കാല",
+        "Kaala"
+      ],
+      "kannada": [
+        "ರಾವಸ್",
+        "Rawas"
+      ],
+      "telugu": [
+        "మాగ",
+        "Maga"
+      ],
+      "hindi": [
+        "रावस",
+        "Rawas"
+      ],
+      "marathi": [
+        "रावस",
+        "Rawas"
+      ],
+      "gujarati": [
+        "રાવસ",
+        "Rawas"
+      ],
+      "bengali": [
+        "গুরজালি",
+        "Gurjali"
+      ],
+      "assamese": [
+        "ৰাৱাছ",
+        "Rawas"
+      ],
+      "bodo": [
+        "रावास",
+        "Rawas"
+      ],
+      "dogri": [
+        "रावास",
+        "Rawas"
+      ],
+      "kashmiri": [
+        "راواس",
+        "Rawas"
+      ],
+      "konkani": [
+        "रावस",
+        "Rawas"
+      ],
+      "maithili": [
+        "रावास",
+        "Rawas"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "रावास",
+        "Rawas"
+      ],
+      "odia": [
+        "ସାହାଲା",
+        "Sahala"
+      ],
+      "punjabi": [
+        "ਰਾਵਸ",
+        "Rawas"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱟᱣᱟᱥ",
+        "Rawas"
+      ],
+      "sindhi": [
+        "راواس",
+        "Rawas"
+      ],
+      "urdu": [
+        "راواس",
+        "Rawas"
+      ]
+    },
+    "notes": "Premium fish, excellent taste and texture. High demand."
+  },
+  {
+    "id": "grey-mullet",
+    "photo": "img/grey-mullet.webp",
+    "tags": [
+      "brackish",
+      "sea"
+    ],
+    "scientificName": "Mugil cephalus",
+    "names": {
+      "english": [
+        "Grey Mullet",
+        "Flathead Mullet"
+      ],
+      "tamil": [
+        "மடவை",
+        "Madavai"
+      ],
+      "malayalam": [
+        "തിരുത",
+        "Thirutha"
+      ],
+      "kannada": [
+        "ಮಾಲ",
+        "Mala"
+      ],
+      "telugu": [
+        "బొమ్మిడాయి",
+        "Bommidayi",
+        "కొయ్యలు",
+        "Koyyalu"
+      ],
+      "hindi": [
+        "बोई",
+        "Boi"
+      ],
+      "marathi": [
+        "बोई",
+        "Boi"
+      ],
+      "bengali": [
+        "পারশে",
+        "Parshe"
+      ],
+      "assamese": [
+        "মুলেট",
+        "Mullet"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "स्लेटी मुगिल",
+        "Sleti Mugil"
+      ],
+      "gujarati": [
+        "બોઈ",
+        "Boi"
+      ],
+      "kashmiri": [
+        "شاہی ماہی",
+        "Shahi Mahi"
+      ],
+      "konkani": [
+        "शेवोट्टी",
+        "Shevotti"
+      ],
+      "maithili": [
+        "भूर मुगिल",
+        "Bhur Mugil"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "खरानी मुगिल",
+        "Kharani Mugil"
+      ],
+      "odia": [
+        "ଖଙ୍ଗା",
+        "Khanga"
+      ],
+      "punjabi": [
+        "ਮੁਲੇਟ",
+        "Mullet"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "سَرهو",
+        "Sarho"
+      ],
+      "urdu": [
+        "بوی",
+        "Boi"
+      ]
+    },
+    "notes": "Often farmed. Good oily fish."
+  },
+  {
+    "id": "tilapia",
+    "photo": "img/tilapia.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Oreochromis mossambicus",
+    "names": {
+      "english": [
+        "Tilapia"
+      ],
+      "tamil": [
+        "ஜிலேபி",
+        "Jilebi"
+      ],
+      "malayalam": [
+        "തിലോപ്പിയ",
+        "Tilopia",
+        "ജിലേബി",
+        "Jilebi"
+      ],
+      "kannada": [
+        "ಸರ್ಕಾರ",
+        "Sarkara",
+        "ತಿಪಿಲಿ",
+        "Tipili"
+      ],
+      "telugu": [
+        "కోరమీను",
+        "Korameenu",
+        "జிலேబి",
+        "Jilebi"
+      ],
+      "hindi": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "bengali": [
+        "তেলাপিয়া",
+        "Telapia"
+      ],
+      "assamese": [
+        "তিলাপিয়া",
+        "Tilapia"
+      ],
+      "bodo": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "dogri": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "gujarati": [
+        "તિલાપિયા",
+        "Tilapia"
+      ],
+      "kashmiri": [
+        "تِلاپیا",
+        "Tilapia"
+      ],
+      "konkani": [
+        "तिळापिया",
+        "Tilapia"
+      ],
+      "maithili": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "manipuri": [
+        "ꯇꯤꯂꯥꯄꯤꯌꯥ",
+        "Tilapia"
+      ],
+      "marathi": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "nepali": [
+        "तिलापिया",
+        "Tilapia"
+      ],
+      "odia": [
+        "ତେଲାପିଆ",
+        "Telapia"
+      ],
+      "punjabi": [
+        "ਤਿਲਾਪੀਆ",
+        "Tilapia"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱛᱤᱞᱟᱯᱤᱭᱟ",
+        "Tilapia"
+      ],
+      "sindhi": [
+        "تِلاپيا",
+        "Tilapia"
+      ],
+      "urdu": [
+        "تلاپیا",
+        "Tilapia"
+      ]
+    },
+    "notes": "Very common, affordable freshwater fish."
+  },
+  {
+    "id": "barramundi",
+    "photo": "img/barramundi.webp",
+    "tags": [
+      "brackish",
+      "sea"
+    ],
+    "scientificName": "Lates calcarifer",
+    "names": {
+      "english": [
+        "Barramundi",
+        "Asian Sea Bass"
+      ],
+      "tamil": [
+        "கொடுவா",
+        "Koduva"
+      ],
+      "malayalam": [
+        "കാളാഞ്ചി",
+        "Kalanchi",
+        "നരിമീൻ",
+        "Narimeen"
+      ],
+      "kannada": [
+        "ಕೊಳಜಿ",
+        "Kolaji"
+      ],
+      "telugu": [
+        "పండుకొప్ప",
+        "Pandugappa"
+      ],
+      "hindi": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "bengali": [
+        "ভেটকি",
+        "Bhetki"
+      ],
+      "marathi": [
+        "जितडा",
+        "Jitada"
+      ],
+      "konkani": [
+        "भेकती",
+        "Bhekti"
+      ],
+      "assamese": [
+        "ভেটকী",
+        "Bhetki"
+      ],
+      "bodo": [
+        "भेटकि",
+        "Bhetki"
+      ],
+      "dogri": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "gujarati": [
+        "જીતારો",
+        "Jitaro"
+      ],
+      "kashmiri": [
+        "بھیٹکی",
+        "Bhetki"
+      ],
+      "maithili": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "odia": [
+        "ଭେକ୍ଟି",
+        "Bhekti"
+      ],
+      "punjabi": [
+        "ਭੇਟਕੀ",
+        "Bhetki"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱷᱮᱴᱠᱤ",
+        "Bhetki"
+      ],
+      "sindhi": [
+        "ڍانگرو",
+        "Dhangro"
+      ],
+      "urdu": [
+        "بھیٹکی",
+        "Bhetki"
+      ]
+    },
+    "notes": "Premium fish with thick, flaky meat. Iconic 'Bhetki Paturi' in Bengal."
+  },
+  {
+    "id": "yellowfin-tuna",
+    "photo": "img/yellowfin-tuna.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Thunnus albacares",
+    "names": {
+      "english": [
+        "Yellowfin Tuna",
+        "Tuna"
+      ],
+      "tamil": [
+        "சூரை",
+        "Soorai"
+      ],
+      "malayalam": [
+        "ചൂര",
+        "Choora"
+      ],
+      "kannada": [
+        "ಕೇದಾರ",
+        "Kedara"
+      ],
+      "telugu": [
+        "సూర",
+        "Soora"
+      ],
+      "hindi": [
+        "कुप्पा",
+        "Kuppa"
+      ],
+      "marathi": [
+        "कुप्पा",
+        "Kuppa"
+      ],
+      "konkani": [
+        "टुना",
+        "Tuna"
+      ],
+      "assamese": [
+        "টুনা",
+        "Tuna"
+      ],
+      "bengali": [
+        "টুনা",
+        "Tuna"
+      ],
+      "bodo": [
+        "तुना",
+        "Tuna"
+      ],
+      "dogri": [
+        "टूना",
+        "Tuna"
+      ],
+      "gujarati": [
+        "ટૂના",
+        "Tuna"
+      ],
+      "kashmiri": [
+        "ٹونا",
+        "Tuna"
+      ],
+      "maithili": [
+        "टुना",
+        "Tuna"
+      ],
+      "manipuri": [
+        "ꯇꯨꯅꯥ",
+        "Tuna"
+      ],
+      "nepali": [
+        "टुना",
+        "Tuna"
+      ],
+      "odia": [
+        "ଟୁନା",
+        "Tuna"
+      ],
+      "punjabi": [
+        "ਟੂਨਾ",
+        "Tuna"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱩᱱᱟ",
+        "Tuna"
+      ],
+      "sindhi": [
+        "ٽونا",
+        "Tuna"
+      ],
+      "urdu": [
+        "ٹونا",
+        "Tuna"
+      ]
+    },
+    "notes": "Dark meat, very distinct taste. Rich in protein."
+  },
+  {
+    "id": "barracuda",
+    "photo": "img/barracuda.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Sphyraena",
+    "names": {
+      "english": [
+        "Barracuda"
+      ],
+      "tamil": [
+        "சீலா",
+        "Sheela"
+      ],
+      "malayalam": [
+        "ശീലാവ്",
+        "Sheelavu"
+      ],
+      "kannada": [
+        "ಕಂಡ",
+        "Kanda"
+      ],
+      "telugu": [
+        "జల్ల",
+        "Jalla"
+      ],
+      "hindi": [
+        "बल्ली",
+        "Balli"
+      ],
+      "konkani": [
+        "बाराकुडा",
+        "Barracuda"
+      ],
+      "assamese": [
+        "শীলা",
+        "Sheela"
+      ],
+      "bengali": [
+        "বারাকুডা",
+        "Barracuda"
+      ],
+      "bodo": [
+        "बाराकुदा",
+        "Barrakuda"
+      ],
+      "dogri": [
+        "बाराकुडा",
+        "Barakuda"
+      ],
+      "gujarati": [
+        "બારાકુડા",
+        "Barracuda"
+      ],
+      "kashmiri": [
+        "بارکوڈا",
+        "Barakuda"
+      ],
+      "maithili": [
+        "शीला",
+        "Sheela"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "बडु",
+        "Badu"
+      ],
+      "nepali": [
+        "शीला",
+        "Sheela"
+      ],
+      "odia": [
+        "ଦଣ୍ଡିକିରି",
+        "Dandikiri"
+      ],
+      "punjabi": [
+        "ਬਾਰਾਕੁਡਾ",
+        "Barracuda"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱟᱨᱟᱠᱩᱰᱟ",
+        "Barakuda"
+      ],
+      "sindhi": [
+        "ڪُنڊ",
+        "Kund"
+      ],
+      "urdu": [
+        "شیلا",
+        "Sheela"
+      ]
+    },
+    "notes": "Long, predatory fish. Tasty firm flesh."
+  },
+  {
+    "id": "trevally",
+    "photo": "img/trevally.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Caranx ignobilis",
+    "names": {
+      "english": [
+        "Trevally",
+        "Jack Fish"
+      ],
+      "tamil": [
+        "பாறை",
+        "Paara"
+      ],
+      "malayalam": [
+        "വറ്റ",
+        "Vatta"
+      ],
+      "kannada": [
+        "ಕೊಕ್ಕರೆ",
+        "Kokkare"
+      ],
+      "telugu": [
+        "కారా",
+        "Kara"
+      ],
+      "hindi": [
+        "कोकरीज",
+        "Kokari"
+      ],
+      "assamese": [
+        "পেৰা",
+        "Para"
+      ],
+      "bengali": [
+        "ট্রেভালি",
+        "Trevally"
+      ],
+      "bodo": [
+        "त्रेभेलि",
+        "Treveli"
+      ],
+      "dogri": [
+        "ट्रेवली",
+        "Trevally"
+      ],
+      "gujarati": [
+        "વીમ",
+        "Vim"
+      ],
+      "kashmiri": [
+        "ٹریولی",
+        "Trevally"
+      ],
+      "konkani": [
+        "ट्रेवली",
+        "Trevally"
+      ],
+      "maithili": [
+        "ट्रेवली",
+        "Trevally"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "शिंपी",
+        "Shimpi"
+      ],
+      "nepali": [
+        "त्रेवल्ली",
+        "Trevally"
+      ],
+      "odia": [
+        "ପାରା",
+        "Para"
+      ],
+      "punjabi": [
+        "ਟ੍ਰੇਵਲੀ",
+        "Trevally"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱨᱮᱵᱷᱟᱞᱤ",
+        "Trevali"
+      ],
+      "sindhi": [
+        "ڪارئي",
+        "Karei"
+      ],
+      "urdu": [
+        "پیرا",
+        "Para"
+      ]
+    },
+    "notes": "Very common in South India."
+  },
+  {
+    "id": "sole-fish",
+    "photo": "img/sole-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Cynoglossus",
+    "names": {
+      "english": [
+        "Sole Fish",
+        "Flat Fish"
+      ],
+      "tamil": [
+        "நக்கு",
+        "Nanku"
+      ],
+      "malayalam": [
+        "മാന്തൾ",
+        "Manthal",
+        "നങ്ക്",
+        "Nanku"
+      ],
+      "kannada": [
+        "ಲೆಪ್ಪೆ",
+        "Leppe"
+      ],
+      "telugu": [
+        "నా౦కు",
+        "Nanku"
+      ],
+      "hindi": [
+        "लेप",
+        "Lep"
+      ],
+      "marathi": [
+        "लेप",
+        "Lep"
+      ],
+      "assamese": [
+        "সল মাছ",
+        "Sol Maas"
+      ],
+      "bengali": [
+        "বগলি",
+        "Bogli"
+      ],
+      "bodo": [
+        "सोल ना",
+        "Sol Na"
+      ],
+      "dogri": [
+        "सोल माच्ची",
+        "Sol Machhi"
+      ],
+      "gujarati": [
+        "જીભ",
+        "Jibh"
+      ],
+      "kashmiri": [
+        "سول ماہی",
+        "Sol Mahi"
+      ],
+      "konkani": [
+        "सोल फिश",
+        "Sol Fish"
+      ],
+      "maithili": [
+        "सोल माछ",
+        "Sol Machh"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "सोल माछा",
+        "Sol Machha"
+      ],
+      "odia": [
+        "ପାତା",
+        "Pata"
+      ],
+      "punjabi": [
+        "ਸੋਲ ਮੱਛੀ",
+        "Sole Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱳᱞ ᱦᱟᱠᱩ",
+        "Sol Haku"
+      ],
+      "sindhi": [
+        "سول مَڇِي",
+        "Sol Machhi"
+      ],
+      "urdu": [
+        "سول مچھلی",
+        "Sole Machli"
+      ]
+    },
+    "notes": "Flat fish, usually skinned and fried."
+  },
+  {
+    "id": "milkfish",
+    "photo": "img/milkfish.webp",
+    "tags": [
+      "brackish",
+      "sea"
+    ],
+    "scientificName": "Chanos chanos",
+    "names": {
+      "english": [
+        "Milkfish"
+      ],
+      "tamil": [
+        "பால் மீன்",
+        "Paal Meen"
+      ],
+      "malayalam": [
+        "പൂമീൻ",
+        "Poomeen"
+      ],
+      "kannada": [
+        "ಹಾಲು ಮೀನು",
+        "Haalu Meenu"
+      ],
+      "telugu": [
+        "పాల",
+        "Pala"
+      ],
+      "hindi": [
+        "फंगस",
+        "Fangas"
+      ],
+      "assamese": [
+        "মিল্ক ফিছ",
+        "Milkfish"
+      ],
+      "bengali": [
+        "মিল্ক ফিশ",
+        "Milk Fish"
+      ],
+      "bodo": [
+        "गाखिर ना",
+        "Gakhir Na"
+      ],
+      "dogri": [
+        "दुद्ध माच्ची",
+        "Duddh Machhi"
+      ],
+      "gujarati": [
+        "મિલ્ક ફિશ",
+        "Milk Fish"
+      ],
+      "kashmiri": [
+        "دُود ماہی",
+        "Dud Mahi"
+      ],
+      "konkani": [
+        "मिल्क फिश",
+        "Milkfish"
+      ],
+      "maithili": [
+        "दूध माछ",
+        "Dudh Machh"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "दुध मासा",
+        "Dudh Masa"
+      ],
+      "nepali": [
+        "दूध माछा",
+        "Dudh Machha"
+      ],
+      "odia": [
+        "ସେବା ଖଇଙ୍ଗା",
+        "Seba Khainga"
+      ],
+      "punjabi": [
+        "ਮਿਲਕ ਫਿਸ਼",
+        "Milkfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱛᱚᱣᱟ ᱦᱟᱠᱩ",
+        "Towa Haku"
+      ],
+      "sindhi": [
+        "کير مَڇِي",
+        "Kheer Machhi"
+      ],
+      "urdu": [
+        "ملک فش",
+        "Milkfish"
+      ]
+    },
+    "notes": "Bony but very tasty."
+  },
+  {
+    "id": "squid",
+    "photo": "img/squid.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Loligo duvauceli",
+    "names": {
+      "english": [
+        "Squid",
+        "Calamari"
+      ],
+      "tamil": [
+        "கனவா",
+        "Kanava",
+        "ஊசி கனவா",
+        "Oosi Kanava"
+      ],
+      "malayalam": [
+        "കൂന്തൽ",
+        "Koonthal",
+        "കണവ",
+        "Kanava"
+      ],
+      "kannada": [
+        "ಬೊಂಡಾಸ್",
+        "Bondas"
+      ],
+      "telugu": [
+        "తాటి",
+        "Thati"
+      ],
+      "hindi": [
+        "बोंबिल",
+        "Bondas"
+      ],
+      "marathi": [
+        "माकुळ",
+        "Makul"
+      ],
+      "konkani": [
+        "नाकट",
+        "Nakat"
+      ],
+      "bengali": [
+        "স্কুইড",
+        "Squid"
+      ],
+      "gujarati": [
+        "સ્ક્વિડ",
+        "Squid"
+      ],
+      "odia": [
+        "କୁମିଟି ମୁନା",
+        "Kumiti muna"
+      ],
+      "assamese": [
+        "স্কুইড",
+        "Squid"
+      ],
+      "punjabi": [
+        "ਵਿਅੰਗ",
+        "Viang"
+      ],
+      "urdu": [
+        "چارہ",
+        "Charah"
+      ],
+      "bodo": [
+        "स्कुइद",
+        "Squid"
+      ],
+      "dogri": [
+        "स्क्विड",
+        "Squid"
+      ],
+      "kashmiri": [
+        "سکوِڈ",
+        "Squid"
+      ],
+      "maithili": [
+        "स्क्विड",
+        "Squid"
+      ],
+      "manipuri": [
+        "ꯁ꯭ꯛꯋꯤꯗ",
+        "Squid"
+      ],
+      "nepali": [
+        "स्क्विड",
+        "Squid"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱠᱣᱤᱰ",
+        "Squid"
+      ],
+      "sindhi": [
+        "اسڪوڊ",
+        "Squid"
+      ]
+    },
+    "notes": "Shellfish (Chephalopod). Cooks very quickly."
+  },
+  {
+    "id": "murrel",
+    "photo": "img/murrel.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Channa striata",
+    "names": {
+      "english": [
+        "Murrel",
+        "Snakehead"
+      ],
+      "tamil": [
+        "விரால்",
+        "Viral"
+      ],
+      "malayalam": [
+        "വരാൽ",
+        "Varal"
+      ],
+      "kannada": [
+        "ಮರಲ್",
+        "Maral",
+        "ಕೊರಮೀನು",
+        "Korameenu"
+      ],
+      "telugu": [
+        "కొరమీను",
+        "Korameenu"
+      ],
+      "hindi": [
+        "सोल",
+        "Sol"
+      ],
+      "bengali": [
+        "শোল",
+        "Shol"
+      ],
+      "assamese": [
+        "শ ল",
+        "Saul"
+      ],
+      "bodo": [
+        "सोल",
+        "Sol"
+      ],
+      "dogri": [
+        "सोल",
+        "Sol"
+      ],
+      "gujarati": [
+        "મરલ",
+        "Murrel"
+      ],
+      "kashmiri": [
+        "شول",
+        "Shol"
+      ],
+      "konkani": [
+        "सोल",
+        "Sol"
+      ],
+      "maithili": [
+        "सोल",
+        "Sol"
+      ],
+      "manipuri": [
+        "ꯉꯥꯃꯨ",
+        "Ngamu"
+      ],
+      "marathi": [
+        "मरळ",
+        "Maral"
+      ],
+      "nepali": [
+        "सोल",
+        "Sol"
+      ],
+      "odia": [
+        "ସେଉଳ",
+        "Seula"
+      ],
+      "punjabi": [
+        "ਸੋਲ",
+        "Sol"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱳᱞ",
+        "Sol"
+      ],
+      "sindhi": [
+        "جِرڪِي",
+        "Jirki"
+      ],
+      "urdu": [
+        "سول",
+        "Sol"
+      ]
+    },
+    "notes": "Prized freshwater fish, often considered medicinal."
+  },
+  {
+    "id": "catfish",
+    "photo": "img/catfish.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Clarias batrachus",
+    "names": {
+      "english": [
+        "Catfish",
+        "Walking Catfish"
+      ],
+      "tamil": [
+        "கెలుத்தி",
+        "Keluthi"
+      ],
+      "malayalam": [
+        "കാരി",
+        "Kaari",
+        "കൂരി",
+        "Koori"
+      ],
+      "kannada": [
+        "ಮುರುಗೋಡು",
+        "Murgodu"
+      ],
+      "telugu": [
+        "జెల్ల",
+        "Jella",
+        "మర్పు",
+        "Marpu"
+      ],
+      "hindi": [
+        "मांगुर",
+        "Magur"
+      ],
+      "bengali": [
+        "মাগুর",
+        "Magur"
+      ],
+      "assamese": [
+        "মাগুৰ",
+        "Magur"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "जंगली माच्ची",
+        "Jangali Machhi"
+      ],
+      "gujarati": [
+        "શીંગાળા",
+        "Shingala"
+      ],
+      "kashmiri": [
+        "ماہی نا",
+        "Mahina"
+      ],
+      "konkani": [
+        "कॅटफिश",
+        "Catfish"
+      ],
+      "maithili": [
+        "जंगली माछ",
+        "Jangali Machh"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "शिंगाळा",
+        "Shingala"
+      ],
+      "nepali": [
+        "जंगली माछा",
+        "Jangali Machha"
+      ],
+      "odia": [
+        "ମାଗୁର",
+        "Magur"
+      ],
+      "punjabi": [
+        "ਸਿੰਘਾਰਾ",
+        "Singhara"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "کڳو",
+        "Khaggo"
+      ],
+      "urdu": [
+        "سنگھاڑا",
+        "Singhara"
+      ]
+    },
+    "notes": "No scales, single bone (mostly). Distinct earthy taste."
+  },
+  {
+    "id": "bombay-duck",
+    "photo": "img/bombay-duck.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Harpadon nehereus",
+    "names": {
+      "english": [
+        "Bombay Duck"
+      ],
+      "tamil": [
+        "வங்கா",
+        "Vanga"
+      ],
+      "malayalam": [
+        "ബომ್ബില്",
+        "Bombil"
+      ],
+      "kannada": [
+        "ಬೊಂಬಿಲ್",
+        "Bombil"
+      ],
+      "telugu": [
+        "వనగ",
+        "Vanaga"
+      ],
+      "hindi": [
+        "बोंबिल",
+        "Bombil"
+      ],
+      "marathi": [
+        "बोंबिल",
+        "Bombil"
+      ],
+      "bengali": [
+        "লোটে",
+        "Lote"
+      ],
+      "assamese": [
+        "বম্বিল",
+        "Bombil"
+      ],
+      "bodo": [
+        "बम्बिल",
+        "Bombil"
+      ],
+      "dogri": [
+        "बोमिल",
+        "Bomil"
+      ],
+      "gujarati": [
+        "બોમ્બિલ",
+        "Bombil"
+      ],
+      "kashmiri": [
+        "بومبِل",
+        "Bombil"
+      ],
+      "konkani": [
+        "बोम्बील",
+        "Bombil"
+      ],
+      "maithili": [
+        "बोम्बिल",
+        "Bombil"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "बोम्बिल",
+        "Bombil"
+      ],
+      "odia": [
+        "ବମ୍ବେ ଡକ୍",
+        "Bombay Duck"
+      ],
+      "punjabi": [
+        "ਬੋਮਿਲ",
+        "Bombil"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱚᱢᱵᱤᱞ",
+        "Bombil"
+      ],
+      "sindhi": [
+        "بوملا",
+        "Bomla"
+      ],
+      "urdu": [
+        "بومبل",
+        "Bombil"
+      ]
+    },
+    "notes": "Soft, gelatinous fish. Famous in Mumbai (Bombil Fry)."
+  },
+  {
+    "id": "pink-perch",
+    "photo": "img/pink-perch.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Nemipterus japonicus",
+    "names": {
+      "english": [
+        "Pink Perch",
+        "Threadfin Bream"
+      ],
+      "tamil": [
+        "சங்கரா",
+        "Sankara",
+        "ராணி",
+        "Rani"
+      ],
+      "malayalam": [
+        "കിളിമീൻ",
+        "Kilimeen",
+        "പുതിയാപ്ല",
+        "Puthiyapla"
+      ],
+      "kannada": [
+        "ರಾಣಿ",
+        "Rani"
+      ],
+      "telugu": [
+        "ర్రతు",
+        "Rathu"
+      ],
+      "hindi": [
+        "रानी",
+        "Rani"
+      ],
+      "marathi": [
+        "राणी",
+        "Rani"
+      ],
+      "konkani": [
+        "रांवटी",
+        "Ranvti"
+      ],
+      "assamese": [
+        "ৰানী মাছ",
+        "Rani Maas"
+      ],
+      "bengali": [
+        "পিঙ্ক পার্চ",
+        "Pink Perch"
+      ],
+      "bodo": [
+        "गुलाबि ना",
+        "Gulabi Na"
+      ],
+      "dogri": [
+        "गुलाबी पर्च",
+        "Gulabi Perch"
+      ],
+      "gujarati": [
+        "રાણી",
+        "Rani"
+      ],
+      "kashmiri": [
+        "گُلابی ماہی",
+        "Gulabi Mahi"
+      ],
+      "maithili": [
+        "गुलाबी पर्च",
+        "Gulabi Perch"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "nepali": [
+        "गुलाबी पर्च",
+        "Gulabi Perch"
+      ],
+      "odia": [
+        "ରାଣୀ ମାଛ",
+        "Rani Machha"
+      ],
+      "punjabi": [
+        "ਰਾਣੀ ਮੱਛੀ",
+        "Rani Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱩᱞᱟᱹᱵᱤ ᱦᱟᱠᱩ",
+        "Gulabi Haku"
+      ],
+      "sindhi": [
+        "گلابي مَڇِي",
+        "Gulabi Machhi"
+      ],
+      "urdu": [
+        "رانی مچھلی",
+        "Rani Machli"
+      ]
+    },
+    "notes": "Small, pinkish fish. Very common and tasty."
+  },
+  {
+    "id": "clams",
+    "photo": "img/clams.webp",
+    "tags": [
+      "brackish",
+      "freshwater"
+    ],
+    "scientificName": "Villorita cyprinoides",
+    "names": {
+      "english": [
+        "Clams",
+        "Black Clams"
+      ],
+      "tamil": [
+        "மட்டி",
+        "Matti"
+      ],
+      "malayalam": [
+        "കക്ക",
+        "Kakka"
+      ],
+      "kannada": [
+        "ಮರ್ವೈ",
+        "Marvai"
+      ],
+      "telugu": [
+        "గుల్లలు",
+        "Gullalu"
+      ],
+      "hindi": [
+        "तिसरे",
+        "Tisre"
+      ],
+      "marathi": [
+        "तिसऱ्या",
+        "Tisrya"
+      ],
+      "konkani": [
+        "तिस्र",
+        "Tisre"
+      ],
+      "assamese": [
+        "শামুক",
+        "Samuk"
+      ],
+      "bengali": [
+        "ঝিনুক",
+        "Jhinuk"
+      ],
+      "bodo": [
+        "शिप्पी",
+        "Sippi"
+      ],
+      "dogri": [
+        "सिप्पी",
+        "Sippi"
+      ],
+      "gujarati": [
+        "છીપ",
+        "Chhip"
+      ],
+      "kashmiri": [
+        "کلام",
+        "Clam"
+      ],
+      "maithili": [
+        "सिप्पी",
+        "Sippi"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "nepali": [
+        "सिप्पी",
+        "Sippi"
+      ],
+      "odia": [
+        "ଗେଣ୍ଡା",
+        "Genda"
+      ],
+      "punjabi": [
+        "ਕਲੈਮ",
+        "Clam"
+      ],
+      "sanskrit": [
+        "शुक्तिः",
+        "Shuktih"
+      ],
+      "santali": [
+        "ᱥᱤᱯ",
+        "Sip"
+      ],
+      "sindhi": [
+        "سِپيون",
+        "Sipyun"
+      ],
+      "urdu": [
+        "کستوری",
+        "Kasturi"
+      ]
+    },
+    "notes": "Shellfish. Needs thorough cleaning."
+  },
+  {
+    "id": "mussels",
+    "photo": "img/mussels.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Perna viridis",
+    "names": {
+      "english": [
+        "Mussels",
+        "Green Mussels"
+      ],
+      "tamil": [
+        "ஆழி",
+        "Aazhi",
+        "கடுக்கா",
+        "Kadukka"
+      ],
+      "malayalam": [
+        "കല്ലുമ്മക്കായ",
+        "Kallummakkaya"
+      ],
+      "kannada": [
+        "ಪಚ್ಚಿಲೆ",
+        "Pachile"
+      ],
+      "telugu": [
+        "ముస్సెల్",
+        "Mussel"
+      ],
+      "hindi": [
+        "कालु",
+        "Kalu"
+      ],
+      "marathi": [
+        "शिंपले",
+        "Shimple"
+      ],
+      "konkani": [
+        "शिंपले",
+        "Shimple"
+      ],
+      "assamese": [
+        "শিপ",
+        "Sip"
+      ],
+      "bengali": [
+        "ঝিনুক",
+        "Jhinuk"
+      ],
+      "bodo": [
+        "शिप्पी",
+        "Sippi"
+      ],
+      "dogri": [
+        "सीप",
+        "Seep"
+      ],
+      "gujarati": [
+        "કાલવ",
+        "Kalav"
+      ],
+      "kashmiri": [
+        "سیپ",
+        "Seep"
+      ],
+      "maithili": [
+        "सीप",
+        "Seep"
+      ],
+      "manipuri": [
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
+      ],
+      "nepali": [
+        "सीप",
+        "Seep"
+      ],
+      "odia": [
+        "ଶାମୁକା",
+        "Shamuka"
+      ],
+      "punjabi": [
+        "ਮਸਲਸ",
+        "Mussels"
+      ],
+      "sanskrit": [
+        "शुक्तिका",
+        "Shuktika"
+      ],
+      "santali": [
+        "ᱥᱤᱯ",
+        "Sip"
+      ],
+      "sindhi": [
+        "سِپ",
+        "Sip"
+      ],
+      "urdu": [
+        "سیپ",
+        "Seep"
+      ]
+    },
+    "notes": "Shellfish. Famous in North Kerala cuisine."
+  },
+  {
+    "id": "common-carp",
+    "photo": "img/common-carp.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Cyprinus carpio",
+    "names": {
+      "english": [
+        "Common Carp"
+      ],
+      "tamil": [
+        "கெண்டை",
+        "Kendai"
+      ],
+      "malayalam": [
+        "സയപ്രൈനസ്",
+        "Cyprinus"
+      ],
+      "kannada": [
+        "ಗೌರಿ",
+        "Gowri"
+      ],
+      "telugu": [
+        "బంగారు తీగ",
+        "Bangaru Theega"
+      ],
+      "hindi": [
+        "कॉमन कार्प",
+        "Common Carp"
+      ],
+      "bengali": [
+        "কার্প",
+        "Carp"
+      ],
+      "assamese": [
+        "ৰৌ মাছ",
+        "Rou Maas"
+      ],
+      "bodo": [
+        "कारप",
+        "Carp"
+      ],
+      "dogri": [
+        "साधारण रोहू",
+        "Sadharan Rohu"
+      ],
+      "gujarati": [
+        "કોમન કાર્પ",
+        "Common Carp"
+      ],
+      "kashmiri": [
+        "کارپ",
+        "Carp"
+      ],
+      "konkani": [
+        "रोहू",
+        "Rohu"
+      ],
+      "maithili": [
+        "साधारण रऊ",
+        "Sadharan Rau"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "कॉमन कार्प",
+        "Common Carp"
+      ],
+      "nepali": [
+        "साधारण रौ माछा",
+        "Sadaran Rou"
+      ],
+      "odia": [
+        "ବିଲାତି ରୋହି",
+        "Bilati Rohi"
+      ],
+      "punjabi": [
+        "ਕਾਮਨ ਕਾਰਪ",
+        "Common Carp"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱟᱨᱯ",
+        "Carp"
+      ],
+      "sindhi": [
+        "ڪارپ",
+        "Carp"
+      ],
+      "urdu": [
+        "کارپ",
+        "Carp"
+      ]
+    },
+    "notes": "Widely farmed freshwater fish."
+  },
+  {
+    "id": "emperor-fish",
+    "photo": "img/emperor-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Lethrinus nebulosus",
+    "names": {
+      "english": [
+        "Emperor Fish"
+      ],
+      "tamil": [
+        "விளை மீன்",
+        "Vilai Meen"
+      ],
+      "malayalam": [
+        "ഏരി",
+        "Eri",
+        "വിളമീൻ",
+        "Vilameen"
+      ],
+      "kannada": [
+        "ಧಮ",
+        "Dhama"
+      ],
+      "telugu": [
+        "శీల",
+        "Sheela"
+      ],
+      "hindi": [
+        "चोधही",
+        "Chodhhi"
+      ],
+      "assamese": [
+        "এম্পেৰাৰ",
+        "Emperor"
+      ],
+      "bengali": [
+        "এমপায়ার",
+        "Emperor"
+      ],
+      "bodo": [
+        "सम्रात ना",
+        "Samrat Na"
+      ],
+      "dogri": [
+        "सम्राट माच्ची",
+        "Samrat Machhi"
+      ],
+      "gujarati": [
+        "એમ્પરર",
+        "Emperor"
+      ],
+      "kashmiri": [
+        "سَلطان ماہی",
+        "Sultan Mahi"
+      ],
+      "konkani": [
+        "सम्राट मासो",
+        "Samrat Maso"
+      ],
+      "maithili": [
+        "सम्राट माछ",
+        "Samrat Machh"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "एम्परर",
+        "Emperor"
+      ],
+      "nepali": [
+        "सम्राट माछा",
+        "Samrat Machha"
+      ],
+      "odia": [
+        "ଏମ୍ପେରର୍ ମାଛ",
+        "Emperor Machha"
+      ],
+      "punjabi": [
+        "ਐਮਪਰਰ ਫਿਸ਼",
+        "Emperor Fish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱟᱡᱟ ᱦᱟᱠᱩ",
+        "Raja Haku"
+      ],
+      "sindhi": [
+        "بادشاهه مَڇِي",
+        "Badshah Machhi"
+      ],
+      "urdu": [
+        "امپیرا مچھلی",
+        "Emperor Machli"
+      ]
+    },
+    "notes": "Excellent white meat fish."
+  },
+  {
+    "id": "lobster",
+    "photo": "img/lobster.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Nephropidae",
+    "names": {
+      "english": [
+        "Lobster"
+      ],
+      "assamese": [
+        "ঝিংগা",
+        "Jhinga"
+      ],
+      "bengali": [
+        "গলদা চিংড়ি",
+        "Golda Chingri"
+      ],
+      "bodo": [
+        "नामे",
+        "Name"
+      ],
+      "dogri": [
+        "झींगा माच्ची",
+        "Jhinga Machhi"
+      ],
+      "gujarati": [
+        "લોબસ્ટર",
+        "Lobster"
+      ],
+      "hindi": [
+        "झींगा",
+        "Jhinga"
+      ],
+      "kannada": [
+        "ಚಿಪ್ಪು ಹಂದಿ",
+        "Chippu Handi"
+      ],
+      "kashmiri": [
+        "جھینگا",
+        "Jhinga"
+      ],
+      "konkani": [
+        "खेकडो",
+        "Khekdo"
+      ],
+      "maithili": [
+        "झींगा माछ",
+        "Jhinga Machh"
+      ],
+      "malayalam": [
+        "കൊഞ്ച്",
+        "Konchu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "शेवंड",
+        "Shevand"
+      ],
+      "nepali": [
+        "झींगा माछा",
+        "Jhinga Machha"
+      ],
+      "odia": [
+        "ଗଲଦା ଚିଙ୍ଗୁଡ଼ି",
+        "Galada Chingudi"
+      ],
+      "punjabi": [
+        "ਝੀਂਗਾ ਮੱਛੀ",
+        "Jhinga Machhi"
+      ],
+      "sanskrit": [
+        "कुलीरः",
+        "Kuleerah"
+      ],
+      "santali": [
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
+      ],
+      "sindhi": [
+        "جِھينگو",
+        "Jheengo"
+      ],
+      "tamil": [
+        "சிங்கி இறால்",
+        "Singi Eral"
+      ],
+      "telugu": [
+        "పీత",
+        "Peetha"
+      ],
+      "urdu": [
+        "جھیگا",
+        "Jhinga"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "oyster",
+    "photo": "img/oyster.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Ostreidae",
+    "names": {
+      "english": [
+        "Oyster"
+      ],
+      "assamese": [
+        "সিপ",
+        "Sip"
+      ],
+      "bengali": [
+        "ঝিনুক",
+        "Jhinuk"
+      ],
+      "bodo": [
+        "शिप्पी",
+        "Sippi"
+      ],
+      "dogri": [
+        "सीप",
+        "Seep"
+      ],
+      "gujarati": [
+        "ઓઇસ્ટર",
+        "Oyster"
+      ],
+      "hindi": [
+        "सीप",
+        "Seep"
+      ],
+      "kannada": [
+        "ಚಿಪ್ಪು",
+        "Chippu"
+      ],
+      "kashmiri": [
+        "سیپ",
+        "Seep"
+      ],
+      "konkani": [
+        "शिंपलो",
+        "Shimplo"
+      ],
+      "maithili": [
+        "सीप",
+        "Seep"
+      ],
+      "malayalam": [
+        "മുരിങ്ങ",
+        "Muringa"
+      ],
+      "manipuri": [
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
+      ],
+      "marathi": [
+        "कालवं",
+        "Kalva"
+      ],
+      "nepali": [
+        "सीप",
+        "Seep"
+      ],
+      "odia": [
+        "କସ୍ତୁରୀ",
+        "Kasturi"
+      ],
+      "punjabi": [
+        "ਸੀਪ",
+        "Seep"
+      ],
+      "sanskrit": [
+        "शुक्तिका",
+        "Shuktika"
+      ],
+      "santali": [
+        "ᱥᱤᱯ",
+        "Sip"
+      ],
+      "sindhi": [
+        "ڪالو",
+        "Kalu"
+      ],
+      "tamil": [
+        "சிப்பி",
+        "Sippi"
+      ],
+      "telugu": [
+        "ముత్యపు చిప్ప",
+        "Mutyapu Chippa"
+      ],
+      "urdu": [
+        "سیپ",
+        "Seep"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "sea-bass",
+    "photo": "img/sea-bass.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Lates calcarifer",
+    "names": {
+      "english": [
+        "Sea Bass"
+      ],
+      "assamese": [
+        "ভেটকী",
+        "Bhetki"
+      ],
+      "bengali": [
+        "ভেটকি",
+        "Bhetki"
+      ],
+      "bodo": [
+        "भेटकि",
+        "Bhetki"
+      ],
+      "dogri": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "gujarati": [
+        "જીતારો",
+        "Jitaro"
+      ],
+      "hindi": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "kannada": [
+        "ನಾಯಿಕಾಯಿ",
+        "Nayikayi"
+      ],
+      "kashmiri": [
+        "سمُندری بیس",
+        "Samundari Bass"
+      ],
+      "konkani": [
+        "भेकती",
+        "Bhekti"
+      ],
+      "maithili": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "malayalam": [
+        "കാളാഞ്ചി",
+        "Kalanchi"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "खাজुरा",
+        "Khajura"
+      ],
+      "nepali": [
+        "भेटकी",
+        "Bhetki"
+      ],
+      "odia": [
+        "ଭେକ୍ଟି",
+        "Bhekti"
+      ],
+      "punjabi": [
+        "ਭੇਟਕੀ",
+        "Bhetki"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱷᱮᱴᱠᱤ",
+        "Bhetki"
+      ],
+      "sindhi": [
+        "ڍانگرو",
+        "Dhangro"
+      ],
+      "tamil": [
+        "கொடுவா",
+        "Koduva"
+      ],
+      "telugu": [
+        "పండుగప్ప",
+        "Pandugappa"
+      ],
+      "urdu": [
+        "بھیٹکی",
+        "Bhetki"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "grouper",
+    "photo": "img/grouper.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Epinephelinae",
+    "names": {
+      "english": [
+        "Grouper"
+      ],
+      "assamese": [
+        "গ্ৰুপাৰ",
+        "Grouper"
+      ],
+      "bengali": [
+        "গ্রুপার",
+        "Grouper"
+      ],
+      "bodo": [
+        "ग्रुपार",
+        "Grouper"
+      ],
+      "dogri": [
+        "ग्रूपर",
+        "Grouper"
+      ],
+      "gujarati": [
+        "ગોબરા",
+        "Gobra"
+      ],
+      "hindi": [
+        "रावास",
+        "Rawas"
+      ],
+      "kannada": [
+        "ಗೊಪ",
+        "Gopa"
+      ],
+      "kashmiri": [
+        "گروپر",
+        "Grouper"
+      ],
+      "konkani": [
+        "ग्रूपर",
+        "Grouper"
+      ],
+      "maithili": [
+        "ग्रूपर",
+        "Grouper"
+      ],
+      "malayalam": [
+        "കലവ",
+        "Kalava"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "गोबरा",
+        "Gobra"
+      ],
+      "nepali": [
+        "ग्रुपर",
+        "Grouper"
+      ],
+      "odia": [
+        "କଳା ମାଛ",
+        "Kala Machha"
+      ],
+      "punjabi": [
+        "ਗਰੂਪਰ",
+        "Grouper"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱨᱩᱯᱟᱨ",
+        "Grouper"
+      ],
+      "sindhi": [
+        "گروپر",
+        "Grouper"
+      ],
+      "tamil": [
+        "கலவா",
+        "Kalava"
+      ],
+      "telugu": [
+        "ముర",
+        "Mura"
+      ],
+      "urdu": [
+        "گرؤپر",
+        "Grouper"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "cobia",
+    "photo": "img/cobia.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Rachycentron canadum",
+    "names": {
+      "english": [
+        "Cobia"
+      ],
+      "assamese": [
+        "কোবিয়া",
+        "Cobia"
+      ],
+      "bengali": [
+        "কোবিয়া",
+        "Cobia"
+      ],
+      "bodo": [
+        "कोबि दा",
+        "Kobi Da"
+      ],
+      "dogri": [
+        "कोबिया",
+        "Kobiya"
+      ],
+      "gujarati": [
+        "કોબિયા",
+        "Cobia"
+      ],
+      "hindi": [
+        "कोबिया",
+        "Cobia"
+      ],
+      "kannada": [
+        "ಕಪ್ಪು ಮೀನು",
+        "Kappu Meenu"
+      ],
+      "kashmiri": [
+        "کوبیا",
+        "Kobiya"
+      ],
+      "konkani": [
+        "कोबिया",
+        "Cobia"
+      ],
+      "maithili": [
+        "कोबिया",
+        "Cobia"
+      ],
+      "malayalam": [
+        "മോത",
+        "Modha"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "कोबिया",
+        "Cobia"
+      ],
+      "nepali": [
+        "कोबिया",
+        "Cobia"
+      ],
+      "odia": [
+        "କୋବିଆ",
+        "Cobia"
+      ],
+      "punjabi": [
+        "ਕੋਬੀਆ",
+        "Cobia"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱳᱵᱤᱭᱟ",
+        "Kobiya"
+      ],
+      "sindhi": [
+        "ڪوبيا",
+        "Kobia"
+      ],
+      "tamil": [
+        "கடல் விரால்",
+        "Kadal Viral"
+      ],
+      "telugu": [
+        "నల్ల మోసు",
+        "Nalla Mosu"
+      ],
+      "urdu": [
+        "کوبیا",
+        "Cobia"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "mahi-mahi",
+    "photo": "img/mahi-mahi.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Coryphaena hippurus",
+    "names": {
+      "english": [
+        "Mahi Mahi"
+      ],
+      "assamese": [
+        "মাহি মাহি",
+        "Mahi Mahi"
+      ],
+      "bengali": [
+        "মাহি মাহি",
+        "Mahi Mahi"
+      ],
+      "bodo": [
+        "माहि माहि",
+        "Mahi Mahi"
+      ],
+      "dogri": [
+        "माही माही",
+        "Mahi Mahi"
+      ],
+      "gujarati": [
+        "ડોલ્ફિન",
+        "Dolphin"
+      ],
+      "hindi": [
+        "डॉल्फिन मछली",
+        "Dolphin Fish"
+      ],
+      "kannada": [
+        "ಮಹಿ ಮಹಿ",
+        "Mahi Mahi"
+      ],
+      "kashmiri": [
+        "ماہی ماہی",
+        "Mahi Mahi"
+      ],
+      "konkani": [
+        "माही माही",
+        "Mahi Mahi"
+      ],
+      "maithili": [
+        "माही माही",
+        "Mahi Mahi"
+      ],
+      "malayalam": [
+        "അവന",
+        "Avana"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "माही माही",
+        "Mahi Mahi"
+      ],
+      "nepali": [
+        "माही माही",
+        "Mahi Mahi"
+      ],
+      "odia": [
+        "ମାହି ମାହି",
+        "Mahi Mahi"
+      ],
+      "punjabi": [
+        "ਮਾਹੀ ਮਾਹੀ",
+        "Mahi Mahi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱟᱦᱤ ᱢᱟᱦᱤ",
+        "Mahi Mahi"
+      ],
+      "sindhi": [
+        "ماهي ماهي",
+        "Mahi Mahi"
+      ],
+      "tamil": [
+        "அவனா",
+        "Avana"
+      ],
+      "telugu": [
+        "ఆడు చేప",
+        "Aadu Chepa"
+      ],
+      "urdu": [
+        "ماہی ماہی",
+        "Mahi Mahi"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "swordfish",
+    "photo": "img/swordfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Xiphias gladius",
+    "names": {
+      "english": [
+        "Swordfish"
+      ],
+      "assamese": [
+        "তৰোৱাল মাছ",
+        "Torowal Maas"
+      ],
+      "bengali": [
+        "সোর্ডফিশ",
+        "Swordfish"
+      ],
+      "bodo": [
+        "थोरा ना",
+        "Thora Na"
+      ],
+      "dogri": [
+        "तलवार माच्ची",
+        "Talwar Machhi"
+      ],
+      "gujarati": [
+        "તલવાર",
+        "Talvar"
+      ],
+      "hindi": [
+        "तलवार मछली",
+        "Talwar Machli"
+      ],
+      "kannada": [
+        "ಕತ್ತಿ ಮೀನು",
+        "Kathi Meenu"
+      ],
+      "kashmiri": [
+        "تَلوار ماہی",
+        "Talwar Mahi"
+      ],
+      "konkani": [
+        "तलवार मासो",
+        "Talwar Maso"
+      ],
+      "maithili": [
+        "तरवार माछ",
+        "Tarwar Machh"
+      ],
+      "malayalam": [
+        "ഓലമീൻ",
+        "Olameen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "तळवार",
+        "Talwar"
+      ],
+      "nepali": [
+        "तरवार माछा",
+        "Tarwar Machha"
+      ],
+      "odia": [
+        "ମୟୂର ପଙ୍ଖୀ",
+        "Mayur Pankhi"
+      ],
+      "punjabi": [
+        "ਤਲਵਾਰ ਮੱਛੀ",
+        "Talwar Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱛᱟᱨᱣᱟᱲ ᱦᱟᱠᱩ",
+        "Tarwar Haku"
+      ],
+      "sindhi": [
+        "تالار مَڇِي",
+        "Talwar Machhi"
+      ],
+      "tamil": [
+        "மயிலா",
+        "Mayila"
+      ],
+      "telugu": [
+        "కొమ్ము కోణం",
+        "Kommu Konam"
+      ],
+      "urdu": [
+        "تلوار مچھلی",
+        "Talwar Machli"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "stingray",
+    "photo": "img/stingray.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Myliobatoidei",
+    "names": {
+      "english": [
+        "Stingray"
+      ],
+      "assamese": [
+        "পাৰি মাছ",
+        "Pari Maas"
+      ],
+      "bengali": [
+        "শাপলাপাতা",
+        "Shaplapata"
+      ],
+      "bodo": [
+        "स्तिं रे",
+        "Sting Ray"
+      ],
+      "dogri": [
+        "डंक माच्ची",
+        "Dank Machhi"
+      ],
+      "gujarati": [
+        "સ્ટીંગરે",
+        "Stingray"
+      ],
+      "hindi": [
+        "शंकुश",
+        "Shankush"
+      ],
+      "kannada": [
+        "ತೋರಕೆ",
+        "Thorake"
+      ],
+      "kashmiri": [
+        "سٹِنگرے",
+        "Stingray"
+      ],
+      "konkani": [
+        "त्रीकोण मासो",
+        "Trikon Maso"
+      ],
+      "maithili": [
+        "डंक माछ",
+        "Dank Machh"
+      ],
+      "malayalam": [
+        "തിരണ്ടി",
+        "Thirandi"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "पाकट",
+        "Pakat"
+      ],
+      "nepali": [
+        "डंक माछा",
+        "Danka Machha"
+      ],
+      "odia": [
+        "ଶାଙ୍କୁଚ",
+        "Sankucha"
+      ],
+      "punjabi": [
+        "ਸਟਿੰਗਰੇ",
+        "Stingray"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱴᱤᱝ ᱨᱮ",
+        "Sting Ray"
+      ],
+      "sindhi": [
+        "ڪارل",
+        "Karl"
+      ],
+      "tamil": [
+        "திருக்கை",
+        "Thirukkai"
+      ],
+      "telugu": [
+        "టేకు",
+        "Teku"
+      ],
+      "urdu": [
+        "سٹنگرے",
+        "Stingray"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "silver-belly",
+    "photo": "img/silver-belly.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Leiognathidae",
+    "names": {
+      "english": [
+        "Silver Belly"
+      ],
+      "assamese": [
+        "ৰূপা পেট",
+        "Rupa Pet"
+      ],
+      "bengali": [
+        "সিলভার বেলি",
+        "Silver Belly"
+      ],
+      "bodo": [
+        "रुफानि",
+        "Rupani"
+      ],
+      "dogri": [
+        "चांदी पेट",
+        "Chandi Pet"
+      ],
+      "gujarati": [
+        "સિલ્વર બેલી",
+        "Silver Belly"
+      ],
+      "hindi": [
+        "सिल्वर बेली",
+        "Silver Belly"
+      ],
+      "kannada": [
+        "ಕುರುಚಿ",
+        "Kuruchi"
+      ],
+      "kashmiri": [
+        "چاندی پیٹ",
+        "Chandi Pet"
+      ],
+      "konkani": [
+        "पापड़",
+        "Papad"
+      ],
+      "maithili": [
+        "चान्नी पेट",
+        "Channi Pet"
+      ],
+      "malayalam": [
+        "മുള്ളൻ",
+        "Mullan"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "काप",
+        "Kap"
+      ],
+      "nepali": [
+        "चाँदी पेट",
+        "Chandi Pet"
+      ],
+      "odia": [
+        "ଟଙ୍କା ଚାନ୍ଦି",
+        "Tanka Chandi"
+      ],
+      "punjabi": [
+        "ਸਿਲਵਰ ਬੈਲੀ",
+        "Silver Belly"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱩᱯᱟᱹ ᱦᱟᱠᱩ",
+        "Rupa Haku"
+      ],
+      "sindhi": [
+        "چاندِي پيٽ",
+        "Chandi Peth"
+      ],
+      "tamil": [
+        "காரை",
+        "Kaarai"
+      ],
+      "telugu": [
+        "కార",
+        "Kara"
+      ],
+      "urdu": [
+        "سلووری بیلی",
+        "Silver Belly"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "threadfin-bream",
+    "photo": "img/threadfin-bream.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Nemipteridae",
+    "names": {
+      "english": [
+        "Threadfin Bream"
+      ],
+      "assamese": [
+        "সুতা মাছ",
+        "Suta Maas"
+      ],
+      "bengali": [
+        "রানি",
+        "Rani"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "धागा माच्ची",
+        "Dhaga Machhi"
+      ],
+      "gujarati": [
+        "રાણી",
+        "Rani"
+      ],
+      "hindi": [
+        "रानी",
+        "Rani"
+      ],
+      "kannada": [
+        "ಮದ್ಮಲ್",
+        "Madmal"
+      ],
+      "kashmiri": [
+        "دھاگہ ماہی",
+        "Dhaga Mahi"
+      ],
+      "konkani": [
+        "रांवटी",
+        "Ranvti"
+      ],
+      "maithili": [
+        "धागा माछ",
+        "Dhaga Machh"
+      ],
+      "malayalam": [
+        "ചെമ്മീൻ",
+        "Chemmeen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "राणी",
+        "Rani"
+      ],
+      "nepali": [
+        "धागो माछा",
+        "Dhago Machha"
+      ],
+      "odia": [
+        "ରାଣୀ",
+        "Rani"
+      ],
+      "punjabi": [
+        "ਥਰਿੱਡਫਿਨ ਬ੍ਰੀਮ",
+        "Threadfin Bream"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "اڇو مَڇِي",
+        "Achho Machhi"
+      ],
+      "tamil": [
+        "சங்கரா",
+        "Sankara"
+      ],
+      "telugu": [
+        "గులివింద",
+        "Gulivinda"
+      ],
+      "urdu": [
+        "رانی",
+        "Rani"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "ribbon-fish",
+    "photo": "img/ribbon-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Trichiurus lepturus",
+    "names": {
+      "english": [
+        "Ribbon Fish"
+      ],
+      "assamese": [
+        "ফিটা মাছ",
+        "Phita Maas"
+      ],
+      "bengali": [
+        "রূপচাঁদা",
+        "Rupchanda"
+      ],
+      "bodo": [
+        "रिबन ना",
+        "Ribbon Na"
+      ],
+      "dogri": [
+        "रिबन माच्ची",
+        "Ribbon Machhi"
+      ],
+      "gujarati": [
+        "વાલ",
+        "Vaala"
+      ],
+      "hindi": [
+        "फीता मछली",
+        "Pheta Machli"
+      ],
+      "kannada": [
+        "ಬಾಳೆ ಮೀನು",
+        "Bale Meenu"
+      ],
+      "kashmiri": [
+        "ربن ماہی",
+        "Ribbon Mahi"
+      ],
+      "konkani": [
+        "फ़ित्ता मासो",
+        "Fitta Maso"
+      ],
+      "maithili": [
+        "रिबन माछ",
+        "Ribbon Machh"
+      ],
+      "malayalam": [
+        "വാള",
+        "Vala"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "वागटी",
+        "Wagti"
+      ],
+      "nepali": [
+        "रिबन माछा",
+        "Ribbon Machha"
+      ],
+      "odia": [
+        "ରୂପା ପାତିଆ",
+        "Rupa Patia"
+      ],
+      "punjabi": [
+        "ਰਿਬਨ ਫਿਸ਼",
+        "Ribbon Fish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱤᱵᱚᱱ ᱦᱟᱠᱩ",
+        "Ribbon Haku"
+      ],
+      "sindhi": [
+        "پَتي مَڇِي",
+        "Patti Machhi"
+      ],
+      "tamil": [
+        "வாளை",
+        "Vaali"
+      ],
+      "telugu": [
+        "సావడ",
+        "Savada"
+      ],
+      "urdu": [
+        "ربن فش",
+        "Ribbon Fish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "cuttlefish",
+    "photo": "img/cuttlefish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Sepiida",
+    "names": {
+      "english": [
+        "Cuttlefish"
+      ],
+      "assamese": [
+        "কাটল ফিছ",
+        "Cuttlefish"
+      ],
+      "bengali": [
+        "কাটলে ফিশ",
+        "Cuttlefish"
+      ],
+      "bodo": [
+        "कातल ना",
+        "Katal Na"
+      ],
+      "dogri": [
+        "कटल फिश",
+        "Cuttlefish"
+      ],
+      "gujarati": [
+        "કટલ ફિશ",
+        "Cuttlefish"
+      ],
+      "hindi": [
+        "कैटलफिश",
+        "Cuttlefish"
+      ],
+      "kannada": [
+        "ಕಣವೆ",
+        "Kanave"
+      ],
+      "kashmiri": [
+        "کٹل فش",
+        "Cuttlefish"
+      ],
+      "konkani": [
+        "नाकट",
+        "Nakat"
+      ],
+      "maithili": [
+        "कटल फिश",
+        "Cuttlefish"
+      ],
+      "malayalam": [
+        "കണവ",
+        "Kanava"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "माखली",
+        "Makhli"
+      ],
+      "nepali": [
+        "कटल फिश",
+        "Cuttlefish"
+      ],
+      "odia": [
+        "କାଳି",
+        "Kali"
+      ],
+      "punjabi": [
+        "ਕਟਲ ਫਿਸ਼",
+        "Cuttlefish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱟᱴᱚᱞ ᱦᱟᱠᱩ",
+        "Katal Haku"
+      ],
+      "sindhi": [
+        "ڪٽل مَڇِي",
+        "Cuttle Machhi"
+      ],
+      "tamil": [
+        "கனவா",
+        "Kanava"
+      ],
+      "telugu": [
+        "కనవ",
+        "Kanava"
+      ],
+      "urdu": [
+        "کٹل فش",
+        "Cuttlefish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "mud-crab",
+    "photo": "img/mud-crab.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Scylla serrata",
+    "names": {
+      "english": [
+        "Mud Crab"
+      ],
+      "assamese": [
+        "কেঁকোৰা",
+        "Kekora"
+      ],
+      "bengali": [
+        "কাঁকড়া",
+        "Kankra"
+      ],
+      "bodo": [
+        "खान्ख्रा",
+        "Khankhra"
+      ],
+      "dogri": [
+        "कीचड़ केकड़ा",
+        "Keechad Kekda"
+      ],
+      "gujarati": [
+        "કાદવ કરચલો",
+        "Kadav Karachlo"
+      ],
+      "hindi": [
+        "केकड़ा",
+        "Kekra"
+      ],
+      "kannada": [
+        "ಏಡಿ",
+        "Yedi"
+      ],
+      "kashmiri": [
+        "کاچ کیکڑا",
+        "Kaach Kekda"
+      ],
+      "konkani": [
+        "शीतल",
+        "Shital"
+      ],
+      "maithili": [
+        "कीचड़ केकड़ा",
+        "Kichad Kekda"
+      ],
+      "malayalam": [
+        "ഞണ്ട്",
+        "Njandu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "खेकडा",
+        "Khekda"
+      ],
+      "nepali": [
+        "हिलो केकडा",
+        "Hilo Kekada"
+      ],
+      "odia": [
+        "କଙ୍କଡା",
+        "Kankada"
+      ],
+      "punjabi": [
+        "ਕੇਕੜਾ",
+        "Kekda"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱟᱴᱠᱚᱢ",
+        "Katkom"
+      ],
+      "sindhi": [
+        "ڪينڪڙو",
+        "Kenkro"
+      ],
+      "tamil": [
+        "நண்டு",
+        "Nandu"
+      ],
+      "telugu": [
+        "పీత",
+        "Peetha"
+      ],
+      "urdu": [
+        "کیکڑا",
+        "Kekda"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "tiger-prawn",
+    "photo": "img/tiger-prawn.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Penaeus monodon",
+    "names": {
+      "english": [
+        "Tiger Prawn"
+      ],
+      "assamese": [
+        "বাঘা জঁ ি",
+        "Bagha Jingka"
+      ],
+      "bengali": [
+        "বাগদা চিংড়ি",
+        "Bagda Chingri"
+      ],
+      "bodo": [
+        "नामे",
+        "Name"
+      ],
+      "dogri": [
+        "बाघ झींगा",
+        "Bagh Jhinga"
+      ],
+      "gujarati": [
+        "ટાઈગર પ્રોન",
+        "Tiger Prawn"
+      ],
+      "hindi": [
+        "बड़ा झींगा",
+        "Bada Jhinga"
+      ],
+      "kannada": [
+        "ಸಿಗಡಿ",
+        "Sigadi"
+      ],
+      "kashmiri": [
+        "شیر جھینگا",
+        "Sher Jhinga"
+      ],
+      "konkani": [
+        "झींगो",
+        "Jhingo"
+      ],
+      "maithili": [
+        "बाघ झींगा",
+        "Bagh Jhinga"
+      ],
+      "malayalam": [
+        "ചെമ്മീൻ",
+        "Chemmeen"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "कोळंबी",
+        "Kolambi"
+      ],
+      "nepali": [
+        "बाघ झींगा",
+        "Bagh Jhinga"
+      ],
+      "odia": [
+        "ବଡ ଚିଙ୍ଗୁଡି",
+        "Bada Chingudi"
+      ],
+      "punjabi": [
+        "ਟਾਈਗਰ ਝੀਂਗਾ",
+        "Tiger Jhinga"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
+      ],
+      "sindhi": [
+        "وڏو جِھينگو",
+        "Waddo Jheengo"
+      ],
+      "tamil": [
+        "பெரிய இறால்",
+        "Periya Eral"
+      ],
+      "telugu": [
+        "రొయ్య",
+        "Royya"
+      ],
+      "urdu": [
+        "ٹائیگر جھینگا",
+        "Tiger Jhinga"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "scampi",
+    "photo": "img/scampi.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Macrobrachium rosenbergii",
+    "names": {
+      "english": [
+        "Scampi"
+      ],
+      "assamese": [
+        "গলদা",
+        "Golda"
+      ],
+      "bengali": [
+        "গলদা চিংড়ি",
+        "Golda Chingri"
+      ],
+      "bodo": [
+        "नामे",
+        "Name"
+      ],
+      "dogri": [
+        "गोलदा झींगा",
+        "Golda Jhinga"
+      ],
+      "gujarati": [
+        "સ્કેampi",
+        "Scampi"
+      ],
+      "hindi": [
+        "महा झींगा",
+        "Maha Jhinga"
+      ],
+      "kannada": [
+        "ಸ್ಕ್ಯಾಂಪಿ",
+        "Scampi"
+      ],
+      "kashmiri": [
+        "سکامپی",
+        "Scampi"
+      ],
+      "konkani": [
+        "मोटो झींगो",
+        "Moto Jhingo"
+      ],
+      "maithili": [
+        "गोल्डा झींगा",
+        "Golda Jhinga"
+      ],
+      "malayalam": [
+        "ആറ്റുകൊഞ്ച്",
+        "Attukonchu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "स्कॅम्पी",
+        "Scampi"
+      ],
+      "nepali": [
+        "गोल्डा झींगा",
+        "Golda Jhinga"
+      ],
+      "odia": [
+        "ଗଲଦା",
+        "Galda"
+      ],
+      "punjabi": [
+        "ਸਕੈਂਪੀ",
+        "Scampi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱤᱪᱟᱹᱜ",
+        "Ichag"
+      ],
+      "sindhi": [
+        "جِھينگو",
+        "Jheengo"
+      ],
+      "tamil": [
+        "பெரிய இறால்",
+        "Periya Eral"
+      ],
+      "telugu": [
+        "నీలం రొయ్య",
+        "Neelam Royya"
+      ],
+      "urdu": [
+        "مہا جھینگا",
+        "Maha Jhinga"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "reef-cod",
+    "photo": "img/reef-cod.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Epinephelus",
+    "names": {
+      "english": [
+        "Reef Cod"
+      ],
+      "assamese": [
+        "ৰিফ কড",
+        "Reef Cod"
+      ],
+      "bengali": [
+        "কোরাল",
+        "Koral"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "रीफ कोड",
+        "Reef Cod"
+      ],
+      "gujarati": [
+        "રીફ કોડ",
+        "Reef Cod"
+      ],
+      "hindi": [
+        "रीफ कोड",
+        "Reef Cod"
+      ],
+      "kannada": [
+        "ರೀಫ್ ಕಾಡ್",
+        "Reef Cod"
+      ],
+      "kashmiri": [
+        "ریف کوڈ",
+        "Reef Cod"
+      ],
+      "konkani": [
+        "कोड",
+        "Cod"
+      ],
+      "maithili": [
+        "रीफ कोड",
+        "Reef Cod"
+      ],
+      "malayalam": [
+        "കലവ",
+        "Kalava"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "रीफ कोड",
+        "Reef Cod"
+      ],
+      "nepali": [
+        "रीफ कोड",
+        "Reef Cod"
+      ],
+      "odia": [
+        "କୋଡ",
+        "Cod"
+      ],
+      "punjabi": [
+        "ਰੀਫ ਕੋਡ",
+        "Reef Cod"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "ڪوڊ",
+        "Cod"
+      ],
+      "tamil": [
+        "கலவா",
+        "Kalava"
+      ],
+      "telugu": [
+        "రీఫ్ కాడ్",
+        "Reef Cod"
+      ],
+      "urdu": [
+        "ریف کوڈ",
+        "Reef Cod"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "parrot-fish",
+    "photo": "img/parrot-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Scaridae",
+    "names": {
+      "english": [
+        "Parrot Fish"
+      ],
+      "assamese": [
+        "দয়না মাছ",
+        "Doina Maas"
+      ],
+      "bengali": [
+        "প্যারট ফিশ",
+        "Parrot Fish"
+      ],
+      "bodo": [
+        "सुगा ना",
+        "Suga Na"
+      ],
+      "dogri": [
+        "तोता माच्ची",
+        "Tota Machhi"
+      ],
+      "gujarati": [
+        "પોપટ માછલી",
+        "Popat Machli"
+      ],
+      "hindi": [
+        "तोता मछली",
+        "Tota Machli"
+      ],
+      "kannada": [
+        "ಗಿಣಿ ಮೀನು",
+        "Gini Meenu"
+      ],
+      "kashmiri": [
+        "طوطا ماہی",
+        "Tota Mahi"
+      ],
+      "konkani": [
+        "पोपत मासो",
+        "Popat Maso"
+      ],
+      "maithili": [
+        "तोता माछ",
+        "Tota Machh"
+      ],
+      "malayalam": [
+        "തത്ത മീൻ",
+        "Thatha Meen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "पोपट मासा",
+        "Popat Masa"
+      ],
+      "nepali": [
+        "सुगा माछा",
+        "Suga Machha"
+      ],
+      "odia": [
+        "ତୋତା ମାଛ",
+        "Tota Machha"
+      ],
+      "punjabi": [
+        "ਤੋਤਾ ਮੱਛੀ",
+        "Tota Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱤᱨᱩ ᱦᱟᱠᱩ",
+        "Miru Haku"
+      ],
+      "sindhi": [
+        "طوطو مَڇِي",
+        "Toto Machhi"
+      ],
+      "tamil": [
+        "கிளி மீன்",
+        "Kili Meen"
+      ],
+      "telugu": [
+        "చిలుక చేప",
+        "Chiluka Chepa"
+      ],
+      "urdu": [
+        "طوطا مچھلی",
+        "Tota Machli"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "white-bait",
+    "photo": "img/white-bait.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "White Bait"
+      ],
+      "assamese": [
+        "বগা মাছ",
+        "Boga Maas"
+      ],
+      "bengali": [
+        "পাঁচ মিশালি",
+        "Panch Mishali"
+      ],
+      "bodo": [
+        "गुफुर ना",
+        "Guphur Na"
+      ],
+      "dogri": [
+        "सफेद माच्ची",
+        "Safed Machhi"
+      ],
+      "gujarati": [
+        "વ્હાઈટ બેટ",
+        "White Bait"
+      ],
+      "hindi": [
+        "नेथिली",
+        "Nethili"
+      ],
+      "kannada": [
+        "ಬಿಳಿ ಮೀನು",
+        "Bili Meenu"
+      ],
+      "kashmiri": [
+        "سفید ماہی",
+        "Safed Mahi"
+      ],
+      "konkani": [
+        "धाबो मासो",
+        "Dhabo Maso"
+      ],
+      "maithili": [
+        "सफेद माछ",
+        "Safed Machh"
+      ],
+      "malayalam": [
+        "നെത്തോലി",
+        "Netholi"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "व्हाइट बेट",
+        "White Bait"
+      ],
+      "nepali": [
+        "सेतो माछा",
+        "Seto Machha"
+      ],
+      "odia": [
+        "ଚୁନା ମାଛ",
+        "Chuna Machha"
+      ],
+      "punjabi": [
+        "ਵਾਈਟ ਬੇਟ",
+        "White Bait"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱩᱸᱰ ᱦᱟᱠᱩ",
+        "Pund Haku"
+      ],
+      "sindhi": [
+        "ننڍي مَڇِي",
+        "Nandhi Machhi"
+      ],
+      "tamil": [
+        "நெத்திலி",
+        "Nethili"
+      ],
+      "telugu": [
+        "నెత్తళ్ళు",
+        "Nethallu"
+      ],
+      "urdu": [
+        "وائٹ بیٹ",
+        "White Bait"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "indian-whiting",
+    "photo": "img/indian-whiting.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Indian Whiting"
+      ],
+      "assamese": [
+        "হোৱাইটিং",
+        "Whiting"
+      ],
+      "bengali": [
+        "লেডি ফিশ",
+        "Lady Fish"
+      ],
+      "bodo": [
+        "ह्वाइतिं",
+        "Whiting"
+      ],
+      "dogri": [
+        "व्हाइटिंग",
+        "Whiting"
+      ],
+      "gujarati": [
+        "લેડી ફિશ",
+        "Lady Fish"
+      ],
+      "hindi": [
+        "लेडी फिश",
+        "Lady Fish"
+      ],
+      "kannada": [
+        "ಕಾನೆ",
+        "Kane"
+      ],
+      "kashmiri": [
+        "وائٹِنگ",
+        "Whiting"
+      ],
+      "konkani": [
+        "व्हाइटिंग",
+        "Whiting"
+      ],
+      "maithili": [
+        "ह्वाइटिंग",
+        "Whiting"
+      ],
+      "malayalam": [
+        "പൂഴാൻ",
+        "Poozhan"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "मुडदुस",
+        "Muddus"
+      ],
+      "nepali": [
+        "ह्वाइटिंग",
+        "Whiting"
+      ],
+      "odia": [
+        "ଖୁଦୁରା",
+        "Khudura"
+      ],
+      "punjabi": [
+        "ਵ੍ਹਾਈਟਿੰਗ",
+        "Whiting"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱣᱟᱭᱴᱤᱝ",
+        "Whiting"
+      ],
+      "sindhi": [
+        "وائيٽنگ",
+        "Whiting"
+      ],
+      "tamil": [
+        "கிழங்கான்",
+        "Kizhangan"
+      ],
+      "telugu": [
+        "సొరలు",
+        "Soralu"
+      ],
+      "urdu": [
+        "وہائٹنگ",
+        "Whiting"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "malabar-trevally",
+    "photo": "img/malabar-trevally.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Malabar Trevally"
+      ],
+      "assamese": [
+        "পেৰা",
+        "Para"
+      ],
+      "bengali": [
+        "ট্রেভালি",
+        "Trevally"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "मालाबार ट्रेवली",
+        "Malabar Trevally"
+      ],
+      "gujarati": [
+        "ટ્રેવલી",
+        "Trevally"
+      ],
+      "hindi": [
+        "मालाबार ट्रेवली",
+        "Malabar Trevally"
+      ],
+      "kannada": [
+        "ಬಾಂಗ್ಡೆ",
+        "Bangde"
+      ],
+      "kashmiri": [
+        "مالابار ٹریولی",
+        "Malabar Trevally"
+      ],
+      "konkani": [
+        "ट्रेवली",
+        "Trevally"
+      ],
+      "maithili": [
+        "मालाबार ट्रेवली",
+        "Malabar Trevally"
+      ],
+      "malayalam": [
+        "വറ്റ",
+        "Vatta"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "शिंपी",
+        "Shimpi"
+      ],
+      "nepali": [
+        "मालाबार त्रेवली",
+        "Malabar Trevally"
+      ],
+      "odia": [
+        "ପାରା",
+        "Para"
+      ],
+      "punjabi": [
+        "ਟ੍ਰੇਵਲੀ",
+        "Trevally"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "تراويلي",
+        "Traveli"
+      ],
+      "tamil": [
+        "பாறை",
+        "Paarai"
+      ],
+      "telugu": [
+        "పారా",
+        "Para"
+      ],
+      "urdu": [
+        "پیرا",
+        "Para"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "giant-freshwater-prawn",
+    "photo": "img/giant-freshwater-prawn.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Giant Freshwater Prawn"
+      ],
+      "assamese": [
+        "গলদা",
+        "Gelda"
+      ],
+      "bengali": [
+        "গলদা চিংড়ি",
+        "Golda Chingri"
+      ],
+      "bodo": [
+        "गेदेर नामे",
+        "Geder Name"
+      ],
+      "dogri": [
+        "बड्डा झींगा",
+        "Badda Jhinga"
+      ],
+      "gujarati": [
+        "મોટા ઝીંગા",
+        "Mota Zinga"
+      ],
+      "hindi": [
+        "बड़ा झींगा",
+        "Bada Jhinga"
+      ],
+      "kannada": [
+        "ಸಿಹಿ ನೀರು ಸಿಗಡಿ",
+        "Sihi Neeru Sigadi"
+      ],
+      "kashmiri": [
+        "بَڑ جھینگا",
+        "Bad Jhinga"
+      ],
+      "konkani": [
+        "मोटो झींगो",
+        "Moto Jhingo"
+      ],
+      "maithili": [
+        "पैघ झींगा",
+        "Paigh Jhinga"
+      ],
+      "malayalam": [
+        "ആറ്റുകൊഞ്ച്",
+        "Attukonchu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "मोठा कोळंबी",
+        "Motha Kolambi"
+      ],
+      "nepali": [
+        "ठूलो झींगा",
+        "Thulo Jhinga"
+      ],
+      "odia": [
+        "ଗଲଦା",
+        "Galda"
+      ],
+      "punjabi": [
+        "ਵੱਡਾ ਝੀਂਗਾ",
+        "Vadda Jhinga"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱟᱨᱟᱝ ᱤᱪᱟᱹᱜ",
+        "Marang Ichag"
+      ],
+      "sindhi": [
+        "مٺي پاڻي جو جِھينگو",
+        "Mithi Pani Jo Jheengo"
+      ],
+      "tamil": [
+        "பெரிய நன்னீர் இறால்",
+        "Periya Nanneer Eral"
+      ],
+      "telugu": [
+        "మంచినీటి రొయ్య",
+        "Manchineeti Royya"
+      ],
+      "urdu": [
+        "بڑا جھینگا",
+        "Bada Jhinga"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "ponyfish",
+    "photo": "img/ponyfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Ponyfish"
+      ],
+      "assamese": [
+        "পনি ফিছ",
+        "Ponyfish"
+      ],
+      "bengali": [
+        "টাকা মাছ",
+        "Taka Mach"
+      ],
+      "bodo": [
+        "पनि ना",
+        "Poni Na"
+      ],
+      "dogri": [
+        "पोनी फिश",
+        "Ponyfish"
+      ],
+      "gujarati": [
+        "પોનીફિશ",
+        "Ponyfish"
+      ],
+      "hindi": [
+        "पोनी फिश",
+        "Pony Fish"
+      ],
+      "kannada": [
+        "ಕುರುಚಿ",
+        "Kuruchi"
+      ],
+      "kashmiri": [
+        "پونی فش",
+        "Ponyfish"
+      ],
+      "konkani": [
+        "पोनी फिश",
+        "Ponyfish"
+      ],
+      "maithili": [
+        "पोनी फिश",
+        "Ponyfish"
+      ],
+      "malayalam": [
+        "മുള്ളൻ",
+        "Mullan"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "कप्पी",
+        "Kappi"
+      ],
+      "nepali": [
+        "पोनी फिश",
+        "Ponyfish"
+      ],
+      "odia": [
+        "ପୋନି",
+        "Pony"
+      ],
+      "punjabi": [
+        "ਪੋਨੀਫਿਸ਼",
+        "Ponyfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱳᱱᱤ ᱦᱟᱠᱩ",
+        "Poni Haku"
+      ],
+      "sindhi": [
+        "پوني مَڇِي",
+        "Pony Machhi"
+      ],
+      "tamil": [
+        "காரை",
+        "Kaarai"
+      ],
+      "telugu": [
+        "కార",
+        "Kara"
+      ],
+      "urdu": [
+        "پونی فش",
+        "Ponyfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "lizardfish",
+    "photo": "img/lizardfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Lizardfish"
+      ],
+      "assamese": [
+        "জেঙেলী মাছ",
+        "Jengeli Maas"
+      ],
+      "bengali": [
+        "টিকটিকি মাছ",
+        "Tiktiki Mach"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "छिप्पकळी माच्ची",
+        "Chhippakli Machhi"
+      ],
+      "gujarati": [
+        "લિઝાર્ડ ફિશ",
+        "Lizardfish"
+      ],
+      "hindi": [
+        "लिज़र्ड फिश",
+        "Lizard Fish"
+      ],
+      "kannada": [
+        "ಹಲ್ಲಿ ಮೀನು",
+        "Halli Meenu"
+      ],
+      "kashmiri": [
+        "کِرکَٹ ماہی",
+        "Kirkat Mahi"
+      ],
+      "konkani": [
+        "लिझर्ड फिश",
+        "Lizardfish"
+      ],
+      "maithili": [
+        "छिपकली माछ",
+        "Chhipkali Machh"
+      ],
+      "malayalam": [
+        "അരണ മീൻ",
+        "Arana Meen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "चोर बोंबिल",
+        "Chor Bombil"
+      ],
+      "nepali": [
+        "छेपारो माछा",
+        "Cheparo Machha"
+      ],
+      "odia": [
+        "ବାଲି",
+        "Bali"
+      ],
+      "punjabi": [
+        "ਲਿਜ਼ਰਡ ਫਿਸ਼",
+        "Lizardfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "ڪِرڙ مَڇِي",
+        "Kirr Machhi"
+      ],
+      "tamil": [
+        "தண்ணீர் பண்ணி",
+        "Thanneer Panni"
+      ],
+      "telugu": [
+        "బల్లి చేప",
+        "Balli Chepa"
+      ],
+      "urdu": [
+        "لزرڈ فش",
+        "Lizardfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "flathead",
+    "photo": "img/flathead.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Flathead"
+      ],
+      "assamese": [
+        "চেপটা মাছ",
+        "Septa Maas"
+      ],
+      "bengali": [
+        "ফ্ল্যাটহেড",
+        "Flathead"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "चपटा माच्ची",
+        "Chapta Machhi"
+      ],
+      "gujarati": [
+        "ફ્લેટહેડ",
+        "Flathead"
+      ],
+      "hindi": [
+        "फ्लैटहेड",
+        "Flathead"
+      ],
+      "kannada": [
+        "ಬೆಚಿ",
+        "Bechi"
+      ],
+      "kashmiri": [
+        "چپٹا ماہی",
+        "Chapta Mahi"
+      ],
+      "konkani": [
+        "चपटो मासो",
+        "Chapto Maso"
+      ],
+      "maithili": [
+        "चपटा माछ",
+        "Chapta Machh"
+      ],
+      "malayalam": [
+        "എരി",
+        "Eri"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "फ्लैटहेड",
+        "Flathead"
+      ],
+      "nepali": [
+        "चपटो माछा",
+        "Chapto Machha"
+      ],
+      "odia": [
+        "ଚେପ୍ଟା ମୁଣ୍ଡି",
+        "Chepta Mundi"
+      ],
+      "punjabi": [
+        "ਫਲੈਟਹੈੱਡ",
+        "Flathead"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "چپٽي مَڇِي",
+        "Chapti Machhi"
+      ],
+      "tamil": [
+        "உலவை",
+        "Ulavai"
+      ],
+      "telugu": [
+        "ఫ్లాట్ హెడ్",
+        "Flathead"
+      ],
+      "urdu": [
+        "فلیٹ ہیڈ",
+        "Flathead"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "goatfish",
+    "photo": "img/goatfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Goatfish"
+      ],
+      "assamese": [
+        "ছাগলী মাছ",
+        "Sagoli Maas"
+      ],
+      "bengali": [
+        "গোটফিশ",
+        "Goatfish"
+      ],
+      "bodo": [
+        "बोरमा ना",
+        "Borma Na"
+      ],
+      "dogri": [
+        "बकरी माच्ची",
+        "Bakri Machhi"
+      ],
+      "gujarati": [
+        "ગોટફિશ",
+        "Goatfish"
+      ],
+      "hindi": [
+        "गोटफिश",
+        "Goatfish"
+      ],
+      "kannada": [
+        "ಕುರಿ ಮೀನು",
+        "Kuri Meenu"
+      ],
+      "kashmiri": [
+        "بوز ماہی",
+        "Boz Mahi"
+      ],
+      "konkani": [
+        "गोट फिश",
+        "Goatfish"
+      ],
+      "maithili": [
+        "बकरी माछ",
+        "Bakri Machh"
+      ],
+      "malayalam": [
+        "നവര",
+        "Navara"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "गोटफिश",
+        "Goatfish"
+      ],
+      "nepali": [
+        "बाख्रा माछा",
+        "Bakhra Machha"
+      ],
+      "odia": [
+        "ଛେଳି ମାଛ",
+        "Cheli Machha"
+      ],
+      "punjabi": [
+        "ਗੋਟਫਿਸ਼",
+        "Goatfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱮᱨᱚᱢ ᱦᱟᱠᱩ",
+        "Merom Haku"
+      ],
+      "sindhi": [
+        "ٻاڪري مَڇِي",
+        "Bakri Machhi"
+      ],
+      "tamil": [
+        "நவரை",
+        "Navarai"
+      ],
+      "telugu": [
+        "గోట్ ఫిష్",
+        "Goatfish"
+      ],
+      "urdu": [
+        "گوٹ فش",
+        "Goatfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "basa",
+    "photo": "img/basa.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Pangasius bocourti",
+    "names": {
+      "english": [
+        "Basa"
+      ],
+      "assamese": [
+        "বাসা",
+        "Basa"
+      ],
+      "bengali": [
+        "বাসা",
+        "Basa"
+      ],
+      "bodo": [
+        "बासा",
+        "Basa"
+      ],
+      "dogri": [
+        "बासा",
+        "Basa"
+      ],
+      "gujarati": [
+        "બાસા",
+        "Basa"
+      ],
+      "hindi": [
+        "बासा",
+        "Basa"
+      ],
+      "kannada": [
+        "ಬಾಸಾ",
+        "Basa"
+      ],
+      "kashmiri": [
+        "باسا",
+        "Basa"
+      ],
+      "konkani": [
+        "बासा",
+        "Basa"
+      ],
+      "maithili": [
+        "बासा",
+        "Basa"
+      ],
+      "malayalam": [
+        "ബാല",
+        "Basa"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "बासा",
+        "Basa"
+      ],
+      "nepali": [
+        "बासा",
+        "Basa"
+      ],
+      "odia": [
+        "ବସା",
+        "Basa"
+      ],
+      "punjabi": [
+        "ਬਾਸਾ",
+        "Basa"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱟᱥᱟ",
+        "Basa"
+      ],
+      "sindhi": [
+        "باسا",
+        "Basa"
+      ],
+      "tamil": [
+        "கெளுத்தி",
+        "Keluthi"
+      ],
+      "telugu": [
+        "బాసా",
+        "Basa"
+      ],
+      "urdu": [
+        "باسا",
+        "Basa"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "pangasius",
+    "photo": "img/pangasius.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Pangasius"
+      ],
+      "assamese": [
+        "পেংগাছিয়াছ",
+        "Pangasius"
+      ],
+      "bengali": [
+        "পাঙ্গাস",
+        "Pangas"
+      ],
+      "bodo": [
+        "पांगासिआस",
+        "Pangasius"
+      ],
+      "dogri": [
+        "पंगासियस",
+        "Pangasiyas"
+      ],
+      "gujarati": [
+        "પંગાસ",
+        "Pangas"
+      ],
+      "hindi": [
+        "पंगास",
+        "Pangas"
+      ],
+      "kannada": [
+        "ಪಂಗಸ್",
+        "Pangas"
+      ],
+      "kashmiri": [
+        "پینگاسیَس",
+        "Pangasiyas"
+      ],
+      "konkani": [
+        "पॅंगासियस",
+        "Pangasius"
+      ],
+      "maithili": [
+        "पांगासियस",
+        "Pangasius"
+      ],
+      "malayalam": [
+        "പാങ്കാസ്",
+        "Pangas"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "पंगास",
+        "Pangas"
+      ],
+      "nepali": [
+        "प्याङ्गासियस",
+        "Pangasius"
+      ],
+      "odia": [
+        "ପଙ୍ଗାସ",
+        "Pangas"
+      ],
+      "punjabi": [
+        "ਪੰਗਾਸੀਅਸ",
+        "Pangasius"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱟᱝᱜᱟᱥᱤᱭᱟᱥ",
+        "Pangasius"
+      ],
+      "sindhi": [
+        "پانگاسيس",
+        "Pangasius"
+      ],
+      "tamil": [
+        "பங்காஸ்",
+        "Pangas"
+      ],
+      "telugu": [
+        "వాలుగ",
+        "Valuga"
+      ],
+      "urdu": [
+        "پینگاسس",
+        "Pangasius"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "grass-carp",
+    "photo": "img/grass-carp.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Grass Carp"
+      ],
+      "assamese": [
+        "ঘাঁহ ৰৌ",
+        "Ghah Rou"
+      ],
+      "bengali": [
+        "গ্রাস কাল",
+        "Grass Carp"
+      ],
+      "bodo": [
+        "ग्रास कारप",
+        "Grass Carp"
+      ],
+      "dogri": [
+        "घाह रोहू",
+        "Ghah Rohu"
+      ],
+      "gujarati": [
+        "ગ્રાસ કાર્પ",
+        "Grass Carp"
+      ],
+      "hindi": [
+        "ग्रास कार्प",
+        "Grass Carp"
+      ],
+      "kannada": [
+        "ಹುಲ್ಲು ಗ್ಯಂಡೆ",
+        "Hullu Gyande"
+      ],
+      "kashmiri": [
+        "گھاہ کارپ",
+        "Ghah Carp"
+      ],
+      "konkani": [
+        "गवत रोहू",
+        "Gawat Rohu"
+      ],
+      "maithili": [
+        "घास रऊ",
+        "Ghas Rau"
+      ],
+      "malayalam": [
+        "ഗ്രാസ് കാർപ്പ്",
+        "Grass Carp"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "ग्रास कार्प",
+        "Grass Carp"
+      ],
+      "nepali": [
+        "घाँस रौ",
+        "Ghans Rou"
+      ],
+      "odia": [
+        "ଘାସ ରୋହି",
+        "Ghasa Rohi"
+      ],
+      "punjabi": [
+        "ਗ੍ਰਾਸ ਕਾਰਪ",
+        "Grass Carp"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱷᱟᱥ ᱠᱟᱨᱯ",
+        "Ghas Carp"
+      ],
+      "sindhi": [
+        "گاهه مَڇِي",
+        "Gah Machhi"
+      ],
+      "tamil": [
+        "புல் கெண்டை",
+        "Pul Kendai"
+      ],
+      "telugu": [
+        "గడ్డి చేప",
+        "Gaddi Chepa"
+      ],
+      "urdu": [
+        "گراس کارپ",
+        "Grass Carp"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "silver-carp",
+    "photo": "img/silver-carp.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Silver Carp"
+      ],
+      "assamese": [
+        "ৰূপা ৰৌ",
+        "Rupa Rou"
+      ],
+      "bengali": [
+        "সিলভার কাল",
+        "Silver Carp"
+      ],
+      "bodo": [
+        "सिलभार कारप",
+        "Silver Carp"
+      ],
+      "dogri": [
+        "चांदी रोहू",
+        "Chandi Rohu"
+      ],
+      "gujarati": [
+        "સિલ્વર કાર્પ",
+        "Silver Carp"
+      ],
+      "hindi": [
+        "सिल्वर कार्प",
+        "Silver Carp"
+      ],
+      "kannada": [
+        "ಬೆಳ್ಳಿ ಗ್ಯಂಡೆ",
+        "Belli Gyande"
+      ],
+      "kashmiri": [
+        "چاندی کارپ",
+        "Chandi Carp"
+      ],
+      "konkani": [
+        "चांदी रोहू",
+        "Chandi Rohu"
+      ],
+      "maithili": [
+        "चान्नी रऊ",
+        "Channi Rau"
+      ],
+      "malayalam": [
+        "സിൽവർ കാർപ്പ്",
+        "Silver Carp"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "सिल्व्हर कार्प",
+        "Silver Carp"
+      ],
+      "nepali": [
+        "चाँदी रौ",
+        "Chandi Rou"
+      ],
+      "odia": [
+        "ରୂପା ରୋହି",
+        "Rupa Rohi"
+      ],
+      "punjabi": [
+        "ਸਿਲਵਰ ਕਾਰਪ",
+        "Silver Carp"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱤᱞᱵᱷᱚᱨ ᱠᱟᱨᱯ",
+        "Silver Carp"
+      ],
+      "sindhi": [
+        "چاندِي ڪارپ",
+        "Chandi Carp"
+      ],
+      "tamil": [
+        "வெள்ளி கெண்டை",
+        "Velli Kendai"
+      ],
+      "telugu": [
+        "వెండి చేప",
+        "Vendi Chepa"
+      ],
+      "urdu": [
+        "سلور کارپ",
+        "Silver Carp"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "walking-catfish",
+    "photo": "img/walking-catfish.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Walking Catfish"
+      ],
+      "assamese": [
+        "মাগুৰ",
+        "Magur"
+      ],
+      "bengali": [
+        "মাগুর",
+        "Magur"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "चलदा माच्ची",
+        "Chalda Machhi"
+      ],
+      "gujarati": [
+        "કેટફિશ",
+        "Catfish"
+      ],
+      "hindi": [
+        "मागुर",
+        "Magur"
+      ],
+      "kannada": [
+        "ಮರ್ಗಳ",
+        "Margala"
+      ],
+      "kashmiri": [
+        "ہِلنے والی ماہی",
+        "Hilne Wali Mahi"
+      ],
+      "konkani": [
+        "चलणारा मासो",
+        "Chalnara Maso"
+      ],
+      "maithili": [
+        "चलैत माछ",
+        "Chalait Machh"
+      ],
+      "malayalam": [
+        "മുഷി",
+        "Mushi"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "शिंपी",
+        "Shimpi"
+      ],
+      "nepali": [
+        "हिँड्ने माछा",
+        "Hidne Machha"
+      ],
+      "odia": [
+        "ମାଗୁର",
+        "Magur"
+      ],
+      "punjabi": [
+        "ਕੈਟਫਿਸ਼",
+        "Catfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "ڪيٽ مَڇِي",
+        "Cat Machhi"
+      ],
+      "tamil": [
+        "கெளுத்தி",
+        "Keluthi"
+      ],
+      "telugu": [
+        "మలుపు చేప",
+        "Malupu Chepa"
+      ],
+      "urdu": [
+        "کیٹ فش",
+        "Catfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "climbing-perch",
+    "photo": "img/climbing-perch.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "Anabas testudineus",
+    "names": {
+      "english": [
+        "Climbing Perch"
+      ],
+      "assamese": [
+        "কাৱৈ",
+        "Kawoi"
+      ],
+      "bengali": [
+        "কৈ",
+        "Koi"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "च्चड़दा माच्ची",
+        "Chhadda Machhi"
+      ],
+      "gujarati": [
+        "ક્લાઇમ્બિંગ પર્ચ",
+        "Climbing Perch"
+      ],
+      "hindi": [
+        "कवई",
+        "Kavai"
+      ],
+      "kannada": [
+        "ಏರುವ ಮೀನು",
+        "Eruva Meenu"
+      ],
+      "kashmiri": [
+        "چَڑھنہ وول ماہی",
+        "Chadhanawol Mahi"
+      ],
+      "konkani": [
+        "चढणारा मासो",
+        "Chadhnara Maso"
+      ],
+      "maithili": [
+        "चढ़ैत माछ",
+        "Chadhait Machh"
+      ],
+      "malayalam": [
+        "കല്ലേമുട്ടി",
+        "Kallemutti"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "कवई",
+        "Kavai"
+      ],
+      "nepali": [
+        "चढ्ने माछा",
+        "Chadhne Machha"
+      ],
+      "odia": [
+        "କୋଇ",
+        "Koi"
+      ],
+      "punjabi": [
+        "ਪਰਚ",
+        "Perch"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "چڙهندڙ مَڇِي",
+        "Charhandar Machhi"
+      ],
+      "tamil": [
+        "பனையேறி கெண்டை",
+        "Panaiyeri Kendai"
+      ],
+      "telugu": [
+        "ఎగబ్రాకే చేప",
+        "Egabrake Chepa"
+      ],
+      "urdu": [
+        "کوئی",
+        "Koi"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "gourami",
+    "photo": "img/gourami.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Gourami"
+      ],
+      "assamese": [
+        "খলিহনা",
+        "Kholihona"
+      ],
+      "bengali": [
+        "খলসে",
+        "Kholse"
+      ],
+      "bodo": [
+        "गौराम",
+        "Gourami"
+      ],
+      "dogri": [
+        "गोरामी",
+        "Gorami"
+      ],
+      "gujarati": [
+        "ગૌરામી",
+        "Gourami"
+      ],
+      "hindi": [
+        "ਗੁਰਾਮੀ",
+        "Gourami"
+      ],
+      "kannada": [
+        "ಗೌರಾಮಿ",
+        "Gourami"
+      ],
+      "kashmiri": [
+        "گورامی",
+        "Gorami"
+      ],
+      "konkani": [
+        "गोरामी",
+        "Gorami"
+      ],
+      "maithili": [
+        "गोरामी",
+        "Gorami"
+      ],
+      "malayalam": [
+        "ഗൗരാമി",
+        "Gourami"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "गौरामी",
+        "Gourami"
+      ],
+      "nepali": [
+        "गोरामी",
+        "Gorami"
+      ],
+      "odia": [
+        "ଗୌରାମି",
+        "Gourami"
+      ],
+      "punjabi": [
+        "ਗੌਰਾਮੀ",
+        "Gourami"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱳᱨᱟᱢᱤ",
+        "Gourami"
+      ],
+      "sindhi": [
+        "گورامي",
+        "Gorami"
+      ],
+      "tamil": [
+        "கௌராமி",
+        "Gourami"
+      ],
+      "telugu": [
+        "గౌరామి",
+        "Gourami"
+      ],
+      "urdu": [
+        "گورامی",
+        "Gourami"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "featherback",
+    "photo": "img/featherback.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Featherback"
+      ],
+      "assamese": [
+        "চিতল",
+        "Sital"
+      ],
+      "bengali": [
+        "চিতল",
+        "Chital"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "फेदरबैक",
+        "Featherback"
+      ],
+      "gujarati": [
+        "ચિત્તલ",
+        "Chital"
+      ],
+      "hindi": [
+        "चीतल",
+        "Chital"
+      ],
+      "kannada": [
+        "ಚಿತಾಲ",
+        "Chitala"
+      ],
+      "kashmiri": [
+        "فیدر بیک",
+        "Featherback"
+      ],
+      "konkani": [
+        "फेदरबॅक",
+        "Featherback"
+      ],
+      "maithili": [
+        "फेदरबैक",
+        "Featherback"
+      ],
+      "malayalam": [
+        "അമ്പട്ടൻ വാള",
+        "Ambattan Vala"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "चितुल",
+        "Chitul"
+      ],
+      "nepali": [
+        "फेदरब्याक",
+        "Featherback"
+      ],
+      "odia": [
+        "ଚିତଲ",
+        "Chital"
+      ],
+      "punjabi": [
+        "ਫੈਦਰਬੈਕ",
+        "Featherback"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "پري مَڇِي",
+        "Pari Machhi"
+      ],
+      "tamil": [
+        "அம்பட்டன் வாழை",
+        "Ambattan Vazhai"
+      ],
+      "telugu": [
+        "అంబటాన్",
+        "Ambatan"
+      ],
+      "urdu": [
+        "چیتل",
+        "Chital"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "eel",
+    "photo": "img/eel.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Eel"
+      ],
+      "assamese": [
+        "বাম মাছ",
+        "Bam Maas"
+      ],
+      "bengali": [
+        "বাইন",
+        "Baim"
+      ],
+      "bodo": [
+        "कुसिआ",
+        "Kusia"
+      ],
+      "dogri": [
+        "बाम माच्ची",
+        "Bam Machhi"
+      ],
+      "gujarati": [
+        "ઈલ",
+        "Eel"
+      ],
+      "hindi": [
+        "बाम",
+        "Bam"
+      ],
+      "kannada": [
+        "ಹಾವೂ ಮೀನು",
+        "Havu Meenu"
+      ],
+      "kashmiri": [
+        "بام ماہی",
+        "Bam Mahi"
+      ],
+      "konkani": [
+        "भाम मासो",
+        "Bham Maso"
+      ],
+      "maithili": [
+        "बाम माछ",
+        "Bam Machh"
+      ],
+      "malayalam": [
+        "ആരകൻ",
+        "Aarakan"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "वाम",
+        "Vam"
+      ],
+      "nepali": [
+        "बाम माछा",
+        "Bam Machha"
+      ],
+      "odia": [
+        "ବାଲିଆ",
+        "Balia"
+      ],
+      "punjabi": [
+        "ਈਲ",
+        "Eel"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱟᱢ ᱦᱟᱠᱩ",
+        "Bam Haku"
+      ],
+      "sindhi": [
+        "بام",
+        "Bam"
+      ],
+      "tamil": [
+        "விலாங்கு",
+        "Vilangu"
+      ],
+      "telugu": [
+        "మలుగు",
+        "Malugu"
+      ],
+      "urdu": [
+        "بام مچھلی",
+        "Baam Machli"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "octopus",
+    "photo": "img/octopus.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Octopoda",
+    "names": {
+      "english": [
+        "Octopus"
+      ],
+      "assamese": [
+        "আষ্টোপাছ",
+        "Octopus"
+      ],
+      "bengali": [
+        "অক্টোপাস",
+        "Octopus"
+      ],
+      "bodo": [
+        "अक्तपास",
+        "Octopus"
+      ],
+      "dogri": [
+        "अष्टपदी",
+        "Ashtapadi"
+      ],
+      "gujarati": [
+        "ઓક્ટોપસ",
+        "Octopus"
+      ],
+      "hindi": [
+        "ऑक्टोपस",
+        "Octopus"
+      ],
+      "kannada": [
+        "ಆಕ್ಟೋಪಸ್",
+        "Octopus"
+      ],
+      "kashmiri": [
+        "آکٹوپس",
+        "Octopus"
+      ],
+      "konkani": [
+        "ऑक्टोपस",
+        "Octopus"
+      ],
+      "maithili": [
+        "अष्टपदी",
+        "Ashtapadi"
+      ],
+      "malayalam": [
+        "നീരാളി",
+        "Neerali"
+      ],
+      "manipuri": [
+        "ꯑꯣꯛꯇꯣꯄꯁ",
+        "Octopus"
+      ],
+      "marathi": [
+        "अष्टपाद",
+        "Ashtapaad"
+      ],
+      "nepali": [
+        "अष्टपदी",
+        "Ashtapadi"
+      ],
+      "odia": [
+        "ଅଷ୍ଟପଦୀ",
+        "Ashtapadi"
+      ],
+      "punjabi": [
+        "ਆਕਟੋਪਸ",
+        "Octopus"
+      ],
+      "sanskrit": [
+        "अष्टपादः",
+        "Ashtapadah"
+      ],
+      "santali": [
+        "ᱚᱠᱴᱳᱯᱟᱥ",
+        "Octopus"
+      ],
+      "sindhi": [
+        "اٺ ٽنگو",
+        "Ath Tango"
+      ],
+      "tamil": [
+        "பேய் கணவாய்",
+        "Pei Kanavai"
+      ],
+      "telugu": [
+        "ఆక్టోపస్",
+        "Octopus"
+      ],
+      "urdu": [
+        "آکٹوپس",
+        "Octopus"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "scallops",
+    "photo": "img/scallops.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Scallops"
+      ],
+      "assamese": [
+        "স্কেলপ",
+        "Scallop"
+      ],
+      "bengali": [
+        "স্ক্যালপ",
+        "Scallop"
+      ],
+      "bodo": [
+        "शिप्पी",
+        "Sippi"
+      ],
+      "dogri": [
+        "स्कैलप",
+        "Scallop"
+      ],
+      "gujarati": [
+        "સ્કેલોપ્સ",
+        "Scallops"
+      ],
+      "hindi": [
+        "स्कालॉप",
+        "Scallop"
+      ],
+      "kannada": [
+        "ಚಿಪ್ಪು",
+        "Chippu"
+      ],
+      "kashmiri": [
+        "سکیلپ",
+        "Scallop"
+      ],
+      "konkani": [
+        "स्कॅलप",
+        "Scallop"
+      ],
+      "maithili": [
+        "स्कैलप",
+        "Scallop"
+      ],
+      "malayalam": [
+        "കക്ക",
+        "Kakka"
+      ],
+      "manipuri": [
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
+      ],
+      "marathi": [
+        "शिंपले",
+        "Shimple"
+      ],
+      "nepali": [
+        "स्क्यालप",
+        "Scallop"
+      ],
+      "odia": [
+        "ସ୍କାଲପ",
+        "Scallop"
+      ],
+      "punjabi": [
+        "ਸਕੈਲਪ",
+        "Scallop"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱤᱯ",
+        "Sip"
+      ],
+      "sindhi": [
+        "سِپ",
+        "Sip"
+      ],
+      "tamil": [
+        "சிப்பி",
+        "Sippi"
+      ],
+      "telugu": [
+        "స్కాలప్",
+        "Scallop"
+      ],
+      "urdu": [
+        "سکیلوپ",
+        "Scallop"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "periwinkle",
+    "photo": "img/periwinkle.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Periwinkle"
+      ],
+      "assamese": [
+        "শংখ",
+        "Shongkho"
+      ],
+      "bengali": [
+        "গুঁড়ি",
+        "Gugli"
+      ],
+      "bodo": [
+        "शाम्बु",
+        "Sambu"
+      ],
+      "dogri": [
+        "घोंगा",
+        "Ghonga"
+      ],
+      "gujarati": [
+        "ગોકળગાય",
+        "Gokalgay"
+      ],
+      "hindi": [
+        "घोंघा",
+        "Ghongha"
+      ],
+      "kannada": [
+        "ಬಸವನ ಹುಳು",
+        "Basavanahulu"
+      ],
+      "kashmiri": [
+        "کونکھ",
+        "Konkh"
+      ],
+      "konkani": [
+        "शिकारू",
+        "Shikaru"
+      ],
+      "maithili": [
+        "घोंघा",
+        "Ghongha"
+      ],
+      "malayalam": [
+        "കക്ക",
+        "Kakka"
+      ],
+      "manipuri": [
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
+      ],
+      "marathi": [
+        "गोगलगाय",
+        "Gogalgai"
+      ],
+      "nepali": [
+        "घोंगा",
+        "Ghonga"
+      ],
+      "odia": [
+        "ଗୁଗୁଲି",
+        "Guguli"
+      ],
+      "punjabi": [
+        "ਘੋਗਾ",
+        "Ghoga"
+      ],
+      "sanskrit": [
+        "शङ्खः",
+        "Shankhah"
+      ],
+      "santali": [
+        "ᱥᱤᱯ",
+        "Sip"
+      ],
+      "sindhi": [
+        "گھونگھو",
+        "Ghongho"
+      ],
+      "tamil": [
+        "சங்கு",
+        "Sangu"
+      ],
+      "telugu": [
+        "నత్త",
+        "Natha"
+      ],
+      "urdu": [
+        "گھونگھا",
+        "Ghongha"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "snail",
+    "photo": "img/snail.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Snail"
+      ],
+      "assamese": [
+        "লেদা",
+        "Leda"
+      ],
+      "bengali": [
+        "শামুক",
+        "Shamuk"
+      ],
+      "bodo": [
+        "शाम्बु",
+        "Sambu"
+      ],
+      "dogri": [
+        "घोंगा",
+        "Ghonga"
+      ],
+      "gujarati": [
+        "ગોકળગાય",
+        "Gokalgai"
+      ],
+      "hindi": [
+        "घोंघा",
+        "Ghongha"
+      ],
+      "kannada": [
+        "ಬಸವನ ಹುಳು",
+        "Basavanahulu"
+      ],
+      "kashmiri": [
+        "گھونگ",
+        "Ghong"
+      ],
+      "konkani": [
+        "गोंगा",
+        "Gonga"
+      ],
+      "maithili": [
+        "घोंघा",
+        "Ghongha"
+      ],
+      "malayalam": [
+        "ഒച്ച്",
+        "Ochhu"
+      ],
+      "manipuri": [
+        "ꯇꯥꯟꯊꯨꯝ",
+        "Tanthum"
+      ],
+      "marathi": [
+        "गोगलगाय",
+        "Gogalgai"
+      ],
+      "nepali": [
+        "घोंगा",
+        "Ghonga"
+      ],
+      "odia": [
+        "ଗେଣ୍ଡା",
+        "Genda"
+      ],
+      "punjabi": [
+        "ਘੋਗਾ",
+        "Ghoga"
+      ],
+      "sanskrit": [
+        "शम्बूकः",
+        "Shambukah"
+      ],
+      "santali": [
+        "ᱥᱩᱛᱤ",
+        "Suti"
+      ],
+      "sindhi": [
+        "گھونگھو",
+        "Ghongho"
+      ],
+      "tamil": [
+        "நத்தை",
+        "Nathai"
+      ],
+      "telugu": [
+        "నత్త",
+        "Natha"
+      ],
+      "urdu": [
+        "گھونگھا",
+        "Ghongha"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "mudskipper",
+    "photo": "img/mudskipper.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Mudskipper"
+      ],
+      "assamese": [
+        "মাটি মাছ",
+        "Mati Maas"
+      ],
+      "bengali": [
+        "নেদ",
+        "Lyad"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "कीचड़ माच्ची",
+        "Keechad Machhi"
+      ],
+      "gujarati": [
+        "મડસ્કીપર",
+        "Mudskipper"
+      ],
+      "hindi": [
+        "मडスキपर",
+        "Mudskipper"
+      ],
+      "kannada": [
+        "ಮಡ್ ಸ್ಕಿಪ್ಪರ್",
+        "Mudskipper"
+      ],
+      "kashmiri": [
+        "کاچ ماہی",
+        "Kaach Mahi"
+      ],
+      "konkani": [
+        "चिखल मासो",
+        "Chikhal Maso"
+      ],
+      "maithili": [
+        "कीचड़ माछ",
+        "Kichad Machh"
+      ],
+      "malayalam": [
+        "മഡ്സ്കിപ്പർ",
+        "Mudskipper"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "निवटी",
+        "Nivti"
+      ],
+      "nepali": [
+        "हिलो माछा",
+        "Hilo Machha"
+      ],
+      "odia": [
+        "ସେଉଳ",
+        "Seula"
+      ],
+      "punjabi": [
+        "ਮੱਡਸਕਿਪਰ",
+        "Mudskipper"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "ڪِچر مَڇِي",
+        "Kichar Machhi"
+      ],
+      "tamil": [
+        "சधும்பன்",
+        "Sadumban"
+      ],
+      "telugu": [
+        "మడ్ స్కిప్పర్",
+        "Mudskipper"
+      ],
+      "urdu": [
+        "مڈسکیپر",
+        "Mudskipper"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "mahseer",
+    "photo": "img/mahseer.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Mahseer"
+      ],
+      "assamese": [
+        "মহাবীৰ",
+        "Mahabir"
+      ],
+      "bengali": [
+        "মহাশোল",
+        "Mahashol"
+      ],
+      "bodo": [
+        "महाशीर",
+        "Mahaseer"
+      ],
+      "dogri": [
+        "महाशीर",
+        "Mahaseer"
+      ],
+      "gujarati": [
+        "મહસીર",
+        "Mahseer"
+      ],
+      "hindi": [
+        "महाशीर",
+        "Mahseer"
+      ],
+      "kannada": [
+        "ಮಹಸೀರ್",
+        "Mahseer"
+      ],
+      "kashmiri": [
+        "مہاسیر",
+        "Mahaseer"
+      ],
+      "konkani": [
+        "महाशीर",
+        "Mahaseer"
+      ],
+      "maithili": [
+        "महाशीर",
+        "Mahaseer"
+      ],
+      "malayalam": [
+        "മഹസീർ",
+        "Mahseer"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "महाशीर",
+        "Mahseer"
+      ],
+      "nepali": [
+        "महाशीर",
+        "Mahaseer"
+      ],
+      "odia": [
+        "ମହାଶୀର",
+        "Mahaseer"
+      ],
+      "punjabi": [
+        "ਮਹਾਸੀਰ",
+        "Mahseer"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱚᱦᱟᱥᱤᱨ",
+        "Mahaseer"
+      ],
+      "sindhi": [
+        "مهسير",
+        "Mahaseer"
+      ],
+      "tamil": [
+        "மசீர்",
+        "Mahseer"
+      ],
+      "telugu": [
+        "మహసీర్",
+        "Mahseer"
+      ],
+      "urdu": [
+        "مہاسیر",
+        "Mahseer"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "himalayan-trout",
+    "photo": "img/himalayan-trout.webp",
+    "tags": [
+      "freshwater"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Himalayan Trout"
+      ],
+      "assamese": [
+        "ট্ৰাউট",
+        "Trout"
+      ],
+      "bengali": [
+        "ট্রাউট",
+        "Trout"
+      ],
+      "bodo": [
+        "त्राउत",
+        "Trout"
+      ],
+      "dogri": [
+        "ट्राऊट",
+        "Trout"
+      ],
+      "gujarati": [
+        "ટ્રાઉટ",
+        "Trout"
+      ],
+      "hindi": [
+        "ट्राउट",
+        "Trout"
+      ],
+      "kannada": [
+        "ಟ್ರೌಟ್",
+        "Trout"
+      ],
+      "kashmiri": [
+        "ٹراؤٹ",
+        "Trout"
+      ],
+      "konkani": [
+        "ट्राउट",
+        "Trout"
+      ],
+      "maithili": [
+        "ट्राउट",
+        "Trout"
+      ],
+      "malayalam": [
+        "ട്രൗട്ട്",
+        "Trout"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "ट्राउट",
+        "Trout"
+      ],
+      "nepali": [
+        "ट्राउट",
+        "Trout"
+      ],
+      "odia": [
+        "ଟ୍ରାଉଟ",
+        "Trout"
+      ],
+      "punjabi": [
+        "ਟਰਾਊਟ",
+        "Trout"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱨᱟᱣᱩᱴ",
+        "Trout"
+      ],
+      "sindhi": [
+        "ٽرائوٽ",
+        "Trout"
+      ],
+      "tamil": [
+        "ட்ரௌட்",
+        "Trout"
+      ],
+      "telugu": [
+        "ట్రౌట్",
+        "Trout"
+      ],
+      "urdu": [
+        " ٹراؤٹ",
+        "Trout"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "herring",
+    "photo": "img/herring.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Herring"
+      ],
+      "assamese": [
+        "হেৰিং",
+        "Herring"
+      ],
+      "bengali": [
+        "ইলিশ",
+        "Ilish"
+      ],
+      "bodo": [
+        "हेरिं",
+        "Herring"
+      ],
+      "dogri": [
+        "हेरिंग",
+        "Herring"
+      ],
+      "gujarati": [
+        "હેરિંગ",
+        "Herring"
+      ],
+      "hindi": [
+        "भिगन",
+        "Bhigan"
+      ],
+      "kannada": [
+        "ಹೆರ್ರಿಂಗ್",
+        "Herring"
+      ],
+      "kashmiri": [
+        "ہیرِنگ",
+        "Herring"
+      ],
+      "konkani": [
+        "हेरिंग",
+        "Herring"
+      ],
+      "maithili": [
+        "हेरिंग",
+        "Herring"
+      ],
+      "malayalam": [
+        "കണ്ണൻ",
+        "Kannan"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "भींग",
+        "Bhing"
+      ],
+      "nepali": [
+        "हेरिंग",
+        "Herring"
+      ],
+      "odia": [
+        "ଇଲିଶି ଜାତୀୟ",
+        "Ilishijatiya"
+      ],
+      "punjabi": [
+        "ਹੈਰਿੰਗ",
+        "Herring"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱮᱨᱤᱝ",
+        "Herring"
+      ],
+      "sindhi": [
+        "هرنگ",
+        "Herring"
+      ],
+      "tamil": [
+        "முள்ளுவாளை",
+        "Mulluvali"
+      ],
+      "telugu": [
+        "హెర్రింగ్",
+        "Herring"
+      ],
+      "urdu": [
+        "ہیرنگ",
+        "Herring"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "needlefish",
+    "photo": "img/needlefish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Needlefish"
+      ],
+      "assamese": [
+        "বাঁহ মাছ",
+        "Bah Maas"
+      ],
+      "bengali": [
+        "কাইক্কা",
+        "Kaikka"
+      ],
+      "bodo": [
+        "सुइ ना",
+        "Sui Na"
+      ],
+      "dogri": [
+        "सुई माच्ची",
+        "Sui Machhi"
+      ],
+      "gujarati": [
+        "નીડલ ફિશ",
+        "Needlefish"
+      ],
+      "hindi": [
+        "काकु",
+        "Kaku"
+      ],
+      "kannada": [
+        "ಕೊಕ್ಕರೆ ಮೀನು",
+        "Kokkare Meenu"
+      ],
+      "kashmiri": [
+        "سوُئی ماہی",
+        "Sui Mahi"
+      ],
+      "konkani": [
+        "सुई मासो",
+        "Sui Maso"
+      ],
+      "maithili": [
+        "सूई माछ",
+        "Sui Machh"
+      ],
+      "malayalam": [
+        "കോല",
+        "Kola"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "टोकी",
+        "Toki"
+      ],
+      "nepali": [
+        "सुई माछा",
+        "Sui Machha"
+      ],
+      "odia": [
+        "ଗାର",
+        "Gar"
+      ],
+      "punjabi": [
+        "ਨੀਡਲ ਫਿਸ਼",
+        "Needlefish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱩᱭ ᱦᱟᱠᱩ",
+        "Sui Haku"
+      ],
+      "sindhi": [
+        "سُئي مَڇِي",
+        "Sui Machhi"
+      ],
+      "tamil": [
+        "முரல்",
+        "Mural"
+      ],
+      "telugu": [
+        "కూడలి",
+        "Kudali"
+      ],
+      "urdu": [
+        "نیڈل فش",
+        "Needlefish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "halfbeak",
+    "photo": "img/halfbeak.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Halfbeak"
+      ],
+      "assamese": [
+        "হাফ বিক",
+        "Halfbeak"
+      ],
+      "bengali": [
+        "এক ঠোঁটা",
+        "Ek Thota"
+      ],
+      "bodo": [
+        "हाफबिक",
+        "Halfbeak"
+      ],
+      "dogri": [
+        "हाफबीक",
+        "Halfbeak"
+      ],
+      "gujarati": [
+        "હાફબીક",
+        "Halfbeak"
+      ],
+      "hindi": [
+        "हाफबीक",
+        "Halfbeak"
+      ],
+      "kannada": [
+        "ಅರ್ಧ ಕೊಕ್ಕು",
+        "Ardha Kokku"
+      ],
+      "kashmiri": [
+        "ہاف بیک",
+        "Halfbeak"
+      ],
+      "konkani": [
+        "हाफबीक",
+        "Halfbeak"
+      ],
+      "maithili": [
+        "हाफबीक",
+        "Halfbeak"
+      ],
+      "malayalam": [
+        "കോല",
+        "Kola"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "टोकी",
+        "Toki"
+      ],
+      "nepali": [
+        "हाफबीक",
+        "Halfbeak"
+      ],
+      "odia": [
+        "ଏକ ଥଣ୍ଟିଆ",
+        "Ek Thantia"
+      ],
+      "punjabi": [
+        "ਹਾਫਬੀਕ",
+        "Halfbeak"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱯᱷᱵᱤᱠ",
+        "Halfbeak"
+      ],
+      "sindhi": [
+        "اڌ چُهنب",
+        "Adh Chunbh"
+      ],
+      "tamil": [
+        "முரல்",
+        "Mural"
+      ],
+      "telugu": [
+        "సగం ముక్కు",
+        "Sagam Mukku"
+      ],
+      "urdu": [
+        "ہاف بیک",
+        "Halfbeak"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "flying-fish",
+    "photo": "img/flying-fish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Flying Fish"
+      ],
+      "assamese": [
+        "উৰা মাছ",
+        "Ura Maas"
+      ],
+      "bengali": [
+        "উড়ুক্কু মাছ",
+        "Urukku Mach"
+      ],
+      "bodo": [
+        "बिरग्रा ना",
+        "Birgra Na"
+      ],
+      "dogri": [
+        "उड़दा माच्ची",
+        "Udda Machhi"
+      ],
+      "gujarati": [
+        "ફ્લાઈંગ ફિશ",
+        "Flying Fish"
+      ],
+      "hindi": [
+        "उड़न मछली",
+        "Udan Machli"
+      ],
+      "kannada": [
+        "ಹಾರುವ ಮೀನು",
+        "Haruva Meenu"
+      ],
+      "kashmiri": [
+        "اُڑان ماہی",
+        "Udan Mahi"
+      ],
+      "konkani": [
+        "उडपी मासो",
+        "Udpi Maso"
+      ],
+      "maithili": [
+        "उड़ैत माछ",
+        "Udait Machh"
+      ],
+      "malayalam": [
+        "പറവ",
+        "Parava"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "पाखरू",
+        "Pakharu"
+      ],
+      "nepali": [
+        "उड्ने माछा",
+        "Udne Machha"
+      ],
+      "odia": [
+        "ଉଡନ୍ତା ମାଛ",
+        "Udanta Machha"
+      ],
+      "punjabi": [
+        "ਉੱਡਣ ਵਾਲੀ ਮੱਛੀ",
+        "Udan Wali Machhi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱩᱰᱟᱹᱣ ᱦᱟᱠᱩ",
+        "Udau Haku"
+      ],
+      "sindhi": [
+        "اڏامندڙ مَڇِي",
+        "Uddamandar Machhi"
+      ],
+      "tamil": [
+        "பறவை மீன்",
+        "Paravai Meen"
+      ],
+      "telugu": [
+        "ఎగిరే చేప",
+        "Egire Chepa"
+      ],
+      "urdu": [
+        "اڑن مچھلی",
+        "Udan Machli"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "croaker",
+    "photo": "img/croaker.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Croaker"
+      ],
+      "assamese": [
+        "ক্ৰকাৰ",
+        "Croaker"
+      ],
+      "bengali": [
+        "ভোলা",
+        "Bhola"
+      ],
+      "bodo": [
+        "क्रकार",
+        "Croaker"
+      ],
+      "dogri": [
+        "क्रोकर",
+        "Croaker"
+      ],
+      "gujarati": [
+        "ઢોમા",
+        "Dhoma"
+      ],
+      "hindi": [
+        "ढोमा",
+        "Dhoma"
+      ],
+      "kannada": [
+        "ಕಲ್ಲೂರು",
+        "Kalluru"
+      ],
+      "kashmiri": [
+        "کروکر",
+        "Croaker"
+      ],
+      "konkani": [
+        "क्रोकर",
+        "Croaker"
+      ],
+      "maithili": [
+        "क्रोकर",
+        "Croaker"
+      ],
+      "malayalam": [
+        "കോര",
+        "Kora"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "धोमा",
+        "Dhoma"
+      ],
+      "nepali": [
+        "क्रोकर",
+        "Croaker"
+      ],
+      "odia": [
+        "ବୋରି",
+        "Bori"
+      ],
+      "punjabi": [
+        "ਕਰੋਕਰ",
+        "Croaker"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱨᱳᱠᱟᱨ",
+        "Croaker"
+      ],
+      "sindhi": [
+        "مَڇِي",
+        "Machhi"
+      ],
+      "tamil": [
+        "பன்னா",
+        "Panna"
+      ],
+      "telugu": [
+        "గొరక",
+        "Goraka"
+      ],
+      "urdu": [
+        "ڈھوما",
+        "Dhoma"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "ghol",
+    "photo": "img/ghol.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Ghol"
+      ],
+      "assamese": [
+        "ঘল",
+        "Ghol"
+      ],
+      "bengali": [
+        "ঘোল",
+        "Ghol"
+      ],
+      "bodo": [
+        "घल",
+        "Ghol"
+      ],
+      "dogri": [
+        "घोल",
+        "Ghol"
+      ],
+      "gujarati": [
+        "ઘોલ",
+        "Ghol"
+      ],
+      "hindi": [
+        "घोल",
+        "Ghol"
+      ],
+      "kannada": [
+        "ಘೋಲ್",
+        "Ghol"
+      ],
+      "kashmiri": [
+        "گھول",
+        "Ghol"
+      ],
+      "konkani": [
+        "घोल",
+        "Ghol"
+      ],
+      "maithili": [
+        "घोल",
+        "Ghol"
+      ],
+      "malayalam": [
+        "ഘോൽ",
+        "Ghol"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "घोल",
+        "Ghol"
+      ],
+      "nepali": [
+        "घोल",
+        "Ghol"
+      ],
+      "odia": [
+        "ଘୋଳ",
+        "Ghol"
+      ],
+      "punjabi": [
+        "ਘੋਲ",
+        "Ghol"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱷᱳᱞ",
+        "Ghol"
+      ],
+      "sindhi": [
+        "گھول",
+        "Ghol"
+      ],
+      "tamil": [
+        "கோல்",
+        "Ghol"
+      ],
+      "telugu": [
+        "ఘోల్",
+        "Ghol"
+      ],
+      "urdu": [
+        "گھول",
+        "Ghol"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "threadfin",
+    "photo": "img/threadfin.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Threadfin"
+      ],
+      "assamese": [
+        "সুতা পাখি",
+        "Suta Pakhi"
+      ],
+      "bengali": [
+        " তপসে",
+        "Topse"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "धागा पंख",
+        "Dhaga Pankh"
+      ],
+      "gujarati": [
+        "દારા",
+        "Dara"
+      ],
+      "hindi": [
+        "दारा",
+        "Dara"
+      ],
+      "kannada": [
+        "ದವ",
+        "Dava"
+      ],
+      "kashmiri": [
+        "دھاگہ پَر",
+        "Dhaga Par"
+      ],
+      "konkani": [
+        "सुते मासो",
+        "Sute Maso"
+      ],
+      "maithili": [
+        "धागा पंख",
+        "Dhaga Pankh"
+      ],
+      "malayalam": [
+        "നൂൽ മീൻ",
+        "Nool Meen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "दारा",
+        "Dara"
+      ],
+      "nepali": [
+        "धागो पाखुरा",
+        "Dhago Pakhura"
+      ],
+      "odia": [
+        "ସାହାଲ",
+        "Sahal"
+      ],
+      "punjabi": [
+        "ਥਰਿੱਡਫਿਨ",
+        "Threadfin"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱫᱷᱟᱜᱟ ᱦᱟᱠᱩ",
+        "Dhaga Haku"
+      ],
+      "sindhi": [
+        "ڌاڳو مَڇِي",
+        "Dhago Machhi"
+      ],
+      "tamil": [
+        "கலா",
+        "Kala"
+      ],
+      "telugu": [
+        "మగ",
+        "Maga"
+      ],
+      "urdu": [
+        "راواس",
+        "Rawas"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "queenfish",
+    "photo": "img/queenfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Queenfish"
+      ],
+      "assamese": [
+        "ৰাণী মাছ",
+        "Rani Maas"
+      ],
+      "bengali": [
+        "রানি মাছ",
+        "Rani Mach"
+      ],
+      "bodo": [
+        "रानि ना",
+        "Rani Na"
+      ],
+      "dogri": [
+        "रानी माच्ची",
+        "Rani Machhi"
+      ],
+      "gujarati": [
+        "રાણી માછલી",
+        "Rani Machli"
+      ],
+      "hindi": [
+        "रानी मछली",
+        "Rani Machli"
+      ],
+      "kannada": [
+        "ರಾಣಿ ಮೀನು",
+        "Rani Meenu"
+      ],
+      "kashmiri": [
+        "رانی ماہی",
+        "Rani Mahi"
+      ],
+      "konkani": [
+        "राणी मासो",
+        "Rani Maso"
+      ],
+      "maithili": [
+        "रानी माछ",
+        "Rani Machh"
+      ],
+      "malayalam": [
+        "കട്ട",
+        "Katta"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "दगड",
+        "Dagad"
+      ],
+      "nepali": [
+        "रानी माछा",
+        "Rani Machha"
+      ],
+      "odia": [
+        "ରାଣୀ",
+        "Rani"
+      ],
+      "punjabi": [
+        "ਕਵੀਨਫਿਸ਼",
+        "Queenfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱟᱹᱱᱤ ᱦᱟᱠᱩ",
+        "Rani Haku"
+      ],
+      "sindhi": [
+        "راڻي مَڇِي",
+        "Rani Machhi"
+      ],
+      "tamil": [
+        "கட்ட",
+        "katta"
+      ],
+      "telugu": [
+        "రాణి చేప",
+        "Rani Chepa"
+      ],
+      "urdu": [
+        "کوین فش",
+        "Queenfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "sailfish",
+    "photo": "img/sailfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sailfish"
+      ],
+      "assamese": [
+        "পাল মাছ",
+        "Pal Maas"
+      ],
+      "bengali": [
+        "সেলফিশ",
+        "Sailfish"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "पाल माच्ची",
+        "Pal Machhi"
+      ],
+      "gujarati": [
+        "સેઇલફિશ",
+        "Sailfish"
+      ],
+      "hindi": [
+        "सेल मछली",
+        "Sail Machli"
+      ],
+      "kannada": [
+        "ಮಯಿಲಾ",
+        "Mayila"
+      ],
+      "kashmiri": [
+        "سیل فش",
+        "Sailfish"
+      ],
+      "konkani": [
+        "सेल फिश",
+        "Sailfish"
+      ],
+      "maithili": [
+        "पाल माछ",
+        "Pal Machh"
+      ],
+      "malayalam": [
+        "ഓലമീൻ",
+        "Olameen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "शीड मासा",
+        "Sheed Masa"
+      ],
+      "nepali": [
+        "पाल माछा",
+        "Pal Machha"
+      ],
+      "odia": [
+        "ପାଲ ମାଛ",
+        "Pala Machha"
+      ],
+      "punjabi": [
+        "ਸੇਲਫਿਸ਼",
+        "Sailfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱮᱞ ᱦᱟᱠᱩ",
+        "Sail Haku"
+      ],
+      "sindhi": [
+        "سِڙهه مَڇِي",
+        "Sirh Machhi"
+      ],
+      "tamil": [
+        "மயிலா",
+        "Mayila"
+      ],
+      "telugu": [
+        "కొమ్ము కోణం",
+        "Kommu Konam"
+      ],
+      "urdu": [
+        "سیل فش",
+        "Sailfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "marlin",
+    "photo": "img/marlin.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Marlin"
+      ],
+      "assamese": [
+        "মাৰ্লিন",
+        "Marlin"
+      ],
+      "bengali": [
+        "মার্লিন",
+        "Marlin"
+      ],
+      "bodo": [
+        "मारलिन",
+        "Marlin"
+      ],
+      "dogri": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "gujarati": [
+        "માર્લિન",
+        "Marlin"
+      ],
+      "hindi": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "kannada": [
+        "ಮಾರ್ಲಿನ್",
+        "Marlin"
+      ],
+      "kashmiri": [
+        "مارلِن",
+        "Marlin"
+      ],
+      "konkani": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "maithili": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "malayalam": [
+        "മാർലിൻ",
+        "Marlin"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "nepali": [
+        "मार्लिन",
+        "Marlin"
+      ],
+      "odia": [
+        "ମାର୍ଲିନ",
+        "Marlin"
+      ],
+      "punjabi": [
+        "ਮਾਰਲਿਨ",
+        "Marlin"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱟᱨᱞᱤᱱ",
+        "Marlin"
+      ],
+      "sindhi": [
+        "مارلن",
+        "Marlin"
+      ],
+      "tamil": [
+        "கொಪ್ಪು",
+        "Koppu"
+      ],
+      "telugu": [
+        "కొమ్ము కోణం",
+        "Kommu Konam"
+      ],
+      "urdu": [
+        "مارلن",
+        "Marlin"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "wahoo",
+    "photo": "img/wahoo.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Wahoo"
+      ],
+      "assamese": [
+        "ৱাহু",
+        "Wahoo"
+      ],
+      "bengali": [
+        "ওয়াহু",
+        "Wahoo"
+      ],
+      "bodo": [
+        "वाहु",
+        "Wahoo"
+      ],
+      "dogri": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "gujarati": [
+        "વાહૂ",
+        "Wahoo"
+      ],
+      "hindi": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "kannada": [
+        "ವಾಹೂ",
+        "Wahoo"
+      ],
+      "kashmiri": [
+        "واہو",
+        "Wahoo"
+      ],
+      "konkani": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "maithili": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "malayalam": [
+        "അവന",
+        "Avana"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "nepali": [
+        "वाहू",
+        "Wahoo"
+      ],
+      "odia": [
+        "ୱାହୁ",
+        "Wahoo"
+      ],
+      "punjabi": [
+        "ਵਾਹੂ",
+        "Wahoo"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱣᱟᱦᱩ",
+        "Wahoo"
+      ],
+      "sindhi": [
+        "واهو",
+        "Wahoo"
+      ],
+      "tamil": [
+        "அவனா",
+        "Avana"
+      ],
+      "telugu": [
+        "వాహూ",
+        "Wahoo"
+      ],
+      "urdu": [
+        "واہو",
+        "Wahoo"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "skipjack-tuna",
+    "photo": "img/skipjack-tuna.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Skipjack Tuna"
+      ],
+      "assamese": [
+        "টুনা",
+        "Tuna"
+      ],
+      "bengali": [
+        "স্কিপজ্যাক টুনা",
+        "Skipjack Tuna"
+      ],
+      "bodo": [
+        "तुना",
+        "Tuna"
+      ],
+      "dogri": [
+        "टूना",
+        "Tuna"
+      ],
+      "gujarati": [
+        "ટૂના",
+        "Tuna"
+      ],
+      "hindi": [
+        "ट्यूना",
+        "Tuna"
+      ],
+      "kannada": [
+        "ಕೇದಾರ",
+        "Kedara"
+      ],
+      "kashmiri": [
+        "سکِپ جیک ٹونا",
+        "Skipjack Tuna"
+      ],
+      "konkani": [
+        "टुना",
+        "Tuna"
+      ],
+      "maithili": [
+        "टुना",
+        "Tuna"
+      ],
+      "malayalam": [
+        "ചൂര",
+        "Choora"
+      ],
+      "manipuri": [
+        "ꯇꯨꯅꯥ",
+        "Tuna"
+      ],
+      "marathi": [
+        "पपलेट",
+        "Paplet"
+      ],
+      "nepali": [
+        "टुना",
+        "Tuna"
+      ],
+      "odia": [
+        "ଟୁନା",
+        "Tuna"
+      ],
+      "punjabi": [
+        "ਟੂਨਾ",
+        "Tuna"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱩᱱᱟ",
+        "Tuna"
+      ],
+      "sindhi": [
+        "ٽونا",
+        "Tuna"
+      ],
+      "tamil": [
+        "சூரை",
+        "Soorai"
+      ],
+      "telugu": [
+        "సూర",
+        "Soora"
+      ],
+      "urdu": [
+        "ٹونا",
+        "Tuna"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "bonito",
+    "photo": "img/bonito.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Bonito"
+      ],
+      "assamese": [
+        "বনিটো",
+        "Bonito"
+      ],
+      "bengali": [
+        "বনিটো",
+        "Bonito"
+      ],
+      "bodo": [
+        "बनिथ",
+        "Bonito"
+      ],
+      "dogri": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "gujarati": [
+        "બોનિટો",
+        "Bonito"
+      ],
+      "hindi": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "kannada": [
+        "ಬೊನಿಟೊ",
+        "Bonito"
+      ],
+      "kashmiri": [
+        "بونیٹو",
+        "Bonito"
+      ],
+      "konkani": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "maithili": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "malayalam": [
+        "ചൂര",
+        "Choora"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "nepali": [
+        "बोनिटो",
+        "Bonito"
+      ],
+      "odia": [
+        "ବୋନିଟୋ",
+        "Bonito"
+      ],
+      "punjabi": [
+        "ਬੋਨੀਟੋ",
+        "Bonito"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱳᱱᱤᱴᱳ",
+        "Bonito"
+      ],
+      "sindhi": [
+        "بونيٽو",
+        "Bonito"
+      ],
+      "tamil": [
+        "விறால்",
+        "Viral"
+      ],
+      "telugu": [
+        "బోనిటో",
+        "Bonito"
+      ],
+      "urdu": [
+        "بونیٹو",
+        "Bonito"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "turbot",
+    "photo": "img/turbot.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Turbot"
+      ],
+      "assamese": [
+        "টাৰবট",
+        "Turbot"
+      ],
+      "bengali": [
+        "টারবোট",
+        "Turbot"
+      ],
+      "bodo": [
+        "तारबत",
+        "Turbot"
+      ],
+      "dogri": [
+        "टरबट",
+        "Turbot"
+      ],
+      "gujarati": [
+        "ટર્બોટ",
+        "Turbot"
+      ],
+      "hindi": [
+        "कुप्पा",
+        "Kuppa"
+      ],
+      "kannada": [
+        "ಟರ್ಬೋಟ್",
+        "Turbot"
+      ],
+      "kashmiri": [
+        "ٹربوٹ",
+        "Turbot"
+      ],
+      "konkani": [
+        "टर्बट",
+        "Turbot"
+      ],
+      "maithili": [
+        "टर्बट",
+        "Turbot"
+      ],
+      "malayalam": [
+        "ടർബോട്ട്",
+        "Turbot"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "तर्बोट",
+        "Turbot"
+      ],
+      "nepali": [
+        "टर्बट",
+        "Turbot"
+      ],
+      "odia": [
+        "ଟର୍ବୋଟ",
+        "Turbot"
+      ],
+      "punjabi": [
+        "ਟਰਬੋਟ",
+        "Turbot"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱚᱨᱵᱚᱴ",
+        "Turbot"
+      ],
+      "sindhi": [
+        "ٽربوٽ",
+        "Turbot"
+      ],
+      "tamil": [
+        "நாக்கு மீன்",
+        "Nakku Meen"
+      ],
+      "telugu": [
+        "టర్బోట్",
+        "Turbot"
+      ],
+      "urdu": [
+        "ٹربوٹ",
+        "Turbot"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "flounder",
+    "photo": "img/flounder.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Flounder"
+      ],
+      "assamese": [
+        "ফ্লাউণ্ডাৰ",
+        "Flounder"
+      ],
+      "bengali": [
+        "ফ্লউন্ডার",
+        "Flounder"
+      ],
+      "bodo": [
+        "फ्लाउन्द",
+        "Flounder"
+      ],
+      "dogri": [
+        "फ्लाउंडर",
+        "Flounder"
+      ],
+      "gujarati": [
+        "ફ્લાઉન્ડર",
+        "Flounder"
+      ],
+      "hindi": [
+        "चपटा मछली",
+        "Chapta Machli"
+      ],
+      "kannada": [
+        "ಫ್ಲೌಂಡರ್",
+        "Flounder"
+      ],
+      "kashmiri": [
+        "فلاؤنڈر",
+        "Flounder"
+      ],
+      "konkani": [
+        "फ्लाउंडर",
+        "Flounder"
+      ],
+      "maithili": [
+        "फ्लाउंडर",
+        "Flounder"
+      ],
+      "malayalam": [
+        "മാന്തൽ",
+        "Manthal"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "फ्लौन्डर",
+        "Flounder"
+      ],
+      "nepali": [
+        "फ्लाउन्डर",
+        "Flounder"
+      ],
+      "odia": [
+        "ପାତା",
+        "Pata"
+      ],
+      "punjabi": [
+        "ਫਲਾਉਂਡਰ",
+        "Flounder"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱷᱞᱟᱣᱩᱱᱰᱚᱨ",
+        "Flounder"
+      ],
+      "sindhi": [
+        "فلائونڊر",
+        "Flounder"
+      ],
+      "tamil": [
+        "நாக்கு மீன்",
+        "Nakku Meen"
+      ],
+      "telugu": [
+        "ఫ్లౌండర్",
+        "Flounder"
+      ],
+      "urdu": [
+        "فلینڈر",
+        "Flounder"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "halibut",
+    "photo": "img/halibut.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Halibut"
+      ],
+      "assamese": [
+        "হেলিবাট",
+        "Halibut"
+      ],
+      "bengali": [
+        "হালিবুট",
+        "Halibut"
+      ],
+      "bodo": [
+        "हलिबत",
+        "Halibut"
+      ],
+      "dogri": [
+        "हालिबट",
+        "Halibut"
+      ],
+      "gujarati": [
+        "હેલિબટ",
+        "Halibut"
+      ],
+      "hindi": [
+        " halibut",
+        "Halibut"
+      ],
+      "kannada": [
+        "ಹಾಲಿಬಟ್",
+        "Halibut"
+      ],
+      "kashmiri": [
+        "ہیلی بَٹ",
+        "Halibut"
+      ],
+      "konkani": [
+        "हॅलिबट",
+        "Halibut"
+      ],
+      "maithili": [
+        "हालिबट",
+        "Halibut"
+      ],
+      "malayalam": [
+        "ഹാലിബട്ട്",
+        "Halibut"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "हलिबट",
+        "Halibut"
+      ],
+      "nepali": [
+        "हालिबट",
+        "Halibut"
+      ],
+      "odia": [
+        "ହାଲିବଟ",
+        "Halibut"
+      ],
+      "punjabi": [
+        "ਹੈਲੀਬਟ",
+        "Halibut"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱮᱞᱤᱵᱚᱴ",
+        "Halibut"
+      ],
+      "sindhi": [
+        "هليبٽ",
+        "Halibut"
+      ],
+      "tamil": [
+        "நாக்கு மீன்",
+        "Nakku Meen"
+      ],
+      "telugu": [
+        "హాలిబట్",
+        "Halibut"
+      ],
+      "urdu": [
+        "ہیلی بٹ",
+        "Halibut"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "red-mullet",
+    "photo": "img/red-mullet.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Red Mullet"
+      ],
+      "assamese": [
+        "ৰঙা মুলেট",
+        "Ronga Mullet"
+      ],
+      "bengali": [
+        "লাল মুলেট",
+        "Lal Mullet"
+      ],
+      "bodo": [
+        "गोजा मुलेत",
+        "Goja Mullet"
+      ],
+      "dogri": [
+        "रता मुलेट",
+        "Rata Mullet"
+      ],
+      "gujarati": [
+        "રેડ મુલેટ",
+        "Red Mullet"
+      ],
+      "hindi": [
+        "लाल मुलेट",
+        "Lal Mullet"
+      ],
+      "kannada": [
+        "ಕೆಂಪು ಮೀನು",
+        "Kempu Meenu"
+      ],
+      "kashmiri": [
+        "رَتھ ملیٹ",
+        "Rath Mullet"
+      ],
+      "konkani": [
+        "रांवटो शेवोट्टी",
+        "Ranvto Shevotti"
+      ],
+      "maithili": [
+        "रातु मुलेट",
+        "Ratu Mullet"
+      ],
+      "malayalam": [
+        "നവര",
+        "Navara"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "लाल मुलेट",
+        "Lal Mullet"
+      ],
+      "nepali": [
+        "रातो मुलेट",
+        "Rato Mullet"
+      ],
+      "odia": [
+        "ନାଲି ଖଙ୍ଗା",
+        "Nali Khanga"
+      ],
+      "punjabi": [
+        "ਰੈੱਡ ਮੁਲੇਟ",
+        "Red Mullet"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟᱜ ᱢᱩᱞᱮᱴ",
+        "Araag Mullet"
+      ],
+      "sindhi": [
+        "ڳاڙهو مَڇِي",
+        "Garho Machhi"
+      ],
+      "tamil": [
+        "நவரை",
+        "Navarai"
+      ],
+      "telugu": [
+        "రాతి గోరక",
+        "Rati Goraka"
+      ],
+      "urdu": [
+        "ریڈ مولٹ",
+        "Red Mullet"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "garfish",
+    "photo": "img/garfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Garfish"
+      ],
+      "assamese": [
+        "গাৰ ফিছ",
+        "Garfish"
+      ],
+      "bengali": [
+        "গারফিশ",
+        "Garfish"
+      ],
+      "bodo": [
+        "गार ना",
+        "Gar Na"
+      ],
+      "dogri": [
+        "गार फिश",
+        "Garfish"
+      ],
+      "gujarati": [
+        "ગારફિશ",
+        "Garfish"
+      ],
+      "hindi": [
+        "गारफिश",
+        "Garfish"
+      ],
+      "kannada": [
+        "ಗಾರ್ಫಿಶ್",
+        "Garfish"
+      ],
+      "kashmiri": [
+        "گار فش",
+        "Garfish"
+      ],
+      "konkani": [
+        "गार फिश",
+        "Garfish"
+      ],
+      "maithili": [
+        "गार फिश",
+        "Garfish"
+      ],
+      "malayalam": [
+        "കോല",
+        "Kola"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "गारफिश",
+        "Garfish"
+      ],
+      "nepali": [
+        "गार फिश",
+        "Garfish"
+      ],
+      "odia": [
+        "ଗାର",
+        "Gar"
+      ],
+      "punjabi": [
+        "ਗਾਰਫਿਸ਼",
+        "Garfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱟᱨ ᱦᱟᱠᱩ",
+        "Gar Haku"
+      ],
+      "sindhi": [
+        "گار مَڇِي",
+        "Gar Machhi"
+      ],
+      "tamil": [
+        "முரல்",
+        "Mural"
+      ],
+      "telugu": [
+        "గార్ఫిష్",
+        "Garfish"
+      ],
+      "urdu": [
+        "گار فش",
+        "Garfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "tarpon",
+    "photo": "img/tarpon.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Tarpon"
+      ],
+      "assamese": [
+        "টাৰপন",
+        "Tarpon"
+      ],
+      "bengali": [
+        "টারপন",
+        "Tarpon"
+      ],
+      "bodo": [
+        "तारपन",
+        "Tarpon"
+      ],
+      "dogri": [
+        "टारपन",
+        "Tarpan"
+      ],
+      "gujarati": [
+        "ટાર્પોન",
+        "Tarpon"
+      ],
+      "hindi": [
+        "टारपोन",
+        "Tarpon"
+      ],
+      "kannada": [
+        "ಟಾರ್ಪಾನ್",
+        "Tarpon"
+      ],
+      "kashmiri": [
+        "ٹارپون",
+        "Tarpon"
+      ],
+      "konkani": [
+        "टार्पन",
+        "Tarpon"
+      ],
+      "maithili": [
+        "टार्पन",
+        "Tarpon"
+      ],
+      "malayalam": [
+        "വാള",
+        "Vala"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "टारपोन",
+        "Tarpon"
+      ],
+      "nepali": [
+        "टार्पन",
+        "Tarpon"
+      ],
+      "odia": [
+        "ତାର୍ପୁନ",
+        "Tarpun"
+      ],
+      "punjabi": [
+        "ਟਾਰਪੋਨ",
+        "Tarpon"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱴᱟᱨᱯᱚᱱ",
+        "Tarpon"
+      ],
+      "sindhi": [
+        "ٽارپون",
+        "Tarpon"
+      ],
+      "tamil": [
+        "கண்ணாடி மீன்",
+        "Kannadi Meen"
+      ],
+      "telugu": [
+        "టార్పాన్",
+        "Tarpon"
+      ],
+      "urdu": [
+        "ٹارپون",
+        "Tarpon"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "tenpounder",
+    "photo": "img/tenpounder.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Tenpounder"
+      ],
+      "assamese": [
+        "টেনপাউণ্ডাৰ",
+        "Tenpounder"
+      ],
+      "bengali": [
+        "টেনপাউন্ডার",
+        "Tenpounder"
+      ],
+      "bodo": [
+        "ना",
+        "Na"
+      ],
+      "dogri": [
+        "टेनपाउंडर",
+        "Tenpounder"
+      ],
+      "gujarati": [
+        "ટેનપાઉન્ડર",
+        "Tenpounder"
+      ],
+      "hindi": [
+        "टेनपाउंडर",
+        "Tenpounder"
+      ],
+      "kannada": [
+        "ಹತ್ತು ಪೌಂಡ್",
+        "Hathu Pound"
+      ],
+      "kashmiri": [
+        "ٹین پاؤنڈر",
+        "Tenpounder"
+      ],
+      "konkani": [
+        "टेनपाऊंडर",
+        "Tenpounder"
+      ],
+      "maithili": [
+        "टेनपाउंडर",
+        "Tenpounder"
+      ],
+      "malayalam": [
+        "പൂമീൻ",
+        "Poomeen"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "टेनपाऊंडर",
+        "Tenpounder"
+      ],
+      "nepali": [
+        "टेनपाउन्डर",
+        "Tenpounder"
+      ],
+      "odia": [
+        "ଟେନପାଉଣ୍ଡର",
+        "Tenpounder"
+      ],
+      "punjabi": [
+        "ਟੈਨਪਾਊਂਡਰ",
+        "Tenpounder"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱟᱠᱩ",
+        "Haku"
+      ],
+      "sindhi": [
+        "مَڇِي",
+        "Machhi"
+      ],
+      "tamil": [
+        "விளமீன்",
+        "Vilaimeen"
+      ],
+      "telugu": [
+        "టెన్ పౌండర్",
+        "Tenpounder"
+      ],
+      "urdu": [
+        "ٹین پاؤنڈر",
+        "Tenpounder"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "milk-shark",
+    "photo": "img/milk-shark.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Rhizoprionodon acutus",
+    "names": {
+      "english": [
+        "Milk Shark"
+      ],
+      "assamese": [
+        "হাংগৰ",
+        "Hangor"
+      ],
+      "bengali": [
+        "দুধ হাঙর",
+        "Dudh Hangor"
+      ],
+      "bodo": [
+        "शार्क",
+        "Shark"
+      ],
+      "dogri": [
+        "शार्क",
+        "Shark"
+      ],
+      "gujarati": [
+        "શાર્ક",
+        "Shark"
+      ],
+      "hindi": [
+        "दूध शार्क",
+        "Doodh Shark"
+      ],
+      "kannada": [
+        "ಹಾಲು ಶಾರ್ಕ್",
+        "Haalu Shark"
+      ],
+      "kashmiri": [
+        "شارک",
+        "Shark"
+      ],
+      "konkani": [
+        "कांबळो",
+        "Kamblo"
+      ],
+      "maithili": [
+        "शार्क",
+        "Shark"
+      ],
+      "malayalam": [
+        "പാൽ സ്രാവ്",
+        "Pal Sravu"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "दुध मुशी",
+        "Dudh Mushi"
+      ],
+      "nepali": [
+        "शार्क",
+        "Shark"
+      ],
+      "odia": [
+        "ମଗର",
+        "Magara"
+      ],
+      "punjabi": [
+        "ਸ਼ਾਰਕ",
+        "Shark"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱟᱨᱠ",
+        "Shark"
+      ],
+      "sindhi": [
+        "شارڪ",
+        "Shark"
+      ],
+      "tamil": [
+        "பால் சுறா",
+        "Paal Sura"
+      ],
+      "telugu": [
+        "పాల సొర",
+        "Pala Sora"
+      ],
+      "urdu": [
+        "شارک",
+        "Shark"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "hammerhead-shark",
+    "photo": "img/hammerhead-shark.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Hammerhead Shark"
+      ],
+      "assamese": [
+        "হাতুৰী হাংগৰ",
+        "Haturi Hangor"
+      ],
+      "bengali": [
+        "হাতুড়ি হাঙ্গর",
+        "Haturi Hangor"
+      ],
+      "bodo": [
+        "शार्क",
+        "Shark"
+      ],
+      "dogri": [
+        "हथौड़ा शार्क",
+        "Hathauda Shark"
+      ],
+      "gujarati": [
+        "હેમરહેડ શાર્ક",
+        "Hammerhead Shark"
+      ],
+      "hindi": [
+        "हथौड़ा शार्क",
+        "Hathoda Shark"
+      ],
+      "kannada": [
+        "ಸುತ್ತಿಗೆ ತಲೆ ಶಾರ್ಕ್",
+        "Suthige Thale Shark"
+      ],
+      "kashmiri": [
+        "ہتھوڑا شارک",
+        "Hathoda Shark"
+      ],
+      "konkani": [
+        "हातोडी कांबळो",
+        "Hatodi Kamblo"
+      ],
+      "maithili": [
+        "हथौड़ा शार्क",
+        "Hathauda Shark"
+      ],
+      "malayalam": [
+        "ചട്ടുക തലയൻ സ്രാവ്",
+        "Chattuka Thalayan Sravu"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "हातोडा मुशी",
+        "Hatoda Mushi"
+      ],
+      "nepali": [
+        "हथौडा शार्क",
+        "Hathauda Shark"
+      ],
+      "odia": [
+        "ହାତୁଡ଼ି ମୁଣ୍ଡିଆ",
+        "Hatudimundia"
+      ],
+      "punjabi": [
+        "ਸ਼ਾਰਕ",
+        "Shark"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱟᱨᱠ",
+        "Shark"
+      ],
+      "sindhi": [
+        "هٿوڙو شارڪ",
+        "Hathoro Shark"
+      ],
+      "tamil": [
+        "கொம்பன் சுறா",
+        "Komban Sura"
+      ],
+      "telugu": [
+        "సుత్తి తల సొర",
+        "Sutti Thala Sora"
+      ],
+      "urdu": [
+        "شارک",
+        "Shark"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "guitarfish",
+    "photo": "img/guitarfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Guitarfish"
+      ],
+      "assamese": [
+        "গিটাৰ ফিছ",
+        "Guitarfish"
+      ],
+      "bengali": [
+        "গিটারফিশ",
+        "Guitarfish"
+      ],
+      "bodo": [
+        "गिथार ना",
+        "Githar Na"
+      ],
+      "dogri": [
+        "गिटार फिश",
+        "Guitarfish"
+      ],
+      "gujarati": [
+        "ગિટારફિશ",
+        "Guitarfish"
+      ],
+      "hindi": [
+        "गिटारफिश",
+        "Guitarfish"
+      ],
+      "kannada": [
+        "ಗಿಟಾರ್ ಫಿಶ್",
+        "Guitarfish"
+      ],
+      "kashmiri": [
+        "گٹار فش",
+        "Guitarfish"
+      ],
+      "konkani": [
+        "गिटार फिश",
+        "Guitarfish"
+      ],
+      "maithili": [
+        "गिटार फिश",
+        "Guitarfish"
+      ],
+      "malayalam": [
+        "ഈര്ക്ക",
+        "Eerka"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "गिटारफिश",
+        "Guitarfish"
+      ],
+      "nepali": [
+        "गिटार फिश",
+        "Guitarfish"
+      ],
+      "odia": [
+        "ଗିଟାର ମାଛ",
+        "Guitar Machha"
+      ],
+      "punjabi": [
+        "ਗਿਟਾਰਫਿਸ਼",
+        "Guitarfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱜᱤᱴᱟᱨ ᱦᱟᱠᱩ",
+        "Guitar Haku"
+      ],
+      "sindhi": [
+        "گٽار مَڇِي",
+        "Guitar Machhi"
+      ],
+      "tamil": [
+        "உலவை",
+        "Ulavai"
+      ],
+      "telugu": [
+        "గిటార్ ఫిష్",
+        "Guitarfish"
+      ],
+      "urdu": [
+        "گٹار فش",
+        "Guitarfish"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "sawfish",
+    "photo": "img/sawfish.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sawfish"
+      ],
+      "assamese": [
+        "কৰত মাছ",
+        "Korot Maas"
+      ],
+      "bengali": [
+        "করাত মাছ",
+        "Korat Mach"
+      ],
+      "bodo": [
+        "कराथ ना",
+        "Karath Na"
+      ],
+      "dogri": [
+        "आरा माच्ची",
+        "Ara Machhi"
+      ],
+      "gujarati": [
+        "સોફિશ",
+        "Sawfish"
+      ],
+      "hindi": [
+        "आरा मछली",
+        "Aara Machli"
+      ],
+      "kannada": [
+        "ಗರಗಸ ಮೀನು",
+        "Garagasa Meenu"
+      ],
+      "kashmiri": [
+        "آرا ماہی",
+        "Aara Mahi"
+      ],
+      "konkani": [
+        "विहूण मासो",
+        "Vihoon Maso"
+      ],
+      "maithili": [
+        "आरा माछ",
+        "Ara Machh"
+      ],
+      "malayalam": [
+        "വാല",
+        "Vala"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "करवत मासा",
+        "Karvat Masa"
+      ],
+      "nepali": [
+        "आरा माछा",
+        "Ara Machha"
+      ],
+      "odia": [
+        "କରତ ମାଛ",
+        "Karata Machha"
+      ],
+      "punjabi": [
+        "ਸੌਫਿਸ਼",
+        "Sawfish"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟ ᱦᱟᱠᱩ",
+        "Ara Haku"
+      ],
+      "sindhi": [
+        "آري مَڇِي",
+        "Aari Machhi"
+      ],
+      "tamil": [
+        "வேலா",
+        "Vela"
+      ],
+      "telugu": [
+        "రంపపు చేప",
+        "Rampapu Chepa"
+      ],
+      "urdu": [
+        "آری مچھلی",
+        "Aari Machli"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "reef-shark",
+    "photo": "img/reef-shark.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Reef Shark"
+      ],
+      "assamese": [
+        "হাংগৰ",
+        "Hangor"
+      ],
+      "bengali": [
+        "রিফ হাঙ্গর",
+        "Reef Hangor"
+      ],
+      "bodo": [
+        "शार्क",
+        "Shark"
+      ],
+      "dogri": [
+        "शार्क",
+        "Shark"
+      ],
+      "gujarati": [
+        "રીફ શાર્ક",
+        "Reef Shark"
+      ],
+      "hindi": [
+        "रीफ शार्क",
+        "Reef Shark"
+      ],
+      "kannada": [
+        "ರೀಫ್ ಶಾರ್ಕ್",
+        "Reef Shark"
+      ],
+      "kashmiri": [
+        "ریف شارک",
+        "Reef Shark"
+      ],
+      "konkani": [
+        "कांबळो",
+        "Kamblo"
+      ],
+      "maithili": [
+        "शार्क",
+        "Shark"
+      ],
+      "malayalam": [
+        "പാറ സ്രാവ്",
+        "Para Sravu"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "रीफ शार्क",
+        "Reef Shark"
+      ],
+      "nepali": [
+        "शार्क",
+        "Shark"
+      ],
+      "odia": [
+        "ମଗର",
+        "Magara"
+      ],
+      "punjabi": [
+        "ਸ਼ਾਰਕ",
+        "Shark"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱟᱨᱠ",
+        "Shark"
+      ],
+      "sindhi": [
+        "شارڪ",
+        "Shark"
+      ],
+      "tamil": [
+        "பாறை சுறா",
+        "Paarai Sura"
+      ],
+      "telugu": [
+        "రీఫ్ షార్క్",
+        "Reef Shark"
+      ],
+      "urdu": [
+        "شارک",
+        "Shark"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "tiger-shark",
+    "photo": "img/tiger-shark.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Tiger Shark"
+      ],
+      "assamese": [
+        "বাঘ হাংগৰ",
+        "Bagh Hangor"
+      ],
+      "bengali": [
+        "বাঘ হাঙ্গর",
+        "Bagh Hangor"
+      ],
+      "bodo": [
+        "मोसा शार्क",
+        "Mosa Shark"
+      ],
+      "dogri": [
+        "बाघ शार्क",
+        "Bagh Shark"
+      ],
+      "gujarati": [
+        "ટાઈગર શાર્ક",
+        "Tiger Shark"
+      ],
+      "hindi": [
+        "बाघ शार्क",
+        "Bagh Shark"
+      ],
+      "kannada": [
+        "ಹುಲಿ ಶಾರ್ಕ್",
+        "Huli Shark"
+      ],
+      "kashmiri": [
+        "شیر شارک",
+        "Sher Shark"
+      ],
+      "konkani": [
+        "वाघ कांबळो",
+        "Wagh Kamblo"
+      ],
+      "maithili": [
+        "बाघ शार्क",
+        "Bagh Shark"
+      ],
+      "malayalam": [
+        "പുಲಿ സ്രാവ്",
+        "Puli Sravu"
+      ],
+      "manipuri": [
+        "ꯅꯥ",
+        "Nga"
+      ],
+      "marathi": [
+        "वाघ मुशी",
+        "Vagh Mushi"
+      ],
+      "nepali": [
+        "बाघ शार्क",
+        "Bagh Shark"
+      ],
+      "odia": [
+        "ବାଘୁଆ ମଗର",
+        "Baghua Magara"
+      ],
+      "punjabi": [
+        "ਟਾਈਗਰ ਸ਼ਾਰਕ",
+        "Tiger Shark"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱛᱟᱨᱩᱵ ᱥᱟᱨᱠ",
+        "Tarub Shark"
+      ],
+      "sindhi": [
+        "شينهَن شارڪ",
+        "Sheenh Shark"
+      ],
+      "tamil": [
+        "புலி சுறா",
+        "Puli Sura"
+      ],
+      "telugu": [
+        "పులి సొర",
+        "Puli Sora"
+      ],
+      "urdu": [
+        "ٹائیگر شارک",
+        "Tiger Shark"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "blue-crab",
+    "photo": "img/blue-crab.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "Portunus pelagicus",
+    "names": {
+      "english": [
+        "Blue Crab"
+      ],
+      "assamese": [
+        "নীলা কেঁকোৰা",
+        "Nila Kekora"
+      ],
+      "bengali": [
+        "নীল কাঁকড়া",
+        "Nil Kankra"
+      ],
+      "bodo": [
+        "निला खान्ख्रा",
+        "Nila Khankhra"
+      ],
+      "dogri": [
+        "नीला केकड़ा",
+        "Neela Kekda"
+      ],
+      "gujarati": [
+        "બ્લુ કરચલો",
+        "Blue Crab"
+      ],
+      "hindi": [
+        "नीला केकड़ा",
+        "Neela Kekra"
+      ],
+      "kannada": [
+        "ನೀಲಿ ಏಡಿ",
+        "Neeli Yedi"
+      ],
+      "kashmiri": [
+        "نیل کیکڑا",
+        "Neel Kekda"
+      ],
+      "konkani": [
+        "निळो खेकडो",
+        "Nilo Khekdo"
+      ],
+      "maithili": [
+        "नील केकड़ा",
+        "Neel Kekda"
+      ],
+      "malayalam": [
+        "നീല ഞണ്ട്",
+        "Neela Njandu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "निळा खेकडा",
+        "Nila Khekada"
+      ],
+      "nepali": [
+        "निलो केकडा",
+        "Nilo Kekada"
+      ],
+      "odia": [
+        "ନାଲି କଙ୍କଡ଼ା",
+        "Nali Kankada"
+      ],
+      "punjabi": [
+        "ਨੀਲਾ ਕੇਕੜਾ",
+        "Neela Kekda"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱞᱤᱞ ᱠᱟᱴᱠᱚᱢ",
+        "Lil Katkom"
+      ],
+      "sindhi": [
+        "نيرو ڪينڪڙو",
+        "Nero Kenkro"
+      ],
+      "tamil": [
+        "நீல நண்டு",
+        "Neela Nandu"
+      ],
+      "telugu": [
+        "నీలం పీత",
+        "Neelam Peetha"
+      ],
+      "urdu": [
+        "نیلا کیکڑا",
+        "Neela Kekda"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  },
+  {
+    "id": "red-crab",
+    "photo": "img/red-crab.webp",
+    "tags": [
+      "sea"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Red Crab"
+      ],
+      "assamese": [
+        "ৰঙা কেঁকোৰা",
+        "Ronga Kekora"
+      ],
+      "bengali": [
+        "লাল কাঁকড়া",
+        "Lal Kankra"
+      ],
+      "bodo": [
+        "गोजा खान्ख्रा",
+        "Goja Khankhra"
+      ],
+      "dogri": [
+        "रता केकड़ा",
+        "Rata Kekda"
+      ],
+      "gujarati": [
+        "લાલ કરચલો",
+        "Lal Karachlo"
+      ],
+      "hindi": [
+        "लाल केकड़ा",
+        "Lal Kekra"
+      ],
+      "kannada": [
+        "ಕೆಂಪು ಏಡಿ",
+        "Kempu Yedi"
+      ],
+      "kashmiri": [
+        "رَتھ کیکڑا",
+        "Rath Kekda"
+      ],
+      "konkani": [
+        "तांबडो खेकडो",
+        "Tambdo Khekdo"
+      ],
+      "maithili": [
+        "रातु केकड़ा",
+        "Ratu Kekda"
+      ],
+      "malayalam": [
+        "ചുവന്ന ഞണ്ട്",
+        "Chuvanna Njandu"
+      ],
+      "manipuri": [
+        "ꯀꯣꯟꯇꯣꯝ",
+        "Kontom"
+      ],
+      "marathi": [
+        "लाल खेकडा",
+        "Lal Khekada"
+      ],
+      "nepali": [
+        "रातो केकडा",
+        "Rato Kekada"
+      ],
+      "odia": [
+        "ଲାଲ କଙ୍କଡ଼ା",
+        "Lal Kankada"
+      ],
+      "punjabi": [
+        "ਲਾਲ ਕੇਕੜਾ",
+        "Laal Kekda"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟᱜ ᱠᱟᱴᱠᱚᱢ",
+        "Araag Katkom"
+      ],
+      "sindhi": [
+        "ڳاڙهو ڪينڪڙو",
+        "Garho Kenkro"
+      ],
+      "tamil": [
+        "சிவப்பு நண்டு",
+        "Sivappu Nandu"
+      ],
+      "telugu": [
+        "ఎరుపు పీత",
+        "Erupu Peetha"
+      ],
+      "urdu": [
+        "لال کیکڑا",
+        "Lal Kekda"
+      ]
+    },
+    "notes": "Common ingredient used in Indian cuisine."
+  }
+]

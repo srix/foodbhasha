@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Vegetables &amp; Fruits | Indian Ingredient Lexicon | FoodBhasha</title>
+    <link rel="icon" type="image/webp" href="/assets/graphics/logo.webp">
+    <meta name="description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+
+    <!-- Canonical & Favicon -->
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodbhasha.com/vegetables-fruits/">
+    <meta property="og:title" content="Vegetables &amp; Fruits | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="og:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="og:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://foodbhasha.com/vegetables-fruits/">
+    <meta property="twitter:title" content="Vegetables &amp; Fruits | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="twitter:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="twitter:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FoodBhasha",
+      "description": "A multilingual glossary to identify Indian food ingredients like fish, vegetables, fruits, grains, and spices in 22 regional languages.",
+      "url": "https://foodbhasha.com/",
+      "applicationCategory": "Reference",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK15LCPJG1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RK15LCPJG1');
+    </script>
+    <link rel="icon" href="/assets/graphics/logo.webp">
+    <link rel="preload" href="/data/fish-seafood.json" as="fetch" crossorigin="anonymous">
+<link rel="canonical" href="https://foodbhasha.com/vegetables-fruits/">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <div class="header-top">
+            <div class="header-centered header-top-content">
+                <div class="brand">
+                    <div class="logo-circle">
+                        <img src="/assets/graphics/logo.webp" alt="FoodBhasha Logo" class="brand-icon-img">
+                    </div>
+                    <div class="brand-text">
+                        <h1>FoodBhasha</h1>
+                        <span class="subtitle">Your market translator</span>
+                    </div>
+                </div>
+
+                <div class="search-container">
+                    <span class="search-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" id="search-input" placeholder="Search by name (English, हिंदी, தமிழ்...)">
+                    <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+                </div>
+
+                <div class="header-actions">
+                    <button id="btn-customize-cols" class="btn-languages">
+                        <span class="btn-icon dual-script">
+                            <span class="script-tam">அ</span>
+                            <span class="script-dev">अ</span>
+                        </span>
+                        <span class="btn-text">More Languages</span>
+                    </button>
+                    <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
+                        <h3 id="column-selector-title">Show Languages</h3>
+                        <div id="column-checkboxes"></div>
+                        <button id="btn-close-cols" class="secondary-btn">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="category-tabs">
+            <div class="header-centered category-tabs-inner">
+                <button class="tab-btn active" data-category="vegetables-fruits">
+                    <span class="tab-icon">🥦</span> Vegetables & Fruits
+                </button>
+                <button class="tab-btn" data-category="grains">
+                    <span class="tab-icon">🌾</span> Grains & Pulses
+                </button>
+                <button class="tab-btn" data-category="spices">
+                    <span class="tab-icon">🌶️</span> Spices
+                </button>
+                <button class="tab-btn" data-category="fish">
+                    <span class="tab-icon">🐟</span> Fish & Seafood
+                </button>
+            </div>
+        </nav>
+
+        <div class="app-toolbar">
+            <div class="header-centered app-toolbar-content">
+                <div class="filter-group">
+                    <div class="results-stat">
+                        <span id="result-count">0/0</span>
+                    </div>
+                    <div id="filter-chips" class="chips-container">
+                        <button class="filter-chip active" data-filter="all">All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-body">
+        <div id="card-view" class="view-container">
+
+    <div class="static-category-list">
+        <h1>Vegetables & Fruits</h1>
+        <ul class="seo-list">
+            
+                <li>
+                    <a href="/vegetables-fruits/potato/">
+                        <strong>Potato</strong>
+                        <span>(tamil: உருளைக்கிழங்கு | hindi: आलू | malayalam: ഉരുളക്കിഴങ്ങ് | kannada: ಆಲೂಗಡ್ಡೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/onion/">
+                        <strong>Onion</strong>
+                        <span>(tamil: வெங்காயம் | hindi: प्याज़ | malayalam: സവാള | kannada: ಈರುಳ್ಳಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/tomato/">
+                        <strong>Tomato</strong>
+                        <span>(tamil: தக்காளி | hindi: टमाटर | malayalam: തക്കാളി | kannada: ಟೊಮೇಟೊ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/spinach/">
+                        <strong>Spinach</strong>
+                        <span>(tamil: Keerai | hindi: पालक | malayalam: ചീര | kannada: ಪಾಲಕ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/brinjal/">
+                        <strong>Brinjal, Eggplant, Aubergine</strong>
+                        <span>(tamil: கத்திரிக்காய் | hindi: बैंगन | malayalam: വഴുതനങ്ങ | kannada: ಬದನೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/mango/">
+                        <strong>Mango</strong>
+                        <span>(tamil: மாங்காய் | hindi: आम | malayalam: മാങ്ങ | kannada: ಮಾವಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/banana/">
+                        <strong>Banana, Plantain</strong>
+                        <span>(tamil: வாழைப்பழம் | hindi: केला | malayalam: പഴം | kannada: ಬಾಳೆಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/jackfruit/">
+                        <strong>Jackfruit</strong>
+                        <span>(tamil: பலாப்பழம் | hindi: कटहल | malayalam: ചക്ക | kannada: ಹಲಸಿನ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/pomegranate/">
+                        <strong>Pomegranate</strong>
+                        <span>(tamil: மாதுளை | hindi: अनार | malayalam: മാതളം | kannada: ದಾಳಿಂಬೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/apple/">
+                        <strong>Apple</strong>
+                        <span>(tamil: ஆப்பிள் | hindi: सेब | malayalam: ആപ്പിൾ | kannada: ಸೇಬು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/okra/">
+                        <strong>Okra</strong>
+                        <span>(tamil: வெண்டைக்காய் | hindi: भिंडी | malayalam: വെണ്ടക്ക | kannada: ಬೆಂಡೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/cauliflower/">
+                        <strong>Cauliflower</strong>
+                        <span>(tamil: காலிஃபிளவர் | hindi: गोभी | malayalam: കോളിഫ്ലവർ | kannada: ಹೂಕೋಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/cabbage/">
+                        <strong>Cabbage</strong>
+                        <span>(tamil: முட்டைக்கோஸ் | hindi: पत्ता गोभी | malayalam: കാബേജ് | kannada: ಎಲೆಕೋಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/carrot/">
+                        <strong>Carrot</strong>
+                        <span>(tamil: கேரட் | hindi: गाजर | malayalam: കാരറ്റ് | kannada: ಗಜ್ಜರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/beetroot/">
+                        <strong>Beetroot</strong>
+                        <span>(tamil: பீட்ரூட் | hindi: चुकंदर | malayalam: ബീറ്റ്റൂട്ട് | kannada: ಬೀಟ್ರೂಟ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/radish/">
+                        <strong>Radish</strong>
+                        <span>(tamil: முள்ளங்கி | hindi: मूली | malayalam: മുള്ളങ്കി | kannada: ಮೂಲಂಗಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/bitter-gourd/">
+                        <strong>Bitter Gourd</strong>
+                        <span>(tamil: பாகற்காய் | hindi: करेला | malayalam: കയ്പക്ക | kannada: ಹಾಗಲಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/bottle-gourd/">
+                        <strong>Bottle Gourd</strong>
+                        <span>(tamil: சுரைக்காய் | hindi: लौकी | malayalam: ചുരക്ക | kannada: ಸೋರೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ridge-gourd/">
+                        <strong>Ridge Gourd</strong>
+                        <span>(tamil: பீர்க்கங்காய் | hindi: तोराई | malayalam: പീച്ചിങ്ങ | kannada: ಹೀರೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/snake-gourd/">
+                        <strong>Snake Gourd</strong>
+                        <span>(tamil: புடலங்காய் | hindi: चिचिन्डा | malayalam: പടവലങ്ങ | kannada: ಪಡವಲಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/pumpkin/">
+                        <strong>Pumpkin</strong>
+                        <span>(tamil: பூசணிக்காய் | hindi: कद्दू | malayalam: മത്തങ്ങ | kannada: ಕುಂಬಳಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/cucumber/">
+                        <strong>Cucumber</strong>
+                        <span>(tamil: வெள்ளரிக்காய் | hindi: खीरा | malayalam: വെള്ളരിക്ക | kannada: ಸೌತೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/drumstick/">
+                        <strong>Drumstick</strong>
+                        <span>(tamil: முருங்கைக்காய் | hindi: सहजन | malayalam: മുരിങ്ങക്ക | kannada: ನುಗ್ಗೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/beans/">
+                        <strong>Beans</strong>
+                        <span>(tamil: பீன்ஸ் | hindi: फली | malayalam: ബീൻസ് | kannada: ಹುರುಳಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/green-peas/">
+                        <strong>Green Peas</strong>
+                        <span>(tamil: பட்டாணி | hindi: मटर | malayalam: പട്ടാണി | kannada: ಬಟಾಣಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/garlic/">
+                        <strong>Garlic</strong>
+                        <span>(tamil: பூண்டு | hindi: लहसुन | malayalam: വെളുത്തുള്ളി | kannada: ಬೆಳ್ಳುಳ್ಳಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ginger/">
+                        <strong>Ginger</strong>
+                        <span>(tamil: இஞ்சி | hindi: अदरक | malayalam: ഇഞ്ചി | kannada: ಶುಂಠಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/green-chili/">
+                        <strong>Green Chili</strong>
+                        <span>(tamil: பச்சை மிளகாய் | hindi: हरी मिर्च | malayalam: പച്ചമുളക് | kannada: ಹಸಿ ಮೆಣಸಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/coriander-leaves/">
+                        <strong>Coriander Leaves</strong>
+                        <span>(tamil: கொத்தமல்லி | hindi: धनिया | malayalam: മല്ലിയില | kannada: ಕೊತ್ತಂಬರಿ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/mint-leaves/">
+                        <strong>Mint Leaves</strong>
+                        <span>(tamil: புதினா | hindi: पुदीना | malayalam: പുതിന | kannada: ಪುದೀನ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/curry-leaves/">
+                        <strong>Curry Leaves</strong>
+                        <span>(tamil: கருவேப்பிலை | hindi: कढ़ी पत्ता | malayalam: കറിവേപ്പില | kannada: ಕರಿಬೇವು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/papaya/">
+                        <strong>Papaya</strong>
+                        <span>(tamil: பப்பாளி | hindi: पपीता | malayalam: കപ്പങ്ങ | kannada: ಪಪ್ಪಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/watermelon/">
+                        <strong>Watermelon</strong>
+                        <span>(tamil: தர்பூசணி | hindi: तरबूज | malayalam: തണ്ണിമത്തൻ | kannada: ಕಲ್ಲಂಗಡಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/pineapple/">
+                        <strong>Pineapple</strong>
+                        <span>(tamil: அன்னாசி | hindi: अनानास | malayalam: കൈതചക്ക | kannada: ಅನಾನಸ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/guava/">
+                        <strong>Guava</strong>
+                        <span>(tamil: கொய்யா | hindi: अमरूद | malayalam: പേരക്ക | kannada: ಸೀಬೆಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/orange/">
+                        <strong>Orange</strong>
+                        <span>(tamil: ஆரஞ்சு | hindi: संतरा | malayalam: ഓറഞ്ച് | kannada: ಕಿತ್ತಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/grapes/">
+                        <strong>Grapes</strong>
+                        <span>(tamil: திராட்சை | hindi: अंगूर | malayalam: മുന്തിരി | kannada: ದ್ರಾಕ್ಷಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/lemon/">
+                        <strong>Lemon</strong>
+                        <span>(tamil: எலுமிச்சை | hindi: नींबू | malayalam: നാരങ്ങ | kannada: ನಿಂಬೆಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/amla/">
+                        <strong>Amla</strong>
+                        <span>(tamil: நெல்லிக்காய் | hindi: आंवला | malayalam: നെല്ലിക്ക | kannada: ನೆಲ್ಲಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/sweet-potato/">
+                        <strong>Sweet Potato</strong>
+                        <span>(tamil: சர்க்கரைவள்ளிக்கிழங்கு | hindi: शकरकंद | malayalam: മധുരക്കിഴങ്ങ് | kannada: ಗೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/tapioca/">
+                        <strong>Tapioca</strong>
+                        <span>(tamil: மரவள்ளிக்கிழங்கு | hindi: साबूदाना | malayalam: കപ്പ | kannada: ಮರಗೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/yam/">
+                        <strong>Yam</strong>
+                        <span>(tamil: சேனைக்கிழங்கு | hindi: रतालू | malayalam: ചേന | kannada: ಸುವರ್ಣ ಗಡ್ಡೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/colocasia/">
+                        <strong>Colocasia</strong>
+                        <span>(tamil: சேப்பக்கிழங்கு | hindi: अरबी | malayalam: ചേമ്പ് | kannada: ಕೇಸುವಿನ ಗಡ್ಡೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/capsicum/">
+                        <strong>Capsicum</strong>
+                        <span>(tamil: குடை மிளகாய் | hindi: शिमला मिर्च | malayalam: ക്യാപ്സിക്കം | kannada: ದಪ್ಪ ಮೆಣಸಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/cluster-beans/">
+                        <strong>Cluster Beans</strong>
+                        <span>(tamil: கொத்தவரங்காய் | hindi: ग्वार फली | malayalam: കൊത്തവര | kannada: ಗೋರಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ivy-gourd/">
+                        <strong>Ivy Gourd</strong>
+                        <span>(tamil: கோவைக்காய் | hindi: कुंदरू | malayalam: കോവയ്ക്ക | kannada: ತೊಂಡೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/fenugreek-leaves/">
+                        <strong>Fenugreek Leaves</strong>
+                        <span>(tamil: வெந்தய கீரை | hindi: मेथी पत्ता | malayalam: ഉലുവ ഇല | kannada: ಮೆಂತ್ಯ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/mustard-greens/">
+                        <strong>Mustard Greens</strong>
+                        <span>(tamil: கடுகு கீரை | hindi: सरसों का साग | malayalam: കടുക് ഇല | kannada: ಸಾಸಿವೆ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/amaranth-leaves/">
+                        <strong>Amaranth Leaves</strong>
+                        <span>(tamil: முளைக் கீரை | hindi: चौलाई | malayalam: ചീര | kannada: ದಂಟಿನ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/coconut/">
+                        <strong>Coconut</strong>
+                        <span>(tamil: தேங்காய் | hindi: नारियल | malayalam: തേങ്ങ | kannada: ತೆಂಗಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/muskmelon/">
+                        <strong>Muskmelon</strong>
+                        <span>(tamil: முலாம் பழம் | hindi: खरबूजा | malayalam: തണ്ണിമത്തൻ | kannada: ಕರ್ಬೂಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/custard-apple/">
+                        <strong>Custard Apple</strong>
+                        <span>(tamil: சீதாப்பழம் | hindi: शरीफा | malayalam: സീതപ്പഴം | kannada: ಸೀತಾಫಲ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/sapota/">
+                        <strong>Sapota</strong>
+                        <span>(tamil: சப்போட்டா | hindi: चीकू | malayalam: സപ്പോട്ട | kannada: ಸಪೋಟ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/pear/">
+                        <strong>Pear</strong>
+                        <span>(tamil: பேரிக்காய் | hindi: नाशपाती | malayalam: സബർജില്ലി | kannada: ಪೇರಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/plum/">
+                        <strong>Plum</strong>
+                        <span>(tamil: பிளம்ஸ் | hindi: आलूबुखारा | malayalam: പ്ലം | kannada: ದ್ರಾಕ್ಷಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/apricot/">
+                        <strong>Apricot</strong>
+                        <span>(tamil: சர்க்கரை பாதாமி | hindi: खुबानी | malayalam: ആപ്രിക്കോട്ട് | kannada: ಜಾರ್ದಾಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/peach/">
+                        <strong>Peach</strong>
+                        <span>(tamil: பீச் | hindi: आड़ू | malayalam: പീച്ച് | kannada: ಪೀಚ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/lychee/">
+                        <strong>Lychee</strong>
+                        <span>(tamil: லிச்சி | hindi: लीची | malayalam: ലിച്ചി | kannada: ಲಿಚಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/strawberry/">
+                        <strong>Strawberry</strong>
+                        <span>(tamil: ஸ்ட்ராபெர்ரி | hindi: स्ट्रॉबेरी | malayalam: സ്ട്രോബെറി | kannada: ಸ್ಟ್ರಾಬೆರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/fig/">
+                        <strong>Fig</strong>
+                        <span>(tamil: அத்திப்பழம் | hindi: अंजीर | malayalam: അത്തിപ്പഴം | kannada: ಅಂಜೂರ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ash-gourd/">
+                        <strong>Ash Gourd</strong>
+                        <span>(tamil: பூசணிக்காய் | hindi: पेठा | malayalam: കുമ്പളങ്ങ | kannada: ಬೂದಿಕುಂಬಳ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/broad-beans/">
+                        <strong>Broad Beans</strong>
+                        <span>(tamil: அவரைக்காய் | hindi: बक ला | malayalam: അമരക്ക | kannada: ಚಿಕ್ಕಡಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/french-beans/">
+                        <strong>French Beans</strong>
+                        <span>(tamil: பீன்ஸ் | hindi: फरास बीन | malayalam: ബീൻസ് | kannada: ಹುರುಳಿಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/yardlong-beans/">
+                        <strong>Yardlong Beans</strong>
+                        <span>(tamil: கார்த்திகைக்காய் | hindi: बोडा | malayalam: പയർ | kannada: ಅಲಸಂದೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/sword-beans/">
+                        <strong>Sword Beans</strong>
+                        <span>(tamil: தம்பட்டை | hindi: बड़ा सेम | malayalam: വാളമര | kannada: ಶಂಖ ಪುಷ್ಪ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/pointed-gourd/">
+                        <strong>Pointed Gourd</strong>
+                        <span>(tamil: கொவ்வைக்காய் | hindi: परवल | malayalam: പടവലം | kannada: ಪರ್ವಲ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/spine-gourd/">
+                        <strong>Spine Gourd</strong>
+                        <span>(tamil: பழுபாகற்காய் | hindi: कंकोड़ा | malayalam: മുള്ള് പാവൽ | kannada: ಮಡಹಾಗಲಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/teasel-gourd/">
+                        <strong>Teasel Gourd</strong>
+                        <span>(tamil: மெழுகுகாய் | hindi: कंटोला | malayalam: മുള്ളൻ പാവൽ | kannada: ಮಡಹಾಗಲಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/apple-gourd/">
+                        <strong>Apple Gourd</strong>
+                        <span>(tamil: டிண்டா | hindi: टिंडा | malayalam: ടിൻഡ | kannada: ಟಿಂಡಾ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/turnip/">
+                        <strong>Turnip</strong>
+                        <span>(tamil: நூல் கோல் | hindi: शलगम | malayalam: മുള്ളങ്കി | kannada: ನವಿಲುಕೋಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/kohlrabi/">
+                        <strong>Kohlrabi</strong>
+                        <span>(tamil: நூல்கோல் | hindi: गाठ गोभी | malayalam: നൂಲ್കോൽ | kannada: ನವಿಲು ಕೋಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/celery/">
+                        <strong>Celery</strong>
+                        <span>(tamil: செலரி | hindi: अजमोद | malayalam: സെലറി | kannada: ಸೆಲರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/leek/">
+                        <strong>Leek</strong>
+                        <span>(tamil: லீக்ஸ் | hindi: हरा प्याज़ | malayalam: ലീക്സ് | kannada: ಲೀಕ್ಸ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/spring-onion/">
+                        <strong>Spring Onion</strong>
+                        <span>(tamil: வெங்காய தாள் | hindi: हरा प्याज | malayalam: ഉള്ളിത്തണ്ട് | kannada: ಈರುಳ್ಳಿ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/banana-stem/">
+                        <strong>Banana Stem</strong>
+                        <span>(tamil: வாழைத்தண்டு | hindi: केले का तना | malayalam: വാഴപ്പിണ്ടി | kannada: ಬಾಳೆ ದಿಂಡು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/banana-flower/">
+                        <strong>Banana Flower</strong>
+                        <span>(tamil: வாழைப்பூ | hindi: केले का फूल | malayalam: വാഴക്കൂമ്പ് | kannada: ಬಾಳೆ ಹೂವು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/bamboo-shoot/">
+                        <strong>Bamboo Shoot</strong>
+                        <span>(tamil: மூங்கில் குருத்து | hindi: बांस की कोपल | malayalam: മുളളൻ | kannada: ಬಿದಿರು ಕಳಲೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/lotus-stem/">
+                        <strong>Lotus Stem</strong>
+                        <span>(tamil: தாமரை தண்டு | hindi: कमल ककड़ी | malayalam: താമര വളയം | kannada: ತಾವರೆ ದಂಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/elephant-foot-yam/">
+                        <strong>Elephant Foot Yam</strong>
+                        <span>(tamil: சேனைக்கிழங்கு | hindi: जिमीकंद | malayalam: ചേന | kannada: ಸುವರ್ಣ ಗಡ್ಡೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/chinese-potato/">
+                        <strong>Chinese Potato</strong>
+                        <span>(tamil: சிறுகிழங்கு | hindi: चीनी आलू | malayalam: കൂര്ക്ക | kannada: ಸಮಗಡ್ಡೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/purple-yam/">
+                        <strong>Purple Yam</strong>
+                        <span>(tamil: ராசவள்ளிக்கிழங்கு | hindi: रतालू | malayalam: കാച്ചിൽ | kannada: ನೀಲಿ ಗೆಣಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/arrowroot/">
+                        <strong>Arrowroot</strong>
+                        <span>(tamil: கூவைக்கிழங்கு | hindi: अरारूट | malayalam: കൂവ | kannada: ತವಕ್ಷೀರ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/mango-ginger/">
+                        <strong>Mango Ginger</strong>
+                        <span>(tamil: மாங்காய் இஞ்சி | hindi: आम अदरक | malayalam: മാങ്ങ ഇഞ്ചി | kannada: ಮಾವಿನ ಶುಂಠಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/agathi-keerai/">
+                        <strong>Agathi Keerai</strong>
+                        <span>(tamil: அகத்திக்கீரை | hindi: अगस्त्य | malayalam: അകത്തി | kannada: ಅಗಸೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ponnanganni-keerai/">
+                        <strong>Ponnanganni Keerai</strong>
+                        <span>(tamil: பொன்னாங்கண்ணி கீரை | hindi: गुदरिसाग | malayalam: പൊന്നാംകണ്ണി | kannada: ಹೊನಗೊನೆ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/manathakkali/">
+                        <strong>Manathakkali</strong>
+                        <span>(tamil: மணத்தக்காளி | hindi: मकोय | malayalam: മണത്തക്കാളി | kannada: ಗಣಿಕೆ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/gongura/">
+                        <strong>Gongura</strong>
+                        <span>(tamil: புளிச்ச கீரை | hindi: अंबाड़ी | malayalam: പുളിച്ച ചീര | kannada: ಪುಂಡಿ ಪಲ್ಯ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/bathua/">
+                        <strong>Bathua</strong>
+                        <span>(tamil: சക്രவர்த்தி கீரை | hindi: बथुआ | malayalam: വാস্তുചീര | kannada: ಚಕ್ರವರ್ತಿ ಸೊಪ್ಪು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/parsley/">
+                        <strong>Parsley</strong>
+                        <span>(tamil: பார்ஸ்லி | hindi: अजमोद | malayalam: പാർസ്ലി | kannada: ಪಾರ್ಸ್ಲಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/basil/">
+                        <strong>Basil</strong>
+                        <span>(tamil: துளசி | hindi: तुलसी | malayalam: തുളസി | kannada: ತುಳಸಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/lettuce/">
+                        <strong>Lettuce</strong>
+                        <span>(tamil: லெಟியூஸ் | hindi: सलाद पत्ता | malayalam: ലെറ്റ്യൂസ് | kannada: ಲೆಟಿಸ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/broccoli/">
+                        <strong>Broccoli</strong>
+                        <span>(tamil: ப்ரோக்கோலி | hindi: हरी गोभी | malayalam: ബ്രോക്കോളി | kannada: ಬ್ರೊಕೊಲಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/zucchini/">
+                        <strong>Zucchini</strong>
+                        <span>(tamil: சுக்கினி | hindi: तोरई | malayalam: സൂക്കിനി | kannada: ಜುಕ್ಕಿನಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/red-cabbage/">
+                        <strong>Red Cabbage</strong>
+                        <span>(tamil: சிவப்பு முட்டைக்கோஸ் | hindi: लाल पत्ता गोभी | malayalam: ചുവന്ന കാബേജ് | kannada: ಕೆಂಪು ಎಲೆಕೋಸು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/baby-corn/">
+                        <strong>Baby Corn</strong>
+                        <span>(tamil: பேபி கார்ன் | hindi: बेबी कॉर्न | malayalam: ബേബി കോൺ | kannada: ಬೇಬಿ ಕಾರ್ನ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/sweet-corn/">
+                        <strong>Sweet Corn</strong>
+                        <span>(tamil: இனிப்பு சோளம் | hindi: स्वीट कॉर्न | malayalam: മധുര ചോളം | kannada: ಸಿಹಿ ಜೋಳ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/button-mushroom/">
+                        <strong>Button Mushroom</strong>
+                        <span>(tamil: காளான் | hindi: कुकुरमुत्ता | malayalam: കൂൺ | kannada: ಅಣಬೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/oyster-mushroom/">
+                        <strong>Oyster Mushroom</strong>
+                        <span>(tamil: சிப்பி காளான் | hindi: ढिंगरी | malayalam: ചിപ്പി കൂൺ | kannada: ಚಿಪ್ಪು ಅಣಬೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/wood-apple/">
+                        <strong>Wood Apple</strong>
+                        <span>(tamil: விளாம்பழம் | hindi: बेल | malayalam: വിളാം പഴം | kannada: ಬೇಲದ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/ice-apple/">
+                        <strong>Ice Apple</strong>
+                        <span>(tamil: நுங்கு | hindi: ताड़गोला | malayalam: പനനൊങ്ക് | kannada: ತಾಟಿ ನಿಂಗು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/star-fruit/">
+                        <strong>Star Fruit</strong>
+                        <span>(tamil: விளிம்பி | hindi: कमरख | malayalam: ഇരുമ്പൻ പുളി | kannada: ಕರಂಬೋಲ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/passion-fruit/">
+                        <strong>Passion Fruit</strong>
+                        <span>(tamil: பேஷன் பழம் | hindi: कृष्ण कमल फल | malayalam: പാഷൻ ഫ്രൂട്ട് | kannada: ಪ್ಯಾಶನ್ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/dragon-fruit/">
+                        <strong>Dragon Fruit</strong>
+                        <span>(tamil: டிராகன் பழம் | hindi: ड्रैगन फ्रूट | malayalam: ഡ്രാഗൺ ഫ്രൂട്ട് | kannada: ಡ್ರ್ಯಾಗನ್ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/kiwi/">
+                        <strong>Kiwi</strong>
+                        <span>(tamil: கிவி | hindi: कीवी | malayalam: കിവി | kannada: ಕಿವಿ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/mulberry/">
+                        <strong>Mulberry</strong>
+                        <span>(tamil: மல்பெரி | hindi: शहतूत | malayalam: മൾബറി | kannada: ಹಿಪ್ಪು ನೇರಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/jamun/">
+                        <strong>Jamun</strong>
+                        <span>(tamil: நாவல் பழம் | hindi: जामुन | malayalam: ഞാവൽ പഴം | kannada: ನೇರಳೆ ಹಣ್ಣು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/jackfruit-seeds/">
+                        <strong>Jackfruit Seeds</strong>
+                        <span>(tamil: பலா கொட்டை | hindi: कटहल के बीज | malayalam: ചക്കക്കുരു | kannada: ಹಲಸಿನ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/raw-banana/">
+                        <strong>Raw Banana</strong>
+                        <span>(tamil: வாழைக்காய் | hindi: कच्चा केला | malayalam: നേന്ത്രക്കಾಯ | kannada: ಬಾಳೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/raw-mango/">
+                        <strong>Raw Mango</strong>
+                        <span>(tamil: மாங்காய் | hindi: कच्चा आम | malayalam: പച്ച മാങ്ങ | kannada: ಮಾವಿನಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/sundakkai/">
+                        <strong>Sundakkai</strong>
+                        <span>(tamil: சுண்டைக்காய் | hindi: तुर्की बेरी | malayalam: ചുണ്ട | kannada: ಸುಂಡೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/chayote/">
+                        <strong>Chayote</strong>
+                        <span>(tamil: சௌ சௌ | hindi: इस्कुस | malayalam: ചൗ ചൗ | kannada: ಸೀಮೆ ಬದನೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/chow-chow/">
+                        <strong>Chow Chow</strong>
+                        <span>(tamil: சௌ சௌ | hindi: इस्कुस | malayalam: ചൗ ചൗ | kannada: ಸೀಮೆ ಬದನೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/vegetables-fruits/knol-khol/">
+                        <strong>Knol Khol</strong>
+                        <span>(tamil: நூல் கோல் | hindi: गाठ गोभी | malayalam: നൂൽക്കോൽ | kannada: ನವಿಲು ಕೋಸು)</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+            <!-- Items injected via JS -->
+        </div>
+
+        <div id="no-results" hidden>
+            <p>No ingredients found matching your search.</p>
+        </div>
+
+        
+    </main>
+
+    <footer class="app-footer">
+        <p>© 2026 FoodBhasha • v1.19</p>
+    </footer>
+
+    <!-- Floating Feedback Button -->
+    <button id="feedback-btn" class="feedback-fab" aria-label="Feedback">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+            </path>
+        </svg>
+        <span class="fab-text">Feedback</span>
+    </button>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <button id="close-modal" class="close-modal-btn">&times;</button>
+            <h2>Feedback & Corrections</h2>
+            <p>Spot an error or missing an item? Let us know!</p>
+
+            <form id="feedback-form" method="POST">
+                <input type="hidden" name="form-name" value="feedback">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Message</label>
+                    <textarea id="feedback-message" name="message" rows="4" required
+                        placeholder="Ex: 'Pomfret is called வாவல் in Tamil' or 'Please add Quinoa'"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Feedback</button>
+            </form>
+            <div id="feedback-success" hidden>
+                <div class="success-icon">✓</div>
+                <h3>Thank You!</h3>
+                <p>Your feedback has been received.</p>
+                <button id="close-success-modal" class="secondary-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Helper Form for Netlify Detection -->
+    <!-- This ensures Netlify finds the form definition even if the actual form is inside a hidden modal -->
+    <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

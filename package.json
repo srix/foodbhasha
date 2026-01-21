@@ -4,8 +4,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "test": "npx playwright test",
-    "build:web": "rm -rf www && mkdir -p www && cp index.html privacy.html style.css app.js manifest.json robots.txt sitemap.xml www/ && cp -r data img assets www/",
+    "test": "node tests/seo.test.js",
+    "generate": "node scripts/generate-static.js",
+    "audit": "node scripts/audit-seo.js",
+    "build": "node scripts/generate-static.js && node scripts/audit-seo.js",
+    "build:web": "rm -rf dist-android && mkdir -p dist-android && cp src/index.html src/privacy.html src/style.css src/app.js src/manifest.json src/robots.txt src/sitemap.xml dist-android/ && cp -r src/data src/img src/assets dist-android/",
     "sync": "npm run build:web && npx cap sync",
     "android:open": "npx cap open android",
     "android:run": "npx cap run android",
@@ -24,6 +27,7 @@
     "express": "^4.22.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.57.0"
+    "@playwright/test": "^1.57.0",
+    "jsdom": "^27.4.0"
   }
 }

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Grains &amp; Pulses | Indian Ingredient Lexicon | FoodBhasha</title>
+    <link rel="icon" type="image/webp" href="/assets/graphics/logo.webp">
+    <meta name="description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+
+    <!-- Canonical & Favicon -->
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodbhasha.com/grains/">
+    <meta property="og:title" content="Grains &amp; Pulses | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="og:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="og:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://foodbhasha.com/grains/">
+    <meta property="twitter:title" content="Grains &amp; Pulses | Indian Ingredient Lexicon | FoodBhasha">
+    <meta property="twitter:description"
+        content="Instantly identify and translate Indian food ingredients. Detailed glossary for Fish, Vegetables, Fruits, Grains, and Spices across 22 languages including Tamil, Hindi, Malayalam, and Kannada.">
+    <meta property="twitter:image" content="https://foodbhasha.com/assets/graphics/logo.webp">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FoodBhasha",
+      "description": "A multilingual glossary to identify Indian food ingredients like fish, vegetables, fruits, grains, and spices in 22 regional languages.",
+      "url": "https://foodbhasha.com/",
+      "applicationCategory": "Reference",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK15LCPJG1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RK15LCPJG1');
+    </script>
+    <link rel="icon" href="/assets/graphics/logo.webp">
+    <link rel="preload" href="/data/fish-seafood.json" as="fetch" crossorigin="anonymous">
+<link rel="canonical" href="https://foodbhasha.com/grains/">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <div class="header-top">
+            <div class="header-centered header-top-content">
+                <div class="brand">
+                    <div class="logo-circle">
+                        <img src="/assets/graphics/logo.webp" alt="FoodBhasha Logo" class="brand-icon-img">
+                    </div>
+                    <div class="brand-text">
+                        <h1>FoodBhasha</h1>
+                        <span class="subtitle">Your market translator</span>
+                    </div>
+                </div>
+
+                <div class="search-container">
+                    <span class="search-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </span>
+                    <input type="text" id="search-input" placeholder="Search by name (English, हिंदी, தமிழ்...)">
+                    <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+                </div>
+
+                <div class="header-actions">
+                    <button id="btn-customize-cols" class="btn-languages">
+                        <span class="btn-icon dual-script">
+                            <span class="script-tam">அ</span>
+                            <span class="script-dev">अ</span>
+                        </span>
+                        <span class="btn-text">More Languages</span>
+                    </button>
+                    <div id="column-selector-dialog" role="dialog" aria-labelledby="column-selector-title" hidden>
+                        <h3 id="column-selector-title">Show Languages</h3>
+                        <div id="column-checkboxes"></div>
+                        <button id="btn-close-cols" class="secondary-btn">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="category-tabs">
+            <div class="header-centered category-tabs-inner">
+                <button class="tab-btn active" data-category="vegetables-fruits">
+                    <span class="tab-icon">🥦</span> Vegetables & Fruits
+                </button>
+                <button class="tab-btn" data-category="grains">
+                    <span class="tab-icon">🌾</span> Grains & Pulses
+                </button>
+                <button class="tab-btn" data-category="spices">
+                    <span class="tab-icon">🌶️</span> Spices
+                </button>
+                <button class="tab-btn" data-category="fish">
+                    <span class="tab-icon">🐟</span> Fish & Seafood
+                </button>
+            </div>
+        </nav>
+
+        <div class="app-toolbar">
+            <div class="header-centered app-toolbar-content">
+                <div class="filter-group">
+                    <div class="results-stat">
+                        <span id="result-count">0/0</span>
+                    </div>
+                    <div id="filter-chips" class="chips-container">
+                        <button class="filter-chip active" data-filter="all">All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-body">
+        <div id="card-view" class="view-container">
+
+    <div class="static-category-list">
+        <h1>Grains & Pulses</h1>
+        <ul class="seo-list">
+            
+                <li>
+                    <a href="/grains/rice/">
+                        <strong>Rice</strong>
+                        <span>(tamil: அரிசி | hindi: चावल | malayalam: അരി | kannada: ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/toor-dal/">
+                        <strong>Toor Dal, Pigeon Pea</strong>
+                        <span>(tamil: துவரம் பருப்பு | hindi: अरहर दाल | malayalam: തുവര പരിപ്പ് | kannada: ತೊಗರಿ ಬೇಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/ragi/">
+                        <strong>Finger Millet, Ragi</strong>
+                        <span>(tamil: கேழ்வரகு | hindi: रागी | malayalam: പഞ്ഞപ്പുല്ല് | kannada: ರಾಗಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/urad-dal/">
+                        <strong>Urad Dal, Black Gram</strong>
+                        <span>(tamil: உளுத்தம் பருப்பு | hindi: उड़द दाल | malayalam: ഉഴുന്നു | kannada: ಉದ್ದಿನ ಬೇಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/wheat/">
+                        <strong>Wheat</strong>
+                        <span>(tamil: கோதுமை | hindi: गेहूं | malayalam: ഗോതമ്പ് | kannada: ಗೋದಧಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/maize/">
+                        <strong>Maize</strong>
+                        <span>(tamil: சோளம் | hindi: मक्का | malayalam: ചോളം | kannada: ಮುಸುಕಿನ ಜೋಳ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/barley/">
+                        <strong>Barley</strong>
+                        <span>(tamil: வார் கோதுமை | hindi: जौ | malayalam: ബാർലി | kannada: ಬಾರ್ಲಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/jowar/">
+                        <strong>Jowar</strong>
+                        <span>(tamil: சோளம் | hindi: ज्वार | malayalam: ചോളം | kannada: ಜೋಳ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/bajra/">
+                        <strong>Bajra</strong>
+                        <span>(tamil: கம்பு | hindi: बाजरा | malayalam: കമ്പം | kannada: ಸಜ್ಜೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/masoor-dal/">
+                        <strong>Masoor Dal</strong>
+                        <span>(tamil: மைசூர் பருப்பு | hindi: मसूर दाल | malayalam: പരിപ്പ് | kannada: ಮಸೂರ ಬೇಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/moong-dal/">
+                        <strong>Moong Dal</strong>
+                        <span>(tamil: பாசிப்பருப்பு | hindi: मूँग दाल | malayalam: ചെറുപയർ | kannada: ಹೆಸರು ಬೇಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/chana-dal/">
+                        <strong>Chana Dal</strong>
+                        <span>(tamil: கடலை பருப்பு | hindi: चना दाल | malayalam: കടല പരിപ്പ് | kannada: ಕಡಲೆ ಬೇಳೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/chickpeas/">
+                        <strong>Chickpeas</strong>
+                        <span>(tamil: கொண்டைக்கடலை | hindi: चना | malayalam: കടല | kannada: ಕಾಬೂಲ್ ಕಡಲೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/black-chickpeas/">
+                        <strong>Black Chickpeas</strong>
+                        <span>(tamil: கருப்பு கொண்டைக்கடலை | hindi: काला चना | malayalam: കറുത്ത കടല | kannada: ಕರಿ ಕಡಲೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/kidney-beans/">
+                        <strong>Kidney Beans</strong>
+                        <span>(tamil: ராஜ்மா | hindi: राजमा | malayalam: രാജ്മ | kannada: ರಾಜ್ಮಾ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/black-eyed-peas/">
+                        <strong>Black Eyed Peas</strong>
+                        <span>(tamil: தட்டப்பயிறு | hindi: लोबिया | malayalam: വൻപയർ | kannada: ಅಲಸಂದೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/dried-green-peas/">
+                        <strong>Dried Green Peas</strong>
+                        <span>(tamil: பட்டாணி | hindi: सूखा मटर | malayalam: പട്ടാണി | kannada: ಬಟಾಣಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/soybeans/">
+                        <strong>Soybeans</strong>
+                        <span>(tamil: சோயாபீன்ஸ் | hindi: सोयाबीन | malayalam: സോയാബീൻസ് | kannada: ಸೋಯಾ ಅವರೇ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/horse-gram/">
+                        <strong>Horse Gram</strong>
+                        <span>(tamil: கொள்ளு | hindi: कुलथी | malayalam: മുതിര | kannada: ಹುರುಳಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/flax-seeds/">
+                        <strong>Flax Seeds</strong>
+                        <span>(tamil: ஆளி விதை | hindi: अलसी | malayalam: ചണവിത്ത് | kannada: ಅಗಸೆ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/sesame-seeds/">
+                        <strong>Sesame Seeds</strong>
+                        <span>(tamil: எள் | hindi: तिल | malayalam: എള്ള് | kannada: ಎಳ್ಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/groundnut/">
+                        <strong>Groundnut</strong>
+                        <span>(tamil: வேர்க்கடலை | hindi: मूंगफली | malayalam: നിലക്കടല | kannada: ಕಡಲೆಕಾಯಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/sago/">
+                        <strong>Sago</strong>
+                        <span>(tamil: ஜவ்வரிசி | hindi: साबूदाना | malayalam: ചവ്വരി | kannada: ಸಾಬಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/fox-nuts/">
+                        <strong>Fox Nuts</strong>
+                        <span>(tamil: தாமரை விதை | hindi: मखाना | malayalam: താമര വിത്ത് | kannada: ತಾವರೆ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/poha/">
+                        <strong>Poha</strong>
+                        <span>(tamil: அவல் | hindi: पोहा | malayalam: അവിൽ | kannada: ಅವಲಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/semolina/">
+                        <strong>Semolina</strong>
+                        <span>(tamil: ரவை | hindi: सूजी | malayalam: റവ | kannada: ರವೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/vermicelli/">
+                        <strong>Vermicelli</strong>
+                        <span>(tamil: சேமியா | hindi: सेवई | malayalam: സേമിയ | kannada: ಶಾವಿಗೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/jaggery/">
+                        <strong>Jaggery</strong>
+                        <span>(tamil: வெல்லம் | hindi: गुड़ | malayalam: ശർക്കര | kannada: ಬೆಲ್ಲ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/chia-seeds/">
+                        <strong>Chia Seeds</strong>
+                        <span>(tamil: சியா விதைகள் | hindi: चिया बीज | malayalam: ചിയ വിത്ത് | kannada: ಚಿಯಾ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/sunflower-seeds/">
+                        <strong>Sunflower Seeds</strong>
+                        <span>(tamil: சூரியகாந்தி விதைகள் | hindi: सूरजमुखी के बीज | malayalam: സൂര്യകാന്തി വിത്ത് | kannada: ಸೂರ್ಯಕಾಂತಿ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/pumpkin-seeds/">
+                        <strong>Pumpkin Seeds</strong>
+                        <span>(tamil: பூசணி விதைகள் | hindi: कद्दू के बीज | malayalam: മത്തങ്ങ വിത്ത് | kannada: ಕುಂಬಳಕಾಯಿ ಬೀಜ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/quinoa/">
+                        <strong>Quinoa</strong>
+                        <span>(tamil: திணை | hindi: क्विनोआ | malayalam: കിനോവ | kannada: ನವಣೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/oats/">
+                        <strong>Oats</strong>
+                        <span>(tamil: ஓட்ஸ் | hindi: जई | malayalam: ഓട്സ് | kannada: ಓಟ್ಸ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/buckwheat/">
+                        <strong>Buckwheat</strong>
+                        <span>(tamil: பக்வீட் | hindi: कुट्टू | malayalam: ബക്ക്വീറ്റ് | kannada: ಕುಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/brown-rice/">
+                        <strong>Brown Rice</strong>
+                        <span>(tamil: கைக்குத்தல் அரிசி | hindi: ब्राउन राइस | malayalam: തവിടുള്ള അരി | kannada: ಕೆಂಪಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/basmati-rice/">
+                        <strong>Basmati Rice</strong>
+                        <span>(tamil: பாசுமதி அரிசி | hindi: बासमती | malayalam: ബസ്മതി അരി | kannada: ಬಾಸುಮತಿ ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/jasmine-rice/">
+                        <strong>Jasmine Rice</strong>
+                        <span>(tamil: மல்லிகை அரிசி | hindi: जैस्मिन चावल | malayalam: ജാസ്മിൻ അരി | kannada: ಜಾಸ್ಮಿನ್ ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/sona-masoori/">
+                        <strong>Sona Masoori</strong>
+                        <span>(tamil: சோனா மசூரி | hindi: सोना मसूरी | malayalam: സോനാ മസൂരി | kannada: ಸೋನಾ ಮಸೂರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/parboiled-rice/">
+                        <strong>Parboiled Rice</strong>
+                        <span>(tamil: புழுங்கல் அரிசி | hindi: उसना चावल | malayalam: പുഴുക്കലരി | kannada: ಕುಸುಬಲಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/red-rice/">
+                        <strong>Red Rice</strong>
+                        <span>(tamil: சிகப்பு அரிசி | hindi: लाल चावल | malayalam: മട്ട അരി | kannada: ಕೆಂಪಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/black-rice/">
+                        <strong>Black Rice</strong>
+                        <span>(tamil: கருப்பு கவும் அரிசி | hindi: काला चावल | malayalam: കറുത്ത അരി | kannada: ಕಪ್ಪು ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/glutinous-rice/">
+                        <strong>Glutinous Rice</strong>
+                        <span>(tamil: பிசுபிசுப்பான அரிசி | hindi: चिपचिपा चावल | malayalam: പശയുള്ള അരി | kannada: ಅಂಟು ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/puffed-rice/">
+                        <strong>Puffed Rice</strong>
+                        <span>(tamil: பொரி | hindi: मुरमुरा | malayalam: മലർ | kannada: ಪುರಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/idli-rice/">
+                        <strong>Idli Rice</strong>
+                        <span>(tamil: இட்லி அரிசி | hindi: इडली चावल | malayalam: ഇഡ്ഡലി അരി | kannada: ಇಡ್ಲಿ ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/matta-rice/">
+                        <strong>Matta Rice</strong>
+                        <span>(tamil: மட்டா அரிசி | hindi: मट्टा चावल | malayalam: മട്ട അരി | kannada: ಮಟ್ಟಾ ಅಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/whole-wheat/">
+                        <strong>Whole Wheat</strong>
+                        <span>(tamil: முழு கோதுமை | hindi: साबुत गेहूं | malayalam: മുഴുവൻ ഗോതമ്പ് | kannada: ಪೂರ್ಣ ಗೋಧಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/broken-wheat/">
+                        <strong>Broken Wheat</strong>
+                        <span>(tamil: கோதுமை ரவை | hindi: दलिया | malayalam: ഗോതമ്പ് നുറുക്ക് | kannada: ಕದಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/maida/">
+                        <strong>Maida</strong>
+                        <span>(tamil: மைதா | hindi: मैदा | malayalam: മൈദ | kannada: ಮೈದಾ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/corn-flour/">
+                        <strong>Corn Flour</strong>
+                        <span>(tamil: சோள மாவு | hindi: कॉर्न फ्लोर | malayalam: ചോളം പൊടി | kannada: ಜೋಳದ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/rice-flour/">
+                        <strong>Rice Flour</strong>
+                        <span>(tamil: அரிசி மாவு | hindi: चावल का आटा | malayalam: അരിപ്പൊടി | kannada: ಅಕ್ಕಿ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/besan/">
+                        <strong>Besan</strong>
+                        <span>(tamil: கடலை மாவு | hindi: बेसन | malayalam: കടലപ്പൊടി | kannada: ಕಡಲೆ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/ragi-flour/">
+                        <strong>Ragi Flour</strong>
+                        <span>(tamil: கேழ்வரகு மாவு | hindi: रागी का आटा | malayalam: റാഗിപ്പൊടി | kannada: ರಾಗಿ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/bajra-flour/">
+                        <strong>Bajra Flour</strong>
+                        <span>(tamil: கம்பு மாவு | hindi: बाजरे का आटा | malayalam: കമ്പം പൊടി | kannada: ಸಜ್ಜೆ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/jowar-flour/">
+                        <strong>Jowar Flour</strong>
+                        <span>(tamil: சோள மாவு | hindi: ज्वार का आटा | malayalam: ചോളപ്പൊടി | kannada: ಜೋಳದ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/sabudana/">
+                        <strong>Sabudana</strong>
+                        <span>(tamil: ஜவ்வரிசி | hindi: साबूदाना | malayalam: ചവ്വരി | kannada: ಸಾಬಕ್ಕಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/soy-chunks/">
+                        <strong>Soy Chunks</strong>
+                        <span>(tamil: மீல் மேக்கர் | hindi: सोया चंक्स | malayalam: സോയാ ചങ്ക്സ് | kannada: ಮೀಲ್ ಮೇಕರ್)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/green-gram/">
+                        <strong>Green Gram</strong>
+                        <span>(tamil: பச்சை பயிறு | hindi: साबुत मूंग | malayalam: ചെറുപയർ | kannada: ಹೆಸರು ಕಾಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/black-gram/">
+                        <strong>Black Gram</strong>
+                        <span>(tamil: கருப்பு உளுந்து | hindi: साबुत उड़द | malayalam: ഉഴുന്ന് | kannada: ಉದ್ದು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/moth-bean/">
+                        <strong>Moth Bean</strong>
+                        <span>(tamil: நரி பயிறு | hindi: मोठ दाल | malayalam: മമ്പയർ | kannada: ಮಡಿಕೆ ಕಾಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/lima-beans/">
+                        <strong>Lima Beans</strong>
+                        <span>(tamil: மொச்சை | hindi: सेम फली | malayalam: അമര പയർ | kannada: ಅವರೇ ಕಾಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/field-beans/">
+                        <strong>Field Beans</strong>
+                        <span>(tamil: மொச்சை | hindi: वाल | malayalam: അമര | kannada: ಅವರೇ ಕಾಳು)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/double-beans/">
+                        <strong>Double Beans</strong>
+                        <span>(tamil: இரட்டைப் பீன்ஸ் | hindi: डबल बीन्स | malayalam: ഡബിൾ ബീൻസ് | kannada: ದೊಡ್ಡ ಅವರೇ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/pinto-beans/">
+                        <strong>Pinto Beans</strong>
+                        <span>(tamil: பின்டோ பீன்ஸ் | hindi: चितकबरी राजमा | malayalam: പിന്റോ ബീൻസ് | kannada: ಪಿಂಟೋ ಅವರೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/white-peas/">
+                        <strong>White Peas</strong>
+                        <span>(tamil: வெள்ளை பட்டாணி | hindi: सफेद मटर | malayalam: വെള്ള പട്ടാണി | kannada: ಬಿಳಿ ಬಟಾಣಿ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/roasted-gram/">
+                        <strong>Roasted Gram</strong>
+                        <span>(tamil: பொட்டுக்கடலை | hindi: भुना चना | malayalam: പൊട്ടുകടല | kannada: ಹುರಿಗಡಲೆ)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/grains/arrowroot-flour/">
+                        <strong>Arrowroot Flour</strong>
+                        <span>(tamil: கூவைக்காவு | hindi: अरारोट | malayalam: കൂവപ്പൊടി | kannada: ಕೂವೆ ಹಿಟ್ಟು)</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+            <!-- Items injected via JS -->
+        </div>
+
+        <div id="no-results" hidden>
+            <p>No ingredients found matching your search.</p>
+        </div>
+
+        
+    </main>
+
+    <footer class="app-footer">
+        <p>© 2026 FoodBhasha • v1.19</p>
+    </footer>
+
+    <!-- Floating Feedback Button -->
+    <button id="feedback-btn" class="feedback-fab" aria-label="Feedback">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+            </path>
+        </svg>
+        <span class="fab-text">Feedback</span>
+    </button>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <button id="close-modal" class="close-modal-btn">&times;</button>
+            <h2>Feedback & Corrections</h2>
+            <p>Spot an error or missing an item? Let us know!</p>
+
+            <form id="feedback-form" method="POST">
+                <input type="hidden" name="form-name" value="feedback">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Message</label>
+                    <textarea id="feedback-message" name="message" rows="4" required
+                        placeholder="Ex: 'Pomfret is called வாவல் in Tamil' or 'Please add Quinoa'"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Feedback</button>
+            </form>
+            <div id="feedback-success" hidden>
+                <div class="success-icon">✓</div>
+                <h3>Thank You!</h3>
+                <p>Your feedback has been received.</p>
+                <button id="close-success-modal" class="secondary-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Helper Form for Netlify Detection -->
+    <!-- This ensures Netlify finds the form definition even if the actual form is inside a hidden modal -->
+    <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

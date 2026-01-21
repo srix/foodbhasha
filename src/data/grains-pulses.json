@@ -1,0 +1,6737 @@
+[
+  {
+    "id": "rice",
+    "photo": "img/rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Rice"
+      ],
+      "tamil": [
+        "அரிசி",
+        "Arisi"
+      ],
+      "hindi": [
+        "चावल",
+        "Chawal"
+      ],
+      "malayalam": [
+        "അരി",
+        "Ari"
+      ],
+      "kannada": [
+        "ಅಕ್ಕಿ",
+        "Akki"
+      ],
+      "telugu": [
+        "బియ్యం",
+        "Biyyam"
+      ],
+      "assamese": [
+        "চাউল",
+        "Saul"
+      ],
+      "bengali": [
+        "চাল",
+        "Chal"
+      ],
+      "bodo": [
+        "माइरं",
+        "Mairong"
+      ],
+      "dogri": [
+        "चौल",
+        "Chaul"
+      ],
+      "gujarati": [
+        "ચોખા",
+        "Chokha"
+      ],
+      "kashmiri": [
+        "तॉमुल",
+        "Tomul"
+      ],
+      "konkani": [
+        "तांदूळ",
+        "Tandul"
+      ],
+      "maithili": [
+        "चाउर",
+        "Chaur"
+      ],
+      "manipuri": [
+        "চেং",
+        "Cheng"
+      ],
+      "marathi": [
+        "तांदूळ",
+        "Tandul"
+      ],
+      "nepali": [
+        "चामल",
+        "Chamal"
+      ],
+      "odia": [
+        "ଚାଉଳ",
+        "Chaula"
+      ],
+      "punjabi": [
+        "ਚਾਵਲ",
+        "Chawal"
+      ],
+      "sanskrit": [
+        "तण्डुलम्",
+        "Tandulam"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "چانور",
+        "Chanwar"
+      ],
+      "urdu": [
+        "چاول",
+        "Chawal"
+      ]
+    },
+    "notes": "Staple food in South and East India."
+  },
+  {
+    "id": "toor-dal",
+    "photo": "img/toor-dal.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Cajanus cajan",
+    "names": {
+      "english": [
+        "Toor Dal",
+        "Pigeon Pea"
+      ],
+      "tamil": [
+        "துவரம் பருப்பு",
+        "Thuvaram Paruppu"
+      ],
+      "hindi": [
+        "अरहर दाल",
+        "Arhar Dal"
+      ],
+      "malayalam": [
+        "തുവര പരിപ്പ്",
+        "Thuvara Parippu"
+      ],
+      "kannada": [
+        "ತೊಗರಿ ಬೇಳೆ",
+        "Togari Bele"
+      ],
+      "telugu": [
+        "కంది పప్పు",
+        "Kandi Pappu"
+      ],
+      "assamese": [
+        "ৰহৰ",
+        "Rohor"
+      ],
+      "bengali": [
+        "অড়হর ডাল",
+        "Arhar Dal"
+      ],
+      "bodo": [
+        "रहर",
+        "Rahar"
+      ],
+      "dogri": [
+        "रहर",
+        "Rahar"
+      ],
+      "gujarati": [
+        "તુવેર દાળ",
+        "Tuver Dal"
+      ],
+      "kashmiri": [
+        "توُر دال",
+        "Tur Dal"
+      ],
+      "konkani": [
+        "तोर",
+        "Tor"
+      ],
+      "maithili": [
+        "रहरि",
+        "Rahari"
+      ],
+      "manipuri": [
+        "ꯇꯨꯔ",
+        "Tur"
+      ],
+      "marathi": [
+        "तूर डाळ",
+        "Tur Dal"
+      ],
+      "nepali": [
+        "रहर",
+        "Rahar"
+      ],
+      "odia": [
+        "ହରଡ ଡାଲି",
+        "Harada Dali"
+      ],
+      "punjabi": [
+        "ਅਰਹਰ ਦਾਲ",
+        "Arhar Dal"
+      ],
+      "sanskrit": [
+        "आढकी",
+        "Adhaki"
+      ],
+      "santali": [
+        "ᱨᱟᱦᱲᱟ",
+        "Rahra"
+      ],
+      "sindhi": [
+        "توئر دال",
+        "Toor Dal"
+      ],
+      "urdu": [
+        "ارہر دال",
+        "Arhar Dal"
+      ]
+    },
+    "notes": "Commonly used for Sambar."
+  },
+  {
+    "id": "ragi",
+    "photo": "img/ragi.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "Eleusine coracana",
+    "names": {
+      "english": [
+        "Finger Millet",
+        "Ragi"
+      ],
+      "tamil": [
+        "கேழ்வரகு",
+        "Kezhvaragu"
+      ],
+      "hindi": [
+        "रागी",
+        "Ragi"
+      ],
+      "malayalam": [
+        "പഞ്ഞപ്പുല്ല്",
+        "Panjappullu"
+      ],
+      "kannada": [
+        "ರಾಗಿ",
+        "Ragi"
+      ],
+      "telugu": [
+        "రాగులు",
+        "Ragulu"
+      ],
+      "assamese": [
+        "মৰুৱା ধান",
+        "Maruwa Dhan"
+      ],
+      "bengali": [
+        "মারুয়া",
+        "Marua"
+      ],
+      "bodo": [
+        "रागि",
+        "Ragi"
+      ],
+      "dogri": [
+        "रागी",
+        "Ragi"
+      ],
+      "gujarati": [
+        "નાગલી",
+        "Nagli"
+      ],
+      "kashmiri": [
+        "راگی",
+        "Ragi"
+      ],
+      "konkani": [
+        "नाचणि",
+        "Nachni"
+      ],
+      "maithili": [
+        "मरुआ",
+        "Marua"
+      ],
+      "manipuri": [
+        "ꯔꯥꯒꯤ",
+        "Ragi"
+      ],
+      "marathi": [
+        "नाचणी",
+        "Nachni"
+      ],
+      "nepali": [
+        "कोदो",
+        "Kodo"
+      ],
+      "odia": [
+        "ମାଣ୍ଡିଆ",
+        "Mandia"
+      ],
+      "punjabi": [
+        "ਮੰਡੁਆ",
+        "Mandua"
+      ],
+      "sanskrit": [
+        "मधूलिका",
+        "Madhulika"
+      ],
+      "santali": [
+        "ᱨᱟᱹᱜᱤ",
+        "Ragi"
+      ],
+      "sindhi": [
+        "راگي",
+        "Ragi"
+      ],
+      "urdu": [
+        "راگی",
+        "Ragi"
+      ]
+    },
+    "notes": "Rich in calcium, used for porridge and balls."
+  },
+  {
+    "id": "urad-dal",
+    "photo": "img/urad-dal.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Vigna mungo",
+    "names": {
+      "english": [
+        "Urad Dal",
+        "Black Gram"
+      ],
+      "tamil": [
+        "உளுத்தம் பருப்பு",
+        "Ulundham Paruppu"
+      ],
+      "hindi": [
+        "उड़द दाल",
+        "Urad Dal"
+      ],
+      "malayalam": [
+        "ഉഴുന്നു",
+        "Uzhunnu"
+      ],
+      "kannada": [
+        "ಉದ್ದಿನ ಬೇಳೆ",
+        "Uddina Bele"
+      ],
+      "telugu": [
+        "మినపప్పు",
+        "Minapappu"
+      ],
+      "assamese": [
+        "ମାଟିମାହ",
+        "Matimah"
+      ],
+      "bengali": [
+        "মাসকলাই ডাল",
+        "Mashkalai Dal"
+      ],
+      "bodo": [
+        "मास",
+        "Mas"
+      ],
+      "dogri": [
+        "मांह",
+        "Maah"
+      ],
+      "gujarati": [
+        "અડદ દાળ",
+        "Adad Dal"
+      ],
+      "kashmiri": [
+        "माह",
+        "Maah"
+      ],
+      "konkani": [
+        "उदीद",
+        "Udid"
+      ],
+      "maithili": [
+        "कलाई",
+        "Kalai"
+      ],
+      "manipuri": [
+        "সগোল হৱাই",
+        "Sagol Hawai"
+      ],
+      "marathi": [
+        "उडीद डाळ",
+        "Udid Dal"
+      ],
+      "nepali": [
+        "मास",
+        "Maas"
+      ],
+      "odia": [
+        "ବିରି ଡାଲି",
+        "Biri Dali"
+      ],
+      "punjabi": [
+        "ਮਾਂਹ ਦੀ ਦਾਲ",
+        "Maah Di Dal"
+      ],
+      "sanskrit": [
+        "माषः",
+        "Mashah"
+      ],
+      "santali": [
+        "ᱨᱟᱢᱵᱲᱟ",
+        "Rambra"
+      ],
+      "sindhi": [
+        "ماھ دال",
+        "Mah Dal"
+      ],
+      "urdu": [
+        "ماش کی دال",
+        "Maash Ki Dal"
+      ]
+    },
+    "notes": "Key ingredient for Idli and Dosa batter."
+  },
+  {
+    "id": "wheat",
+    "photo": "img/wheat.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Triticum",
+    "names": {
+      "english": [
+        "Wheat"
+      ],
+      "assamese": [
+        "ঘেঁহু",
+        "Ghehu"
+      ],
+      "bengali": [
+        "গম",
+        "Gom"
+      ],
+      "bodo": [
+        "गहुं",
+        "Gahung"
+      ],
+      "dogri": [
+        "कनक",
+        "Kanak"
+      ],
+      "gujarati": [
+        "ઘઉં",
+        "Ghau"
+      ],
+      "hindi": [
+        "गेहूं",
+        "Gehu"
+      ],
+      "kannada": [
+        "ಗೋದಧಿ",
+        "Godhi"
+      ],
+      "kashmiri": [
+        "कनक",
+        "Kanak"
+      ],
+      "konkani": [
+        "गवं",
+        "Gavam"
+      ],
+      "maithili": [
+        "गहूम",
+        "Gahum"
+      ],
+      "malayalam": [
+        "ഗോതമ്പ്",
+        "Gothambu"
+      ],
+      "manipuri": [
+        "গেহু",
+        "Gehu"
+      ],
+      "marathi": [
+        "गहू",
+        "Gahu"
+      ],
+      "nepali": [
+        "गहुँ",
+        "Gahun"
+      ],
+      "odia": [
+        "ଗହମ",
+        "Gahama"
+      ],
+      "punjabi": [
+        "ਕਣਕ",
+        "Kanak"
+      ],
+      "sanskrit": [
+        "गोधूमः",
+        "Godhumah"
+      ],
+      "santali": [
+        "ᱜᱚᱦᱩᱢ",
+        "Gohum"
+      ],
+      "sindhi": [
+        "ڪڻڪ",
+        "Kanak"
+      ],
+      "tamil": [
+        "கோதுமை",
+        "Godhumai"
+      ],
+      "telugu": [
+        "గోధుమలు",
+        "Godhumalu"
+      ],
+      "urdu": [
+        "گندم",
+        "Gandum"
+      ]
+    },
+    "notes": "Staple grain used to make Roti, Chapati, and Bread."
+  },
+  {
+    "id": "maize",
+    "photo": "img/maize.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Zea mays",
+    "names": {
+      "english": [
+        "Maize"
+      ],
+      "assamese": [
+        "মাকৈ",
+        "Makoi"
+      ],
+      "bengali": [
+        "ভুট্টা",
+        "Bhutta"
+      ],
+      "bodo": [
+        "गोम",
+        "Gom"
+      ],
+      "dogri": [
+        "मक्की",
+        "Makki"
+      ],
+      "gujarati": [
+        "મકાઈ",
+        "Makai"
+      ],
+      "hindi": [
+        "मक्का",
+        "Makka"
+      ],
+      "kannada": [
+        "ಮುಸುಕಿನ ಜೋಳ",
+        "Musukina Jola"
+      ],
+      "kashmiri": [
+        "मक्कीय",
+        "Makkiy"
+      ],
+      "konkani": [
+        "मको",
+        "Mako"
+      ],
+      "maithili": [
+        "मक्काई",
+        "Makkai"
+      ],
+      "malayalam": [
+        "ചോളം",
+        "Cholam"
+      ],
+      "manipuri": [
+        "চুজাক",
+        "Chujak"
+      ],
+      "marathi": [
+        "मका",
+        "Maka"
+      ],
+      "nepali": [
+        "मकै",
+        "Makai"
+      ],
+      "odia": [
+        "ମକା",
+        "Maka"
+      ],
+      "punjabi": [
+        "ਮੱਕੀ",
+        "Makki"
+      ],
+      "sanskrit": [
+        "महायवः",
+        "Mahayavah"
+      ],
+      "santali": [
+        "ᱡᱚᱱᱚᱲᱟ",
+        "Jonra"
+      ],
+      "sindhi": [
+        "مڪئي",
+        "Makai"
+      ],
+      "tamil": [
+        "சோளம்",
+        "Solam"
+      ],
+      "telugu": [
+        "మొక్కజొన్న",
+        "Mokkajonna"
+      ],
+      "urdu": [
+        "مکئی",
+        "Makai"
+      ]
+    },
+    "notes": "Used for Corn flour, Popcorn, and Makki di Roti."
+  },
+  {
+    "id": "barley",
+    "photo": "img/barley.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Hordeum vulgare",
+    "names": {
+      "english": [
+        "Barley"
+      ],
+      "assamese": [
+        "বাৰ্লি",
+        "Barley"
+      ],
+      "bengali": [
+        "বার্লি",
+        "Barley"
+      ],
+      "bodo": [
+        "जौ",
+        "Jau"
+      ],
+      "dogri": [
+        "जौ",
+        "Jau"
+      ],
+      "gujarati": [
+        "જવ",
+        "Jav"
+      ],
+      "hindi": [
+        "जौ",
+        "Jau"
+      ],
+      "kannada": [
+        "ಬಾರ್ಲಿ",
+        "Barley"
+      ],
+      "kashmiri": [
+        "वुश",
+        "Wush"
+      ],
+      "konkani": [
+        "बार्ली",
+        "Barley"
+      ],
+      "maithili": [
+        "जौ",
+        "Jau"
+      ],
+      "malayalam": [
+        "ബാർലി",
+        "Barley"
+      ],
+      "manipuri": [
+        "ꯖ",
+        "Jau"
+      ],
+      "marathi": [
+        "जव",
+        "Jav"
+      ],
+      "nepali": [
+        "जौ",
+        "Jau"
+      ],
+      "odia": [
+        "ଯବ",
+        "Jaba"
+      ],
+      "punjabi": [
+        "ਜੌਂ",
+        "Jau"
+      ],
+      "sanskrit": [
+        "यवः",
+        "Yavah"
+      ],
+      "santali": [
+        "ᱡᱟᱣ",
+        "Jaw"
+      ],
+      "sindhi": [
+        "جَو",
+        "Jau"
+      ],
+      "tamil": [
+        "வார் கோதுமை",
+        "Var Godhumai"
+      ],
+      "telugu": [
+        "బార్లీ",
+        "Barley"
+      ],
+      "urdu": [
+        "جو",
+        "Jau"
+      ]
+    },
+    "notes": "Rich in fiber, used in soups, stews, and beverages."
+  },
+  {
+    "id": "jowar",
+    "photo": "img/jowar.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "Sorghum bicolor",
+    "names": {
+      "english": [
+        "Jowar"
+      ],
+      "assamese": [
+        "জোৱাৰ",
+        "Jowar"
+      ],
+      "bengali": [
+        "জোয়ার",
+        "Jowar"
+      ],
+      "bodo": [
+        "जवार",
+        "Jowar"
+      ],
+      "dogri": [
+        "चरी",
+        "Chari"
+      ],
+      "gujarati": [
+        "જુવાર",
+        "Juvar"
+      ],
+      "hindi": [
+        "ज्वार",
+        "Jowar"
+      ],
+      "kannada": [
+        "ಜೋಳ",
+        "Jola"
+      ],
+      "kashmiri": [
+        "جوار",
+        "Jowar"
+      ],
+      "konkani": [
+        "जोंधळो",
+        "Jondhalo"
+      ],
+      "maithili": [
+        "जनेर",
+        "Janer"
+      ],
+      "malayalam": [
+        "ചോളം",
+        "Cholam"
+      ],
+      "manipuri": [
+        "ꯖꯣꯋꯥꯔ",
+        "Jowar"
+      ],
+      "marathi": [
+        "ज्वारी",
+        "Jwari"
+      ],
+      "nepali": [
+        "जुनेलो",
+        "Junelo"
+      ],
+      "odia": [
+        "ଜୁଆର",
+        "Juar"
+      ],
+      "punjabi": [
+        "ਜਵਾਰ",
+        "Jowar"
+      ],
+      "sanskrit": [
+        "यवनालः",
+        "Yavanalah"
+      ],
+      "santali": [
+        "ᱡᱚᱣᱟᱨ",
+        "Jowar"
+      ],
+      "sindhi": [
+        "جوار",
+        "Jowar"
+      ],
+      "tamil": [
+        "சோளம்",
+        "Cholam"
+      ],
+      "telugu": [
+        "జొన్నలు",
+        "Jonnalu"
+      ],
+      "urdu": [
+        "جوار",
+        "Jowar"
+      ]
+    },
+    "notes": "Gluten-free grain, used for Roti and porridge."
+  },
+  {
+    "id": "bajra",
+    "photo": "img/bajra.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "Pennisetum glaucum",
+    "names": {
+      "english": [
+        "Bajra"
+      ],
+      "assamese": [
+        "বাজৰা",
+        "Bajra"
+      ],
+      "bengali": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "bodo": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "dogri": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "gujarati": [
+        "બાજરી",
+        "Bajri"
+      ],
+      "hindi": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "kannada": [
+        "ಸಜ್ಜೆ",
+        "Sajje"
+      ],
+      "kashmiri": [
+        "बाज़र",
+        "Baazar"
+      ],
+      "konkani": [
+        "बाजरी",
+        "Bajri"
+      ],
+      "maithili": [
+        "बाजरा",
+        "Bajra"
+      ],
+      "malayalam": [
+        "കമ്പം",
+        "Kambam"
+      ],
+      "manipuri": [
+        "ꯕꯥꯖꯔꯥ",
+        "Bajra"
+      ],
+      "marathi": [
+        "बाजरी",
+        "Bajri"
+      ],
+      "nepali": [
+        "बजा",
+        "Baja"
+      ],
+      "odia": [
+        "ବାଜରା",
+        "Bajra"
+      ],
+      "punjabi": [
+        "ਬਾਜਰਾ",
+        "Bajra"
+      ],
+      "sanskrit": [
+        "प्रियंगुः",
+        "Priyanguh"
+      ],
+      "santali": [
+        "ᱵᱟᱡᱨᱟ",
+        "Bajra"
+      ],
+      "sindhi": [
+        "ٻاجھرِي",
+        "Bajhri"
+      ],
+      "tamil": [
+        "கம்பு",
+        "Kambu"
+      ],
+      "telugu": [
+        "సజ్జలు",
+        "Sajjalu"
+      ],
+      "urdu": [
+        "باجرہ",
+        "Bajra"
+      ]
+    },
+    "notes": "Pearl millet, vital for winters, used for Roti."
+  },
+  {
+    "id": "masoor-dal",
+    "photo": "img/masoor-dal.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Lens culinaris",
+    "names": {
+      "english": [
+        "Masoor Dal"
+      ],
+      "assamese": [
+        "মচুৰ দাল",
+        "Masur Dal"
+      ],
+      "bengali": [
+        "মুসুর ডাল",
+        "Musur Dal"
+      ],
+      "bodo": [
+        "मसुर",
+        "Masur"
+      ],
+      "dogri": [
+        "मसूर",
+        "Masur"
+      ],
+      "gujarati": [
+        "મસૂર દાળ",
+        "Masoor Dal"
+      ],
+      "hindi": [
+        "मसूर दाल",
+        "Masoor Dal"
+      ],
+      "kannada": [
+        "ಮಸೂರ ಬೇಳೆ",
+        "Masoor Bele"
+      ],
+      "kashmiri": [
+        "मसु'र",
+        "Masur"
+      ],
+      "konkani": [
+        "मसुरा",
+        "Masura"
+      ],
+      "maithili": [
+        "मसुर",
+        "Masur"
+      ],
+      "malayalam": [
+        "പരിപ്പ്",
+        "Parippu"
+      ],
+      "manipuri": [
+        "মসুর",
+        "Masur"
+      ],
+      "marathi": [
+        "मसूर डाळ",
+        "Masur Dal"
+      ],
+      "nepali": [
+        "मुसुरो",
+        "Musuro"
+      ],
+      "odia": [
+        "ମସୁର ଡାଲି",
+        "Masura Dali"
+      ],
+      "punjabi": [
+        "ਮਸਰ ਦਾਲ",
+        "Masar Dal"
+      ],
+      "sanskrit": [
+        "मसूरः",
+        "Masurah"
+      ],
+      "santali": [
+        "ᱢᱚᱥᱩᱨ",
+        "Masur"
+      ],
+      "sindhi": [
+        "مسور دال",
+        "Masoor Dal"
+      ],
+      "tamil": [
+        "மைசூர் பருப்பு",
+        "Mysore Paruppu"
+      ],
+      "telugu": [
+        "ఎర్ర కంది పప్పు",
+        "Erra Kandi Pappu"
+      ],
+      "urdu": [
+        "مسور دال",
+        "Masoor Dal"
+      ]
+    },
+    "notes": "Red lentils, cooks quickly into a soft dal."
+  },
+  {
+    "id": "moong-dal",
+    "photo": "img/moong-dal.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Vigna radiata",
+    "names": {
+      "english": [
+        "Moong Dal"
+      ],
+      "assamese": [
+        "মগু দাল",
+        "Mogu Dal"
+      ],
+      "bengali": [
+        "মুগ ডাল",
+        "Mug Dal"
+      ],
+      "bodo": [
+        "मुग",
+        "Mug"
+      ],
+      "dogri": [
+        "मूँगी",
+        "Mungi"
+      ],
+      "gujarati": [
+        "મગ દાળ",
+        "Mag Dal"
+      ],
+      "hindi": [
+        "मूँग दाल",
+        "Moong Dal"
+      ],
+      "kannada": [
+        "ಹೆಸರು ಬೇಳೆ",
+        "Hesaru Bele"
+      ],
+      "kashmiri": [
+        "मुंग",
+        "Mung"
+      ],
+      "konkani": [
+        "मुग",
+        "Mug"
+      ],
+      "maithili": [
+        "मूँग",
+        "Moong"
+      ],
+      "malayalam": [
+        "ചെറുപയർ",
+        "Cherupayar"
+      ],
+      "manipuri": [
+        "মুক",
+        "Muk"
+      ],
+      "marathi": [
+        "मूग डाळ",
+        "Moog Dal"
+      ],
+      "nepali": [
+        "मुंग",
+        "Mung"
+      ],
+      "odia": [
+        "ମୁଗ ଡାଲି",
+        "Muga Dali"
+      ],
+      "punjabi": [
+        "ਮੂੰਗੀ ਦਾਲ",
+        "Moongi Dal"
+      ],
+      "sanskrit": [
+        "मुद्गः",
+        "Mudgah"
+      ],
+      "santali": [
+        "ᱢᱩᱝ",
+        "Mung"
+      ],
+      "sindhi": [
+        "مڱ دال",
+        "Mung Dal"
+      ],
+      "tamil": [
+        "பாசிப்பருப்பு",
+        "Pasi Paruppu"
+      ],
+      "telugu": [
+        "పెసర పప్పు",
+        "Pesara Pappu"
+      ],
+      "urdu": [
+        "مونگ دال",
+        "Moong Dal"
+      ]
+    },
+    "notes": "Split yellow gram, light and easy to digest."
+  },
+  {
+    "id": "chana-dal",
+    "photo": "img/chana-dal.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Cicer arietinum",
+    "names": {
+      "english": [
+        "Chana Dal"
+      ],
+      "assamese": [
+        "বুটৰ দাল",
+        "Butor Dal"
+      ],
+      "bengali": [
+        "ছোলার ডাল",
+        "Cholar Dal"
+      ],
+      "bodo": [
+        "बुट",
+        "But"
+      ],
+      "dogri": [
+        "चने दी दाल",
+        "Chane Di Dal"
+      ],
+      "gujarati": [
+        "ચણા દાળ",
+        "Chana Dal"
+      ],
+      "hindi": [
+        "चना दाल",
+        "Chana Dal"
+      ],
+      "kannada": [
+        "ಕಡಲೆ ಬೇಳೆ",
+        "Kadale Bele"
+      ],
+      "kashmiri": [
+        "छोल",
+        "Chol"
+      ],
+      "konkani": [
+        "चण्याची डाळ",
+        "Chanyachi Dal"
+      ],
+      "maithili": [
+        "बूटक दाल",
+        "Bootak Dal"
+      ],
+      "malayalam": [
+        "കടല പരിപ്പ്",
+        "Kadala Parippu"
+      ],
+      "manipuri": [
+        "চানা",
+        "Chana"
+      ],
+      "marathi": [
+        "हरभरा डाळ",
+        "Harbara Dal"
+      ],
+      "nepali": [
+        "चना दाल",
+        "Chana Dal"
+      ],
+      "odia": [
+        "ବୁଟ ଡାଲି",
+        "Buta Dali"
+      ],
+      "punjabi": [
+        "ਛੋਲੇ ਦਾਲ",
+        "Chole Dal"
+      ],
+      "sanskrit": [
+        "चणकः",
+        "Chanakah"
+      ],
+      "santali": [
+        "ᱪᱚᱱᱟ",
+        "Chana"
+      ],
+      "sindhi": [
+        "چڻا دال",
+        "Chana Dal"
+      ],
+      "tamil": [
+        "கடலை பருப்பு",
+        "Kadalai Paruppu"
+      ],
+      "telugu": [
+        "శనగ పప్పు",
+        "Senaga Pappu"
+      ],
+      "urdu": [
+        "چنا دال",
+        "Chana Dal"
+      ]
+    },
+    "notes": "Split chickpeas, used in curries and snacks."
+  },
+  {
+    "id": "chickpeas",
+    "photo": "img/chickpeas.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Cicer arietinum",
+    "names": {
+      "english": [
+        "Chickpeas"
+      ],
+      "assamese": [
+        "বুট",
+        "Boot"
+      ],
+      "bengali": [
+        "কাবলি ছোলা",
+        "Kabuli Chola"
+      ],
+      "bodo": [
+        "बुथ",
+        "Buth"
+      ],
+      "dogri": [
+        "चना",
+        "Chana"
+      ],
+      "gujarati": [
+        "કાબુલી ચણા",
+        "Kabuli Chana"
+      ],
+      "hindi": [
+        "चना",
+        "Chana"
+      ],
+      "kannada": [
+        "ಕಾಬೂಲ್ ಕಡಲೆ",
+        "Kabool Kadale"
+      ],
+      "kashmiri": [
+        "چَنا",
+        "Chana"
+      ],
+      "konkani": [
+        "हरबरे",
+        "Harbare"
+      ],
+      "maithili": [
+        "चना",
+        "Chana"
+      ],
+      "malayalam": [
+        "കടല",
+        "Kadala"
+      ],
+      "manipuri": [
+        "ꯆꯅꯥ",
+        "Chana"
+      ],
+      "marathi": [
+        "काबुली चणा",
+        "Kabuli Chana"
+      ],
+      "nepali": [
+        "चना",
+        "Chana"
+      ],
+      "odia": [
+        "କାବୁଲି ବୁଟ",
+        "Kabuli Buta"
+      ],
+      "punjabi": [
+        "ਸਫੇਦ ਛੋਲੇ",
+        "Safed Choley"
+      ],
+      "sanskrit": [
+        "चणकः",
+        "Chanakah"
+      ],
+      "santali": [
+        "ᱪᱚᱱᱟ",
+        "Chana"
+      ],
+      "sindhi": [
+        "چڻا",
+        "Chana"
+      ],
+      "tamil": [
+        "கொண்டைக்கடலை",
+        "Kondaikadalai"
+      ],
+      "telugu": [
+        "కాబూలీ శనగలు",
+        "Kabuli Senagalu"
+      ],
+      "urdu": [
+        "کابلی چنا",
+        "Kabuli Chana"
+      ]
+    },
+    "notes": "Kabuli Chana, used for Chole and Hummus."
+  },
+  {
+    "id": "black-chickpeas",
+    "photo": "img/black-chickpeas.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Cicer arietinum",
+    "names": {
+      "english": [
+        "Black Chickpeas"
+      ],
+      "assamese": [
+        "কলা বুট",
+        "Kola Boot"
+      ],
+      "bengali": [
+        "কালো ছোলা",
+        "Kalo Chola"
+      ],
+      "bodo": [
+        "गोसोम बुथ",
+        "Gosom Buth"
+      ],
+      "dogri": [
+        "काला चना",
+        "Kala Chana"
+      ],
+      "gujarati": [
+        "દેશી ચણા",
+        "Deshi Chana"
+      ],
+      "hindi": [
+        "काला चना",
+        "Kala Chana"
+      ],
+      "kannada": [
+        "ಕರಿ ಕಡಲೆ",
+        "Kari Kadale"
+      ],
+      "kashmiri": [
+        "کالا چنا",
+        "Kala Chana"
+      ],
+      "konkani": [
+        "काळे हरबरे",
+        "Kale Harbare"
+      ],
+      "maithili": [
+        "काला चना",
+        "Kala Chana"
+      ],
+      "malayalam": [
+        "കറുത്ത കടല",
+        "Karutha Kadala"
+      ],
+      "manipuri": [
+        "ꯆꯅꯥ ꯑꯃꯨꯕ",
+        "Chana Amuba"
+      ],
+      "marathi": [
+        "काळा चणा",
+        "Kala Chana"
+      ],
+      "nepali": [
+        "काला चना",
+        "Kala Chana"
+      ],
+      "odia": [
+        "ଦେଶୀ ବୁଟ",
+        "Desi Buta"
+      ],
+      "punjabi": [
+        "ਕਾਲੇ ਛੋਲੇ",
+        "Kale Choley"
+      ],
+      "sanskrit": [
+        "कृष्णचणकः",
+        "Krishna Chanakah"
+      ],
+      "santali": [
+        "ᱦᱮᱸᱫᱮ ᱪᱚᱱᱟ",
+        "Henda Chana"
+      ],
+      "sindhi": [
+        "ڪارا چڻا",
+        "Kara Chana"
+      ],
+      "tamil": [
+        "கருப்பு கொண்டைக்கடலை",
+        "Karuppu Kondaikadalai"
+      ],
+      "telugu": [
+        "నల్ల శనగలు",
+        "Nalla Senagalu"
+      ],
+      "urdu": [
+        "کالا چنا",
+        "Kala Chana"
+      ]
+    },
+    "notes": "Kala Chana, rich in protein, used in curries."
+  },
+  {
+    "id": "kidney-beans",
+    "photo": "img/kidney-beans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Phaseolus vulgaris",
+    "names": {
+      "english": [
+        "Kidney Beans"
+      ],
+      "assamese": [
+        "ৰাজমাহ",
+        "Rajmah"
+      ],
+      "bengali": [
+        "রাজমা",
+        "Rajma"
+      ],
+      "bodo": [
+        "राजमा",
+        "Rajma"
+      ],
+      "dogri": [
+        "राजमा",
+        "Rajma"
+      ],
+      "gujarati": [
+        "રાજમા",
+        "Rajma"
+      ],
+      "hindi": [
+        "राजमा",
+        "Rajma"
+      ],
+      "kannada": [
+        "ರಾಜ್ಮಾ",
+        "Rajma"
+      ],
+      "kashmiri": [
+        "راجما",
+        "Rajma"
+      ],
+      "konkani": [
+        "राजमा",
+        "Rajma"
+      ],
+      "maithili": [
+        "राजमा",
+        "Rajma"
+      ],
+      "malayalam": [
+        "രാജ്മ",
+        "Rajma"
+      ],
+      "manipuri": [
+        "ꯔꯥꯖꯃꯥ",
+        "Rajma"
+      ],
+      "marathi": [
+        "राजमा",
+        "Rajma"
+      ],
+      "nepali": [
+        "राजमा",
+        "Rajma"
+      ],
+      "odia": [
+        "ରାଜମା",
+        "Rajma"
+      ],
+      "punjabi": [
+        "ਰਾਜਮਾਹ",
+        "Rajmah"
+      ],
+      "sanskrit": [
+        "राजमाषः",
+        "Rajamashak"
+      ],
+      "santali": [
+        "ᱨᱟᱡᱢᱟ",
+        "Rajma"
+      ],
+      "sindhi": [
+        "لوبه",
+        "Lobah"
+      ],
+      "tamil": [
+        "ராஜ்மா",
+        "Rajma"
+      ],
+      "telugu": [
+        "రాజ్మా",
+        "Rajma"
+      ],
+      "urdu": [
+        "راجما",
+        "Rajma"
+      ]
+    },
+    "notes": "Rajma, popular in North Indian curries."
+  },
+  {
+    "id": "black-eyed-peas",
+    "photo": "img/black-eyed-peas.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Vigna unguiculata",
+    "names": {
+      "english": [
+        "Black Eyed Peas"
+      ],
+      "assamese": [
+        "লবীয়া",
+        "Lobiya"
+      ],
+      "bengali": [
+        "বড়বটি",
+        "Borboti"
+      ],
+      "bodo": [
+        "लोबिआ",
+        "Lobia"
+      ],
+      "dogri": [
+        "लोबिया",
+        "Lobiya"
+      ],
+      "gujarati": [
+        "ચોળા",
+        "Chola"
+      ],
+      "hindi": [
+        "लोबिया",
+        "Lobia"
+      ],
+      "kannada": [
+        "ಅಲಸಂದೆ",
+        "Alasande"
+      ],
+      "kashmiri": [
+        "لوبیا",
+        "Lobiya"
+      ],
+      "konkani": [
+        "चवळी",
+        "Chavli"
+      ],
+      "maithili": [
+        "लोबिया",
+        "Lobiya"
+      ],
+      "malayalam": [
+        "വൻപയർ",
+        "Vanpayar"
+      ],
+      "manipuri": [
+        "ꯂꯣꯕꯤꯌꯥ",
+        "Lobiya"
+      ],
+      "marathi": [
+        "चवळी",
+        "Chavali"
+      ],
+      "nepali": [
+        "लोबिया",
+        "Lobiya"
+      ],
+      "odia": [
+        "ଝୁଡ଼ଙ୍ଗ",
+        "Jhudanga"
+      ],
+      "punjabi": [
+        "ਰੌਂਗੀ",
+        "Rongi"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱞᱳᱵᱤᱭᱟ",
+        "Lobiya"
+      ],
+      "sindhi": [
+        "چوانرا",
+        "Chuanra"
+      ],
+      "tamil": [
+        "தட்டப்பயிறு",
+        "Thatta Payiru"
+      ],
+      "telugu": [
+        "అలసందలు",
+        "Alasandalu"
+      ],
+      "urdu": [
+        "لوبیا",
+        "Lobia"
+      ]
+    },
+    "notes": "Lobia, soft texture, used in curries."
+  },
+  {
+    "id": "dried-green-peas",
+    "photo": "img/dried-green-peas.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Pisum sativum",
+    "names": {
+      "english": [
+        "Dried Green Peas"
+      ],
+      "assamese": [
+        "শুকান মটৰ",
+        "Sukan Motor"
+      ],
+      "bengali": [
+        "মটর",
+        "Motor"
+      ],
+      "bodo": [
+        "मथर",
+        "Matar"
+      ],
+      "dogri": [
+        "सुक्का मटर",
+        "Sukka Matar"
+      ],
+      "gujarati": [
+        "વટાણા",
+        "Vatana"
+      ],
+      "hindi": [
+        "सूखा मटर",
+        "Sookha Matar"
+      ],
+      "kannada": [
+        "ಬಟಾಣಿ",
+        "Batani"
+      ],
+      "kashmiri": [
+        "شُکہ متر",
+        "Shukh Matar"
+      ],
+      "konkani": [
+        "वाटाणे",
+        "Watane"
+      ],
+      "maithili": [
+        "सुखल मटर",
+        "Sukhal Matar"
+      ],
+      "malayalam": [
+        "പട്ടാണി",
+        "Pattani"
+      ],
+      "manipuri": [
+        "ꯃꯇꯔ",
+        "Matar"
+      ],
+      "marathi": [
+        "वाटाणा",
+        "Vatana"
+      ],
+      "nepali": [
+        "सुकेको मटर",
+        "Sukeko Matar"
+      ],
+      "odia": [
+        "ମଟର",
+        "Matar"
+      ],
+      "punjabi": [
+        "ਮਟਰ",
+        "Matar"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱚᱴᱚᱨ",
+        "Matar"
+      ],
+      "sindhi": [
+        "مٽر",
+        "Matar"
+      ],
+      "tamil": [
+        "பட்டாணி",
+        "Pattani"
+      ],
+      "telugu": [
+        "బటానీలు",
+        "Batanilu"
+      ],
+      "urdu": [
+        "مٹر",
+        "Matar"
+      ]
+    },
+    "notes": "Used in curries like Matar Paneer."
+  },
+  {
+    "id": "soybeans",
+    "photo": "img/soybeans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Glycine max",
+    "names": {
+      "english": [
+        "Soybeans"
+      ],
+      "assamese": [
+        "সয়াবিন",
+        "Soyabean"
+      ],
+      "bengali": [
+        "সয়াবিন",
+        "Soyabean"
+      ],
+      "bodo": [
+        "सयबिन",
+        "Soyabin"
+      ],
+      "dogri": [
+        "सोयाबीन",
+        "Soyabean"
+      ],
+      "gujarati": [
+        "સોયાબીન",
+        "Soyabean"
+      ],
+      "hindi": [
+        "सोयाबीन",
+        "Soyabean"
+      ],
+      "kannada": [
+        "ಸೋಯಾ ಅವರೇ",
+        "Soya Avare"
+      ],
+      "kashmiri": [
+        "سویابین",
+        "Soyabean"
+      ],
+      "konkani": [
+        "सोयाबीन",
+        "Soyabin"
+      ],
+      "maithili": [
+        "भटमास",
+        "Bhatmas"
+      ],
+      "malayalam": [
+        "സോയാബീൻസ്",
+        "Soyabeans"
+      ],
+      "manipuri": [
+        "ꯁꯣꯌꯥꯕꯤꯟ",
+        "Soyabin"
+      ],
+      "marathi": [
+        "सोयाबीन",
+        "Soyabean"
+      ],
+      "nepali": [
+        "भटमास",
+        "Bhatmas"
+      ],
+      "odia": [
+        "ସୋୟାବିନ୍",
+        "Soyabean"
+      ],
+      "punjabi": [
+        "ਸੋਯਾਬੀਨ",
+        "Soyabean"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱚᱭᱟᱵᱤᱱ",
+        "Soyabin"
+      ],
+      "sindhi": [
+        "سويابين",
+        "Soyabin"
+      ],
+      "tamil": [
+        "சோயாபீன்ஸ்",
+        "Soyabeans"
+      ],
+      "telugu": [
+        "సోయాబీన్స్",
+        "Soyabeans"
+      ],
+      "urdu": [
+        "سویابین",
+        "Soyabean"
+      ]
+    },
+    "notes": "High protein legume, used for chunks and milk."
+  },
+  {
+    "id": "horse-gram",
+    "photo": "img/horse-gram.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Macrotyloma uniflorum",
+    "names": {
+      "english": [
+        "Horse Gram"
+      ],
+      "assamese": [
+        "কুলথি",
+        "Kulthi"
+      ],
+      "bengali": [
+        "কুর্তি কলাই",
+        "Kurti Kalai"
+      ],
+      "bodo": [
+        "कुलथि",
+        "Kulthi"
+      ],
+      "dogri": [
+        "कुलथी",
+        "Kulthi"
+      ],
+      "gujarati": [
+        "કળથી",
+        "Kalthi"
+      ],
+      "hindi": [
+        "कुलथी",
+        "Kulthi"
+      ],
+      "kannada": [
+        "ಹುರುಳಿ",
+        "Huruli"
+      ],
+      "kashmiri": [
+        "کُلتھ",
+        "Kulath"
+      ],
+      "konkani": [
+        "कुळीथ",
+        "Kulith"
+      ],
+      "maithili": [
+        "कुलथी",
+        "Kulthi"
+      ],
+      "malayalam": [
+        "മുതിര",
+        "Muthira"
+      ],
+      "manipuri": [
+        "ꯀꯨꯂꯊꯤ",
+        "Kulthi"
+      ],
+      "marathi": [
+        "कुळीथ",
+        "Kulith"
+      ],
+      "nepali": [
+        "गहत",
+        "Gahat"
+      ],
+      "odia": [
+        "କୋଳଥ",
+        "Kolatha"
+      ],
+      "punjabi": [
+        "ਕੁਲਥੀ",
+        "Kulthi"
+      ],
+      "sanskrit": [
+        "कुलत्थः",
+        "Kulatthah"
+      ],
+      "santali": [
+        "ᱠᱩᱞᱛᱷᱤ",
+        "Kulthi"
+      ],
+      "sindhi": [
+        "ڪلٿِي",
+        "Kulthi"
+      ],
+      "tamil": [
+        "கொள்ளு",
+        "Kollu"
+      ],
+      "telugu": [
+        "ఉలవలు",
+        "Ulavalu"
+      ],
+      "urdu": [
+        "کلتھی",
+        "Kulthi"
+      ]
+    },
+    "notes": "Hardy legume, used for soup (Ras) and curries."
+  },
+  {
+    "id": "flax-seeds",
+    "photo": "img/flax-seeds.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Linum usitatissimum",
+    "names": {
+      "english": [
+        "Flax Seeds"
+      ],
+      "assamese": [
+        "আলসী",
+        "Alsi"
+      ],
+      "bengali": [
+        "তিসি",
+        "Tisi"
+      ],
+      "bodo": [
+        "अलसि",
+        "Alsi"
+      ],
+      "dogri": [
+        "अलसी",
+        "Alsi"
+      ],
+      "gujarati": [
+        "અળસી",
+        "Alsi"
+      ],
+      "hindi": [
+        "अलसी",
+        "Alsi"
+      ],
+      "kannada": [
+        "ಅಗಸೆ ಬೀಜ",
+        "Agase Beeja"
+      ],
+      "kashmiri": [
+        "السی",
+        "Alsi"
+      ],
+      "konkani": [
+        "जवस",
+        "Jawas"
+      ],
+      "maithili": [
+        "अलसी",
+        "Alsi"
+      ],
+      "malayalam": [
+        "ചണവിത്ത്",
+        "Chanavithu"
+      ],
+      "manipuri": [
+        "ꯑꯂꯁꯤ",
+        "Alsi"
+      ],
+      "marathi": [
+        "जवस",
+        "Javas"
+      ],
+      "nepali": [
+        "अलसी",
+        "Alsi"
+      ],
+      "odia": [
+        "ପେଶୀ",
+        "Peshi"
+      ],
+      "punjabi": [
+        "ਅਲਸੀ",
+        "Alsi"
+      ],
+      "sanskrit": [
+        "अतसीबीजम्",
+        "Atasi Bijam"
+      ],
+      "santali": [
+        "ᱟᱞᱥᱤ",
+        "Alsi"
+      ],
+      "sindhi": [
+        "السي",
+        "Alsi"
+      ],
+      "tamil": [
+        "ஆளி விதை",
+        "Aali Vidhai"
+      ],
+      "telugu": [
+        "అవిసె గింజలు",
+        "Avise Ginjalu"
+      ],
+      "urdu": [
+        "السی",
+        "Alsi"
+      ]
+    },
+    "notes": "Rich in Omega-3, used in chutneys and powders."
+  },
+  {
+    "id": "sesame-seeds",
+    "photo": "img/sesame-seeds.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Sesamum indicum",
+    "names": {
+      "english": [
+        "Sesame Seeds"
+      ],
+      "assamese": [
+        "তিল",
+        "Til"
+      ],
+      "bengali": [
+        "তিল",
+        "Til"
+      ],
+      "bodo": [
+        "शिबिं",
+        "Sibing"
+      ],
+      "dogri": [
+        "तिल",
+        "Til"
+      ],
+      "gujarati": [
+        "તલ",
+        "Tal"
+      ],
+      "hindi": [
+        "तिल",
+        "Til"
+      ],
+      "kannada": [
+        "ಎಳ್ಳು",
+        "Ellu"
+      ],
+      "kashmiri": [
+        "تِل",
+        "Til"
+      ],
+      "konkani": [
+        "तीळ",
+        "Til"
+      ],
+      "maithili": [
+        "तिल",
+        "Til"
+      ],
+      "malayalam": [
+        "എള്ള്",
+        "Ellu"
+      ],
+      "manipuri": [
+        "ꯇꯤꯜ",
+        "Til"
+      ],
+      "marathi": [
+        "तीळ",
+        "Til"
+      ],
+      "nepali": [
+        "तिल",
+        "Til"
+      ],
+      "odia": [
+        "ରାଶି",
+        "Rashi"
+      ],
+      "punjabi": [
+        "ਤਿਲ",
+        "Til"
+      ],
+      "sanskrit": [
+        "तिलबीजम्",
+        "Tila Bijam"
+      ],
+      "santali": [
+        "ᱛᱤᱞᱢᱤᱧ",
+        "Tilmin"
+      ],
+      "sindhi": [
+        "تِر",
+        "Tir"
+      ],
+      "tamil": [
+        "எள்",
+        "Ellu"
+      ],
+      "telugu": [
+        "నువ్వులు",
+        "Nuvvulu"
+      ],
+      "urdu": [
+        "تل",
+        "Til"
+      ]
+    },
+    "notes": "Used in sweets (Til-Gud) and seasonings."
+  },
+  {
+    "id": "groundnut",
+    "photo": "img/groundnut.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Arachis hypogaea",
+    "names": {
+      "english": [
+        "Groundnut"
+      ],
+      "assamese": [
+        "বাদাম",
+        "Badam"
+      ],
+      "bengali": [
+        "চিনাবাদাম",
+        "Chinabadam"
+      ],
+      "bodo": [
+        "बादाम",
+        "Badam"
+      ],
+      "dogri": [
+        "मूंगफली",
+        "Moongphali"
+      ],
+      "gujarati": [
+        "સીંગદાણા",
+        "Singdana"
+      ],
+      "hindi": [
+        "मूंगफली",
+        "Moongfali"
+      ],
+      "kannada": [
+        "ಕಡಲೆಕಾಯಿ",
+        "Kadalekayi"
+      ],
+      "kashmiri": [
+        "بادام",
+        "Badam"
+      ],
+      "konkani": [
+        "शेंगदाणे",
+        "Shengdane"
+      ],
+      "maithili": [
+        "मूंगफली",
+        "Moongphali"
+      ],
+      "malayalam": [
+        "നിലക്കടല",
+        "Nilakadala"
+      ],
+      "manipuri": [
+        "ꯃꯨꯡꯐꯂꯤ",
+        "Moongphali"
+      ],
+      "marathi": [
+        "शेंगदाणा",
+        "Shengdana"
+      ],
+      "nepali": [
+        "बदाम",
+        "Badam"
+      ],
+      "odia": [
+        "ଚିନାବାଦାମ",
+        "Chinabadam"
+      ],
+      "punjabi": [
+        "ਮੂੰਗਫਲੀ",
+        "Moongphali"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱤᱱᱟᱹ ᱵᱟᱫᱟᱢ",
+        "China Badam"
+      ],
+      "sindhi": [
+        "مڱيرا",
+        "Mungera"
+      ],
+      "tamil": [
+        "வேர்க்கடலை",
+        "Verkadalai"
+      ],
+      "telugu": [
+        "వేరుశనగ",
+        "Verusenaga"
+      ],
+      "urdu": [
+        "مونگ پھلی",
+        "Moongphali"
+      ]
+    },
+    "notes": "Peanuts, used in Chutneys and snacks."
+  },
+  {
+    "id": "sago",
+    "photo": "img/sago.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Metroxylon sagu",
+    "names": {
+      "english": [
+        "Sago"
+      ],
+      "assamese": [
+        "සව්",
+        "Sagu"
+      ],
+      "bengali": [
+        "সাগু",
+        "Sagu"
+      ],
+      "bodo": [
+        "सागुदाना",
+        "Sagudana"
+      ],
+      "dogri": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "gujarati": [
+        "સાબુદાણા",
+        "Sabudana"
+      ],
+      "hindi": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "kannada": [
+        "ಸಾಬಕ್ಕಿ",
+        "Sabakki"
+      ],
+      "kashmiri": [
+        "ساگو",
+        "Sagu"
+      ],
+      "konkani": [
+        "साबुदाणा",
+        "Sabudana"
+      ],
+      "maithili": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "malayalam": [
+        "ചവ്വരി",
+        "Chowwari"
+      ],
+      "manipuri": [
+        "ꯁꯥꯕꯨꯗꯥꯅꯥ",
+        "Sabudana"
+      ],
+      "marathi": [
+        "साबुदाणा",
+        "Sabudana"
+      ],
+      "nepali": [
+        "साबुदाना",
+        "Sabudana"
+      ],
+      "odia": [
+        "ସାଗୁ",
+        "Sagu"
+      ],
+      "punjabi": [
+        "ਸਾਬੂਦਾਣਾ",
+        "Sabudana"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱟᱵᱩᱫᱟᱱᱟ",
+        "Sabudana"
+      ],
+      "sindhi": [
+        "ساگو داڻا",
+        "Sagudana"
+      ],
+      "tamil": [
+        "ஜவ்வரிசி",
+        "Javvarisi"
+      ],
+      "telugu": [
+        "సగ్గుబియ్యం",
+        "Saggubiyyam"
+      ],
+      "urdu": [
+        "ساگودانہ",
+        "Sabudana"
+      ]
+    },
+    "notes": "Sabudana, used for Khichdi and Vada."
+  },
+  {
+    "id": "fox-nuts",
+    "photo": "img/fox-nuts.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Euryale ferox",
+    "names": {
+      "english": [
+        "Fox Nuts"
+      ],
+      "assamese": [
+        "মাখানা",
+        "Makhana"
+      ],
+      "bengali": [
+        "মাখনা",
+        "Makhana"
+      ],
+      "bodo": [
+        "मखाना",
+        "Makhana"
+      ],
+      "dogri": [
+        "मखाना",
+        "Makhana"
+      ],
+      "gujarati": [
+        "મખાના",
+        "Makhana"
+      ],
+      "hindi": [
+        "मखाना",
+        "Makhana"
+      ],
+      "kannada": [
+        "ತಾವರೆ ಬೀಜ",
+        "Tavare Beeja"
+      ],
+      "kashmiri": [
+        "مَکھانہ",
+        "Makhana"
+      ],
+      "konkani": [
+        "मखाणे",
+        "Makhane"
+      ],
+      "maithili": [
+        "मखाना",
+        "Makhana"
+      ],
+      "malayalam": [
+        "താമര വിത്ത്",
+        "Thamara Vithu"
+      ],
+      "manipuri": [
+        "ꯃꯈꯥꯅꯥ",
+        "Makhana"
+      ],
+      "marathi": [
+        "मखाणे",
+        "Makhane"
+      ],
+      "nepali": [
+        "माखाना",
+        "Makhana"
+      ],
+      "odia": [
+        "ମଖାନା",
+        "Makhana"
+      ],
+      "punjabi": [
+        "ਫੁੱਲ ਮਖਾਣਾ",
+        "Phool Makhana"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱚᱠᱷᱟᱱᱟ",
+        "Makhana"
+      ],
+      "sindhi": [
+        "مکاڻا",
+        "Makhana"
+      ],
+      "tamil": [
+        "தாமரை விதை",
+        "Thamarai Vithai"
+      ],
+      "telugu": [
+        "తామర గింజలు",
+        "Tamara Ginjalu"
+      ],
+      "urdu": [
+        "مکھانے",
+        "Makhane"
+      ]
+    },
+    "notes": "Makhana, puffed lotus seeds, healthy snack."
+  },
+  {
+    "id": "poha",
+    "photo": "img/poha.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Flattened Rice",
+    "names": {
+      "english": [
+        "Poha"
+      ],
+      "assamese": [
+        "চিৰা",
+        "Chira"
+      ],
+      "bengali": [
+        "চিঁড়ে",
+        "Chira"
+      ],
+      "bodo": [
+        "सिरा",
+        "Sira"
+      ],
+      "dogri": [
+        "पोहा",
+        "Poha"
+      ],
+      "gujarati": [
+        "પૌંઆ",
+        "Pauva"
+      ],
+      "hindi": [
+        "पोहा",
+        "Poha"
+      ],
+      "kannada": [
+        "ಅವಲಕ್ಕಿ",
+        "Avalakki"
+      ],
+      "kashmiri": [
+        "چیوُرہ",
+        "Chyura"
+      ],
+      "konkani": [
+        "पोहे",
+        "Pohe"
+      ],
+      "maithili": [
+        "चिउड़ा",
+        "Chiuda"
+      ],
+      "malayalam": [
+        "അവിൽ",
+        "Avil"
+      ],
+      "manipuri": [
+        "ꯆꯤꯎꯔꯥ",
+        "Chiura"
+      ],
+      "marathi": [
+        "पोहे",
+        "Pohe"
+      ],
+      "nepali": [
+        "चिउरा",
+        "Chiura"
+      ],
+      "odia": [
+        "ଚୁଡା",
+        "Chuda"
+      ],
+      "punjabi": [
+        "ਚਿੜਵੜੇ",
+        "Chidvade"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱩᱲᱟᱹ",
+        "Chura"
+      ],
+      "sindhi": [
+        "پوها",
+        "Poha"
+      ],
+      "tamil": [
+        "அவல்",
+        "Aval"
+      ],
+      "telugu": [
+        "అటుకులు",
+        "Atukulu"
+      ],
+      "urdu": [
+        "پوہا",
+        "Poha"
+      ]
+    },
+    "notes": "Flattened rice, popular breakfast dish."
+  },
+  {
+    "id": "semolina",
+    "photo": "img/semolina.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Triticum durum",
+    "names": {
+      "english": [
+        "Semolina"
+      ],
+      "assamese": [
+        "চুজি",
+        "Suji"
+      ],
+      "bengali": [
+        "সুজি",
+        "Suji"
+      ],
+      "bodo": [
+        "सुजि",
+        "Suji"
+      ],
+      "dogri": [
+        "सूजी",
+        "Suji"
+      ],
+      "gujarati": [
+        "સોજી",
+        "Sooji"
+      ],
+      "hindi": [
+        "सूजी",
+        "Sooji"
+      ],
+      "kannada": [
+        "ರವೆ",
+        "Rave"
+      ],
+      "kashmiri": [
+        "سُوجی",
+        "Suji"
+      ],
+      "konkani": [
+        "रवा",
+        "Rava"
+      ],
+      "maithili": [
+        "सूजी",
+        "Suji"
+      ],
+      "malayalam": [
+        "റവ",
+        "Rava"
+      ],
+      "manipuri": [
+        "ꯁꯨꯖꯤ",
+        "Suji"
+      ],
+      "marathi": [
+        "रवा",
+        "Rava"
+      ],
+      "nepali": [
+        "सूजी",
+        "Suji"
+      ],
+      "odia": [
+        "ସୁଜି",
+        "Suji"
+      ],
+      "punjabi": [
+        "ਸੂਜੀ",
+        "Sooji"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱩᱡᱤ",
+        "Suji"
+      ],
+      "sindhi": [
+        "سوجِي",
+        "Suji"
+      ],
+      "tamil": [
+        "ரவை",
+        "Ravai"
+      ],
+      "telugu": [
+        "రవ్వ",
+        "Ravva"
+      ],
+      "urdu": [
+        "سوجی",
+        "Sooji"
+      ]
+    },
+    "notes": "Rava or Sooji, used for Upma and Halwa."
+  },
+  {
+    "id": "vermicelli",
+    "photo": "img/vermicelli.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Triticum",
+    "names": {
+      "english": [
+        "Vermicelli"
+      ],
+      "assamese": [
+        "চেৱৈ",
+        "Sewai"
+      ],
+      "bengali": [
+        "সেমাই",
+        "Semai"
+      ],
+      "bodo": [
+        "शेवइ",
+        "Sewai"
+      ],
+      "dogri": [
+        "सेवइयां",
+        "Sewaiya"
+      ],
+      "gujarati": [
+        "સેવ",
+        "Sev"
+      ],
+      "hindi": [
+        "सेवई",
+        "Sevai"
+      ],
+      "kannada": [
+        "ಶಾವಿಗೆ",
+        "Shavige"
+      ],
+      "kashmiri": [
+        "سیوئیاں",
+        "Sewiyan"
+      ],
+      "konkani": [
+        "शेवया",
+        "Shevaya"
+      ],
+      "maithili": [
+        "सेवइयाँ",
+        "Sewaiya"
+      ],
+      "malayalam": [
+        "സേമിയ",
+        "Semiya"
+      ],
+      "manipuri": [
+        "ꯁꯦꯋꯥꯏ",
+        "Sewai"
+      ],
+      "marathi": [
+        "शेवया",
+        "Shevaya"
+      ],
+      "nepali": [
+        "सेमी",
+        "Semi"
+      ],
+      "odia": [
+        "ସିମେଇ",
+        "Simei"
+      ],
+      "punjabi": [
+        "ਸੇਵੀਆਂ",
+        "Seviyan"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱮᱣᱟᱭ",
+        "Sewai"
+      ],
+      "sindhi": [
+        "سيون",
+        "Seyon"
+      ],
+      "tamil": [
+        "சேமியா",
+        "Semiya"
+      ],
+      "telugu": [
+        "సేమియా",
+        "Semiya"
+      ],
+      "urdu": [
+        "سیویاں",
+        "Seviyan"
+      ]
+    },
+    "notes": "Semiya, used for Upma and Payasam."
+  },
+  {
+    "id": "jaggery",
+    "photo": "img/jaggery.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Saccharum officinarum (Product)",
+    "names": {
+      "english": [
+        "Jaggery"
+      ],
+      "assamese": [
+        "গুৰ",
+        "Gur"
+      ],
+      "bengali": [
+        "গুড়",
+        "Gur"
+      ],
+      "bodo": [
+        "गुर",
+        "Gur"
+      ],
+      "dogri": [
+        "गुड़",
+        "Gud"
+      ],
+      "gujarati": [
+        "ગોળ",
+        "Gol"
+      ],
+      "hindi": [
+        "गुड़",
+        "Gud"
+      ],
+      "kannada": [
+        "ಬೆಲ್ಲ",
+        "Bella"
+      ],
+      "kashmiri": [
+        "گُڑ",
+        "Gud"
+      ],
+      "konkani": [
+        "गूळ",
+        "Gul"
+      ],
+      "maithili": [
+        "गुड़",
+        "Gud"
+      ],
+      "malayalam": [
+        "ശർക്കര",
+        "Sarkkara"
+      ],
+      "manipuri": [
+        "ꯒꯨꯗ",
+        "Gud"
+      ],
+      "marathi": [
+        "गुळ",
+        "Gul"
+      ],
+      "nepali": [
+        "गुड",
+        "Gud"
+      ],
+      "odia": [
+        "ଗୁଡ",
+        "Guda"
+      ],
+      "punjabi": [
+        "ਗੁੜ",
+        "Gud"
+      ],
+      "sanskrit": [
+        "गुडः",
+        "Gudah"
+      ],
+      "santali": [
+        "ᱜᱩᱲ",
+        "Gur"
+      ],
+      "sindhi": [
+        "ڳڙ",
+        "Gur"
+      ],
+      "tamil": [
+        "வெல்லம்",
+        "Vellam"
+      ],
+      "telugu": [
+        "బెల్లం",
+        "Bellam"
+      ],
+      "urdu": [
+        "گڑ",
+        "Gud"
+      ]
+    },
+    "notes": "Unrefined cane sugar, traditional sweetener."
+  },
+  {
+    "id": "chia-seeds",
+    "photo": "img/chia-seeds.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Salvia hispanica",
+    "names": {
+      "english": [
+        "Chia Seeds"
+      ],
+      "assamese": [
+        "চিয়া বীজ",
+        "Chia Seeds"
+      ],
+      "bengali": [
+        "চিয়া সিড",
+        "Chia Seed"
+      ],
+      "bodo": [
+        "चिआ",
+        "Chia"
+      ],
+      "dogri": [
+        "चिया बीज",
+        "Chia Beej"
+      ],
+      "gujarati": [
+        "ચિયા સીડ્સ",
+        "Chia Seeds"
+      ],
+      "hindi": [
+        "चिया बीज",
+        "Chia Beej"
+      ],
+      "kannada": [
+        "ಚಿಯಾ ಬೀಜ",
+        "Chia Beeja"
+      ],
+      "kashmiri": [
+        "چیا بیج",
+        "Chia Beej"
+      ],
+      "konkani": [
+        "चिया बी",
+        "Chia Bee"
+      ],
+      "maithili": [
+        "चिया बी",
+        "Chia Bee"
+      ],
+      "malayalam": [
+        "ചിയ വിത്ത്",
+        "Chia Vithu"
+      ],
+      "manipuri": [
+        "ꯆꯤꯌꯥ",
+        "Chiya"
+      ],
+      "marathi": [
+        "चिया बिया",
+        "Chia Biya"
+      ],
+      "nepali": [
+        "चिया बीउ",
+        "Chia Biu"
+      ],
+      "odia": [
+        "ଚିଆ ମଞ୍ଜି",
+        "Chia Manji"
+      ],
+      "punjabi": [
+        "ਚਿਆ ਬੀਜ",
+        "Chia Beej"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱤᱭᱟ",
+        "Chiya"
+      ],
+      "sindhi": [
+        "چيا",
+        "Chia"
+      ],
+      "tamil": [
+        "சியா விதைகள்",
+        "Chia Vithaigal"
+      ],
+      "telugu": [
+        "చియా గింజలు",
+        "Chia Ginjalu"
+      ],
+      "urdu": [
+        "چیا بیج",
+        "Chia Beej"
+      ]
+    },
+    "notes": "Superfood rich in fiber and antioxidants."
+  },
+  {
+    "id": "sunflower-seeds",
+    "photo": "img/sunflower-seeds.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Helianthus annuus",
+    "names": {
+      "english": [
+        "Sunflower Seeds"
+      ],
+      "assamese": [
+        "বেলিফুলৰ বীজ",
+        "Beliphulor Bija"
+      ],
+      "bengali": [
+        "সূর্যমুখী বীজ",
+        "Surjamukhi Beej"
+      ],
+      "bodo": [
+        "बेलाश्री",
+        "Belasri"
+      ],
+      "dogri": [
+        "सूरजमुखी बीज",
+        "Surajmukhi Beej"
+      ],
+      "gujarati": [
+        "સૂર્યમુખી ના બીજ",
+        "Suryamukhi Na Beej"
+      ],
+      "hindi": [
+        "सूरजमुखी के बीज",
+        "Surajmukhi Ke Beej"
+      ],
+      "kannada": [
+        "ಸೂರ್ಯಕಾಂತಿ ಬೀಜ",
+        "Suryakanthi Beeja"
+      ],
+      "kashmiri": [
+        "آفتاب پرست بیج",
+        "Aftab Parast Beej"
+      ],
+      "konkani": [
+        "सूर्यफूलाची बी",
+        "Suryaphulachi Bee"
+      ],
+      "maithili": [
+        "सूर्यमुखी बी",
+        "Suryamukhi Bee"
+      ],
+      "malayalam": [
+        "സൂര്യകാന്തി വിത്ത്",
+        "Suryakanthi Vithu"
+      ],
+      "manipuri": [
+        "ꯁꯨꯔꯖꯃꯨꯈꯤ",
+        "Surjamukhi"
+      ],
+      "marathi": [
+        "सूर्यफूल बिया",
+        "Suryaphool Biya"
+      ],
+      "nepali": [
+        "सूर्यमुखी बीउ",
+        "Suryamukhi Biu"
+      ],
+      "odia": [
+        "ସୂର୍ଯ୍ୟମୁଖୀ ମଞ୍ଜି",
+        "Surjyamukhi Manji"
+      ],
+      "punjabi": [
+        "ਸੂਰਜਮੁਖੀ ਦੇ ਬੀਜ",
+        "Surajmukhi De Beej"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱩᱨᱩᱡᱢᱩᱠᱷᱤ",
+        "Surujmukhi"
+      ],
+      "sindhi": [
+        "سورج مکي ٻج",
+        "Surajmukhi Beej"
+      ],
+      "tamil": [
+        "சூரியகாந்தி விதைகள்",
+        "Suriyakanthi Vithaigal"
+      ],
+      "telugu": [
+        "పొద్దుతిరుగుడు గింజలు",
+        "Poddutirugudu Ginjalu"
+      ],
+      "urdu": [
+        "سورج مکھی کے بیج",
+        "Suraj Mukhi Ke Beej"
+      ]
+    },
+    "notes": "Healthy snack seeds."
+  },
+  {
+    "id": "pumpkin-seeds",
+    "photo": "img/pumpkin-seeds.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Cucurbita",
+    "names": {
+      "english": [
+        "Pumpkin Seeds"
+      ],
+      "assamese": [
+        "ৰঙালাউৰ বীজ",
+        "Rongalau Bija"
+      ],
+      "bengali": [
+        "কুমড়ো বীজ",
+        "Kumro Beej"
+      ],
+      "bodo": [
+        "कुमराह",
+        "Kumrah"
+      ],
+      "dogri": [
+        "कद्दू बीज",
+        "Kaddu Beej"
+      ],
+      "gujarati": [
+        "કોળા ના બીજ",
+        "Kola Na Beej"
+      ],
+      "hindi": [
+        "कद्दू के बीज",
+        "Kaddu Ke Beej"
+      ],
+      "kannada": [
+        "ಕುಂಬಳಕಾಯಿ ಬೀಜ",
+        "Kumbalakayi Beeja"
+      ],
+      "kashmiri": [
+        "کدو بیج",
+        "Kaddu Beej"
+      ],
+      "konkani": [
+        "भोपळ्याची बी",
+        "Bhoplyachi Bee"
+      ],
+      "maithili": [
+        "कद्दू बी",
+        "Kaddu Bee"
+      ],
+      "malayalam": [
+        "മത്തങ്ങ വിത്ത്",
+        "Mathanga Vithu"
+      ],
+      "manipuri": [
+        "ꯀꯗꯨ",
+        "Kaddu"
+      ],
+      "marathi": [
+        "भोपळ्याच्या बिया",
+        "Bhoplyachya Biya"
+      ],
+      "nepali": [
+        "फर्सी बीउ",
+        "Pharsi Biu"
+      ],
+      "odia": [
+        "କଖାରୁ ମଞ୍ଜି",
+        "Kakharu Manji"
+      ],
+      "punjabi": [
+        "ਕੱਦੂ ਦੇ ਬੀਜ",
+        "Kaddu De Beej"
+      ],
+      "sanskrit": [
+        "कुष्माण्डबीजम्",
+        "Kushmanda Bijam"
+      ],
+      "santali": [
+        "ᱠᱚᱦᱸᱰᱟ ᱡᱟᱝ",
+        "Kohnda Jang"
+      ],
+      "sindhi": [
+        "ڪدو ٻج",
+        "Kaddu Beej"
+      ],
+      "tamil": [
+        "பூசணி விதைகள்",
+        "Poosani Vithaigal"
+      ],
+      "telugu": [
+        "గుమ్మడి గింజలు",
+        "Gummadi Ginjalu"
+      ],
+      "urdu": [
+        "کدو کے بیج",
+        "Kaddu Ke Beej"
+      ]
+    },
+    "notes": "Rich in magnesium and zinc."
+  },
+  {
+    "id": "quinoa",
+    "photo": "img/quinoa.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Chenopodium quinoa",
+    "names": {
+      "english": [
+        "Quinoa"
+      ],
+      "assamese": [
+        "কিনোৱা",
+        "Quinoa"
+      ],
+      "bengali": [
+        "কুইনোয়া",
+        "Quinoa"
+      ],
+      "bodo": [
+        "कुइनुआ",
+        "Quinoa"
+      ],
+      "dogri": [
+        "क्विनोआ",
+        "Quinoa"
+      ],
+      "gujarati": [
+        "ક્વિનોઆ",
+        "Quinoa"
+      ],
+      "hindi": [
+        "क्विनोआ",
+        "Quinoa"
+      ],
+      "kannada": [
+        "ನವಣೆ",
+        "Navane"
+      ],
+      "kashmiri": [
+        "کوئنوا",
+        "Quinoa"
+      ],
+      "konkani": [
+        "क्विनोआ",
+        "Quinoa"
+      ],
+      "maithili": [
+        "क्विनोआ",
+        "Quinoa"
+      ],
+      "malayalam": [
+        "കിനോവ",
+        "Quinoa"
+      ],
+      "manipuri": [
+        "ꯀꯨꯏꯅꯣꯋꯥ",
+        "Quinoa"
+      ],
+      "marathi": [
+        "क्विनोआ",
+        "Quinoa"
+      ],
+      "nepali": [
+        "क्विनोवा",
+        "Quinoa"
+      ],
+      "odia": [
+        "କ୍ୱିନୋଆ",
+        "Quinoa"
+      ],
+      "punjabi": [
+        "ਕਵਿਨੋਆ",
+        "Quinoa"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱣᱤᱱᱳᱣᱟ",
+        "Quinoa"
+      ],
+      "sindhi": [
+        "ڪينوا",
+        "Quinoa"
+      ],
+      "tamil": [
+        "திணை",
+        "Thinai"
+      ],
+      "telugu": [
+        "కొర్రలు",
+        "Korralu"
+      ],
+      "urdu": [
+        "کوinoa",
+        "Quinoa"
+      ]
+    },
+    "notes": "Complete protein grain, gluten-free."
+  },
+  {
+    "id": "oats",
+    "photo": "img/oats.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Avena sativa",
+    "names": {
+      "english": [
+        "Oats"
+      ],
+      "assamese": [
+        "ওটছ",
+        "Oats"
+      ],
+      "bengali": [
+        "ওটস",
+        "Oats"
+      ],
+      "bodo": [
+        "ओतस",
+        "Oats"
+      ],
+      "dogri": [
+        "ओट्स",
+        "Oats"
+      ],
+      "gujarati": [
+        "ઓટ્સ",
+        "Oats"
+      ],
+      "hindi": [
+        "जई",
+        "Jai"
+      ],
+      "kannada": [
+        "ಓಟ್ಸ್",
+        "Oats"
+      ],
+      "kashmiri": [
+        "اوٹس",
+        "Oats"
+      ],
+      "konkani": [
+        "ओट्स",
+        "Oats"
+      ],
+      "maithili": [
+        "ओट्स",
+        "Oats"
+      ],
+      "malayalam": [
+        "ഓട്സ്",
+        "Oats"
+      ],
+      "manipuri": [
+        "ꯑꯣꯇ꯭ꯁ",
+        "Oats"
+      ],
+      "marathi": [
+        "ओट्स",
+        "Oats"
+      ],
+      "nepali": [
+        "ओट्स",
+        "Oats"
+      ],
+      "odia": [
+        "ଓଟ୍ସ",
+        "Oats"
+      ],
+      "punjabi": [
+        "ਓਟਸ",
+        "Oats"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱳᱴᱥ",
+        "Oats"
+      ],
+      "sindhi": [
+        "جَو",
+        "Jau"
+      ],
+      "tamil": [
+        "ஓட்ஸ்",
+        "Oats"
+      ],
+      "telugu": [
+        "ఓట్స్",
+        "Oats"
+      ],
+      "urdu": [
+        "جई",
+        "Jai"
+      ]
+    },
+    "notes": "High fiber cereal, good for breakfast porridge."
+  },
+  {
+    "id": "buckwheat",
+    "photo": "img/buckwheat.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Fagopyrum esculentum",
+    "names": {
+      "english": [
+        "Buckwheat"
+      ],
+      "assamese": [
+        "ফাপৰ",
+        "Phapar"
+      ],
+      "bengali": [
+        "বাকহুইট",
+        "Buckwheat"
+      ],
+      "bodo": [
+        "कुत्तु",
+        "Kuttu"
+      ],
+      "dogri": [
+        "कुट्टू",
+        "Kuttu"
+      ],
+      "gujarati": [
+        "કુટ્ટુ",
+        "Kuttu"
+      ],
+      "hindi": [
+        "कुट्टू",
+        "Kuttu"
+      ],
+      "kannada": [
+        "ಕುಟ್ಟು",
+        "Kuttu"
+      ],
+      "kashmiri": [
+        "کٹہ",
+        "Katha"
+      ],
+      "konkani": [
+        "कुट्टू",
+        "Kuttu"
+      ],
+      "maithili": [
+        "कुट्टू",
+        "Kuttu"
+      ],
+      "malayalam": [
+        "ബക്ക്വീറ്റ്",
+        "Buckwheat"
+      ],
+      "manipuri": [
+        "ꯀꯨꯠꯇꯨ",
+        "Kuttu"
+      ],
+      "marathi": [
+        "कुट्टू",
+        "Kuttu"
+      ],
+      "nepali": [
+        "फाप",
+        "Phap"
+      ],
+      "odia": [
+        "କୁଟ୍ଟୁ",
+        "Kuttu"
+      ],
+      "punjabi": [
+        "ਕੁੱਟੂ",
+        "Kuttu"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱠᱩᱴᱴᱩ",
+        "Kuttu"
+      ],
+      "sindhi": [
+        "ڪُٽو",
+        "Kuttu"
+      ],
+      "tamil": [
+        "பக்வீட்",
+        "Buckwheat"
+      ],
+      "telugu": [
+        "బక్వీట్",
+        "Buckwheat"
+      ],
+      "urdu": [
+        "کٹو",
+        "Kuttu"
+      ]
+    },
+    "notes": "Kuttu, consumed during fasting (Vrat)."
+  },
+  {
+    "id": "brown-rice",
+    "photo": "img/brown-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Brown Rice"
+      ],
+      "assamese": [
+        "বৰা চাউল",
+        "Bora Saul"
+      ],
+      "bengali": [
+        "ঢেঁকি ছাঁটা চাল",
+        "Dhenki Chata Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "भूरा चावल",
+        "Bhura Chawal"
+      ],
+      "gujarati": [
+        "બ્રાઉન રાઈસ",
+        "Brown Rice"
+      ],
+      "hindi": [
+        "ब्राउन राइस",
+        "Brown Rice"
+      ],
+      "kannada": [
+        "ಕೆಂಪಕ್ಕಿ",
+        "Kempakki"
+      ],
+      "kashmiri": [
+        "سانولا چاول",
+        "Sanwala Chawal"
+      ],
+      "konkani": [
+        "तपकिरी तांदूळ",
+        "Tapkiri Tandul"
+      ],
+      "maithili": [
+        "भूरा चाउर",
+        "Bhura Chaur"
+      ],
+      "malayalam": [
+        "തവിടുള്ള അരി",
+        "Thavidulla Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "ब्राउन राइस",
+        "Brown Rice"
+      ],
+      "nepali": [
+        "खैरो चामल",
+        "Khairo Chamal"
+      ],
+      "odia": [
+        "ନାଲି ଚାଉଳ",
+        "Nali Chaula"
+      ],
+      "punjabi": [
+        "ਬ੍ਰਾਉਨ ਚਾਵਲ",
+        "Brown Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "چانور",
+        "Chanwar"
+      ],
+      "tamil": [
+        "கைக்குத்தல் அரிசி",
+        "Kaikuthal Arisi"
+      ],
+      "telugu": [
+        "ముడి బియ్యం",
+        "Mudi Biyyam"
+      ],
+      "urdu": [
+        "براؤن چاول",
+        "Brown Chawal"
+      ]
+    },
+    "notes": "Whole grain rice with bran layer intact."
+  },
+  {
+    "id": "basmati-rice",
+    "photo": "img/basmati-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Basmati Rice"
+      ],
+      "assamese": [
+        "বাসমতী চাউল",
+        "Basmati Saul"
+      ],
+      "bengali": [
+        "বাসমতি চাল",
+        "Basmati Chal"
+      ],
+      "bodo": [
+        "बासमथि",
+        "Basmathi"
+      ],
+      "dogri": [
+        "बासमती चावल",
+        "Basmati Chawal"
+      ],
+      "gujarati": [
+        "બાસમતી ચોખા",
+        "Basmati Chokha"
+      ],
+      "hindi": [
+        "बासमती",
+        "Basmati"
+      ],
+      "kannada": [
+        "ಬಾಸುಮತಿ ಅಕ್ಕಿ",
+        "Basumati Akki"
+      ],
+      "kashmiri": [
+        "باسمتی چاول",
+        "Basmati Chawal"
+      ],
+      "konkani": [
+        "बासमती तांदूळ",
+        "Basmati Tandul"
+      ],
+      "maithili": [
+        "बासमती चाउर",
+        "Basmati Chaur"
+      ],
+      "malayalam": [
+        "ബസ്മതി അരി",
+        "Basmati Ari"
+      ],
+      "manipuri": [
+        "ꯕꯥꯁꯃꯇꯤ",
+        "Basmati"
+      ],
+      "marathi": [
+        "बासमती तांदूळ",
+        "Basmati Tandul"
+      ],
+      "nepali": [
+        "बासमती चामल",
+        "Basmati Chamal"
+      ],
+      "odia": [
+        "ବାସୁମତୀ ଚାଉଳ",
+        "Basumati Chaula"
+      ],
+      "punjabi": [
+        "ਬਾਸਮਤੀ ਚਾਵਲ",
+        "Basmati Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱟᱥᱢᱟᱛᱤ",
+        "Basmati"
+      ],
+      "sindhi": [
+        "باسمتي",
+        "Basmati"
+      ],
+      "tamil": [
+        "பாசுமதி அரிசி",
+        "Basmati Arisi"
+      ],
+      "telugu": [
+        "బాస్మతి బియ్యం",
+        "Basmati Biyyam"
+      ],
+      "urdu": [
+        "باسمتی چاول",
+        "Basmati Chawal"
+      ]
+    },
+    "notes": "Aromatic long-grain rice for Biryani."
+  },
+  {
+    "id": "jasmine-rice",
+    "photo": "img/jasmine-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Jasmine Rice"
+      ],
+      "assamese": [
+        "জেসমিন চাউল",
+        "Jasmine Saul"
+      ],
+      "bengali": [
+        "জেসমিন চাল",
+        "Jasmine Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "जैस्मिन चावल",
+        "Jasmine Chawal"
+      ],
+      "gujarati": [
+        "જાસ્મીન ચોખા",
+        "Jasmine Chokha"
+      ],
+      "hindi": [
+        "जैस्मिन चावल",
+        "Jasmine Chawal"
+      ],
+      "kannada": [
+        "ಜಾಸ್ಮಿನ್ ಅಕ್ಕಿ",
+        "Jasmine Akki"
+      ],
+      "kashmiri": [
+        "جیسمین چاول",
+        "Jasmine Chawal"
+      ],
+      "konkani": [
+        "जास्मिन तांदूळ",
+        "Jasmine Tandul"
+      ],
+      "maithili": [
+        "चमेली चाउर",
+        "Chameli Chaur"
+      ],
+      "malayalam": [
+        "ജാസ്മിൻ അരി",
+        "Jasmine Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "जस्मिन तांदूळ",
+        "Jasmine Tandul"
+      ],
+      "nepali": [
+        "चमेली चामल",
+        "Chameli Chamal"
+      ],
+      "odia": [
+        "ଜସ୍ମିନ୍ ଚାଉଳ",
+        "Jasmine Chaula"
+      ],
+      "punjabi": [
+        "ਜੈਸਮੀਨ ਚਾਵਲ",
+        "Jasmine Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "چانور",
+        "Chanwar"
+      ],
+      "tamil": [
+        "மல்லிகை அரிசி",
+        "Malligai Arisi"
+      ],
+      "telugu": [
+        "జాస్మిన్ రైస్",
+        "Jasmine Rice"
+      ],
+      "urdu": [
+        "جیسمین چاول",
+        "Jasmine Chawal"
+      ]
+    },
+    "notes": "Slightly sticky aromatic rice."
+  },
+  {
+    "id": "sona-masoori",
+    "photo": "img/sona-masoori.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Sona Masoori"
+      ],
+      "assamese": [
+        "সোনা মাচুৰি",
+        "Sona Masoori"
+      ],
+      "bengali": [
+        "সোনা মাসুরি",
+        "Sona Masoori"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "सोना मसूरी",
+        "Sona Masoori"
+      ],
+      "gujarati": [
+        "સોના મસુરી",
+        "Sona Masoori"
+      ],
+      "hindi": [
+        "सोना मसूरी",
+        "Sona Masoori"
+      ],
+      "kannada": [
+        "ಸೋನಾ ಮಸೂರಿ",
+        "Sona Masoori"
+      ],
+      "kashmiri": [
+        "سونا مسوری",
+        "Sona Masoori"
+      ],
+      "konkani": [
+        "सोना मसूरी",
+        "Sona Masoori"
+      ],
+      "maithili": [
+        "सोना मसूरी",
+        "Sona Masoori"
+      ],
+      "malayalam": [
+        "സോനാ മസൂരി",
+        "Sona Masoori"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "सोना मसुरी",
+        "Sona Masoori"
+      ],
+      "nepali": [
+        "सोना मसूरी",
+        "Sona Masoori"
+      ],
+      "odia": [
+        "ସୋନା ମସୁରୀ",
+        "Sona Masoori"
+      ],
+      "punjabi": [
+        "ਸੋਨਾ ਮਸੂਰੀ",
+        "Sona Masoori"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "چانور",
+        "Chanwar"
+      ],
+      "tamil": [
+        "சோனா மசூரி",
+        "Sona Masoori"
+      ],
+      "telugu": [
+        "సోనా మసూరి",
+        "Sona Masoori"
+      ],
+      "urdu": [
+        "سونا مسوری",
+        "Sona Masoori"
+      ]
+    },
+    "notes": "Medium-grain rice, popular in South India."
+  },
+  {
+    "id": "parboiled-rice",
+    "photo": "img/parboiled-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Parboiled Rice"
+      ],
+      "assamese": [
+        "উখোৱা চাউল",
+        "Ukhuwa Saul"
+      ],
+      "bengali": [
+        "সেদ্ধ চাল",
+        "Siddha Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "उबला चावल",
+        "Ubla Chawal"
+      ],
+      "gujarati": [
+        "બરછટ ચોખા",
+        "Barchat Chokha"
+      ],
+      "hindi": [
+        "उसना चावल",
+        "Usna Chawal"
+      ],
+      "kannada": [
+        "ಕುಸುಬಲಕ್ಕಿ",
+        "Kusubalakki"
+      ],
+      "kashmiri": [
+        "ابلا چاول",
+        "Ubla Chawal"
+      ],
+      "konkani": [
+        "उकडा तांदूळ",
+        "Ukda Tandul"
+      ],
+      "maithili": [
+        "उसिनल चाउर",
+        "Usinal Chaur"
+      ],
+      "malayalam": [
+        "പുഴുക്കലരി",
+        "Puzhukkalari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "उकडा तांदूळ",
+        "Ukada Tandul"
+      ],
+      "nepali": [
+        "उमालेको चामल",
+        "Umaleko Chamal"
+      ],
+      "odia": [
+        "ଉଷୁନା ଚାଉଳ",
+        "Usuna Chaula"
+      ],
+      "punjabi": [
+        "ਸੇਲਾ ਚਾਵਲ",
+        "Sela Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱛᱤᱠᱤ ᱪᱟᱣᱞᱮ",
+        "Tiki Chawle"
+      ],
+      "sindhi": [
+        "سيلا چانور",
+        "Sela Chanwar"
+      ],
+      "tamil": [
+        "புழுங்கல் அரிசி",
+        "Puzhungal Arisi"
+      ],
+      "telugu": [
+        "ఉప్పుడు బియ్యం",
+        "Uppudu Biyyam"
+      ],
+      "urdu": [
+        "سیلہ چاول",
+        "Sela Chawal"
+      ]
+    },
+    "notes": "Partially boiled in husk, nutritious."
+  },
+  {
+    "id": "red-rice",
+    "photo": "img/red-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Red Rice"
+      ],
+      "assamese": [
+        "ৰঙা চাউল",
+        "Ronga Saul"
+      ],
+      "bengali": [
+        "লাল চাল",
+        "Lal Chal"
+      ],
+      "bodo": [
+        "गोजा माइ",
+        "Goja Mai"
+      ],
+      "dogri": [
+        "रता चावल",
+        "Rata Chawal"
+      ],
+      "gujarati": [
+        "લાલ ચોખા",
+        "Lal Chokha"
+      ],
+      "hindi": [
+        "लाल चावल",
+        "Lal Chawal"
+      ],
+      "kannada": [
+        "ಕೆಂಪಕ್ಕಿ",
+        "Kempakki"
+      ],
+      "kashmiri": [
+        "رَتھ چاول",
+        "Rath Chawal"
+      ],
+      "konkani": [
+        "लाल तांदूळ",
+        "Lal Tandul"
+      ],
+      "maithili": [
+        "रातु चाउर",
+        "Ratu Chaur"
+      ],
+      "malayalam": [
+        "മട്ട അരി",
+        "Matta Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ ꯑꯉꯧꯕ",
+        "Chaul Angaoba"
+      ],
+      "marathi": [
+        "लाल तांदूळ",
+        "Lal Tandul"
+      ],
+      "nepali": [
+        "रातो चामल",
+        "Rato Chamal"
+      ],
+      "odia": [
+        "ନାଲି ଚାଉଳ",
+        "Nali Chaula"
+      ],
+      "punjabi": [
+        "ਲਾਲ ਚਾਵਲ",
+        "Lal Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟᱜ ᱪᱟᱣᱞᱮ",
+        "Araag Chawle"
+      ],
+      "sindhi": [
+        "ڳاڙها چانور",
+        "Garha Chanwar"
+      ],
+      "tamil": [
+        "சிகப்பு அரிசி",
+        "Sigappu Arisi"
+      ],
+      "telugu": [
+        "ఎర్ర బియ్యం",
+        "Erra Biyyam"
+      ],
+      "urdu": [
+        "لال چاول",
+        "Lal Chawal"
+      ]
+    },
+    "notes": "Rich in antioxidants, staple in Kerala/Konkan."
+  },
+  {
+    "id": "black-rice",
+    "photo": "img/black-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Black Rice"
+      ],
+      "assamese": [
+        "কলা চাউল",
+        "Kola Saul"
+      ],
+      "bengali": [
+        "কালো চাল",
+        "Kalo Chal"
+      ],
+      "bodo": [
+        "गोसोम माइ",
+        "Gosom Mai"
+      ],
+      "dogri": [
+        "काला चावल",
+        "Kala Chawal"
+      ],
+      "gujarati": [
+        "કાળા ચોખા",
+        "Kala Chokha"
+      ],
+      "hindi": [
+        "काला चावल",
+        "Kala Chawal"
+      ],
+      "kannada": [
+        "ಕಪ್ಪು ಅಕ್ಕಿ",
+        "Kappu Akki"
+      ],
+      "kashmiri": [
+        "کالا چاول",
+        "Kala Chawal"
+      ],
+      "konkani": [
+        "काळा तांदूळ",
+        "Kala Tandul"
+      ],
+      "maithili": [
+        "काला चाउर",
+        "Kala Chaur"
+      ],
+      "malayalam": [
+        "കറുത്ത അരി",
+        "Karutha Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ ꯑꯃꯨꯕ",
+        "Chaul Amuba"
+      ],
+      "marathi": [
+        "काळा तांदूळ",
+        "Kala Tandul"
+      ],
+      "nepali": [
+        "कालो चामल",
+        "Kalo Chamal"
+      ],
+      "odia": [
+        "କଳା ଚାଉଳ",
+        "Kala Chaula"
+      ],
+      "punjabi": [
+        "ਕਾਲੇ ਚਾਵਲ",
+        "Kale Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱦᱮᱸᱫᱮ ᱪᱟᱣᱞᱮ",
+        "Hende Chawle"
+      ],
+      "sindhi": [
+        "ڪارا چانور",
+        "Kara Chanwar"
+      ],
+      "tamil": [
+        "கருப்பு கவும் அரிசி",
+        "Karuppu Kavuni Arisi"
+      ],
+      "telugu": [
+        "నల్ల బియ్యం",
+        "Nalla Biyyam"
+      ],
+      "urdu": [
+        "کالا چاول",
+        "Kala Chawal"
+      ]
+    },
+    "notes": "Forbidden rice, high in anthocyanins."
+  },
+  {
+    "id": "glutinous-rice",
+    "photo": "img/glutinous-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Glutinous Rice"
+      ],
+      "assamese": [
+        "বৰা চাউল",
+        "Bora Saul"
+      ],
+      "bengali": [
+        "আঠালো চাল",
+        "Athalo Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "चिपचिपा चावल",
+        "Chipchipa Chawal"
+      ],
+      "gujarati": [
+        "ચીકણા ચોખા",
+        "Chikna Chokha"
+      ],
+      "hindi": [
+        "चिपचिपा चावल",
+        "Chipchipa Chawal"
+      ],
+      "kannada": [
+        "ಅಂಟು ಅಕ್ಕಿ",
+        "Antu Akki"
+      ],
+      "kashmiri": [
+        "چِپچِپا چاول",
+        "Chipchipa Chawal"
+      ],
+      "konkani": [
+        "चिकट तांदूळ",
+        "Chikat Tandul"
+      ],
+      "maithili": [
+        "चिपचिप चाउर",
+        "Chipchip Chaur"
+      ],
+      "malayalam": [
+        "പശയുള്ള അരി",
+        "Pashayulla Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "चिकट तांदूळ",
+        "Chikat Tandul"
+      ],
+      "nepali": [
+        "टासिलो चामल",
+        "Tasilo Chamal"
+      ],
+      "odia": [
+        "ଅଠାଳିଆ ଚାଉଳ",
+        "Athalia Chaula"
+      ],
+      "punjabi": [
+        "ਚਿਪਚਿਪੇ ਚਾਵਲ",
+        "Chipchipe Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "چانور",
+        "Chanwar"
+      ],
+      "tamil": [
+        "பிசுபிசுப்பான அரிசி",
+        "Pisupisuppana Arisi"
+      ],
+      "telugu": [
+        "జిగురు బియ్యం",
+        "Jiguru Biyyam"
+      ],
+      "urdu": [
+        "چپچپا چاول",
+        "Chipchipa Chawal"
+      ]
+    },
+    "notes": "Sticky rice used in Asian desserts."
+  },
+  {
+    "id": "puffed-rice",
+    "photo": "img/puffed-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Puffed Rice"
+      ],
+      "assamese": [
+        "মুৰি",
+        "Muri"
+      ],
+      "bengali": [
+        "মুড়ি",
+        "Muri"
+      ],
+      "bodo": [
+        "मुरी",
+        "Muri"
+      ],
+      "dogri": [
+        "मुड़ी",
+        "Mudi"
+      ],
+      "gujarati": [
+        "મમરા",
+        "Mamra"
+      ],
+      "hindi": [
+        "मुरमुरा",
+        "Murmura"
+      ],
+      "kannada": [
+        "ಪುರಿ",
+        "Puri"
+      ],
+      "kashmiri": [
+        "مُڑی",
+        "Mudi"
+      ],
+      "konkani": [
+        "लाहे",
+        "Lahe"
+      ],
+      "maithili": [
+        "मुड़ी",
+        "Mudi"
+      ],
+      "malayalam": [
+        "മലർ",
+        "Malar"
+      ],
+      "manipuri": [
+        "ꯃꯨꯔꯤ",
+        "Muri"
+      ],
+      "marathi": [
+        "चुरमुरे",
+        "Churmure"
+      ],
+      "nepali": [
+        "चिउरा",
+        "Chiura"
+      ],
+      "odia": [
+        "ମୁଢି",
+        "Mudhi"
+      ],
+      "punjabi": [
+        "ਮੁਰਮੁਰਾ",
+        "Murmura"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱩᱲᱤ",
+        "Muri"
+      ],
+      "sindhi": [
+        "ڦلا",
+        "Phulla"
+      ],
+      "tamil": [
+        "பொரி",
+        "Pori"
+      ],
+      "telugu": [
+        "మరమరాలు",
+        "Maramaralu"
+      ],
+      "urdu": [
+        "مرمرا",
+        "Murmura"
+      ]
+    },
+    "notes": "Murmura, used for Bhel Puri."
+  },
+  {
+    "id": "idli-rice",
+    "photo": "img/idli-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Oryza sativa",
+    "names": {
+      "english": [
+        "Idli Rice"
+      ],
+      "assamese": [
+        "ইডলি চাউল",
+        "Idli Saul"
+      ],
+      "bengali": [
+        "ইডলি চাল",
+        "Idli Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "इडली चावल",
+        "Idli Chawal"
+      ],
+      "gujarati": [
+        "ઈડલી ચોખા",
+        "Idli Chokha"
+      ],
+      "hindi": [
+        "इडली चावल",
+        "Idli Chawal"
+      ],
+      "kannada": [
+        "ಇಡ್ಲಿ ಅಕ್ಕಿ",
+        "Idli Akki"
+      ],
+      "kashmiri": [
+        "اڈلی چاول",
+        "Idli Chawal"
+      ],
+      "konkani": [
+        "इडली तांदूळ",
+        "Idli Tandul"
+      ],
+      "maithili": [
+        "इडली चाउर",
+        "Idli Chaur"
+      ],
+      "malayalam": [
+        "ഇഡ്ഡലി അരി",
+        "Idli Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "इडली तांदूळ",
+        "Idli Tandul"
+      ],
+      "nepali": [
+        "इडली चामल",
+        "Idli Chamal"
+      ],
+      "odia": [
+        "ଇଡଲି ଚାଉଳ",
+        "Idli Chaula"
+      ],
+      "punjabi": [
+        "ਇਡਲੀ ਚਾਵਲ",
+        "Idli Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "اڊلي چانور",
+        "Idli Chanwar"
+      ],
+      "tamil": [
+        "இட்லி அரிசி",
+        "Idli Arisi"
+      ],
+      "telugu": [
+        "ఇడ్లీ బియ్యం",
+        "Idli Biyyam"
+      ],
+      "urdu": [
+        "اڈلی چاول",
+        "Idli Chawal"
+      ]
+    },
+    "notes": "Parboiled rice specifically for Idli batter."
+  },
+  {
+    "id": "matta-rice",
+    "photo": "img/matta-rice.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Matta Rice"
+      ],
+      "assamese": [
+        "মট্টা চাউল",
+        "Matta Saul"
+      ],
+      "bengali": [
+        "মট্টা চাল",
+        "Matta Chal"
+      ],
+      "bodo": [
+        "माइ",
+        "Mai"
+      ],
+      "dogri": [
+        "मट्टा चावल",
+        "Matta Chawal"
+      ],
+      "gujarati": [
+        "મટ્ટા ચોખા",
+        "Matta Chokha"
+      ],
+      "hindi": [
+        "मट्टा चावल",
+        "Matta Chawal"
+      ],
+      "kannada": [
+        "ಮಟ್ಟಾ ಅಕ್ಕಿ",
+        "Matta Akki"
+      ],
+      "kashmiri": [
+        "مٹّا چاول",
+        "Matta Chawal"
+      ],
+      "konkani": [
+        "मट्टा तांदूळ",
+        "Matta Tandul"
+      ],
+      "maithili": [
+        "मट्टा चाउर",
+        "Matta Chaur"
+      ],
+      "malayalam": [
+        "മട്ട അരി",
+        "Matta Ari"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "मट्टा तांदूळ",
+        "Matta Tandul"
+      ],
+      "nepali": [
+        "मट्टा चामल",
+        "Matta Chamal"
+      ],
+      "odia": [
+        "ମଟ୍ଟା ଚାଉଳ",
+        "Matta Chaula"
+      ],
+      "punjabi": [
+        "ਮਟਾ ਚਾਵਲ",
+        "Matta Chawal"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱟᱣᱞᱮ",
+        "Chawle"
+      ],
+      "sindhi": [
+        "مٽا چانور",
+        "Matta Chanwar"
+      ],
+      "tamil": [
+        "மட்டா அரிசி",
+        "Matta Arisi"
+      ],
+      "telugu": [
+        "మట్టా బియ్యం",
+        "Matta Biyyam"
+      ],
+      "urdu": [
+        "مٹا چاول",
+        "Matta Chawal"
+      ]
+    },
+    "notes": "Kerala red rice, robust flavor."
+  },
+  {
+    "id": "whole-wheat",
+    "photo": "img/whole-wheat.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Whole Wheat"
+      ],
+      "assamese": [
+        " ঘেঁহু",
+        "Ghehu"
+      ],
+      "bengali": [
+        "আস্ত গম",
+        "Asto Gom"
+      ],
+      "bodo": [
+        "गहुम",
+        "Gahum"
+      ],
+      "dogri": [
+        "साबत गेहूं",
+        "Sabat Gehun"
+      ],
+      "gujarati": [
+        "આખા ઘઉં",
+        "Aakkha Ghau"
+      ],
+      "hindi": [
+        "साबुत गेहूं",
+        "Sabut Gehu"
+      ],
+      "kannada": [
+        "ಪೂರ್ಣ ಗೋಧಿ",
+        "Poorna Godhi"
+      ],
+      "kashmiri": [
+        "مُکمل کنک",
+        "Mukammal Kanak"
+      ],
+      "konkani": [
+        "संपूर्ण ग्हं",
+        "Sampurn Gahu"
+      ],
+      "maithili": [
+        "सम्पूर्ण गहूम",
+        "Sampurn Gahum"
+      ],
+      "malayalam": [
+        "മുഴുവൻ ഗോതമ്പ്",
+        "Muzhuvan Gothambu"
+      ],
+      "manipuri": [
+        "ꯒꯦꯍꯨꯟ",
+        "Gehun"
+      ],
+      "marathi": [
+        "अख्खा गहू",
+        "Akhkha Gahu"
+      ],
+      "nepali": [
+        "पूरा गहुँ",
+        "Pura Gahun"
+      ],
+      "odia": [
+        "ଗୋଟା ଗହମ",
+        "Gota Gahama"
+      ],
+      "punjabi": [
+        "ਸਾਬਤ ਕਣਕ",
+        "Sabut Kanak"
+      ],
+      "sanskrit": [
+        "गोधूमः",
+        "Godhumah"
+      ],
+      "santali": [
+        "ᱜᱚᱦᱩᱢ",
+        "Gohum"
+      ],
+      "sindhi": [
+        "ڪڻڪ",
+        "Kanak"
+      ],
+      "tamil": [
+        "முழு கோதுமை",
+        "Muzhu Godhumai"
+      ],
+      "telugu": [
+        "పూర్తి గోధుమ",
+        "Poorthi Godhuma"
+      ],
+      "urdu": [
+        "ثابت گندم",
+        "Sabut Gandum"
+      ]
+    },
+    "notes": "Used for making Atta flour."
+  },
+  {
+    "id": "broken-wheat",
+    "photo": "img/broken-wheat.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Broken Wheat"
+      ],
+      "assamese": [
+        "দিয়া",
+        "Daliya"
+      ],
+      "bengali": [
+        "দালিয়া",
+        "Dalia"
+      ],
+      "bodo": [
+        "दलिआ",
+        "Dalia"
+      ],
+      "dogri": [
+        "दलिया",
+        "Daliya"
+      ],
+      "gujarati": [
+        "ફાડા",
+        "Fada"
+      ],
+      "hindi": [
+        "दलिया",
+        "Dalia"
+      ],
+      "kannada": [
+        "ಕದಿ",
+        "Kadi"
+      ],
+      "kashmiri": [
+        "دَلیا",
+        "Daliya"
+      ],
+      "konkani": [
+        "दलिया",
+        "Daliya"
+      ],
+      "maithili": [
+        "दलिया",
+        "Daliya"
+      ],
+      "malayalam": [
+        "ഗോതമ്പ് നുറുക്ക്",
+        "Gothambu Nurukku"
+      ],
+      "manipuri": [
+        "ꯗꯂꯤꯌꯥ",
+        "Daliya"
+      ],
+      "marathi": [
+        "लापशी",
+        "Lapshi"
+      ],
+      "nepali": [
+        "दलिया",
+        "Daliya"
+      ],
+      "odia": [
+        "ଦଲିଆ",
+        "Dalia"
+      ],
+      "punjabi": [
+        "ਦਲੀਆ",
+        "Daliya"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱫᱚᱞᱤᱭᱟ",
+        "Daliya"
+      ],
+      "sindhi": [
+        "دليو",
+        "Daliyo"
+      ],
+      "tamil": [
+        "கோதுமை ரவை",
+        "Godhumai Ravai"
+      ],
+      "telugu": [
+        "గోధుమ రవ్వ",
+        "Godhuma Ravva"
+      ],
+      "urdu": [
+        "دلیا",
+        "Dalia"
+      ]
+    },
+    "notes": "Dalia, used for porridge and Upma."
+  },
+  {
+    "id": "maida",
+    "photo": "img/maida.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Maida"
+      ],
+      "assamese": [
+        "ময়দা",
+        "Maida"
+      ],
+      "bengali": [
+        "ময়দা",
+        " ময়দা"
+      ],
+      "bodo": [
+        "मयदा",
+        "Maida"
+      ],
+      "dogri": [
+        "मैदा",
+        "Maida"
+      ],
+      "gujarati": [
+        "મેંદો",
+        "Mendo"
+      ],
+      "hindi": [
+        "मैदा",
+        "Maida"
+      ],
+      "kannada": [
+        "ಮೈದಾ",
+        "Maida"
+      ],
+      "kashmiri": [
+        "میدہ",
+        "Maida"
+      ],
+      "konkani": [
+        "मैदा",
+        "Maida"
+      ],
+      "maithili": [
+        "मैदा",
+        "Maida"
+      ],
+      "malayalam": [
+        "മൈദ",
+        "Maida"
+      ],
+      "manipuri": [
+        "ꯃꯩꯗꯥ",
+        "Maida"
+      ],
+      "marathi": [
+        "मैदा",
+        "Maida"
+      ],
+      "nepali": [
+        "मैदा",
+        "Maida"
+      ],
+      "odia": [
+        "ମଇଦା",
+        "Maida"
+      ],
+      "punjabi": [
+        "ਮੈਦਾ",
+        "Maida"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱚᱭᱫᱟ",
+        "Maida"
+      ],
+      "sindhi": [
+        "ميدو",
+        "Maido"
+      ],
+      "tamil": [
+        "மைதா",
+        "Maida"
+      ],
+      "telugu": [
+        "మైదా",
+        "Maida"
+      ],
+      "urdu": [
+        "میدہ",
+        "Maida"
+      ]
+    },
+    "notes": "Refined wheat flour for Naan and pastries."
+  },
+  {
+    "id": "corn-flour",
+    "photo": "img/corn-flour.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Corn Flour"
+      ],
+      "assamese": [
+        "মাকৈ আটা",
+        "Makkai Ata"
+      ],
+      "bengali": [
+        "ভুট্টার আটা",
+        "Bhuttar Ata"
+      ],
+      "bodo": [
+        "गुम",
+        "Gum"
+      ],
+      "dogri": [
+        "मक्की आटा",
+        "Makki Atta"
+      ],
+      "gujarati": [
+        "કોર્ન ફ્લોર",
+        "Corn Flour"
+      ],
+      "hindi": [
+        "कॉर्न फ्लोर",
+        "Corn Flour"
+      ],
+      "kannada": [
+        "ಜೋಳದ ಹಿಟ್ಟು",
+        "Jolada Hittu"
+      ],
+      "kashmiri": [
+        "مَکئی آٹا",
+        "Makkai Atta"
+      ],
+      "konkani": [
+        "मक्याचे पीठ",
+        "Makyache Peeth"
+      ],
+      "maithili": [
+        "मकै पीठ",
+        "Makai Peeth"
+      ],
+      "malayalam": [
+        "ചോളം പൊടി",
+        "Cholam Podi"
+      ],
+      "manipuri": [
+        "ꯃꯀꯥꯏ",
+        "Makai"
+      ],
+      "marathi": [
+        "कॉर्न फ्लोर",
+        "Corn Flour"
+      ],
+      "nepali": [
+        "मकैको पिठो",
+        "Makaiko Pitho"
+      ],
+      "odia": [
+        "ମକା ଅଟା",
+        "Maka Ata"
+      ],
+      "punjabi": [
+        "ਕੌਰਨ ਫਲੋਰ",
+        "Corn Flour"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱡᱚᱱᱚᱲᱟ",
+        "Jonra"
+      ],
+      "sindhi": [
+        "مڪئي جو اٽو",
+        "Makai Jo Atto"
+      ],
+      "tamil": [
+        "சோள மாவு",
+        "Chola Maavu"
+      ],
+      "telugu": [
+        "మొక్కజొన్న పిండి",
+        "Mokkajonna Pindi"
+      ],
+      "urdu": [
+        "کارن فلور",
+        "Corn Flour"
+      ]
+    },
+    "notes": "Starch thickening agent."
+  },
+  {
+    "id": "rice-flour",
+    "photo": "img/rice-flour.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Rice Flour"
+      ],
+      "assamese": [
+        "পাউলৰ গুৰি",
+        "Saulor Guri"
+      ],
+      "bengali": [
+        "চালের গুঁড়ো",
+        "Chaler Guro"
+      ],
+      "bodo": [
+        "माइ गुन्दि",
+        "Mai Gundi"
+      ],
+      "dogri": [
+        "चावल आटा",
+        "Chawal Atta"
+      ],
+      "gujarati": [
+        "ચોખાનો લોટ",
+        "Chokhano Lot"
+      ],
+      "hindi": [
+        "चावल का आटा",
+        "Chawal Ka Atta"
+      ],
+      "kannada": [
+        "ಅಕ್ಕಿ ಹಿಟ್ಟು",
+        "Akki Hittu"
+      ],
+      "kashmiri": [
+        "چاول آٹا",
+        "Chawal Atta"
+      ],
+      "konkani": [
+        "तांदूळाचे पीठ",
+        "Tandulache Peeth"
+      ],
+      "maithili": [
+        "चाउर पीठ",
+        "Chaur Peeth"
+      ],
+      "malayalam": [
+        "അരിപ്പൊടി",
+        "Arippodi"
+      ],
+      "manipuri": [
+        "ꯆꯥꯎꯜ",
+        "Chaul"
+      ],
+      "marathi": [
+        "तांदळाचे पीठ",
+        "Tandlache Peeth"
+      ],
+      "nepali": [
+        "चामलको पिठो",
+        "Chamalko Pitho"
+      ],
+      "odia": [
+        "ଚାଉଳ ଚୁନା",
+        "Chaula Chuna"
+      ],
+      "punjabi": [
+        "ਚਾਵਲ ਦਾ ਆਟਾ",
+        "Chawal Da Atta"
+      ],
+      "sanskrit": [
+        "तण्डुलपिष्टः",
+        "Tandula Pishtah"
+      ],
+      "santali": [
+        "ᱦᱚᱞᱚᱝ",
+        "Holong"
+      ],
+      "sindhi": [
+        "چانورن جو اٽو",
+        "Chanwarn Jo Atto"
+      ],
+      "tamil": [
+        "அரிசி மாவு",
+        "Arisi Maavu"
+      ],
+      "telugu": [
+        "బియ్యం పిండి",
+        "Biyyam Pindi"
+      ],
+      "urdu": [
+        "چاول کا آٹا",
+        "Chawal Ka Atta"
+      ]
+    },
+    "notes": "Ground rice for Appam, Idiyappam, and batters."
+  },
+  {
+    "id": "besan",
+    "photo": "img/besan.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Besan"
+      ],
+      "assamese": [
+        "বেচন",
+        "Besan"
+      ],
+      "bengali": [
+        "বেসন",
+        "Besan"
+      ],
+      "bodo": [
+        "बेसन",
+        "Besan"
+      ],
+      "dogri": [
+        "बेसन",
+        "Besan"
+      ],
+      "gujarati": [
+        "ચણાનો લોટ",
+        "Chana No Lot"
+      ],
+      "hindi": [
+        "बेसन",
+        "Besan"
+      ],
+      "kannada": [
+        "ಕಡಲೆ ಹಿಟ್ಟು",
+        "Kadale Hittu"
+      ],
+      "kashmiri": [
+        "بیسن",
+        "Besan"
+      ],
+      "konkani": [
+        "बेसन",
+        "Besan"
+      ],
+      "maithili": [
+        "बेसन",
+        "Besan"
+      ],
+      "malayalam": [
+        "കടലപ്പൊടി",
+        "Kadalappodi"
+      ],
+      "manipuri": [
+        "ꯕꯦꯁꯟ",
+        "Besan"
+      ],
+      "marathi": [
+        "बेसन",
+        "Besan"
+      ],
+      "nepali": [
+        "बेसन",
+        "Besan"
+      ],
+      "odia": [
+        "ବେସନ",
+        "Besan"
+      ],
+      "punjabi": [
+        "ਵੇਸਣ",
+        "Vesan"
+      ],
+      "sanskrit": [
+        "चणकपिष्टः",
+        "Chanaka Pishtah"
+      ],
+      "santali": [
+        "ᱵᱮᱥᱚᱱ",
+        "Beson"
+      ],
+      "sindhi": [
+        "بيسڻ",
+        "Besan"
+      ],
+      "tamil": [
+        "கடலை மாவு",
+        "Kadalai Maavu"
+      ],
+      "telugu": [
+        "శనగ పిండి",
+        "Senaga Pindi"
+      ],
+      "urdu": [
+        "بیسن",
+        "Besan"
+      ]
+    },
+    "notes": "Chickpea flour, used for Pakoras and Kadhi."
+  },
+  {
+    "id": "ragi-flour",
+    "photo": "img/ragi-flour.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Ragi Flour"
+      ],
+      "assamese": [
+        "ৰাগী আটা",
+        "Ragi Ata"
+      ],
+      "bengali": [
+        "রাগির আটা",
+        "Ragir Ata"
+      ],
+      "bodo": [
+        "रागि",
+        "Ragi"
+      ],
+      "dogri": [
+        "रागी आटा",
+        "Ragi Atta"
+      ],
+      "gujarati": [
+        "નાગલીનો લોટ",
+        "Naglino Lot"
+      ],
+      "hindi": [
+        "रागी का आटा",
+        "Ragi Ka Atta"
+      ],
+      "kannada": [
+        "ರಾಗಿ ಹಿಟ್ಟು",
+        "Ragi Hittu"
+      ],
+      "kashmiri": [
+        "راگی آٹا",
+        "Ragi Atta"
+      ],
+      "konkani": [
+        "नाचणी पीठ",
+        "Nachani Peeth"
+      ],
+      "maithili": [
+        "रागी पीठ",
+        "Ragi Peeth"
+      ],
+      "malayalam": [
+        "റാഗിപ്പൊടി",
+        "Ragippodi"
+      ],
+      "manipuri": [
+        "ꯔꯥꯒꯤ",
+        "Ragi"
+      ],
+      "marathi": [
+        "नाचणीचे पीठ",
+        "Nachniche Peeth"
+      ],
+      "nepali": [
+        "रागीको पिठो",
+        "Ragiko Pitho"
+      ],
+      "odia": [
+        "ମାଣ୍ଡିଆ ଚୁନା",
+        "Mandia Chuna"
+      ],
+      "punjabi": [
+        "ਰਾਗੀ ਦਾ ਆਟਾ",
+        "Ragi Da Atta"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱨᱟᱹᱜᱤ",
+        "Ragi"
+      ],
+      "sindhi": [
+        "راگي",
+        "Ragi"
+      ],
+      "tamil": [
+        "கேழ்வரகு மாவு",
+        "Kezhvaragu Maavu"
+      ],
+      "telugu": [
+        "రాగి పిండి",
+        "Ragi Pindi"
+      ],
+      "urdu": [
+        "راگی کا آٹا",
+        "Ragi Ka Atta"
+      ]
+    },
+    "notes": "Finger millet flour for Ragi Mudde."
+  },
+  {
+    "id": "bajra-flour",
+    "photo": "img/bajra-flour.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Bajra Flour"
+      ],
+      "assamese": [
+        "বাজৰা আটা",
+        "Bajra Ata"
+      ],
+      "bengali": [
+        "বাজরার আটা",
+        "Bajrar Ata"
+      ],
+      "bodo": [
+        "बाबरा",
+        "Bajra"
+      ],
+      "dogri": [
+        "बाजरा आटा",
+        "Bajra Atta"
+      ],
+      "gujarati": [
+        "બાજરીનો લોટ",
+        "Bajrino Lot"
+      ],
+      "hindi": [
+        "बाजरे का आटा",
+        "Bajre Ka Atta"
+      ],
+      "kannada": [
+        "ಸಜ್ಜೆ ಹಿಟ್ಟು",
+        "Sajje Hittu"
+      ],
+      "kashmiri": [
+        "باجرا آٹا",
+        "Bajra Atta"
+      ],
+      "konkani": [
+        "बाजरी पीठ",
+        "Bajri Peeth"
+      ],
+      "maithili": [
+        "बाजरा पीठ",
+        "Bajra Peeth"
+      ],
+      "malayalam": [
+        "കമ്പം പൊടി",
+        "Kambam Podi"
+      ],
+      "manipuri": [
+        "ꯕꯥꯖꯔꯥ",
+        "Bajra"
+      ],
+      "marathi": [
+        "बाजरीचे पीठ",
+        "Bajriche Peeth"
+      ],
+      "nepali": [
+        "बाजराको पिठो",
+        "Bajrako Pitho"
+      ],
+      "odia": [
+        "ବାଜରା ଅଟା",
+        "Bajra Ata"
+      ],
+      "punjabi": [
+        "ਬਾਜਰੇ ਦਾ ਆਟਾ",
+        "Bajre Da Atta"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱟᱡᱨᱟ",
+        "Bajra"
+      ],
+      "sindhi": [
+        "ٻاجھرِي جو اٽو",
+        "Bajhri Jo Atto"
+      ],
+      "tamil": [
+        "கம்பு மாவு",
+        "Kambu Maavu"
+      ],
+      "telugu": [
+        "సజ్జ పిండి",
+        "Sajja Pindi"
+      ],
+      "urdu": [
+        "باجرے کا آٹا",
+        "Bajre Ka Atta"
+      ]
+    },
+    "notes": "Pearl millet flour for Rotla."
+  },
+  {
+    "id": "jowar-flour",
+    "photo": "img/jowar-flour.webp",
+    "tags": [
+      "millet"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Jowar Flour"
+      ],
+      "assamese": [
+        "জোৱাৰ আটা",
+        "Jowar Ata"
+      ],
+      "bengali": [
+        "জোয়ারের আটা",
+        "Jowarer Ata"
+      ],
+      "bodo": [
+        "जवार",
+        "Jowar"
+      ],
+      "dogri": [
+        "ज्वार आटा",
+        "Jwar Atta"
+      ],
+      "gujarati": [
+        "જુવારનો લોટ",
+        "Juvarno Lot"
+      ],
+      "hindi": [
+        "ज्वार का आटा",
+        "Jwar Ka Atta"
+      ],
+      "kannada": [
+        "ಜೋಳದ ಹಿಟ್ಟು",
+        "Jolada Hittu"
+      ],
+      "kashmiri": [
+        "جوار آٹا",
+        "Jowar Atta"
+      ],
+      "konkani": [
+        "ज्वारी पीठ",
+        "Jwari Peeth"
+      ],
+      "maithili": [
+        "जुआर पीठ",
+        "Juar Peeth"
+      ],
+      "malayalam": [
+        "ചോളപ്പൊടി",
+        "Cholappodi"
+      ],
+      "manipuri": [
+        "ꯖꯣꯋꯥꯔ",
+        "Jowar"
+      ],
+      "marathi": [
+        "ज्वारीचे पीठ",
+        "Jwariche Peeth"
+      ],
+      "nepali": [
+        "जुनेलोको पिठो",
+        "Juneloko Pitho"
+      ],
+      "odia": [
+        "ଜୁଆର ଅଟା",
+        "Juar Ata"
+      ],
+      "punjabi": [
+        "ਜਵਾਰ ਦਾ ਆਟਾ",
+        "Jawar Da Atta"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱡᱚᱣᱟᱨ",
+        "Jowar"
+      ],
+      "sindhi": [
+        "جوار جو اٽو",
+        "Jowar Jo Atto"
+      ],
+      "tamil": [
+        "சோள மாவு",
+        "Chola Maavu"
+      ],
+      "telugu": [
+        "జొన్న పిండి",
+        "Jonna Pindi"
+      ],
+      "urdu": [
+        "جوار کا آٹا",
+        "Jawar Ka Atta"
+      ]
+    },
+    "notes": "Sorghum flour, gluten-free option."
+  },
+  {
+    "id": "sabudana",
+    "photo": "img/sabudana.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "Metroxylon sagu",
+    "names": {
+      "english": [
+        "Sabudana"
+      ],
+      "assamese": [
+        "চাগু",
+        "Sagu"
+      ],
+      "bengali": [
+        "সাগু দানা",
+        "Sagu Dana"
+      ],
+      "bodo": [
+        "सागुदाना",
+        "Sagudana"
+      ],
+      "dogri": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "gujarati": [
+        "સાબુદાણા",
+        "Sabudana"
+      ],
+      "hindi": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "kannada": [
+        "ಸಾಬಕ್ಕಿ",
+        "Sabakki"
+      ],
+      "kashmiri": [
+        "ساگو",
+        "Sagu"
+      ],
+      "konkani": [
+        "साबुदाणा",
+        "Sabudana"
+      ],
+      "maithili": [
+        "साबूदाना",
+        "Sabudana"
+      ],
+      "malayalam": [
+        "ചവ്വരി",
+        "Chavvari"
+      ],
+      "manipuri": [
+        "ꯁꯥꯕꯨꯗꯥꯅꯥ",
+        "Sabudana"
+      ],
+      "marathi": [
+        "साबुदाणा",
+        "Sabudana"
+      ],
+      "nepali": [
+        "साबुदाना",
+        "Sabudana"
+      ],
+      "odia": [
+        "ସାଗୁ ଦାନା",
+        "Sagu Dana"
+      ],
+      "punjabi": [
+        "ਸਾਬੂਦਾਣਾ",
+        "Sabudana"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱟᱵᱩᱫᱟᱱᱟ",
+        "Sabudana"
+      ],
+      "sindhi": [
+        "ساگو داڻا",
+        "Sagudana"
+      ],
+      "tamil": [
+        "ஜவ்வரிசி",
+        "Javvarisi"
+      ],
+      "telugu": [
+        "సగ్గుబియ్యం",
+        "Saggubiyyam"
+      ],
+      "urdu": [
+        "ساگودانہ",
+        "Sabudana"
+      ]
+    },
+    "notes": "Sago pearls, fasting food staple."
+  },
+  {
+    "id": "soy-chunks",
+    "photo": "img/soy-chunks.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "Glycine max",
+    "names": {
+      "english": [
+        "Soy Chunks"
+      ],
+      "assamese": [
+        "ছয়াবিন",
+        "Soyabean"
+      ],
+      "bengali": [
+        "সয়াবিন বড়ি",
+        "Soyabean Bori"
+      ],
+      "bodo": [
+        "सया",
+        "Soya"
+      ],
+      "dogri": [
+        "सोया चंक्स",
+        "Soya Chunks"
+      ],
+      "gujarati": [
+        "સોયા વડી",
+        "Soya Vadi"
+      ],
+      "hindi": [
+        "सोया चंक्स",
+        "Soya Chunks"
+      ],
+      "kannada": [
+        "ಮೀಲ್ ಮೇಕರ್",
+        "Meal Maker"
+      ],
+      "kashmiri": [
+        "سویا چَنکس",
+        "Soya Chunks"
+      ],
+      "konkani": [
+        "सोया चंक्स",
+        "Soya Chunks"
+      ],
+      "maithili": [
+        "सोया चंक्स",
+        "Soya Chunks"
+      ],
+      "malayalam": [
+        "സോയാ ചങ്ക്സ്",
+        "Soya Chunks"
+      ],
+      "manipuri": [
+        "ꯁꯣꯌꯥ",
+        "Soya"
+      ],
+      "marathi": [
+        "सोया वडी",
+        "Soya Vadi"
+      ],
+      "nepali": [
+        "सोया चङ्क्स",
+        "Soya Chunks"
+      ],
+      "odia": [
+        "ସୋୟାବିନ୍ ବଡି",
+        "Soyabean Badi"
+      ],
+      "punjabi": [
+        "ਸੋਯਾ ਚੰਕਸ",
+        "Soya Chunks"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱥᱚᱭᱟ",
+        "Soya"
+      ],
+      "sindhi": [
+        "سويابين",
+        "Soyabean"
+      ],
+      "tamil": [
+        "மீல் மேக்கர்",
+        "Meal Maker"
+      ],
+      "telugu": [
+        "మీల్ మేకర్",
+        "Meal Maker"
+      ],
+      "urdu": [
+        "سویا چنکس",
+        "Soya Chunks"
+      ]
+    },
+    "notes": "Meal maker, vegetable meat substitute."
+  },
+  {
+    "id": "green-gram",
+    "photo": "img/green-gram.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Green Gram"
+      ],
+      "assamese": [
+        "মগু দাইল",
+        "Mogu Dail"
+      ],
+      "bengali": [
+        "গোটা মুগ",
+        "Gota Mug"
+      ],
+      "bodo": [
+        "मुग दालि",
+        "Mug Dali"
+      ],
+      "dogri": [
+        "मूंग दाल",
+        "Moong Dal"
+      ],
+      "gujarati": [
+        "મગ",
+        "Mag"
+      ],
+      "hindi": [
+        "साबुत मूंग",
+        "Sabut Moong"
+      ],
+      "kannada": [
+        "ಹೆಸರು ಕಾಳು",
+        "Hesaru Kaalu"
+      ],
+      "kashmiri": [
+        "مونگ دال",
+        "Moong Dal"
+      ],
+      "konkani": [
+        "मूग",
+        "Mung"
+      ],
+      "maithili": [
+        "मूंग दाल",
+        "Moong Dal"
+      ],
+      "malayalam": [
+        "ചെറുപയർ",
+        "Cherupayar"
+      ],
+      "manipuri": [
+        "ꯃꯨꯡ",
+        "Moong"
+      ],
+      "marathi": [
+        "मूग",
+        "Moog"
+      ],
+      "nepali": [
+        "मुङ दाल",
+        "Mung Dal"
+      ],
+      "odia": [
+        "ମୁଗ",
+        "Muga"
+      ],
+      "punjabi": [
+        "ਸਾਬਤ ਮੂੰਗ",
+        "Sabut Moong"
+      ],
+      "sanskrit": [
+        "मुद्गः",
+        "Mudgah"
+      ],
+      "santali": [
+        "ᱢᱩᱝ",
+        "Mung"
+      ],
+      "sindhi": [
+        "مڱ",
+        "Mung"
+      ],
+      "tamil": [
+        "பச்சை பயிறு",
+        "Pachai Payiru"
+      ],
+      "telugu": [
+        "పెసలు",
+        "Pesalu"
+      ],
+      "urdu": [
+        "ثابت مونگ",
+        "Sabut Moong"
+      ]
+    },
+    "notes": "Whole Moong, sprouted or cooked."
+  },
+  {
+    "id": "black-gram",
+    "photo": "img/black-gram.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Black Gram"
+      ],
+      "assamese": [
+        "মাতি দাইল",
+        "Mati Dail"
+      ],
+      "bengali": [
+        "মাসকলাই",
+        "Mashkalai"
+      ],
+      "bodo": [
+        "माति दालि",
+        "Mati Dali"
+      ],
+      "dogri": [
+        "उड़द दाल",
+        "Urad Dal"
+      ],
+      "gujarati": [
+        "અડદ",
+        "Adad"
+      ],
+      "hindi": [
+        "साबुत उड़द",
+        "Sabut Urad"
+      ],
+      "kannada": [
+        "ಉದ್ದು",
+        "Uddu"
+      ],
+      "kashmiri": [
+        "اُرد دال",
+        "Urad Dal"
+      ],
+      "konkani": [
+        "उडीद",
+        "Udid"
+      ],
+      "maithili": [
+        "काला दाल",
+        "Kala Dal"
+      ],
+      "malayalam": [
+        "ഉഴുന്ന്",
+        "Uzhunnu"
+      ],
+      "manipuri": [
+        "ꯎꯔꯥꯗ",
+        "Urad"
+      ],
+      "marathi": [
+        "उडीद",
+        "Udid"
+      ],
+      "nepali": [
+        "कालो दाल",
+        "Kalo Dal"
+      ],
+      "odia": [
+        "ବିରି",
+        "Biri"
+      ],
+      "punjabi": [
+        "ਸਾਬਤ ਮਾਂਹ",
+        "Sabut Maah"
+      ],
+      "sanskrit": [
+        "माषः",
+        "Mashah"
+      ],
+      "santali": [
+        "ᱵᱤᱨᱤ",
+        "Biri"
+      ],
+      "sindhi": [
+        "ماھ",
+        "Mah"
+      ],
+      "tamil": [
+        "கருப்பு உளுந்து",
+        "Karuppu Ulundu"
+      ],
+      "telugu": [
+        "మినుములు",
+        "Minumulu"
+      ],
+      "urdu": [
+        "ثابت اڑد",
+        "Sabut Urad"
+      ]
+    },
+    "notes": "Whole Urad, used for Dal Makhani."
+  },
+  {
+    "id": "moth-bean",
+    "photo": "img/moth-bean.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Moth Bean"
+      ],
+      "assamese": [
+        "মথ দাইল",
+        "Moth Dail"
+      ],
+      "bengali": [
+        "সোলা",
+        "Sola"
+      ],
+      "bodo": [
+        "मथ दालि",
+        "Moth Dali"
+      ],
+      "dogri": [
+        "मोठ दाल",
+        "Moth Dal"
+      ],
+      "gujarati": [
+        "મઠ",
+        "Math"
+      ],
+      "hindi": [
+        "मोठ दाल",
+        "Moth Dal"
+      ],
+      "kannada": [
+        "ಮಡಿಕೆ ಕಾಳು",
+        "Madike Kaalu"
+      ],
+      "kashmiri": [
+        "موٹھ دال",
+        "Moth Dal"
+      ],
+      "konkani": [
+        "मठ",
+        "Math"
+      ],
+      "maithili": [
+        "मोठ दाल",
+        "Moth Dal"
+      ],
+      "malayalam": [
+        "മമ്പയർ",
+        "Mampayar"
+      ],
+      "manipuri": [
+        "ꯃꯣꯊ",
+        "Moth"
+      ],
+      "marathi": [
+        "मटकी",
+        "Matki"
+      ],
+      "nepali": [
+        "मोठ दाल",
+        "Moth Dal"
+      ],
+      "odia": [
+        "ମୋଠ",
+        "Moth"
+      ],
+      "punjabi": [
+        "ਮੋਠ",
+        "Moth"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱢᱳᱴᱷ",
+        "Moth"
+      ],
+      "sindhi": [
+        "مٽ",
+        "Mat"
+      ],
+      "tamil": [
+        "நரி பயிறு",
+        "Nari Payiru"
+      ],
+      "telugu": [
+        "బొబ్బర్లు",
+        "Bobbarlu"
+      ],
+      "urdu": [
+        "موٹھ",
+        "Moth"
+      ]
+    },
+    "notes": "Matki, used in Misal Pav."
+  },
+  {
+    "id": "lima-beans",
+    "photo": "img/lima-beans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Lima Beans"
+      ],
+      "assamese": [
+        "লিমা",
+        "Lima"
+      ],
+      "bengali": [
+        "সীম",
+        "Shim"
+      ],
+      "bodo": [
+        "लिमा",
+        "Lima"
+      ],
+      "dogri": [
+        "लीमा बीन्स",
+        "Lima Beans"
+      ],
+      "gujarati": [
+        "વાલ",
+        "Val"
+      ],
+      "hindi": [
+        "सेम फली",
+        "Sem Phali"
+      ],
+      "kannada": [
+        "ಅವರೇ ಕಾಳು",
+        "Avare Kaalu"
+      ],
+      "kashmiri": [
+        "لیما بینس",
+        "Lima Beans"
+      ],
+      "konkani": [
+        "लीमा बीन्स",
+        "Lima Beans"
+      ],
+      "maithili": [
+        "लीमा बीन्स",
+        "Lima Beans"
+      ],
+      "malayalam": [
+        "അമര പയർ",
+        "Amara Payar"
+      ],
+      "manipuri": [
+        "ꯂꯤꯃꯥ",
+        "Lima"
+      ],
+      "marathi": [
+        "वाल",
+        "Val"
+      ],
+      "nepali": [
+        "लिमा बीन्स",
+        "Lima Beans"
+      ],
+      "odia": [
+        "ଶିମ୍ବ ମଞ୍ଜି",
+        "Simba Manji"
+      ],
+      "punjabi": [
+        "ਸੇਮ ਫਲੀ",
+        "Sem Phali"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱞᱤᱢᱟ",
+        "Lima"
+      ],
+      "sindhi": [
+        "ليما",
+        "Lima"
+      ],
+      "tamil": [
+        "மொச்சை",
+        "Mochai"
+      ],
+      "telugu": [
+        "చిక్కుడు గింజలు",
+        "Chikkudu Ginjalu"
+      ],
+      "urdu": [
+        "سیم",
+        "Sem"
+      ]
+    },
+    "notes": "Butter beans, creamy texture."
+  },
+  {
+    "id": "field-beans",
+    "photo": "img/field-beans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Field Beans"
+      ],
+      "assamese": [
+        "শিম",
+        "Sim"
+      ],
+      "bengali": [
+        "সীম বীজ",
+        "Shim Beej"
+      ],
+      "bodo": [
+        "बिन",
+        "Bin"
+      ],
+      "dogri": [
+        "खेत बीन्स",
+        "Khet Beans"
+      ],
+      "gujarati": [
+        "વાલ",
+        "Val"
+      ],
+      "hindi": [
+        "वाल",
+        "Val"
+      ],
+      "kannada": [
+        "ಅವರೇ ಕಾಳು",
+        "Avare Kaalu"
+      ],
+      "kashmiri": [
+        "کھیتی بینس",
+        "Kheti Beans"
+      ],
+      "konkani": [
+        "वाल",
+        "Wal"
+      ],
+      "maithili": [
+        "खेत बीन्स",
+        "Khet Beans"
+      ],
+      "malayalam": [
+        "അമര",
+        "Amara"
+      ],
+      "manipuri": [
+        "ꯕꯤꯟ",
+        "Bin"
+      ],
+      "marathi": [
+        "वाल",
+        "Val"
+      ],
+      "nepali": [
+        "खेत बीन्स",
+        "Khet Beans"
+      ],
+      "odia": [
+        "ଶିମ୍ବ",
+        "Simba"
+      ],
+      "punjabi": [
+        "ਫੀਲਡ ਬੀਨਜ਼",
+        "Field Beans"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱵᱤᱱ",
+        "Bin"
+      ],
+      "sindhi": [
+        "ڌاڻا",
+        "Dhana"
+      ],
+      "tamil": [
+        "மொச்சை",
+        "Mochai"
+      ],
+      "telugu": [
+        "అనుములు",
+        "Anumulu"
+      ],
+      "urdu": [
+        "وال",
+        "Val"
+      ]
+    },
+    "notes": "Avarekai, popular in Karnataka."
+  },
+  {
+    "id": "double-beans",
+    "photo": "img/double-beans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Double Beans"
+      ],
+      "assamese": [
+        "দব ল",
+        "Double"
+      ],
+      "bengali": [
+        "ডবল বিনস",
+        "Double Beans"
+      ],
+      "bodo": [
+        "दबल बिन",
+        "Dabal Bin"
+      ],
+      "dogri": [
+        "डबल बीन्स",
+        "Double Beans"
+      ],
+      "gujarati": [
+        "ડબલ બીન્સ",
+        "Double Beans"
+      ],
+      "hindi": [
+        "डबल बीन्स",
+        "Double Beans"
+      ],
+      "kannada": [
+        "ದೊಡ್ಡ ಅವರೇ",
+        "Dodda Avare"
+      ],
+      "kashmiri": [
+        "ڈبل بینس",
+        "Double Beans"
+      ],
+      "konkani": [
+        "सीम",
+        "Seem"
+      ],
+      "maithili": [
+        "डबल बीन्स",
+        "Double Beans"
+      ],
+      "malayalam": [
+        "ഡബിൾ ബീൻസ്",
+        "Double Beans"
+      ],
+      "manipuri": [
+        "ꯕꯤꯟ",
+        "Bin"
+      ],
+      "marathi": [
+        "डबल बीन्स",
+        "Double Beans"
+      ],
+      "nepali": [
+        "डबल बीन्स",
+        "Double Beans"
+      ],
+      "odia": [
+        "ଡବଲ ବିନ୍ସ",
+        "Double Beans"
+      ],
+      "punjabi": [
+        "ਡਬਲ ਬੀਨਜ਼",
+        "Double Beans"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱰᱚᱵᱚᱞ ᱵᱤᱱ",
+        "Double Bin"
+      ],
+      "sindhi": [
+        "ڊبل بينس",
+        "Double Beans"
+      ],
+      "tamil": [
+        "இரட்டைப் பீன்ஸ்",
+        "Irattai Beans"
+      ],
+      "telugu": [
+        "డబుల్ బీన్స్",
+        "Double Beans"
+      ],
+      "urdu": [
+        "ڈبل بینز",
+        "Double Beans"
+      ]
+    },
+    "notes": "Broad beans, used in curries."
+  },
+  {
+    "id": "pinto-beans",
+    "photo": "img/pinto-beans.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Pinto Beans"
+      ],
+      "assamese": [
+        "পিম্টো",
+        "Pinto"
+      ],
+      "bengali": [
+        "পিন্টু বিন",
+        "Pinto Bean"
+      ],
+      "bodo": [
+        "पिन्थ",
+        "Pinto"
+      ],
+      "dogri": [
+        "पिंटो बीन्स",
+        "Pinto Beans"
+      ],
+      "gujarati": [
+        "પિન્ટો બીન્સ",
+        "Pinto Beans"
+      ],
+      "hindi": [
+        "चितकबरी राजमा",
+        "Chitkabri Rajma"
+      ],
+      "kannada": [
+        "ಪಿಂಟೋ ಅವರೆ",
+        "Pinto Avare"
+      ],
+      "kashmiri": [
+        "پِینٹو بینس",
+        "Pinto Beans"
+      ],
+      "konkani": [
+        "पिंटो बीन्स",
+        "Pinto Beans"
+      ],
+      "maithili": [
+        "पिंटो बीन्स",
+        "Pinto Beans"
+      ],
+      "malayalam": [
+        "പിന്റോ ബീൻസ്",
+        "Pinto Beans"
+      ],
+      "manipuri": [
+        "ꯕꯤꯟ",
+        "Bin"
+      ],
+      "marathi": [
+        "पिंतो बीन्स",
+        "Pinto Beans"
+      ],
+      "nepali": [
+        "पिन्टो बीन्स",
+        "Pinto Beans"
+      ],
+      "odia": [
+        "ପିଣ୍ଟୋ ବିନ୍ସ",
+        "Pinto Beans"
+      ],
+      "punjabi": [
+        "ਪਿੰਟੋ ਬੀਨਜ਼",
+        "Pinto Beans"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱤᱱᱴᱳ",
+        "Pinto"
+      ],
+      "sindhi": [
+        "پنٽو بينس",
+        "Pinto Beans"
+      ],
+      "tamil": [
+        "பின்டோ பீன்ஸ்",
+        "Pinto Beans"
+      ],
+      "telugu": [
+        "పింటో బీన్స్",
+        "Pinto Beans"
+      ],
+      "urdu": [
+        "پنٹ و بینز",
+        "Pinto Beans"
+      ]
+    },
+    "notes": "Speckled beans, creamy when cooked."
+  },
+  {
+    "id": "white-peas",
+    "photo": "img/white-peas.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "White Peas"
+      ],
+      "assamese": [
+        "বগা মটৰ",
+        "Boga Motor"
+      ],
+      "bengali": [
+        "সাদা মটর",
+        "Sada Motor"
+      ],
+      "bodo": [
+        "गुफुर मथर",
+        "Guphur Matar"
+      ],
+      "dogri": [
+        "सफेद मटर",
+        "Safed Matar"
+      ],
+      "gujarati": [
+        "સફેદ વટાણા",
+        "Safed Vatana"
+      ],
+      "hindi": [
+        "सफेद मटर",
+        "Safed Matar"
+      ],
+      "kannada": [
+        "ಬಿಳಿ ಬಟಾಣಿ",
+        "Bili Batani"
+      ],
+      "kashmiri": [
+        "سفید متر",
+        "Safed Matar"
+      ],
+      "konkani": [
+        "धवे वाटाणे",
+        "Dhave Watane"
+      ],
+      "maithili": [
+        "सफेद मटर",
+        "Safed Matar"
+      ],
+      "malayalam": [
+        "വെള്ള പട്ടാണി",
+        "Vella Pattani"
+      ],
+      "manipuri": [
+        "ꯃꯇꯔ",
+        "Matar"
+      ],
+      "marathi": [
+        "पांढरा वाटाणा",
+        "Pandhara Vatana"
+      ],
+      "nepali": [
+        "सेतो मटर",
+        "Seto Matar"
+      ],
+      "odia": [
+        "ଧଳା ମଟର",
+        "Dhala Matar"
+      ],
+      "punjabi": [
+        "ਸਫੇਦ ਮਟਰ",
+        "Safed Matar"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱯᱩᱸᱰ ᱢᱚᱴᱚᱨ",
+        "Pund Matar"
+      ],
+      "sindhi": [
+        "سفيد مٽر",
+        "Safed Matar"
+      ],
+      "tamil": [
+        "வெள்ளை பட்டாணி",
+        "Vellai Pattani"
+      ],
+      "telugu": [
+        "తెల్ల బటానీ",
+        "Tella Batani"
+      ],
+      "urdu": [
+        "سفید مٹر",
+        "Safed Matar"
+      ]
+    },
+    "notes": "Safed Vatana, used for Ragda Patties."
+  },
+  {
+    "id": "roasted-gram",
+    "photo": "img/roasted-gram.webp",
+    "tags": [
+      "pulse"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Roasted Gram"
+      ],
+      "assamese": [
+        "ভজা বুট",
+        "Boja But"
+      ],
+      "bengali": [
+        "ভাজা ছোলা",
+        "Bhaja Chola"
+      ],
+      "bodo": [
+        "बुथ",
+        "Buth"
+      ],
+      "dogri": [
+        "भुना चना",
+        "Bhuna Chana"
+      ],
+      "gujarati": [
+        "દાળિયા",
+        "Daliya"
+      ],
+      "hindi": [
+        "भुना चना",
+        "Bhuna Chana"
+      ],
+      "kannada": [
+        "ಹುರಿಗಡಲೆ",
+        "Hurigadale"
+      ],
+      "kashmiri": [
+        "بھُنا چنا",
+        "Bhuna Chana"
+      ],
+      "konkani": [
+        "भुने हरबरे",
+        "Bhune Harbare"
+      ],
+      "maithili": [
+        "भुनल चना",
+        "Bhunal Chana"
+      ],
+      "malayalam": [
+        "പൊട്ടുകടല",
+        "Pottukadala"
+      ],
+      "manipuri": [
+        "ꯆꯅꯥ",
+        "Chana"
+      ],
+      "marathi": [
+        "फुटाणे",
+        "Futane"
+      ],
+      "nepali": [
+        "भुटेको चना",
+        "Bhuteko Chana"
+      ],
+      "odia": [
+        "ଭଜା ବୁଟ",
+        "Bhaja Buta"
+      ],
+      "punjabi": [
+        "ਭੁੱਜੇ ਛੋਲੇ",
+        "Bhujje Choley"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱪᱚᱱᱟ",
+        "Chana"
+      ],
+      "sindhi": [
+        "ڀڳڙا",
+        "Bhugra"
+      ],
+      "tamil": [
+        "பொட்டுக்கடலை",
+        "Pottukadalai"
+      ],
+      "telugu": [
+        "పుట్నాల పప్పు",
+        "Putnala Pappu"
+      ],
+      "urdu": [
+        "بھنے چنے",
+        "Bhune Chane"
+      ]
+    },
+    "notes": "Fried gram, used in Chutneys."
+  },
+  {
+    "id": "arrowroot-flour",
+    "photo": "img/arrowroot-flour.webp",
+    "tags": [
+      "cereal"
+    ],
+    "scientificName": "N/A",
+    "names": {
+      "english": [
+        "Arrowroot Flour"
+      ],
+      "assamese": [
+        "আৰাৰোট আটা",
+        "Araroot Ata"
+      ],
+      "bengali": [
+        "আরারুট",
+        "Ararot"
+      ],
+      "bodo": [
+        "आरारुत",
+        "Ararut"
+      ],
+      "dogri": [
+        "अरारोट आटा",
+        "Araroot Atta"
+      ],
+      "gujarati": [
+        "તવખીર",
+        "Tavkhir"
+      ],
+      "hindi": [
+        "अरारोट",
+        "Ararot"
+      ],
+      "kannada": [
+        "ಕೂವೆ ಹಿಟ್ಟು",
+        "Koove Hittu"
+      ],
+      "kashmiri": [
+        "آروروٹ آٹا",
+        "Araroot Atta"
+      ],
+      "konkani": [
+        "आरारोट पीठ",
+        "Araroot Peeth"
+      ],
+      "maithili": [
+        "अरारोट पीठ",
+        "Araroot Peeth"
+      ],
+      "malayalam": [
+        "കൂവപ്പൊടി",
+        "Koovappodi"
+      ],
+      "manipuri": [
+        "ꯑꯔꯥꯔꯣꯠ",
+        "Araroot"
+      ],
+      "marathi": [
+        "आरारोट",
+        "Ararot"
+      ],
+      "nepali": [
+        "अरारोट पिठो",
+        "Ararot Pitho"
+      ],
+      "odia": [
+        "ପାଳୁଆ",
+        "Palua"
+      ],
+      "punjabi": [
+        "ਅਰਾਰੋਟ",
+        "Ararot"
+      ],
+      "sanskrit": [
+        "-",
+        "-"
+      ],
+      "santali": [
+        "ᱟᱨᱟᱨᱳᱴ",
+        "Ararot"
+      ],
+      "sindhi": [
+        "اراروٽ",
+        "Ararot"
+      ],
+      "tamil": [
+        "கூவைக்காவு",
+        "Koovaikavu"
+      ],
+      "telugu": [
+        "పాలగుండ",
+        "Palagunda"
+      ],
+      "urdu": [
+        "اراروٹ",
+        "Ararot"
+      ]
+    },
+    "notes": "Digestible starch for thickening."
+  }
+]
