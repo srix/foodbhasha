@@ -1,10 +1,10 @@
 {
   "name": "foodbhasha",
-  "version": "1.16",
+  "version": "1.19",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node tests/seo.test.js",
+    "test": "npx playwright test",
     "generate": "node scripts/generate-static.js",
     "audit": "node scripts/audit-seo.js",
     "build": "node scripts/generate-static.js && node scripts/audit-seo.js",

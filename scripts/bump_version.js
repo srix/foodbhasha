@@ -2,77 +2,69 @@ const fs = require('fs');
 const path = require('path');
 
 const gradlePath = path.join(__dirname, '../android/app/build.gradle');
+const versionPath = path.join(__dirname, '../src/version.json');
+const packageJsonPath = path.join(__dirname, '../package.json');
 
 try {
-    let content = fs.readFileSync(gradlePath, 'utf8');
+    // 1. Read the Manual Version Source
+    if (!fs.existsSync(versionPath)) {
+        console.error('❌ src/version.json not found!');
+        process.exit(1);
+    }
+    const versionData = require(versionPath);
+    const targetVersionName = versionData.version;
+    console.log(`ℹ️  Syncing version ${targetVersionName} from src/version.json...`);
 
-    // Regex to find versionCode
+    // 2. Update Android build.gradle
+    let gradleContent = fs.readFileSync(gradlePath, 'utf8');
+
+    // Auto-increment versionCode (Required for Play Store)
     const versionCodeRegex = /versionCode\s+(\d+)/;
-    const match = content.match(versionCodeRegex);
+    const match = gradleContent.match(versionCodeRegex);
+    let newVersionCode = 1;
 
     if (match) {
         const currentVersionCode = parseInt(match[1], 10);
-        const newVersionCode = currentVersionCode + 1;
-
-        // Replace with new version code in Gradle
-        content = content.replace(versionCodeRegex, `versionCode ${newVersionCode}`);
-
-        // --- Auto-increment versionName (Minor Version) ---
-        const versionNameRegex = /versionName\s+"([^"]+)"/;
-        const nameMatch = content.match(versionNameRegex);
-        let newVersionName = '1.0';
-
-        if (nameMatch) {
-            const parts = nameMatch[1].split('.');
-            if (parts.length >= 2) {
-                // Increment minor version (e.g., 1.2 -> 1.3)
-                const major = parts[0];
-                const minor = parseInt(parts[1], 10) + 1;
-                newVersionName = `${major}.${minor}`;
-            } else {
-                // Fallback if odd format
-                newVersionName = nameMatch[1];
-            }
-            content = content.replace(versionNameRegex, `versionName "${newVersionName}"`);
-            console.log(`✅ Bumped Android versionName from ${nameMatch[1]} to ${newVersionName}`);
-        }
-
-        fs.writeFileSync(gradlePath, content, 'utf8');
-        console.log(`✅ Bumped Android versionCode from ${currentVersionCode} to ${newVersionCode}`);
-
-        // --- Update index.html ---
-        const indexHtmlPath = path.join(__dirname, '../index.html');
-        let indexContent = fs.readFileSync(indexHtmlPath, 'utf8');
-
-        // Extract versionName (already updated in content)
-        const versionName = newVersionName;
-
-        // Construct new footer text
-        // Format: © 2026 FoodBhasha • v1.3
-        const currentYear = new Date().getFullYear();
-        // Force 2026 if user specific requested, otherwise dynamic. User requested 2026 explicitly.
-        // Let's stick to the user's specific "2026" request for now or make it dynamic if they want "generated".
-        // "footer is 2024. that shoudl be 2026." -> implied permanent change or forward dating.
-        // I will use 2026 as hardcoded for now to satisfy the precise request, or Math.max(2026, currentYear).
-        // Let's use 2026 to be safe.
-        const newFooterText = `© 2026 FoodBhasha • v${versionName}`;
-
-        const footerRegex = /<footer class="app-footer">\s*<p>.*?<\/p>\s*<\/footer>/s;
-
-        if (footerRegex.test(indexContent)) {
-            const newFooterBlock = `<footer class="app-footer">\n        <p>${newFooterText}</p>\n    </footer>`;
-            indexContent = indexContent.replace(footerRegex, newFooterBlock);
-            fs.writeFileSync(indexHtmlPath, indexContent, 'utf8');
-            console.log(`✅ Updated index.html footer: ${newFooterText}`);
-        } else {
-            console.warn('⚠️ Could not find footer in index.html to update signature.');
-        }
-
-    } else {
-        console.error('❌ Could not find versionCode in build.gradle');
-        process.exit(1);
+        newVersionCode = currentVersionCode + 1;
+        gradleContent = gradleContent.replace(versionCodeRegex, `versionCode ${newVersionCode}`);
+        console.log(`✅ Bumped Android versionCode to ${newVersionCode}`);
     }
+
+    // Iterate versionName to match Manual Source
+    const versionNameRegex = /versionName\s+"([^"]+)"/;
+    gradleContent = gradleContent.replace(versionNameRegex, `versionName "${targetVersionName}"`);
+    console.log(`✅ Synced Android versionName to ${targetVersionName}`);
+
+    fs.writeFileSync(gradlePath, gradleContent, 'utf8');
+
+    // 3. Update package.json (Keep it in sync mainly for reference)
+    const packageJson = require(packageJsonPath);
+    if (packageJson.version !== targetVersionName) {
+        packageJson.version = targetVersionName;
+        fs.writeFileSync(packageJsonPath, JSON.stringify(packageJson, null, 2) + '\n');
+        console.log(`✅ Synced package.json version to ${targetVersionName}`);
+    }
+
+    // 4. Update index.html Footer (Source file)
+    // This is optional since generate-static.js handles it for the BUILD, 
+    // but useful for dev mode or raw file inspection.
+    const indexHtmlPath = path.join(__dirname, '../src/index.html');
+    let indexContent = fs.readFileSync(indexHtmlPath, 'utf8');
+
+    // Force 2026 as per request
+    const newFooterText = `© 2026 FoodBhasha • v${targetVersionName}`;
+    const footerRegex = /<footer class="app-footer">\s*<p>.*?<\/p>\s*<\/footer>/s;
+
+    if (footerRegex.test(indexContent)) {
+        const newFooterBlock = `<footer class="app-footer">\n        <p>${newFooterText}</p>\n    </footer>`;
+        indexContent = indexContent.replace(footerRegex, newFooterBlock);
+        fs.writeFileSync(indexHtmlPath, indexContent, 'utf8');
+        console.log(`✅ Synced src/index.html footer to ${targetVersionName}`);
+    }
+
+    console.log('🎉 Version Sync Complete!');
+
 } catch (err) {
-    console.error('❌ Error bumping version:', err);
+    console.error('❌ Error syncing version:', err);
     process.exit(1);
 }

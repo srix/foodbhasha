@@ -45,3 +45,17 @@ This project uses a unique dual-build architecture to support both high-performa
 -   **`npm test`**: Runs Playwright tests against the **Dev Server** (`src/`). Checks for functionality, navigation, and fallback logic.
 -   **`npm run audit`**: Runs the SEO Audit against the **Production Build** (`dist/`). Checks specifically for indexability (Titles, Descriptions, Canonical, Pre-rendered content).
 -   **Important**: Always run `npm run build` (which runs `audit`) before committing `dist/` changes.
+
+## Versioning
+
+The project uses a **Manual Versioning** system controlled by a single file: `src/version.json`.
+
+1.  **To Release a New Version**:
+    *   Edit `src/version.json` and update the version (e.g., `1.20`).
+    *   **Web**: Just commit and push. Netlify will rebuild, and the footer will show `v1.20`.
+    *   **Android**: Run `npm run android:build`. This script (`scripts/bump_version.js`) will:
+        *   Read `src/version.json`.
+        *   Update `android/app/build.gradle` (VersionName = `1.20`, VersionCode auto-increments).
+        *   Sync `package.json` to `1.20` (for ecosystem consistency).
+        *   Update `src/index.html` footer to `v1.20`.
+

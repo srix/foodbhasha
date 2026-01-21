@@ -150,4 +150,14 @@ test.describe('SEO and Meta Tags', () => {
         expect(content).toContain('Tamil');
         expect(content).toContain('Malayalam');
     });
+    test('Footer displays correct version', async ({ page }) => {
+        const fs = require('fs');
+        const path = require('path');
+        const versionPath = path.join(__dirname, '../src/version.json');
+        const version = require(versionPath).version;
+
+        const footerText = await page.locator('.app-footer p').textContent();
+        expect(footerText).toContain(`v${version}`);
+        expect(footerText).toContain('2026');
+    });
 });

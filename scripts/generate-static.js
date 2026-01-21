@@ -204,8 +204,18 @@ function injectSEO(html, metadata) {
         output = output.replace('<div id="card-view" class="view-container">', `<div id="card-view" class="view-container">\n${metadata.content}`);
     }
 
+    // 3. Update Footer Version
+    const versionPath = path.join(__dirname, '../src/version.json');
+    let version = '1.0';
+    if (fs.existsSync(versionPath)) {
+        version = require(versionPath).version;
+    }
+    // Regex matches "v1.19" or "v1.0.0" etc in the footer
+    output = output.replace(/v\d+\.\d+(\.\d+)?/, `v${version}`);
+
     return output;
 }
+
 
 function generateCategoryContent(label, items, catKey) {
     // Generate a simple list of links for the category page
