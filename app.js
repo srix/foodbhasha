@@ -554,7 +554,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('meta[property="twitter:image"]')?.setAttribute('content', 'https://foodbhasha.com/assets/graphics/logo.webp');
 
         // Update canonical tag
-        document.querySelector('link[rel="canonical"]')?.setAttribute('href', url + (url.endsWith('/') ? '' : '/'));
+        let canonicalLink = document.querySelector('link[rel="canonical"]');
+        if (!canonicalLink) {
+            canonicalLink = document.createElement('link');
+            canonicalLink.setAttribute('rel', 'canonical');
+            document.head.appendChild(canonicalLink);
+        }
+        canonicalLink.setAttribute('href', url + (url.endsWith('/') ? '' : '/'));
     }
 
     function scrollToItem(itemId) {
