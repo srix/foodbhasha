@@ -161,7 +161,7 @@ function injectSEO(html, metadata) {
     output = output.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(metadata.title)}</title>`);
 
     // Replace Description
-    output = output.replace(/<meta name="description" content=".*?">/, `<meta name="description" content="${escapeHtml(metadata.description)}">`);
+    output = output.replace(/<meta name="description"[\s\S]*?>/, `<meta name="description" content="${escapeHtml(metadata.description)}">`);
 
     // Replace Canonical
     // If exists, replace, else inject (Template has one)
