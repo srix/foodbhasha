@@ -213,7 +213,41 @@ body {
     vertical-align: sub;
 }
 
-/* Navigation Tabs */
+/* Header Icon Button (Android) */
+.header-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    margin-right: 8px;
+    transition: background-color 0.2s;
+    border: 1px solid var(--border-color);
+    /* Optional: visual delineation */
+}
+
+.header-icon-btn:hover {
+    background-color: #f0f4f8;
+}
+
+.android-icon {
+    width: 22px;
+    height: 22px;
+}
+
+/* Update mobile behavior to ensure it fits */
+@media (max-width: 767px) {
+    .header-icon-btn {
+        width: 36px;
+        height: 36px;
+        margin-right: 4px;
+        border: none;
+        /* Cleaner on mobile */
+    }
+}
+
 .category-tabs {
     border-bottom: 2px solid var(--border-color);
 }
