@@ -117,7 +117,7 @@ Each entry follows:
 ```json
 {
   "id": "item-slug",
-  "photo": "img/item.webp",
+  "photo": "img/item.webp", // Relative in JSON, resolved to absolute /img/... in app.js
   "tags": ["sea", "freshwater"], // or ["root", "vegetable"], ["fruit"], ["seed", "aromatic"]
   "scientificName": "Scientific Name",
   "names": {
@@ -132,7 +132,7 @@ Each entry follows:
 ### **5.2 Required fields**
 
 * `id` — unique slug
-* `photo` — local image path
+* `photo` — local image path (relative in JSON, e.g., `img/foo.webp`). App must prepend `/` for deep links.
 * `names` — object keys for each language
 * `tags` — array of tags used for filtering (see 6.2)
 
@@ -144,6 +144,9 @@ Each entry follows:
   * **Vegetables & Fruits**: 100% Major Language Coverage.
   * **Fish & Seafood**: 100% Major Language Coverage.
 * **Scientific Name**: All valid biological items MUST include a `scientificName`. If not applicable (e.g., generic category), use "N/A" sparingly; aim for >90% coverage.
+* **Examples**:
+  * **Vegetables**: Brinjal, Okra, Pomelo.
+  * **Spices**: Cardamom, Clove, Jaggery, Salt, Sugar.
 * **Dual Script**: For Indian languages, each entry MUST include both the **Native Script** and the **Romanized (English transliteration)** version (e.g., `["வஞ்சரம்", "Vanjaram"]`).
 * **Fallback**: If a name is unavailable for a specific language, the UI will display a hyphen (`-`) instead. The application must treat missing keys or empty arrays as valid absences.
 

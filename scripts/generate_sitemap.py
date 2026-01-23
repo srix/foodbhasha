@@ -36,9 +36,10 @@ def generate_sitemap():
     
     # Load data files and generate item URLs
     data_files = [
-        ('data/fish-seafood.json', 'fish'),
-        ('data/vegetables-fruits.json', 'vegetables-fruits'),
-        ('data/grains-pulses.json', 'grains')
+        ('src/data/fish-seafood.json', 'fish'),
+        ('src/data/vegetables-fruits.json', 'vegetables-fruits'),
+        ('src/data/grains-pulses.json', 'grains'),
+        ('src/data/spices.json', 'spices')
     ]
     
     for file_path, category in data_files:

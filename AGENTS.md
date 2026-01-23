@@ -111,7 +111,7 @@ The app supports:
 - `fish-seafood.json`, `vegetables-fruits.json`, `grains-pulses.json`, `spices.json`  
   Core datasets. Array of items with:
   - `id` - Unique slug for URL routing
-  - `photo` - Image path (relative to `/img/`)
+  - `photo` - Image path (e.g., `img/item.webp`). Note: Application logic (`app.js`) handles conversion to absolute paths (`/img/item.webp`) for deep linking.
   - `scientificName`
   - `names` object with 23 language keys (English + 22 Indian languages)
   - `tags` - Array for filtering
@@ -235,9 +235,9 @@ npm run sync && export ANDROID_SDK_ROOT=$HOME/Android/Sdk && npx cap run android
 
 ### Item URLs
 Every ingredient has a unique URL:
-- `/vegetables-fruits/brinjal`, `/vegetables-fruits/mango` (113 items)
-- `/grains/basmati-rice`, `/grains/toor-dal` (66 items)
-- `/spices/turmeric`, `/spices/cardamom` (38 items)
+- `/vegetables-fruits/brinjal`, `/vegetables-fruits/mango` (~114 items)
+- `/grains/basmati-rice`, `/grains/toor-dal` (65 items)
+- `/spices/turmeric`, `/spices/cardamom` (40+ items)
 - `/fish/sardine`, `/fish/pomfret-black` (102 fish items)
 
 Total: 324 indexable URLs
