@@ -6,7 +6,8 @@ def find_missing():
         'src/data/fish-seafood.json',
         'src/data/vegetables-fruits.json', 
         'src/data/grains-pulses.json',
-        'src/data/spices.json'
+        'src/data/spices.json',
+        'src/data/flowers.json'
     ]
     
     total_missing = 0

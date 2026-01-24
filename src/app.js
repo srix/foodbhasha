@@ -181,6 +181,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemId = pathParts[1] || null;
         const searchQuery = searchParams.get('search') || '';
 
+        // Optimistic Title Update (Instant Feedback)
+        // If we know the category, set it immediately while data loads
+        if (!itemId) {
+            // For category/search pages, we don't need data to set the title
+            updateTitle(CATEGORIES[catPart] ? catPart : 'vegetables-fruits', searchQuery, null);
+        }
+
         // Handle /feedback route
         let targetCategory = 'vegetables-fruits';
         if (catPart === 'feedback') {
