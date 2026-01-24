@@ -164,6 +164,13 @@ npm install
 ```
 
 ### Important: Image Guidelines
+> [!IMPORTANT]
+> **IMAGE GENERATION RULE**: Before generating ANY images, you MUST read and follow `docs/image-generation.md`.
+> - **Format**: Always use the 2x2 grid strategy for efficiency.
+> - **Style**: Photo-realistic, white background.
+> - **Process**: Generate grid -> Run `scripts/process_grid.py` -> Update JSON.
+> **DO NOT** generate single images or use other styles unless explicitly overridden.
+
 - **Format**: Always use `.webp` for all images, including logos.
 - **Dimensions**: Always specify `width` and `height` attributes on `<img>` tags.
 - **Placeholders**: Use `placeholder_veg.webp`, `placeholder_fish.webp`, etc.
