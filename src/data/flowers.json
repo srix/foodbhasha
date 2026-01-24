@@ -2433,5 +2433,639 @@
             ]
         },
         "notes": "Edible flowers, cooked as fritters or curry."
+    },
+    {
+        "id": "gulmohar",
+        "photo": "img/gulmohar.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "tree"
+        ],
+        "scientificName": "Delonix regia",
+        "names": {
+            "english": [
+                "Royal Poinciana",
+                "Flamboyant"
+            ],
+            "hindi": [
+                "गुलमोहर",
+                "Gulmohar"
+            ],
+            "tamil": [
+                "மேவகு",
+                "Mayaram"
+            ],
+            "malayalam": [
+                "വാക",
+                "Vaaka"
+            ],
+            "telugu": [
+                "తురాయి",
+                "Turayi"
+            ],
+            "kannada": [
+                "ಕತ್ತಿಕಾಯಿ",
+                "Kattikayi"
+            ],
+            "bengali": [
+                "কৃষ্ণচূড়া",
+                "Krishnachura"
+            ]
+        }
+    },
+    {
+        "id": "jacaranda",
+        "photo": "img/jacaranda.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "tree"
+        ],
+        "scientificName": "Jacaranda mimosifolia",
+        "names": {
+            "english": [
+                "Jacaranda",
+                "Blue Jacaranda"
+            ],
+            "hindi": [
+                "नीली गुलमोहर",
+                "Neeli Gulmohar"
+            ],
+            "tamil": [
+                "ஜக்கரண்டா",
+                "Jacaranda"
+            ],
+            "telugu": [
+                "నీలి తురాయి",
+                "Neeli Turayi"
+            ]
+        }
+    },
+    {
+        "id": "kachnar",
+        "photo": "img/kachnar.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "medicinal",
+            "tree"
+        ],
+        "scientificName": "Bauhinia variegata",
+        "names": {
+            "english": [
+                "Orchid Tree",
+                "Camel's Foot Tree"
+            ],
+            "hindi": [
+                "कचनार",
+                "Kachnar"
+            ],
+            "tamil": [
+                "மந்தாரை",
+                "Mantharai"
+            ],
+            "malayalam": [
+                "മന്ദാരം",
+                "Mandaram"
+            ],
+            "telugu": [
+                "దేవకాంచనము",
+                "Devakanchanamu"
+            ],
+            "kannada": [
+                "ಬಸವನ ಪಾದ",
+                "Basavan Pada"
+            ],
+            "bengali": [
+                "কাঞ্চন",
+                "Kanchan"
+            ]
+        },
+        "notes": "Buds are used in curries."
+    },
+    {
+        "id": "semal",
+        "photo": "img/semal.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "tree"
+        ],
+        "scientificName": "Bombax ceiba",
+        "names": {
+            "english": [
+                "Red Silk Cotton",
+                "Bombax"
+            ],
+            "hindi": [
+                "सेमल",
+                "Semal"
+            ],
+            "tamil": [
+                "இலவு",
+                "Ilavu"
+            ],
+            "malayalam": [
+                "പൂള",
+                "Poola"
+            ],
+            "telugu": [
+                "బూరుగు",
+                "Burugu"
+            ],
+            "bengali": [
+                "শিমুল",
+                "Shimul"
+            ]
+        }
+    },
+    {
+        "id": "nag-champa",
+        "photo": "img/nag-champa.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "religious",
+            "tree"
+        ],
+        "scientificName": "Mesua ferrea",
+        "names": {
+            "english": [
+                "Cobra Saffron",
+                "Ironwood"
+            ],
+            "hindi": [
+                "नाग चम्पा",
+                "Nag Champa"
+            ],
+            "tamil": [
+                "நாகப்பூ",
+                "Naagappu"
+            ],
+            "malayalam": [
+                "നാഗപ്പൂ",
+                "Nagappoo"
+            ],
+            "kannada": [
+                "ನಾಗಸಂಪಿಗೆ",
+                "Nagasampige"
+            ],
+            "bengali": [
+                "নাগকেশর",
+                "Nagkesar"
+            ]
+        }
+    },
+    {
+        "id": "kamini",
+        "photo": "img/kamini.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "decorative",
+            "shrub"
+        ],
+        "scientificName": "Murraya paniculata",
+        "names": {
+            "english": [
+                "Orange Jasmine",
+                "China Box"
+            ],
+            "hindi": [
+                "कामिनी",
+                "Kamini"
+            ],
+            "tamil": [
+                "வெங்காரை",
+                "Vengkarai"
+            ],
+            "telugu": [
+                "నాగగొల్లగు",
+                "Naga Golla"
+            ],
+            "bengali": [
+                "কামিনী",
+                "Kamini"
+            ]
+        }
+    },
+    {
+        "id": "crape-jasmine",
+        "photo": "img/crape-jasmine.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "white",
+            "shrub"
+        ],
+        "scientificName": "Tabernaemontana divaricata",
+        "names": {
+            "english": [
+                "Crape Jasmine",
+                "Pinwheel Flower"
+            ],
+            "hindi": [
+                "चांदनी",
+                "Chandni"
+            ],
+            "tamil": [
+                "நந்தியாவட்டை",
+                "Nandhiyavattai"
+            ],
+            "malayalam": [
+                "നന്ത്യാർവട്ടം",
+                "Nandyarvattam"
+            ],
+            "telugu": [
+                "నందివర్ధనం",
+                "Nandivardhanam"
+            ],
+            "bengali": [
+                "টগর",
+                "Tagar"
+            ]
+        }
+    },
+    {
+        "id": "allamanda",
+        "photo": "img/allamanda.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "yellow",
+            "climber"
+        ],
+        "scientificName": "Allamanda cathartica",
+        "names": {
+            "english": [
+                "Golden Trumpet",
+                "Yellow Allamanda"
+            ],
+            "hindi": [
+                "पीला घंटी",
+                "Peela Ghinti"
+            ],
+            "tamil": [
+                "அலமாண்டா",
+                "Allamanda"
+            ],
+            "malayalam": [
+                "കോളാമ്പി",
+                "Kolambi"
+            ],
+            "bengali": [
+                "অলাকাকান্দা",
+                "Alakananda"
+            ]
+        }
+    },
+    {
+        "id": "tecoma",
+        "photo": "img/tecoma.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "yellow",
+            "shrub"
+        ],
+        "scientificName": "Tecoma stans",
+        "names": {
+            "english": [
+                "Yellow Bells",
+                "Yellow Trumpetbush"
+            ],
+            "hindi": [
+                "पीली घंटी",
+                "Pili Ghanti"
+            ],
+            "tamil": [
+                "தங்க அரளி",
+                "Thanga Arali"
+            ],
+            "telugu": [
+                "సువర్ణ గన్నేరు",
+                "Suvarna Ganneru"
+            ]
+        }
+    },
+    {
+        "id": "raat-ki-rani",
+        "photo": "img/raat-ki-rani.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "shrub",
+            "nocturnal"
+        ],
+        "scientificName": "Cestrum nocturnum",
+        "names": {
+            "english": [
+                "Night Blooming Jasmine",
+                "Queen of the Night"
+            ],
+            "hindi": [
+                "रात की रानी",
+                "Raat Ki Rani"
+            ],
+            "tamil": [
+                "இரவு ராணி",
+                "Iravu Rani"
+            ],
+            "bengali": [
+                "হাসনাহেনা",
+                "Hasnahana"
+            ]
+        },
+        "notes": "Extremely fragrant at night."
+    },
+    {
+        "id": "brahma-kamal",
+        "photo": "img/brahma-kamal.webp",
+        "tags": [
+            "flower",
+            "religious",
+            "himalayan"
+        ],
+        "scientificName": "Saussurea obvallata",
+        "names": {
+            "english": [
+                "Sacred Lotus",
+                "Brahma Kamal"
+            ],
+            "hindi": [
+                "ब्रह्म कमल",
+                "Brahma Kamal"
+            ],
+            "marathi": [
+                "ब्रह्मकमळ",
+                "Brahma Kamal"
+            ],
+            "kannada": [
+                "ಬ್ರಹ್ಮ ಕಮಲ",
+                "Brahma Kamala"
+            ]
+        },
+        "notes": "State flower of Uttarakhand."
+    },
+    {
+        "id": "rhododendron",
+        "photo": "img/rhododendron.webp",
+        "tags": [
+            "flower",
+            "himalayan",
+            "edible",
+            "tree"
+        ],
+        "scientificName": "Rhododendron arboreum",
+        "names": {
+            "english": [
+                "Rhododendron"
+            ],
+            "hindi": [
+                "बुरांश",
+                "Buransh"
+            ],
+            "nepali": [
+                "लाली गुराँस",
+                "Lali Gurans"
+            ]
+        },
+        "notes": "Used to make juice in Himalayas."
+    },
+    {
+        "id": "mahua",
+        "photo": "img/mahua.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "medicinal",
+            "tree"
+        ],
+        "scientificName": "Madhuca longifolia",
+        "names": {
+            "english": [
+                "Mahua",
+                "Butter Tree"
+            ],
+            "hindi": [
+                "महुआ",
+                "Mahua"
+            ],
+            "tamil": [
+                "இலுப்பை",
+                "Iluppai"
+            ],
+            "malayalam": [
+                "ഇലിപ്പ",
+                "Ilippa"
+            ],
+            "telugu": [
+                "ఇప్ప పువ్వు",
+                "Ippa Puvvu"
+            ],
+            "bengali": [
+                "মহুয়া",
+                "Mahua"
+            ]
+        }
+    },
+    {
+        "id": "foxtail-orchid",
+        "photo": "img/foxtail-orchid.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "orchid"
+        ],
+        "scientificName": "Rhynchostylis retusa",
+        "names": {
+            "english": [
+                "Foxtail Orchid"
+            ],
+            "hindi": [
+                "द्रौपदी माला",
+                "Draupadi Mala"
+            ],
+            "assamese": [
+                "কপৌ ফুল",
+                "Kopou Phul"
+            ]
+        },
+        "notes": "State flower of Assam, used in Bihu dance."
+    },
+    {
+        "id": "bottle-brush",
+        "photo": "img/bottle-brush.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "tree",
+            "red"
+        ],
+        "scientificName": "Callistemon",
+        "names": {
+            "english": [
+                "Bottle Brush"
+            ],
+            "hindi": [
+                "चील",
+                "Cheel"
+            ],
+            "tamil": [
+                "பாட்டில் பிரஷ்",
+                "Bottle Brush"
+            ]
+        }
+    },
+    {
+        "id": "gardenia",
+        "photo": "img/gardenia.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "white",
+            "shrub"
+        ],
+        "scientificName": "Gardenia jasminoides",
+        "names": {
+            "english": [
+                "Gardenia",
+                "Cape Jasmine"
+            ],
+            "hindi": [
+                "गंधराज",
+                "Gandharaj"
+            ],
+            "bengali": [
+                "গন্ধরাজ",
+                "Gandharaj"
+            ],
+            "tamil": [
+                "கும்பை",
+                "Kumbai"
+            ]
+        }
+    },
+    {
+        "id": "madhavi-lata",
+        "photo": "assets/graphics/placeholder_flower.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "climber",
+            "fragrant"
+        ],
+        "scientificName": "Hiptage benghalensis",
+        "names": {
+            "english": [
+                "Hiptage"
+            ],
+            "hindi": [
+                "माधवी लता",
+                "Madhavi Lata"
+            ],
+            "sanskrit": [
+                "माधवी",
+                "Madhavi"
+            ],
+            "tamil": [
+                "வசந்த கால மல்லிகை",
+                "Vasantha Kaala Malligai"
+            ]
+        }
+    },
+    {
+        "id": "moss-rose",
+        "photo": "assets/graphics/placeholder_flower.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "groundcover"
+        ],
+        "scientificName": "Portulaca grandiflora",
+        "names": {
+            "english": [
+                "Moss Rose",
+                "Table Rose"
+            ],
+            "hindi": [
+                "नौ बजे का फूल",
+                "Nau Baje Ka Phool"
+            ],
+            "tamil": [
+                "டேபிள் ரோஸ்",
+                "Table Rose"
+            ],
+            "malayalam": [
+                "പത്തുമണി ചെടി",
+                "Pathumani Chedi"
+            ]
+        },
+        "notes": "Blooms around 9 or 10 AM."
+    },
+    {
+        "id": "gomphrena",
+        "photo": "assets/graphics/placeholder_flower.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "purple"
+        ],
+        "scientificName": "Gomphrena globosa",
+        "names": {
+            "english": [
+                "Globe Amaranth"
+            ],
+            "hindi": [
+                "सुपारी फूल",
+                "Supari Phool"
+            ],
+            "tamil": [
+                "வாடாமல்லி",
+                "Vaadamalli"
+            ],
+            "malayalam": [
+                "വാടാമല്ലി",
+                "Vaadamalli"
+            ],
+            "telugu": [
+                "రైతు బిడ్డ",
+                "Raitu Bidda"
+            ]
+        }
+    },
+    {
+        "id": "shirish",
+        "photo": "assets/graphics/placeholder_flower.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "tree",
+            "fragrant"
+        ],
+        "scientificName": "Albizia lebbeck",
+        "names": {
+            "english": [
+                "Siris Tree",
+                "Rain Tree"
+            ],
+            "hindi": [
+                "शिरीष",
+                "Shirish"
+            ],
+            "tamil": [
+                "வாகை",
+                "Vaagai"
+            ],
+            "malayalam": [
+                "വാക",
+                "Vaaka"
+            ],
+            "sanskrit": [
+                "शिरीष",
+                "Shirisha"
+            ]
+        }
     }
 ]
