@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'vegetables-fruits': ['fruit', 'root', 'leafy', 'vegetable'],
         'grains': ['cereal', 'pulse', 'millet'],
         'spices': ['seed', 'aromatic', 'heat', 'root', 'acidic', 'resin', 'flower', 'dry-fruit'],
-        'flowers': ['flower', 'aromatic', 'decorative', 'religious', 'edible', 'aquatic', 'medecinal']
+        'flowers': ['flower', 'aromatic', 'decorative', 'religious', 'edible', 'aquatic', 'medicinal']
     };
 
     const BATCH_SIZE = 8;
@@ -477,7 +477,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'vegetable': '🍆 Vegetable', 'fruit': '🍎 Fruit', 'cereal': '🌾 Cereal', 'pulse': '🫘 Pulse', 'millet': '🥣 Millet',
             'spice': '🌶️ Spice', 'seed': '🌿 Seed', 'aromatic': '🪵 Aromatic', 'heat': '🔥 Heat', 'acidic': '🍋 Acidic',
             'resin': '🥣 Resin', 'flower': '🌸 Flower', 'dry-fruit': '🥜 Dry Fruit',
-            'aquatic': '💧 Aquatic', 'medecinal': '💊 Medicinal', 'decorative': '🎋 Decorative', 'religious': '🙏 Religious', 'edible': '🍽️ Edible'
+            'aquatic': '💧 Aquatic', 'medicinal': '💊 Medicinal', 'decorative': '🎋 Decorative', 'religious': '🙏 Religious', 'edible': '🍽️ Edible'
         };
         return labels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
     }

@@ -11,15 +11,18 @@
         "scientificName": "Jasminum",
         "names": {
             "english": [
-                "Jasmine"
+                "Jasmine",
+                "Arabian Jasmine"
             ],
             "tamil": [
                 "மல்லிகை",
-                "Malligai"
+                "Malligai",
+                "Gundu Malli"
             ],
             "hindi": [
                 "चमेली",
-                "Chameli"
+                "Chameli",
+                "Mogra"
             ],
             "kannada": [
                 "ಮಲ್ಲಿಗೆ",
@@ -34,16 +37,16 @@
                 "Mallepuvvu"
             ],
             "marathi": [
-                "जाई",
-                "Jai"
+                "मोगरा",
+                "Mogra"
             ],
             "bengali": [
                 "জুঁই",
                 "Jui"
             ],
             "gujarati": [
-                "ચમેલી",
-                "Chameli"
+                "મોગરો",
+                "Mogro"
             ],
             "urdu": [
                 "چمیلی",
@@ -52,6 +55,18 @@
             "sanskrit": [
                 "मल्लिका",
                 "Mallika"
+            ],
+            "punjabi": [
+                "ਚਮੇਲੀ",
+                "Chameli"
+            ],
+            "odia": [
+                "ମଲ୍ଲୀ",
+                "Malli"
+            ],
+            "assamese": [
+                "মলী",
+                "Moli"
             ]
         },
         "notes": "Highly aromatic, used in perfumes and garlands."
@@ -63,7 +78,7 @@
             "flower",
             "edible",
             "religious",
-            "medecinal"
+            "medicinal"
         ],
         "scientificName": "Hibiscus rosa-sinensis",
         "names": {
@@ -84,7 +99,7 @@
                 "Dasavala"
             ],
             "malayalam": [
-                "చెമ്പരత్తి",
+                "ചെമ്പരത്തി",
                 "Chemparathi"
             ],
             "telugu": [
@@ -110,9 +125,21 @@
             "sanskrit": [
                 "जपाकुसुम",
                 "Japakusuma"
+            ],
+            "punjabi": [
+                "ਗੁੜਹਲ",
+                "Gudhal"
+            ],
+            "odia": [
+                "ମନ୍ଦାର",
+                "Mandara"
+            ],
+            "assamese": [
+                "জবা",
+                "Joba"
             ]
         },
-        "notes": "Used in hair care, tea, and worship."
+        "notes": "Used in hair care, herbal tea, and worship of Goddess Kali."
     },
     {
         "id": "marigold",
@@ -166,9 +193,21 @@
             "sanskrit": [
                 "स्थूलपुष्प",
                 "Sthulapushpa"
+            ],
+            "punjabi": [
+                "ਗੇਂਦਾ",
+                "Genda"
+            ],
+            "odia": [
+                "ଗେଣ୍ଡୁ",
+                "Gendu"
+            ],
+            "assamese": [
+                "নৰ্জী",
+                "Narjee"
             ]
         },
-        "notes": "Bright orange/yellow, distinct smell, festive decoration."
+        "notes": "Bright orange/yellow, distinct smell, essential for festivals."
     },
     {
         "id": "rose",
@@ -223,9 +262,21 @@
             "sanskrit": [
                 "पाटल",
                 "Patala"
+            ],
+            "punjabi": [
+                "ਗੁਲਾਬ",
+                "Gulab"
+            ],
+            "odia": [
+                "ଗୋଲାପ",
+                "Golapa"
+            ],
+            "assamese": [
+                "গোলাপ",
+                "Golap"
             ]
         },
-        "notes": "Symbol of love, used in food (gulkand) and perfumes."
+        "notes": "Symbol of love. Petals used in Gulkand and rose water."
     },
     {
         "id": "lotus",
@@ -280,8 +331,2107 @@
             "sanskrit": [
                 "पद्म",
                 "Padma"
+            ],
+            "punjabi": [
+                "ਕਮਲ",
+                "Kamal"
+            ],
+            "odia": [
+                "ପଦ୍ମ",
+                "Padma"
+            ],
+            "assamese": [
+                "পদ্দ্ম",
+                "Podum"
             ]
         },
-        "notes": "National flower of India, stems (nadru) and seeds (makhana) are edible."
+        "notes": "National flower of India. Sacred in Hinduism and Buddhism."
+    },
+    {
+        "id": "sunflower",
+        "photo": "img/sunflower.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "decorative"
+        ],
+        "scientificName": "Helianthus annuus",
+        "names": {
+            "english": [
+                "Sunflower"
+            ],
+            "tamil": [
+                "சூரியகாந்தி",
+                "Sooryakaanthi"
+            ],
+            "hindi": [
+                "सूरजमुखी",
+                "Surajmukhi"
+            ],
+            "kannada": [
+                "ಸೂರ್ಯಕಾಂತಿ",
+                "Suryakanti"
+            ],
+            "malayalam": [
+                "സൂര്യകാന്തി",
+                "Sooryakaanthi"
+            ],
+            "telugu": [
+                "పొద్దుతిరుగుడు",
+                "Poddu Tirugudu"
+            ],
+            "marathi": [
+                "सूर्यफूल",
+                "Suryaphool"
+            ],
+            "bengali": [
+                "সূর্যমুখী",
+                "Suryamukhi"
+            ],
+            "gujarati": [
+                "સૂરજમુખી",
+                "Surajmukhi"
+            ],
+            "urdu": [
+                "سورج مکھی",
+                "Suraj Mukhi"
+            ],
+            "sanskrit": [
+                "सूर्यमुखी",
+                "Suryamukhi"
+            ],
+            "punjabi": [
+                "ਸੂਰਜਮੁਖੀ",
+                "Surajmukhi"
+            ],
+            "odia": [
+                "ସୂର୍ଯ୍ୟମୁଖୀ",
+                "Surjyamukhi"
+            ]
+        },
+        "notes": "Follows the sun. Seeds are edible and produce oil."
+    },
+    {
+        "id": "chrysanthemum",
+        "photo": "img/chrysanthemum.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Chrysanthemum",
+        "names": {
+            "english": [
+                "Chrysanthemum",
+                "Mums"
+            ],
+            "tamil": [
+                "சாமந்தி",
+                "Samanthi"
+            ],
+            "hindi": [
+                "गुलदाउदी",
+                "Guldaudi"
+            ],
+            "kannada": [
+                "ಸೇವಂತಿಗೆ",
+                "Sevanthige"
+            ],
+            "malayalam": [
+                "ജമന്തി",
+                "Jamanthi"
+            ],
+            "telugu": [
+                "చామంతి",
+                "Chamanthi"
+            ],
+            "marathi": [
+                "शेवंती",
+                "Shevanti"
+            ],
+            "bengali": [
+                "চন্দ্রমল্লিকা",
+                "Chandramallika"
+            ],
+            "gujarati": [
+                "સેવંતી",
+                "Sevanti"
+            ],
+            "urdu": [
+                "گُلِ داؤدی",
+                "Gul-e-Daudi"
+            ],
+            "sanskrit": [
+                "सेवन्तिका",
+                "Sevantika"
+            ],
+            "punjabi": [
+                "ਗੁਲਦੌਦੀ",
+                "Guldauidi"
+            ],
+            "odia": [
+                "ସେବତୀ",
+                "Sebati"
+            ]
+        },
+        "notes": "Winter flower available in many colors."
+    },
+    {
+        "id": "oleander",
+        "photo": "img/oleander.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "medicinal"
+        ],
+        "scientificName": "Nerium oleander",
+        "names": {
+            "english": [
+                "Oleander"
+            ],
+            "tamil": [
+                "அரளி",
+                "Arali"
+            ],
+            "hindi": [
+                "कनेर",
+                "Kaner"
+            ],
+            "kannada": [
+                "ಕಣಗಲೆ",
+                "Kanagale"
+            ],
+            "malayalam": [
+                "അരളി",
+                "Arali"
+            ],
+            "telugu": [
+                "గన్నేరు",
+                "Ganneru"
+            ],
+            "marathi": [
+                "कण्हेर",
+                "Kanher"
+            ],
+            "bengali": [
+                "করবী",
+                "Karabi"
+            ],
+            "gujarati": [
+                "કરેણ",
+                "Karen"
+            ],
+            "urdu": [
+                "کنیر",
+                "Kaner"
+            ],
+            "sanskrit": [
+                "करवीर",
+                "Karavira"
+            ],
+            "punjabi": [
+                "ਕਨੇਰ",
+                "Kaner"
+            ],
+            "odia": [
+                "କରବୀର",
+                "Karabira"
+            ]
+        },
+        "notes": "Hardy shrub with toxic but beautiful flowers."
+    },
+    {
+        "id": "periwinkle",
+        "photo": "img/periwinkle.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "decorative"
+        ],
+        "scientificName": "Catharanthus roseus",
+        "names": {
+            "english": [
+                "Periwinkle",
+                "Vinca"
+            ],
+            "tamil": [
+                "நித்திய கல்யாணி",
+                "Nithya Kalyani"
+            ],
+            "hindi": [
+                "सदाबहार",
+                "Sadabahar"
+            ],
+            "kannada": [
+                "ನಿತ್ಯ ಪುಷ್ಪ",
+                "Nithya Pushpa"
+            ],
+            "malayalam": [
+                "നിത്യകല്യാണി",
+                "Nithyakalyani"
+            ],
+            "telugu": [
+                "బిళ్ళ గన్నేరు",
+                "Billa Ganneru"
+            ],
+            "marathi": [
+                "सदाफुली",
+                "Sadaphuli"
+            ],
+            "bengali": [
+                "নয়নতারা",
+                "Nayantara"
+            ],
+            "gujarati": [
+                "બારમાસી",
+                "Barmasi"
+            ],
+            "urdu": [
+                "سदाबहार",
+                "Sadabahar"
+            ],
+            "sanskrit": [
+                "नित्यकल्याणी",
+                "Nityakalyani"
+            ],
+            "punjabi": [
+                "ਸਦਾਬਹਾਰ",
+                "Sadabahar"
+            ],
+            "odia": [
+                "ସଦାବିହାରୀ",
+                "Sadabihari"
+            ]
+        },
+        "notes": "Blooms year-round. Used in traditional medicine."
+    },
+    {
+        "id": "tuberose",
+        "photo": "img/tuberose.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Polianthes tuberosa",
+        "names": {
+            "english": [
+                "Tuberose"
+            ],
+            "tamil": [
+                "சம்பங்கி",
+                "Sampangi"
+            ],
+            "hindi": [
+                "रजनीगंधा",
+                "Rajnigandha"
+            ],
+            "kannada": [
+                "ಸುಗಂಧರಾಜ",
+                "Sugandharaja"
+            ],
+            "malayalam": [
+                "രജനീഗന്ധി",
+                "Rajanigandhi"
+            ],
+            "telugu": [
+                "నెల సంపెంగ",
+                "Nela Sampenga"
+            ],
+            "marathi": [
+                "निशिगंध",
+                "Nishigandha"
+            ],
+            "bengali": [
+                "রজনীগন্ধা",
+                "Rajanigandha"
+            ],
+            "gujarati": [
+                "રજનીગંધા",
+                "Rajnigandha"
+            ],
+            "urdu": [
+                "رجنی گندھا",
+                "Rajnigandha"
+            ],
+            "sanskrit": [
+                "रजनीगन्धा",
+                "Rajanigandha"
+            ],
+            "punjabi": [
+                "ਰਜਨੀਗੰਧਾ",
+                "Rajnigandha"
+            ],
+            "odia": [
+                "ରଜନୀଗନ୍ଧା",
+                "Rajanigandha"
+            ]
+        },
+        "notes": "Intensely fragrant white flower used in perfumes and garlands."
+    },
+    {
+        "id": "flame-of-forest",
+        "photo": "img/flame-of-forest.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "religious"
+        ],
+        "scientificName": "Butea monosperma",
+        "names": {
+            "english": [
+                "Flame of the Forest",
+                "Parrot Tree"
+            ],
+            "tamil": [
+                "புரசு",
+                "Purasu"
+            ],
+            "hindi": [
+                "पलाश",
+                "Palash",
+                "Tesu"
+            ],
+            "kannada": [
+                "ಮುತ್ತುಗ",
+                "Muthuga"
+            ],
+            "malayalam": [
+                "പ്ലാശ്",
+                "Plaw",
+                "Muriku"
+            ],
+            "telugu": [
+                "మోదుగ",
+                "Moduga"
+            ],
+            "marathi": [
+                "पळस",
+                "Palas"
+            ],
+            "bengali": [
+                "পলাশ",
+                "Palash"
+            ],
+            "gujarati": [
+                "ખાખરો",
+                "Khakhro"
+            ],
+            "urdu": [
+                "ڈھاک",
+                "Dhak"
+            ],
+            "sanskrit": [
+                "पलाश",
+                "Palasha"
+            ],
+            "punjabi": [
+                "ਢਾਕ",
+                "Dhak"
+            ],
+            "odia": [
+                "ପଳାଶ",
+                "Palasa"
+            ]
+        },
+        "notes": "Bright orange flowers that bloom in spring. Associated with Holi."
+    },
+    {
+        "id": "golden-shower",
+        "photo": "img/golden-shower.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Cassia fistula",
+        "names": {
+            "english": [
+                "Golden Shower Tree"
+            ],
+            "tamil": [
+                "கொன்றை",
+                "Konrai"
+            ],
+            "hindi": [
+                "अमलतास",
+                "Amaltas"
+            ],
+            "kannada": [
+                "ಕಕ್ಕೆ ಗಿಡ",
+                "Kakke Gida"
+            ],
+            "malayalam": [
+                "കണിക്കൊന്ന",
+                "Kanikonna"
+            ],
+            "telugu": [
+                "రేల",
+                "Rela"
+            ],
+            "marathi": [
+                "बहावा",
+                "Bahava"
+            ],
+            "bengali": [
+                "সোনালু",
+                "Sonalu"
+            ],
+            "gujarati": [
+                "ગલમાળો",
+                "Garmalo"
+            ],
+            "urdu": [
+                "املتاس",
+                "Amaltas"
+            ],
+            "sanskrit": [
+                "आरग्वध",
+                "Aragvadha"
+            ],
+            "punjabi": [
+                "ਅਮਲਤਾਸ",
+                "Amaltas"
+            ],
+            "odia": [
+                "ସୁନାରି",
+                "Sunari"
+            ]
+        },
+        "notes": "State flower of Kerala (Kanikonna), blooms during Vishu."
+    },
+    {
+        "id": "plumeria",
+        "photo": "img/plumeria.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "religious",
+            "decorative"
+        ],
+        "scientificName": "Plumeria",
+        "names": {
+            "english": [
+                "Plumeria",
+                "Frangipani"
+            ],
+            "tamil": [
+                "அரளி",
+                "Arali",
+                "Perungalli"
+            ],
+            "hindi": [
+                "चम्पा",
+                "Champa"
+            ],
+            "kannada": [
+                "ದೇವ ಗಣಗಲೆ",
+                "Deva Ganagale"
+            ],
+            "malayalam": [
+                "ചെമ്പകം",
+                "Chempakam",
+                "Eezhachampakam"
+            ],
+            "telugu": [
+                "దేవ గన్నేరు",
+                "Deva Ganneru"
+            ],
+            "marathi": [
+                "चाफा",
+                "Chapha"
+            ],
+            "bengali": [
+                "কাঠগোলাপ",
+                "Kathgolap"
+            ],
+            "gujarati": [
+                "ચંપો",
+                "Champo"
+            ],
+            "urdu": [
+                "چمپہ",
+                "Champa"
+            ],
+            "sanskrit": [
+                "चम्पक",
+                "Champaka"
+            ],
+            "punjabi": [
+                "ਚੰਪਾ",
+                "Champa"
+            ],
+            "odia": [
+                "କାଠ ଚମ୍ପା",
+                "Katha Champa"
+            ]
+        },
+        "notes": "Waxy, fragrant flowers found in temples."
+    },
+    {
+        "id": "night-jasmine",
+        "photo": "img/night-jasmine.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "medicinal",
+            "religious"
+        ],
+        "scientificName": "Nyctanthes arbor-tristis",
+        "names": {
+            "english": [
+                "Night-flowering Jasmine",
+                "Coral Jasmine"
+            ],
+            "tamil": [
+                "பவள மல்லி",
+                "Pavala Malli"
+            ],
+            "hindi": [
+                "पारिजात",
+                "Parijat",
+                "Harsingar"
+            ],
+            "kannada": [
+                "ಪಾರಿಜಾತ",
+                "Parijatha"
+            ],
+            "malayalam": [
+                "പവിഴമല്ലി",
+                "Pavizhamalli"
+            ],
+            "telugu": [
+                "పారిజాతం",
+                "Parijatham"
+            ],
+            "marathi": [
+                "प्राजक्त",
+                "Prajakta"
+            ],
+            "bengali": [
+                "শিউলি",
+                "Shiuli"
+            ],
+            "gujarati": [
+                "પારિજાત",
+                "Parijat"
+            ],
+            "urdu": [
+                "ہارسنگار",
+                "Harsingar"
+            ],
+            "sanskrit": [
+                "पारिजात",
+                "Parijata"
+            ],
+            "punjabi": [
+                "ਹਾਰ ਸ਼ਿੰਗਾਰ",
+                "Haar Shingar"
+            ],
+            "odia": [
+                "ଗଙ୍ଗଶିଉଳୀ",
+                "Gangasiuli"
+            ]
+        },
+        "notes": "Blooms at night, falls by morning. Sweet fragrance."
+    },
+    {
+        "id": "crossandra",
+        "photo": "img/crossandra.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Crossandra infundibuliformis",
+        "names": {
+            "english": [
+                "Crossandra",
+                "Firecracker Flower"
+            ],
+            "tamil": [
+                "கனகாம்பரம்",
+                "Kanakambaram"
+            ],
+            "hindi": [
+                "अबौली",
+                "Aboli"
+            ],
+            "kannada": [
+                "ಕನಕಾಂಬರ",
+                "Kanakambara"
+            ],
+            "malayalam": [
+                "കനകാംബരം",
+                "Kanakambaram"
+            ],
+            "telugu": [
+                "కనకాంబరం",
+                "Kanakambaram"
+            ],
+            "marathi": [
+                "आबोली",
+                "Aboli"
+            ],
+            "bengali": [
+                "ক্রসান্ড্রা",
+                "Crossandra"
+            ],
+            "gujarati": [
+                "આબોલી",
+                "Aboli"
+            ],
+            "urdu": [
+                "آبولی",
+                "Aboli"
+            ],
+            "sanskrit": [
+                "प्रियादर",
+                "Priyadar"
+            ],
+            "punjabi": [
+                "ਕਨਕਾਂਬਰਾ",
+                "Kanakambara"
+            ],
+            "odia": [
+                "କନକମ୍ବର",
+                "Kanakambara"
+            ]
+        },
+        "notes": "Orange/peach flowers, popular in South India for hair adornment."
+    },
+    {
+        "id": "butterfly-pea",
+        "photo": "img/butterfly-pea.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "religious",
+            "edible"
+        ],
+        "scientificName": "Clitoria ternatea",
+        "names": {
+            "english": [
+                "Butterfly Pea",
+                "Blue Pea"
+            ],
+            "tamil": [
+                "சங்கு பூ",
+                "Sangu Poo"
+            ],
+            "hindi": [
+                "अपराजिता",
+                "Aparajita",
+                "Shankhpushpi"
+            ],
+            "kannada": [
+                "ಶಂಖ ಪುಷ್ಪ",
+                "Shankha Pushpa"
+            ],
+            "malayalam": [
+                "ശങ്കുപുഷ്പം",
+                "Shankupushpam"
+            ],
+            "telugu": [
+                "శంఖం పూలు",
+                "Shankham Poolu"
+            ],
+            "marathi": [
+                "गोकर्ण",
+                "Gokarna"
+            ],
+            "bengali": [
+                "অপরাজিতা",
+                "Aparajita"
+            ],
+            "gujarati": [
+                "ગૌરણી",
+                "Gouarni"
+            ],
+            "urdu": [
+                "اپراجیتا",
+                "Aparajita"
+            ],
+            "sanskrit": [
+                "अपराजिता",
+                "Aparajita"
+            ],
+            "punjabi": [
+                "ਅਪਰਾਜਿਤਾ",
+                "Aparajita"
+            ],
+            "odia": [
+                "ଅପରାଜିତା",
+                "Aparajita"
+            ]
+        },
+        "notes": "Vivid blue flowers used for tea (blue tea) and worship."
+    },
+    {
+        "id": "champak",
+        "photo": "img/champak.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "religious"
+        ],
+        "scientificName": "Magnolia champaca",
+        "names": {
+            "english": [
+                "Champak",
+                "Golden Champa"
+            ],
+            "tamil": [
+                "செண்பகம்",
+                "Shenbagam"
+            ],
+            "hindi": [
+                "चम्पा",
+                "Champa",
+                "Son Champa"
+            ],
+            "kannada": [
+                "ಸಂಪಿಗೆ",
+                "Sampige"
+            ],
+            "malayalam": [
+                "ചെമ്പകം",
+                "Chempakam"
+            ],
+            "telugu": [
+                "సంపెంగ",
+                "Sampenga"
+            ],
+            "marathi": [
+                "सोनचाफा",
+                "Sonchapha"
+            ],
+            "bengali": [
+                "স্বর্ণচাঁপা",
+                "Swarnachampa"
+            ],
+            "gujarati": [
+                "રાયચંપો",
+                "Raichampo"
+            ],
+            "urdu": [
+                "سونا چمپا",
+                "Sona Champa"
+            ],
+            "sanskrit": [
+                "चम्पक",
+                "Champaka"
+            ],
+            "punjabi": [
+                "ਸੋਨ ਚੰਪਾ",
+                "Son Champa"
+            ],
+            "odia": [
+                "ଚମ୍ପା",
+                "Champa"
+            ]
+        },
+        "notes": "Yellow/orange highly fragrant celestial flower."
+    },
+    {
+        "id": "ixora",
+        "photo": "img/ixora.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "religious"
+        ],
+        "scientificName": "Ixora coccinea",
+        "names": {
+            "english": [
+                "Ixora",
+                "Jungle Geranium"
+            ],
+            "tamil": [
+                "இட்லி பூ",
+                "Idly Poo",
+                "Vetchi"
+            ],
+            "hindi": [
+                "रुक्मिणी",
+                "Rukmini"
+            ],
+            "kannada": [
+                "ಕಿಸ್ಕರ",
+                "Kiskara"
+            ],
+            "malayalam": [
+                "തെച്ചി",
+                "Thechi",
+                "Chethi"
+            ],
+            "telugu": [
+                "రామబాణం",
+                "Rama Banam"
+            ],
+            "marathi": [
+                "बकोली",
+                "Bakoli"
+            ],
+            "bengali": [
+                "রঙ্গন",
+                "Rangan"
+            ],
+            "gujarati": [
+                "રુકમણી",
+                "Rukmani"
+            ],
+            "urdu": [
+                "اگزورا",
+                "Ixora"
+            ],
+            "sanskrit": [
+                "बन्धूक",
+                "Bandhuka"
+            ],
+            "punjabi": [
+                "ਰੁਕਮਿਣੀ",
+                "Rukmini"
+            ],
+            "odia": [
+                "ରଙ୍ଗଣି",
+                "Rangani"
+            ]
+        },
+        "notes": "Cluster of small red/pink star-shaped flowers."
+    },
+    {
+        "id": "bougainvillea",
+        "photo": "img/bougainvillea.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Bougainvillea",
+        "names": {
+            "english": [
+                "Bougainvillea",
+                "Paper Flower"
+            ],
+            "tamil": [
+                "காகிதப் பூ",
+                "Kaagitha Poo"
+            ],
+            "hindi": [
+                "बोगनवेलिया",
+                "Bougainvillea",
+                "Kagaz Phool"
+            ],
+            "kannada": [
+                "ಕಾಗದದ ಹೂವು",
+                "Kagadada Hoova"
+            ],
+            "malayalam": [
+                "കടലാസുപൂവ്",
+                "Kadalassupoo"
+            ],
+            "telugu": [
+                "కాగితం పూలు",
+                "Kaagitham Poolu"
+            ],
+            "marathi": [
+                "बोगनवेल",
+                "Boganvel"
+            ],
+            "bengali": [
+                "বাগানবিলাস",
+                "Baganbilash"
+            ],
+            "gujarati": [
+                "બુગનવેલ",
+                "Boganvel"
+            ],
+            "urdu": [
+                "کاغذ کے پھूल",
+                "Kaghaz Ke Phool"
+            ],
+            "sanskrit": [
+                "पत्रपुष्प",
+                "Patrapushpa"
+            ],
+            "punjabi": [
+                "ਬੋਗਨਵਿਲੀਆ",
+                "Bougainvillea"
+            ],
+            "odia": [
+                "କାଗଜ ଫୁଲ",
+                "Kagaz Phula"
+            ]
+        },
+        "notes": "Papery colorful bracts, found everywhere in warm climates."
+    },
+    {
+        "id": "water-lily",
+        "photo": "img/water-lily.webp",
+        "tags": [
+            "flower",
+            "aquatic",
+            "decorative"
+        ],
+        "scientificName": "Nymphaea",
+        "names": {
+            "english": [
+                "Water Lily"
+            ],
+            "tamil": [
+                "அல்லி",
+                "Alli",
+                "Aambal"
+            ],
+            "hindi": [
+                "कुमुद",
+                "Kumud",
+                "Nilofer"
+            ],
+            "kannada": [
+                "ನೈದಿಲೆ",
+                "Naidile"
+            ],
+            "malayalam": [
+                "ആമ്പൽ",
+                "Aambal"
+            ],
+            "telugu": [
+                "కలువ",
+                "Kaluva"
+            ],
+            "marathi": [
+                "कुमुदिनी",
+                "Kumudini"
+            ],
+            "bengali": [
+                "শাপলা",
+                "Shapla"
+            ],
+            "gujarati": [
+                "પોયણું",
+                "Poyanu"
+            ],
+            "urdu": [
+                "نیلوفر",
+                "Nilofer"
+            ],
+            "sanskrit": [
+                "कुमुद",
+                "Kumuda"
+            ],
+            "punjabi": [
+                "ਨੀਲੋਫਰ",
+                "Nilofer"
+            ],
+            "odia": [
+                "କଇଁ",
+                "Kain"
+            ]
+        },
+        "notes": "Often confused with Lotus, leaves float on water surface."
+    },
+    {
+        "id": "balsam",
+        "photo": "img/balsam.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Impatiens balsamina",
+        "names": {
+            "english": [
+                "Balsam",
+                "Rose Balsam"
+            ],
+            "tamil": [
+                "காசித் தும்பை",
+                "Kasi Thumbai"
+            ],
+            "hindi": [
+                "गुल मेंहदी",
+                "Gul Mehndi"
+            ],
+            "kannada": [
+                "ಕರ್ಣ ಕುಂಡಲ",
+                "Karna Kundala"
+            ],
+            "malayalam": [
+                "കാശിത്തുമ്പ",
+                "Kashi Thumba"
+            ],
+            "telugu": [
+                "చిలక ముక్క పువ్వు",
+                "Chilaka Mukka Puvvu"
+            ],
+            "marathi": [
+                "तेरडा",
+                "Terada"
+            ],
+            "bengali": [
+                "দোপাটি",
+                "Dopati"
+            ],
+            "gujarati": [
+                "గుલમેંદી",
+                "Gulmendi"
+            ],
+            "urdu": [
+                "گل مہندی",
+                "Gul Mehndi"
+            ],
+            "sanskrit": [
+                "तैरინი",
+                "Tairini"
+            ],
+            "odia": [
+                "ହରଗୌରା",
+                "Haragoura"
+            ]
+        },
+        "notes": "Traditional garden flower, distinct shape."
+    },
+    {
+        "id": "canna",
+        "photo": "img/canna.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Canna indica",
+        "names": {
+            "english": [
+                "Canna Lily",
+                "Indian Shot"
+            ],
+            "tamil": [
+                "கல்வாழை",
+                "Kalvazhai"
+            ],
+            "hindi": [
+                "केली",
+                "Keli",
+                "Vajrdanti"
+            ],
+            "kannada": [
+                "ಕಾಡುಬಾಳೆ",
+                "Kadubale"
+            ],
+            "malayalam": [
+                "കണ്ണ",
+                "Canna"
+            ],
+            "telugu": [
+                "మెట్ట తామర",
+                "Metta Tamara"
+            ],
+            "marathi": [
+                "कर्दळ",
+                "Kardal"
+            ],
+            "bengali": [
+                "কলাবতী",
+                "Kalabati"
+            ],
+            "gujarati": [
+                "કેળ ફુલ",
+                "Kel Phul"
+            ],
+            "sanskrit": [
+                "देवकी",
+                "Devakili"
+            ],
+            "odia": [
+                "ସର୍ବଜୟା",
+                "Sarbajaya"
+            ]
+        },
+        "notes": "Large foliage, bright flowers, hard black seeds."
+    },
+    {
+        "id": "zinnia",
+        "photo": "img/zinnia.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Zinnia elegans",
+        "names": {
+            "english": [
+                "Zinnia"
+            ],
+            "hindi": [
+                "ज़िनिया",
+                "Zinnia"
+            ],
+            "tamil": [
+                "ஜின்னியா",
+                "Zinnia"
+            ],
+            "telugu": [
+                "జినియా",
+                "Zinnia"
+            ],
+            "kannada": [
+                "ಜಿನಿಯಾ",
+                "Zinnia"
+            ],
+            "marathi": [
+                "झिनिया",
+                "Zinnia"
+            ],
+            "bengali": [
+                "জিনিয়া",
+                "Zinnia"
+            ],
+            "gujarati": [
+                "ઝીનિયા",
+                "Zinia"
+            ]
+        },
+        "notes": "Popular annual garden flower, many varieties."
+    },
+    {
+        "id": "rangoon-creeper",
+        "photo": "img/rangoon-creeper.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "aromatic"
+        ],
+        "scientificName": "Combretum indicum",
+        "names": {
+            "english": [
+                "Rangoon Creeper"
+            ],
+            "tamil": [
+                "இறங்குன் மல்லி",
+                "Irangun Malli"
+            ],
+            "hindi": [
+                "मधु मालती",
+                "Madhu Malati"
+            ],
+            "kannada": [
+                "ರಂಗೂನ್ ಮಲ್ಲೆ",
+                "Rangoon Malle"
+            ],
+            "malayalam": [
+                "ഇലഞ്ഞി",
+                "Ilanji",
+                "Rangoon Mullah"
+            ],
+            "telugu": [
+                "రాధా మనోహరం",
+                "Radha Manoharam"
+            ],
+            "marathi": [
+                "मधुमालती",
+                "Madhumalati"
+            ],
+            "bengali": [
+                "মধুমঞ্জরী",
+                "Madhumanjari"
+            ],
+            "gujarati": [
+                "મધુમાલતી",
+                "Madhumalti"
+            ],
+            "urdu": [
+                "مدھو مالتی",
+                "Madhu Malati"
+            ],
+            "odia": [
+                "ମଧୁ ମାଳତୀ",
+                "Madhu Malati"
+            ]
+        },
+        "notes": "Flowers change color from white to pink to red."
+    },
+    {
+        "id": "datura",
+        "photo": "img/datura.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "religious"
+        ],
+        "scientificName": "Datura metel",
+        "names": {
+            "english": [
+                "Datura",
+                "Thorn Apple"
+            ],
+            "tamil": [
+                "ஊமத்தை",
+                "Oomathai"
+            ],
+            "hindi": [
+                "धतूरा",
+                "Dhatura"
+            ],
+            "kannada": [
+                "ಉಮ್ಮತ್ತಿ",
+                "Ummathi"
+            ],
+            "malayalam": [
+                "ഉമ്മം",
+                "Ummam"
+            ],
+            "telugu": [
+                "ఉమ్మెత్త",
+                "Ummettha"
+            ],
+            "marathi": [
+                "धोत्रा",
+                "Dhotra"
+            ],
+            "bengali": [
+                "ধুতুরা",
+                "Dhutura"
+            ],
+            "gujarati": [
+                "ધતૂરો",
+                "Dhaturo"
+            ],
+            "sanskrit": [
+                "धत्तूर",
+                "Dhattura"
+            ],
+            "odia": [
+                "ଦୁଦୁରା",
+                "Dudura"
+            ]
+        },
+        "notes": "Sacred to Lord Shiva, but highly toxic."
+    },
+    {
+        "id": "kewda",
+        "photo": "img/kewda.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "religious"
+        ],
+        "scientificName": "Pandanus odorifer",
+        "names": {
+            "english": [
+                "Screw Pine",
+                "Kewda"
+            ],
+            "tamil": [
+                "தாழை",
+                "Thazhai"
+            ],
+            "hindi": [
+                "केवड़ा",
+                "Kewda"
+            ],
+            "kannada": [
+                "ಕೇದಗೆ",
+                "Kedage"
+            ],
+            "malayalam": [
+                "കൈത",
+                "Kaitha"
+            ],
+            "telugu": [
+                "మొగలి",
+                "Mogali"
+            ],
+            "marathi": [
+                "केवडा",
+                "Kevada"
+            ],
+            "bengali": [
+                "কেয়া",
+                "Keya"
+            ],
+            "gujarati": [
+                "કેવડો",
+                "Kevado"
+            ],
+            "sanskrit": [
+                "केतकी",
+                "Ketaki"
+            ],
+            "odia": [
+                "କିଆ",
+                "Kia"
+            ]
+        },
+        "notes": "Used for flavoring (kewra water) and perfumes."
+    },
+    {
+        "id": "bakul",
+        "photo": "img/bakul.webp",
+        "tags": [
+            "flower",
+            "aromatic",
+            "medicinal",
+            "decorative"
+        ],
+        "scientificName": "Mimusops elengi",
+        "names": {
+            "english": [
+                "Spanish Cherry",
+                "Bakul"
+            ],
+            "tamil": [
+                "மகிழம்",
+                "Magizham"
+            ],
+            "hindi": [
+                "मौलसरी",
+                "Maulsari"
+            ],
+            "kannada": [
+                "ಬಕುಲ",
+                "Bakula",
+                "Ranje"
+            ],
+            "malayalam": [
+                "ഇലഞ്ഞി",
+                "Elanji"
+            ],
+            "telugu": [
+                "పొగడ",
+                "Pogada"
+            ],
+            "marathi": [
+                "बकुळ",
+                "Bakul"
+            ],
+            "bengali": [
+                "বকুল",
+                "Bakul"
+            ],
+            "gujarati": [
+                "બોરસલ્લી",
+                "Borsalli"
+            ],
+            "sanskrit": [
+                "बकुल",
+                "Bakula"
+            ],
+            "odia": [
+                "ବଉଳ",
+                "Baula"
+            ]
+        },
+        "notes": "Small star-shaped cream flowers, retain scent when dry."
+    },
+    {
+        "id": "kadamba",
+        "photo": "img/kadamba.webp",
+        "tags": [
+            "flower",
+            "religious",
+            "decorative"
+        ],
+        "scientificName": "Neolamarckia cadamba",
+        "names": {
+            "english": [
+                "Burflower Tree",
+                "Kadamba"
+            ],
+            "tamil": [
+                "கடம்பம்",
+                "Kadambam"
+            ],
+            "hindi": [
+                "कदंब",
+                "Kadamb"
+            ],
+            "kannada": [
+                "ಕದಂಬ",
+                "Kadamba"
+            ],
+            "malayalam": [
+                "കടമ്പ്",
+                "Kadambu"
+            ],
+            "telugu": [
+                "కదంబం",
+                "Kadambam"
+            ],
+            "marathi": [
+                "कदम",
+                "Kadam"
+            ],
+            "bengali": [
+                "কদম",
+                "Kadam"
+            ],
+            "gujarati": [
+                "કદંબ",
+                "Kadamb"
+            ],
+            "sanskrit": [
+                "कदम्ब",
+                "Kadamba"
+            ],
+            "odia": [
+                "କଦମ୍ବ",
+                "Kadamba"
+            ]
+        },
+        "notes": "Unique ball-like orange flowers. Associated with Lord Krishna."
+    },
+    {
+        "id": "coral-tree",
+        "photo": "img/coral-tree.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "decorative"
+        ],
+        "scientificName": "Erythrina variegata",
+        "names": {
+            "english": [
+                "Indian Coral Tree"
+            ],
+            "tamil": [
+                "கல்யாண முருங்கை",
+                "Kalyana Murungai"
+            ],
+            "hindi": [
+                "पांगरा",
+                "Pangara"
+            ],
+            "kannada": [
+                "ಹಾಲ್ವಾಣ",
+                "Halvana"
+            ],
+            "malayalam": [
+                "മുരിക്ക്",
+                "Murikku"
+            ],
+            "telugu": [
+                "బాదిత",
+                "Baditha"
+            ],
+            "marathi": [
+                "पांगारा",
+                "Pangara"
+            ],
+            "bengali": [
+                "মান্দার",
+                "Mandar"
+            ],
+            "gujarati": [
+                "પાનરવો",
+                "Panarvo"
+            ],
+            "sanskrit": [
+                "पारिजात",
+                "Parijata"
+            ],
+            "odia": [
+                "ପାଳଧୁଆ",
+                "Paladhua"
+            ]
+        },
+        "notes": "Bright red flowers. Different from Night Jasmine (also called Parijat)."
+    },
+    {
+        "id": "lantana",
+        "photo": "img/lantana.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Lantana camara",
+        "names": {
+            "english": [
+                "Lantana"
+            ],
+            "tamil": [
+                "உன்னி செடி",
+                "Unni Chedi"
+            ],
+            "hindi": [
+                "राईमुनिया",
+                "Raimuniya"
+            ],
+            "kannada": [
+                "ರೋಜಾ",
+                "Roja"
+            ],
+            "malayalam": [
+                "കൊങ്ങിണി",
+                "Kongini"
+            ],
+            "telugu": [
+                "పులికంప",
+                "Pulikampa"
+            ],
+            "marathi": [
+                "घाणेरी",
+                "Ghaneri"
+            ],
+            "bengali": [
+                "ছত্রা",
+                "Chatra"
+            ],
+            "gujarati": [
+                "ધાણીદાળીયા",
+                "Dhanidaliya"
+            ]
+        },
+        "notes": "Common wild shrub with multi-colored flower clusters."
+    },
+    {
+        "id": "touch-me-not",
+        "photo": "img/touch-me-not.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "decorative"
+        ],
+        "scientificName": "Mimosa pudica",
+        "names": {
+            "english": [
+                "Touch-me-not",
+                "Sensitive Plant"
+            ],
+            "tamil": [
+                "தொட்டாற் சிணுங்கி",
+                "Thottal Sinungi"
+            ],
+            "hindi": [
+                "छुई मुई",
+                "Chui Mui"
+            ],
+            "kannada": [
+                "ಮುಟ್ಟಿದರೆ ಮುನಿ",
+                "Muttidare Muni"
+            ],
+            "malayalam": [
+                "തൊട്ടാവാടി",
+                "Thottavadi"
+            ],
+            "telugu": [
+                "అత్తి పత్తి",
+                "Atti Patti"
+            ],
+            "marathi": [
+                "लाजाळू",
+                "Lajalu"
+            ],
+            "bengali": [
+                "লজ্জাবতী",
+                "Lajjabati"
+            ],
+            "gujarati": [
+                "લજામણી",
+                "Lajamni"
+            ],
+            "sanskrit": [
+                "लज्जलु",
+                "Lajjalu"
+            ],
+            "odia": [
+                "ଲାଜକୁଳୀ",
+                "Lajakuli"
+            ]
+        },
+        "notes": "Leaves fold when touched. Pink fluffy flowers."
+    },
+    {
+        "id": "morning-glory",
+        "photo": "img/morning-glory.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Ipomoea",
+        "names": {
+            "english": [
+                "Morning Glory"
+            ],
+            "tamil": [
+                "கக்காட்டான்",
+                "Kakkattan"
+            ],
+            "hindi": [
+                "शंखपुष्पी",
+                "Shankhpushpi"
+            ],
+            "kannada": [
+                "ಪರಸಪತ್ರೆ",
+                "Parasapatre"
+            ],
+            "malayalam": [
+                "തിരുതാളി",
+                "Thiruthali"
+            ],
+            "telugu": [
+                "డొంక",
+                "Donka"
+            ],
+            "marathi": [
+                "गरवेल",
+                "Garvel"
+            ],
+            "bengali": [
+                "কলমি",
+                "Kolmi"
+            ],
+            "sanskrit": [
+                "शङ्खपुष्पी",
+                "Shankhapushpi"
+            ]
+        },
+        "notes": "Climbing vine with trumpet-shaped flowers."
+    },
+    {
+        "id": "dahlia",
+        "photo": "img/dahlia.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Dahlia",
+        "names": {
+            "english": [
+                "Dahlia"
+            ],
+            "tamil": [
+                "டேலியா",
+                "Dahlia"
+            ],
+            "hindi": [
+                "डहलिया",
+                "Dahlia"
+            ],
+            "telugu": [
+                "డాలియా",
+                "Dahlia"
+            ],
+            "kannada": [
+                "ಡೇಲಿಯಾ",
+                "Dahlia"
+            ],
+            "marathi": [
+                "डेलिया",
+                "Dahlia"
+            ],
+            "bengali": [
+                "ডালিয়া",
+                "Dahlia"
+            ],
+            "gujarati": [
+                "દહલિયા",
+                "Dahlia"
+            ]
+        },
+        "notes": "Popular garden flower with complex petals."
+    },
+    {
+        "id": "gladiolus",
+        "photo": "img/gladiolus.webp",
+        "tags": [
+            "flower",
+            "decorative"
+        ],
+        "scientificName": "Gladiolus",
+        "names": {
+            "english": [
+                "Gladiolus",
+                "Sword Lily"
+            ],
+            "tamil": [
+                "கிளாடியோலஸ்",
+                "Gladiolus"
+            ],
+            "hindi": [
+                "ग्लेडियोलस",
+                "Gladiolus"
+            ],
+            "telugu": [
+                "గ్లాడియోలస్",
+                "Gladiolus"
+            ],
+            "marathi": [
+                "ग्लॅडिओलस",
+                "Gladiolus"
+            ],
+            "bengali": [
+                "গ্লাডিওলাস",
+                "Gladiolus"
+            ]
+        },
+        "notes": "Tall flower spikes, popular in bouquets."
+    },
+    {
+        "id": "sita-ashok",
+        "photo": "img/sita-ashok.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "religious"
+        ],
+        "scientificName": "Saraca asoca",
+        "names": {
+            "english": [
+                "Sita Ashok",
+                "Sorrowless Tree"
+            ],
+            "tamil": [
+                "அசோகம்",
+                "Asogam"
+            ],
+            "hindi": [
+                "सीता अशोक",
+                "Sita Ashok"
+            ],
+            "kannada": [
+                "ಅಶೋಕ",
+                "Ashoka"
+            ],
+            "malayalam": [
+                "അശോകം",
+                "Ashokam"
+            ],
+            "telugu": [
+                "అశోక",
+                "Ashoka"
+            ],
+            "marathi": [
+                "अशोक",
+                "Ashoka"
+            ],
+            "bengali": [
+                "অশোক",
+                "Ashoka"
+            ],
+            "gujarati": [
+                "આસોપાલવ",
+                "Asopalav"
+            ],
+            "sanskrit": [
+                "अशोक",
+                "Ashoka"
+            ],
+            "odia": [
+                "ଅଶୋକ",
+                "Ashoka"
+            ]
+        },
+        "notes": "Sacred tree. Flowers are orange-yellow."
+    },
+    {
+        "id": "crown-flower",
+        "photo": "img/crown-flower.webp",
+        "tags": [
+            "flower",
+            "medicinal",
+            "religious"
+        ],
+        "scientificName": "Calotropis gigantea",
+        "names": {
+            "english": [
+                "Crown Flower",
+                "Giant Calotropis"
+            ],
+            "tamil": [
+                "எருக்கு",
+                "Erukku"
+            ],
+            "hindi": [
+                "आक",
+                "Aak",
+                "Madar"
+            ],
+            "kannada": [
+                "ಎಕ್ಕೆ",
+                "Ekke"
+            ],
+            "malayalam": [
+                "എരിക്ക്",
+                "Erikku"
+            ],
+            "telugu": [
+                "జిల్లేడు",
+                "Jilledu"
+            ],
+            "marathi": [
+                "रुई",
+                "Rui"
+            ],
+            "bengali": [
+                "আকন্দ",
+                "Akanda"
+            ],
+            "gujarati": [
+                "આકડો",
+                "Aakado"
+            ],
+            "sanskrit": [
+                "अर्क",
+                "Arka"
+            ],
+            "odia": [
+                "ଅରଖ",
+                "Arakha"
+            ]
+        },
+        "notes": "Milky latex. Favorite flower of Lord Ganesha."
+    },
+    {
+        "id": "peacock-flower",
+        "photo": "img/peacock-flower.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "medicinal"
+        ],
+        "scientificName": "Caesalpinia pulcherrima",
+        "names": {
+            "english": [
+                "Peacock Flower"
+            ],
+            "tamil": [
+                "மயில்கொன்றை",
+                "Mayil Konrai"
+            ],
+            "hindi": [
+                "गुलेतुरा",
+                "Guletura"
+            ],
+            "kannada": [
+                "ಕೆಂಪು ಕೇಸರಿ",
+                "Kempu Kesari"
+            ],
+            "malayalam": [
+                "രാജമല്ലി",
+                "Rajamalli"
+            ],
+            "telugu": [
+                "రత్నగంధి",
+                "Ratnagandhi"
+            ],
+            "marathi": [
+                "शंकاسੁਰ",
+                "Shankasur"
+            ],
+            "bengali": [
+                "কৃষ্ণচূড়া",
+                "Krishnachura"
+            ],
+            "gujarati": [
+                "ગલતોરા",
+                "Galtora"
+            ]
+        },
+        "notes": "Striking red/orange/yellow flowers."
+    },
+    {
+        "id": "yellow-oleander",
+        "photo": "img/yellow-oleander.webp",
+        "tags": [
+            "flower",
+            "decorative",
+            "medicinal"
+        ],
+        "scientificName": "Cascabela thevetia",
+        "names": {
+            "english": [
+                "Yellow Oleander"
+            ],
+            "tamil": [
+                "பச்சையரளி",
+                "Pachai Arali"
+            ],
+            "hindi": [
+                "पीला कनेर",
+                "Peela Kaner"
+            ],
+            "kannada": [
+                "ಕadu ಕಸ್ತೂರಿ",
+                "Kadu Kasturi"
+            ],
+            "malayalam": [
+                "മഞ്ഞ അരളി",
+                "Manja Arali"
+            ],
+            "telugu": [
+                "పచ్చ గన్నేరు",
+                "Pacha Ganneru"
+            ],
+            "marathi": [
+                "पिवळी कण्हेर",
+                "Pivali Kanher"
+            ],
+            "bengali": [
+                "কলকে",
+                "Kolke"
+            ],
+            "gujarati": [
+                "પીળી કરેણ",
+                "Pili Karen"
+            ]
+        },
+        "notes": "Trumpet shaped yellow flowers. Toxic."
+    },
+    {
+        "id": "banana-flower",
+        "photo": "img/banana-flower.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "medicinal"
+        ],
+        "scientificName": "Musa",
+        "names": {
+            "english": [
+                "Banana Flower",
+                "Banana Blossom"
+            ],
+            "tamil": [
+                "வாழைப்பூ",
+                "Vazhaipoo"
+            ],
+            "hindi": [
+                "केले का फूल",
+                "Kele Ka Phool"
+            ],
+            "kannada": [
+                "ಬಾಳೆ ಹೂವು",
+                "Bale Hoovu"
+            ],
+            "malayalam": [
+                "വാഴക്കൂമ്പ്",
+                "Vazhakoombu"
+            ],
+            "telugu": [
+                "అరటి పువ్వు",
+                "Arati Puvvu"
+            ],
+            "marathi": [
+                "केळफूल",
+                "Kelphul"
+            ],
+            "bengali": [
+                "মোচা",
+                "Mocha"
+            ],
+            "gujarati": [
+                "કેળ ફુલ",
+                "Kel Phul"
+            ],
+            "odia": [
+                "କଦଳୀ ଭଣ୍ଡା",
+                "Kadali Bhanda"
+            ]
+        },
+        "notes": "Rich in iron/fiber. Commonly cooked as a vegetable."
+    },
+    {
+        "id": "neem-flower",
+        "photo": "img/neem-flower.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "medicinal"
+        ],
+        "scientificName": "Azadirachta indica",
+        "names": {
+            "english": [
+                "Neem Flower"
+            ],
+            "tamil": [
+                "வேப்பம்பூ",
+                "Veppam Poo"
+            ],
+            "hindi": [
+                "नीम के फूल",
+                "Neem Ke Phool"
+            ],
+            "kannada": [
+                "ಬೆವಿನ ಹೂವು",
+                "Bevina Hoovu"
+            ],
+            "malayalam": [
+                "വേപ്പും പൂവ്",
+                "Veppum Poovu"
+            ],
+            "telugu": [
+                "వేప పువ్వు",
+                "Vepa Puvvu"
+            ],
+            "marathi": [
+                "कडुलिंबाची फुले",
+                "Kadulimbachi Phule"
+            ],
+            "bengali": [
+                "নিম ফুল",
+                "Neem Phul"
+            ],
+            "gujarati": [
+                "લીમડાના ફૂલ",
+                "Limda Na Phool"
+            ],
+            "odia": [
+                "ନିମ୍ବ ଫୁଲ",
+                "Nimba Phula"
+            ]
+        },
+        "notes": "Bitter taste. Used in Ugadi Pachadi and rasam."
+    },
+    {
+        "id": "moringa-flower",
+        "photo": "img/moringa-flower.webp",
+        "tags": [
+            "flower",
+            "edible",
+            "medicinal"
+        ],
+        "scientificName": "Moringa oleifera",
+        "names": {
+            "english": [
+                "Moringa Flower",
+                "Drumstick Flower"
+            ],
+            "tamil": [
+                "முருங்கை பூ",
+                "Murungai Poo"
+            ],
+            "hindi": [
+                "सहजन के फूल",
+                "Sahjan Ke Phool"
+            ],
+            "kannada": [
+                "ನುಗ್ಗೆ ಹೂವು",
+                "Nugge Hoovu"
+            ],
+            "malayalam": [
+                "മുരിങ്ങ പൂവ്",
+                "Muringa Poovu"
+            ],
+            "telugu": [
+                "మునగ పువ్వు",
+                "Munaga Puvvu"
+            ],
+            "marathi": [
+                "शेवग्याची फुले",
+                "Shevgyachi Phule"
+            ],
+            "bengali": [
+                "সজনে ফুল",
+                "Sajne Phul"
+            ],
+            "gujarati": [
+                "સરગવાના ફૂલ",
+                "Sargava Na Phool"
+            ],
+            "odia": [
+                "ସଜନା ଫୁଲ",
+                "Sajana Phoola"
+            ]
+        },
+        "notes": "Edible flowers, cooked as fritters or curry."
     }
 ]
