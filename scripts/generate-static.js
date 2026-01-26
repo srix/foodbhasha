@@ -87,7 +87,25 @@ async function generate() {
     fs.writeFileSync(path.join(DIST_DIR, 'index.html'), homeHtml);
 
 
-    // 5. Generate Category & Item Pages
+    // 5. Generate Feedback Page
+    console.log('📝 Generating Feedback Page...');
+    const feedbackDir = path.join(DIST_DIR, 'feedback');
+    ensureDir(feedbackDir);
+    const feedbackHtml = injectSEO(template, {
+        title: 'Feedback | FoodBhasha',
+        description: 'Spot an error or missing an item? Send us your feedback and corrections to help improve our Indian food glossary.',
+        url: 'https://foodbhasha.com/feedback/',
+        image: 'https://foodbhasha.com/assets/graphics/logo.webp',
+        content: `
+        <div class="static-page-content" style="padding: 20px; max-width: 600px; margin: 0 auto; text-align: center;">
+            <h1>Feedback</h1>
+            <p>We value your input! Use the form to send us corrections or suggestions.</p>
+            <!-- Form is handled by JS modal, but having this SEO text helps -->
+        </div>`
+    });
+    fs.writeFileSync(path.join(feedbackDir, 'index.html'), feedbackHtml);
+
+    // 6. Generate Category & Item Pages
     for (const [catKey, filename] of Object.entries(CATEGORIES)) {
         console.log(`📦 Processing Category: ${catKey}`);
 
