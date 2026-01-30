@@ -1,0 +1,4 @@
+# Redirect all variations to canonical HTTPS without www
+http://foodbhasha.com/* https://foodbhasha.com/:splat 301!
+https://www.foodbhasha.com/* https://foodbhasha.com/:splat 301!
+http://www.foodbhasha.com/* https://foodbhasha.com/:splat 301!

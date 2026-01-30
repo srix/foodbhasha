@@ -2,6 +2,26 @@
   command = "npm run build"
   publish = "dist"
 
+# Redirect all variations to canonical HTTPS without www
+[[redirects]]
+  from = "http://foodbhasha.com/*"
+  to = "https://foodbhasha.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.foodbhasha.com/*"
+  to = "https://foodbhasha.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.foodbhasha.com/*"
+  to = "https://foodbhasha.com/:splat"
+  status = 301
+  force = true
+
+# SPA fallback - must be last
 [[redirects]]
   from = "/*"
   to = "/index.html"

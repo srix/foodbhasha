@@ -67,7 +67,7 @@ async function generate() {
     };
 
     // explicit list of what to copy to avoid copying node_modules if present in root (rare but possible) or .git
-    ['assets', 'data', 'img', 'style.css', 'app.js', 'manifest.json', 'robots.txt', 'sitemap.xml', 'ads.txt', '404.html'].forEach(item => {
+    ['assets', 'data', 'img', 'style.css', 'app.js', 'manifest.json', 'robots.txt', 'sitemap.xml', 'ads.txt', '404.html', '_redirects'].forEach(item => {
         const srcPath = path.join(__dirname, '../src', item);
         if (fs.existsSync(srcPath)) {
             copyRecursive(srcPath, path.join(DIST_DIR, item));
