@@ -60,11 +60,11 @@ def generate_sitemap():
             print(f"Warning: {file_path} not found, skipping")
     
     sitemap.append('</urlset>')
-    
-    # Write to file
-    with open('sitemap.xml', 'w') as f:
+
+    # Write to src directory (will be copied to dist during build)
+    with open('src/sitemap.xml', 'w') as f:
         f.write('\n'.join(sitemap))
-    
+
     print(f"Sitemap generated successfully with {len([line for line in sitemap if '<loc>' in line])} URLs")
 
 if __name__ == "__main__":
