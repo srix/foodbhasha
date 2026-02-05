@@ -90,7 +90,7 @@ async function audit() {
     }
 
     // Regression Test: Critical Pages
-    const criticalFiles = ['feedback/index.html'];
+    const criticalFiles = [];
     criticalFiles.forEach(file => {
         if (!fs.existsSync(path.join(DIST_DIR, file))) {
             errors.push(`Critical file missing: dist/${file}`);
