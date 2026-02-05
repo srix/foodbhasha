@@ -19,7 +19,7 @@ This project uses a unique dual-build architecture to support both high-performa
     -   **SEO Features**:
         -   **trailingSlash**: Enforced on all canonical URLs.
         -   **Rich Meta**: Includes item notes and regional names.
-        -   **Feedback**: Dedicated static page at `/feedback/`.
+        -   **Pre-rendered Content**: Every item page includes full content for search engines.
 
 -   **`dist-android/`** (Android / SPA Build)
     -   **Purpose**: Used by Capacitor to build the Android App.

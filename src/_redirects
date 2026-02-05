@@ -2,3 +2,6 @@
 http://foodbhasha.com/* https://foodbhasha.com/:splat 301!
 https://www.foodbhasha.com/* https://foodbhasha.com/:splat 301!
 http://www.foodbhasha.com/* https://foodbhasha.com/:splat 301!
+
+# SPA fallback - serve index.html for /feedback (preserves pathname for JS detection)
+/feedback /index.html 200
