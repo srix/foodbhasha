@@ -291,3 +291,18 @@ Include a `netlify.toml` at the repo root so deep links resolve to the SPA entry
 - `sitemap.xml` - Submit to Google Search Console
 - `robots.txt` - Ensure correct domain
 - `manifest.json` - PWA configuration
+
+---
+
+## Cursor Cloud specific instructions
+
+### Services
+- **Web server**: `npm start` runs Express on port 8080, serving static files from `src/` with SPA fallback routing. No database or external services required.
+- **Tests**: `npm test` runs Playwright E2E tests (Chromium + Mobile Chrome). The Playwright `webServer` config auto-starts the server if not already running.
+
+### Non-obvious notes
+- Playwright browsers must be installed after `npm install` via `npx playwright install --with-deps chromium`. The update script handles this automatically.
+- There is no build step for the web app; vanilla HTML/CSS/JS is served directly from `src/`.
+- The app uses static JSON data files in `src/data/` — no database setup is needed.
+- Pre-existing test failures exist in routing and SEO tests due to trailing-slash mismatches (app generates `/category/` but tests expect `/category`) and a version string mismatch between `package.json` (v1.25) and the footer (v1.23). These are not environment issues.
+- Android builds require Android SDK/Gradle/JDK and are out of scope for Cloud development; web development is fully self-contained.
